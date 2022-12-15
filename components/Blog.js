@@ -1,6 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
-
+import React from "react";
 const Blog = () => {
   return (
     <>
@@ -11,106 +10,101 @@ const Blog = () => {
 
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
-            <Link href="https://www.dynamicssquare.co.uk/blog/microsoft-dynamics-365-business-central-for-manufacturing/">
-              <a>
-                <img
-                  src="/img/Business-Central-for-Manufacturing.jpg"
-                  alt="img"
-                  width="200"
-                  height="104"
-                />
-              </a>
+            <Link href="https://www.dynamicssquare.com/blog/what-are-dynamics-365-for-sales-benefits-and-capabilities/">
+            <a
+            >
+              <img
+                src="/img/MicrosoftTeams-image-4.jpg"
+                alt="imgs"
+                width="200"
+                height="104"
+              />
+            </a>
             </Link>
           </div>
           <div className="blogs-extra-left-content">
             <h4>
+              <Link href="https://www.dynamicssquare.com/blog/what-are-dynamics-365-for-sales-benefits-and-capabilities/">
               <a
-                href="https://www.dynamicssquare.co.uk/blog/microsoft-dynamics-365-business-central-for-manufacturing/"
-                target="_self"
               >
-                Microsoft Dynamics 365 Business Central for Manufacturing: One
-                Stop Solution for all Manufacturing Needs
+               What are the Benefits and Capabilities of Microsoft Dynamics 365 for Sales?
               </a>
+              </Link>
             </h4>
-            <span>16 June 2022</span>
+            <span>August 3, 2022</span>
           </div>
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
-            <a
-              href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/"
-              target="_self"
-            >
+            <Link href="https://www.dynamicssquare.com/blog/microsoft-dynamics-nav-vs-business-central/">
+            <a>
               <img
-                src="/img/Business-Central-Trial.jpg"
-                alt="img"
+                src="/img/Microsoft-Dynamics-NAV-and-Business-Central.jpg"
+                alt="imgs"
                 width="200"
                 height="104"
               />
             </a>
+            </Link>
           </div>
           <div className="blogs-extra-left-content">
             <h4>
-              <a
-                href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/"
-                target="_self"
-              >
-                How to avail Dynamics 365 Business Central Trial?
+              <Link    href="https://www.dynamicssquare.com/blog/microsoft-dynamics-nav-vs-business-central/">
+              <a>
+               What is the Difference between Microsoft Dynamics NAV and Dynamics 365 Business Central?
               </a>
+              </Link>
             </h4>
-            <span>26 May 2022</span>
+            <span>June 28, 2022</span>
           </div>
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
+            <Link href="https://www.dynamicssquare.com/blog/why-your-business-needs-power-bi/">
             <a
-              href="https://www.dynamicssquare.co.uk/blog/what-is-business-central-implementation-methodology/"
-              target="_self"
             >
               <img
-                src="/img/Business-Central-Implementation-Methodology.jpg"
-                alt="img"
+                src="/img/Why-Your-Business-Needs-Power-B.jpg"
+                alt="imgas"
                 width="200"
                 height="104"
               />
             </a>
+            </Link>
           </div>
           <div className="blogs-extra-left-content">
             <h4>
-              <a
-                href="https://www.dynamicssquare.co.uk/blog/what-is-business-central-implementation-methodology/"
-                target="_self"
-              >
-                What is Business Central Implementation Methodology?
+              <Link href="https://www.dynamicssquare.com/blog/why-your-business-needs-power-bi/">
+              <a>
+                Why Your Business Needs Power BI?
               </a>
+              </Link>
             </h4>
-            <span>24 May 2022</span>
+            <span>June 22, 2022</span>
           </div>
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
-            <a
-              href="https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-vs-dynamics-365-sales/"
-              target="_self"
-            >
+            <Link  href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/">
+            <a>
               <img
-                src="/img/Blue-White-Simple-Financial-Tips-Blog-Banner-1.png"
-                alt="img"
+                src="/img/Generate-Interactive-Reports-in-Power-BI.jpg"
+                alt="imgs"
                 width="200"
                 height="104"
               />
             </a>
+            </Link>
           </div>
           <div className="blogs-extra-left-content">
             <h4>
-              <a
-                href="https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-vs-dynamics-365-sales/"
-                target="_self"
-              >
-                Dynamics 365 Business Central Vs Dynamics 365 Sales
+              <Link  href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/">
+              <a>
+               How to Generate Interactive Reports in Power BI?
               </a>
+              </Link>
             </h4>
-            <span>5 May 2022</span>
+            <span>June 16, 2022</span>
           </div>
         </div>
       </div>

@@ -1,204 +1,48 @@
 import React, { useRef ,useState } from 'react';
 import Form from "./Form";
 import emailjs from '@emailjs/browser';
+import Link from "next/link"; 
 import { useRouter } from 'next/router';
 import FormFooterSubscriber from './FormFooterSubscriber';
 import Image from 'next/image';
-import Link from "next/link"; 
-const Footer = () =>{
+const FooterHide = () =>{
   
-  const router = useRouter();
-  const [display, setDisplay] = useState("dspn");
-  const form = useRef();
-  const [closeModal, setCloseModal]  = useState(false);
-  function handleCloseModal(){            
-    document.getElementById("exampleModal").classList.remove("show", "d-block");
-    document.querySelectorAll(".modal-backdrop")
-            .forEach(el => el.classList.remove("modal-backdrop"));
-}
+//   const router = useRouter();
+//   const [display, setDisplay] = useState("dspn");
+//   const form = useRef();
+//   const [closeModal, setCloseModal]  = useState(false);
+//   function handleCloseModal(){            
+//     document.getElementById("exampleModal").classList.remove("show", "d-block");
+//     document.querySelectorAll(".modal-backdrop")
+//             .forEach(el => el.classList.remove("modal-backdrop"));
+// }
 
 
-  const sendEmail = (e) => {
-    setDisplay("spinner-border text-success");
-    e.preventDefault();
+//   const sendEmail = (e) => {
+//     setDisplay("spinner-border text-success");
+//     e.preventDefault();
 
-    emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', form.current, 'xIFtTfBj6NR498Plv')
+//     emailjs.sendForm('service_ioc4m3m', 'template_gaio8jq', form.current, 'Z1IXZpfjgq01m5vW7')
 
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+//       .then((result) => {
+//           console.log(result.text);
+//       }, (error) => {
+//           console.log(error.text);
+//       });
      
-      setTimeout(function() {
-        setCloseModal(true);
-        e.target.reset();
-        router.push("/thank-you/");
-      }, 500);
+//       setTimeout(function() {
+//         setCloseModal(true);
+//         e.target.reset();
+//         router.push("/thank-you/");
+//       }, 500);
       
-  };
+//   };
 
     return(
     <>
-    {!closeModal && 
-     <div
-        className="modal fade form-main-model"
-        id="exampleModal"
-        tabIndex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog modal-dialog-centered">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h4 className="modal-title" id="exampleModalLabel">
-                Request Callback
-              </h4>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-              <p></p>
-            </div>
-            <p>
-              Please complete the form below and we will be in touch or{" "}
-              <a href="tel:+2818990865" target="_self" rel="">
-                book a call
-              </a>{" "}
-              with one of our Microsoft consultants.
-            </p>
-            <div className="modal-body">
-              <div className="main-form-wrper">
-                <form ref={form} onSubmit={sendEmail}>
-                  <div className="mb-3">
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="*Full Name"
-                      name="name"
-                      required
-                    />
-                    <input type="hidden" value={router.asPath} name="url" />
-                  </div>
+     
 
-                  <div className="mb-3">
-                    <input
-                      type="email"
-                      className="form-control"
-                      placeholder="*Work Email"
-                      name="email"
-                      pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
-                      required
-                    />
-                  </div>
-                  <div className="mb-3">
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="*Company Name"
-                      name="company_name"
-                      required
-                    />
-                  </div>
-                  <div className="mb-3">
-                    <input
-                      type="tel"
-                      className="form-control"
-                      placeholder="*Phone Number"
-                      name="phone"
-                      pattern="^\d{10,13}$"
-                      required
-                    />
-                  </div>
-                  <div className="mb-3">
-                    <textarea
-                      className="form-control"
-                      id="exampleFormControlTextarea1"
-                      placeholder="*How Can We Help You?"
-                      rows="3"
-                      name="message"
-                      required
-                    ></textarea>
-                  </div>
-                  <div className="mb-3 form-check">
-                    <input
-                      type="checkbox"
-                      checked
-                      readOnly
-                      className="form-check-input"
-                      id="exampleCheck1"
-                    />
-                    <label className="form-check-label">
-                      I agree to the
-                      <a href="/privacy-policy/" target="_blank">
-                        {" "}
-                        Privacy Policy{" "}
-                      </a>
-                      and
-                      <a href="/terms-of-use/" target="_blank">
-                        {" "}
-                        Terms of Service{" "}
-                      </a>
-                      .
-                    </label>
-                  </div>
-
-                  <div className="spiner-wrper">
-                    <button
-                      type="submit"
-                      className="btn btn-primary fomr-submit"
-                    >
-                      Submit
-                    </button>
-                    <div className={display} role="status">
-                      <span className="visually-hidden">Loading...</span>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-                  }
-
-      <section id="services" className="services bg-shape ovr-f hidesec">
-        <div className="container" data-aos="fade-up">
-          <header className="section-header">
-            <h2>Book a Free Consultation</h2>
-            <p>
-              See How Dynamics Square Can Help Transform Your Business With
-              Microsoft Business Applications.
-            </p>
-          </header>
-          <div className="row justify-content-md-center">
-            <div className="col-lg-10 col-md-10">
-              <div className="row g-0 extra-height">
-                <div className="col-sm-12 col-md-6 col-lg-6">
-                  <div className="main-form-wrper-common">
-                    <Form />
-                  </div>
-                </div>
-                <div className="col-sm-4 col-md-6 col-lg-6 hide-c">
-                  <Image
-                    src="/img/contactfor-sede-img.jpg"
-                    alt="contactfor-sede-img"
-                    className="image-cover"
-                    width={545}
-                    height={641}
-                    layout="responsive"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div className="footer-contact-s">
+     <div className="footer-contact-s">
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
@@ -468,4 +312,4 @@ const Footer = () =>{
     
     );
     }
-    export default Footer
+    export default FooterHide

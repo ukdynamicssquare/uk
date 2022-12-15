@@ -1,3 +1,25 @@
+:root {
+  scroll-behavior: smooth;
+  --color-black: hsl(204deg 79% 24%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-darken: hsl(0, 0%, 20%);
+  --color-red-100: hsl(204deg 79% 24%);
+  --color-red: #ee3442;
+  --color-blue: #1d3557;
+  --color-grey: #585858;
+  --color-bg: #f7f9fb;
+  --shadow-small: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  --shadow-medium: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  --shadow-large: 0 35px 67px rgb(29 35 115 / 7%),
+    0 35px 28px rgb(29 35 115 / 5%), 0 19px 15px rgb(29 35 115 / 4%),
+    0 11px 8px rgb(29 35 115 / 4%), 0 5px 5px rgb(29 35 115 / 3%),
+    0 2px 2px rgb(29 35 115 / 2%);
+}
+body {
+  font-family: Inter, sans-serif !important;
+  color: #444;
+  font-size: 1.125rem;
+}
 .btn-welcome,
 .navbar-mobile .dropdown > .dropdown-active,
 svg {
@@ -29,27 +51,16 @@ body {
   animation-timing-function: ease-out;
   animation-duration: 0.3s;
 }
-:root {
-  scroll-behavior: smooth;
-  --color-black: hsl(204deg 79% 24%);
-  --color-white: hsl(0, 0%, 100%);
-  --color-darken: hsl(0, 0%, 20%);
-  --color-red-100: hsl(204deg 79% 24%);
-  --color-red: #ee3442;
-  --color-blue: #1d3557;
-  --color-grey: #585858;
-  --color-bg: #f7f9fb;
-  --shadow-small: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  --shadow-medium: 0px 2px 20px rgba(1, 41, 112, 0.1);
-  --shadow-large: 0 35px 67px rgb(29 35 115 / 7%),
-    0 35px 28px rgb(29 35 115 / 5%), 0 19px 15px rgb(29 35 115 / 4%),
-    0 11px 8px rgb(29 35 115 / 4%), 0 5px 5px rgb(29 35 115 / 3%),
-    0 2px 2px rgb(29 35 115 / 2%);
+.form-main-model {
+  --bs-backdrop-zindex: 1050;
+  --bs-backdrop-bg: rgb(0 0 0 / 23%);
+  background-color: rgb(0 0 0 / 23%);
 }
-body {
-  font-family: Inter, sans-serif !important;
-  color: #444;
-  font-size: 1.125rem;
+.form-main-model .modal-content {
+  border: none;
+}
+.modal-backdrop {
+  display: none;
 }
 .busines-accr .accordion-body,
 .custom002 p,
@@ -275,7 +286,7 @@ section {
 .fixed-top,
 .header.header-scrolled {
   background: #fff;
-  padding: 15px 30px;
+  padding: 5px 30px;
   box-shadow: var(--shadow-medium);
   -moz-box-shadow: var(--shadow-medium);
   -webkit-box-shadow: var(--shadow-medium);
@@ -3952,7 +3963,7 @@ section {
 }
 .navbar .dropdown:hover > .megamenu-list {
   opacity: 1;
-  top: 100%;
+  top: 90%;
   visibility: visible;
 }
 .navbar .dropdown:hover > .megamenu-list .right-list .rigt-list-menu ul {

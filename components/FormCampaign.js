@@ -1,7 +1,8 @@
 import React, { useRef ,useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
-const Form = () => {
+import Link from 'next/link';
+const FormCampaign = () => {
   const router = useRouter();
   const [display, setDisplay] = useState("dspn");
   const form = useRef();
@@ -9,7 +10,7 @@ const Form = () => {
     setDisplay("spinner-border text-success");
     e.preventDefault();
 
-    emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', form.current, 'xIFtTfBj6NR498Plv')
+    emailjs.sendForm('service_rb24nny', 'template_mv5gkb4', form.current, 'rkNd-nNe8gDdNeZT5')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -25,7 +26,7 @@ const Form = () => {
 
 
     return (
-        <div>
+        <>
              <div className="main-form-wrper">
              <form ref={form} onSubmit={sendEmail}>
                   <div className="mb-3">
@@ -114,8 +115,12 @@ const Form = () => {
                   </div>
                 </form>
               </div>
-        </div>
+
+        </>
+
+
+
     );
 }
 
-export default Form;
+export default FormCampaign;
