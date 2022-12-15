@@ -44,10 +44,6 @@ export default function Home() {
           name="description"
           content="Dynamics Square is UK&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services."
         />
-        <meta
-          name="robots"
-          content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
-        />
         <link rel="canonical" href="https://www.dynamicssquare.co.uk/" />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="website" />
@@ -103,7 +99,7 @@ export default function Home() {
         <meta name="msvalidate.01" content="EE56DA95B952D734B4521A0EFA1F0E8B" />
 
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -312,7 +308,7 @@ export default function Home() {
               ]
             })
           }}
-        />
+        /> */}
       </Head>
 
       <section id="hero" className="hero hero-1">
