@@ -9,3 +9,16 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/products/crm/',
+        destination: '/',
+        permanent: true,
+      },
+    ]
+  },
+}
