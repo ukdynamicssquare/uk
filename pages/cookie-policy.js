@@ -1,11 +1,18 @@
-import Head from 'next/head'
+import Link from "next/link";
+import Head from "next/head";
 const CookiePolicy = () => {
   return (
     <>
       <Head>
       <title>Cookie Policy | Dynamics Square</title>
-<meta name="description" content="Read Dynamics Square Cookie Policy - Our cookie policy page explains why and how cookies are used to serve the optimal website experience to our readers."/>
-<link rel="canonical" href="https://www.dynamicssquare.ca/cookie-policy/" />
+        <meta
+          name="description"
+          content="For more information on Dynamics Square Cookie Policy, contact our Dynamics 365 support team. We would love to provide the best information for your perusal."
+        />
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.co.uk/cookie-policy/"
+        />
       </Head>
       <section className="Solution-banner hero-1 hero custom-pd-4">
         <div className="container">
@@ -22,7 +29,7 @@ const CookiePolicy = () => {
             <div className="col-md-12 custom00004">
               <h2>Our Cookie Policy</h2>
               <p>
-                <a href="/">Dynamics Square</a> cookie policy page will explain all about why
+                Dynamics Square cookie policy page will explain all about why
                 and how cookies are used. What is the actual need for cookies
                 and what sort of information does it contain? How to prevent
                 cookies from being stored and what happens when you allow or
@@ -138,8 +145,8 @@ const CookiePolicy = () => {
                 users aware of how cookies work and how we leverage cookies just
                 to improve our user experience. If you have queries, please
                 write to us at{" "}
-                <a href="mailto:info@dynamicssquare.com.">
-                <b>info@dynamicssquare.com</b>
+                <a href="mailto:info@dynamicssquare.co.uk">
+                  info@dynamicssquare.co.uk
                 </a>
                 .
               </p>
@@ -147,7 +154,6 @@ const CookiePolicy = () => {
           </div>
         </div>
       </section>
-      
     </>
   );
 };
