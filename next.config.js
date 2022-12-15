@@ -7,18 +7,7 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp']
    }
 }
+ 
+
 
 module.exports = nextConfig
-
-
-module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/products/crm/',
-        destination: '/',
-        permanent: true,
-      },
-    ]
-  },
-}
