@@ -59,7 +59,7 @@ const Howtochooserighterp = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.US/ebook/how-to-choose-right-erp/"
+          href="https://www.dynamicssquare.com/ebook/how-to-choose-right-erp/"
         />
       </Head>
 
@@ -500,13 +500,13 @@ const Howtochooserighterp = () => {
                         className="form-check-label"
                         htmlFor="exampleCheck1"
                       >
-                        I agree to the
-                        <Link href="/privacy-policy/" target="_blank">
-                          Privacy Policy
-                        </Link>
-                        and
+                        I agree to the {" "}
+                        <Link href="/privacy-policy/">
+                          <a target="_blank">Privacy Policy</a>
+                        </Link>{" "}
+                        and{" "}
                         <Link href="/terms-of-use/" target="_blank">
-                          Terms of Service
+                        <a target="_blank">Terms of Service</a>
                         </Link>
                         .
                       </label>

@@ -10,13 +10,13 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import emailjs from "@emailjs/browser";
 import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
-const StartGuideOne = () => {
+const StartGuideTwo = () => {
   const router = useRouter();
   const [display, setDisplay] = useState("dspn");
   const form = useRef();
   const [closeModal, setCloseModal] = useState(false);
   function handleCloseModal() {
-    document.getElementById("exampleModal").classList.remove("show", "d-block");
+    document.getElementById("exampleModal1").classList.remove("show", "d-block");
     document
       .querySelectorAll(".modal-backdrop")
       .forEach((el) => el.classList.remove("modal-backdrop"));
@@ -45,23 +45,21 @@ const StartGuideOne = () => {
     setTimeout(function () {
       setCloseModal(true);
       e.target.reset();
-      router.push("/guides/download/Pdf-dynamics-finance/");
+      router.push("/guides/download/Pdf-dynamics-crm/");
     }, 500);
   };
 
   return (
     <>
       <Head>
-      <title>
-         The Extensive Guide to Dynamics 365 Finance
-        </title>
+        <title>The Extensive Guide to Dynamics CRM</title>
         <meta
           name="description"
-          content="Download our free eBook - Dynamics 365 Finance to simplify your complex accounting and financial data with enterprise-grade ERP system."
+          content="Download our free eBook - Dynamics CRM to simplify your customer relationship journey and enhance profitability along with rapid growth."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/ebook/dynamics-365-finance/"
+          href="https://www.dynamicssquare.co.uk/ebook/dynamics-crm/"
         />
       </Head>
 
@@ -69,24 +67,27 @@ const StartGuideOne = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
-              <h1>
-                A Quick Start Guide To Dynamics 365 Finance
-              </h1>
+              <h1>A Complete Guide to Dynamics CRM</h1>
               <br />
               <div>
                 <div className="text-center text-lg-start">
-                  <Link  href="#exampleModal1"><a
-                    data-bs-toggle="modal"
-                  
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Download Now</span></a>
+                  <Link href="#exampleModal1">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Download Now</span>
+                    </a>
                   </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center text-center">
-              <Image src="/img/three-book-mockup.png" alt="finance-banner-book" width={800} height={600} />
+              <Image
+                src="/img/dynamics-CRM-Ebook-featured-banner.png"
+                alt="dynamics-CRM-Ebook-featured-banner"
+                width={800} height={600}
+              />
             </div>
           </div>
         </div>
@@ -105,41 +106,39 @@ const StartGuideOne = () => {
             <div className="col-lg-3 align-self-center">
               <div className="inner-l">
                 <div className="left-let">
-                  <h3>History of Microsoft Dynamics 365 Finance </h3>
+                  <h3>History of Dynamics CRM</h3>
                   <div className="shape"></div>
                 </div>
                 <div className="left-let">
-                  <h3>Need of D365 Finance for Growing Industries</h3>
+                  <h3>Top Applications for Businesses</h3>
                   <div className="shape"></div>
                 </div>
                 <div className="left-let">
-                  <h3>
-                  Capabilities of Dynamic 365 Finance
-                  </h3>
+                  <h3>Most Useful Features</h3>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="text-center remove-pre">
-                <Image src="/img/tablet-ebook-finance.png" alt="tablet-ebook-finance" width={487} height={613} />
+                <Image
+                  src="/img/tablet-ebook-dynamics-CRM.png"
+                  alt="tablet-ebook-dynamics-CRM"
+                  width={487} height={613}
+                />
               </div>
             </div>
             <div className="col-lg-3 align-self-center">
               <div className="inner-l">
                 <div className="left-rit">
-                  <h3>
-                  Top Benefits of Dynamic 365 Finance
-                  </h3>
+                  <h3>Top Benefits to Boost Business Growth</h3>
                   <div className="shape-l"></div>
                 </div>
                 <div className="left-rit">
-                  <h3>
-                  Microsoft Dynamics 365 Finance Pricing
-                  </h3>
+                  <h3>Most Effective Pricing and Licensing</h3>
                   <div className="shape-l"></div>
                 </div>
                 <div className="left-rit">
-                  <h3>What's new in Dynamics 365 Finance?</h3>
+                  <h3>How to Avail Free Trial?</h3>
                 </div>
               </div>
             </div>
@@ -152,11 +151,7 @@ const StartGuideOne = () => {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="pic-ll">
-                <img
-                  src="/img/erp-left-about.png"
-                  alt="erp-left-about"
-                  width={337} height={460}
-                />
+                <Image src="/img/erp-left-about.png" alt="erp-left-about" width={337} height={460} />
               </div>
             </div>
             {/* <div className="col-lg-1 align-self-center"></div> */}
@@ -164,22 +159,33 @@ const StartGuideOne = () => {
               <div className="aboot-erp-content">
                 <h3>What's more about this eBook?</h3>
                 <p>
-                D365 Finance is an intelligent ERP (Enterprise Resource Planning) 
-                solution to manage finance and its various aspects smoothly. But, 
-                before the modernization of industries, people used to work on 
-                everything manually.
+                  Microsoft Dynamics CRM is a simple yet powerful tool that can
+                  help businesses streamline the entire customer relationship
+                  journey. Dynamics 365 CRM is a flexible and customizable tool
+                  that offers numerous capabilities, including tracking sales
+                  leads, managing marketing campaigns, accelerating sales
+                  performance, nurturing sales-ready leads, and customer
+                  tracking.
                 </p>
                 <p>
-                Our eBook is a perfect guide for organisations who are looking for a better, more agile and highly productive ERP solution to manage complex financial management and analysis.
+                  Our eBook is a perfect guide for organisations who are looking
+                  for a better, more agile and highly productive CRM solution to
+                  improve and drive a surpassing customer experience.
                 </p>
                 <p>
-                  This eBook will clear all your concerns and it will also show
-                  you how you can improve productivity, automate processes, and
-                  enhance security and mobility, across every step of the
-                  digital transformation journey.
+                  If you want to enable sales and service automation,
+                  efficiently connect and engage customers, and improve your
+                  customer expectations, you should read this guide to get a
+                  complete overview of this powerful solution.
                 </p>
                 <p>
-                The moment you decide to get, there will be several factors you will find yourself stuck with. But with our quick start guide to Dynamics 365 Finance, you can have an understanding of why it is a cornerstone for your growing business. 
+                  With the help of Dynamics CRM, you can seamlessly align your
+                  sales and marketing, improve team collaboration, and ensure
+                  the success of your digital campaigns. With this guide, you
+                  will learn to automate data, streamline tasks, understand your
+                  customers' behaviours, elevate your sales level, and bring
+                  transparency in your entire sales process with real-time
+                  efficiency to maximise your growth potential.
                 </p>
               </div>
             </div>
@@ -198,15 +204,16 @@ const StartGuideOne = () => {
             <div className="col-lg-7 align-self-center">
               <div className="call_to_action-left call_to_action-lefts">
                 <h3>
-                  Get started with your Ultimate Guide to Dynamics 365 Finance
+                  Get started with the Ultimate Guide to Microsoft Dynamics CRM
                 </h3>
                 <div className="m-o-t m-o-t-inde">
-                  <Link    href="#exampleModal1"><a
-                    data-bs-toggle="modal"
-                
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Download Now</span></a>
+                  <Link href="#exampleModal1">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Download Now</span>
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -234,7 +241,7 @@ const StartGuideOne = () => {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                       >
-                        Why should I choose Dynamics 365 for Finance?
+                        Why should I choose Dynamics CRM?
                       </button>
                     </h3>
                     <div
@@ -244,7 +251,14 @@ const StartGuideOne = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                      When businesses start climbing the success ladder, it's obvious that their existing systems will no longer handle complexities, increased financial data, and costs. As a result, it becomes crucial to have an advanced ERP system like D365 Finance that comes with new capabilities to add more value to your organisation.
+                        <p>
+                          When businesses start climbing the success ladder,
+                          it's obvious that their existing systems will no
+                          longer handle complexities, manage customers, and
+                          enhance loyalty. As a result, it becomes crucial to
+                          have an advanced CRM solution like Dynamics CRM to
+                          help you get easy scalability and more growth.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -258,7 +272,7 @@ const StartGuideOne = () => {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                       Can I customize my Microsoft Dynamics 365 Finance?
+                        Can I customize my Microsoft Dynamics CRM?
                       </button>
                     </h3>
                     <div
@@ -269,7 +283,12 @@ const StartGuideOne = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                        D365 Finance is a highly configurable and customizable platform that enables businesses to tailor it to their specific needs or integrate it with other systems or apps to manage their entire financial practises while making instantaneous efficient decisions to drive profitability and scalability.
+                          Dynamics CRM is a highly configurable and customizable
+                          platform that enables businesses to tailor it to their
+                          specific needs or integrate it with other systems or
+                          apps to manage their entire customer relationship
+                          journey while making actionable decisions in
+                          real-time.
                         </p>
                       </div>
                     </div>
@@ -294,13 +313,14 @@ const StartGuideOne = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                        At Dynamics Square, we adhere to Microsoft's Mission -
-                        “to empower every person and every organisation on the
-                        planet to achieve more." And helping people helps us
-                        provide authentic, fruitful solutions to people in the
-                        best way possible. This guide contains crisp and
-                        necessary content that you exactly need. Get in touch
-                        with us in case you have queries.
+                        <p>
+                          At Dynamics Square, we adhere to Microsoft's mission:
+                          "to empower every person and every organisation on the
+                          planet to achieve more." And helping people helps us
+                          provide authentic, fruitful solutions to people in the
+                          best way possible. This guide contains crisp and
+                          necessary content that you exactly need.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -314,7 +334,7 @@ const StartGuideOne = () => {
                         aria-expanded="false"
                         aria-controls="collapsefour"
                       >
-                        What is included in dynamics 365 finance?
+                        What are the main areas in Dynamics CRM?
                       </button>
                     </h3>
                     <div
@@ -324,7 +344,13 @@ const StartGuideOne = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                      Dynamics 365 Finance contains project management, accounting, financials, and budgeting for large, complex businesses.
+                        <p>
+                          Dynamics CRM covers various areas of marketing and
+                          helps with business sales and customer retention. The
+                          top three regions of D365 CRM include Sales,
+                          Marketing, and Service. This is a complete application
+                          for overall sales and service management.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -348,18 +374,13 @@ const StartGuideOne = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                        We keep your information confidential. The information
-                        from your end helps us serve an improved and
-                        personalised experience every time you visit our website
-                        and provide you with the best solution so that your
-                        business can make waves.
-                        <br />
-                        <br />
-                        You can read more about our{" "}
-                        <Link href="/privacy-policy/">
-                          privacy policy
-                        </Link>{" "}
-                        here.
+                        <p>
+                          We will keep your information confidential. The
+                          information from your end helps us provide you with an
+                          improved and personalised experience every time you
+                          visit our website and provides you with the best
+                          solution so that your business can make waves.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -368,11 +389,7 @@ const StartGuideOne = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="pic-l2">
-                <Image
-                  src="/img/Cover_Book_Moc.png"
-                  alt="Cover_Book_Moc"
-                  width={582} height={466}
-                />
+              <Image src="/img/Cover_Book_Moc.png" alt="Cover_Book_Moc" width={582} height={466} />
               </div>
             </div>
           </div>
@@ -491,4 +508,4 @@ const StartGuideOne = () => {
   );
 };
 
-export default StartGuideOne;
+export default StartGuideTwo;

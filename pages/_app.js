@@ -23,7 +23,12 @@ function MyApp({ Component, pageProps }) {
       router.asPath =='/thank-you/' ||
       router.asPath =='/thanks-webinar-registration/' ||
       router.asPath =='/thank-you/email-subscriber/' ||
-      router.asPath =='/support-dynamics-365/'
+      router.asPath =='/support-dynamics-365/' ||
+      router.asPath =='/subscribe-updates/' ||
+      router.asPath =='/guides/download/Pdf-dynamics-crm/' ||
+      router.asPath =='/guides/download/Pdf-guide-finance/' ||
+      router.asPath =='/guides/download/Pdf-d365-supply-chain-management/' ||
+      router.asPath =='/guides/download/power-guide-pdf/' 
 
   )  {
     return (

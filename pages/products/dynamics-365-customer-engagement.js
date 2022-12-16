@@ -1,13 +1,22 @@
-import Head from 'next/head'
+import Link from "next/link"; 
+import Head from 'next/head';
+import Image from 'next/image';
 
 const Dynamics365CustomerEngagement = () => {
   return (
     <>
       <Head>
-      <title>Dynamics 365 Customer Engagement Partner UK | Dynamics Square</title>
-<meta name="description" content="Uplift your sales &amp; marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement plans."/>
-<meta name="robots" content="noindex,nofollow" />
-<link rel="canonical" href="https://www.dynamicssquare.ca/products/dynamics-365-customer-engagement/" />
+        <title>
+          Dynamics 365 Customer Engagement Partner UK | Dynamics Square
+        </title>
+        <meta
+          name="description"
+          content="Uplift your sales &amp; marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement plans."
+        />
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.co.uk/products/dynamics-365-customer-engagement/"
+        />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -24,13 +33,14 @@ const Dynamics365CustomerEngagement = () => {
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link href="#exampleModal">
+                    <a
                     data-bs-toggle="modal"
-                    href="#exampleModal"
+                    
                     className="btn-get-started scrollto"
                   >
-                    <span>Book Free Consultation</span>
-                  </a>
+                    <span>Book Free Consultation</span></a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -46,15 +56,15 @@ const Dynamics365CustomerEngagement = () => {
 
       <section>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
               <header className="section-header">
                 <h2>What Is Dynamics 365 Customer Engagement?</h2>
                 <p>
                   Dynamics 365 customer engagement (formerly known as{" "}
-                  <a href="/products/microsoft-dynamics-crm/">
+                  <Link href="/products/microsoft-dynamics-crm/">
                     Microsoft Dynamics CRM
-                  </a>
+                  </Link>
                   ) refers to the complete customer-driven package comprising
                   modules like sales, customer service, marketing, field
                   service, and project service automation. This combined package
@@ -121,7 +131,7 @@ const Dynamics365CustomerEngagement = () => {
                 <div className="busine_service_bottom-right">
                   <img
                     src="/img/customer-engagement-side-image.png"
-                    alt="customer-engagement-side-image"
+                    alt="customer-engagement-side-images"
                   />
                 </div>
               </div>
@@ -141,13 +151,14 @@ const Dynamics365CustomerEngagement = () => {
                   to improve and support your customer-driven practices.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link  href="#exampleModal">
+                    <a
                     data-bs-toggle="modal"
-                    href="#exampleModal"
+                   
                     className="btn-get-started scrollto"
                   >
-                    <span>Talk To Experts</span>
-                  </a>
+                    <span>Talk To Experts</span></a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -157,7 +168,9 @@ const Dynamics365CustomerEngagement = () => {
 
       <section className="bg-shape">
         <div className="container">
-          <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
             <h2>
               Dynamics 365 Customer <br />
               Engagement Apps
@@ -171,12 +184,15 @@ const Dynamics365CustomerEngagement = () => {
               results.
             </p>
           </header>
+            </div>
+          </div>
           <div className="row pad9x rever-1">
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-                <img
+                <Image
                   src="/img/dynamics-365-sales.png"
                   alt="Dynamics 365 Sales"
+                  width={1025} height={587}
                 />
               </div>
             </div>
@@ -189,9 +205,9 @@ const Dynamics365CustomerEngagement = () => {
                 </p>
                 <p>
                   With{" "}
-                  <a href="/products/microsoft-dynamics-365-sales/">
+                  <Link href="/products/microsoft-dynamics-365-sales/">
                     Dynamics 365 for Sales
-                  </a>
+                  </Link>
                   , improve your customer engagement, predict your sales
                   pipeline, and accelerate your sales flow by leveraging
                   in-depth AI-based sales insights to generate maximized
@@ -210,18 +226,19 @@ const Dynamics365CustomerEngagement = () => {
                   base, provide AI-based personalized experience to your
                   customers by leveraging a unified and quickly adaptable user
                   platform i.e.,{" "}
-                  <a href="/products/microsoft-dynamics-365-marketing/">
+                  <Link href="/products/microsoft-dynamics-365-marketing/">
                     Dynamics 365 Marketing
-                  </a>{" "}
+                  </Link>{" "}
                   module of the Dynamics 365 Customer Engagement package.
                 </p>
               </div>
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-                <img
+                <Image
                   src="/img/marketing-banner-1.png"
                   alt="Dynamics 365 Marketing"
+                  width={758} height={432}
                 />
               </div>
             </div>
@@ -230,9 +247,10 @@ const Dynamics365CustomerEngagement = () => {
           <div className="row pad9x rever-1">
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-                <img
+                <Image
                   src="/img/customer-sservice-banner.png"
                   alt="Dynamics 365 Customer Service"
+                  width={1024} height={586}
                 />
               </div>
             </div>
@@ -258,9 +276,9 @@ const Dynamics365CustomerEngagement = () => {
                   Drive connected service experience, uplift your employees'
                   effectiveness, and optimize your services operations all
                   through{" "}
-                  <a href="/products/microsoft-dynamics-365-field-service/">
+                  <Link href="/products/microsoft-dynamics-365-field-service/">
                     Dynamics 365 Field Service
-                  </a>{" "}
+                  </Link>{" "}
                   module.
                 </p>
                 <p>
@@ -272,9 +290,10 @@ const Dynamics365CustomerEngagement = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-                <img
+                <Image
                   src="/img/field-service-banner.png"
                   alt="Dynamics 365 Field Service"
+                  width={1024} height={586}
                 />
               </div>
             </div>
@@ -284,13 +303,15 @@ const Dynamics365CustomerEngagement = () => {
 
       <section className="new-style-bg new-style-bg-1">
         <div className="container">
-          <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-md-8">
+            <header className="section-header">
             <h2>
-              How Dynamics 365 Customer
-              <br /> Engagement Apps Can Boost <br />
-              Your Customer Engagement
+              How Dynamics 365 Customer Engagement Apps Can Boost Your Customer Engagement
             </h2>
           </header>
+            </div>
+          </div>
           <div className="row g-5">
             <div className="col-lg-6">
               <div className="style-grid-1">
@@ -378,6 +399,8 @@ const Dynamics365CustomerEngagement = () => {
       </section>
       <section className="solution-faq faq">
         <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-8">
           <header className="section-header">
             <h2>
               Drive Growth and Scalability Through
@@ -392,6 +415,8 @@ const Dynamics365CustomerEngagement = () => {
               experience.
             </p>
           </header>
+          </div>
+         </div>
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-7">
               <div className="accordion accordion-flush" id="faqlist1">
