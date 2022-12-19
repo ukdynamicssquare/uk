@@ -1,23 +1,19 @@
 import React, { useState } from "react";
 import Head from 'next/head'
-// import ModalVideo from "react-modal-video";
-const ProductHome = () => {
-  const [isOpen, setOpen] = useState(false);
-  const [open, setsOpen] = useState(false);
+const ProductsList = () => {
   return (
     <>
       <Head>
-      <title>Microsoft Dynamics 365 Products - Dynamics Square</title>
-      <meta name="description" content="Microsoft Dynamics 365 Products | Dynamics Square: Microsoft Business Applications Transform your business digitally with Microsoft Business Applications"/>
-        <link rel="canonical" href="https://www.dynamicssquare.ca/products/" />
-        
+      <title>Microsoft Dynamics 365 Products | Dynamics Square</title>
+<meta name="description" content="Microsoft Dynamics 365 Products | Dynamics Square: Microsoft Business Applications Transform your business digitally with Microsoft Business Applications"/>
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/products/" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 mobile-1 align-self-center">
-              <h1>
-              Products
+            <div className="col-lg-12">
+              <h1 className="text-center">
+                Products
               </h1>
             </div>
             
@@ -28,4 +24,4 @@ const ProductHome = () => {
   );
 };
 
-export default ProductHome;
+export default ProductsList;

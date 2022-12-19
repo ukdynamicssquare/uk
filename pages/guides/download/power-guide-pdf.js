@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import Link from 'next/link';
 import FooterHide from '../../../components/FooterHide';
-const PowerbiPdf = () => {
+const PdfpgDownload = () => {
   return (
     <>
       <Head>
@@ -14,7 +14,7 @@ const PowerbiPdf = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/guides/download/power-guide-pdf/"
+          href="https://www.dynamicssquare.co.uk/guides/download/power-guide-pdf/"
         />
       </Head>
      
@@ -26,7 +26,7 @@ const PowerbiPdf = () => {
               <div className="text-center">
                 <div className="">
                   <a
-                    href="/assets/pdf/PowerBI-e-guide_En-US.pdf"
+                    href="/pdf/PowerBI-e-guide.pdf"
                     className="btn-get-started scrollto"
                     download
                   >
@@ -45,4 +45,4 @@ const PowerbiPdf = () => {
   );
 };
 
-export default PowerbiPdf;
+export default PdfpgDownload;

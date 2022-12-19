@@ -1,19 +1,21 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Image from "next/image";
+import Script from "next/script";
+import Link from "next/link";
 
 const PowerPlatform = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power Platform - Dynamics Square</title>
+        <title>Microsoft Power Platform | Dynamics Square</title>
         <meta
           name="description"
-          content="Microsoft Power Platform allows you to deliver personalization, analyze data, develop better applications, automate various processes, and respond to the generated insights."
+          content="Analyze data, create solutions, automate processes and create virtual agents with Microsoft Power Platform. Schedule a free power platform demo today."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/products/microsoft-power-platform/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-power-platform/"
         />
-       <meta name="robots" content="noindex,nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -31,18 +33,19 @@ const PowerPlatform = () => {
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span>
-                  </a>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/power-platform.png" alt="power-platform" />
+              <Image src="/img/power-platform.png" alt="power-platform" width={1024} height={586} />
             </div>
           </div>
         </div>
@@ -69,10 +72,7 @@ const PowerPlatform = () => {
           <div className="row pad9x rever-1">
             <div className="col-lg-4 align-self-center">
               <div className="commen-lef-pic power-custom text-center ">
-                <img
-                  src="/img/Power-BI.png"
-                  alt="Power-BI"
-                />
+                <Image src="/img/Power-BI.png" alt="Power-BI" width={407} height={338} />
               </div>
             </div>
             <div className="col-lg-8 align-self-center">
@@ -82,7 +82,7 @@ const PowerPlatform = () => {
                   <strong>The Business Intelligence solution</strong>
                 </p>
                 <p>
-                  <a href="/products/microsoft-power-bi/">Power BI</a> is a business analytics solution that enables you to
+                  Power BI is a business analytics solution that enables you to
                   visualize data and share information across your organization.
                   It is a reporting tool capable of unifying data from multiple
                   sources (including Business Central) to create immersive,
@@ -91,7 +91,9 @@ const PowerPlatform = () => {
                   platform that provides a single view of your business KPIs.
                 </p>
                 <div className="cltt-actt">
-                  <a href="/products/microsoft-power-bi/">Find Out More</a>
+                  <Link href="/products/microsoft-power-bi/">
+                    Find Out More
+                  </Link>
                 </div>
               </div>
             </div>
@@ -105,7 +107,7 @@ const PowerPlatform = () => {
                   <strong>Create business apps without codes</strong>
                 </p>
                 <p>
-                <a href="/products/microsoft-power-apps/">Microsoft Power Apps</a> allows you to create applications without
+                  Microsoft Power Apps allows you to create applications without
                   the need to have knowledge of code in an agile and fast way.
                   Develop applications from scratch or using predefined
                   templates. Building applications with Power Apps helps
@@ -113,16 +115,15 @@ const PowerPlatform = () => {
                   work together more efficiently and innovatively.
                 </p>
                 <div className="cltt-actt">
-                  <a href="/products/microsoft-power-apps/">Get Started</a>
+                  <Link href="/products/microsoft-power-apps/">
+                    Get Started
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 align-self-center ">
               <div className="commen-lef-pic power-custom text-center">
-                <img
-                  src="/img/Power-Apps.png"
-                  alt="Power-Apps"
-                />
+                <Image src="/img/Power-Apps.png" alt="Power-Apps" width={410} height={337} />
               </div>
             </div>
           </div>
@@ -130,10 +131,7 @@ const PowerPlatform = () => {
           <div className="row pad9x rever-1">
             <div className="col-lg-4 align-self-center">
               <div className="commen-lef-pic power-custom text-center">
-                <img
-                  src="/img/Power-Automate.png"
-                  alt="Power-Automate"
-                />
+                <Image src="/img/Power-Automate.png" alt="Power-Automate" width={419} height={328} />
               </div>
             </div>
             <div className="col-lg-8 align-self-center">
@@ -143,7 +141,7 @@ const PowerPlatform = () => {
                   <strong>Solution for defining workflow automations</strong>
                 </p>
                 <p>
-                <a href="/products/microsoft-power-automate/">Power Automate</a> offers the ability to efficiently automate
+                  Power Automate offers the ability to efficiently automate
                   workflow directly in your applications with a no-code approach
                   that connects to hundreds of the most popular applications and
                   services on the market. Connect to your data from any device
@@ -151,9 +149,9 @@ const PowerPlatform = () => {
                   collaboration and productivity for your business.
                 </p>
                 <div className="cltt-actt">
-                  <a href="/products/microsoft-power-automate/">
+                  <Link href="/products/microsoft-power-automate/">
                     Find Out More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -169,30 +167,28 @@ const PowerPlatform = () => {
                   </strong>
                 </p>
                 <p>
-                <a href="/products/microsoft-power-virtual-agents/">Power Virtual Agents</a> is a tool designed to create conversational experiences (chatbots) that offer support by
+                  Power Virtual Agents is a tool designed to create
+                  conversational experiences (chatbots) that offer support by
                   easily creating and maintaining virtual agents, without the
                   need for coding, using a guided graphical interface without
                   the need for data analysts or developers.
                 </p>
                 <div className="cltt-actt">
-                  <a href="/products/microsoft-power-virtual-agents/">
+                  <Link href="/products/microsoft-power-virtual-agents/">
                     Find Out More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 align-self-center">
               <div className="commen-lef-pic power-custom text-center">
-                <img
-                  src="/img/Virtual-Agent.png"
-                  alt="Virtual-Agent"
-                />
+                <Image src="/img/Virtual-Agent.png" alt="Virtual-Agent" width={426} height={328} />
               </div>
             </div>
           </div>
         </div>
       </section>
-
+    
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
@@ -204,13 +200,14 @@ const PowerPlatform = () => {
                   demo!
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span>
-                  </a>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -254,13 +251,11 @@ const PowerPlatform = () => {
                   </p>
                 </div>
                 <div className="btn-003">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn btn md btn-danger"
-                  >
-                    Get Integration
-                  </a>
+                  <Link href="#exampleModal">
+                    <a data-bs-toggle="modal" className="btn btn md btn-danger">
+                      Get Integration
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -278,19 +273,17 @@ const PowerPlatform = () => {
                     Business Central
                   </h3>
                   <p>
-                    To a Power Apps and Power Automate with Dynamics 365
+                    To link Power Apps and Power Automate with Dynamics 365
                     Business Central, it can be done through the available API
                     connector.
                   </p>
                 </div>
                 <div className="btn-003">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn btn md btn-danger"
-                  >
-                    Get Integration
-                  </a>
+                  <Link href="#exampleModal">
+                    <a data-bs-toggle="modal" className="btn btn md btn-danger">
+                      Get Integration
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -308,19 +301,17 @@ const PowerPlatform = () => {
                     Business Central
                   </h3>
                   <p>
-                    a the automation solution to Dynamics 365 Business
+                    Link the automation solution to Dynamics 365 Business
                     Central <br />
                     using reusable flow templates.
                   </p>
                 </div>
                 <div className="btn-003">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn btn md btn-danger"
-                  >
-                    Get Integration
-                  </a>
+                  <Link href="#exampleModal">
+                    <a data-bs-toggle="modal" className="btn btn md btn-danger">
+                      Get Integration
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -28,7 +28,8 @@ function MyApp({ Component, pageProps }) {
       router.asPath =='/guides/download/Pdf-dynamics-crm/' ||
       router.asPath =='/guides/download/Pdf-guide-finance/' ||
       router.asPath =='/guides/download/Pdf-d365-supply-chain-management/' ||
-      router.asPath =='/guides/download/power-guide-pdf/' 
+      router.asPath =='/guides/download/power-guide-pdf/' ||
+      router.asPath =='/thank-you-for-registration/'
 
   )  {
     return (

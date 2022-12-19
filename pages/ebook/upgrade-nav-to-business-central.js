@@ -16,7 +16,7 @@ const StartGuide = () => {
   const form = useRef();
   const [closeModal, setCloseModal] = useState(false);
   function handleCloseModal() {
-    document.getElementById("exampleModal").classList.remove("show", "d-block");
+    document.getElementById("exampleModal1").classList.remove("show", "d-block");
     document
       .querySelectorAll(".modal-backdrop")
       .forEach((el) => el.classList.remove("modal-backdrop"));
@@ -27,10 +27,10 @@ const StartGuide = () => {
 
     emailjs
       .sendForm(
-        "service_cxxhqoq",
-        "template_f80fich",
+        "service_4voumj7",
+        "template_68k24ku",
         form.current,
-        "7Ae4EIVY__86NsTQD"
+        "mJ38M6WTmU7KRrtuZ"
       )
 
       .then(
@@ -60,9 +60,9 @@ const StartGuide = () => {
           name="description"
           content="When upgrading Dynamics NAV to Business Central, it's important to know that the steps required will depend greatly on how different your version of NAV is from the standard version, as well as a variety of other factors."
         />
-         <link
+        <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/e-book/upgrade-nav-to-business-central/"
+          href="https://www.dynamicssquare.co.uk/ebook/upgrade-nav-to-business-central/"
         />
       </Head>
 
@@ -79,6 +79,7 @@ const StartGuide = () => {
                 <div className="text-center text-lg-start">
                   <Link   href="#exampleModal1"><a
                     data-bs-toggle="modal"
+                 
                     className="btn-get-started scrollto"
                   >
                     <span>Download Now</span></a>
@@ -122,7 +123,7 @@ const StartGuide = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="text-center remove-pre">
-                <Image src="/img/Ebbok-1.png" alt="Ebbok-1" width={487} height={613} />
+                <Image src="/img/Ebbok-1.png" alt="Ebbok-1" width={487} height={613}  />
               </div>
             </div>
             <div className="col-lg-3 align-self-center">
@@ -212,6 +213,7 @@ const StartGuide = () => {
                 <div className="m-o-t m-o-t-inde">
                   <Link  href="#exampleModal1"><a
                     data-bs-toggle="modal"
+                  
                     className="btn-get-started scrollto"
                   >
                     <span>Download Now</span></a>
@@ -514,13 +516,13 @@ const StartGuide = () => {
                         className="form-check-label"
                         htmlFor="exampleCheck1"
                       >
-                        I agree to the
-                        <Link href="/privacy-policy/" target="_blank">
-                          Privacy Policy
-                        </Link>
-                        and
-                        <Link href="/terms-of-use/" target="_blank">
-                          Terms of Service
+                        I agree to the{" "}
+                        <Link href="/privacy-policy/">
+                         <a target="_blank">Privacy Policy</a>
+                        </Link>{" "}
+                        and{" "}
+                        <Link href="/terms-of-use/">
+                          <a target="_blank">Terms of Service</a>
                         </Link>
                         .
                       </label>

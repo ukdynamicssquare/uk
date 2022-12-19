@@ -34,18 +34,18 @@ const PowerBIGuide = () => {
   return (
     <>
       <Head>
-        <title>Power BI: The Definitive Guide For SMBs</title>
+      <title>Power BI: The Definitive Guide For SMBs</title>
         <meta
+          name="description"
+          content="A complete guide to Power BI. Learn how to transform your data into interactive reports that drive results."
+        />
+       <meta
           name="description"
           content="A complete guide to Power BI. Learn how to transform your data into interactive reports that drive results."
         />
         <meta
           name="keywords"
           content="power bi guide, guide to power bi, ultimate power bi guide, comprehensive power bi guide, power bi guide for SMBs, power bi buisness guide, power bi guide for business"
-        />
-        <meta
-          name="robots"
-          content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
         />
         <link
           rel="canonical"
@@ -73,9 +73,10 @@ const PowerBIGuide = () => {
               </div>
             </div>
             <div className="col-lg-7 align-self-center text-center">
-              <img
+              <Image
                 src="/img/group-2308.png"
                 alt="The Ultimate Power BI Guide"
+                width={585} height={373}
               />
             </div>
           </div>
@@ -94,7 +95,10 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-1" rel="" target="_self">
-                  <img src="/img/Power-bi-pic-1.png" alt="Power BI Overview" />
+                  <img
+                    src="/img/Power-bi-pic-1.png"
+                    alt="Power BI Overview"
+                  />
                   <h3>Chapter 1</h3>
                   <p>What is Power BI?</p>
                 </a>
@@ -175,47 +179,23 @@ const PowerBIGuide = () => {
           </div>
         </div>
       </section>
-      {isVisible && (
-        <div className={display}>
-          <ul>
-            <li>
-              <a href="#tabs-1" rel="" target="_self">
-                1. Introduction
-              </a>
-            </li>
-            <li>
-              <a href="#tabs-2" rel="" target="_self">
-                2. Features & Benefits
-              </a>
-            </li>
-            <li>
-              <a href="#tabs-3" rel="" target="_self">
-                3. Dashboard Examples
-              </a>
-            </li>
-            <li>
-              <a href="#tabs-4" rel="" target="_self">
-                4. Integrations
-              </a>
-            </li>
-            <li>
-              <a href="#tabs-5" rel="" target="_self">
-                5. Pricing & Licensing
-              </a>
-            </li>
-            <li>
-              <a href="#tabs-6" rel="" target="_self">
-                6. Power BI vs. Others
-              </a>
-            </li>
-            <li>
-              <a href="#tabs-7" rel="" target="_self">
-                7. Future Scope
-              </a>
-            </li>
-          </ul>
-        </div>
-      )}
+      {
+   isVisible 
+      && 
+   <div className={display}>
+
+      <ul>
+        <li><a href="#tabs-1" rel="" target="_self">1. Introduction</a></li>
+        <li><a href="#tabs-2" rel="" target="_self">2. Features & Benefits</a></li>
+        <li><a href="#tabs-3" rel="" target="_self">3. Dashboard Examples</a></li>
+        <li><a href="#tabs-4" rel="" target="_self">4. Integrations</a></li>
+        <li><a href="#tabs-5" rel="" target="_self">5. Pricing & Licensing</a></li>
+        <li><a href="#tabs-6" rel="" target="_self">6. Power BI vs. Others</a></li>
+        <li><a href="#tabs-7" rel="" target="_self">7. Future Scope</a></li>
+      </ul>
+
+   </div>
+}
       <section className="color-gr">
         <div className="container">
           <div className="row justify-content-center g-4">
@@ -383,13 +363,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal">
-                    <img
-                      src="/img/powerb-guide-call-to-banner-1.png"
-                      alt="power-guide"
-                    />
-                  </a>
+              <Link href="#powerBIModals">
+                  <a data-bs-toggle="modal" ><img
+                    src="/img/powerb-guide-call-to-banner-2.png"
+                    alt="power-guide"
+                  /></a>
                 </Link>
               </div>
             </div>
@@ -467,7 +445,10 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2265.png" alt="Power BI History Roadmap" />
+                <img
+                  src="/img/group-2265.png"
+                  alt="Power BI History Roadmap"
+                />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -491,9 +472,9 @@ const PowerBIGuide = () => {
                     2022 Gartner Magic Quadrant for Analytics and Business
                     Intelligence Platforms
                   </a>
-                  , Microsoft is awarded as a leader for the 15th consecutive
-                  year in the industry based on Ability to Execute and
-                  Completeness of Vision.
+                  , Microsoft is awarded as a leader for the 15th
+                  consecutive year in the industry based on Ability to Execute
+                  and Completeness of Vision.
                 </p>
               </div>
               <div className="iner-pp">
@@ -560,7 +541,9 @@ const PowerBIGuide = () => {
               </div>
               <div className="cont-table-inner">
                 <p>
-                  <Link href="/products/microsoft-azure/">Microsoft Azure</Link>{" "}
+                  <Link href="/products/microsoft-azure/">
+                    Microsoft Azure
+                  </Link>{" "}
                   is the most preferred cloud BI provider by enterprises as of
                   2020. 71% of users considered it as either critical or very
                   important to their operations. Microsoft Azure is followed by
@@ -1028,7 +1011,10 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2278.png" alt="top 10 power bi benefits" />
+                <img
+                  src="/img/group-2278.png"
+                  alt="top 10 power bi benefits"
+                />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -1037,31 +1023,38 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2299.png" alt="power bi use case 1" />
+                <img
+                  src="/img/group-2299.png"
+                  alt="power bi use case 1"
+                />
                 <a href="https://customers.microsoft.com/en-us/story/817472-grundfos-manufacturing-power-bi">
                   (Source)
                 </a>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2300.png" alt="power bi use case 2" />
+                <img
+                  src="/img/group-2300.png"
+                  alt="power bi use case 2"
+                />
                 <a href="https://customers.microsoft.com/en-us/story/810496-sandvik-coromant-chemicals-power-bi">
                   (Source)
                 </a>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2301.png" alt="power bi client story" />
+                <img
+                  src="/img/group-2301.png"
+                  alt="power bi client story"
+                />
                 <a href="https://customers.microsoft.com/en-us/story/791222-rockwell-automation-manufacturing-power-bi">
                   (Source)
                 </a>
               </div>
               <div className="iner-pp">
-                <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal">
-                    <img
-                      src="/img/powerb-guide-call-to-banner-2.png"
-                      alt="power-guide"
-                    />
-                  </a>
+              <Link href="#powerBIModals">
+                  <a data-bs-toggle="modal" ><img
+                    src="/img/powerb-guide-call-to-banner-2.png"
+                    alt="power-guide"
+                  /></a>
                 </Link>
               </div>
             </div>
@@ -1222,7 +1215,9 @@ const PowerBIGuide = () => {
                   <li>
                     Open the web browser and open Power BI Service by entering
                     this link -{" "}
-                    <a href="http://app.powerbi.com">app.powerbi.com</a>
+                    <a href="http://app.powerbi.com">
+                      app.powerbi.com
+                    </a>
                   </li>
                   <li>
                     Open the Navigation panel on the left of the screen and
@@ -1260,7 +1255,10 @@ const PowerBIGuide = () => {
                 </ul>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-21214.png" alt="one drive for business" />
+                <img
+                  src="/img/group-21214.png"
+                  alt="one drive for business"
+                />
               </div>
               <div className="cont-table-inner">
                 <ul>
@@ -1333,7 +1331,10 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-21203.png" alt="Spend Overview tab" />
+                <img
+                  src="/img/group-21203.png"
+                  alt="Spend Overview tab"
+                />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -1454,7 +1455,10 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2306.png" alt="HR Dashboard of Power BI" />
+                <img
+                  src="/img/group-2306.png"
+                  alt="HR Dashboard of Power BI"
+                />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -1534,7 +1538,10 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2304.png" alt="Powe BI Sales dashboard" />
+                <img
+                  src="/img/group-2304.png"
+                  alt="Powe BI Sales dashboard"
+                />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -1607,13 +1614,11 @@ const PowerBIGuide = () => {
                 </ul>
               </div>
               <div className="iner-pp">
-                <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal">
-                    <img
-                      src="/img/powerb-guide-call-to-banner-1.png"
-                      alt="power-guide"
-                    />
-                  </a>
+              <Link href="#powerBIModals">
+                  <a data-bs-toggle="modal" ><img
+                    src="/img/powerb-guide-call-to-banner-2.png"
+                    alt="power-guide"
+                  /></a>
                 </Link>
               </div>
               <div class="cont-table-inner">
@@ -1707,7 +1712,10 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-21209.jpg" alt="researcher dashboard" />
+                <img
+                  src="/img/group-21209.jpg"
+                  alt="researcher dashboard"
+                />
               </div>
             </div>
           </div>
@@ -1794,11 +1802,8 @@ const PowerBIGuide = () => {
                 <ul>
                   <li>
                     The combination of these two powerful applications enhances
-                    the functionality of business intelligence and helps users
-                    implement informed decisionsbased on true data insights.
-                    Both Microsoft applications improve operational speeds,
-                    reduce the likelihood of errors, enhance the customer
-                    experience, and provide valuable insights to the sales team.
+                    the functionality of business intelligence and helps
+                    users implement informed decisionsbased on true data insights. Both Microsoft applications improve operational speeds, reduce the likelihood of errors, enhance the customer experience, and provide valuable insights to the sales team.
                   </li>
                   <li>
                     It allows users to create real-time reports to make
@@ -1839,16 +1844,17 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-21211.png" alt="Microsoft Appsource" />
+                <img
+                  src="/img/group-21211.png"
+                  alt="Microsoft Appsource"
+                />
               </div>
               <div className="iner-pp">
-                <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal">
-                    <img
-                      src="/img/powerb-guide-call-to-banner-1.png"
-                      alt="power-guide"
-                    />
-                  </a>
+              <Link href="#powerBIModals">
+                  <a data-bs-toggle="modal" ><img
+                    src="/img/powerb-guide-call-to-banner-2.png"
+                    alt="power-guide"
+                  /></a>
                 </Link>
               </div>
             </div>
@@ -2061,13 +2067,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal">
-                    <img
-                      src="/img/powerb-guide-call-to-banner-2.png"
-                      alt="power-guide"
-                    />
-                  </a>
+              <Link href="#powerBIModals">
+                  <a data-bs-toggle="modal" ><img
+                    src="/img/powerb-guide-call-to-banner-2.png"
+                    alt="power-guide"
+                  /></a>
                 </Link>
               </div>
               <div className="cont-table-inner">
@@ -2098,13 +2102,11 @@ const PowerBIGuide = () => {
                       <span>Free / $0</span>
                     </p>
                     <p>
-                      Users can create quick insights, understand the data, and
-                      share the visualization using Power BI web portal.
+                    Users can create quick insights, understand the data, and share the visualization using Power BI web portal. 
                     </p>
                     <ul>
                       <li>
-                        Comes with Office 365 to streamline the data processing
-                        and visualization.
+                      Comes with Office 365 to streamline the data processing and visualization.
                       </li>
                     </ul>
                   </div>
@@ -2119,8 +2121,7 @@ const PowerBIGuide = () => {
                       <span>$13.70</span>
                     </p>
                     <p>
-                      license Power BI Pro individual for modern analytics with
-                      data visualizations.
+                    license Power BI Pro individual for modern analytics with data visualizations. 
                     </p>
                     <ul>
                       <li>
@@ -2387,7 +2388,10 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2225.png" alt="Power BI vs. Tableau" />
+                <img
+                  src="/img/group-2225.png"
+                  alt="Power BI vs. Tableau"
+                />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -2399,7 +2403,10 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2224.png" alt="Power BI vs. QlikView" />
+                <img
+                  src="/img/group-2224.png"
+                  alt="Power BI vs. QlikView"
+                />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -2422,7 +2429,10 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2258.png" alt="Power BI vs. Looker" />
+                <img
+                  src="/img/group-2258.png"
+                  alt="Power BI vs. Looker"
+                />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -2463,16 +2473,17 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2262.png" alt="Power BI vs. Excel" />
+                <img
+                  src="/img/group-2262.png"
+                  alt="Power BI vs. Excel"
+                />
               </div>
               <div className="iner-pp">
-                <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal">
-                    <img
-                      src="/img/powerb-guide-call-to-banner-2.png"
-                      alt="power-guide"
-                    />
-                  </a>
+              <Link href="#powerBIModals">
+                  <a data-bs-toggle="modal" ><img
+                    src="/img/powerb-guide-call-to-banner-2.png"
+                    alt="power-guide"
+                  /></a>
                 </Link>
               </div>
             </div>
@@ -2615,8 +2626,9 @@ const PowerBIGuide = () => {
                 <p>
                   With a team of over{" "}
                   <b>135+ Microsoft Certified Professionals</b>, we are serving{" "}
-                  <Link href="/case-studies/">300+ happy clients</Link> across
-                  the globe to offer innovative and data-driven solutions.{" "}
+                  <Link href="/case-studies/">300+ happy clients</Link>{" "}
+                  across the globe to offer innovative and data-driven
+                  solutions.{" "}
                 </p>
                 <p>
                   No matter your organisation's complexity level, our dedicated
@@ -2640,8 +2652,8 @@ const PowerBIGuide = () => {
                 </p>
                 <p>
                   We hope you enjoyed this comprehensive Power BI guide for
-                  SMBs. Please <Link href="/contact-us/">contact us</Link> if
-                  you have any further questions or issues concerning{" "}
+                  SMBs. Please <Link href="/contact-us/">contact us</Link>{" "}
+                  if you have any further questions or issues concerning{" "}
                   <Link href="/power-bi-implementation/">
                     Power BI implementation
                   </Link>{" "}
@@ -2650,13 +2662,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal">
-                    <img
-                      src="/img/powerb-guide-call-to-banner.png"
-                      alt="power-guide"
-                    />
-                  </a>
+              <Link href="#powerBIModals">
+                  <a data-bs-toggle="modal" ><img
+                    src="/img/powerb-guide-call-to-banner-2.png"
+                    alt="power-guide"
+                  /></a>
                 </Link>
               </div>
             </div>

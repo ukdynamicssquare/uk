@@ -1,6 +1,10 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Image from "next/image";
+import Script from "next/script";
+import Link from "next/link";
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
+import Blog from "../../components/Blog";
 const PowerAutomate = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -14,10 +18,8 @@ const PowerAutomate = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/products/microsoft-power-automate/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-power-automate/"
         />
-        <meta name="robots" content="noindex,nofollow" />
-        
       </Head>
       <ModalVideo
         channel="youtube"
@@ -30,29 +32,29 @@ const PowerAutomate = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
-              <h1>
-                Microsoft Power Automate
-              </h1>
+              <h1>Microsoft Power Automate</h1>
               <p>
                 Automate processes and increase productivity with Power
                 Automate. No coding Required.
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span>
-                  </a>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/power-automate-banner.svg"
                 alt="power-automate-banner"
+                width={1024} height={586}
               />
             </div>
           </div>
@@ -158,7 +160,7 @@ const PowerAutomate = () => {
             <div className="col-lg-6">
               <div className="finace-acc">
                 <div className="accordion" id="acccm">
-                <hr className="mob-disp" />
+                  <hr className="mob-disp" />
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -258,13 +260,13 @@ const PowerAutomate = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 align-self-center">
-            <div className="wy-sultion-left-head">
-              <h2>What are Power Automate Features</h2>
-              <h3>
-                Power Automate is available in four different versions from
-                which you can select the right one depending upon your
-                requirements.
-              </h3>
+              <div className="wy-sultion-left-head">
+                <h2>What are Power Automate Features</h2>
+                <h3>
+                  Power Automate is available in four different versions from
+                  which you can select the right one depending upon your
+                  requirements.
+                </h3>
               </div>
             </div>
             <div className="col-lg-7">
@@ -344,34 +346,34 @@ const PowerAutomate = () => {
           </div>
         </div>
       </section>
-      
+
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/power automate-side.png"
                     className="fix-im"
                     alt="power automate-side"
+                    width={553} height={531}
                   />
-                  
+
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
-                      <a
-                        data-bs-toggle="modal"
-                        href="#javascript:void(0)"
-                        onClick={() => setOpen(true)}
-                      >
-                        <img src="/img/Video Power-automate.png" alt="Power-automate" />
-                        <span className="cente-icns">
-                          <img
-                            src="/img/play_icons.svg"
-                            alt="play_icons"
+                      <Link href="#javascript:void(0)">
+                        <a data-bs-toggle="modal" onClick={() => setOpen(true)}>
+                          <Image
+                            src="/img/Video Power-automate.png"
+                            alt="Power-automate"
+                            width={390} height={259}
                           />
-                        </span>
-                      </a>
+                          <span className="cente-icns">
+                            <img src="/img/play_icons.svg" alt="play_icons" />
+                          </span>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -401,9 +403,9 @@ const PowerAutomate = () => {
                     budget.
                   </p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
-                      Get Started
-                    </a>
+                    <Link href="#exampleModal">
+                      <a data-bs-toggle="modal">Get Started</a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -421,9 +423,9 @@ const PowerAutomate = () => {
                     to create and manage your work flows.
                   </p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
-                      Get Started
-                    </a>
+                    <Link href="#exampleModal">
+                      <a data-bs-toggle="modal">Get Started</a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -436,64 +438,55 @@ const PowerAutomate = () => {
           <header className="section-header">
             <h2>Power Automate Pricing</h2>
             <p>
-            Best for businesses that want predictable licensing with per user or per flow plans
+              Explore Power Automate Plans, Costs, And Availability To Start
+              Creating Workflows
             </p>
           </header>
           <div className="row gy-4 p-9">
             <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                License by user
-                </p>
-                <span className="cs-colo">Per user plan</span>
+              <div className="box box-66">
+                <h3>Licence by user</h3>
+                <p>Per user plan</p>
                 <div className="price">
-                  <sup>$</sup>15<span>Per-User/Month</span>
+                  <sup>£</sup>11.30<span>Per-User/Per Month</span>
                 </div>
-                <p className="small-tt">
-                Allow individual users to automate cloud apps, services, and data with digital process automation (DPA). This plan allows users to create and run unlimited flows.
-                </p>
-                <ul>
-                  <li>Cloud flows (DPA)</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                License by user
-                </p>
-                <span className="cs-colo">Per user plan with attended RPA</span>
-                <div className="price">
-                  <sup>$</sup>40<span>Per-User/Month</span>
-                </div>
-                <p className="small-tt">
-                Allow same capabilities as the base user plan, plus the ability to automate legacy apps on a desktop via robotic process automation (RPA) in attended mode.
-                </p>
-                <ul>
-                  <li>Cloud flows (DPA)</li>
-                  <li>Desktop flows (RPA) in attended mode</li>
-                  <li>5,000 AI Builder credits/month</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                License by flow
-                </p>
-                <span className="cs-colo">Per flow plan</span>
-                <div className="price">
-                  <sup>$</sup>100<span>Per Active User/App/Month minimum 5 flows(1,2)</span>
-                </div>
-                <p className="small-tt">Allow unlimited users within an organization to run digital process automation (DPA) from the same flow.</p>
                 <ul>
                   <li>
-                  Cloud flows (DPA)
+                    Allow individual users to analyse their processes and create
+                    unlimited cloud flows based on their unique needs.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="box box-66">
+                <h3>Licence by user</h3>
+                <p>Per user plan with attended RPA</p>
+                <div className="price">
+                  <sup>£</sup>30.20<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li>
+                    Allow individual users to analyse their processes and create
+                    unlimited cloud flows, plus automate legacy applications
+                    through robotic process automation (RPA) and AI.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="box box-66">
+                <h3>License by flow</h3>
+                <p>Per flow plan</p>
+                <div className="price">
+                  <sup>£</sup>75.40<span>For Five Flows/Month</span>
+                </div>
+                <ul>
+                  <li>
+                    Implement cloud flows with reserved capacity for unlimited
+                    users across your organisation.
                   </li>
                 </ul>
               </div>
@@ -501,13 +494,11 @@ const PowerAutomate = () => {
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">
-                <a
-                  data-bs-toggle="modal"
-                  href="#exampleModal"
-                  className="btn-get-red"
-                >
-                  <span>Get Power Apps Now</span>
-                </a>
+                <Link href="#exampleModal">
+                  <a data-bs-toggle="modal" className="btn-get-red">
+                    <span>Get Power Automate Now</span>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -517,13 +508,15 @@ const PowerAutomate = () => {
       <section className="blogs-extra">
         <div className="container">
           <header className="section-header">
-            <h2>
-            Explore Our Recent Blogs & Resources
-            </h2>
-            <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
+            <h2>Explore Our Recent Blogs & Resources</h2>
+            <p>
+              Whether you are a start-up, an SMB, or an enterprise, the Dynamics
+              Square blog is the best place to get inspired and learn more about
+              Microsoft Business Applications.
+            </p>
           </header>
-          <div className="row top-2 gx-5 justify-content-center">
-            {/* <Blog /> */}
+          <div className="row top-2 gx-5">
+            <Blog />
             <div className="col-lg-6">
               <div className="blogs-extra-title">
                 <h3>Important Power BI Links:</h3>
@@ -531,15 +524,16 @@ const PowerAutomate = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <a href="/what-is-power-bi/">
-                      <i className="bi bi-box-arrow-up-right"></i>What is Power
-                      BI?
-                    </a>
+                    <Link href="https://www.dynamicssquare.co.uk/blog/what-is-power-bi/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i>What is
+                        Power BI?
+                      </a>
+                    </Link>
                   </li>
                   <li>
                     <a
                       target="_blank"
-                      rel=""
                       href="https://www.youtube.com/watch?v=Evkj4zfpk0Q"
                     >
                       <i className="bi bi-box-arrow-up-right"></i>Free Power BI
@@ -549,7 +543,6 @@ const PowerAutomate = () => {
                   <li>
                     <a
                       target="_blank"
-                      rel=""
                       href="https://docs.microsoft.com/en-us/power-bi/consumer/end-user-license"
                     >
                       <i className="bi bi-box-arrow-up-right"></i>Power BI
@@ -557,22 +550,28 @@ const PowerAutomate = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="/power-bi-architecture/">
-                      <i className="bi bi-box-arrow-up-right"></i>Power BI
-                      Architecture
-                    </a>
+                    <Link href="https://www.dynamicssquare.co.uk/blog/power-bi-architecture/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i>Power BI
+                        Architecture
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/power-bi-reports/">
-                      <i className="bi bi-box-arrow-up-right"></i>Power BI
-                      Reports
-                    </a>
+                    <Link href="https://www.dynamicssquare.co.uk/blog/power-bi-reports/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i>Power BI
+                        Reports
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/implement-power-bi-for-your-business/">
-                      <i className="bi bi-box-arrow-up-right"></i>Why Your
-                      Business Should Implement Power BI?
-                    </a>
+                    <Link href="https://www.dynamicssquare.co.uk/blog/implement-power-bi-for-your-business/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i>Why Your
+                        Business Should Implement Power BI?
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

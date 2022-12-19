@@ -1,6 +1,10 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Image from "next/image";
+import Script from "next/script";
+import Link from "next/link";
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
+import Blog from "../../components/Blog";
 const PowerVirtualAgents = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -8,18 +12,16 @@ const PowerVirtualAgents = () => {
     <>
       <Head>
         <title>
-        What is Microsoft Power Virtual Agents? | Intelligent Bots
+          Microsoft Power Virtual Agents | Intelligent Virtual Agents
         </title>
         <meta
           name="description"
-          content="Power Virtual Agents is a tool to build powerful chatbots without the need to write code, and that allows you to automate communication with potential clients or employees."
+          content="Enhance customer experience and boost sales using AI enabled chatbots built with Microsoft Power Virtual Agents. Schedule a free demo today."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/products/microsoft-power-virtual-agents/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-power-virtual-agents/"
         />
-      <meta name="robots" content="noindex,nofollow" />
-       
       </Head>
       <ModalVideo
         channel="youtube"
@@ -43,20 +45,23 @@ const PowerVirtualAgents = () => {
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span>
-                  </a>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/virtual-agent-banner-01.svg"
                 alt="virtual-agent-banner-01"
+                width={1024}
+                height={586}
               />
             </div>
           </div>
@@ -284,9 +289,9 @@ const PowerVirtualAgents = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 align-self-center">
-            <div className="wy-sultion-left-head">
-              <h2>Why choose Power Virtual Agents?</h2>
-              <h3>What are Power Virtual Agents Features</h3>
+              <div className="wy-sultion-left-head">
+                <h2>Why choose Power Virtual Agents?</h2>
+                <h3>What are Power Virtual Agents Features</h3>
               </div>
             </div>
             <div className="col-lg-7 align-self-center">
@@ -360,35 +365,34 @@ const PowerVirtualAgents = () => {
           </div>
         </div>
       </section>
-      
+
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/virtual-agent-side.png"
                     className="fix-im"
                     alt="virtual-agent-side"
+                    width={553} height={531}
+                    
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
-                      <a
-                        href="#javascript:void(0)"
-                        onClick={() => setOpen(true)}
-                      >
-                        <img
-                          src="/img/video-Virtual Agents.png"
-                          alt="power-apps-video-banner"
-                        />
-                        <span className="cente-icns">
-                          <img
-                            src="/img/play_icons.svg"
-                            alt="play_icons"
+                      <Link href="#javascript:void(0)">
+                        <a onClick={() => setOpen(true)}>
+                          <Image
+                            src="/img/video-Virtual Agents.png"
+                            alt="power-apps-video-banner"
+                            width={390} height={259}
                           />
-                        </span>
-                      </a>
+                          <span className="cente-icns">
+                            <img src="/img/play_icons.svg" alt="play_icons" />
+                          </span>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -418,9 +422,9 @@ const PowerVirtualAgents = () => {
                     budget.
                   </p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
-                      Get Started
-                    </a>
+                    <Link href="#exampleModal">
+                      <a data-bs-toggle="modal">Get Started</a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -439,9 +443,9 @@ const PowerVirtualAgents = () => {
                     to manage your Chat bot
                   </p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
-                      Get Started
-                    </a>
+                    <Link href="#exampleModal">
+                      <a data-bs-toggle="modal">Get Started</a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -460,45 +464,48 @@ const PowerVirtualAgents = () => {
           </header>
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-4">
-              <div className="box box-99">
+              <div className="box box-66">
                 <h3>Power Virtual Agents</h3>
-                <div className="price">
-                  <sup>$</sup>200<span>Per month for 2,000 sessions(2)</span>
-                </div>
-                <p className="small-tt">
-                Run intelligent chatbots across websites and other channels.
+                <p>
+                  Run intelligent chatbots across websites and other channels.
                 </p>
+                <div className="price">
+                  <sup>£</sup>754.10<span>Per month for 2,000 sessions</span>
+                </div>
                 <ul>
-                  <li>Requires access to the Microsoft 365 admin center with global administrator or billing administrator roles.</li>
+                  <li>
+                    Only pay for two-way engagement between users and your
+                    chatbots, with sessions serving each end-to-end interaction.
+                  </li>
                 </ul>
               </div>
             </div>
 
-
             <div className="col-lg-4">
-              <div className="box box-99">
+              <div className="box box-66">
                 <h3>Sessions add-on</h3>
+                <p>
+                  Add additional sessions to your Power Virtual Agents plan.
+                </p>
                 <div className="price">
-                  <sup>$</sup>100<span>Per month for 1,000 sessions(2)</span>
+                  <sup>£</sup>339.30<span>Per month for 1,000 sessions</span>
                 </div>
-                <p className="small-tt">Add additional sessions to your Power Virtual Agents plan.</p>
                 <ul>
-                  <li>
-                  Requires a Power Virtual Agents license.
-                  </li>
+                  <li>Requires a Power Virtual Agents licence.</li>
                 </ul>
               </div>
             </div>
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">
-                <a
-                  data-bs-toggle="modal"
-                  href="#exampleModal"
-                  className="btn-get-red"
-                >
-                  <span>Get Power Apps Now</span>
-                </a>
+                <Link href="#exampleModal">
+                  <a data-bs-toggle="modal" className="btn-get-red">
+                    <span>Get Best Price Quotes</span>
+                  </a>
+                </Link>
+                {/* <Link href="#about" className="btn-get-whit">
+                              <span>See Licensing Guide</span>
+                              </Link> */}
               </div>
             </div>
           </div>
@@ -507,14 +514,16 @@ const PowerVirtualAgents = () => {
 
       <section className="blogs-extra">
         <div className="container">
-        <header className="section-header">
-            <h2>
-            Explore Our Recent Blogs & Resources
-            </h2>
-            <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
+          <header className="section-header">
+            <h2>Explore Our Recent Blogs & Resources</h2>
+            <p>
+              Whether you are a start-up, an SMB, or an enterprise, the Dynamics
+              Square blog is the best place to get inspired and learn more about
+              Microsoft Business Applications.
+            </p>
           </header>
-          <div className="row top-2 gx-5 justify-content-center">
-            {/* <Blog /> */}
+          <div className="row top-2 gx-5">
+            <Blog />
             <div className="col-lg-6">
               <div className="blogs-extra-title">
                 <h3>Important Power BI Links:</h3>
@@ -522,10 +531,12 @@ const PowerVirtualAgents = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <a href="/what-is-power-bi/">
-                      <i className="bi bi-box-arrow-up-right"></i>What is Power
-                      BI?
-                    </a>
+                    <Link href="https://www.dynamicssquare.co.uk/blog/what-is-power-bi/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i>What is
+                        Power BI?
+                      </a>
+                    </Link>
                   </li>
                   <li>
                     <a
@@ -548,22 +559,28 @@ const PowerVirtualAgents = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="/power-bi-architecture/">
-                      <i className="bi bi-box-arrow-up-right"></i>Power BI
-                      Architecture
-                    </a>
+                    <Link href="https://www.dynamicssquare.co.uk/blog/power-bi-architecture/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i>Power BI
+                        Architecture
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/power-bi-reports/">
-                      <i className="bi bi-box-arrow-up-right"></i>Power BI
-                      Reports
-                    </a>
+                    <Link href="https://www.dynamicssquare.co.uk/blog/power-bi-reports/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i>Power BI
+                        Reports
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/implement-power-bi-for-your-business/">
-                      <i className="bi bi-box-arrow-up-right"></i>Why Your
-                      Business Should Implement Power BI?
-                    </a>
+                    <Link href="https://www.dynamicssquare.co.uk/blog/implement-power-bi-for-your-business/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i>Why Your
+                        Business Should Implement Power BI?
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

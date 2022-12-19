@@ -1,21 +1,24 @@
 import React, { useState } from "react";
-import Head from 'next/head'
+
+import Link from "next/link";
+import Head from "next/head";
+import Image from "next/image";
 import ModalVideo from "react-modal-video";
+import Blog from "../../components/Blog";
 const FieldService = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Field Service | Dynamics Square</title>
+        <title>Microsoft Dynamics 365 Field Service | Dynamics Square UK</title>
         <meta
           name="description"
-          content="Streamline Your Field Operations and Optimize Your Resources By Leveraging Our Unique Microsoft Dynamics 365 Field service Plans."
+          content="Streamline Your Field Operations and Optimize Your Resources By Leveraging Our Unique Microsoft Dynamics 365 Field Service Plans."
         />
-           <meta name="robots" content="noindex,nofollow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-field-service/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-field-service/"
         />
       </Head>
       <ModalVideo
@@ -35,24 +38,28 @@ const FieldService = () => {
                 Field Service
               </h1>
               <p>
-              Connect Your Resources, Automate Your Processes, and Optimize Your Workflow with Dynamics 365 Field Service
+                Streamline Your Field Operations & Optimize Your Resources
+                Leveraging Microsoft Dynamics 365 Field Service
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span>
-                  </a>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/FieldServicebanner.png"
                 alt="Dynamics 365 Customer Service"
+                width={771}
+                height={478}
               />
             </div>
           </div>
@@ -61,30 +68,24 @@ const FieldService = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-            <div className="col-lg-12 col-md-12">
-            <header className="section-header">
-            <h2>
-              What is dynamics 365
-              <br />
-              Field Service?
-            </h2>
-            <p>
-            Connect, engage, and serve your customers in real-time with Dynamics 365 Field Service. Ensure resource collaboration, optimize your resources, monitor service operations, and bring transparency in your overall commerce practices to drive continuous and maximized growth.
-            </p>
-          </header>
-            </div>
-          </div>
           <div className="row justify-content-center">
-            <div className="col-lg-9 col-md-9">
-            <header className="section-header">
-            <h2>
-            Boost Your Field Service Performance With Dynamics 365 Field Service
-            </h2>
-            <p>
-            Accelerate your field service operational flow, enable team collaboration, and improve your customer experience. Maximize your field-service capability by empowering your field service executives with real-time data insights and customer information so that they can make productive decisions in real-time to ensure continuity in their process flow.
-            </p>
-          </header>
+            <div class="col-lg-9">
+              <header className="section-header">
+                <h2>
+                  What is dynamics 365
+                  <br />
+                  Field Service?
+                </h2>
+                <p>
+                  Stimulate your field services, improve your customer
+                  engagement, and encourage your workforce collaboration by
+                  enabling them with the right information at right time.
+                  Empower your field executives with real-time data insights and
+                  enable them to make instant decisions to drive improved
+                  customer experience impacting your overall scalable growth.
+                  Here are the key capabilities of Dynamics 365 Field Service:
+                </p>
+              </header>
             </div>
           </div>
 
@@ -108,7 +109,7 @@ const FieldService = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Real-time Customer Service</span>
+                        <span>Streamline Customer Resolution</span>
                       </button>
                     </h3>
                     <div
@@ -118,7 +119,10 @@ const FieldService = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Diagnose your customer requirements and proactively serve them at their location. With the help of D365 Field Service, your field executives can complete maximum service calls and fix them accordingly.
+                        Identify your customer requirement and provide instant
+                        technician support at the customer location. Empower
+                        your field executives to complete more service calls and
+                        fix more customer issues.
                       </div>
                     </div>
                   </div>
@@ -139,7 +143,7 @@ const FieldService = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Manage Resource Scheduling</span>
+                        <span>Optimize Resource Scheduling</span>
                       </button>
                     </h3>
                     <div
@@ -149,7 +153,10 @@ const FieldService = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Drive customer-centric approach wherein schedule customer-convenient visits. Assign the right task to the right-field technician as well as enable them with real-time updates, schedule changes, and more.
+                        Schedule visits suited to customer convenience and
+                        assign right task to the right technician. Enable your
+                        field executives to stay updated with schedule changes
+                        to efficiently navigate through.
                       </div>
                     </div>
                   </div>
@@ -159,7 +166,7 @@ const FieldService = () => {
 
             <div className="col-lg-6">
               <div className="finace-acc">
-              <hr className="mob-disp" />
+                <hr className="mob-disp" />
                 <div className="accordion" id="accnews">
                   <div className="accordion-item">
                     <h3 className="accordion-header">
@@ -177,7 +184,7 @@ const FieldService = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Integration Opportunity</span>
+                        <span>Seamless Integration</span>
                       </button>
                     </h3>
                     <div
@@ -187,7 +194,10 @@ const FieldService = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      To satisfy and fulfill your customized business flow, Microsoft Field Service Management Software can be integrated with any Microsoft application to maximize your business capabilities.
+                        Addressing your specific business needs, you can
+                        integrate your Dynamics 365 Field Service with any of
+                        Microsoft's products or services to enrich your
+                        capabilities and maximize efficiency.
                       </div>
                     </div>
                   </div>
@@ -208,7 +218,7 @@ const FieldService = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Real-Time Data Access</span>
+                        <span>Real-Time Insights</span>
                       </button>
                     </h3>
                     <div
@@ -218,7 +228,10 @@ const FieldService = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      Drive a transparent approach wherein facilitate your field persons to access customer issues, schedules, routes, and more. Update your customers with the status of the service calls in real-time.
+                        Empower your field technicians with actual and real-time
+                        information about customer issues, customer schedules,
+                        and routes as well as enable them to update customers
+                        with the status of the service calls.
                       </div>
                     </div>
                   </div>
@@ -233,21 +246,22 @@ const FieldService = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 m--t align-self-center">
-            <div className="wy-sultion-left-head">
-              <h2>Microsoft Dynamics 365 Field Service Features</h2>
-              <h3>
-              How D365 Field Service Helps to Accelerate Your Overall Field Service Flow ?
-              </h3>
+              <div className="wy-sultion-left-head">
+                <h2>Microsoft Dynamics 365 Field Service Features</h2>
+                <h3>
+                  How Dynamics 365 Field Service Helps to Boost Your Field
+                  Service Performance
+                </h3>
               </div>
               <div className="m-o-t m-o-t-b">
-                {/* <a href="#about" className="btn-get-started scrollto">
+                {/* <Link href="#about" className="btn-get-started scrollto">
                   <span>Know More</span>
-                </a> */}
+                </Link> */}
               </div>
               {/* <div className="downlad_guid">
-                        <a href="#">
+                        <Link href="#">
                         <span>Download Microsoft Guide</span>
-                        </a>
+                        </Link>
                      </div> */}
             </div>
             <div className="col-lg-7">
@@ -256,12 +270,14 @@ const FieldService = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Create <br />
+                        Create & Manage <br />
                         Work Orders
                       </h3>
                       <div className="overlay">
                         <p>
-                        Seamlessly create work orders at customer locations. Enable your field people to identify their issues and fix diagnosed issues with the help of real-time customer data updates.
+                          Create and manage orders at customer locations.
+                          Identify their requirement and instantly support them
+                          by leveraging real-time customer data and updates.
                         </p>
                       </div>
                     </div>
@@ -272,7 +288,9 @@ const FieldService = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Effectively manage your resources, automate resource utilization, and ensure customer fulfillment with Microsoft's Field Service Management Solution.
+                          Manage resources and required equipment to fulfill
+                          customer service, get notified for on-site
+                          appointments, and manage service scheduling.
                         </p>
                       </div>
                     </div>
@@ -282,23 +300,27 @@ const FieldService = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Drive Connected <br />
+                        Connected <br />
                         Field Service
                       </h3>
                       <div className="overlay">
                         <p>
-                        Bring collaboration among your technicians, customers, and stakeholders to ensure serving improved level of customer service and support instantly.
+                          Drive improved connected field service experience by
+                          enabling collaboration between field service
+                          technicians, customers, and stakeholders.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Real-Time Reporting
+                        Key Reporting
                         <br /> & Analytics
                       </h3>
                       <div className="overlay">
                         <p>
-                        Leverage AI-based insights and customer analytics in real-time to ensure accessing & managing work orders, scheduling customer visits, and ensuring reliable customer engagement.
+                          With AI-enabled insights and key customer data, access
+                          and manage work orders, scheduling activities, and
+                          drive engagement with customers.
                         </p>
                       </div>
                     </div>
@@ -316,28 +338,26 @@ const FieldService = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
-                    src="/img/Fieldserviceside banner2.png"
+                  <Image
+                    src="/img/Fieldservicesidebanner2.png"
                     className="fix-im"
                     alt="Dynamics 365 Field Service"
+                    width={557}
+                    height={543}
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
-                      <a
-                        href="#javascript:void(0)"
-                        onClick={() => setOpen(true)}
-                      >
-                        <img
-                          src="/img/Video-Field-Service.png"
-                          alt="Fieldservideo"
-                        />
-                        <span className="cente-icns">
+                      <Link href="#javascript:void(0)">
+                        <a onClick={() => setOpen(true)}>
                           <img
-                            src="/img/play_icons.svg"
-                            alt="play_icons"
+                            src="/img/Video-Field-Service.png"
+                            alt="Fieldservideo"
                           />
-                        </span>
-                      </a>
+                          <span className="cente-icns">
+                            <img src="/img/play_icons.svg" alt="play_icons" />
+                          </span>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -347,8 +367,9 @@ const FieldService = () => {
               <div className="side-heading">
                 <h2>Dynamics 365 Field Service</h2>
                 <p>
-                  Drive connected and seamless field experience to impact
-                  overall growth rate and scalability.
+                  Enhance your field service experience and strengthen
+                  communication between executives through D365 Field Service
+                  implementation.
                 </p>
               </div>
               <div className="busine_service_bottom-right">
@@ -361,12 +382,13 @@ const FieldService = () => {
                 <div className="card_new_content">
                   <h3>Implementation</h3>
                   <p>
-                  Strengthen your field service executives and their capabilities by implementing Dynamics 365 Field Service.
+                    Empower your field executives and improve field service
+                    experience by implementing D365 Field Service.
                   </p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link href="/dynamics-365-field-service-implementation/">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -380,12 +402,13 @@ const FieldService = () => {
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
                   <p>
-                  Bring continuity in your Field Service practices and drive effective growth with high-end <a href="/our-services/dynamics-365-support-services">support services</a> .
+                    Drive continuity in your processes and ensure continuous
+                    growth through our optimal support services.
                   </p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -399,12 +422,13 @@ const FieldService = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                  Boost your process flow and start driving scalable results with Dynamics 365 Field Service upgrade.
+                    Accelerate your processes by upgrading your current system
+                    capabilities with D365 Field Service.
                   </p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -414,41 +438,41 @@ const FieldService = () => {
       </section>
       <section id="pricing" className="pricing">
         <div className="container">
-          <header className="section-header">
-            <h2>Dynamics 365 Field Service Pricing</h2>
-            <p>
-              Automate your financial operations, improve decision making, bring
-              strategic impact on your finance, and minimize global financial
-              complexities & risks with dynamics 365 finance.{" "}
-            </p>
-          </header>
+          <div className="row justify-content-center">
+            <div class="col-lg-9">
+              <header className="section-header">
+                <h2>Dynamics 365 Field Service Pricing</h2>
+                <p>
+                  Optimise resources, furnish omni-channel experience, and
+                  empower your executives to provide superior customer
+                  experience through implementing Dynamics 365 Field Service.
+                </p>
+              </header>
+            </div>
+          </div>
+
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-6 col-md-6">
               <div className="box box-22">
-                <h3>
-                Dynamics 365 Field Service
-                </h3>
+                <h3>Dynamics 365 Field Service</h3>
                 <div className="price">
-                  <sup>$</sup>95<span>Per-User/Month</span>
+                  £71.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                  Resolve service issues the first time, every time.
+                    Resolve service issues the first time, every time.
                   </li>
                 </ul>
               </div>
             </div>
-            
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">
-                <a
-                  data-bs-toggle="modal"
-                  href="#exampleModal"
-                  className="btn-get-red"
-                >
-                  <span>Get Started Now</span>
-                </a>
+                <Link href="#exampleModal">
+                  <a data-bs-toggle="modal" className="btn-get-red">
+                    <span>Get Started Now</span>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -465,100 +489,16 @@ const FieldService = () => {
                   Field Service
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link href="#exampleModal">
+                    <a
                     data-bs-toggle="modal"
-                    href="#exampleModal"
+                    
                     className="btn-get-started scrollto"
                   >
-                    <span>Get Started Now</span>
-                  </a>
+                    <span>Get Started Now</span></a>
+                  </Link>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="blogs-extra">
-        <div className="container">
-        <header className="section-header">
-            <h2>Explore Our Recent Blogs & Resources</h2>
-            <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
-          </header>
-          <div className="row top-2 gx-5 justify-content-center">
-            {/* <Blog /> */}
-            <div className="col-lg-6">
-              <div className="blogs-extra-title">
-                <h3>Documents</h3>
-              </div>
-              <div className="blogs-extra-right">
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/Remote-Service-Modernise-Your-Operations-with-Mixed-Reality.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Remote Service
-                      Modernise Your Operations with Mixed Reality
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/Transform-your-field-service-with-IoT-AI-and-mixed-reality.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Transform Your
-                      Field Service With IoT, AI, and Mixed Reality
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/Five-ways-to-know-if-connected-field-service-is-right-for-your-business.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Connected Field
-                      Service is Right for Your Business?
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/5-innovative-ways-industry-leaders-modernize-their-field-service.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Innovative Ways
-                      Industry Leaders Modernize Their Field Service
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/5-case-studies-from-manufacturing.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>5 Case Studies
-                      From Manufacturing
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide-1-1.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Licensing Guide
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              {/* <div className="blogs-extra-title">
-                        <h4>Learn More</h4>
-                     </div>
-                     <div className="blogs-extra-right">
-                        <ul>
-                           <li><a href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Collections automation</a></li>
-                           <li><a href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Vendor invoice automation</a></li>
-                           <li><a href="#"><i className="bi bi-box-arrow-up-right"></i> Why to Upgrade Dynamics NAV to Business Central</a></li>
-                           <li><a href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Asset leasing</a></li>
-                        </ul>
-                     </div> */}
             </div>
           </div>
         </div>
@@ -661,8 +601,12 @@ const FieldService = () => {
                     <div className="accordion-body">
                       Yes, Dynamics 365 Field Service is available for
                       on-premises installations. Users can enjoy both the cloud
-                      and on-premises installations according to their specific
-                      data-driven needs and data-privacy concerns.
+                      and{" "}
+                      <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">
+                        on-premises
+                      </Link>{" "}
+                      installations according to their specific data-driven
+                      needs and data-privacy concerns.
                       <br />
                       <br />
                       To configure Microsoft Dynamics 365 Field Service
@@ -797,9 +741,12 @@ const FieldService = () => {
                   >
                     <div className="accordion-body">
                       Users can buy the Field Service app at £71.60 per user/per
-                      month applicable for First Dynamics 365 app. Further,
-                      ‘Subsequent Qualifying Dynamics 365 App’, users are
-                      required to pay £15.10 per user/per month.
+                      month applicable for First{" "}
+                      <Link href="/products/microsoft-dynamics-365/">
+                        Dynamics 365
+                      </Link>{" "}
+                      app. Further, ‘Subsequent Qualifying Dynamics 365 App’,
+                      users are required to pay £15.10 per user/per month.
                       <br />
                       <br /> To avail of more information for Microsoft Field
                       Service Management licensing, connect with the experts at
@@ -846,6 +793,99 @@ const FieldService = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="blogs-extra">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div class="col-lg-9">
+              <header className="section-header">
+                <h2>Explore Our Recent Blogs & Resources</h2>
+                <p>
+                  Whether you are a start-up, an SMB, or an enterprise, the
+                  Dynamics Square blog is the best place to get inspired and
+                  learn more about Microsoft Business Applications.
+                </p>
+              </header>
+            </div>
+          </div>
+
+          <div className="row top-2 gx-5">
+            <Blog />
+            <div className="col-lg-6">
+              <div className="blogs-extra-title">
+                <h3>Documents</h3>
+              </div>
+              <div className="blogs-extra-right">
+                <ul>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="/pdf/Remote-Service-Modernise-Your-Operations-with-Mixed-Reality.pdf"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>Remote Service
+                      Modernise Your Operations with Mixed Reality
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="/pdf/Transform-your-field-service-with-IoT-AI-and-mixed-reality.pdf"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>Transform Your
+                      Field Service With IoT, AI, and Mixed Reality
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="/pdf/Five-ways-to-know-if-connected-field-service-is-right-for-your-business.pdf"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>Connected Field
+                      Service is Right for Your Business?
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="/pdf/5-innovative-ways-industry-leaders-modernize-their-field-service.pdf"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>Innovative Ways
+                      Industry Leaders Modernize Their Field Service
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="/pdf/5-case-studies-from-manufacturing.pdf"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>5 Case Studies
+                      From Manufacturing
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide-1-1.pdf"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>Licensing Guide
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              {/* <div className="blogs-extra-title">
+                        <h4>Learn More</h4>
+                     </div>
+                     <div className="blogs-extra-right">
+                        <ul>
+                           <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Collections automation</Link></li>
+                           <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Vendor invoice automation</Link></li>
+                           <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Why to Upgrade Dynamics NAV to Business Central</Link></li>
+                           <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Asset leasing</Link></li>
+                        </ul>
+                     </div> */}
             </div>
           </div>
         </div>
