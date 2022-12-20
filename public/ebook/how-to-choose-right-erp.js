@@ -10,7 +10,8 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import emailjs from "@emailjs/browser";
 import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
-const StartGuideThree = () => {
+
+const Howtochooserighterp = () => {
   const router = useRouter();
   const [display, setDisplay] = useState("dspn");
   const form = useRef();
@@ -47,21 +48,25 @@ const StartGuideThree = () => {
     setTimeout(function () {
       setCloseModal(true);
       e.target.reset();
-      router.push("/guides/download/Pdf-d365-supply-chain-management/");
+      router.push("/thank-you/how-to-choose-right-erp/");
     }, 500);
   };
 
   return (
     <>
       <Head>
-        <title>The Extensive Guide to Dynamics CRM</title>
+        <title>Free ERP eBook | Ultimate Guide to Choose the Right ERP</title>
         <meta
           name="description"
-          content="Download our free eBook - Dynamics CRM to simplify your customer relationship journey and enhance profitability along with rapid growth."
+          content="Our guide will take you step-by-step through how to get started with ERP software, from the very beginning. Jump in and explore our free ERP eBook!"
+        />
+        <meta
+          name="robots"
+          content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/ebook/d365-supply-chain-management/"
+          href="https://www.dynamicssquare.co.uk/ebook/how-to-choose-right-erp/"
         />
       </Head>
 
@@ -70,7 +75,10 @@ const StartGuideThree = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-                A Complete Guide to Dynamics 365 <br /> Supply Chain Management
+                Ultimate Guide to <br />
+                Choose the Right ERP
+                <br />
+                For Your Business
               </h1>
               <br />
               <div>
@@ -86,12 +94,8 @@ const StartGuideThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center text-center">
-              <Image
-                src="/img/dynamics-SCM-Ebook-featured-banner.png"
-                alt="dynamics-SCM-Ebook-featured-banner"
-                width={800} height={600}
-              />
+            <div className="col-lg-6 align-self-center">
+              <img src="/img/erp-banner-book.png" alt="erp-banner-book" />
             </div>
           </div>
         </div>
@@ -99,50 +103,90 @@ const StartGuideThree = () => {
 
       <section>
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-8">
-              <header className="section-header">
-                <h2>This Ultimate eBook Will Walk You Through</h2>
-              </header>
-            </div>
-          </div>
-          <div className="row g-3">
+          <header className="section-header">
+            <h2>
+              By reading this E-book on ERP
+              <br />
+              You Will learn
+            </h2>
+          </header>
+          <div className="row">
             <div className="col-lg-3 align-self-center">
               <div className="inner-l">
                 <div className="left-let">
-                  <h3>Top Challenges in Supply Chain</h3>
+                  <h3>When is the Right Time to Implement ERP?</h3>
                   <div className="shape"></div>
                 </div>
                 <div className="left-let">
-                  <h3>Need of Supply Chain Management</h3>
+                  <h3>How to Choose the Right ERP for Your Business?</h3>
                   <div className="shape"></div>
                 </div>
                 <div className="left-let">
-                  <h3>Top Capabilities to help you Grow</h3>
+                  <h3>Steps for Successful ERP Implementation</h3>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <div className="text-center remove-pre">
-                <Image
-                  src="/img/Supply-chain-management-ebook-tab.png"
-                  alt="Supply-chain-management-ebook-tab"
-                  width={487} height={613}
-                />
+              <div className="slider-sp-wrpp">
+                <Swiper
+                  navigation={true}
+                  modules={[Navigation]}
+                  className="mySwiper phone-slider"
+                >
+                  <SwiperSlide>
+                    <img src="/img/cover-1.jpg" alt="cover-1.jpg" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src="/img/right-time-to-implement-ERP.png"
+                      alt="cover-1.jpg"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src="/img/reason-for-implementing-ERP.png"
+                      alt="cover-1.jpg"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src="/img/choose-right-WRP.png"
+                      alt="choose-right-WRP"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src="/img/things-to-considerchoosing-ERP.png"
+                      alt="things-to-considerchoosing-ERP"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src="/img/step-for-successful-ERP.png"
+                      alt="step-for-successful-ERP"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src="/img/selecting-right-ERP.png"
+                      alt="selecting-right-ERP"
+                    />
+                  </SwiperSlide>
+                </Swiper>
               </div>
             </div>
             <div className="col-lg-3 align-self-center">
               <div className="inner-l">
                 <div className="left-rit">
-                  <h3>Top Benefits to Choose D365 SCM</h3>
+                  <h3>Strategic Reasons for Implementing Modern ERP</h3>
                   <div className="shape-l"></div>
                 </div>
                 <div className="left-rit">
-                  <h3>Most Effective Pricing and Licensing</h3>
+                  <h3>Things to Consider While Choosing Modern ERM System</h3>
                   <div className="shape-l"></div>
                 </div>
                 <div className="left-rit">
-                  <h3>How to avail free trial?</h3>
+                  <h3>Selecting the Right ERP System</h3>
                 </div>
               </div>
             </div>
@@ -155,42 +199,35 @@ const StartGuideThree = () => {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="pic-ll">
-                <Image src="/img/erp-left-about.png" alt="erp-left-about" width={337} height={460} />
+                <img src="/img/erp-left-about.png" alt="erp-left-about" />
               </div>
             </div>
             {/* <div className="col-lg-1 align-self-center"></div> */}
             <div className="col-lg-6 align-self-center">
               <div className="aboot-erp-content">
-                <h3>What's more about this eBook?</h3>
+                <h3>More about this E-book</h3>
                 <p>
-                  D365 Supply Chain Management offers end-to-end solutions for
-                  retailers, distributors, and manufacturers to make the
-                  operation smooth and simple. To meet modern and global
-                  business needs, it is crucial for any business to have
-                  real-time data insights into various supply chain processes,
-                  including production, procurement, and distribution. Real-time
-                  data on resources, production, and distribution assists any
-                  business in remaining current and ahead of the competition.
+                  As business houses start climbing the ladders of prosperity,
+                  their systems start getting complex.
                 </p>
+
                 <p>
-                  Our eBook is a perfect guide for organisations who are looking
-                  for a better, more agile and highly robust supply chain system
-                  to centralise the information and offer insights to offer
-                  data-driven decisions.
+                  As a result, there will surely come a time when the manual
+                  systems will fail to handle the increased number of data,
+                  employees, and other elements. This is when it becomes crucial
+                  to get help from other options such as software.
                 </p>
+
                 <p>
-                  If you want to meet modern and global business needs to create
-                  a sustainable supply chain management system, this guide is a
-                  perfect solution.
+                  Now, the choice of software depends upon several factors,
+                  mostly the requirement of the company. There can be some
+                  companies that may consider getting individual software for
+                  individual departments.
                 </p>
+
                 <p>
-                  t is a powerful application that centralises data by
-                  connecting all warehousing, planning, and transportation
-                  processes in order to provide actionable and intelligent
-                  insights for making efficient and smart decisions. Such
-                  insights help the organisation to identify the potential
-                  issues in the entire supply chain and resolve them without
-                  hampering the constant data flow.
+                  On the contrary, some business houses may prefer to get a
+                  single ERP software.
                 </p>
               </div>
             </div>
@@ -203,22 +240,22 @@ const StartGuideThree = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="call_to_action-right over-img">
-                <img src="/img/MaskGroup8.png" alt="images" />
+                <img src="/img/MaskGroup8.png" alt="image" />
               </div>
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="call_to_action-left call_to_action-lefts">
                 <h3>
-                  Get started with the Ultimate Guide to Microsoft Dynamics 365
-                  Supply Chain Management.
+                  Get started with your Ultimate Guide to choose right ERP for
+                  Your Business
                 </h3>
                 <div className="m-o-t m-o-t-inde">
-                  <Link href="#exampleModal1">
+                <Link href="#exampleModal1">
                     <a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Download Now!</span>
+                      <span>Download Now</span>
                     </a>
                   </Link>
                 </div>
@@ -247,7 +284,7 @@ const StartGuideThree = () => {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                       >
-                        Why should I choose Dynamics SCM?
+                        What is an ERP?
                       </button>
                     </h3>
                     <div
@@ -257,15 +294,10 @@ const StartGuideThree = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                        <p>
-                          When businesses start climbing the success ladder,
-                          it's obvious that their existing systems will no
-                          longer handle complexities, manage customers, and
-                          enhance loyalty. As a result, it becomes crucial to
-                          have an advanced supply chain management solution like
-                          Dynamics Supply Chain Management to help you get easy
-                          scalability and more growth.
-                        </p>
+                        An ERP or 'Enterprise Resource Plannin' is a set of
+                        integrated software applications that allow us to
+                        automate most of the business practices related to the
+                        operational or productive aspects of our company.
                       </div>
                     </div>
                   </div>
@@ -279,7 +311,7 @@ const StartGuideThree = () => {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                        Can I customize my Microsoft Dynamics 265 SCM?
+                        What are the benefits of an ERP?
                       </button>
                     </h3>
                     <div
@@ -289,13 +321,14 @@ const StartGuideThree = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                        <p>
-                          Dynamics SCM is a highly configurable and customizable
-                          platform that enables businesses to tailor it to their
-                          specific needs or integrate it with other systems or
-                          apps to manage their entire supply chain while making
-                          actionable decisions in real-time.
-                        </p>
+                        <p>Key ERP benefits include:</p>
+                        <ol>
+                          <li>Optimization of management processes</li>
+                          <li>Improve the decision-making process</li>
+                          <li>Data security</li>
+                          <li>Modularity and Scalability</li>
+                          <li>Task Automation and much mor</li>
+                        </ol>
                       </div>
                     </div>
                   </div>
@@ -309,7 +342,7 @@ const StartGuideThree = () => {
                         aria-expanded="false"
                         aria-controls="collapseThree"
                       >
-                        How will this supply chain guide help me?
+                        Is this eBook really free?
                       </button>
                     </h3>
                     <div
@@ -320,12 +353,18 @@ const StartGuideThree = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                          At Dynamics Square, we adhere to Microsoft's mission:
-                          "to empower every person and every organisation on the
-                          planet to achieve more." And helping people helps us
-                          provide authentic, fruitful solutions to their
-                          business in the best way possible. This guide contains
-                          crisp and necessary content that you exactly need.
+                          Yes!
+                          <br />
+                          <br />
+                          At Dynamics Square, we adhere to Microsoft's Mission -
+                          “to empower every person and every organization on the
+                          planet to achieve more.”
+                          <br />
+                          <br />
+                          And this can be achieved by providing authentic,
+                          fruitful content to our readers in the best way
+                          possible. We hope you'll find it useful. Get in touch
+                          with us if you have any question!
                         </p>
                       </div>
                     </div>
@@ -340,7 +379,7 @@ const StartGuideThree = () => {
                         aria-expanded="false"
                         aria-controls="collapsefour"
                       >
-                        What are the core areas in Dynamics 365 SCM?
+                        Why do I need to fill out the information requested?
                       </button>
                     </h3>
                     <div
@@ -351,46 +390,28 @@ const StartGuideThree = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                          Dynamics SCM covers various areas of supply chain
-                          management, product distribution, and centralised
-                          marketing and customer retention. This is a complete
-                          application for overall supply chain management and
-                          product distribution.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingfive">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapsefive"
-                        aria-expanded="false"
-                        aria-controls="collapsefive"
-                      >
-                        Why do I need to fill out the information requested?
-                      </button>
-                    </h3>
-                    <div
-                      id="collapsefive"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingfive"
-                      data-bs-parent="#faqaccer"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          We will keep your information confidential. The
-                          information from your end helps us provide you with an
-                          improved and personalised experience every time you
-                          visit our website and provides you with the best
-                          solution so that your business can make waves.
-                        </p>
-                        <p>
-                          You can read more about our{" "}
-                          <Link href="/privacy-policy">privacy policy</Link>{" "}
-                          here.{" "}
+                          Dynamics Square will always keep your personal
+                          information safe.
+                          <br />
+                          The only purpose of requesting information from you is
+                          just to serve an improved experience to you every time
+                          you visit our website.
+                          <br />
+                          <br />
+                          We ask for your information in exchange for a valuable
+                          resource in order to a improve your browsing
+                          experience by personalizing the Dynamics Square site
+                          to your needs; b send information to you that we think
+                          may be of interest to you by email or other means; You
+                          can read more about our
+                          <Link
+                            href="/privacy-policy/"
+                            target="_blank"
+                            rel="noopener"
+                          >
+                            privacy policy
+                          </Link>
+                          here.
                         </p>
                       </div>
                     </div>
@@ -400,7 +421,7 @@ const StartGuideThree = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="pic-l2">
-                <Image src="/img/Cover_Book_Moc.png" alt="Cover_Book_Moc" width={582} height={466} />
+                <img src="/img/Cover_Book_Moc.png" alt="Cover_Book_Moc" />
               </div>
             </div>
           </div>
@@ -485,13 +506,13 @@ const StartGuideThree = () => {
                         className="form-check-label"
                         htmlFor="exampleCheck1"
                       >
-                        I agree to the
-                        <Link href="/privacy-policy/" target="_blank">
-                          Privacy Policy
-                        </Link>
-                        and
+                        I agree to the{" "}
+                        <Link href="/privacy-policy/">
+                          <a target="_blank">Privacy Policy</a>
+                        </Link>{" "}
+                        and{" "}
                         <Link href="/terms-of-use/" target="_blank">
-                          Terms of Service
+                          <a target="_blank">Terms of Service</a>
                         </Link>
                         .
                       </label>
@@ -519,4 +540,4 @@ const StartGuideThree = () => {
   );
 };
 
-export default StartGuideThree;
+export default Howtochooserighterp;

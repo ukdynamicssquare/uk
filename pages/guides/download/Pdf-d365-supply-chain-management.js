@@ -5,7 +5,7 @@ const PdfCRMDownload = () => {
   return (
     <>
       <Head>
-      <title>Dynamics CRM Guide Download | Dynamics Square</title>
+      <title>Dynamic Supply Chain Management Guide Download | Dynamics Square</title>
         <meta
           name="description"
           content="Thanks for getting in touch - someone will contact you soon!"

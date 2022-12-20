@@ -10,13 +10,16 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import emailjs from "@emailjs/browser";
 import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
+
 const Howtochooserighterp = () => {
   const router = useRouter();
   const [display, setDisplay] = useState("dspn");
   const form = useRef();
   const [closeModal, setCloseModal] = useState(false);
   function handleCloseModal() {
-    document.getElementById("exampleModal").classList.remove("show", "d-block");
+    document
+      .getElementById("exampleModal1")
+      .classList.remove("show", "d-block");
     document
       .querySelectorAll(".modal-backdrop")
       .forEach((el) => el.classList.remove("modal-backdrop"));
@@ -27,10 +30,10 @@ const Howtochooserighterp = () => {
 
     emailjs
       .sendForm(
-        "service_cxxhqoq",
-        "template_f80fich",
+        "service_4voumj7",
+        "template_68k24ku",
         form.current,
-        "7Ae4EIVY__86NsTQD"
+        "mJ38M6WTmU7KRrtuZ"
       )
 
       .then(
@@ -57,9 +60,13 @@ const Howtochooserighterp = () => {
           name="description"
           content="Our guide will take you step-by-step through how to get started with ERP software, from the very beginning. Jump in and explore our free ERP eBook!"
         />
+        <meta
+          name="robots"
+          content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+        />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/ebook/how-to-choose-right-erp/"
+          href="https://www.dynamicssquare.co.uk/ebook/how-to-choose-right-erp/"
         />
       </Head>
 
@@ -88,7 +95,7 @@ const Howtochooserighterp = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/erp-banner-book.png" alt="erp-banner-book" width={980} height={578}/>
+              <img src="/img/erp-banner-book.png" alt="erp-banner-book" />
             </div>
           </div>
         </div>
@@ -192,8 +199,7 @@ const Howtochooserighterp = () => {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="pic-ll">
-                <Image src="/img/erp-left-about.png" alt="erp-left-about" width={337} height={460}
-  />
+                <img src="/img/erp-left-about.png" alt="erp-left-about" />
               </div>
             </div>
             {/* <div className="col-lg-1 align-self-center"></div> */}
@@ -244,7 +250,7 @@ const Howtochooserighterp = () => {
                   Your Business
                 </h3>
                 <div className="m-o-t m-o-t-inde">
-                  <Link href="#exampleModal1">
+                <Link href="#exampleModal1">
                     <a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
@@ -397,14 +403,14 @@ const Howtochooserighterp = () => {
                           experience by personalizing the Dynamics Square site
                           to your needs; b send information to you that we think
                           may be of interest to you by email or other means; You
-                          can read more about our{" "}
-                          <a
+                          can read more about our
+                          <Link
                             href="/privacy-policy/"
                             target="_blank"
                             rel="noopener"
                           >
                             privacy policy
-                          </a>{" "}
+                          </Link>
                           here.
                         </p>
                       </div>
@@ -500,13 +506,13 @@ const Howtochooserighterp = () => {
                         className="form-check-label"
                         htmlFor="exampleCheck1"
                       >
-                        I agree to the {" "}
+                        I agree to the{" "}
                         <Link href="/privacy-policy/">
                           <a target="_blank">Privacy Policy</a>
                         </Link>{" "}
                         and{" "}
                         <Link href="/terms-of-use/" target="_blank">
-                        <a target="_blank">Terms of Service</a>
+                          <a target="_blank">Terms of Service</a>
                         </Link>
                         .
                       </label>

@@ -1,36 +1,29 @@
 import React, { useState } from "react";
-import Head from "next/head";
-import Link from "next/link";
+import Head from 'next/head';
 import Image from "next/image";
-import Blog from "../../components/Blog";
+import Script from "next/script";
+import Link from "next/link";
 import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
-const Startup = () => {
+const NonProfits = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
-        <title>Microsoft Dynamics 365 for Food and Beverages Industry</title>
-        <meta
-          name="description"
-          content="Enable quick adaption, simplify processes, and drive continuity throughout your organization with Dynamics 365 for Food and Beverages Industry Solutions."
-        />
-        <link
-          rel="canonical"
-          href="https://www.dynamicssquare.co.uk/industries/food-and-beverages/"
-        />
+      <title>Dynamics 365 for Nonprofits | Dynamics 365 for Charities</title>
+<meta name="description" content="Bring transparency and drive efficiency in your Nonprofit organization with Microsoft Dynamics 365 for Nonprofits. Schedule a free demo today."/>
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/industries/non-profits/" />
       </Head>
       <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="hiaL1f4SQCQ"
+        videoId="qLjfAsQRWaM"
         onClose={() => setOpen(false)}
       />
       <main>
@@ -39,28 +32,28 @@ const Startup = () => {
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
                 <h1>
-                  Dynamics 365 <br />
-                  For Food & Beverages
+                  Dynamics 365
+                  <br />
+                  For NonProfit
                 </h1>
                 <p>
-                  Efficiently manage your inventory and supply chain by
-                  implementing Dynamics 365 for Food and Beverages business.
+                  Bring Transparency And Drive Efficiency In Your Non-Profit
+                  Organization With Microsoft Dynamics 365 For Charities.
                 </p>
                 <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Schedule a Demo</span>
-                    </a>
+                  <Link href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Schedule a Demo</span></a>
                   </Link>
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img
-                  src="/img/food-and-beverages-banner.png"
-                  alt="Dynamics 365 For Food & Beverages"
+                <Image
+                  src="/img/Dynamics-non-profit-Banner.png"
+                  alt="Dynamics-non-profit-Banner"
+                  width={790} height={470}
                 />
               </div>
             </div>
@@ -70,17 +63,23 @@ const Startup = () => {
           <div className="container">
             <header className="section-header">
               <h2>
-                Why Dynamics 365 for your <br />
-                food & beverages industry?
+                Grow Your Nonprofit Business <br />
+                with Dynamics 365
               </h2>
               <p>
-                Dynamics 365 for Food and Beverages business solution can be
-                implemented to support your entire food & beverage management
-                system. At Dynamics Square, we implement a highly customized
-                solution for Food & Beverage industry helping brands to
-                seamlessly manage their customers, ensure quality control, and
-                drive desired outcomes while enabling process automation and
-                real-time efficiency.
+                <b>
+                  Engage & drive your donors and volunteers seamlessly by
+                  implementing Microsoft Dynamics 365 for Nonprofits embedded
+                  with AI-driven insights and real-time data capabilities.
+                </b>
+                <br /> <br />
+                With Dynamics 365 Nonprofit Accelerator, non-profit
+                organizations can effectively manage their donors, volunteers,
+                vendors, and more. Leveraging this all-in-one platform,
+                charity-based organizations can overcome challenges and manage
+                their end-to-end non-profit practices from sales, customer
+                service, social events & engagement, project service automation
+                to field service, awards management, impact tracking, and more.
               </p>
             </header>
           </div>
@@ -90,22 +89,19 @@ const Startup = () => {
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
                 <h2>
-                  How Dynamics 365
+                  Why Implement
                   <br />
-                  Food & Beverage ERP
-                  <br />
-                  Helps to Unify Your Business Practices
+                  Dynamics 365 <br />
+                  for Nonprofits
                 </h2>
                 <p>
-                  Microsoft Dynamics 365 Food & Beverage ERP is designed to
-                  connect, streamline, and drive end-to-end processes from human
-                  resource management to financial management to warehousing,
-                  distribution, and quality assurance. With real-time tracking
-                  and depth insights, it allows enterprises to make profitable
-                  decisions.
+                  Since Non-profit organizations comprise a multitude of
+                  practices being managed as an hourly need. Microsoft Dynamics
+                  365 for Charities or non-profit units helps to simplify their
+                  organizational practices to ensure a smoother flow.
                 </p>
               </div>
-              <div className="col-lg-6 align-self-center">
+              <div className="col-lg-6">
                 <div className="content-icons-modil-1">
                   <div className="content-inner-moil-1">
                     <div className="icons-left">
@@ -115,10 +111,12 @@ const Startup = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        Dynamics 365 for Food and Beverages helps manufacturing
-                        units to analyze demand, manage inventory levels, and
-                        drive real-time financial visibility to minimize costs
-                        and maximize outcomes.
+                        Manage your donors, customers, and vendors to impact
+                        your entire non-profit ecosystem. Microsoft Dynamics 365
+                        for Charities helps organizations to automate and
+                        streamline their organizational flow by enabling
+                        personal interaction between people and enabling
+                        real-time eyes into each process.
                       </p>
                     </div>
                   </div>
@@ -131,11 +129,9 @@ const Startup = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        Drive seamless ordering and delivery model by
-                        implementing Dynamics 365 for Food and Beverages
-                        industry. With improved insights into the warehousing
-                        pipeline, instantly respond to fulfill timely changing
-                        demands and customer anticipations.
+                        Modernize your finance & operations, build & sustain a
+                        relationship with people, manage social activities, and
+                        enable data-driven decisions to bring greater impact.
                       </p>
                     </div>
                   </div>
@@ -148,9 +144,10 @@ const Startup = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        Connect, communicate, and roll out effective business
-                        strategy in your food and beverage operations with
-                        Dynamics 365 Food & Beverage ERP.
+                        Ensure your fund-raising campaign success, drive
+                        real-time communication, and sustain a relationship with
+                        your donors, vendors, and volunteers with a long-lasting
+                        impact to attain mission success.
                       </p>
                     </div>
                   </div>
@@ -159,6 +156,7 @@ const Startup = () => {
             </div>
           </div>
         </section>
+
         <section className="call_to_action call_to_action-height">
           <div className="container">
             <div className="row">
@@ -174,232 +172,207 @@ const Startup = () => {
                     Our Expert Team
                   </h3>
                   <p>
-                    Talk to our Dynamics 365 expert to get the best solution for
-                    your Food & Beverage industry.
+                    Let's talk and come up with a specific solution for your
+                    non-profit organisation to drive innovation and efficiency.
+                    <br />
                   </p>
                   <div className="m-o-t m-o-t-inde">
-                  <Link href="#exampleModal">
-                    <a
+                    <Link href="#exampleModal"><a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
-                    </a>
-                  </Link>
+                      <span>Schedule a Demo</span></a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="industry_service_bottoms">
+        <section className="industry_service_bottomss">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 col-md-8">
-                <header className="section-header">
-                  <h2>
-                    Microsoft Dynamics 365 For Food & Beverage industry Features
-                  </h2>
-                  <p>
-                    Bring real-time transparency into every step of your goods
-                    movement while minimizing the transportation cost and
-                    maximizing efficiency.
-                  </p>
-                </header>
+              <header className="section-header">
+              <h2>
+                Microsoft Dynamics 365 For Nonprofits Features
+              </h2>
+            </header>
               </div>
             </div>
-            <div className="row position-relative">
+            <div className="row position-relative g-5">
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
+                  <div className="card_new_img">
                     <img
-                      src="/img/Distribution-Delivery.svg"
-                      alt="Distribution-Delivery"
+                      src="/img/icons-nonprofits_Constituent-Management-1.svg"
+                      alt="icons-nonprofits_Constituent-Management-1"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Warehouse & Distribution Management</h3>
+                    <h3>Constituent Management</h3>
                     <p>
-                      Bring real-time transparency into every step of your goods
-                      movement while minimizing the transportation cost and
-                      maximizing efficiency.
+                      Seamlessly manage profiles of people involved in your
+                      non-profit campaign comprising biographical details,
+                      communication methods, relationships, and more.
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
+                  <div className="card_new_img">
                     <img
-                      src="/img/Asset-Management.svg"
-                      alt="Asset-Management"
+                      src="/img/icons-nonprofits_Awards-Management.svg"
+                      alt="icons-nonprofits_Awards-Management"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Marketing & Sales</h3>
+                    <h3>Donation & Awards Management</h3>
                     <p>
-                      Track and manage all your customers' activities, marketing
-                      campaigns, and sales pipeline leveraging a single
-                      integrated system with Food & Beverage ERP.
+                      Have a single and real-time view of your donations and
+                      awards data and keep tracking the same with Dynamics 365
+                      for non-profits.
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
+                  <div className="card_new_img">
                     <img
-                      src="/img/Customer-Management.svg"
-                      alt="Customer-Management"
+                      src="/img/Fundraising.svg"
+                      alt="Fundraising"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Customer Management</h3>
+                    <h3>Fundraising &amp; Membership Management</h3>
                     <p>
-                      Connect, engage, and sustain a healthy relationship with
-                      your customers. Serve them a personalized deal with
-                      Dynamics 365 for Food & Beverages.
+                      With a nonprofit accelerator, track your high-end
+                      fundraising. Create membership levels and manage &amp;
+                      track the membership in real-time.
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
+                  <div className="card_new_img">
                     <img
-                      src="/img/Production-Mnagement.svg"
-                      alt="Production-Mnagement"
+                      src="/img/icons-nonprofits_program-delivery-1.svg"
+                      alt="Program Delivery"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Manufacturing Management</h3>
+                    <h3>Program Delivery</h3>
                     <p>
-                      Drive seamless manufacturing from planning & organizing to
-                      production and supply. Keep tracing and stay updated with
-                      your manufacturing operations.
+                      Deliver dedication and efficiency to your mission, track
+                      &amp; measure results, and communicate the impact to the
+                      resulting dashboard.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
+                  <div className="card_new_img">
                     <img
-                      src="/img/Design-and-Training.svg"
-                      alt="Design-and-Training"
+                      src="/img/IATI-Processes.svg"
+                      alt="IATI-Processes"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Supply Chain Management</h3>
+                    <h3>IATI Processes </h3>
                     <p>
-                      Streamline and bring transparency across your supply chain
-                      pipeline and drive efficiency by implementing Dynamics 365
-                      for Food & Beverages industry.
+                      Manage your global campaigns and bring transparency in
+                      your fundraising &amp; programmatic activities along with
+                      aid money insights.
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
+                  <div className="card_new_img">
                     <img
-                      src="/img/Service-Management.svg"
-                      alt="Service-Management"
+                      src="/img/icons-nonprofits_CRM-integrator-1.svg"
+                      alt="Finance & CRM Data Integrator"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Analytics & Insights</h3>
+                    <h3>Finance & CRM Data Integrator</h3>
                     <p>
-                      Make smarter yet productive data-driven decisions
-                      instantly without waiting for manual reports leveraging
-                      AI-equipped Dynamics 365 Food & Beverage ERP.
+                      Integrate, connect, and drive your non-profit accelerator
+                      constituents, awards, donations, programs, finance, and
+                      more.
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
+                  <div className="card_new_img">
                     <img
-                      src="/img/predict-opportunity.svg"
-                      alt="predict-opportunity"
+                      src="/img/Assessment-Management.svg"
+                      alt="Assessment-Management"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Production & Quality Control</h3>
+                    <h3>Case & Assessment Management</h3>
                     <p>
-                      Have control over the right production cycle and maintain
-                      the quality standards while increasing food safety and
-                      enabling the right planning & execution strategy.
+                      Seamlessly and effortlessly track clients and cases
+                      related to a specific program to accomplish your goals
+                      involved in your mission.
                     </p>
                   </div>
                 </div>
+                <div className="busine_service_bottom-right-indst">
+                  <div className="card_new_img">
+                    <img
+                      src="/img/Project-Management-Program-Design.svg"
+                      alt="Project-Management-Program-Design"
+                    />
+                  </div>
+                  <div className="card_new_content">
+                    <h3>Project Management & Program Design</h3>
+                    <p>
+                      Track your project activities and progress to assure
+                      timely delivery of your programs. Impact objectives,
+                      budgets, and results.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className="row movi-up ">
+              <div className="col-lg-12">
+                <div className="center-pic">
+                  <img src="/img/Group-948.png" alt="Group-948.png" />
+                </div>
+              </div>
+            </div> */}
+          </div>
+        </section>
 
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-ax-_sales-management.svg"
-                      alt="Sales-Management"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Financial Management</h3>
-                    <p>
-                      Keep real-time eyes on your every financial move. Drive
-                      strategic flow from tax & duty management to discount
-                      management, and more.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="call-to-action-center hero-4">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-9">
-                <div className="call-to-action-content">
-                  <h3>Talk to Us to Reveal Your Actual Requirements</h3>
-                  <p>
-                    Every specific industry comprises a different set of
-                    practices and hence, requires a highly customized solution
-                    to drive innovation, flexibility, and scalability. So, you
-                    are one step away to start driving productive results. With
-                    Microsoft Dynamics 365 Food & Beverage ERP, enterprises can
-                    efficiently manage their end-to-end operational practices to
-                    accomplish the desired results.
-                  </p>
-                  <div className="text-center m-o-t m-o-t-hv">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Get Started </span>
-                    </a>
-                  </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <section className="busine_service_bottom">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 align-items-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
-                      src="/img/food and beverages- side.png"
+                    <Image
+                      src="/img/non-profit side.png"
                       className="fix-im"
-                      alt="food and beverages- side"
+                      alt="non-profit side"
+                      width={553} height={548}
                     />
-                    <div className="video-ytube video-ytubes">
-                      <div className="popup-btn popup-btns">
-                        <Link href="#javascript:void(0)">
-                          <a
-                            onClick={() => setOpen(true)}
-                          >
+                    <div className="video-ytube">
+                      <div className="popup-btn">
+                        <Link
+                          href="#javascript:void(0)"><a
+                          onClick={() => setOpen(true)}
+                        >
+                          <Image
+                            src="/img/Video-Non Profit.png"
+                            alt="Video-Non Profit"
+                            width={390} height={259}
+                          />
+                          <span className="cente-icns">
                             <img
-                              src="/img/Video-Food And beerages.png"
-                              alt="Video-Food And beerages"
+                              src="/img/play_icons.svg"
+                              alt="play_icons"
                             />
-                            <span className="cente-icns">
-                              <img src="/img/play_icons.svg" alt="play_icons" />
-                            </span>
-                          </a>
+                          </span></a>
                         </Link>
                       </div>
                     </div>
@@ -409,34 +382,62 @@ const Startup = () => {
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
                   <h2>
-                    How Dynamics 365 <br /> Food and Beverages <br />
-                    Can Help to Elevate Your Business Results?
+                    How Microsoft Dynamics 365 for Charities can Boost Your
+                    Non-profit Flow
                   </h2>
                   <p>
-                    Let's understand, how Microsoft Dynamics 365 for Food &
-                    Beverages industry can simplify & automate your processes
-                    and trigger your productivity.
+                    Willing to know how Microsoft Dynamics 365 can help you
+                    evolve your non-profit organizational flow? Schedule your
+                    demo today.
                   </p>
                   <div className="text-lg-start mm-t">
-                  <Link href="#exampleModal">
-                    <a
+                    <Link href="#exampleModal"><a
                       data-bs-toggle="modal"
+                  
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
-                    </a>
-                  </Link>
+                      <span>Schedule a Demo</span></a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
+        <section className="call-to-action-center hero-4">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-12">
+                <div className="call-to-action-content">
+                  <h3>
+                    How To Bring A Seamless Flow <br />
+                    to your Non-profit organization?
+                  </h3>
+                  <p>
+                    We can understand your specific business world and can build
+                    a solution addressing your custom business needs and
+                    considering your enterprise values. Just talk to our experts
+                    and let's come up with a specific solution for your business
+                    to impact your overall organizational practices and maximize
+                    your outcomes.
+                  </p>
+                  <div className="text-center m-o-t m-o-t-hv">
+                    <Link href="#exampleModal"><a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Get Started Now</span></a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section className="industry-more-sec">
           <div className="container">
             <header className="section-header">
-              <h2>Explore Other Industries</h2>
+              <h2>EXPLORE Other Industries</h2>
             </header>
             <div className="row mobile-margin-01">
               <div className="col-lg-12">
@@ -478,35 +479,34 @@ const Startup = () => {
                     >
                       <SwiperSlide>
                         <div className="swiper-slide">
-                          <div className="swiper-slide">
-                            <div className="industries-list-more">
-                              <a href="/industries/microsoft-cloud-for-nonprofit/">
-                                <div className="img-wrp">
-                                  <img
-                                    src="/img/NotforProfit.svg"
-                                    alt="NotforProfit"
-                                  />
-                                </div>
-                                <div className="text-wrp-content">
-                                  <h3>Not for Profit</h3>
-                                  <p>
-                                    Bring Transparency And Drive Efficiency In
-                                    Your Non-Profit Organization With Microsoft
-                                    Dynamics 365 For Charities.
-                                  </p>
-                                  <span>Explore Now</span>
-                                </div>
-                              </a>
-                            </div>
+                          <div className="industries-list-more">
+                            <Link href="/food-and-beverages/">
+                              <a><div className="img-wrp">
+                                <img
+                                  src="/img/Food-and-beverage.svg"
+                                  alt="Food-and-beverage"
+                                />
+                              </div>
+                              <div className="text-wrp-content">
+                                <h3>Food & Beverages</h3>
+                                <p>
+                                  Efficiently manage your inventory and supply
+                                  chain by implementing Dynamics 365 for Food
+                                  and Beverages business.
+                                </p>
+                                <span>Explore Now</span>
+                              </div></a>
+                            </Link>
                           </div>
                         </div>
                       </SwiperSlide>
+
                       <SwiperSlide>
                         <div className="swiper-slide">
                           <div className="swiper-slide">
                             <div className="industries-list-more">
-                              <a href="/industries/ecommerce/">
-                                <div className="img-wrp">
+                              <Link href="/industries/ecommerce/">
+                                <a><div className="img-wrp">
                                   <img
                                     src="/img/Ecommerce.svg"
                                     alt="Ecommerce"
@@ -519,8 +519,8 @@ const Startup = () => {
                                     And Improve Your Customer Experience.
                                   </p>
                                   <span>Explore Now</span>
-                                </div>
-                              </a>
+                                </div></a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -529,8 +529,8 @@ const Startup = () => {
                         <div className="swiper-slide">
                           <div className="swiper-slide">
                             <div className="industries-list-more">
-                              <a href="/industries/professional-services/">
-                                <div className="img-wrp">
+                              <Link href="/industries/professional-services/">
+                                <a><div className="img-wrp">
                                   <img
                                     src="/img/proffesional-service.svg"
                                     alt="proffesional-service"
@@ -544,8 +544,8 @@ const Startup = () => {
                                     Dynamics 365 Business Applications.
                                   </p>
                                   <span>Explore Now</span>
-                                </div>
-                              </a>
+                                </div></a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -554,11 +554,11 @@ const Startup = () => {
                         <div className="swiper-slide">
                           <div className="swiper-slide">
                             <div className="industries-list-more">
-                              <a href="/industries/microsoft-cloud-for-manufacturing/">
-                                <div className="img-wrp">
+                              <Link href="/industries/microsoft-cloud-for-manufacturing/">
+                                <a><div className="img-wrp">
                                   <img
-                                    src="/img/microsoft-cloud-for-manufacturing.svg"
-                                    alt="microsoft-cloud-for-manufacturing"
+                                    src="/img/Food-and-beverage.svg"
+                                    alt="Food-and-beverage"
                                   />
                                 </div>
                                 <div className="text-wrp-content">
@@ -569,8 +569,8 @@ const Startup = () => {
                                     365 for Manufacturing and Distribution.
                                   </p>
                                   <span>Explore Now</span>
-                                </div>
-                              </a>
+                                </div></a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -579,9 +579,12 @@ const Startup = () => {
                         <div className="swiper-slide">
                           <div className="swiper-slide">
                             <div className="industries-list-more">
-                              <a href="/industries/startup/">
-                                <div className="img-wrp">
-                                  <img src="/img/start-up.svg" alt="start-up" />
+                              <Link href="/industries/food-and-beverages/">
+                                <a><div className="img-wrp">
+                                  <img
+                                    src="/img/Food-and-beverage.svg"
+                                    alt="Food-and-beverage"
+                                  />
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Startups</h3>
@@ -591,8 +594,8 @@ const Startup = () => {
                                     your Startup with Microsoft Dynamics 365.
                                   </p>
                                   <span>Explore Now</span>
-                                </div>
-                              </a>
+                                </div></a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -605,27 +608,9 @@ const Startup = () => {
             </div>
           </div>
         </section>
-
-        <section className="blogs-extra">
-          <div className="container">
-            <header className="section-header">
-              <h2>
-                Check out our Best Resources
-                <br />
-                for food and beverages
-              </h2>
-            </header>
-            <div className="row top-2 gx-5">
-              <Blog />
-              <div className="col-lg-6 align-self-center">
-                <img src="/img/n/Dynamics-food-beverages-Banner.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
     </>
   );
 };
 
-export default Startup;
+export default NonProfits;

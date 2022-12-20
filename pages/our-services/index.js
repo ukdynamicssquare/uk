@@ -1,16 +1,19 @@
 import Head from 'next/head'
+import Link from "next/link";
+import Image from "next/image";
 
 const Inedex = () => {
     return (
         <>
         <Head>
-        <title>Dynamics 365 Services &amp; Consulting | Dynamics Square</title>
-        <meta name="description"
-          content="We deliver comprehensive Dynamics 365 services including consulting, training, upgrade and implementation of Microsoft Business Applications to grow your business fast." />
-          <meta name="robots" content="noindex,nofollow" />
+        <title>Microsoft Dynamics Services | Trusted by 300+ Clients</title>
+        <meta
+          name="description"
+          content="Power your business by our unique Microsoft Dynamics Services that includes Implementation services, cloud migration, consulting services and upgrade."
+        />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/our-services/"
+          href="https://www.dynamicssquare.co.uk/our-services/"
         />
         </Head>
         <section className="Solution-banner hero-1 hero">
@@ -18,19 +21,20 @@ const Inedex = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-              Microsoft Dynamics 365 Services
+                Microsoft <br />
+                Dynamics Services
               </h1>
               <p>
-              Take your business to the next level by our Dynamics 365 services and solutions.
+                Take your business to the next level by Dynamics Square expert
+                solutions.
               </p>
               <div className="text-center text-lg-start">
-                <a
+                <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
-                  href="#exampleModal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Request a Call Back</span>
-                </a>
+                  <span>Schedule a Demo</span></a>
+                </Link>
               </div>
             </div>
 
@@ -47,39 +51,40 @@ const Inedex = () => {
       <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
                 <h2>
-                Microsoft Business Solutions
+                  Microsoft <br />
+                  Business Solutions
                 </h2>
               </div>
               <div className="custom-p-001">
-                <p className="ne4">
+                <p class="ne4">
                   We deliver comprehensive <b>Microsoft business solutions</b>{" "}
                   (&nbsp;
-                  <a
+                  <Link
                     title="Enterprise resource planning"
                     href="/products/microsoft-dynamics-erp/"
                   >
                     enterprise resource planning
-                  </a>
+                  </Link>
                   &nbsp;(ERP) and&nbsp;
-                  <a
+                  <Link
                     title="Customer relationship management"
                     href="/products/microsoft-dynamics-crm/"
                   >
                     customer relationship management
-                  </a>
+                  </Link>
                   &nbsp;(CRM)&nbsp;software applications ) that help your
                   business transform into an ultra-efficient, customer-centric,
                   thriving organization.
                 </p>
-                <p className="ne4">
+                <p class="ne4">
                   We analyze your requirements, understand your unique work
                   style, and create a customized blueprint outlining solutions
                   ideal for your business.
                 </p>
-                <p className="ne4">
+                <p class="ne4">
                   If your internal processes are consumed by chaos, we'll
                   organize them. If you plan on establishing new clear-cut
                   guidelines and standards for work and conduct, we'll devise
@@ -128,12 +133,12 @@ const Inedex = () => {
                 </p>
                 <br />
                 <div className="text-lg-center">
-                  <a
-                    href="/our-services/dynamics-365-implementation-services"
+                  <Link
+                    href="/our-services/dynamics-365-implementation-services"><a
                     className="btn-get-started btn-sm scrollto"
                   >
-                    <span>View More</span>
-                  </a>
+                    <span>View More</span></a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -148,12 +153,12 @@ const Inedex = () => {
                 </p>
                 <br />
                 <div className="text-lg-center">
-                  <a
-                    href="/our-services/dynamics-365-upgrade-services/"
+                  <Link
+                    href="/our-services/dynamics-365-upgrade-services/"><a
                     className="btn-get-started btn-sm scrollto"
                   >
-                    <span>View More</span>
-                  </a>
+                    <span>View More</span></a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -169,12 +174,12 @@ const Inedex = () => {
                 </p>
                 <br />
                 <div className="text-lg-center">
-                  <a
-                    href="/our-services/dynamics-365-support-services"
-                    className="btn-get-started btn-sm scrollto"
-                  >
-                    <span>View More</span>
-                  </a>
+                  <Link
+                    href="/our-services/dynamics-365-support-services"><a
+                    className="btn-get-started btn-sm scrollto">
+            
+                    <span>View More</span></a>
+                  </Link>
                 </div>
               </div>
             </div>
