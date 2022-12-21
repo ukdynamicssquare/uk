@@ -29,7 +29,12 @@ const EbookList = () => {
               </p>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Cover_Book_Moc.png" alt="Cover_Book_Moc" width={582} height={466} />
+              <Image
+                src="/img/Cover_Book_Moc.png"
+                alt="Cover_Book_Moc"
+                width={582}
+                height={466}
+              />
             </div>
           </div>
         </div>
@@ -86,11 +91,7 @@ const EbookList = () => {
                           </h5>
                           <div className="btn-003 btn-009">
                             <Link href="/ebook/d365-supply-chain-management/">
-                              <a
-                              className="btn btn-sm btn-danger"
-                              
-                            >
-                              View Now</a>
+                              <a className="btn btn-sm btn-danger">View Now</a>
                             </Link>
                           </div>
                         </div>
@@ -98,16 +99,14 @@ const EbookList = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
-                        <Link
-                          href="/ebook/dynamics-crm/">
-                            <a
-                          className="over-ff text-center"
-                        >
-                          <img
-                            className="card-img-top"
-                            src="/img/dynamics-CRM-Ebook-featured-image.jpg"
-                            alt="dynamics-CRM-Ebook-featured-images"
-                          /></a>
+                        <Link href="/ebook/dynamics-crm/">
+                          <a className="over-ff text-center">
+                            <img
+                              className="card-img-top"
+                              src="/img/dynamics-CRM-Ebook-featured-image.jpg"
+                              alt="dynamics-CRM-Ebook-featured-images"
+                            />
+                          </a>
                         </Link>
                         <div className="card-body">
                           <h5 className="card-title">
@@ -116,12 +115,8 @@ const EbookList = () => {
                             </Link>
                           </h5>
                           <div className="btn-003 btn-009">
-                            <Link  href="/ebook/dynamics-crm/">
-                              <a
-                              className="btn btn-sm btn-danger"
-                             
-                            >
-                              View Now</a>
+                            <Link href="/ebook/dynamics-crm/">
+                              <a className="btn btn-sm btn-danger">View Now</a>
                             </Link>
                           </div>
                         </div>
@@ -129,16 +124,14 @@ const EbookList = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
-                        <Link
-                          href="/ebook/dynamics-365-finance/">
-                            <a
-                          className="over-ff text-center"
-                        >
-                          <img
-                            className="card-img-top"
-                            src="/img/nav-guide-pic.png"
-                            alt="ebook-img"
-                          /></a>
+                        <Link href="/ebook/dynamics-365-finance/">
+                          <a className="over-ff text-center">
+                            <img
+                              className="card-img-top"
+                              src="/img/nav-guide-pic.png"
+                              alt="ebook-img"
+                            />
+                          </a>
                         </Link>
                         <div className="card-body">
                           <h5 className="card-title">
@@ -147,12 +140,8 @@ const EbookList = () => {
                             </Link>
                           </h5>
                           <div className="btn-003 btn-009">
-                            <Link  href="/ebook/dynamics-365-finance/">
-                              <a
-                              className="btn btn-sm btn-danger"
-                             
-                            >
-                              View Now</a>
+                            <Link href="/ebook/dynamics-365-finance/">
+                              <a className="btn btn-sm btn-danger">View Now</a>
                             </Link>
                           </div>
                         </div>
@@ -161,16 +150,14 @@ const EbookList = () => {
 
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
-                        <Link
-                          href="/ebook/upgrade-nav-to-business-central/">
-                            <a
-                          className="over-ff text-center"
-                        >
-                          <img
-                            className="card-img-top"
-                            src="/img/Ebook-Nav-to-BC.png"
-                            alt="ebooh-img"
-                          /> </a>
+                        <Link href="/ebook/upgrade-nav-to-business-central/">
+                          <a className="over-ff text-center">
+                            <img
+                              className="card-img-top"
+                              src="/img/Ebook-Nav-to-BC.png"
+                              alt="ebooh-img"
+                            />{" "}
+                          </a>
                         </Link>
                         <div className="card-body">
                           <h5 className="card-title">
@@ -180,11 +167,7 @@ const EbookList = () => {
                           </h5>
                           <div className="btn-003 btn-009">
                             <Link href="/ebook/upgrade-nav-to-business-central/">
-                              <a
-                              className="btn btn-sm btn-danger"
-                              
-                            >
-                              View Now</a>
+                              <a className="btn btn-sm btn-danger">View Now</a>
                             </Link>
                           </div>
                         </div>
@@ -192,16 +175,14 @@ const EbookList = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
-                        <Link
-                          href="/ebook/how-to-choose-right-erp/">
-                            <a
-                          className="over-ff"
-                        >
-                          <img
-                            className="card-img-top"
-                            src="/img/ebooh-img.png"
-                            alt="ebooh-img"
-                          /></a>
+                        <Link href="/ebook/how-to-choose-right-erp/">
+                          <a className="over-ff">
+                            <img
+                              className="card-img-top"
+                              src="/img/ebooh-img.png"
+                              alt="ebooh-img"
+                            />
+                          </a>
                         </Link>
                         <div className="card-body">
                           <h5 className="card-title">
@@ -212,11 +193,7 @@ const EbookList = () => {
                           </h5>
                           <div className="btn-003 btn-009">
                             <Link href="/ebook/how-to-choose-right-erp/">
-                              <a
-                              className="btn btn-sm btn-danger"
-                              
-                            >
-                              View Now</a>
+                              <a className="btn btn-sm btn-danger">View Now</a>
                             </Link>
                           </div>
                         </div>
@@ -224,36 +201,34 @@ const EbookList = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
-                        <Link  href="#powerBIModals"><a
-                          data-bs-toggle="modal"
-                        
-                          className="over-ff text-center"
-                        >
-                          <img
-                            className="card-img-top"
-                            src="/img/powerbi-guid-pic.png"
-                            alt="powerbi-guid-pic"
-                          /></a>
+                        <Link href="#powerBIModals">
+                          <a
+                            data-bs-toggle="modal"
+                            className="over-ff text-center"
+                          >
+                            <img
+                              className="card-img-top"
+                              src="/img/powerbi-guid-pic.png"
+                              alt="powerbi-guid-pic"
+                            />
+                          </a>
                         </Link>
                         <div className="card-body">
                           <h5 className="card-title">
-                            <Link  href="#powerBIModals">
-                            <a
-                              data-bs-toggle="modal"
-                              
-                            >Power BI: The Definitive Guide For SMBs</a>
-                                                        
-                              
+                            <Link href="#powerBIModals">
+                              <a data-bs-toggle="modal">
+                                Power BI: The Definitive Guide For SMBs
+                              </a>
                             </Link>
                           </h5>
                           <div className="btn-003 btn-009">
                             <Link href="#powerBIModals">
                               <a
-                              className="btn btn-sm btn-danger"
-                              data-bs-toggle="modal"
-                              
-                            >
-                              Download Now</a>
+                                className="btn btn-sm btn-danger"
+                                data-bs-toggle="modal"
+                              >
+                                Download Now
+                              </a>
                             </Link>
                           </div>
                         </div>
