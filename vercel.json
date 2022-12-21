@@ -56,7 +56,6 @@
     { "source": "/products/microsoft-dynamics-365-field-service.html", "destination": "/products/microsoft-dynamics-365-field-service/", "permanent": true },
     { "source": "/contact-us.html", "destination": "/contact-us/", "permanent": true },
     { "source": "/products/marketing/", "destination": "/products/microsoft-dynamics-365-marketing/", "permanent": true },
-    { "source": "/wp-admin/admin-ajax.php?action=rest-nonce", "destination": "/", "permanent": true },
     { "source": "/career.html", "destination": "/career/", "permanent": true },
     { "source": "/sitemap.html", "destination": "/", "permanent": true },
     { "source": "/video-blog", "destination": "/", "permanent": true },
