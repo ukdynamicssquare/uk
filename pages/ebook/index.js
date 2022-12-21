@@ -224,21 +224,24 @@ const EbookList = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
-                        <Link
+                        <Link  href="#powerBIModals"><a
                           data-bs-toggle="modal"
-                          href="#powerBIModals"
+                        
                           className="over-ff text-center"
                         >
                           <img
                             className="card-img-top"
                             src="/img/powerbi-guid-pic.png"
                             alt="powerbi-guid-pic"
-                          />
+                          /></a>
                         </Link>
                         <div className="card-body">
                           <h5 className="card-title">
                             <Link  href="#powerBIModals">
-                              <a>Power BI: The Definitive Guide For SMBs</a>
+                            <a
+                              data-bs-toggle="modal"
+                              
+                            >Power BI: The Definitive Guide For SMBs</a>
                                                         
                               
                             </Link>

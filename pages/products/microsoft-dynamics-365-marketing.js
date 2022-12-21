@@ -1,44 +1,48 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Image from "next/image";
+import Script from "next/script";
+import Link from "next/link";
 
 const Marketing = () => {
   return (
     <>
       <Head>
-        <title>
-        Microsoft Dynamics 365 Marketing | Dynamics Square
+      <title>
+          Dynamics 365 Marketing Automation & Implementation Partner
         </title>
         <meta
           name="description"
-          content="Microsoft Dynamics 365 Marketing is a marketing automation application that allows you to transform leads into fruitful relationships in a more efficient and profitable way."
+          content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Find out how you can use Dynamics 365 Marketing to make the most out of your marketing campaigns."
         />
            <meta name="robots" content="noindex,nofollow" />
-        <link
+           <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-marketing/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/"
         />
         
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 mobile-1 align-self-center">
+            <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-              Dynamics 365 Marketing
+                Dynamics 365
+                <br />
+                Marketing
               </h1>
               <p>Automate your marketing to increase your conversion rates</p>
               <div>
                 <div className="text-center text-lg-start align-self-center">
-                  <a
+                  <Link  href="#exampleModal"><a
                     data-bs-toggle="modal"
-                    href="#exampleModal"
+                  
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
-                  </a>
+                    <span>Schedule a Demo</span></a>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="col-lg-1"></div>
             <div className="col-lg-6 align-self-center">
               <img
                 src="/img/marketing-banners.png"
@@ -50,21 +54,21 @@ const Marketing = () => {
       </section>
       <section>
         <div className="container">
-              <div className="row justify-content-center">
-                  <div className="col-lg-8 col-md-8">
-                      <header className="section-header">
-                      <h2> What Is Dynamics 365 Marketing?</h2>
-                      <p>Dynamics 365 Marketing is a marketing automation application that allows you to transform leads into fruitful relationships in a more efficient and profitable way. With Dynamics 365 Marketing you will be able to tailor the customer journey to your needs and transform it into a unique experience until the sale is achieved, and even beyond.</p> <br/>
-                      </header>
-                </div>
-          </div>
-          <div className="row justify-content-center">
-                  <div className="col-lg-8 col-md-8">
-                      <header className="section-header">
-                      <h2>Dynamics 365 Marketing Features</h2>
-                      </header>
-                </div>
-          </div>
+          <header className="section-header">
+            <h2>
+              What is dynamics 365
+              <br />
+              Marketing?
+            </h2>
+            <p>
+              Dynamics 365 Marketing is a marketing automation application that
+              allows you to transform leads into fruitful
+              relationships in a more efficient and profitable way. With
+              Dynamics 365 Marketing you will be able to tailor
+              the customer journey to your needs and transform it into a unique
+              experience until the sale is achieved, and even beyond.
+            </p>
+          </header>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -139,7 +143,8 @@ const Marketing = () => {
                         The platform offers a customized form of communication
                         for the employees. Different customers need different
                         marketing strategies depending upon the requirements and
-                        the product or service that is being marketed. <a href="/products/microsoft-dynamics-365/">Dynamics 365</a> allows the users to customize such communication or
+                        the product or service that is being marketed. Dynamic
+                        365 allows the users to customize such communication or
                         marketing strategy well by carefully segmenting the
                         customers in different segments according to diverse
                         factors.
@@ -294,7 +299,7 @@ const Marketing = () => {
                       <div className="accordion-body">
                         Lead scoring is an essential method as it is the basic
                         way to converted leads into potential customers.
-                        Dynamics 365 ensures to automate the process of lead
+                        <Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link> ensures to automate the process of lead
                         scoring through different marketing campaigns.
                         Ultimately, it leads to a smooth and efficient mode of
                         lead scoring that also leads to welcoming of more number
@@ -449,7 +454,7 @@ const Marketing = () => {
                     >
                       <div className="accordion-body">
                         Apart from the above-mentioned functions or elements
-                        that come in package, Microsoft Dynamics also have some
+                        that come in package, <Link href="/">Microsoft Dynamics</Link> also have some
                         add-ons to offer. The first one is the option of Dynamic
                         365 portals. This is basically a platform that allows
                         all the users such as customers, clients, or the team
@@ -475,14 +480,14 @@ const Marketing = () => {
             <h2>Dynamics 365 Marketing Pricing</h2>
           </header>
           <div className="row gy-4 p-9 justify-content-center">
-            <div className="col-lg-5 col-md-5">
+            <div className="col-lg-6 col-md-6">
               <div className="box box-22">
                 <h3>
                 Dynamics 365 Marketing
                 </h3>
-                <p><b>For organizations without any other Dynamics 365 application</b></p>
+                <p><b>For organisations without any other Dynamics 365 application</b></p>
                 <div className="price">
-                  <sup>$</sup>1,500<span>Per Tenant/Month</span>
+                  <sup>£</sup>1,131.20<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -491,14 +496,14 @@ const Marketing = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-5 col-md-5">
+            <div className="col-lg-6 col-md-6">
               <div className="box box-22">
                 <h3>
                 Dynamics 365 Marketing Attach
                 </h3>
-                <p><b>For organizations with a qualifying Dynamics 365 application<sup>3</sup></b></p>
+                <p><b>For organisations with a qualifying Dynamics 365 application<sup>3</sup></b></p>
                 <div className="price">
-                  <sup>$</sup>750<span>Per Tenant/Month</span>
+                  <sup>£</sup>565.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -511,13 +516,13 @@ const Marketing = () => {
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">
-                <a
+                <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
-                  href="#exampleModal"
+                 
                   className="btn-get-red"
                 >
-                  <span>Get Started Now</span>
-                </a>
+                  <span>Get Started Now</span></a>
+                </Link>
               </div>
             </div>
           </div>

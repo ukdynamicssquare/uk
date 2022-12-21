@@ -6094,7 +6094,7 @@ color:var(--color-red)
   box-shadow: 0 15px 30px 0 rgba(29, 52, 98, 0.16);
   background-color: #fff;
 padding:60px;
-margin-top:-130px
+margin-top:-130px !important
 }
 .new-hh{
   padding-bottom: 30px;
