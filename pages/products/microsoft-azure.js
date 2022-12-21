@@ -1,4 +1,7 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Image from "next/image";
+import Script from "next/script";
+import Link from "next/link";
 
 const MicrosoftAzure = () => {
   return (
@@ -11,9 +14,8 @@ const MicrosoftAzure = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/products/microsoft-azure/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-azure/"
         />
-                <meta name="robots" content="noindex,nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -29,18 +31,19 @@ const MicrosoftAzure = () => {
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span>
-                  </a>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/azurebanner.png" alt="azure-Banner" />
+              <Image src="/img/azurebanner.png" alt="azure-Banner" width={728} height={466} />
             </div>
           </div>
         </div>
@@ -49,9 +52,7 @@ const MicrosoftAzure = () => {
       <section>
         <div className="container">
           <header className="section-header">
-            <h2>
-              What Is Microsoft Azure?
-            </h2>
+            <h2>What Is Microsoft Azure?</h2>
             <p>
               Microsoft Azure is referred to cloud computing service owned and
               operated by Microsoft to manage hosted applications via its
@@ -375,13 +376,14 @@ const MicrosoftAzure = () => {
                   values and process flow.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span>
-                  </a>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -392,9 +394,7 @@ const MicrosoftAzure = () => {
       <section className="Solution-business-why mar-back">
         <div className="container">
           <header className="section-header">
-            <h2>
-              Microsoft Azure Features?
-            </h2>
+            <h2>Microsoft Azure Features?</h2>
           </header>
           <div className="row pdd1">
             <div className="col-md-4">
