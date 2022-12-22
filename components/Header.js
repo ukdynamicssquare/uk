@@ -601,6 +601,42 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
+                                  <div className="col-md-4">
+                                  <div className="list-itmes-maga-menu">
+                                    <a href="/products/microsoft-dynamics-erp/">
+                                      <div className="pic">
+                                        <img
+                                          src="/img/menu-icons/ERP.png"
+                                          alt="GP"
+                                        />
+                                      </div>
+                                      <div className="content">
+                                        <span>Dynamics ERP</span>
+                                        <p>
+                                        Streamline Entire Business Management with Ease
+                                        </p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div className="col-md-4">
+                                  <div className="list-itmes-maga-menu">
+                                    <a href="/products/microsoft-dynamics-365-finance-operations/">
+                                      <div className="pic">
+                                        <img
+                                          src="/img/menu-icons/F&Q.png"
+                                          alt="GP"
+                                        />
+                                      </div>
+                                      <div className="content">
+                                        <span>Dynamics F&O</span>
+                                        <p>
+                                        Accelerate your Finance and Inventory more Efficiently
+                                        </p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
                                 </div>
                               </div>
                             </div>
@@ -864,13 +900,14 @@ class Header extends Component {
                     </a>
                   </li>
                   <li>
-                    <a
-                      target="_self"
-                      className="getstarted custtss"
-                      href="tel:+12818990865"
-                    >
-                      <i className="bi bi-telephone-fill"></i> +1 281 899 0865
-                    </a>
+                  <a
+                    className="getstarted custtss"
+                    href="tel:+442071932502"
+                    target="_self"
+                  >
+                    <i className="bi bi-telephone-fill"></i> &nbsp;&nbsp;0207
+                    193 2502
+                  </a>
                   </li>
                 </ul>
               </div>

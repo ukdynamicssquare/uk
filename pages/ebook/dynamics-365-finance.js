@@ -45,7 +45,7 @@ const StartGuideOne = () => {
     setTimeout(function () {
       setCloseModal(true);
       e.target.reset();
-      router.push("/guides/download/Pdf-dynamics-finance/");
+      router.push("/guides/download/Pdf-guide-finance/");
     }, 500);
   };
 

@@ -13,7 +13,7 @@ const FormFooterSubscriber = () => {
     setDisplay("spinner-border text-success");
     e.preventDefault();
 
-    emailjs.sendForm('service_caieyr7', 'template_m86umpi', form.current, 'AqRGHUvLru9UkjZoA')
+    emailjs.sendForm('service_4voumj7', 'template_32hvoqv', form.current, 'mJ38M6WTmU7KRrtuZ')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -22,7 +22,7 @@ const FormFooterSubscriber = () => {
      
       setTimeout(function() {
         e.target.reset();
-        router.push("/subscriber-thank-you/");
+        router.push("/thank-you/email-subscriber/");
       }, 500);
       
   };
