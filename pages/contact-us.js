@@ -51,9 +51,9 @@ const ContactUs = () => {
               </p>
             </header>
             <div className="row neew-pd0 justify-content-center">
-              <div className="col-lg-9">
+              <div className="col-lg-10">
                 <div className="row">
-                  <div className="col-lg-6 col-sm-12">
+                  <div className="col-lg-5 col-sm-12 align-self-center">
                     <div className="addre-left">
                       <p>
                         Kemp House, 152-160 City Road,
@@ -68,16 +68,19 @@ const ContactUs = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-sm-12">
+                  <div className="col-lg-7 col-sm-12 align-self-center">
                     <div className="addre-rigt">
                       <div className="cont-info">
-                        <i className="bi bi-telephone"></i>{" "}
-                        <span> 0207 193 2502</span>
+                        <span style={{color:'#343434',fontWeight:'500'}}>Sales Support: </span>
+                        <span>+44 (0) 207 193 2502 </span>
                       </div>
                       <div className="cont-info">
-                        <i className="bi bi-envelope"></i>{" "}
+                        <span style={{color:'#343434',fontWeight:'500'}}>Technical Support: </span>
+                        <span>+44 (0) 207 097 8987 </span>
+                      </div>
+                      <div className="cont-info">
                         <span>
-                          {" "}
+                        <span style={{color:'#343434',fontWeight:'500'}}>Email Us: </span>
                           <a href="mailto:info@dynamicssquare.co.uk">
                             info@dynamicssquare.co.uk
                           </a>

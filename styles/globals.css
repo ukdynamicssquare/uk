@@ -4461,8 +4461,18 @@ section {
 }
 .addre-rigt {
   padding-left: 80px;
-  color: var(--color-blue);
+  color: var(--color-red);
   font-size: 20px;
+}
+.addre-rigt .cont-info{
+  padding-bottom: 15px;
+}
+.addre-rigt .cont-info a{
+  color:var(--color-red);
+}
+.addre-rigt .cont-info a:hover{
+  color:var(--color-blue);
+  text-decoration:underline
 }
 .bg-drak{
   background-color:var(--color-blue);
