@@ -11,7 +11,7 @@ const Blog = () => {
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="https://www.dynamicssquare.co.uk/blog/microsoft-dynamics-365-business-central-for-manufacturing/"
+              href="https://blog.dynamicssquare.co.uk/microsoft-dynamics-365-business-central-for-manufacturing/"
               target="_self"
             >
               <img
@@ -26,7 +26,7 @@ const Blog = () => {
             <h4>
               <a
 
-                href="https://www.dynamicssquare.co.uk/blog/microsoft-dynamics-365-business-central-for-manufacturing/"
+                href="https://blog.dynamicssquare.co.uk/microsoft-dynamics-365-business-central-for-manufacturing/"
                 target="_self"
               >
                 Microsoft Dynamics 365 Business Central for Manufacturing: One
@@ -39,7 +39,7 @@ const Blog = () => {
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/"
+              href="https://blog.dynamicssquare.co.uk/how-to-avail-the-dynamics-365-business-central-trial/"
               target="_self"
             >
               <img
@@ -54,7 +54,7 @@ const Blog = () => {
             <h4>
               <a
 
-                href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/"
+                href="https://blog.dynamicssquare.co.uk/how-to-avail-the-dynamics-365-business-central-trial/"
                 target="_self"
               >
                 How to avail Dynamics 365 Business Central Trial?
@@ -66,7 +66,7 @@ const Blog = () => {
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="https://www.dynamicssquare.co.uk/blog/what-is-business-central-implementation-methodology/"
+              href="https://blog.dynamicssquare.co.uk/what-is-business-central-implementation-methodology/"
               target="_self"
             >
               <img
@@ -81,7 +81,7 @@ const Blog = () => {
             <h4>
               <a
 
-                href="https://www.dynamicssquare.co.uk/blog/what-is-business-central-implementation-methodology/"
+                href="https://blog.dynamicssquare.co.uk/what-is-business-central-implementation-methodology/"
                 target="_self"
               >
                 What is Business Central Implementation Methodology?
@@ -93,7 +93,7 @@ const Blog = () => {
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-vs-dynamics-365-sales/"
+              href="https://blog.dynamicssquare.co.uk/dynamics-365-business-central-vs-dynamics-365-sales/"
               target="_self"
             >
               <img
@@ -108,7 +108,7 @@ const Blog = () => {
             <h4>
               <a
 
-                href="https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-vs-dynamics-365-sales/"
+                href="https://blog.dynamicssquare.co.uk/dynamics-365-business-central-vs-dynamics-365-sales/"
                 target="_self"
               >
                 Dynamics 365 Business Central Vs Dynamics 365 Sales

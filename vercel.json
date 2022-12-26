@@ -98,7 +98,7 @@
     { "source": "/tag/microsoft-azure/", "destination": "/products/azure-iot-internet-of-things/", "permanent": true },
     { "source": "/solutions/microsoft-dynamics-ax.html", "destination": "/products/microsoft-dynamics-ax/", "permanent": true },
     { "source": "/microsoft-dynamics-ax.html", "destination": "/products/microsoft-dynamics-ax/", "permanent": true },
-    { "source": "", "destination": "", "permanent": true }
+    { "source": "/blog/", "destination": "https://blog.dynamicssquare.co.uk/", "permanent": true }
 
   ]
 }
