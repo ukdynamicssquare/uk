@@ -1,39 +1,14 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Spline from '@splinetool/react-spline';
-import Script from 'next/script'
-import Link from 'next/link';
+import Head from "next/head";
+import Image from "next/image";
+import Spline from "@splinetool/react-spline";
+import Script from "next/script";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay, FreeMode } from "swiper";
 
 export default function Home() {
-  // const addJsonLd = () => {
-  //   return {
-  //     _html: `
-  //           @context": "http://schema.org",
-  //           "@type": "Person",
-  //           address: {
-  //             "@type": "PostalAddress",
-  //             addressLocality: "Seattle",
-  //             addressRegion: "WA",
-  //             postalCode: "98052",
-  //             streetAddress: "N. Whitworth"
-  //           },
-  //           colleague: [
-  //             "http://www.dynamicssquare.ca/",
-  //             "http://www.dynamicssquare.ca/"
-  //           ],
-  //           email: "mailto:jane-doe@xyz.edu",
-  //           image: "janedoe.jpg",
-  //           jobTitle: "Professor",
-  //           name: "Jane Doe",
-  //           telephone: "(425) 123-4567",
-  //           url: "http://www.dynamicssquare.ca/"
-  //     `
-  //   }
-  // }
   return (
     <>
       <Head>
@@ -98,8 +73,7 @@ export default function Home() {
         <meta name="google-site-verification" content="UA-76870474-2" />
         <meta name="msvalidate.01" content="EE56DA95B952D734B4521A0EFA1F0E8B" />
 
-
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -107,223 +81,280 @@ export default function Home() {
               "@graph": [
                 {
                   "@type": "Organization",
-                  "@id": "https://www.dynamicssquare.ca/#organization",
-                  "name": "Dynamics Square",
-                  "url": "https://www.dynamicssquare.ca/",
-                  "sameAs": [
-                    "https://www.facebook.com/dynamicssquareca",
-                    "https://twitter.com/dsquare_ca",
-                    "https://www.aedin.com/company/dynamics-square-canada/",
-                    "https://www.youtube.com/c/DynamicsSquare"
+                  "@id": "https://www.dynamicssquare.co.uk/#organization",
+                  name: "Dynamics Square",
+                  url: "https://www.dynamicssquare.co.uk/",
+                  sameAs: [
+                    "https://www.facebook.com/dynamicssquareuk/",
+                    "https://twitter.com/dsquare_uk",
+                    "https://www.linkedin.com/showcase/dynamics-square-uk/",
+                    "https://www.youtube.com/c/DynamicsSquare",
                   ],
-                  "logo": {
+                  logo: {
                     "@type": "ImageObject",
-                    "@id": "https://www.dynamicssquare.ca/#logo",
-                    "inLanguage": "en-US",
-                    "url": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
-                    "contentUrl": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
-                    "width": "1024",
-                    "height": "1024",
-                    "caption": "Dynamics Square"
+                    "@id": "https://www.dynamicssquare.co.uk/#logo",
+                    inLanguage: "en-GB",
+                    url: "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+                    contentUrl:
+                      "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+                    width: "1024",
+                    height: "1024",
+                    caption: "Dynamics Square UK",
                   },
-                  "image": { "@id": "https://www.dynamicssquare.ca/#logo" }
+                  image: { "@id": "https://www.dynamicssquare.co.uk/#logo" },
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://www.dynamicssquare.ca/#website",
-                  "url": "https://www.dynamicssquare.ca/",
-                  "name": "Dynamics Square Canada | Microsoft Dynamics 365 and Cloud consultancy providing experts.",
-                  "description": "We simplify your complex business processes and challenges by implementing cloud-based ERP, CRM and other Microsoft cloud solutions.",
-                  "publisher": { "@id": "https://www.dynamicssquare.ca/#organization" },
-                  "potentialAction": [{ "@type": "SearchAction", "target": { "@type": "EntryPoint", "urlTemplate": "https://www.dynamicssquare.ca/?s={search_term_string}" }, "query-input": "required name=search_term_string" }],
-                  "inLanguage": "en-US"
+                  "@id": "https://www.dynamicssquare.co.uk/#website",
+                  url: "https://www.dynamicssquare.co.uk/",
+                  name: "Microsoft Dynamics 365 Partner UK, London | Dynamics Square",
+                  description:
+                    "Dynamics Square is UK's leading Microsoft Dynamics 365 Partner. We help businesses implement Microsoft Dynamics 365 solutions. Contact us to know more.",
+                  publisher: {
+                    "@id": "https://www.dynamicssquare.co.uk/#organization",
+                  },
+                  potentialAction: [
+                    {
+                      "@type": "SearchAction",
+                      target: {
+                        "@type": "EntryPoint",
+                        urlTemplate:
+                          "https://www.dynamicssquare.co.uk/?s={search_term_string}",
+                      },
+                      "query-input": "required name=search_term_string",
+                    },
+                  ],
+                  inLanguage: "en-GB",
                 },
                 {
                   "@type": "ImageObject",
-                  "@id": "hhttps://www.dynamicssquare.ca/#primaryimage",
-                  "inLanguage": "en-US",
-                  "url": "https://www.dynamicssquare.ca/img/banner-head-image.png",
-                  "contentUrl": "https://www.dynamicssquare.ca/img/banner-head-image.png",
-                  "width": 1561,
-                  "height": 667,
-                  "caption": "dynamicssquare"
+                  "@id": "https://www.dynamicssquare.co.uk/#primaryimage",
+                  inLanguage: "en-GB",
+                  url: "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+                  contentUrl:
+                    "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+                  width: 1561,
+                  height: 667,
+                  caption: "dynamicssquare",
                 },
                 {
                   "@type": "WebPage",
-                  "@id": "https://www.dynamicssquare.ca/#webpage",
-                  "url": "https://www.dynamicssquare.ca/",
-                  "name": "Dedicated CRM and ERP Consultants for Canada Region | Dynamics Square",
-                  "isPartOf": { "@id": "https://www.dynamicssquare.ca/#website" },
-                  "about": { "@id": "https://www.dynamicssquare.ca/#organization" },
-                  "primaryImageOfPage": { "@id": "https://www.dynamicssquare.ca/#primaryimage" },
-                  "datePublished": "2022-08-31T06:09:16+00:00",
-                  "dateModified": "2022-11-07T09:15:37+00:00",
-                  "description": "We are CRM and ERP consultants in Canada who help your business thrive by implementing the best CRM, ERP, and Microsoft cloud solutions for your specific needs.",
-                  "breadcrumb": { "@id": "https://www.dynamicssquare.ca/#breadcrumb" },
-                  "inLanguage": "en-US",
-                  "potentialAction": [{ "@type": "ReadAction", "target": ["https://www.dynamicssquare.ca/"] }]
+                  "@id": "https://www.dynamicssquare.co.uk/#webpage",
+                  url: "https://www.dynamicssquare.co.uk/",
+                  name: "Dedicated Dynamics 365 CRM and ERP Partner for UK Region | Dynamics Square UK",
+                  isPartOf: {
+                    "@id": "https://www.dynamicssquare.co.uk/#website",
+                  },
+                  about: {
+                    "@id": "https://www.dynamicssquare.co.uk/#organization",
+                  },
+                  primaryImageOfPage: {
+                    "@id": "https://www.dynamicssquare.co.uk/#primaryimage",
+                  },
+                  datePublished: "2021-08-31T06:09:16+00:00",
+                  dateModified: "2021-11-07T09:15:37+00:00",
+                  description:
+                    "Dynamics Square is Dynamics 365 partner in the UK who help your business succeed by deploying the finest CRM, ERP, and Microsoft cloud solutions for your unique needs.",
+                  breadcrumb: {
+                    "@id": "https://www.dynamicssquare.co.uk/#breadcrumb",
+                  },
+                  inLanguage: "en-US",
+                  potentialAction: [
+                    {
+                      "@type": "ReadAction",
+                      target: ["https://www.dynamicssquare.co.uk/"],
+                    },
+                  ],
                 },
-                { "@type": "BreadcrumbList", "@id": "https://www.dynamicssquare.ca/#breadcrumb", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home" }] }
-              ]
-            })
+                {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://www.dynamicssquare.co.uk/#breadcrumb",
+                  itemListElement: [
+                    { "@type": "ListItem", position: 1, name: "Home" },
+                  ],
+                },
+              ],
+            }),
           }}
         />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "http://schema.org",
               "@type": "Organization",
-              "name": "Dynamics Square Canada Ltd.",
-              "description": "Helping your business to grow at scale by providing unbiased advice to select the right ERP and CRM solutions.",
-              "image": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
-              "alternateName": "Dynamics Square Software company in Ontario, Canada",
-              "telephone": "+12898072802, +17786523656",
-              "email": "info@dynamicssquare.com",
-              "address": {
+              name: "Dynamics Square UK Ltd.",
+              description:
+                "We assist your company business in scaling up by giving unbiased advise on the best Microsoft ERP and CRM solutions.",
+              image:
+                "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+              alternateName:
+                "Dynamics Square software company in London, United Kingdom",
+              telephone: "+44-207-193-2502, +44-747-927-3380",
+              email: "info@dynamicssquare.co.uk",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "800 Steeles Ave W",
-                "addressLocality": "800 Steeles Ave W, #B10155 Thornhill, Ontario L4J 7L23E2",
-                "addressRegion": "Ontario",
-                "addressCountry": "Canada",
-                "postalCode": "L4J 7L23E2"
+                streetAddress: "Kemp House, 152-160 City Road",
+                addressLocality:
+                  "Kemp House, 152-160 City Road, London, EC1V 2NX, U.K.",
+                addressRegion: "London",
+                addressCountry: "United Kingdom",
+                postalCode: "EC1V 2NX",
               },
-              "brand": {
+              brand: {
                 "@type": "Brand",
-                "name": "Dynamics Square Canada Ltd.",
-                "logo": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg"
+                name: "Dynamics Square UK Ltd.",
+                logo: "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
               },
-              "aggregateRating":
-              {
+              aggregateRating: {
                 "@type": "AggregateRating",
-                "ratingValue": "4.2",
-                "reviewCount": "18"
+                ratingValue: "4.3",
+                reviewCount: "1280",
               },
-              "url": "https://www.dynamicssquare.ca/",
-              "sameAs": [
-                "https://www.facebook.com/dynamicssquareca",
-                "https://twitter.com/dsquare_ca",
-                "https://www.aedin.com/company/dynamics-square-canada/",
-                "https://www.youtube.com/c/DynamicsSquare"
-              ]
-            })
+              url: "https://www.dynamicssquare.co.uk/",
+              sameAs: [
+                "https://www.facebook.com/dynamicssquareuk/",
+                "https://twitter.com/dsquare_uk",
+                "https://www.linkedin.com/showcase/dynamics-square-uk/",
+                "https://www.youtube.com/c/DynamicsSquare",
+              ],
+            }),
           }}
         />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "Headline": "Assisting you in successfully leveraging the power of CRM, ERP, and cloud technology.",
-              "description": "You have a goal, a vision or an issue to address. We have 140+ Microsoft certified consultants, creative thinkers, and developers proactively ready to support in your digital transformation journey. Our mission is to alleviate your problems and make your vision a reality.",
-              "Keywords": ["erp consultants canada", "crm consultancy", "d365 business central", "crm expert online", "d365 for finance", "dynamics crm implementation", "d365 field service", "crm implementation services"]
-            })
+              Headline:
+                "We help you effectively leverage the potential of Microsoft Dynamics CRM, ERP, and cloud technologies.",
+              description:
+                "What do you have a goal, a vision, or a problem to solve? We have 260+ Microsoft certified consultants, creative thinkers, and developers ready to assist you with your digital transformation journey. Our objective is to solve your challenges and turn your idea into a reality.",
+              Keywords: [
+                "dynamics 365 partner uk",
+                "erp consultants UK",
+                "crm consultancy",
+                "d365 business central",
+                "crm expert online",
+                "d365 for finance",
+                "Microsoft NAV partner",
+                "dynamics crm implementation",
+                "d365 field service",
+                "crm implementation services",
+              ],
+            }),
           }}
         />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "name": "Dynamics Square Canada Ltd.",
-              "alternateName": "Dynamics Square Software company in Ontario, Canada",
-              "url": "https://www.dynamicssquare.ca/"
-            })
+              name: "Dynamics Square UK Ltd.",
+              alternateName:
+                "Dynamics Square Microsoft Gold Partner company in London, UK",
+              url: "https://www.dynamicssquare.co.uk/",
+            }),
           }}
         />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "http://schema.org",
               "@type": "localBusiness",
-              "name": "Dynamics Square Canada Ltd.",
-              "description": "Helping your business to grow at scale by providing unbiased advice to select the right ERP and CRM solutions.",
-              "image": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
-              "alternateName": "Dynamics Square Software company in Ontario, Canada",
-              "telephone": "+12898072802, +17786523656",
-              "email": "info@dynamicssquare.com",
-              "priceRange": "$$$-$$$",
-              "address": {
+              name: "Dynamics Square UK Ltd.",
+              description:
+                "As a Dynamics 365 partner, we assist your business in scaling up by giving unbiased advise on the best Microsoft dynamics ERP and CRM solutions.",
+              image:
+                "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+              alternateName: "Dynamics Square Software company in London, UK",
+              telephone: "+442071932502, +447479273380",
+              email: "info@dynamicssquare.co.uk",
+              priceRange: "£££-£££",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "800 Steeles Ave W",
-                "addressLocality": "800 Steeles Ave W, #B10155 Thornhill, Ontario L4J 7L23E2",
-                "addressRegion": "Ontario",
-                "addressCountry": "Canada",
-                "postalCode": "L4J 7L23E2"
+                streetAddress: "Kemp House, 152-160 City Road",
+                addressLocality:
+                  "Kemp House, 152-160 City Road, London, EC1V 2NX, U.K.",
+                addressRegion: "London",
+                addressCountry: "UK",
+                postalCode: "EC1V 2NX",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 54.63996281303019,
-                "longitude": -103.34901546818584
+                latitude: 51.52706865727293,
+                longitude: -0.08876773400079006,
               },
 
-              "brand": {
+              brand: {
                 "@type": "Brand",
-                "name": "Dynamics Square Canada Ltd.",
-                "logo": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg"
+                name: "Dynamics Square UK Ltd.",
+                logo: "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
               },
-              "aggregateRating":
-              {
+              aggregateRating: {
                 "@type": "AggregateRating",
-                "ratingValue": "4.2",
-                "reviewCount": "18"
+                ratingValue: "4.3",
+                reviewCount: "1260",
               },
 
-              "openingHoursSpecification": [
+              openingHoursSpecification: [
                 {
                   "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": [
+                  dayOfWeek: [
                     "Monday",
                     "Tuesday",
                     "Wednessday",
                     "Thursday",
-                    "Friday"
+                    "Friday",
                   ],
-                  "opens": "08:00",
-                  "closes": "5:00"
+                  opens: "08:00",
+                  closes: "5:00",
                 },
                 {
                   "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Saturday - closed"
-
-
+                  dayOfWeek: "Saturday - closed",
                 },
                 {
                   "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Sunday - Closed"
-
-                }
+                  dayOfWeek: "Sunday - Closed",
+                },
               ],
 
-
-              "url": "https://www.dynamicssquare.ca/",
-              "sameAs": [
-                "https://www.facebook.com/dynamicssquareca",
-                "https://twitter.com/dsquare_ca",
-                "https://www.aedin.com/company/dynamics-square-canada/",
-                "https://www.youtube.com/c/DynamicsSquare"
-              ]
-            })
+              url: "https://www.dynamicssquare.co.uk/",
+              sameAs: [
+                "https://www.facebook.com/dynamicssquareuk/",
+                "https://twitter.com/dsquare_uk",
+                "https://www.linkedin.com/showcase/dynamics-square-uk/",
+                "https://www.youtube.com/c/DynamicsSquare",
+              ],
+            }),
           }}
-        /> */}
+        />
       </Head>
 
       <section id="hero" className="hero hero-1">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6  align-self-center">
+            <div className="col-lg-5  align-self-center">
               <h1 data-aos="fade-up">
                 UK's Trusted <br /> Microsoft Gold Partner
               </h1>
-              <p>Simplify your end-to-end business processes to maximize ROI, agility, and growth with Microsoft cloud technology.</p>
+              <p>
+                Simplify your end-to-end business processes to maximize ROI,
+                agility, and growth with Microsoft cloud technology.
+              </p>
               <div>
                 <div className="text-center text-lg-start btn-welcome">
-                  <Link
-                    href="#exampleModal">
-                    <a data-bs-toggle="modal"
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
                       <span>Book A Free Demo Today</span>
@@ -345,6 +376,19 @@ export default function Home() {
               </div>
             </div>
             <div
+              className="col-lg-7 hero-img hero-img-home"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <Image
+                src="/img/banner-head-image.png"
+                alt="dynamicssquare banner image UK"
+                className="icon"
+                width={746}
+                height={517}
+              />
+            </div>
+            {/* <div
               className="col-lg-6 hero-img hero-img-home"
               data-aos="zoom-out"
               data-aos-delay="200"
@@ -530,7 +574,7 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -541,10 +585,14 @@ export default function Home() {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>
-                  Microsoft Business Apps: Innovative Solutions to Boost Business Performance
+                  Microsoft Business Apps: Innovative Solutions to Boost
+                  Business Performance
                 </h2>
                 <p>
-                  Microsoft business applications offer various efficient solutions for better ROI, including ERP (Dynamics NAV, AX), CRM (Dynamics 365 CE), and Power Platform (Power BI implementation).
+                  Microsoft business applications offer various efficient
+                  solutions for better ROI, including ERP (Dynamics NAV, AX),
+                  CRM (Dynamics 365 CE), and Power Platform (Power BI
+                  implementation).
                 </p>
               </header>
             </div>
@@ -593,10 +641,7 @@ export default function Home() {
                   and more informed financial decisions.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-finance/">
-                  <a
-
-                    className="read-more"
-                  >
+                  <a className="read-more">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -621,7 +666,7 @@ export default function Home() {
                   end-to-end supply chain operations.
                 </p>
                 <Link href="/products/dynamics-365-supply-chain-management/">
-                  <a className="read-more" >
+                  <a className="read-more">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -650,12 +695,9 @@ export default function Home() {
                   for Sales.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-sales/">
-                <a
-                  
-                  className="read-more"
-                >
-                  <span>Learn More...</span>
-                </a>
+                  <a className="read-more">
+                    <span>Learn More...</span>
+                  </a>
                 </Link>
               </div>
             </div>
@@ -682,9 +724,9 @@ export default function Home() {
                   informed decisions for better productivity ahead.
                 </p>
                 <Link href="/products/microsoft-power-bi/">
-                <a  className="read-more">
-                  <span>Learn More...</span>
-                </a>
+                  <a className="read-more">
+                    <span>Learn More...</span>
+                  </a>
                 </Link>
               </div>
             </div>
@@ -712,12 +754,9 @@ export default function Home() {
                   Azure.
                 </p>
                 <Link href="/products/azure-iot-internet-of-things/">
-                <a
-                  
-                  className="read-more"
-                >
-                  <span>Learn More...</span>
-                </a>
+                  <a className="read-more">
+                    <span>Learn More...</span>
+                  </a>
                 </Link>
               </div>
             </div>
@@ -725,18 +764,25 @@ export default function Home() {
         </div>
       </section>
 
-
       <section className="serve-more-new">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
               <div className="more-new-inner pad12">
                 <h3>Looking for a Dynamics 365 implementation partner?</h3>
-                <p>We can help you get a stress-free and cost-effective Dynamics 365 implementation to minimise efforts and maximise outcomes that bring continuous growth for your business.</p>
+                <p>
+                  We can help you get a stress-free and cost-effective Dynamics
+                  365 implementation to minimise efforts and maximise outcomes
+                  that bring continuous growth for your business.
+                </p>
                 <div className="cla-brn">
                   <Link href="#exampleModal">
-                  <a data-bs-toggle="modal"
-                     className="btn btn-md btn-danger btn-custmm">Request a Demo</a>
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn btn-md btn-danger btn-custmm"
+                    >
+                      Request a Demo
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -745,10 +791,16 @@ export default function Home() {
             <div className="col-lg-6">
               <div className="more-new-inner pad13">
                 <h3>Want to know what more Dynamics 365 can do?</h3>
-                <p>Microsoft Dynamics 365 can be your steppingstone for rapid business growth and scalability to your business powered by Microsoft cloud technology. Want Dynamics 365 in action?</p>
+                <p>
+                  Microsoft Dynamics 365 can be your steppingstone for rapid
+                  business growth and scalability to your business powered by
+                  Microsoft cloud technology. Want Dynamics 365 in action?
+                </p>
                 <div className="cla-brn">
-                  <Link href="/products/microsoft-dynamics-365/" >
-                  <a className="btn btn-md btn-danger btn-custmm">Learn More</a>
+                  <Link href="/products/microsoft-dynamics-365/">
+                    <a className="btn btn-md btn-danger btn-custmm">
+                      Learn More
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -763,16 +815,25 @@ export default function Home() {
             <div className="col-lg-12">
               <div className="new-hh">
                 <h2>What Your Microsoft Partner can Deliver:</h2>
-                <p>With more than 11 years of experience, we have a proven record of scaling businesses to new <br /> heights with seamless and highly scalable services.</p>
+                <p>
+                  With more than 11 years of experience, we have a proven record
+                  of scaling businesses to new <br /> heights with seamless and
+                  highly scalable services.
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="our-serv-new-de">
                 <img src="/img/imp-1.png" alt="Implementation Services" />
                 <h3>Implementation</h3>
-                <p>Our stress-free Dynamics 365 implementation services, catered by a proactive team of Microsoft consultants, offer customized solutions with superior technical expertise to scale your business.</p>
+                <p>
+                  Our stress-free Dynamics 365 implementation services, catered
+                  by a proactive team of Microsoft consultants, offer customized
+                  solutions with superior technical expertise to scale your
+                  business.
+                </p>
                 <Link href="/our-services/dynamics-365-implementation-services/">
-                <a>Learn More</a>
+                  <a>Learn More</a>
                 </Link>
               </div>
             </div>
@@ -780,9 +841,14 @@ export default function Home() {
               <div className="our-serv-new-de">
                 <img src="/img/imp-2.png" alt="Upgrade" />
                 <h3>Upgrade</h3>
-                <p>Modernise your legacy system by leveraging new capabilities to revolutionise your business with our Dynamics 365 upgrade services. Get automatic updates, seamless integrations, and better RoI.</p>
+                <p>
+                  Modernise your legacy system by leveraging new capabilities to
+                  revolutionise your business with our Dynamics 365 upgrade
+                  services. Get automatic updates, seamless integrations, and
+                  better RoI.
+                </p>
                 <Link href="/our-services/dynamics-365-upgrade-services/">
-                <a>Learn More</a>
+                  <a>Learn More</a>
                 </Link>
               </div>
             </div>
@@ -790,16 +856,20 @@ export default function Home() {
               <div className="our-serv-new-de">
                 <img src="/img/imp-3.png" alt="Support" />
                 <h3>Support</h3>
-                <p>Avail our comprehensive and adaptive remote or on-site Dynamics 365 support for all Microsoft business applications, including NAV, GP, AX, Business Central, Finance & Supply Chain, and Power BI.</p>
+                <p>
+                  Avail our comprehensive and adaptive remote or on-site
+                  Dynamics 365 support for all Microsoft business applications,
+                  including NAV, GP, AX, Business Central, Finance & Supply
+                  Chain, and Power BI.
+                </p>
                 <Link href="/our-services/dynamics-365-support-services/">
-                <a>Learn More</a>
+                  <a>Learn More</a>
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-
 
       <section id="services" className="services bg-shape">
         <div className="container" data-aos="fade-up">
@@ -828,12 +898,9 @@ export default function Home() {
                     their business in a shorter time span.
                   </p>
                   <Link href="/industries/startups/">
-                  <a
-                    
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
-                    Learn More
-                  </a>
+                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                      Learn More
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -859,12 +926,9 @@ export default function Home() {
                     organization or divisions.
                   </p>
                   <Link href="/industries/microsoft-cloud-for-nonprofit/">
-                  <a
-                    
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
-                    Learn More
-                  </a>
+                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                      Learn More
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -890,12 +954,9 @@ export default function Home() {
                     customer delivery with Dynamics 365 E-commerce.
                   </p>
                   <Link href="/industries/ecommerce/">
-                  <a
-                   
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
-                    Learn More
-                  </a>
+                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                      Learn More
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -921,12 +982,9 @@ export default function Home() {
                     distribution model through D365 Business Applications.
                   </p>
                   <Link href="/industries/microsoft-cloud-for-manufacturing/">
-                  <a
-                    
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
-                    Learn More
-                  </a>
+                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                      Learn More
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -952,12 +1010,9 @@ export default function Home() {
                     projects while reducing costs and equipping efficiency.
                   </p>
                   <Link href="/industries/professional-services/">
-                  <a
-                    
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
-                    Learn More
-                  </a>
+                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                      Learn More
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -983,12 +1038,9 @@ export default function Home() {
                     values to your food & beverages business domain.
                   </p>
                   <Link href="/industries/food-and-beverages/">
-                  <a
-                    
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
-                    Learn More
-                  </a>
+                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                      Learn More
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -1014,7 +1066,8 @@ export default function Home() {
                 src="/img/system-health-check.png"
                 className="system-health-check"
                 alt="Dynamics 365 System Health Check"
-                width={553} height={531}
+                width={553}
+                height={531}
               />
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0 content align-self-center">
@@ -1065,17 +1118,16 @@ export default function Home() {
                 </div>
               </div>
               <br />
-             <Link href="/free-dynamics-365-system-health-check/">
-             <a
-                
-                className="read-more"
-                data-aos="fade-left"
-                data-aos-delay="500"
-              >
-                Get Free System Health Check
-                <i className="bi bi-long-arrow-right"></i>
-              </a>
-             </Link>
+              <Link href="/free-dynamics-365-system-health-check/">
+                <a
+                  className="read-more"
+                  data-aos="fade-left"
+                  data-aos-delay="500"
+                >
+                  Get Free System Health Check
+                  <i className="bi bi-long-arrow-right"></i>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -1083,18 +1135,29 @@ export default function Home() {
       <section className="busine_service_bottom custom07">
         <div className="container">
           <div className="row">
-
             <div className="col-lg-7 align-self-center">
               <div className="side-heading-custom-01">
                 <h2>About Dynamics Square</h2>
               </div>
               <div className="custom-p-001 custom-p-009">
-
-                <p>As a Gold Microsoft Dynamics Partner, we can help you revolutionize your business processes and operations while leveraging the power of the cloud, AI, and ML.</p>
-                <p>Since 2011, we have been serving our global customers, enabling them to make more profits by implementing tech-driven cloud solutions.</p>
-                <p>We are one of the trusted dynamics consultants and certified Microsoft CRM & ERP partners, helping businesses like yours to achieve exponential growth while resolving critical business problems with 100% user satisfaction. </p>
+                <p>
+                  As a Gold Microsoft Dynamics Partner, we can help you
+                  revolutionize your business processes and operations while
+                  leveraging the power of the cloud, AI, and ML.
+                </p>
+                <p>
+                  Since 2011, we have been serving our global customers,
+                  enabling them to make more profits by implementing tech-driven
+                  cloud solutions.
+                </p>
+                <p>
+                  We are one of the trusted dynamics consultants and certified
+                  Microsoft CRM & ERP partners, helping businesses like yours to
+                  achieve exponential growth while resolving critical business
+                  problems with 100% user satisfaction.{" "}
+                </p>
                 <Link href="/about-us/">
-                <a>Find Out Our Approach</a>
+                  <a>Find Out Our Approach</a>
                 </Link>
               </div>
             </div>
@@ -1103,7 +1166,8 @@ export default function Home() {
                 <Image
                   src="/img/about-home-left.png"
                   alt="about-home-left"
-                  width={489} height={514}
+                  width={489}
+                  height={514}
                 />
               </div>
             </div>
@@ -1260,10 +1324,7 @@ export default function Home() {
                               alt=""
                             />
                             <div className="imginner">
-                              <img
-                                src="/img/Icon metro-quote.png"
-                                alt=""
-                              />
+                              <img src="/img/Icon metro-quote.png" alt="" />
                             </div>
                             <p>
                               Dynamics Square Team provided us a top-level
@@ -1289,10 +1350,7 @@ export default function Home() {
                               alt="Nicolas-Hopwood"
                             />
                             <div className="imginner">
-                              <img
-                                src="/img/Icon metro-quote.png"
-                                alt=""
-                              />
+                              <img src="/img/Icon metro-quote.png" alt="" />
                             </div>
                             <p>
                               The team at Dynamics Square helped us in upgrading
@@ -1346,7 +1404,8 @@ export default function Home() {
                     src="/img/testmonial-side-pic.png"
                     className="testmonial-side-pic"
                     alt="testmonial"
-                    width={802} height={764}
+                    width={802}
+                    height={764}
                   />
                   {/* <div className="testimonials-rigt-iner-1">
                     <img src="/img/test-side-1.jpg" alt="" />
@@ -1469,7 +1528,8 @@ export default function Home() {
               <Image
                 src="/img/case-study-side-banner.png"
                 alt="case-study-side-banner"
-                width={640} height={592}
+                width={640}
+                height={592}
               />
             </div>
             <div className="col-lg-1 align-self-center"></div>
@@ -1517,14 +1577,9 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="case-button">
-                       <Link href="/case-studies/cqc/">
-                       <a
-                          
-                          className="btn btn-md btn-custom-1"
-                        >
-                          Read More
-                        </a>
-                       </Link>
+                        <Link href="/case-studies/cqc/">
+                          <a className="btn btn-md btn-custom-1">Read More</a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1554,14 +1609,9 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="case-button">
-                      <Link href="/case-studies/crm-trading/">
-                      <a
-                          
-                          className="btn btn-md btn-custom-1"
-                        >
-                          Read More
-                        </a>
-                      </Link>
+                        <Link href="/case-studies/crm-trading/">
+                          <a className="btn btn-md btn-custom-1">Read More</a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1592,12 +1642,7 @@ export default function Home() {
                       </div>
                       <div className="case-button">
                         <Link href="/case-studies/wiper-supply-services/">
-                        <a
-                          
-                          className="btn btn-md btn-custom-1"
-                        >
-                          Read More
-                        </a>
+                          <a className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
                     </div>
@@ -1609,5 +1654,5 @@ export default function Home() {
         </div>
       </section>
     </>
-  )
+  );
 }
