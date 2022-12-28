@@ -21,6 +21,45 @@ const Finance = () => {
           property="og:url"
           content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance/"
         />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+             
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [{
+            "@type": "Question",
+            "name": "What is Microsoft Dynamics 365 Finance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Microsoft Dynamics 365 Finance is an advanced analytics solution to support continuously changing or evolving business needs. It enables enterprises to seamlessly control and manage finances. Users can plan and forecast with actual and relevant information to make timely and informed decisions.Leveraging D365 Finance, businesses can manage their general ledger, cash & bank, tax, accounts payable & receivable, credits & collections, budgeting, fixed assets, cost accounting, electronic invoicing, and more."
+            }
+          },{
+            "@type": "Question",
+            "name": "What are the features of Dynamics 365 Finance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Microsoft Dynamics 365 Finance is a cutting-edge finance management tool that will streamline your finance practices, reduce manual efforts, data redundancies, and mitigate the risk of uncertainties. The D365 Finance solution is designed to support modern enterprises that are seeking to simplify their finance operations and drive profitability and efficiency.Here are the core features list:Accounts Payable,Accounts Receivable,General Ledger,Tax Management,Tax Management,Cash & Bank Management,Credit & Collections,Fixed Assets,Budgeting,Cost Accounting,Electronic Invoicing"
+            }
+          },{
+            "@type": "Question",
+            "name": "How Microsoft Dynamics 365 Finance management can help your business to succeed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "To support and drive financial practices in today's modern enterprises, there is a crucial need to manage end-to-end finances using a single interface. Dynamics 365 Finance boosts businesses to control their financial operations and brings transparency into their financial events in real-time. This helps and encourages the organizations to stay updated with every financial move across their organization and to support their financial decision-making.Leveraging Dynamics 365 Finance, businesses can have control over their entire financial practices. Using intelligent business insights and financial reports, enterprises can predict and control unexpected events or circumstances.Automation is something that reduces your efforts and allows you to drive smarter. Dynamics 365 Finance enables automated workflow across your organization wherein repetitive tasks can be automated. Greater visibility into insights helps to make strategic decisions in a timely manner."
+            }
+          },{
+            "@type": "Question",
+            "name": "What is included in Dynamics 365 Finance & Operations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dynamics 365 Finance & Operations is now for Dynamics 365 Finance and Dynamics 365 Supply Chain Management to manage all your financial operations in a seamless manner. This financial analytics tool is designed for SMBs to large size organizations to effectively roll out their financial data.Leveraging D365 Finance, enterprises can manage their core to advance financial practices including budgeting & forecasting, banking, taxation, cost accounting, invoicing, credit & collections, fixed assets, and more. Businesses can also empower their financial hub with predictive data and other financial statements to make smarter financial decisions."
+            }
+          }]
+          
+              })
+           }}
+      />
       </Head>
 
       <ModalVideo
