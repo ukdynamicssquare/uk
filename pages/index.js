@@ -20,58 +20,17 @@ export default function Home() {
           content="Dynamics Square is UK&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services."
         />
         <link rel="canonical" href="https://www.dynamicssquare.co.uk/" />
-        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Microsoft Dynamics 365 Partner UK, London | Dynamics Square"
-        />
-        <meta
-          name="og:description"
-          content="Dynamics Square is UK's leading Microsoft Dynamics 365 Partner. We help businesses implement Microsoft Dynamics 365 solutions. Contact us to know more."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/assets/img/about.jpg"
-        />
-        <meta
-          property="og:image"
-          content="https://www.dynamicssquare.co.uk/assets/img/about.jpg"
-        />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Partner UK, London | Dynamics Square" />
+        <meta property="og:description" content="Dynamics Square is UK's leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/banner-head-image.png" />
 
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta property="fb:app_id" content="2007906422699147" />
-
-        <meta
-          property="og:image:secure_url"
-          content="https://www.dynamicssquare.co.uk/assets/img/about.jpg"
-        />
-        <meta property="og:image:width" content="500" />
-        <meta property="og:image:height" content="500" />
-        <meta property="og:image:alt" content="DS Favicon" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics 365 Partner UK, London | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Dynamics Square is UK's leading Microsoft Dynamics 365 Partner. We help businesses implement Microsoft Dynamics 365 solutions. Contact us to know more."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.dynamicssquare.co.uk/assets/img/about.jpg"
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-
-        <meta name="twitter:label1" content="Written by" />
-        <meta name="twitter:data1" content="admin" />
-        <meta name="twitter:label2" content="Time to read" />
-        <meta name="twitter:data2" content="5 minutes" />
-        <meta name="google-site-verification" content="UA-76870474-2" />
-        <meta name="msvalidate.01" content="EE56DA95B952D734B4521A0EFA1F0E8B" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/" />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Partner UK, London | Dynamics Square" />
+        <meta property="twitter:description" content="Dynamics Square is UK's leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/banner-head-image.png" />
 
         <script
           type="application/ld+json"
