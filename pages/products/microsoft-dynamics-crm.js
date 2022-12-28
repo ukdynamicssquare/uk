@@ -16,6 +16,18 @@ const MicrosoftDynamicsCrm = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-crm/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-crm/" />
+        <meta property="og:title" content="Microsoft Dynamics CRM | A Complete CRM Solution" />
+        <meta property="og:description" content="Microsoft Dynamics CRM is a complete CRM solution that can help your business grow by increasing sales, strengthening customer relationships, nurturing leads, and resolving customer support concerns." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/CRM-header-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-crm/" />
+        <meta property="twitter:title" content="Microsoft Dynamics CRM | A Complete CRM Solution" />
+        <meta property="twitter:description" content="Microsoft Dynamics CRM is a complete CRM solution that can help your business grow by increasing sales, strengthening customer relationships, nurturing leads, and resolving customer support concerns." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/CRM-header-banner.png" />
+
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

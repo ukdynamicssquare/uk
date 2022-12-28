@@ -20,6 +20,17 @@ const MicrosoftDynamicsNAV = () => {
           name="description"
           content="Need Microsoft Dynamics NAV support? Whether you're using an older or newer version, we offer high quality, low cost Navision support services in the UK. Contact Now Today!"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-nav/" />
+        <meta property="og:title" content="Microsoft Dynamics NAV: Navision Support Partner UK" />
+        <meta property="og:description" content="Need Microsoft Dynamics NAV support? Whether you're using an older or newer version, we offer high quality, low cost Navision support services in the UK. Contact Now Today!" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/nav-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-nav/" />
+        <meta property="twitter:title" content="Microsoft Dynamics NAV: Navision Support Partner UK" />
+        <meta property="twitter:description" content="Need Microsoft Dynamics NAV support? Whether you're using an older or newer version, we offer high quality, low cost Navision support services in the UK. Contact Now Today!" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/nav-banner.png" />
       </Head>
 
       <ModalVideo

@@ -24,6 +24,17 @@ const Ecommerce = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/industries/ecommerce/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/ecommerce/" />
+        <meta property="og:title" content="Dynamics 365 for Ecommerce Industry | Dynamics Square" />
+        <meta property="og:description" content="Optimize Your End-to-End Ecommerce Processes and Improve Your Customer Experience with Microsoft Dynamics 365 for eCommerce ." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/ecommerce banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/ecommerce/" />
+        <meta property="twitter:title" content="Dynamics 365 for Ecommerce Industry | Dynamics Square" />
+        <meta property="twitter:description" content="Optimize Your End-to-End Ecommerce Processes and Improve Your Customer Experience with Microsoft Dynamics 365 for eCommerce." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/ecommerce banner.png" />
       </Head>
   <ModalVideo
         channel="youtube"

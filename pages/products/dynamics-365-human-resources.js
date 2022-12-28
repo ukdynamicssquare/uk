@@ -18,6 +18,18 @@ const HumanResource = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-human-resources/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-human-resources/" />
+        <meta property="og:title" content="Dynamics 365 Human Resources | Optimize HR Programs" />
+        <meta property="og:description" content="Manage workforce, maximize resource utilization, leverage valuable AI insights to craft a better workspace with Dynamics 365 Human Resources. Schedule a demo today." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-human-resources/" />
+        <meta property="twitter:title" content="Dynamics 365 Human Resources | Optimize HR Programs" />
+        <meta property="twitter:description" content="Manage workforce, maximize resource utilization, leverage valuable AI insights to craft a better workspace with Dynamics 365 Human Resources. Schedule a demo today." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
+
       </Head>
       <ModalVideo
         channel="youtube"
@@ -55,7 +67,7 @@ const HumanResource = () => {
             <div className="col-lg-6 align-self-center">
               <Image
                 src="/img/Human-Resource-banner.png"
-                alt="Human-Resource-banner"
+                alt="D365 Human-Resource-banner"
                 width={778} height={473}
               />
             </div>

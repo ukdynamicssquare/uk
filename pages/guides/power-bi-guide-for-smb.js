@@ -51,6 +51,17 @@ const PowerBIGuide = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/guides/power-bi-guide-for-smb/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/guides/power-bi-guide-for-smb/" />
+        <meta property="og:title" content="Power BI: The Definitive Guide For SMBs" />
+        <meta property="og:description" content="A complete guide to Power BI. Learn how to transform your data into interactive reports that drive results." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/group-2308.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/guides/power-bi-guide-for-smb/" />
+        <meta property="twitter:title" content="Power BI: The Definitive Guide For SMBs" />
+        <meta property="twitter:description" content="A complete guide to Power BI. Learn how to transform your data into interactive reports that drive results." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/group-2308.png" />
       </Head>
       <section className="banner-guide hero-1 hero">
         <div className="container">

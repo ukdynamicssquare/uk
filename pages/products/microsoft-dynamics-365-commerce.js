@@ -18,6 +18,17 @@ const Commerce = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-commerce/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-commerce/" />
+        <meta property="og:title" content="Dynamics 365 Commerce | Retail ERP Solution" />
+        <meta property="og:description" content="Unify your back-office, in-store, and digital experience by empowering your system with our exclusive Microsoft Dynamics 365 Commerce packages." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/commerce-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-commerce/" />
+        <meta property="twitter:title" content="Dynamics 365 Commerce | Retail ERP Solution" />
+        <meta property="twitter:description" content="Unify your back-office, in-store, and digital experience by empowering your system with our exclusive Microsoft Dynamics 365 Commerce packages." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/commerce-banner.png" />
       </Head>
       <ModalVideo
         channel="youtube"
@@ -54,7 +65,7 @@ const Commerce = () => {
             <div className="col-lg-6 align-self-center">
               <Image
                 src="/img/commerce-banner.png"
-                alt="commerce-banner"
+                alt="Dynamics 365 Commerce-Retail"
                 width={723} height={473}
               />
             </div>

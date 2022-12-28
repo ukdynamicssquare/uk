@@ -8,7 +8,7 @@ const MicrosoftDynamicsGP = () => {
     <>
       <Head>
         <title>
-          Dynamics GP Partner | Dynamics Great Plains Partner UK | Dynamics
+          Microsoft Dynamics GP Partner UK (Great Plains) | Dynamics
           Square
         </title>
         <link
@@ -18,6 +18,64 @@ const MicrosoftDynamicsGP = () => {
         <meta
           name="description"
           content="Streamline your finances, sales, service and operations by implementing Microsoft Dynamics GP (Great Plains). Request a free Dynamics GP demo today."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-gp/" />
+        <meta property="og:title" content="Dynamics GP Partner | Dynamics Great Plains Partner UK | Dynamics Square" />
+        <meta property="og:description" content="Streamline your finances, sales, service and operations by implementing Microsoft Dynamics GP (Great Plains). Request a free Dynamics GP demo today." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/gpbanner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-gp/" />
+        <meta property="twitter:title" content="Dynamics GP Partner | Dynamics Great Plains Partner UK | Dynamics Square" />
+        <meta property="twitter:description" content="Streamline your finances, sales, service and operations by implementing Microsoft Dynamics GP (Great Plains). Request a free Dynamics GP demo today." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/gpbanner.png" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "What is Dynamics GP?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Microsoft Dynamics GP or Great Plains is an ERP (Enterprise Resource Planning) solution capable of managing most of the core business processes, including finance, operations, accounting, warehouse management, and distribution. However, it is an ERP solution with some features of CRM (Customer Relationship Management), like sales, service, and customer support."
+                }
+              },{
+                "@type": "Question",
+                "name": "Is there a need for a new licence while updating?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, there is no need to purchase a new licence if you are planning to update the existing version to a new version of Dynamics GP. Even so, you can apply more integrations and customisations without updating or purchasing the new licence key. Your licence will remain the same in any circumstance."
+                }
+              },{
+                "@type": "Question",
+                "name": "How was Dynamics GP built?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "When GP was introduced, it was specifically made for the US market without any multi-language or multi-currency support. With the 1993 update, it became the first multi-user accounting solution in the US. At that time, it was generally known as Great Plains as it was the original founding software organisation of this amazing solution. In 2001, Great Plains was purchased by Microsoft and released Dynamics 8.0, and later released a totally updated version of Dynamics GP."
+                }
+              },{
+                "@type": "Question",
+                "name": "How do I upgrade Dynamics GP 2015 or a previous version to the latest version?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "For any kind of update, upgrade, or implementation, you need to contact your trusted Dynamics 365 support partner, and they will guide you with a better approach. Even so, you can contact Dynamics Square for a rapid and error-free process with support service beyond the implementation process."
+                }
+              },{
+                "@type": "Question",
+                "name": "What are the latest Dynamics GP versions?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The latest version was released in 2017 with the name Dynamics GP 2018. Still, businesses are using older versions, like 2013, 2015, and 2016. Microsoft is providing support for these versions only, and there are no updates or support available for other versions by Microsoft. Does Dynamics GP is going to expire from the market? In October 2019, Microsoft announced the discontinuation of Dynamics GP from the market. But the current users of the following versions will keep getting support."
+                }
+              }] 
+              
+            }),
+          }}
         />
       </Head>
       <section className="Solution-banner hero-1 hero">

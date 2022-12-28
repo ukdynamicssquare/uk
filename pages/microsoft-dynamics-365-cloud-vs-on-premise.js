@@ -17,6 +17,17 @@ const CloudvsOnpremise = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/microsoft-dynamics-365-cloud-vs-on-premise/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/microsoft-dynamics-365-cloud-vs-on-premise/" />
+        <meta property="og:title" content="Dynamics 365 Cloud vs On-Premise Comparison | Dynamics Square" />
+        <meta property="og:description" content="Dynamics 365 cloud vs on-premise, which one is better for your business? Let's compare both Dynamics 365 cloud and Dynamics 365 on-premise." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/MicrosoftTeams-image-5.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/microsoft-dynamics-365-cloud-vs-on-premise/" />
+        <meta property="twitter:title" content="Dynamics 365 Cloud vs On-Premise Comparison | Dynamics Square" />
+        <meta property="twitter:description" content="Dynamics 365 cloud vs on-premise, which one is better for your business? Let's compare both Dynamics 365 cloud and Dynamics 365 on-premise." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/MicrosoftTeams-image-5.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

@@ -28,6 +28,17 @@ const ProfessionalService = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/industries/professional-services/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/professional-services/" />
+        <meta property="og:title" content="Microsoft Dynamics 365 For Professional Services | Dynamics Square" />
+        <meta property="og:description" content="Dynamics 365 for professional services: streamline and efficiently manage your professional services from end-to-end administration to project automation to financial management, and more." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/professional service banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/professional-services/" />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 For Professional Services | Dynamics Square" />
+        <meta property="twitter:description" content="Dynamics 365 for professional services: streamline and efficiently manage your professional services from end-to-end administration to project automation to financial management, and more." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/professional service banner.png" />
       </Head>
       <ModalVideo
         channel="youtube"

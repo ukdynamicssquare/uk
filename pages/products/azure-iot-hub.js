@@ -15,6 +15,17 @@ const AzureIoTHub = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/azure-iot-hub/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/azure-iot-hub/" />
+        <meta property="og:title" content="Azure IoT Hub | Cloud-Hosted IoT Solutions" />
+        <meta property="og:description" content="Control, manage, and secure your IoT workspace in real-time to drive streamlined IoT workload all through by implementing Azure IoT Hub. ​" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azure-iot-hub-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/azure-iot-hub/" />
+        <meta property="twitter:title" content="Azure IoT Hub | Cloud-Hosted IoT Solutions" />
+        <meta property="twitter:description" content="Control, manage, and secure your IoT workspace in real-time to drive streamlined IoT workload all through by implementing Azure IoT Hub." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/azure-iot-hub-banner.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

@@ -17,6 +17,17 @@ const WhyMigrade360 = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/10-reasons-to-choose-dynamics-365/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/10-reasons-to-choose-dynamics-365/" />
+        <meta property="og:title" content="10 Reasons Why Migrate To Microsoft Dynamics 365" />
+        <meta property="og:description" content="Here are the top 10 reasons to choose or migrate to Microsoft Dynamics 365. Get the best Dynamics 365 implementation plans from Dynamics Square." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/why-migrate-36--banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/10-reasons-to-choose-dynamics-365/" />
+        <meta property="twitter:title" content="10 Reasons Why Migrate To Microsoft Dynamics 365" />
+        <meta property="twitter:description" content="Here are the top 10 reasons to choose or migrate to Microsoft Dynamics 365. Get the best Dynamics 365 implementation plans from Dynamics Square." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/why-migrate-36--banner.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

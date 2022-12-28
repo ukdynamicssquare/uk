@@ -17,6 +17,18 @@ const SupportServices = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/our-services/dynamics-365-support-services/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-support-services/" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Support & Services Partner | Dynamics Square" />
+        <meta property="og:description" content="Drive continuity in your processes and ensure a sustainable approach with our seamless Dynamics 365 Support Services. Continuous monitoring of your system and processes can help to attain lifelong success." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/support-service-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-support-services/" />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Support & Services Partner | Dynamics Square" />
+        <meta property="twitter:description" content="Drive continuity in your processes and ensure a sustainable approach with our seamless Dynamics 365 Support Services. Continuous monitoring of your system and processes can help to attain lifelong success." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/support-service-banner.png" />
+        
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

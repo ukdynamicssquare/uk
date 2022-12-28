@@ -8,18 +8,29 @@ const Marketing = () => {
     <>
       <Head>
       <title>
-          Dynamics 365 Marketing Automation & Implementation Partner
+          Dynamics 365 Marketing Partner UK | Dynamics Square
         </title>
         <meta
           name="description"
-          content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Find out how you can use Dynamics 365 Marketing to make the most out of your marketing campaigns."
+          content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Call now +44-207-193-2502 for demo and pricing UK."
         />
            <meta name="robots" content="noindex,nofollow" />
            <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/"
         />
-        
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/" />
+        <meta property="og:title" content="Dynamics 365 Marketing Automation & Implementation Partner" />
+        <meta property="og:description" content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Find out how you can use Dynamics 365 Marketing to make the most out of your marketing campaigns." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/" />
+        <meta property="twitter:title" content="Dynamics 365 Marketing Automation & Implementation Partner" />
+        <meta property="twitter:description" content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Find out how you can use Dynamics 365 Marketing to make the most out of your marketing campaigns." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
+
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -299,7 +310,7 @@ const Marketing = () => {
                       <div className="accordion-body">
                         Lead scoring is an essential method as it is the basic
                         way to converted leads into potential customers.
-                        <Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link> ensures to automate the process of lead
+                         <Link href="/products/microsoft-dynamics-365/"> Dynamics 365</Link> ensures to automate the process of lead
                         scoring through different marketing campaigns.
                         Ultimately, it leads to a smooth and efficient mode of
                         lead scoring that also leads to welcoming of more number
@@ -487,7 +498,7 @@ const Marketing = () => {
                 </h3>
                 <p><b>For organisations without any other Dynamics 365 application</b></p>
                 <div className="price">
-                  <sup>£</sup>1,131.20<span>Per-User/Per Month</span>
+                  £1,131.20<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -503,7 +514,7 @@ const Marketing = () => {
                 </h3>
                 <p><b>For organisations with a qualifying Dynamics 365 application<sup>3</sup></b></p>
                 <div className="price">
-                  <sup>£</sup>565.60<span>Per-User/Per Month</span>
+                  £565.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -635,7 +646,7 @@ const Marketing = () => {
                   innovation and disruptive technologies, allows us to offer
                   services and solutions that respond to the demands of your
                   market, guaranteeing a sustainable competitive advantage for
-                  your company.
+                  your company. So, <Link href="/dynamics-365-marketing-implementation/"> implement Dynamics 365 for Marketing</Link> . 
                 </p>
               </div>
             </div>

@@ -17,6 +17,87 @@ const FinanceOperations = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance-operations/"
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is included in Dynamics 365 Finance and Operations?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dynamics 365 Finance and Operations is an ideal application for growing businesses to manage all their financing needs. It has various features, including accounting, finance, budgeting, project management, and more."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do we need a minimum number of Dynamics 365 Finance & Operations licenses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There is a minimum of 20 full users for the Finance and Operations apps. Keep in mind that it must be 20 licenses for one app, and not 10 of each or any other combination."
+    }
+  },{
+    "@type": "Question",
+    "name": "What kind of system software is Dynamics 365 for F and O?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Microsoft Dynamics 365 for Finance and Operations is one of the most powerful applications to streamline all financial and operational processes. With cloud computing, it becomes more powerful, letting users connect with the operations from anywhere and anytime to gather actionable insights."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which are the major functions managed by Dynamics 365 Finance and Operations?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There are various functions that aid the financing and operations of an organisation. Some functions are inventory management, cost management, product information management, transportation management, and more."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any training available by Microsoft to learn D365 Finance and Operation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Microsoft doesn't provide one-to-one training to its end users. However, there is lots of documentation and learning content available on Microsoft's official website. Also, the implementation partner or Dynamics 365 Finance and Operations support partner can help you understand this application."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I upgrade my Dynamics AX to D365 F&O?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can easily upgrade to D365 F&O. The Dynamics 365 Finance and Operations is evolved from Dynamics AX (the old version) with added functionalities to cope with the ways of modern businesses. You can contact any Microsoft-certified gold partner, like Dynamics Square, to upgrade your Dynamics AX."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I get the trial version of D365 for F&O?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you are new to D365 for F&O, you can easily sign-up for a 30-day trial. However, access will be restricted as compared to a full-user license. If you are an existing customer, you can sign-up for a customer trial and create LCS (Lifecycle Service Projects) to create a development environment within it."
+    }
+  },{
+    "@type": "Question",
+    "name": "Does D365 for Finance and Operations fit for my organization?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "This is the best application available to streamline all financial processes if you belong to a small or medium-sized organization. Also, it helps the users monitor day-to-day operations tasks to make informed decisions whenever required."
+    }
+  },{
+    "@type": "Question",
+    "name": "Does D365 for F&O enable businesses to adapt to modern compliance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To cope with the ways of modern business, Microsoft regularly updates the features and functionality of D365 for F&O. Generally, Microsoft releases updates two times a year and updates the cloud servers automatically without any obstruction in the current process."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long does it take to implement Dynamics 365 Finance & Operations?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "When it comes to implementing Microsoft Dynamics 365 Finance and Operations, the average time it takes is between 6-8 months (It can go up to 1 year depending upon the complexity of the business.). This can be broken down into three phases: Planning and Design: During the Planning and Design phase, you'll need to gather your requirements and create a project plan. This is where you'll also decide on your implementation methodology. Implementation and Training: During the Implementation and Training phase, you'll configure the system and train your users. Go Live and Support: Finally, during the GO Live and Support phase, you'll go live with the system and provide ongoing support."
+    }
+  }]
+              
+            }),
+          }}
+        />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -48,7 +129,7 @@ const FinanceOperations = () => {
             <div className="col-lg-6 align-self-center">
               <img
                 src="/img/Dynamics-365-Finance-Banner-1.svg"
-                alt="Dynamics-365-Finance-Banner"
+                alt="Dynamics-365-Finance & operations-Banner"
               />
             </div>
           </div>
@@ -770,7 +851,7 @@ The latest version includes several new features and improvements that make it a
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>TYes, you can easily upgrade to D365 F&O. The Dynamics 365 Finance and Operations is evolved from <Link href="/products/microsoft-dynamics-ax/">Dynamics AX</Link> (the old version) with added functionalities to cope with the ways of modern businesses. You can contact any <Link href="/">Microsoft-certified gold partner</Link>, like Dynamics Square, to upgrade your Dynamics AX.</p>
+                      <p>Yes, you can easily upgrade to D365 F&O. The Dynamics 365 Finance and Operations is evolved from <Link href="/products/microsoft-dynamics-ax/">Dynamics AX</Link> (the old version) with added functionalities to cope with the ways of modern businesses. You can contact any <Link href="/">Microsoft-certified gold partner</Link>, like Dynamics Square, to upgrade your Dynamics AX.</p>
                     </div>
                   </div>
                 </div>

@@ -16,6 +16,21 @@ const MicrosoftAzure = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-azure/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-azure/" />
+        <meta property="og:title" content="
+Microsoft Azure | Microsoft Azure Cloud Services
+" />
+        <meta property="og:description" content="Microsoft Azure is referred to cloud computing service owned and operated by Microsoft to manage hosted applications via its Microsoft-managed data centers." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azurebanner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-azure/" />
+        <meta property="twitter:title" content="
+Microsoft Azure | Microsoft Azure Cloud Services
+" />
+        <meta property="twitter:description" content="Microsoft Azure is referred to cloud computing service owned and operated by Microsoft to manage hosted applications via its Microsoft-managed data centers." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/azurebanner.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -43,7 +58,7 @@ const MicrosoftAzure = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/azurebanner.png" alt="azure-Banner" width={728} height={466} />
+              <Image src="/img/azurebanner.png" alt="microsoft-azure-Banner" width={728} height={466} />
             </div>
           </div>
         </div>

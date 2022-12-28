@@ -20,6 +20,17 @@ const FieldService = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-field-service/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-field-service/" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Field Service | Dynamics Square UK" />
+        <meta property="og:description" content="Streamline Your Field Operations and Optimize Your Resources By Leveraging Our Unique Microsoft Dynamics 365 Field Service Plans." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/FieldServicebanner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-field-service/" />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Field Service | Dynamics Square UK" />
+        <meta property="twitter:description" content="Streamline Your Field Operations and Optimize Your Resources By Leveraging Our Unique Microsoft Dynamics 365 Field Service Plans." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/FieldServicebanner.png" />
       </Head>
       <ModalVideo
         channel="youtube"
@@ -57,7 +68,7 @@ const FieldService = () => {
             <div className="col-lg-6 align-self-center">
               <Image
                 src="/img/FieldServicebanner.png"
-                alt="Dynamics 365 Customer Service"
+                alt="Dynamics 365 Field Service"
                 width={771}
                 height={478}
               />

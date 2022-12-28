@@ -11,12 +11,23 @@ const BCvsSap = () => {
         </title>
         <meta
           name="description"
-          content="Businesses looking to buy an ideal ERP (Enterprise Resource Planning) system are concerned about the total implementation cost (TCO), vendor reliability,"
+          content="Businesses looking to buy an ideal ERP (Enterprise Resource Planning) system are concerned about the total implementation cost (TCO), vendor reliability."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/dynamics-365-business-central-vs-sap-business-one/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/dynamics-365-business-central-vs-sap-business-one/" />
+        <meta property="og:title" content="Dynamics 365 Business Central vs SAP Business One | Dynamics Square" />
+        <meta property="og:description" content="Businesses looking to buy an ideal ERP (Enterprise Resource Planning) system are concerned about the total implementation cost (TCO), vendor reliability." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/bc-vs-sap.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/dynamics-365-business-central-vs-sap-business-one/" />
+        <meta property="twitter:title" content="Dynamics 365 Business Central vs SAP Business One | Dynamics Square" />
+        <meta property="twitter:description" content="Businesses looking to buy an ideal ERP (Enterprise Resource Planning) system are concerned about the total implementation cost (TCO), vendor reliability." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/bc-vs-sap.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

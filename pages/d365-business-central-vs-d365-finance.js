@@ -15,6 +15,17 @@ const BCvsFinance = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/d365-business-central-vs-d365-finance/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/d365-business-central-vs-d365-finance/" />
+        <meta property="og:title" content="Dynamics 365 Business Central vs Dynamics 365 Finance" />
+        <meta property="og:description" content="Let's compare between two Microsoft Business Applications: Dynamics 365 Business Central vs Dynamics 365 Finance to get the right decision for your busienss growth." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/bcvsfinance.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/d365-business-central-vs-d365-finance/" />
+        <meta property="twitter:title" content="Dynamics 365 Business Central vs Dynamics 365 Finance" />
+        <meta property="twitter:description" content="Let's compare between two Microsoft Business Applications: Dynamics 365 Business Central vs Dynamics 365 Finance to get the right decision for your busienss growth." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/bcvsfinance.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

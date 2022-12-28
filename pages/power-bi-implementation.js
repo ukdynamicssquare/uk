@@ -22,6 +22,21 @@ const PowerBIImplementation = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/power-bi-implementation/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/power-bi-implementation/" />
+        <meta property="og:title" content="
+Power BI Implementation Partner in UK | Dynamics Square
+" />
+        <meta property="og:description" content="Enable everyone across your organization to make data-driven decisions curated in real-time all through our Power BI Implementation plans. Get Power BI today." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Power-BI-1024x586.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/power-bi-implementation/" />
+        <meta property="twitter:title" content="
+Power BI Implementation Partner in UK | Dynamics Square
+" />
+        <meta property="twitter:description" content="Enable everyone across your organization to make data-driven decisions curated in real-time all through our Power BI Implementation plans. Get Power BI today." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Power-BI-1024x586.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -54,7 +69,7 @@ const PowerBIImplementation = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Power-BI-1024x586.png" alt="Power-BI-1024x586" width={1024} height={586} />
+              <Image src="/img/Power-BI-1024x586.png" alt="Power-BI-Partner" width={1024} height={586} />
             </div>
           </div>
         </div>

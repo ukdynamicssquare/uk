@@ -17,6 +17,17 @@ const Dynamics365CustomerEngagement = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-customer-engagement/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-customer-engagement/" />
+        <meta property="og:title" content="Dynamics 365 Customer Engagement Partner UK | Dynamics Square" />
+        <meta property="og:description" content="Uplift your sales & marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement plans." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/customer-engagement-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-customer-engagement/" />
+        <meta property="twitter:title" content="Dynamics 365 Customer Engagement Partner UK | Dynamics Square" />
+        <meta property="twitter:description" content="Uplift your sales & marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement plans." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/customer-engagement-banner.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -47,7 +58,7 @@ const Dynamics365CustomerEngagement = () => {
             <div className="col-lg-6 align-self-center text-center">
               <img
                 src="/img/customer-engagement-banner.png"
-                alt="customer-engagement-banner"
+                alt="D365 customer engagement"
               />
             </div>
           </div>

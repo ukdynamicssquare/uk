@@ -32,7 +32,17 @@ const AboutUs = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/about-us/"
         />
-       
+       <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/about-us/" />
+        <meta property="og:title" content="About Dynamics Square | Dynamics 365 Business Central Partner" />
+        <meta property="og:description" content="Learn about Dynamics Square and explore what makes us unique and one of the most trusted Dynamics 365 Business Central partners in the UK and Europe region.​" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/about-pic.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/about-us/" />
+        <meta property="twitter:title" content="About Dynamics Square | Dynamics 365 Business Central Partner" />
+        <meta property="twitter:description" content="Learn about Dynamics Square and explore what makes us unique and one of the most trusted Dynamics 365 Business Central partners in the UK and Europe region." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/about-pic.png" />
       </Head>
       <main>
       <section className="Solution-banner hero-1 hero about-banner">

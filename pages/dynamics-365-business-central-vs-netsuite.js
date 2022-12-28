@@ -15,6 +15,17 @@ const BcNetSuite = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/dynamics-365-business-central-vs-netsuite/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/dynamics-365-business-central-vs-netsuite/" />
+        <meta property="og:title" content="Dynamics 365 Business Central vs. NetSuite" />
+        <meta property="og:description" content="Dynamics 365 Business Central vs. NetSuite: Both Dynamics 365 Business Central & NetSuite are designed to help SMBs scale and grow their businesses." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/bc-nut.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/dynamics-365-business-central-vs-netsuite/" />
+        <meta property="twitter:title" content="Dynamics 365 Business Central vs. NetSuite" />
+        <meta property="twitter:description" content="Dynamics 365 Business Central vs. NetSuite: Both Dynamics 365 Business Central & NetSuite are designed to help SMBs scale and grow their businesses." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/bc-nut.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

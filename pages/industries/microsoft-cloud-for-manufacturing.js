@@ -25,6 +25,17 @@ const Manufacturing = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-manufacturing/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-manufacturing/" />
+        <meta property="og:title" content="Microsoft Cloud for Manufacturing | Dynamics Square" />
+        <meta property="og:description" content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-manufacturing/" />
+        <meta property="twitter:title" content="Microsoft Cloud for Manufacturing | Dynamics Square" />
+        <meta property="twitter:description" content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
       </Head>
       <ModalVideo
         channel="youtube"

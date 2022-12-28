@@ -18,6 +18,17 @@ const FinancevsSapErp = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/dynamics-365-finance-operations-vs-sap-erp/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/dynamics-365-finance-operations-vs-sap-erp/" />
+        <meta property="og:title" content="What's the Difference B/w Microsoft Business Central Vs SAP Business One?" />
+        <meta property="og:description" content="Are you looking for the Right ERP Solution for your Enterprise, but not sure of choosing between Microsoft Dynamics 365 Business Central and SAP Business One?" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Fno-Sap-Erp.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/dynamics-365-finance-operations-vs-sap-erp/" />
+        <meta property="twitter:title" content="What's the Difference B/w Microsoft Business Central Vs SAP Business One?" />
+        <meta property="twitter:description" content="Are you looking for the Right ERP Solution for your Enterprise, but not sure of choosing between Microsoft Dynamics 365 Business Central and SAP Business One?" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Fno-Sap-Erp.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

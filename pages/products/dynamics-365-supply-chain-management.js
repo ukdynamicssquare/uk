@@ -20,6 +20,17 @@ const SupplyChainManagement = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-supply-chain-management/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-supply-chain-management/" />
+        <meta property="og:title" content="Dynamics 365 Supply Chain Management | Dynamics Square" />
+        <meta property="og:description" content="Dynamics 365 Supply Chain management helps organizations simplify, streamline, and accelerate their supply chain practices just to produce, drive, and scale high." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Supplychain%20banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-supply-chain-management/" />
+        <meta property="twitter:title" content="Dynamics 365 Supply Chain Management | Dynamics Square" />
+        <meta property="twitter:description" content="Dynamics 365 Supply Chain management helps organizations simplify, streamline, and accelerate their supply chain practices just to produce, drive, and scale high." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Supplychain%20banner.png" />
       </Head>
 
       <ModalVideo

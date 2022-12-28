@@ -20,6 +20,17 @@ const Sales = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-sales/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-sales/" />
+        <meta property="og:title" content="Dynamics 365 Sales | Microsoft Sales CRM Solutions" />
+        <meta property="og:description" content="Dynamics 365 for sales is a customer relationship management software that helps to effortlessly build strong relationships with your customers and seamlessly." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Sales-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-sales/" />
+        <meta property="twitter:title" content="Dynamics 365 Sales | Microsoft Sales CRM Solutions" />
+        <meta property="twitter:description" content="Dynamics 365 for sales is a customer relationship management software that helps to effortlessly build strong relationships with your customers and seamlessly." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Sales-banner.png" />
       </Head>
       <ModalVideo
         channel="youtube"

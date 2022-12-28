@@ -25,6 +25,17 @@ const MicrosoftCloudForNonprofit = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-nonprofit/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-nonprofit/" />
+        <meta property="og:title" content="Microsoft Cloud for Nonprofit | Dynamics Square" />
+        <meta property="og:description" content="Microsoft Cloud for Nonprofit is a fully integrated suite of solutions, including Dynamics 365, Azure, Microsoft 365, Microsoft Teams and Power Platform, designed to support the most common processes and challenges of the nonprofit sector." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Not-For-Profit-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-nonprofit/" />
+        <meta property="twitter:title" content="Microsoft Cloud for Nonprofit | Dynamics Square" />
+        <meta property="twitter:description" content="Microsoft Cloud for Nonprofit is a fully integrated suite of solutions, including Dynamics 365, Azure, Microsoft 365, Microsoft Teams and Power Platform, designed to support the most common processes and challenges of the nonprofit sector." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Not-For-Profit-banner.png" />
       </Head>
       <ModalVideo
         channel="youtube"
