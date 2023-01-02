@@ -244,7 +244,7 @@ const PowerBIGuide = () => {
               </div>
               <div className="iner-pp">
                 <img
-                  src="/img/Group-2175.png"
+                  src="/img/group-2175.png"
                   alt="Data visualisation makes 5X faster decisions"
                 />
               </div>

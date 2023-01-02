@@ -653,6 +653,237 @@ const Marketing = () => {
           </div>
         </div>
       </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <header className="section-header">
+            <h2>
+              Have you got
+              <br />
+              questions about D365 for Marketing?
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      What is Dynamics 365 for Marketing? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    Dynamics 365 for Marketing is a tool for automating entire marketing operations. It manages the journey of a customer from becoming a lead to a recurring client. Also, it seamlessly tracks all activities of the customer to offer them better products and services. 
+                    
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                      Which features are available in Dynamics 365 Marketing?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    Microsoft Dynamics 365 Marketing offers various features for all businesses, whether small or large. Some of the core features include a smooth customer journey, managing events, personalising marketing, understanding leads, and much more. 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                      Is Dynamics 365 Marketing ERP or CRM? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    Dynamics 365 Marketing is a CRM (customer relationship management) application. However, it carries a few options for ERP (enterprise resource planning) as well as standard operations. 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      Which one is for me, Microsoft Dynamics 365 Marketing or Salesforce? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    If you are considering ease of accessibility and want a simple user interface with a cost-effective pricing strategy irrespective of the type of business, you should go with D365 Marketing. 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                      How much does D365 marketing cost? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    The cost of Dynamics 365 Marketing totally depends on the complexity of the business and its unique requirements. However, if you want to use it as a standalone application, you have to pay £1,131.20 per tenant/month, and if you are using one of the Dynamics 365 apps, you have to pay £565.60 per tenant/month as an additional amount. 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                      What are the server deployment options for Dynamics 365 marketing? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    You can deploy the servers on cloud servers as well as on-premises servers. If you want global connectivity, you can go with the cloud, as it works 24x7, and if you want to manage your data servers yourself, you can go with the on-premises deployment option. 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7"
+                    >
+                      What is the difference between Dynamics 365 Marketing and Dynamics CRM? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    Dynamics CRM is capable of managing the entire relationship with customers, whereas Dynamics 365 Marketing is responsible for managing the marketing section of an organisation. Dynamics CRM includes four applications: <Link href="/products/microsoft-dynamics-365-field-service/">Dynamics 365 Field Service</Link> , <Link href="/products/microsoft-dynamics-365-customer-service/">D365 Customer Service</Link> , <Link href="/products/microsoft-dynamics-365-sales/">Dynamics 365 for Sales</Link> , and Dynamics 365 Marketing. 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-8"
+                    >
+                      Can I avail myself of a trial of Dynamics 365 Marketing? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-8"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    Yes, you can avail yourself of a demo or a free trial of this application by contacting Dynamics Square. Our team will help you understand your marketing needs and provide you with a sound overview of this application.  
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-9"
+                    >
+                      How do I integrate Dynamics 365 Marketing with my existing Dynamics 365 solution? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-9"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    You can easily integrate with your existing system by contacting your <Link href="/">Microsoft certified partner</Link> , or you can contact Dynamics Square to know more about this process and the cost required to do so.  
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-10"
+                    >
+                      Where is Dynamics Square based in the UK for D365 Marketing Partner? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-10"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    Dynamics Square is located in several locations in the UK to offer on-site support and services, like London, Manchester, Birmingham, <Link href="/location/microsoft-dynamics-partner-leeds/">Leeds</Link>, <Link href="/location/microsoft-dynamics-partner-glasgow/">Glasgow</Link>, Bristol, Liverpool, and more. 
+
+                    See Also -  <Link href="/products/microsoft-dynamics-crm/">Microsoft Dynamics CRM</Link> | <Link href="/location/microso/our-services/dynamics-365-implementation-services/ft-dynamics-partner-leeds/">Dynamics 365 Implementation</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
