@@ -88,7 +88,6 @@ const BusinessCentral = () => {
                   Dynamics 365 Business Central (formerly known as&nbsp;
                   <Link href="/products/microsoft-dynamics-nav/">
                     <a>
-                      {" "}
                       <b>Dynamics NAV</b>
                     </a>
                   </Link>
