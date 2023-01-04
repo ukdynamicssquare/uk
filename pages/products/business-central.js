@@ -26,7 +26,7 @@ const BusinessCentral = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-business-central/"
+          href="https://www.dynamicssquare.co.uk/products/business-central/"
         />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
