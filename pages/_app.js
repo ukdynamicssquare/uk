@@ -37,7 +37,8 @@ function MyApp({ Component, pageProps }) {
       router.asPath =='/not-for-profit-fundrasing-engagenment/' ||
       router.asPath =='/email-ax-to-finance/' ||
       router.asPath =='/email-wms/' ||
-      router.asPath =='/email-gp-to-bc/'
+      router.asPath =='/email-gp-to-bc/' ||
+      router.asPath =='/upgrade-nav-to-business-centeral/' 
 
   )  {
     return (

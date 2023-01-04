@@ -486,7 +486,7 @@ const HumanResource = () => {
             <div className="col-lg-8">
               <header className="section-header">
                 <h2>
-                  Have you got <br /> questions about Dynamics 365 Finance?
+                  Have you got <br /> questions about Dynamics 365 HR?
                 </h2>
                 <p>Click through to our FAQ for the best answers!</p>
               </header>

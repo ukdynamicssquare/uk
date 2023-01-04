@@ -11,10 +11,10 @@ const FieldService = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Field Service | Dynamics Square UK</title>
+        <title>Microsoft Dynamics 365 Field Service Partner UK | Dynamics Square</title>
         <meta
           name="description"
-          content="Streamline Your Field Operations and Optimize Your Resources By Leveraging Our Unique Microsoft Dynamics 365 Field Service Plans."
+          content="Streamline Your Field Operations and Optimize Your Resources By Leveraging Our Unique Microsoft Dynamics 365 Field Service Plans UK."
         />
         <link
           rel="canonical"

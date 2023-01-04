@@ -86,14 +86,13 @@ const BusinessCentral = () => {
                   Automate Your Operations
                   <br /> <span>with Dynamics 365 Business Central</span>
                 </h2>
-                <p></p>
               </header>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6">
               <div className="vide-s">
-                <video className="video-screen" autoPlay loop>
+                <video className="video-screen" autoPlay loop muted>
                   <source src="/video/BC.mp4" />
                 </video>
               </div>
@@ -159,7 +158,7 @@ const BusinessCentral = () => {
                     spaceBetween: 20,
                   },
                   768: {
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                     spaceBetween: 40,
                   },
                   1024: {
@@ -262,7 +261,7 @@ const BusinessCentral = () => {
                       </p>
                     </div>
                     <img
-                      src="/img/slider-dem-1.png"
+                      src="/img/slider-dem-4.png"
                       className="card-img-bottom"
                       alt="..."
                     />
@@ -277,7 +276,7 @@ const BusinessCentral = () => {
                       <p className="card-text">Using the integrated CRM, you can accelerate your sales cycle to achieve faster closures. With CRM capabilities like customer interaction tracking, predicting opportunities like up-sell and cross-sell, tailoring pricing, and creating discounts, you can decode customer experience to your benefit.</p>
                     </div>
                     <img
-                      src="/img/slider-dem-2.png"
+                      src="/img/slider-dem-5.png"
                       className="card-img-bottom"
                       alt="..."
                     />
@@ -294,7 +293,7 @@ const BusinessCentral = () => {
                       </p>
                     </div>
                     <img
-                      src="/img/slider-dem-3.png"
+                      src="/img/slider-dem-6.png"
                       className="card-img-bottom"
                       alt="..."
                     />
@@ -311,7 +310,7 @@ const BusinessCentral = () => {
                       </p>
                     </div>
                     <img
-                      src="/img/slider-dem-1.png"
+                      src="/img/slider-dem-7.png"
                       className="card-img-bottom"
                       alt="..."
                     />
@@ -1016,13 +1015,17 @@ const BusinessCentral = () => {
       </section>
       <section id="pricing" className="pricing">
         <div className="container">
-          <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
             <h2>Dynamics 365 Business Central Pricing & Licensing</h2>
             <p>
               Checkout the latest Dynamics 365 Business Central Pricing and
               capabilities of Essential, Premium, and Team Members plans.
             </p>
           </header>
+            </div>
+          </div>
           <div className="row gy-4">
             <div className="col-lg-4">
               <div className="box">

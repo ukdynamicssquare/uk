@@ -512,6 +512,143 @@ const PowerVirtualAgents = () => {
         </div>
       </section>
 
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <header className="section-header">
+                <h2>
+                  Have you got <br /> questions about Microsoft Power Virtual Agents?
+                </h2>
+                <p>Click through to our FAQ for the best answers!</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      What is Power Virtual Agents?  
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      Built by Microsoft, Power Virtual Agents offer AI-enabled chatbots to enhance the customer experience while increasing the credibility of the business. Microsoft Power Virtual Agents is capable of empowering users or businesses to create a desired chatbot with desired features without learning to code. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                      Is Power Virtual Agent available for free? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      No, it isn't free, but you can avail of a 60-day trial to know its capabilities and benefits as per your business. You can sign up for the trial on the Microsoft website. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                    Is Power Virtual Agent included with Power Platform?  
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      Yes, it is one of the applications offered by Microsoft under the Power application. The <Link href="/products/microsoft-power-platform/">Power Platform</Link> contains <Link href="/products/microsoft-power-bi/">Power BI</Link>, <Link href="/products/microsoft-power-apps/">Power Apps</Link>, Power Pages, <Link href="/products/microsoft-power-automate/">Power Automate</Link>, and Power Virtual Agents. These applications are also known as elements of the Power Platform. All of these applications are designed to boost the overall productivity and efficiency of the business while utilising existing resources. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      What type of offering is Power Virtual Agents?  
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      It is based on a SaaS platform to help you build chatbots for different purposes. You can easily create the required bot and embed it on the website without any knowledge of programming. It offers a drag-and-drop feature to bots and deploys them in a matter of a few clicks. 
+                        .
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                      What types of bots can I create using Power Virtual Agents?  
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      You can create any kind of bot using this application based on your needs. It may be a chatbot or a VA (virtual agent). Even so, you can integrate other native applications with Power Virtual Agents to fetch more customer data in real-time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="blogs-extra">
         <div className="container">
           <header className="section-header">
