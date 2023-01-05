@@ -14,7 +14,7 @@ const Marketing = () => {
           name="description"
           content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Call now +44-207-193-2502 for demo and pricing UK."
         />
-           <meta name="robots" content="noindex,nofollow" />
+           <meta name="robots" content="index,follow" />
            <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/"

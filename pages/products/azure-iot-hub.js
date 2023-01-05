@@ -9,7 +9,7 @@ const AzureIoTHub = () => {
       <title>Azure IoT Hub | Cloud-Hosted IoT Solutions</title>
         <meta
           name="description"
-          content="Control, manage, and secure your IoT workspace in real-time to drive streamlined IoT workload all through by implementing Azure IoT Hub. ​"
+          content="Control, manage, and secure your IoT workspace in real-time to drive streamlined IoT workload all through by implementing Azure IoT Hub."
         />
         <link
           rel="canonical"
@@ -18,7 +18,7 @@ const AzureIoTHub = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/azure-iot-hub/" />
         <meta property="og:title" content="Azure IoT Hub | Cloud-Hosted IoT Solutions" />
-        <meta property="og:description" content="Control, manage, and secure your IoT workspace in real-time to drive streamlined IoT workload all through by implementing Azure IoT Hub. ​" />
+        <meta property="og:description" content="Control, manage, and secure your IoT workspace in real-time to drive streamlined IoT workload all through by implementing Azure IoT Hub." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azure-iot-hub-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
