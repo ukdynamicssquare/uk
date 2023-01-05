@@ -6,7 +6,7 @@ const PowerBiSupport = () => {
   return (
     <>
       <Head>
-        <title>Power BI Support Partner UK | Dynamics Square</title>
+        <title>Power BI Support Service | Dynamics Square</title>
         <meta
           name="description"
           content="Need help with Power BI? Connect with our Microsoft Power BI support partner now and resume your data visualisation without interruption."
@@ -22,7 +22,7 @@ const PowerBiSupport = () => {
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
                 Microsoft <br />
-                Power BI Support
+                Power BI Support Services
               </h1>
               <p>
                 Connect with Power BI support partner to analyse and visualise

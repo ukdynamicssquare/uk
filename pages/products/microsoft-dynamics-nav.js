@@ -31,6 +31,81 @@ const MicrosoftDynamicsNAV = () => {
         <meta property="twitter:title" content="Microsoft Dynamics NAV: Navision Support Partner UK" />
         <meta property="twitter:description" content="Need Microsoft Dynamics NAV support? Whether you're using an older or newer version, we offer high quality, low cost Navision support services in the UK. Contact Now Today!" />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/nav-banner.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "Is Microsoft Dynamics same as Navision?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, Microsoft Dynamics is the same as Navision. In 2018, Microsoft Dynamics Navision was renamed as Dynamics 365 Business Central, a cloud-based ERP solution for overall business management. With the limited capabilities of Dynamics NAV, D365 Business Central came up with a lot of benefits and features for users to make smarter business decisions."
+                }
+              },{
+                "@type": "Question",
+                "name": "How much does Microsoft NAV Cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No Dynamics NAV support partner can give you a fixed price before analysing the business processes and requirements. The cost depends on several factors, including company size, industry type, number of users, and storage requirements. The selection of your pack (Starter or Extended) along with the integrations and complexity of customizations decides the final price."
+                }
+              },{
+                "@type": "Question",
+                "name": "Can Dynamics NAV be customized as per specific business requirements?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Dynamics NAV system is highly customizable and can be modified to perfectly fit your business requirements. You'll get a business management solution that perfectly reflects the scope of your business—nothing more and nothing less. With its own development environment and rules governing how modifications should be made, Dynamics NAV allows for customizations that are easily supported and upgraded."
+                }
+              },{
+                "@type": "Question",
+                "name": "Which is the latest version of Dynamics NAV?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The latest version was Dynamics NAV 2018 before evolving into Business Central. After the 2018 update, the features and capabilities of this version were revolutionised to deal with modern business challenges."
+                }
+              },{
+                "@type": "Question",
+                "name": "Is Dynamics NAV different from Business Central?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, Dynamics NAV used to work using on-premises servers and consists of fewer capabilities compared with modern ways of business. But Business Central is a cloud-based ERP with advanced capabilities and features to deal with modern ways of business management. In short, Dynamics Business Central is an evolved version of Dynamics NAV."
+                }
+              },{
+                "@type": "Question",
+                "name": "Is it important to upgrade from Dynamics NAV to BC?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "It totally depends on your requirements. If you want to move to a solution to deal with current and predictive processes, you should move to BC. With a simple user interface and high performance, Business Central aids businesses in rapid growth and easy scalability."
+                }
+              },{
+                "@type": "Question",
+                "name": "If I move to Business Central, is it necessary to opt for cloud deployment?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "If you move to BC, it isn't necessary to move your servers to the clouds. It totally depends on you to choose the type of deployment, whether cloud, on-premises, or hybrid. Once you contact your certified support partner, they will help you understand the business requirements and get you a better choice for your business."
+                }
+              },{
+                "@type": "Question",
+                "name": "Is the upgrade of NAV mandatory?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, you have to upgrade to the latest version of NAV, or you have to move to Business Central because the support provided by Microsoft has been stopped for most of the versions. To enjoy smooth business flow and constant support from Microsoft to get your business running, you have to upgrade your system or opt for a successful NAV migration process."
+                }
+              },{
+                "@type": "Question",
+                "name": "Why choose Dynamics Square as your NAV implementation partner?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dynamics Square is a Microsoft Gold Certified Partner and has been providing Microsoft Dynamics NAV support since 2013. With a team of over 130+ highly skilled and certified consultants, we are one of the leading providers of Microsoft Dynamics NAV support in the UK. We support SMBs in planning, controlling, executing, and optimizing business processes with the help of efficient, transparent, automated, and reliable ERP software. We offer a comprehensive support package that includes 24/7 support, software and hardware support, and training. We believe that our experience and dedication to customer service make us the perfect partner for your Dynamics NAV needs. Contact us today to know how we can help you get the most out of your Dynamics NAV investment."
+                }
+              }]  
+              
+            }),
+          }}
+        />
+      
       </Head>
 
       <ModalVideo
@@ -96,7 +171,8 @@ const MicrosoftDynamicsNAV = () => {
                   business processes. Built specifically for SMBs, it is capable
                   of connecting all departments, including finance, sales,
                   warehousing, operations, customers, supply chain, accounting,
-                  and inventory. Dynamics NAV is so powerful that it can
+                  and inventory. </p><p>
+                  Dynamics NAV is so powerful that it can
                   automate most of the recurring and manual processes using the
                   capabilities of AI (artificial intelligence) and BI (business
                   intelligence) while enhancing the overall efficiency of the

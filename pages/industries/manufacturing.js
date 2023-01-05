@@ -82,7 +82,7 @@ const Startup = () => {
                 your manufacturing unit to simplify your end-to-end
                 manufacturing practices—from the production line, customer
                 management to real-time reporting insights with Manufacturing
-                ERP+ CRM solutions.
+                ERP+ <Link href ="/products/microsoft-dynamics-crm/">CRM solutions</Link>.
               </p>
               <p>
                 Microsoft Dynamics 365 Manufacturing helps elevate your
@@ -342,7 +342,7 @@ const Startup = () => {
                   <div className="card_new_content">
                     <h3>Service Management</h3>
                     <p>
-                      Implementing Dynamics 365 solutions for manufacturing
+                      <Link href="/our-services/dynamics-365-implementation-services/">Implementing Dynamics 365</Link> solutions like Business Central for manufacturing
                       companies helps to provide an exceptional customer
                       experience while enabling proactive field service and
                       remote support.

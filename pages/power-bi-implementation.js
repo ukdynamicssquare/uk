@@ -16,7 +16,7 @@ const PowerBIImplementation = () => {
         <title>Power BI Implementation Partner in UK | Dynamics Square</title>
         <meta
           name="description"
-          content="Enable everyone across your organization to make data-driven decisions curated in real-time all through our Power BI Implementation plans. Get Power BI today."
+          content="Enable everyone across your organization to make data-driven decisions curated in real-time all through our Power BI Implementation plans. Get a demo today."
         />
         <link
           rel="canonical"

@@ -5,7 +5,8 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination, Autoplay, FreeMode } from "swiper";
+import "swiper/css/navigation";
+import { Pagination, Autoplay, FreeMode, Mousewheel, Navigation } from "swiper";
 import ModalVideo from "react-modal-video";
 import Blog from "../../../components/Blog";
 
@@ -16,7 +17,6 @@ const BusinessCentral = () => {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
         <title>
           Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
         </title>
@@ -24,10 +24,103 @@ const BusinessCentral = () => {
           name="description"
           content="Dynamics Square is a top UK-based Microsoft Dynamics 365 Business Central Partner for SMBs providing support, training and consultancy. Schedule a free demo!"
         />
+        <meta name="keywords" content="Microsoft Dynamics 365 Business Central, Business Central UK, Microsoft Dynamics 365 Pricing, Business Central Team Member License, Business Dynamics 365, Dynamics 365 Business Central Essentials, ERP Microsoft Dynamics 365,Microsfot 365 Business, Microsoft Bc, Microsoft Business Central Pricing UK, Microsoft Business Central Partner, Business Central Integration, MS Dynamics Business Central, Business Central Support"></meta>
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/"
         />
+        <meta name="robots" content="index,follow" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
+" />
+        <meta property="og:description" content="Dynamics Square is a top UK-based Microsoft Dynamics 365 Business Central Partner for SMBs providing support, training and consultancy. Schedule a free demo!" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/business-center-new-banner.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/" />
+        <meta property="twitter:title" content="
+Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
+" />
+        <meta property="twitter:description" content="Dynamics Square is a top UK-based Microsoft Dynamics 365 Business Central Partner for SMBs providing support, training and consultancy. Schedule a free demo!" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/business-center-new-banner.png" />
+      
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is Dynamics 365 Business Central?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dynamics 365 Business Central is a one-stop solution for all your enterprise needs. Since Business Central is built with excel-like features and easy-to-use navigation, anyone exposed to advanced excel functionality can easily adapt and leverage the powerful use of Business Central. Business Central is designed as a complete ERP solution for modern enterprises seeking to simplify end-to-end enterprise practices from financials to sales, warehousing to supply chain, project management to general reporting, assembly to manufacturing; Business Central is embedded with all potential business management solutions that give you real-time eyes into your business. You can host your application whether on cloud (private or public) or on-premise; the choice is yours. When it comes to Dynamics 365 Business Central Overview, it comprises huge things."
+    }
+  },{
+    "@type": "Question",
+    "name": "How is Business Central related to Dynamics NAV?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dynamics 365 Business Central is the updated version of Dynamics NAV. With its upgrade, Microsoft changed its name too. The Core functionality remains the same and is updated with advanced features and navigation to support modern enterprises and to serve every industry. However, existing Dynamics NAV users can still avail of the support services. Dynamics Square offers highly reliable and efficient NAV and Business Central Support Services at cost-effective rates."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I upgrade to Dynamics 365 Business Central?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Often, enterprises seem confused about when is the right time to upgrade to Dynamics 365 Business Central. If the same question is rolling out in your mind, contact Dynamics Square. We provide free-system health-check to identify your system lacks and upgrading needs considering your current business practices. Our experts can let you know whether you are in need to upgrade your current system or not. To know more about Why move to Dynamics 365 Business Central? Contact our Dynamics 365 experts, we can help you with all your questions. For instance, when you need to upgrade, what are possible personalized options for you? What sort of implementation practices do we follow while upgrading your existing business solution to Microsoft Dynamics 365 Business Central?"
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any training available to understand Business Central?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Microsoft Dynamics 365 Business Central comes with a simple, easy-to understand user interface and provides a smooth experience to all users, whether administrators or operators. There might be a need for training to understand the workings of added integrations, customizations, and add-ons. In such a case, you can avail yourself of the learning and training provided by your Business Central implementation partner, and they will guide you along the right path."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I customise Business Central?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Business Central is totally customisable as per your unique business and its changing needs. Irrespective of the industry, business type, and size, you can customise this powerful application to simplify your business operations. In short, customizations are the path to more productivity and easy business growth."
+    }
+  },{
+    "@type": "Question",
+    "name": "What industries can Dynamics 365 Business Central Support?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dynamics 365 Business Central is designed in such a way that any industry from retailers to manufacturers, food & beverages to operations, e-commerce industry to financial services, and more can avail of seamless support in terms of Dynamics 365 business central. Moreover, Business Central can be personalized as per your industry-specific needs, or custom operational navigation takes place in your organization.To get more information about how this ERP solution can be implemented and leveraged by your specific industry, talk to us, we as a Business Central Consulting Services Provider are here to answer all your queries."
+    }
+  },{
+    "@type": "Question",
+    "name": "How much does Dynamics 365 Business Central cost?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For Dynamics 365 Business Central Essential plan, you will be charged £52.80 per user/per month. For Dynamics 365 Business Central Premium plan, you need to invest £75.40 per user/per month. For Dynamics 365 Business Central Team Member, users will be charged £5.82 per user/per month."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I get ongoing support for Dynamics 365 Business Central?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will get direct support from Dynamics Square as we are a gold partner for Microsoft's products with existence in the UK market and other global locations with a well-equipped support system. Our support system includes end-user training, technical assistance, and off-hours support whenever required. If you are seeking professional and trustworthy support services, selecting Dynamics Square - a trustworthy Business Central Support Partner in the UK can help."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does Power BI Fit with Dynamics 365 Business Central?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Business Central is an all-in-one ERP solution. In case you want advancement in your reporting & analytics terms, seamless integration with Power BI can be done as both are Microsoft's products, hence, Power BI fits well with Dynamic 365 Business Central. Power BI can enable visualization in your reporting, key metrics, and your entire business analytics. You can create your own business reports and dashboards leveraging standard reporting templates and other visuals."
+    }
+  }]
+              
+            }),
+          }}
+        />
+      
       </Head>
       <ModalVideo
         channel="youtube"
@@ -41,16 +134,16 @@ const BusinessCentral = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
-              <h1>
-                Microsoft <br />
-                Dynamics 365
-                <br />
+              <h1 className="new-heding-colo">
+                Dynamics 365 <br />
                 Business Central
               </h1>
-              <p>
-                Manage your end-to-end business processes and drive effective
-                growth, sustainability, and scalability in your business with
-                Microsoft Dynamics 365 Business Central.
+              <h2 className="heading-h2">
+                Digitally transform your <br /> business to the next level
+              </h2>
+              <p className="banner-para">
+                Grow your business with an intelligent business platform to
+                streamline processes
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -67,9 +160,10 @@ const BusinessCentral = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/Dynamics-365-Business-Central.png"
-                alt="Dynamics 365 Business Central"
-                width={1024} height={597}
+                src="/img/business-center-new-banner.png"
+                alt="Dynamics 365 Business Central partner"
+                width={1024}
+                height={597}
               />
             </div>
           </div>
@@ -77,45 +171,283 @@ const BusinessCentral = () => {
       </section>
       <section>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header section-header-new-ct">
                 <h2>
-                  What is Dynamics 365 <br />
-                  Business Central?
+                  Automate Your Operations
+                  <br /> with Dynamics 365 Business Central
                 </h2>
-                <p>
-                  Dynamics 365 Business Central (formerly known as&nbsp;
-                  <Link href="/products/microsoft-dynamics-nav/">
-                    <a>
-                      <b>Dynamics NAV</b>
-                    </a>
-                  </Link>
-                  ) is a comprehensive business management solution helping SMBs
-                  to manage sales, finance, service, and operations seamlessly
-                  and effectively. As a Dynamics 365{" "}
-                  <Link href="/dynamics-365-business-central-implementation/">
-                    <a>
-                      <b>Business Central Implementation Partner</b>
-                    </a>
-                  </Link>
-                  , we ensure start-ups and small businesses to get a
-                  stress-free and successful software rollout, training and
-                  support.
-                </p>
               </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="vide-s">
+                <video className="video-screen" autoPlay loop muted>
+                  <source src="/video/BC.mp4" />
+                </video>
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="new-sol-con-side">
+                <p>
+                  If your business is incompatible with the evolving digital
+                  economy, you will lose on scalable growth opportunities, while
+                  being stuck in operational complexities. Managing finances,
+                  accounting, business data, and customer services is tough for
+                  most small to medium businesses.
+                
+                  Also, a lack of visibility and insights into their business
+                  performance leads to bad planning and decisions. However, that
+                  shouldn't stop businesses from growing. With <strong>Microsoft
+                  Dynamics 365 Business Central</strong>, you can simplify the complex
+                  aspects of your business seamlessly.
+                </p>
+                <p>
+                  You can use Microsoft's comprehensive suite of smart
+                  applications to automate functions, such as sales, marketing,
+                  finance, service, and operations. It brilliantly unifies ERP
+                  and CRM capabilities into different applications that work in
+                  harmony to deliver great results for your business.
+                </p>
+                <p>
+                  With Dynamics Square, you can use Microsoft applications to
+                  make smart business decisions and ensure profitability.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
       <section>
         <div className="container">
-          <header className="section-header">
-            <h2>
-              Dynamics 365 <br /> Business Central Capabilities
-            </h2>
-          </header>
-          <div className="row d-lg-none">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header section-header-new-ct">
+                <h2>
+                  Why Choose
+                  <br /> <span> Dynamics 365 Business Central?</span>
+                </h2>
+                <p></p>
+              </header>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid">
+          <div className="row">
+            <div>
+            <Swiper
+                autoplay={{
+                  delay: 1,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
+                }}
+                breakpoints={{
+                  640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    speed: 20000,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                    speed: 20000,
+                  },
+                  1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 15,
+                    speed: 20000,
+                  },
+                  1300: {
+                    slidesPerView: 3,
+                    spaceBetween: 15,
+                  },
+                  1400: {
+                    slidesPerView: 4,
+                    spaceBetween: 15,
+                    speed: 20000,
+                  },
+                }}
+                loop={true}
+                freeMode={true}
+                mousewheel={false}
+                pagination={{
+                  clickable: false,
+                }}
+                modules={[Autoplay, FreeMode, Mousewheel]}
+                className="mySwiper busine-swiper"
+              >
+                <SwiperSlide>
+                  <div className="card card-ds-slide">
+                    <div className="card-body">
+                      <h3 className="card-title">
+                        Discover a new way of managing and innovating business
+                      </h3>
+                      <p className="card-text">
+                        Successful <Link href ="/dynamics-365-business-central-implementation/">implementation of Dynamics 365 Business Central</Link> enables you to reduce your operational costs by
+                        eliminating manual tasks and associated errors. By
+                        automating workflows, you can boost employee
+                        productivity, freeing up resources from tasks like
+                        billing, and invoice creation which can help in
+                        innovating business and delivering exceptional customer
+                        experience.
+                      </p>
+                    </div>
+                    <img
+                      src="/img/slider-dem-1.png"
+                      className="card-img-bottom"
+                      alt="..."
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card card-ds-slide">
+                    <div className="card-body">
+                      <h3 className="card-title">
+                        Give life to your data to boost your business
+                      </h3>
+                      <p className="card-text">
+                        Dynamics 365 Business Central gives you access to
+                        insights in real time so that you can make informed
+                        business decisions. Its capabilities like in-depth
+                        reporting, embedded analytics, and appealing
+                        visualisation allow you to investigate bottlenecks and
+                        define the seamless operational workflow thoroughly.
+                      </p>
+                    </div>
+                    <img
+                      src="/img/slider-dem-2.png"
+                      className="card-img-bottom"
+                      alt="..."
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card card-ds-slide">
+                    <div className="card-body">
+                      <h3 className="card-title">
+                        Run your business from anywhere
+                      </h3>
+                      <p className="card-text">
+                        Our cloud-based deployment and robust Microsoft
+                        integration allow you the flexibility to take care of
+                        your business from anywhere.
+                      </p>
+                    </div>
+                    <img
+                      src="/img/slider-dem-3.png"
+                      className="card-img-bottom"
+                      alt="..."
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card card-ds-slide">
+                    <div className="card-body">
+                      <h3 className="card-title">
+                        Unlock the next level of team collaboration
+                      </h3>
+                      <p className="card-text">
+                        You can foster stronger collaboration between
+                        distributed teams using tools like Microsoft Teams &
+                        Outlook. Even in a remote work setup, your team will be
+                        on the same page.
+                      </p>
+                    </div>
+                    <img
+                      src="/img/slider-dem-4.png"
+                      className="card-img-bottom"
+                      alt="..."
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card card-ds-slide">
+                    <div className="card-body">
+                      <h3 className="card-title">
+                      Implement a winning customer experience
+                      </h3>
+                      <p className="card-text">Using the integrated CRM, you can accelerate your sales cycle to achieve faster closures. With CRM capabilities like customer interaction tracking, predicting opportunities like up-sell and cross-sell, tailoring pricing, and creating discounts, you can decode customer experience to your benefit.</p>
+                    </div>
+                    <img
+                      src="/img/slider-dem-5.png"
+                      className="card-img-bottom"
+                      alt="..."
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card card-ds-slide">
+                    <div className="card-body">
+                      <h3 className="card-title">
+                      Make security & adaptability your business mantra
+                      </h3>
+                      <p className="card-text">
+                      Regardless of size, security can be detrimental to businesses. Dynamics 365 Business Central is designed and deployed on an advanced security-enabled Azure cloud with multiple security features like authentication, authorization, data encryption, and auditing, to ensure enterprise-grade defences.
+                      </p>
+                    </div>
+                    <img
+                      src="/img/slider-dem-6.png"
+                      className="card-img-bottom"
+                      alt="..."
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card card-ds-slide">
+                    <div className="card-body">
+                      <h3 className="card-title">
+                      Make sustainability your business DNA
+                      </h3>
+                      <p className="card-text">
+                      Cut carbon footprint by leveraging the Sustainability Manager to track and manage your emissions in real time from a unified dashboard. Using the power of business intelligence to visualise data and make informed decisions.
+                      </p>
+                    </div>
+                    <img
+                      src="/img/slider-dem-7.png"
+                      className="card-img-bottom"
+                      alt="..."
+                    />
+                  </div>
+                </SwiperSlide>
+              </Swiper>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-10">
+            <img src="/img/micrsoft-bc-image.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <section className="nn-bg">
+        <div className="bb">
+          <img src="/img/bus-bg.png" alt="bgimage" />
+        </div>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header section-header-new-ct">
+                <h2>
+                  <span>Your business is unique so will be our</span>{" "}
+                  specialised strategy <span>for you</span>
+                </h2>
+                <p>
+                  We will help you design a customised Business Central suite
+                  using the applications that make your business cost-effective
+                  and fast. Connect the intelligent apps & automate workflows,
+                  so that you can focus on growth. <Link href="/dynamics-365-business-central-features/">Dynamics 365 Business Central features</Link> and <Link href="/products/dynamics-365-business-central/advantages-capabilities/">capabilities</Link> include:
+                </p>
+              </header>
+            </div>
+          </div>
+          <div className="row solution-new-tab-content d-lg-none">
             <div className="col-lg-12">
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
@@ -139,188 +471,49 @@ const BusinessCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <div className="row busines-service-list-pad">
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Internal Transactions</h4>
-                                <p>
-                                  Automate and customise the company's internal
-                                  transactions with restricted access to team
-                                  members.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Cash flow Forecasting</h4>
-                                <p>
-                                  Manage cash balances and account schedules to
-                                  estimate future sales and expenses.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Budgeting</h4>
-                                <p>
-                                  Monitor and manage the company's overall
-                                  financial activities, along with budget
-                                  control.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Inventory Costing</h4>
-                                <p>
-                                  Maintains the general ledger to manage the
-                                  inventory, manufacturing costs, and reconcile
-                                  the costs.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Consolidation and Multi-Companies</h4>
-                                <p>
-                                  With the combination of multiple general
-                                  ledgers, it can conduct financial analysis of
-                                  the company.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Costs and Income Allocation</h4>
-                                <p>
-                                  {" "}
-                                  Distribute the entries from one general
-                                  journal to different accounts.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Banking</h4>
-                                <p>
-                                  With seamless banking integration, it settles
-                                  bank accounts and funds transfers between
-                                  accounts.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Cost Accounting</h4>
-                                <p>
-                                  Distribute the budget between actual and
-                                  budgeted costs for operations and projects to
-                                  analyze returns.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Fixed Assets</h4>
-                                <p>
-                                  Gives the complete control of fixed assets and
-                                  ensures timely reduction with D365 Business
-                                  Central.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Accounts Receivable</h4>
-                                <p>
-                                  Receives payments, settles bank accounts, and
-                                  collects the remaining balance.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Accounts Payable</h4>
-                                <p>
-                                  Make payments, mark outgoing payments, and
-                                  manage cheques with D365 BC.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>General Ledger</h4>
-                                <p>
-                                  Manage the credit and debit entries to
-                                  maintain the entire financial data.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <div className="inner-con-div">
+                      <p>
+                        Manage reports, business forecasts, and accounting
+                        activities through an aggregated platform with absolute
+                        visibility into your organisation's financial health.
+                        Give a seamless experience to your staff by automating
+                        processes and using AI-generated insights to make
+                        smarter business decisions. With <Link href="/products/microsoft-dynamics-365/">Dynamics 365 applications</Link>, automate:
+                      </p>
+                      <ul>
+                        <li>
+                          Customer Onboarding: Personalise customer engagement
+                          by leveraging a 360-degree view of the customer.
+                        </li>
+                        <li>
+                          Customer Service: Use AI models to predict customer
+                          concerns & resolve issues on the go.
+                        </li>
+                        <li>
+                          Risk Management: Eliminate financial risks through
+                          automated rules-based processes.
+                        </li>
+                        <li>
+                          Manage Cash Flow: Evaluate the financial health of the
+                          business & estimate growth opportunities via financial
+                          reporting.
+                        </li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Feel Free to Contact Us to Get a Demo</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
                       </div>
                     </div>
                   </div>
-                  <hr />
+                 
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -341,170 +534,29 @@ const BusinessCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <div className="row busines-service-list-pad">
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Customer management</h4>
-                                <p>
-                                  Manage customers and keep track of their
-                                  queries as well.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Sales Quote</h4>
-                                <p>
-                                  Provides a sales quote to the customer to
-                                  offer negotiations before making the actual
-                                  invoice.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Sales order</h4>
-                                <p>
-                                  Manages the process of creating sales orders
-                                  with drop shipment and partial shipping
-                                  functions.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Sales Invoices</h4>
-                                <p>
-                                  It creates a sales invoice for the actual
-                                  purchases processed by the buyers.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Drop Shipments</h4>
-                                <p>
-                                  Manages the purchase order to ship the
-                                  products directly from vendor to customer.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Sales Returns</h4>
-                                <p>
-                                  Manages the data of sales invoices of the
-                                  product returned to release the refund amount.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Assembly Order</h4>
-                                <p>
-                                  Create linked assembly orders to process the
-                                  full or partial order quantity during product
-                                  unavailability.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Order Planning & Promising</h4>
-                                <p>
-                                  Makes the customers informed about order
-                                  delivery dates by analysing capable-to-promise
-                                  or available to promise dates.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Single invoice Multiple Shipments</h4>
-                                <p>
-                                  Combines multiple shipments and invoice a
-                                  customer once.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Correction or Cancel Unpaid Invoices</h4>
-                                <p>
-                                  Automatically creates sales invoices for
-                                  corrections in unpaid invoices.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Pick List Creation</h4>
-                                <p>
-                                  Enables users to create a shipment pick-up
-                                  list from various vendor locations.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <div className="inner-con-div">
+                      <p>Experience accelerated growth in closer rates and repeat sales by empowering the sales team to build better customer relationships. Build an automated platform that encompasses your entire sales pipeline so that you have a complete overview and context. Give your team intelligent workflows and features like AI-led lead prioritisation and smart nudges.</p>
+                      <ul>
+                        <li>Customer Acquisition: Use insights and AI models to predict customer intent and personalise offerings.</li>
+                        <li>Streamline Pipelines: Move customers through sales cycles quickly through suggested next-best actions.</li>
+                        <li>Accelerate Sales: Enable faster customer engagement by prioritising leads and automating first-contact.</li>
+                        <li>Coach Teams: Empower teams with deep insights into customer behaviour via real-time coaching.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Contact us to get a quote</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
                       </div>
                     </div>
                   </div>
-                  <hr />
+                 
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -515,7 +567,7 @@ const BusinessCentral = () => {
                         aria-expanded="false"
                         aria-controls="fin3"
                       >
-                        <span>Purchase</span>
+                        <span>Manufacturing</span>
                       </button>
                     </h3>
                     <div
@@ -525,156 +577,29 @@ const BusinessCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <div className="row busines-service-list-pad">
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Vendor Management</h4>
-                                <p>
-                                  Creates a vendor card for each vendor to
-                                  manages all purchases.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Purchase Quote</h4>
-                                <p>
-                                  Create purchase quote from the vendor and
-                                  later convert such quotes into purchase
-                                  orders.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Purchase Order</h4>
-                                <p>
-                                  D365 BC manages all the purchase orders for
-                                  the vendors.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Purchase Invoices</h4>
-                                <p>
-                                  Manages all the purchase invoices and manages
-                                  vendor data to purchase products with terms.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Purchase Items for Sales</h4>
-                                <p>
-                                  D365 BC allows users to create a single
-                                  invoice for multiple selected purchase
-                                  invoices.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Purchase Returns</h4>
-                                <p>
-                                  Creates invoices for the vendor to show
-                                  product return data along with the amount to
-                                  be refunded.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Combine Receipts on Single Invoice</h4>
-                                <p>
-                                  It combines multiple invoices from the same
-                                  vendor and converts them into a single one.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Electronic Documents</h4>
-                                <p>
-                                  Manages and converts all the electronic
-                                  invoices to purchase invoices from the
-                                  vendors.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Date Calculation for Purchase</h4>
-                                <p>
-                                  It reflects the data of products to be
-                                  received on or before certain dates.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Merge Duplicate Records</h4>
-                                <p>
-                                  It merges all the duplicate records and
-                                  eliminates all the confusion.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <div className="inner-con-div">
+                      <p>Optimise manufacturing capability with improved visibility into inventory, order demands, and market disruptions. Use AI and predictive analytics to align your production with existing conditions to reduce the risk of shortage or excess. Improve workforce productivity by regularly inspecting for repairs with sensor data intelligence.</p>
+                      <ul>
+                        <li>Production & Supply Planning: Use intelligent order & warehouse management to drive sustainable manufacturing.</li>
+                        <li>Asset Management: Maximise sensor data & AI to manage inventory efficiently.</li>
+                        <li>Demand Forecasting: Bring your data on a single unified platform to assess demand trends.</li>
+                        <li>Automate Tasks: Improve overall productivity by automating mundane tasks with RPA.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Feel Free to Contact Us to Get a Demo</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
                       </div>
                     </div>
                   </div>
-                  <hr />
+                 
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -685,7 +610,7 @@ const BusinessCentral = () => {
                         aria-expanded="false"
                         aria-controls="fin4"
                       >
-                        <span>Inventory Management</span>
+                        <span>Warehouse Management</span>
                       </button>
                     </h3>
                     <div
@@ -695,170 +620,29 @@ const BusinessCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <div className="row busines-service-list-pad">
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Master Management</h4>
-                                <p>
-                                  Creates the items or product cards an
-                                  organisation generally trades.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Bill of Materials</h4>
-                                <p>
-                                  Creates the structure or data of the parent
-                                  item to be sold as the parent item’s component
-                                  kits to stock.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Categorization</h4>
-                                <p>
-                                  Organises the items into categories and
-                                  maintains an overall overview.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Attributes</h4>
-                                <p>
-                                  Assign the attributes to the different items
-                                  to make finding a specific item easy.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Catalog</h4>
-                                <p>
-                                  Creates special item card that a company
-                                  offers to its customers with no inventory
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Inventory Counting</h4>
-                                <p>
-                                  Manages to keep the stock of items counted in
-                                  real-time.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Availablity</h4>
-                                <p>
-                                  Manages item availability by location, time,
-                                  sales event, use on assembly, and production
-                                  BOMs.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Inventory Transfer</h4>
-                                <p>
-                                  Manages all the transfer orders to transfer
-                                  inventory items from one location to another.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Reservation</h4>
-                                <p>
-                                  Reserve some products from inventory for
-                                  sales, service, purchase, assembly, and
-                                  production orders.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Tracking</h4>
-                                <p>
-                                  Helps the user to track items using a serial
-                                  number or lot number in case of a recall
-                                  situation.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Block Items</h4>
-                                <p>
-                                  Blocks some items from entering into sales or
-                                  purchase lines or in any transaction.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <div className="inner-con-div">
+                      <p>Customise your warehouse management to optimise your storage space and gain insights into your shipments and inventory. Cater to order requests and inventory queries at scale removing complexity regardless of order volumes and managing the entire product lifecycle in your storage units.</p>
+                      <ul>
+                        <li>Inventory Management: Simplify inventory handling, status tracking & financial reporting.</li>
+                        <li>Internal Storage Processes: Automate warehouse processes like removing or adding items.</li>
+                        <li>Order Processing: Manage orders at scale and ensure accurate inventory is processed as per details.</li>
+                        <li>Purchase order creation: Expedite order processing by automating the purchase order creation.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Feel free to contact us to get a demo</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
                       </div>
                     </div>
                   </div>
-                  <hr />
+                 
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -869,7 +653,7 @@ const BusinessCentral = () => {
                         aria-expanded="false"
                         aria-controls="fin5"
                       >
-                        <span>Warehouse Management</span>
+                        <span>Human Resources</span>
                       </button>
                     </h3>
                     <div
@@ -879,113 +663,29 @@ const BusinessCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <div className="row busines-service-list-pad">
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Receiving</h4>
-                                <p>
-                                  Manages the record of all item receipts at the
-                                  warehouse location along with the details of
-                                  the purchase order.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Shipments</h4>
-                                <p>
-                                  Manages the record of shipped items at the
-                                  warehouse location along with the details of
-                                  the sales order.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Cross Dock Items</h4>
-                                <p>
-                                  Bypass, pick, and place expedited items in
-                                  inventory for shipping.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Putting Items Away</h4>
-                                <p>
-                                  Classifies the items received from various
-                                  available resources as per the configured
-                                  warehouse process.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Moving Items</h4>
-                                <p>
-                                  Helps the organisation to move items from
-                                  different locations in the warehouse.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Picking Items</h4>
-                                <p>
-                                  Chooses the items for different purposes as
-                                  per the data configured in the warehouse.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Automated Data Capture Systems (ADCS)</h4>
-                                <p>
-                                  Track the movements of items in the warehouse
-                                  using the barcode scanning feature.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <div className="inner-con-div">
+                      <p>Redefine HR programs and processes like payroll management, leave reporting and talent acquisition to offer enhanced employee experience. Eliminate complexity and achieve accuracy in administrative tasks by automating workflows, and guiding HR professionals to the next best action, thereby increasing productivity and building an efficient HR practice.</p>
+                      <ul>
+                        <li>Mobile Employee Experience: Offer a self-service platform to employees by digitalising manual workflows.</li>
+                        <li>HR Operations Automation: Automate end-to-end HR operations including payroll, tax filing & compensation programs.</li>
+                        <li>Talent Acquisition Management: Streamline talent scouting & onboarding processes through a guided flow.</li>
+                        <li>Workforce Insights: Gain deeper insights into performance to improve organisational efficiency.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Contact us to get a quote</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
                       </div>
                     </div>
                   </div>
-                  <hr />
+                 
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -1006,161 +706,29 @@ const BusinessCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <div className="row busines-service-list-pad">
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Project Creation</h4>
-                                <p>
-                                  The Dynamics 365 BS assists the organisation
-                                  in creating and managing projects, as well as
-                                  assigning jobs and planning projects.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Resource Allocations</h4>
-                                <p>
-                                  Distributes resources to various tasks with
-                                  price management prior to the start of each
-                                  project.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Time Sheet Management</h4>
-                                <p>
-                                  Prepares the time sheet with job tasks,
-                                  planning lines, and updates the time sheet
-                                  lines to the job journal.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Project Budget Management</h4>
-                                <p>
-                                  Analyze and compare the distribution of the
-                                  budget across various projects to check the
-                                  quality, cost, and efficiency.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Resource Consumptions</h4>
-                                <p>
-                                  Keeps a record of all consumption based on
-                                  various jobs and updates the data in
-                                  real-time.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Project Supplies</h4>
-                                <p>
-                                  Manages the purchase of all supplies needed to
-                                  complete a project and keeps track of the item
-                                  as well as the time spent on it.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Project WIP Methods</h4>
-                                <p>
-                                  This feature helps to ensure the creation of
-                                  correct financial statements and makes a
-                                  financial estimation of jobs.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Project Progress and Performance</h4>
-                                <p>
-                                  It manages the correct financial statements
-                                  and the financial value of materials after
-                                  consumption for a job.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Project Invoicing</h4>
-                                <p>
-                                  Send the project’s invoice to the customer
-                                  after the completion of a particular project
-                                  or schedule it as required.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Merge Duplicate Records</h4>
-                                <p>
-                                  Eliminates the duplicate records of the same
-                                  vendors to remove the confusion.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <div className="inner-con-div">
+                      <p>Empower your resources with productivity tools to streamline project management, while automating tasks like timesheet creation and document management. Manage multiple projects without any stress by accurately predicting resource requirements against the project budget.</p>
+                      <ul>
+                        <li>Contract Management: Manage key tasks like quotes, forecasting, estimation & scope easily.</li>
+                        <li>Project Progress & Performance: Use Microsoft Project capabilities to simplify the project management cycle.</li>
+                        <li>Project Account: Achieve revenue compliance with International Financial Reporting Standards.</li>
+                        <li>Resource Allocation: Submit, approve, and process time & expense quickly streamlining client billing.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Streamline your projects today</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
                       </div>
                     </div>
                   </div>
-                  <hr />
+                 
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -1171,7 +739,7 @@ const BusinessCentral = () => {
                         aria-expanded="false"
                         aria-controls="fin7"
                       >
-                        <span>Manufacturing</span>
+                        <span>Supply Chain</span>
                       </button>
                     </h3>
                     <div
@@ -1181,184 +749,25 @@ const BusinessCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <div className="row busines-service-list-pad">
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Production Planning</h4>
-                                <p>
-                                  To plan and suggest, the planning system
-                                  demands a balanced supply chain.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Supply Planning</h4>
-                                <p>
-                                  Plan the supply and adjust the algorithms to
-                                  meet the manufacturing requirements.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Demand Forecasting</h4>
-                                <p>
-                                  Enables the users to forecast the demand as
-                                  per expected sales and production.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>
-                                  Creation of Production Order from Sales Order
-                                </h4>
-                                <p>
-                                  Manages the production orders from sales
-                                  demand to cover the exact sales order demand.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Order Planning</h4>
-                                <p>
-                                  Helps to manually plan for sales and
-                                  production demand, but one BOM level at a
-                                  time.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>MRP & MPS</h4>
-                                <p>
-                                  For supply chain automation, the planning
-                                  worksheet works on MPS and MRP options.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Requisition Worksheet</h4>
-                                <p>
-                                  Creates data automatically about the supply
-                                  chain and mentions the demand for refilled
-                                  items.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Calculate Work Centre Calendar</h4>
-                                <p>
-                                  With D365 Business Central, it reschedules the
-                                  work centre calendar due to sudden planning
-                                  changes.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Availablity</h4>
-                                <p>
-                                  Check the availability of a specific item and
-                                  the insights of events that influence it.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Production Order</h4>
-                                <p>
-                                  Create production orders manually or
-                                  automatically with Dynamics 365 Business
-                                  Central.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Subcontracting</h4>
-                                <p>
-                                  Helps decision makers to outsource the
-                                  selected processes or operations to a
-                                  subcontractor.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-6 col-md-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Production Consumption & Output</h4>
-                                <p>
-                                  Record, post production output with material
-                                  and time consumption for single released
-                                  production line.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <div className="inner-con-div">
+                      <p>Simplify your planning, movement, storage, and distribution of stock tasks by leveraging data analytics to optimise the supply chain. Manage sales orders, purchases, and inventory monitoring across multiple locations. Use sensor data intelligence to identify issues and fix them to avoid process breaks.</p>
+                      <ul>
+                        <li>Manage Asset Lifecycle: Streamline asset management through automated scheduling and analysing sensor data.</li>
+                        <li>Automate Fulfilment: Improve customer experience by AI-led inventory fulfilment automation.</li>
+                        <li>Improve Visibility: Make accurate inventory decisions and demand predictions via data analytics.</li>
+                        <li>Proactive Equipment Maintenance: Reduce downtime & achieve operational excellence through timely equipment maintenance.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Book Free Consultation</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
                       </div>
                     </div>
                   </div>
@@ -1366,1192 +775,303 @@ const BusinessCentral = () => {
               </div>
             </div>
           </div>
-
-          <div className="row busines-bg g-0">
-            <div className="col-lg-3 no-pad">
-              <div
-                className="nav flex-column nav-pills  bus-ser-left"
-                id="v-pills-tab"
-                role="tablist"
-                aria-orientation="vertical"
-              >
+          <div className="row tabs-none">
+            <div className="cpl-lg-12">
+              <div className="d-flex align-items-start">
                 <div
-                  className="nav-link active"
-                  id="v-pills-Finance-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#v-pills-Finance"
-                  role="tab"
-                  aria-controls="v-pills-Finance"
-                  aria-selected="true"
+                  className="nav flex-column nav-pills me-3 solution-new-tab"
+                  id="s-pills-tab"
+                  role="tablist"
+                  aria-orientation="vertical"
                 >
-                  <h3>Finance</h3>
+                  <button
+                    className="nav-link active"
+                    id="s-pills-home-1-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#s-pills-home-1"
+                    type="button"
+                    role="tab"
+                    aria-controls="s-pills-home-1"
+                    aria-selected="true"
+                  >
+                    <h3>Finance</h3>
+                  </button>
+                  <button
+                    className="nav-link"
+                    id="s-pills-home-2-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#s-pills-home-2"
+                    type="button"
+                    role="tab"
+                    aria-controls="s-pills-home-2"
+                    aria-selected="false"
+                  >
+                    <h3>Sales</h3>
+                  </button>
+                  <button
+                    className="nav-link"
+                    id="s-pills-hpme-3-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#s-pills-hpme-3"
+                    type="button"
+                    role="tab"
+                    aria-controls="s-pills-hpme-3"
+                    aria-selected="false"
+                  >
+                    <h3>Manufacturing</h3>
+                  </button>
+                  <button
+                    className="nav-link"
+                    id="s-pills-home-4-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#s-pills-home-4"
+                    type="button"
+                    role="tab"
+                    aria-controls="s-pills-home-4"
+                    aria-selected="false"
+                  >
+                    <h3>Warehouse Management</h3>
+                  </button>
+                  <button
+                    className="nav-link"
+                    id="s-pills-home-5-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#s-pills-home-5"
+                    type="button"
+                    role="tab"
+                    aria-controls="s-pills-home-5"
+                    aria-selected="false"
+                  >
+                    <h3>Human Resources</h3>
+                  </button>
+                  <button
+                    className="nav-link"
+                    id="s-pills-home-6-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#s-pills-home-6"
+                    type="button"
+                    role="tab"
+                    aria-controls="s-pills-home-6"
+                    aria-selected="false"
+                  >
+                    <h3>Project Management</h3>
+                  </button>
+                  <button
+                    className="nav-link"
+                    id="s-pills-home-7-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#s-pills-home-7"
+                    type="button"
+                    role="tab"
+                    aria-controls="s-pills-home-7"
+                    aria-selected="false"
+                  >
+                    <h3>Supply Chain</h3>
+                  </button>
                 </div>
                 <div
-                  className="nav-link"
-                  id="v-pills-Sales-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#v-pills-Sales"
-                  role="tab"
-                  aria-controls="v-pills-Sales"
-                  aria-selected="false"
+                  className="tab-content solution-new-tab-content"
+                  id="s-pills-tabContent-"
                 >
-                  <h3>Sales</h3>
-                </div>
-                <div
-                  className="nav-link"
-                  id="v-pills-Purchase-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#v-pills-Purchase"
-                  role="tab"
-                  aria-controls="v-pills-Purchase"
-                  aria-selected="false"
-                >
-                  <h3>Purchase</h3>
-                </div>
-                <div
-                  className="nav-link"
-                  id="v-pills-Management-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#v-pills-Management"
-                  role="tab"
-                  aria-controls="v-pills-Management"
-                  aria-selected="false"
-                >
-                  <h3>Inventory Management</h3>
-                </div>
-                <div
-                  className="nav-link"
-                  id="v-pills-Inventory-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#v-pills-Inventory"
-                  role="tab"
-                  aria-controls="v-pills-Inventory"
-                  aria-selected="false"
-                >
-                  <h3>Warehouse Management</h3>
-                </div>
-                <div
-                  className="nav-link"
-                  id="v-pills-Project-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#v-pills-Project"
-                  role="tab"
-                  aria-controls="v-pills-Project"
-                  aria-selected="false"
-                >
-                  <h3>Project Management</h3>
-                </div>
-                <div
-                  className="nav-link"
-                  id="v-pills-Manufacturing-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#v-pills-Manufacturing"
-                  role="tab"
-                  aria-controls="v-pills-Manufacturing"
-                  aria-selected="false"
-                >
-                  <h3>Manufacturing</h3>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-9">
-              <div className="tab-content" id="v-pills-tabContent">
-                <div
-                  className="tab-pane fade show active"
-                  id="v-pills-Finance"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-Finance-tab"
-                >
-                  <div className="row busines-service-list-pad">
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Internal Transactions</h4>
-                          <p>
-                            Automate and customise the company's internal
-                            transactions with restricted access to team members.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Cash flow Forecasting</h4>
-                          <p>
-                            Manage cash balances and account schedules to
-                            estimate future sales and expenses.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Budgeting</h4>
-                          <p>
-                            Monitor and manage the company's overall financial
-                            activities, along with budget control.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Inventory Costing</h4>
-                          <p>
-                            Maintains the general ledger to manage the
-                            inventory, manufacturing costs, and reconcile the
-                            costs.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Consolidation and Multi-Companies</h4>
-                          <p>
-                            With the combination of multiple general ledgers, it
-                            can conduct financial analysis of the company.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Costs and Income Allocation</h4>
-                          <p>
-                            {" "}
-                            Distribute the entries from one general journal to
-                            different accounts.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Banking</h4>
-                          <p>
-                            With seamless banking integration, it settles bank
-                            accounts and funds transfers between accounts.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Cost Accounting</h4>
-                          <p>
-                            Distribute the budget between actual and budgeted
-                            costs for operations and projects to analyze
-                            returns.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Fixed Assets</h4>
-                          <p>
-                            Gives the complete control of fixed assets and
-                            ensures timely reduction with D365 Business Central.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Accounts Receivable</h4>
-                          <p>
-                            Receives payments, settles bank accounts, and
-                            collects the remaining balance.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Accounts Payable</h4>
-                          <p>
-                            Make payments, mark outgoing payments, and manage
-                            cheques with D365 BC.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>General Ledger</h4>
-                          <p>
-                            Manage the credit and debit entries to maintain the
-                            entire financial data.
-                          </p>
-                        </div>
+                  <div
+                    className="tab-pane fade show active"
+                    id="s-pills-home-1"
+                    role="tabpanel"
+                    aria-labelledby="s-pills-home-1-tab"
+                  >
+                    <div className="inner-con-div">
+                      <p>
+                        Manage reports, business forecasts, and accounting
+                        activities through an aggregated platform with absolute
+                        visibility into your organisation's financial health.
+                        Give a seamless experience to your staff by automating
+                        processes and using AI-generated insights to make
+                        smarter business decisions. With <Link href="/products/microsoft-dynamics-365/">Dynamics 365 applications</Link>, automate:
+                      </p>
+                      <ul>
+                        <li>
+                          Customer Onboarding: Personalise customer engagement
+                          by leveraging a 360-degree view of the customer.
+                        </li>
+                        <li>
+                          Customer Service: Use AI models to predict customer
+                          concerns & resolve issues on the go.
+                        </li>
+                        <li>
+                          Risk Management: Eliminate financial risks through
+                          automated rules-based processes.
+                        </li>
+                        <li>
+                          Manage Cash Flow: Evaluate the financial health of the
+                          business & estimate growth opportunities via financial
+                          reporting.
+                        </li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Feel Free to Contact Us to Get a Demo</span>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="v-pills-Sales"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-Sales-tab"
-                >
-                  <div className="row busines-service-list-pad">
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Customer management</h4>
-                          <p>
-                            Manage customers and keep track of their queries as
-                            well.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Sales Quote</h4>
-                          <p>
-                            Provides a sales quote to the customer to offer
-                            negotiations before making the actual invoice.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Sales order</h4>
-                          <p>
-                            Manages the process of creating sales orders with
-                            drop shipment and partial shipping functions.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Sales Invoices</h4>
-                          <p>
-                            It creates a sales invoice for the actual purchases
-                            processed by the buyers.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Drop Shipments</h4>
-                          <p>
-                            Manages the purchase order to ship the products
-                            directly from vendor to customer.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Sales Returns</h4>
-                          <p>
-                            Manages the data of sales invoices of the product
-                            returned to release the refund amount.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Assembly Order</h4>
-                          <p>
-                            Create linked assembly orders to process the full or
-                            partial order quantity during product
-                            unavailability.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Order Planning & Promising</h4>
-                          <p>
-                            Makes the customers informed about order delivery
-                            dates by analysing capable-to-promise or available
-                            to promise dates.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Single invoice Multiple Shipments</h4>
-                          <p>
-                            Combines multiple shipments and invoice a customer
-                            once.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Correction or Cancel Unpaid Invoices</h4>
-                          <p>
-                            Automatically creates sales invoices for corrections
-                            in unpaid invoices.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Pick List Creation</h4>
-                          <p>
-                            Enables users to create a shipment pick-up list from
-                            various vendor locations.
-                          </p>
-                        </div>
+                  <div
+                    className="tab-pane fade"
+                    id="s-pills-home-2"
+                    role="tabpanel"
+                    aria-labelledby="s-pills-home-2-tab"
+                  >
+                      <div className="inner-con-div">
+                      <p>Experience accelerated growth in closer rates and repeat sales by empowering the sales team to build better customer relationships. Build an automated platform that encompasses your entire sales pipeline so that you have a complete overview and context. Give your team intelligent workflows and features like AI-led lead prioritisation and smart nudges.</p>
+                      <ul>
+                        <li>Customer Acquisition: Use insights and AI models to predict customer intent and personalise offerings.</li>
+                        <li>Streamline Pipelines: Move customers through sales cycles quickly through suggested next-best actions.</li>
+                        <li>Accelerate Sales: Enable faster customer engagement by prioritising leads and automating first-contact.</li>
+                        <li>Coach Teams: Empower teams with deep insights into customer behaviour via real-time coaching.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Contact us to get a quote</span>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="v-pills-Purchase"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-Purchase-tab"
-                >
-                  <div className="row busines-service-list-pad">
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Vendor Management</h4>
-                          <p>
-                            Creates a vendor card for each vendor to manages all
-                            purchases.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Purchase Quote</h4>
-                          <p>
-                            Create purchase quote from the vendor and later
-                            convert such quotes into purchase orders.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Purchase Order</h4>
-                          <p>
-                            D365 BC manages all the purchase orders for the
-                            vendors.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Purchase Invoices</h4>
-                          <p>
-                            Manages all the purchase invoices and manages vendor
-                            data to purchase products with terms.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Purchase Items for Sales</h4>
-                          <p>
-                            D365 BC allows users to create a single invoice for
-                            multiple selected purchase invoices.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Purchase Returns</h4>
-                          <p>
-                            Creates invoices for the vendor to show product
-                            return data along with the amount to be refunded.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Combine Receipts on Single Invoice</h4>
-                          <p>
-                            It combines multiple invoices from the same vendor
-                            and converts them into a single one.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Electronic Documents</h4>
-                          <p>
-                            Manages and converts all the electronic invoices to
-                            purchase invoices from the vendors.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Date Calculation for Purchase</h4>
-                          <p>
-                            It reflects the data of products to be received on
-                            or before certain dates.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Merge Duplicate Records</h4>
-                          <p>
-                            It merges all the duplicate records and eliminates
-                            all the confusion.
-                          </p>
-                        </div>
+                  <div
+                    className="tab-pane fade"
+                    id="s-pills-hpme-3"
+                    role="tabpanel"
+                    aria-labelledby="s-pills-hpme-3-tab"
+                  >
+                    <div className="inner-con-div">
+                      <p>Optimise manufacturing capability with improved visibility into inventory, order demands, and market disruptions. Use AI and predictive analytics to align your production with existing conditions to reduce the risk of shortage or excess. Improve workforce productivity by regularly inspecting for repairs with sensor data intelligence.</p>
+                      <ul>
+                        <li>Production & Supply Planning: Use intelligent order & warehouse management to drive sustainable manufacturing.</li>
+                        <li>Asset Management: Maximise sensor data & AI to manage inventory efficiently.</li>
+                        <li>Demand Forecasting: Bring your data on a single unified platform to assess demand trends.</li>
+                        <li>Automate Tasks: Improve overall productivity by automating mundane tasks with RPA.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Feel Free to Contact Us to Get a Demo</span>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="v-pills-Management"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-Management-tab"
-                >
-                  <div className="row busines-service-list-pad">
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Master Management</h4>
-                          <p>
-                            Creates the items or product cards an organisation
-                            generally trades.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Bill of Materials</h4>
-                          <p>
-                            Creates the structure or data of the parent item to
-                            be sold as the parent item’s component kits to
-                            stock.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Categorization</h4>
-                          <p>
-                            Organises the items into categories and maintains an
-                            overall overview.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Attributes</h4>
-                          <p>
-                            Assign the attributes to the different items to make
-                            finding a specific item easy.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Catalog</h4>
-                          <p>
-                            Creates special item card that a company offers to
-                            its customers with no inventory
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Inventory Counting</h4>
-                          <p>
-                            Manages to keep the stock of items counted in
-                            real-time.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Availablity</h4>
-                          <p>
-                            Manages item availability by location, time, sales
-                            event, use on assembly, and production BOMs.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Inventory Transfer</h4>
-                          <p>
-                            Manages all the transfer orders to transfer
-                            inventory items from one location to another.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Reservation</h4>
-                          <p>
-                            Reserve some products from inventory for sales,
-                            service, purchase, assembly, and production orders.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Tracking</h4>
-                          <p>
-                            Helps the user to track items using a serial number
-                            or lot number in case of a recall situation.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Block Items</h4>
-                          <p>
-                            Blocks some items from entering into sales or
-                            purchase lines or in any transaction.
-                          </p>
-                        </div>
+                  <div
+                    className="tab-pane fade"
+                    id="s-pills-home-4"
+                    role="tabpanel"
+                    aria-labelledby="s-pills-home-4-tab"
+                  >
+                    <div className="inner-con-div">
+                      <p>Customise your warehouse management to optimise your storage space and gain insights into your shipments and inventory. Cater to order requests and inventory queries at scale removing complexity regardless of order volumes and managing the entire product lifecycle in your storage units.</p>
+                      <ul>
+                        <li>Inventory Management: Simplify inventory handling, status tracking & financial reporting.</li>
+                        <li>Internal Storage Processes: Automate warehouse processes like removing or adding items.</li>
+                        <li>Order Processing: Manage orders at scale and ensure accurate inventory is processed as per details.</li>
+                        <li>Purchase order creation: Expedite order processing by automating the purchase order creation.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Feel free to contact us to get a demo</span>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="v-pills-Inventory"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-Inventory-tab"
-                >
-                  <div className="row busines-service-list-pad">
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Receiving</h4>
-                          <p>
-                            Manages the record of all item receipts at the
-                            warehouse location along with the details of the
-                            purchase order.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Shipments</h4>
-                          <p>
-                            Manages the record of shipped items at the warehouse
-                            location along with the details of the sales order.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Cross Dock Items</h4>
-                          <p>
-                            Bypass, pick, and place expedited items in inventory
-                            for shipping.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Putting Items Away</h4>
-                          <p>
-                            Classifies the items received from various available
-                            resources as per the configured warehouse process.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Moving Items</h4>
-                          <p>
-                            Helps the organisation to move items from different
-                            locations in the warehouse.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Picking Items</h4>
-                          <p>
-                            Chooses the items for different purposes as per the
-                            data configured in the warehouse.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Automated Data Capture Systems (ADCS)</h4>
-                          <p>
-                            Track the movements of items in the warehouse using
-                            the barcode scanning feature.
-                          </p>
-                        </div>
+                  <div
+                    className="tab-pane fade"
+                    id="s-pills-home-5"
+                    role="tabpanel"
+                    aria-labelledby="s-pills-home-5-tab"
+                  >
+                    <div className="inner-con-div">
+                      <p>Redefine HR programs and processes like payroll management, leave reporting and talent acquisition to offer enhanced employee experience. Eliminate complexity and achieve accuracy in administrative tasks by automating workflows, and guiding HR professionals to the next best action, thereby increasing productivity and building an efficient HR practice.</p>
+                      <ul>
+                        <li>Mobile Employee Experience: Offer a self-service platform to employees by digitalising manual workflows.</li>
+                        <li>HR Operations Automation: Automate end-to-end HR operations including payroll, tax filing & compensation programs.</li>
+                        <li>Talent Acquisition Management: Streamline talent scouting & onboarding processes through a guided flow.</li>
+                        <li>Workforce Insights: Gain deeper insights into performance to improve organisational efficiency.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Contact us to get a quote</span>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="v-pills-Project"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-Project-tab"
-                >
-                  <div className="row busines-service-list-pad">
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Project Creation</h4>
-                          <p>
-                            The Dynamics 365 BS assists the organisation in
-                            creating and managing projects, as well as assigning
-                            jobs and planning projects.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Resource Allocations</h4>
-                          <p>
-                            Distributes resources to various tasks with price
-                            management prior to the start of each project.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Time Sheet Management</h4>
-                          <p>
-                            Prepares the time sheet with job tasks, planning
-                            lines, and updates the time sheet lines to the job
-                            journal.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Project Budget Management</h4>
-                          <p>
-                            Analyze and compare the distribution of the budget
-                            across various projects to check the quality, cost,
-                            and efficiency.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Resource Consumptions</h4>
-                          <p>
-                            Keeps a record of all consumption based on various
-                            jobs and updates the data in real-time.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Project Supplies</h4>
-                          <p>
-                            Manages the purchase of all supplies needed to
-                            complete a project and keeps track of the item as
-                            well as the time spent on it.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Project WIP Methods</h4>
-                          <p>
-                            This feature helps to ensure the creation of correct
-                            financial statements and makes a financial
-                            estimation of jobs.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Project Progress and Performance</h4>
-                          <p>
-                            It manages the correct financial statements and the
-                            financial value of materials after consumption for a
-                            job.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Project Invoicing</h4>
-                          <p>
-                            Send the project’s invoice to the customer after the
-                            completion of a particular project or schedule it as
-                            required.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Merge Duplicate Records</h4>
-                          <p>
-                            Eliminates the duplicate records of the same vendors
-                            to remove the confusion.
-                          </p>
-                        </div>
+                  <div
+                    className="tab-pane fade"
+                    id="s-pills-home-6"
+                    role="tabpanel"
+                    aria-labelledby="s-pills-home-6-tab"
+                  >
+                    <div className="inner-con-div">
+                      <p>Empower your resources with productivity tools to streamline project management, while automating tasks like timesheet creation and document management. Manage multiple projects without any stress by accurately predicting resource requirements against the project budget.</p>
+                      <ul>
+                        <li>Contract Management: Manage key tasks like quotes, forecasting, estimation & scope easily.</li>
+                        <li>Project Progress & Performance: Use Microsoft Project capabilities to simplify the project management cycle.</li>
+                        <li>Project Account: Achieve revenue compliance with International Financial Reporting Standards.</li>
+                        <li>Resource Allocation: Submit, approve, and process time & expense quickly streamlining client billing.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Streamline your projects today</span>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="v-pills-Manufacturing"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-Manufacturing-tab"
-                >
-                  <div className="row busines-service-list-pad">
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Production Planning</h4>
-                          <p>
-                            To plan and suggest, the planning system demands a
-                            balanced supply chain.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Supply Planning</h4>
-                          <p>
-                            Plan the supply and adjust the algorithms to meet
-                            the manufacturing requirements.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Demand Forecasting</h4>
-                          <p>
-                            Enables the users to forecast the demand as per
-                            expected sales and production.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Creation of Production Order from Sales Order</h4>
-                          <p>
-                            Manages the production orders from sales demand to
-                            cover the exact sales order demand.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Order Planning</h4>
-                          <p>
-                            Helps to manually plan for sales and production
-                            demand, but one BOM level at a time.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>MRP & MPS</h4>
-                          <p>
-                            For supply chain automation, the planning worksheet
-                            works on MPS and MRP options.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Requisition Worksheet</h4>
-                          <p>
-                            Creates data automatically about the supply chain
-                            and mentions the demand for refilled items.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Calculate Work Centre Calendar</h4>
-                          <p>
-                            With D365 Business Central, it reschedules the work
-                            centre calendar due to sudden planning changes.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Availablity</h4>
-                          <p>
-                            Check the availability of a specific item and the
-                            insights of events that influence it.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Production Order</h4>
-                          <p>
-                            Create production orders manually or automatically
-                            with Dynamics 365 Business Central.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Subcontracting</h4>
-                          <p>
-                            Helps decision makers to outsource the selected
-                            processes or operations to a subcontractor.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Production Consumption & Output</h4>
-                          <p>
-                            Record, post production output with material and
-                            time consumption for single released production
-                            line.
-                          </p>
-                        </div>
+                  <div
+                    className="tab-pane fade"
+                    id="s-pills-home-7"
+                    role="tabpanel"
+                    aria-labelledby="s-pills-home-7-tab"
+                  >
+                    <div className="inner-con-div">
+                      <p>Simplify your planning, movement, storage, and distribution of stock tasks by leveraging data analytics to optimise the supply chain. Manage sales orders, purchases, and inventory monitoring across multiple locations. Use sensor data intelligence to identify issues and fix them to avoid process breaks.</p>
+                      <ul>
+                        <li>Manage Asset Lifecycle: Streamline asset management through automated scheduling and analysing sensor data.</li>
+                        <li>Automate Fulfilment: Improve customer experience by AI-led inventory fulfilment automation.</li>
+                        <li>Improve Visibility: Make accurate inventory decisions and demand predictions via data analytics.</li>
+                        <li>Proactive Equipment Maintenance: Reduce downtime & achieve operational excellence through timely equipment maintenance.</li>
+                      </ul>
+                      <div className="call-butt">
+                        <Link href="#exampleModal">
+                          <a
+                            data-bs-toggle="modal"
+                            className="btn-get-started scrollto"
+                          >
+                            <span>Book Free Consultation</span>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -2561,120 +1081,26 @@ const BusinessCentral = () => {
           </div>
         </div>
       </section>
-
-      <section className="Solution-business-why">
-        <div className="container">
-          <div className="row g-5">
+      <section id="casestudys" className="casestudys ">
+        <div className="container" data-aos="fade-up">
+          <div className="row  gy-4">
             <div className="col-lg-5 align-self-center">
-              <div className="wy-sultion-left-head">
-                <h2>
-                  Microsoft Dynamics 365 <br />
-                  Business Central Features
-                </h2>
-                <h3>
-                  Streamline your business to a new level with Dynamics 365
-                  Business Central advanced features and capabilities
-                </h3>
-              </div>
-              <div className="m-o-t m-o-t-b">
-                <Link href="/dynamics-365-business-central-features/">
-                  <a className="btn-get-started scrollto">
-                    <span>Read More Features </span>
-                  </a>
-                </Link>
-              </div>
+              <Image
+                src="/img/case-study-side-banner.png"
+                alt="case-study-side-banner"
+                width={640}
+                height={592}
+              />
             </div>
-            <div className="col-lg-7 align-self-center">
-              <div className="row gx-4">
-                <div className="col-lg-6 col-md-6">
-                  <div className="why-solution-wrapper">
-                    <div className="why-solution-wrapper-inner">
-                      <h3>
-                        An Integrated <br />
-                        ERP Solution
-                      </h3>
-                      <div className="overlay">
-                        <p>
-                          Microsoft Dynamics 365 Business Central is an
-                          all-in-one{" "}
-                          <Link href="/products/microsoft-dynamics-erp/">
-                            ERP System
-                          </Link>
-                          whereby enterprises can connect their teams to drive
-                          effective and timely collaboration from anytime and
-                          anywhere using any device.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="why-solution-wrapper-inner">
-                      <h3>
-                        Real-time Reporting
-                        <br />& Analytics
-                      </h3>
-                      <div className="overlay">
-                        <p>
-                          Real-time reporting & analytics help to make
-                          business-driven decisions. Businesses can get a
-                          variety of reports and boost their reporting and
-                          analytics process when integrated with{" "}
-                          <Link href="/products/microsoft-power-bi/">
-                            Power BI.
-                          </Link>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6 top-m">
-                  <div className="why-solution-wrapper">
-                    <div className="why-solution-wrapper-inner">
-                      <h3>
-                        Improved
-                        <br />
-                        Customer Experiencee
-                      </h3>
-                      <div className="overlay">
-                        <p>
-                          <Link href="/dynamics-365-business-central-implementation/">
-                            Implementing Business Central
-                          </Link>
-                          can help you to drive a sound customer experience by
-                          keeping track of customer activities and supporting
-                          them in their hourly need.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="why-solution-wrapper-inner">
-                      <h3>
-                        Personalization
-                        <br />& Integration
-                      </h3>
-                      <div className="overlay">
-                        <p>
-                          <Link href="/products/dynamics-365-business-central/">
-                            D365 Business Central
-                          </Link>{" "}
-                          can be easily customized to suit your business
-                          requirements. Businesses can get seamless integration
-                          with Microsoft's products as well as other existing
-                          business applications.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div className="col-lg-1 align-self-center"></div>
+            <div className="col-lg-6 align-self-center">
+              <div className="sec-title">
+                <h2>Glimpse Of What We Delivered</h2>
+                <p>Dynamics 365 Case Stories</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="call_to_action call_to_action-n">
-        <div className="container">
-          <div className="swiper solution_new_callto">
-            <div className="swiper-wrapper">
               <Swiper
                 autoplay={{
-                  delay: 8000,
+                  delay: 10000,
                   disableOnInteraction: false,
                 }}
                 slidesPerView={1}
@@ -2683,186 +1109,322 @@ const BusinessCentral = () => {
                 pagination={{
                   clickable: true,
                 }}
-                modules={[Autoplay, FreeMode, Pagination]}
-                className="mySwiper"
+                modules={[Pagination, Autoplay]}
+                className="mySwiper casestudys-sled-1"
               >
                 <SwiperSlide>
-                  <div className="swiper-slide">
-                    <div className="row">
-                      <div className="col-lg-8 align-self-center">
-                        <div className="call_to_action-left">
-                          <h3>Dynamics NAV to Business Central Upgrade!</h3>
-                          <p>
-                            Upgrade your existing Dynamics NAV to Business
-                            Central and Maximise your Business Profitability
-                          </p>
-                          <div className="new-btn new-btn-nn">
-                            <Link
-                              href="/dynamics-nav-to-business-central/"
-                              
-                            ><a className="btn-get-started-color">
-                              <span>Learn More</span></a>
-                            </Link>
-                          </div>
+                  <div className="casestudys-slider-item">
+                    <div className="profile mt-auto">
+                      <img
+                        src="/img/case-1.png"
+                        className="casestudys-slider-item-img"
+                        alt=""
+                      />
+                      <p>
+                        A leading British based manufacturer of Military
+                        Equipment implemented Microsoft Dynamics 365 Business
+                        Central to streamline their finance and inventory
+                        management process.
+                      </p>
+                      <div className="case-content-wrapper">
+                        <div className="case-content">
+                          <p>2X</p>
+                          <span>Data Simplification & Processing</span>
+                        </div>
+                        <div className="case-content">
+                          <p>80%</p>
+                          <span>Data Simplification & Processing</span>
                         </div>
                       </div>
-                      <div className="col-lg-4 align-self-center">
-                        <div className="call_to_action-right">
-                          <Image
-                            src="/img/Group-683.png"
-                            alt="Dynamics NAV to Business Central Upgrade"
-                            width={540} height={322}
-                          />
-                        </div>
+                      <div className="case-button">
+                        <Link href="/case-studies/cqc/">
+                          <a className="btn btn-md btn-custom-1">Read More</a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                 </SwiperSlide>
-
-                {/* <SwiperSlide>
-                  <div className="swiper-slide">
-                    <div className="row">
-                      <div className="col-lg-8 align-self-center">
-                        <div className="call_to_action-left">
-                          <h3>Dynamics NAV to Business Central Upgrade!</h3>
-                          <p>
-                            Are you looking to upgrade from Dynamics NAV to
-                            Dynamics 365 BC?
-                          </p>
-                          <div className="new-btn new-btn-nn">
-                            <Link
-                              href="#about"
-                              className="btn-get-started-color"
-                            >
-                              <span>Read More Feature</span>
-                            </Link>
-                          </div>
+                <SwiperSlide>
+                  <div className="casestudys-slider-item">
+                    <div className="profile mt-auto">
+                      <img
+                        src="/img/crm-trading.png"
+                        className="casestudys-slider-item-img"
+                        alt="crm-trading"
+                      />
+                      <p>
+                        UK's leading fragrance, skincare, cosmetics, and
+                        haircare wholesaler was looking to improve its
+                        operational efficiencies with Microsoft Dynamics NAV
+                        2018. Discover now.
+                      </p>
+                      <div className="case-content-wrapper">
+                        <div className="case-content">
+                          <p>4x</p>
+                          <span>Improved Inventory System</span>
+                        </div>
+                        <div className="case-content">
+                          <p>100%</p>
+                          <span>Alliance with HMRC</span>
                         </div>
                       </div>
-                      <div className="col-lg-4 align-self-center">
-                        <div className="call_to_action-right">
-                          <img src="/img/Group-683.png" alt="jasd" />
-                        </div>
+                      <div className="case-button">
+                        <Link href="/case-studies/crm-trading/">
+                          <a className="btn btn-md btn-custom-1">Read More</a>
+                        </Link>
                       </div>
                     </div>
                   </div>
-                </SwiperSlide> */}
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="casestudys-slider-item">
+                    <div className="profile mt-auto">
+                      <img
+                        src="/img/wipersupplywide.png"
+                        className="casestudys-slider-item-img"
+                        alt="wipersupplywide"
+                      />
+                      <p>
+                        British-based Hygienic Disposable Cleaning & Wiping
+                        Products wholesaler wanted to up and cross sell to
+                        increase the sales volume with customers. Read how they
+                        did it!
+                      </p>
+                      <div className="case-content-wrapper">
+                        <div className="case-content">
+                          <p>10x</p>
+                          <span>Improved Customer Experience</span>
+                        </div>
+                        <div className="case-content">
+                          <p>50%</p>
+                          <span>Increased Sales Revenue</span>
+                        </div>
+                      </div>
+                      <div className="case-button">
+                        <Link href="/case-studies/wiper-supply-services/">
+                          <a className="btn btn-md btn-custom-1">Read More</a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
               </Swiper>
             </div>
-
-            <div className="swiper-pagination"></div>
           </div>
         </div>
       </section>
-      <section className="busine_service_bottom">
+      <section className="Solution-business-why">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="busine_service_bottom-left">
-                <div className="busine_service_bottom-right">
-                  <Image
-                    src="/img/bc-left-image.jpg"
-                    className="fix-im"
-                    alt="Business Central Services"
-                    width={514} height={531}
-                  />
-                  <div className="video-ytube video-ytubes">
-                    <div className="popup-btn popup-btns">
-                      <Link  href="#javascript:void(0)">
-                       <a
-                        onClick={() => setOpen(true)}
-                      >
-                        <img
-                          src="/img/Video-Business Central.png"
-                          alt="Video Business Central"
-                        />
-                        <span className="cente-icns">
-                          <img
-                            src="/img/play_icons.svg"
-                            alt="play_icons"
-                          />
-                        </span></a>
-                      </Link>
-                    </div>
-                  </div>
+          <div className="row g-5">
+            <div className="col-lg-4 align-self-center">
+              <div className="wy-sultion-left-head wy-sultion-left-head-busines">
+                <h2>
+                  Why Follow{" "}
+                  <span>Industry Leaders in choosing Business Central?</span>
+                </h2>
+              </div>
+            </div>
+            <div className="col-lg-8 align-self-center">
+              <div className="row gx-4">
+                <div className="slider-cap">
+                  <Swiper
+                    navigation={true}
+                    modules={[Navigation]}
+                    className="mySwiper"
+                  >
+                    <SwiperSlide>
+                      <div className="slider-inner-solution-1">
+                        <h3>Unlock unimaginable capabilities</h3>
+                        <p>
+                          Join the cohort of successful businesses that have
+                          switched from QuickBooks, Xero, Sage, <Link href="/products/microsoft-dynamics-gp/">Microsoft Dynamics GP</Link>, and Google Spreadsheets to explore a wide range of functionalities that Dynamics 365 Business
+                          Central offers to power accounting & finance management.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="slider-inner-solution-1">
+                        <h3>Unlock unimaginable capabilities</h3>
+                        <p>
+                          Join the cohort of successful businesses that have
+                          switched from QuickBooks, Xero, Sage, Microsoft
+                          Dynamics GP, and Google Spreadsheets to explore a wide
+                          range of functionalities that Dynamics 365 Business
+                          Central offers to power accounting & finance
+                          management.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="slider-inner-solution-1">
+                        <h3>Automate your way to success</h3>
+                        <p>Do what you do best while we help you automate all the tedious, repetitive, and resource-draining tasks so that you can perfectly optimise your time and workforce.</p>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="slider-inner-solution-1">
+                        <h3>Continuous learning to excellence</h3>
+                        <p>Don't let voluminous rows & columns of numbers give you nightmares. Business Central turns your data into attractive and easy-to-understand visualisations so that you maximise its value.</p>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="slider-inner-solution-1">
+                        <h3>Expansive capabilities to scale</h3>
+                        <p>Increase efficiency, enhance ROI, and delight customers from one single platform that is highly interoperable/ allows multiple integrations. Eliminate silos within your business achieving greater visibility.</p>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="slider-inner-solution-1">
+                        <h3>Break Open Data Silos for Growth</h3>
+                        <p>With D365 Business Central you can eliminate siloed approach to data management with the Microsoft ecosystem building a unified and comprehensive view of your business performance.</p>
+                      </div>
+                    </SwiperSlide>
+                  </Swiper>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="side-heading">
-                <h2>Business Central Services</h2>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header section-header-new-ct">
+                <h2>
+                  <span>A Dynamics 365 partner that</span> global brands{" "}
+                  <span>trust</span>
+                </h2>
                 <p>
-                  Get unmatched Dynamics 365 Business Central services from UK's
-                  most trusted Partners.
+                  With numerous applications and hundreds of features to manage,
+                  Dynamics 365 Business Central can be overwhelming. However,
+                  Dynamics Square is poised to help you manoeuvre the
+                  complexities of the digital transformation by building
+                  intuitive, robust business solutions that add value to your
+                  people, processes, and data. Being a certified Business Central <Link href="/">Microsoft Gold partner</Link> UK, we worked with clients across domains including
+                  Finance, Sales, Customer Service, and Manufacturing.
                 </p>
-              </div>
-              <div className="busine_service_bottom-right">
-                <div className="card_new_img">
-                  <img
-                    src="/img/Business-Central-Implementation-icons.svg"
-                    alt="Business-Central-Implementation-icons"
-                  />
+                <p style={{ color: "var(--color-blue)", fontSize: "18px" }}>
+                  <b>Our services include:</b>
+                </p>
+              </header>
+            </div>
+          </div>
+          <div className="row ppd-top">
+            <div className="col-lg-4">
+              <div className="new-card-sol">
+                <div className="head-img">
+                  <img src="/img/bc-icons-new-1.png" alt="icons" />
                 </div>
-                <div className="card_new_content">
-                  <h3>
-                    Business Central
-                    <br /> Implementation
-                  </h3>
+                <div className="body">
+                  <h3>Business Central Implementation</h3>
                   <p>
-                    Transform your business capabilities with our highly
-                    customized and secured Business Central Implementation.
+                    Build a hyperconnected business ecosystem with successful
+                    implementation driving sales numbers through enhanced
+                    customer experience, financial visibility, and AI engine
+                    churning out insights to enable informed decision-making.
                   </p>
-                  <div className="action-content">
-                    <Link href="/dynamics-365-business-central-implementation/">
-                      Get Started
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="busine_service_bottom-right">
-                <div className="card_new_img">
-                  <img
-                    src="/img/Business Central Upgrade-icons.svg"
-                    alt="Business Central Upgrade-icons"
-                  />
-                </div>
-                <div className="card_new_content">
-                  <h3>
-                    Business Central
-                    <br /> Upgrade
-                  </h3>
-                  <p>
-                    Avail seamless Business Central upgrade to explore your
-                    business opportunities and scale high.
-                  </p>
-                  <div className="action-content">
-                    <Link href="/dynamics-365-business-central-upgrade/">
-                      Get Started
-                    </Link>
-                  </div>
+                  <Link href="#exampleModal">
+                    <a data-bs-toggle="modal">
+                      <span>Implement Now</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
-              <div className="busine_service_bottom-right">
-                <div className="card_new_img">
-                  <img
-                    src="/img/Business-Central-Support-icons.svg"
-                    alt="Business-Central-Support-icons"
-                  />
+            </div>
+            <div className="col-lg-4">
+              <div className="new-card-sol">
+                <div className="head-img">
+                  <img src="/img/bc-icons-new-2.png" alt="icons" />
                 </div>
-                <div className="card_new_content">
-                  <h3>
-                    Business Central
-                    <br /> Support
-                  </h3>
+                <div className="body">
+                  <h3>Migrate to Business Central</h3>
                   <p>
-                    Drive smoother flow and continuity throughout your
-                    enterprise with our seamless support services.
+                    Realise the true potential of your business processes with
+                    powerful capabilities to maximise your productivity by
+                    migrating to Business Central. Push your processes to the
+                    fast lane for evolved growth.
                   </p>
-                  <div className="action-content">
-                    <Link href="/dynamics-365-business-central-support/">
-                      Get Started
-                    </Link>
+                  <Link href="#exampleModal">
+                    <a data-bs-toggle="modal">
+                      <span>Migrate to BC Today</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="new-card-sol">
+                <div className="head-img">
+                  <img src="/img/bc-icons-new-3.png" alt="icons" />
+                </div>
+                <div className="body">
+                  <h3>Business Central Support</h3>
+                  <p>
+                    Our embedded support helps you review existing processes,
+                    analyse issues, recommend dynamic solutions, and predict
+                    results to build a streamlined workflow maximising growth
+                    and enabling scalability.
+                  </p>
+                  <Link href="#exampleModal">
+                    <a data-bs-toggle="modal">
+                      <span>Call For Support</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="back-bg">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6"></div>
+            <div className="col-lg-6">
+              <div className="sidenn-wr">
+                <h2>What makes Dynamics Square <br /><span>Stand Out</span> in the Crowd?</h2>
+                <div className="repet-col">
+                  <div className="icon">
+                    <i className="bi bi-check-lg"></i>
                   </div>
+                  <div className="cont">
+                    <h3>Wide & Deep Expertise</h3>
+                    <p>
+                      With over 140+ Microsoft certified consultants with
+                      in-depth expertise in implementing Business Central
+                      strategies across domains and functions.
+                    </p>
+                  </div>
+                </div>
+                <div className="repet-col">
+                  <div className="icon">
+                    <i className="bi bi-check-lg"></i>
+                  </div>
+                  <div className="cont">
+                    <h3>Cost Effective Pricing</h3>
+                    <p>We understand your need to build an operating system for your business without burning a hole in your pocket, so we offer unbelievably affordable prices, and at a price lesser than the other Microsoft partners.</p>
+                  </div>
+                </div>
+                <div className="repet-col">
+                  <div className="icon">
+                    <i className="bi bi-check-lg"></i>
+                  </div>
+                  <div className="cont">
+                    <h3>Client-centric Approach</h3>
+                    <p>Our approach to <Link href="/dynamics-365-business-central-implementation/">Business Central implementation</Link> is centred around your business requirements and need of the hour instead of loading it up with unnecessary apps.</p>
+                  </div>
+                </div>
+                <div className="cll-bt">
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Talk to expert</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -2871,13 +1433,17 @@ const BusinessCentral = () => {
       </section>
       <section id="pricing" className="pricing">
         <div className="container">
-          <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
             <h2>Dynamics 365 Business Central Pricing & Licensing</h2>
             <p>
-              Checkout the latest Dynamics 365 Business Central Pricing and
+              Checkout the latest Dynamics 365 <Link href="/dynamics-365-business-central-pricing-licensing/">Business Central Pricing</Link> and
               capabilities of Essential, Premium, and Team Members plans.
             </p>
           </header>
+            </div>
+          </div>
           <div className="row gy-4">
             <div className="col-lg-4">
               <div className="box">
@@ -2979,64 +1545,162 @@ const BusinessCentral = () => {
             <div className="col-lg-12 col-md-12">
               <div className="price-btn d-flex justify-content-center">
                 <Link href="#exampleModal">
-                  <a data-bs-toggle="modal"
-                  
-                  className="btn-get-red"
-                >
-                  <span>Get Started Now</span></a>
+                  <a data-bs-toggle="modal" className="btn-get-red">
+                    <span>Get Started Now</span>
+                  </a>
                 </Link>
-                <Link
-                  href="/pdf/Dynamics-365-Licensing-Guide-June-2022.pdf">
-                  <a className="btn-get-whit"
-                >
-                  <span>See Licensing Guide</span></a>
+                <Link href="/pdf/Dynamics-365-Licensing-Guide-June-2022.pdf">
+                  <a className="btn-get-whit">
+                    <span>See Licensing Guide</span>
+                  </a>
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <div className="container">
+      <section id="testimonials" className="testimonials">
+        <div className="container" data-aos="fade-up">
           <div className="row">
-            <div className="col-lg-12">
-              <header className="section-header">
-                <h2>Why do I need Dynamics Square?</h2>
-                <p>
-                  You will need Dynamics Square for a successful,
-                  cost-effective, timely, and efficient Microsoft Dynamics 365
-                  Business Central implementation so that you can lead your
-                  business towards instant growth while embracing performance.
-                </p>
-              </header>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="call-to-action-center hero-4">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <div className="call-to-action-content">
-                <h3>Dynamics 365 Business Central Implementation</h3>
-                <p>
-                  Enhance your business performance and accelerate business
-                  potentials through implementing Dynamics 365 Business Central.
-                </p>
-                <div className="text-center m-o-t new-btn-nn">
-                  <Link href="#exampleModal">
-                    <a data-bs-toggle="modal"
-                    
-                    className="btn-get-started scrollto"
+            <div className="col-lg-6 align-self-center">
+              <div className="sec-title">
+                <h2>
+                  What Our Clients <br /> Have To Say About Us
+                </h2>
+              </div>
+              <div className="testimonials-slider swiper">
+                <div className="swiper-wrapper">
+                  <Swiper
+                    autoplay={{
+                      delay: 10000,
+                      disableOnInteraction: false,
+                    }}
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    freeMode={true}
+                    pagination={{
+                      clickable: true,
+                    }}
+                    modules={[Autoplay, FreeMode, Pagination]}
+                    className="mySwiper test-client-page"
                   >
-                    <span>Learn More The About Implementation Process </span></a>
-                  </Link>
+                    <SwiperSlide>
+                      <div className="swiper-slide">
+                        <div className="testimonial-item">
+                          <div className="profile mt-auto">
+                            <img
+                              src="/img/testimonials/Terence-Turner.png"
+                              className="testimonial-img"
+                              alt=""
+                            />
+                            <div className="imginner">
+                              <img src="/img/Icon metro-quote.png" alt="" />
+                            </div>
+                            <p>
+                              Dynamics Square Team provided us a top-level
+                              service. Well trained staff as well as excellent
+                              support when needed. Very professional and
+                              trustworthy.
+                            </p>
+                            <h3>Terence Turner</h3>
+                            <h4>General Manager, Arteak</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                      {" "}
+                      <div className="swiper-slide">
+                        <div className="testimonial-item">
+                          <div className="profile mt-auto">
+                            <img
+                              src="/img/testimonials/Nicolas-Hopwood.png"
+                              className="testimonial-img"
+                              alt="Nicolas-Hopwood"
+                            />
+                            <div className="imginner">
+                              <img src="/img/Icon metro-quote.png" alt="" />
+                            </div>
+                            <p>
+                              The team at Dynamics Square helped us in upgrading
+                              our erp system to the latest version of D365
+                              Business Central resulting in a successful rollout
+                              to our staff.
+                            </p>
+                            <h3>Nicolas Hopwood</h3>
+                            <h4>Facilities Manager, Pasante</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                      <div className="swiper-slide">
+                        <div className="testimonial-item">
+                          <div className="profile mt-auto">
+                            <img
+                              src="/img/testimonials/Jonathan-W.png"
+                              className="testimonial-img"
+                              alt="Jonathan-W.png"
+                            />
+                            <div className="imginner">
+                              <img
+                                src="/img/Icon metro-quote.png"
+                                alt="metro-quote"
+                              />
+                            </div>
+                            <p>
+                              We have worked with Dynamics Square since 2019.
+                              Our working relationship has built during this
+                              period, and we have found them to be very
+                              professional
+                            </p>
+                            <h3>Jonathan W</h3>
+                            <h4>Technical Director, Parweld</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  </Swiper>
+                </div>
+                {/* <div className="swiper-pagination"></div> */}
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="testimonials-bg">
+                <div className="testimonials-rigt-iner">
+                  <Image
+                    src="/img/testmonial-side-pic.png"
+                    className="testmonial-side-pic"
+                    alt="testmonial"
+                    width={802}
+                    height={764}
+                  />
+                  {/* <div className="testimonials-rigt-iner-1">
+                    <img src="/img/test-side-1.jpg" alt="" />
+                  </div>
+                  <div className="testimonials-rigt-iner-2">
+                    <h4>250+</h4>
+                    <span>
+                      Happy Clients
+                      <br />
+                      Worldwide
+                    </span>
+                  </div>
+                  <div className="testimonials-rigt-iner-3">
+                    <img src="/img/test-side-3.jpg" alt="" />
+                  </div>
+                  <div className="testimonials-rigt-iner-4">
+                    <img src="/img/test-side-2.jpg" alt="" />
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section className="solution-faq faq">
         <div className="container">
           <header className="section-header">
@@ -3068,10 +1732,10 @@ const BusinessCentral = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        <Link
-                        href="https://www.dynamicssquare.co.uk/what-is-dynamics-365-business-central/"
-                        >
-                          <a><b>Dynamics 365 Business Central</b></a>
+                        <Link href="https://www.dynamicssquare.co.uk/what-is-dynamics-365-business-central/">
+                          <a>
+                            <b>Dynamics 365 Business Central</b>
+                          </a>
                         </Link>
                         &nbsp;is a one-stop solution for all your enterprise
                         needs. Since Business Central is built with excel-like
@@ -3082,7 +1746,9 @@ const BusinessCentral = () => {
                       <p>
                         Business Central is designed as a complete{" "}
                         <Link href="/products/microsoft-dynamics-erp/">
-                          <a><b>ERP solution</b></a>
+                          <a>
+                            <b>ERP solution</b>
+                          </a>
                         </Link>{" "}
                         for modern enterprises seeking to simplify end-to-end
                         enterprise practices from financials to sales,
@@ -3096,13 +1762,10 @@ const BusinessCentral = () => {
                         You can host your application whether on cloud (private
                         or public) or on-premise; the choice is yours. When it
                         comes to{" "}
-                        <Link
-                          
-                          href="https://www.dynamicssquare.co.uk/what-is-dynamics-365-business-central/"
-                        >
-                          <a><b>
-                            Dynamics 365 Business Central Overview
-                          </b></a>
+                        <Link href="https://www.dynamicssquare.co.uk/what-is-dynamics-365-business-central/">
+                          <a>
+                            <b>Dynamics 365 Business Central Overview</b>
+                          </a>
                         </Link>
                         , it comprises huge things.&nbsp;
                       </p>
@@ -3111,7 +1774,11 @@ const BusinessCentral = () => {
                         works, and how it can transform your business context,
                         do contact Dynamics Square. Our{" "}
                         <Link href="/">
-                          <a><strong>Dynamics 365 Business Central experts</strong></a>
+                          <a>
+                            <strong>
+                              Dynamics 365 Business Central experts
+                            </strong>
+                          </a>
                         </Link>{" "}
                         can assist you with the right and precise information.
                       </p>
@@ -3135,8 +1802,7 @@ const BusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Dynamics 365 Business Central is the updated version of
-                      Dynamics NAV. With its upgrade, Microsoft changed its name
+                      Dynamics 365 Business Central is the updated version of <Link href="/products/microsoft-dynamics-nav/">Dynamics NAV</Link>. With its upgrade, Microsoft changed its name
                       too. The Core functionality remains the same and is
                       updated with advanced features and navigation to support
                       modern enterprises and to serve every industry. However,
@@ -3169,7 +1835,9 @@ const BusinessCentral = () => {
                         time to upgrade to Dynamics 365 Business Central. If the
                         same question is rolling out in your mind, contact{" "}
                         <Link href="/">
-                          <a><strong>Dynamics Square</strong></a>
+                          <a>
+                            <strong>Dynamics Square</strong>
+                          </a>
                         </Link>
                         . We provide free-system health-check to identify your
                         system lacks and upgrading needs considering your
@@ -3181,7 +1849,9 @@ const BusinessCentral = () => {
                         To know more about Why move to Dynamics 365 Business
                         Central?&nbsp;
                         <Link href="/contact-us/" target="_blank">
-                          <a><b>Contact our Dynamics 365 experts</b></a>
+                          <a>
+                            <b>Contact our Dynamics 365 experts</b>
+                          </a>
                         </Link>
                         , we can help you with all your questions. For instance,
                         when you need to upgrade, what are possible personalized
@@ -3359,10 +2029,7 @@ const BusinessCentral = () => {
                       </p>
                       <p>
                         Initially, you can start with Microsoft{" "}
-                        <Link
-                          href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/"
-                       
-                        >
+                        <Link href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/">
                           Business Central Trial
                         </Link>{" "}
                         at no cost for 30 days. After your trial period, if you
@@ -3427,8 +2094,7 @@ const BusinessCentral = () => {
                       <p>
                         Business Central is an all-in-one ERP solution. In case
                         you want advancement in your reporting &amp; analytics
-                        terms, seamless integration with Power BI can be done as
-                        both are Microsoft's products, hence, Power BI fits well
+                        terms, seamless integration with <Link href="/products/microsoft-power-bi/">Power BI</Link> can be done as both are Microsoft's products, hence, Power BI fits well
                         with Dynamic 365 Business Central. Power BI can enable
                         visualization in your reporting, key metrics, and your
                         entire business analytics. You can create your own
@@ -3438,8 +2104,7 @@ const BusinessCentral = () => {
                       <p>
                         If you want expert advice on how you can leverage Power
                         BI and Business Central together, connect with us, being
-                        a reliable Business Central Support, Upgrade, and
-                        Implementation partner, we can always provide you with
+                        a reliable <Link href="/dynamics-365-business-central-support/">Business Central Support</Link>, <Link href="/dynamics-nav-to-business-central/">NAV Upgrade</Link>, and Implementation partner, we can always provide you with
                         expert consulting.
                       </p>
                     </div>
@@ -3469,66 +2134,59 @@ const BusinessCentral = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <Link
-                    
-                      href="/pdf/Is-Your-Business-Outgrowing-Your-Accounting-Software.pdf"
-                    >
-                      <a ><i className="bi bi-file-earmark-pdf"></i> Is Your
-                      Business Outgrowing Your Accounting Software?</a>
+                    <Link href="/pdf/Is-Your-Business-Outgrowing-Your-Accounting-Software.pdf">
+                      <a>
+                        <i className="bi bi-file-earmark-pdf"></i> Is Your
+                        Business Outgrowing Your Accounting Software?
+                      </a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/pdf/Business-Owners-Guide.pdf"
-                     
-                    >
-                      <a><i className="bi bi-file-earmark-pdf"></i> Business
-                      Owner's Guide</a>
-                      
+                    <Link href="/pdf/Business-Owners-Guide.pdf">
+                      <a>
+                        <i className="bi bi-file-earmark-pdf"></i> Business
+                        Owner's Guide
+                      </a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/pdf/Reimagine-Productivity.pdf"
-                     
-                    >
-                     <a><i className="bi bi-file-earmark-pdf"></i> Reimagine
-                      Productivity</a> 
+                    <Link href="/pdf/Reimagine-Productivity.pdf">
+                      <a>
+                        <i className="bi bi-file-earmark-pdf"></i> Reimagine
+                        Productivity
+                      </a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf"
-                      
-                    >
-                     <a><i className="bi bi-file-earmark-pdf"></i> Licensing Guide</a> 
+                    <Link href="/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf">
+                      <a>
+                        <i className="bi bi-file-earmark-pdf"></i> Licensing
+                        Guide
+                      </a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/pdf/Four-Technology-Trends-Helping-Businesses-Thrive-in-a-Digital-World.pdf"
-                    
-                    >
-                     <a><i className="bi bi-file-earmark-pdf"></i> Technology
-                      Trends Helping Businesses Thrive in a Digital World</a> 
+                    <Link href="/pdf/Four-Technology-Trends-Helping-Businesses-Thrive-in-a-Digital-World.pdf">
+                      <a>
+                        <i className="bi bi-file-earmark-pdf"></i> Technology
+                        Trends Helping Businesses Thrive in a Digital World
+                      </a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/pdf/Reinvent-productivity-with-Dynamics-365-and-Microsoft-365.pdf"
-                      
-                    >
-                     <a><i className="bi bi-file-earmark-pdf"></i> Reinvent
-                      productivity with Dynamics 365 and Microsoft 365</a> 
+                    <Link href="/pdf/Reinvent-productivity-with-Dynamics-365-and-Microsoft-365.pdf">
+                      <a>
+                        <i className="bi bi-file-earmark-pdf"></i> Reinvent
+                        productivity with Dynamics 365 and Microsoft 365
+                      </a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/pdf/The-Total-Economic-Impact-of-Microsoft-Dynamics-365-Business-Central.pdf"
-                      
-                    >
-                     <a><i className="bi bi-file-earmark-pdf"></i> The Total
-                      Economic Impact of Dynamics 365 Business Central</a> 
+                    <Link href="/pdf/The-Total-Economic-Impact-of-Microsoft-Dynamics-365-Business-Central.pdf">
+                      <a>
+                        <i className="bi bi-file-earmark-pdf"></i> The Total
+                        Economic Impact of Dynamics 365 Business Central
+                      </a>
                     </Link>
                   </li>
                 </ul>
@@ -3539,39 +2197,35 @@ const BusinessCentral = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <Link
-                      href="/why-choose-microsoft-dynamics-365-business-central/"
-                      
-                    >
-                     <a> <i className="bi bi-box-arrow-up-right"></i> Why Choose
-                      Microsoft Dynamics 365 Business Central?</a>
+                    <Link href="/why-choose-microsoft-dynamics-365-business-central/">
+                      <a>
+                        {" "}
+                        <i className="bi bi-box-arrow-up-right"></i> Why Choose
+                        Microsoft Dynamics 365 Business Central?
+                      </a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/products/dynamics-365-business-central/advantages-capabilities/"
-                      
-                    >
-                      <a><i className="bi bi-box-arrow-up-right"></i> Advantages
-                      and Capabilities</a>
+                    <Link href="https://blog.dynamicssquare.co.uk/migrate-nav-to-business-central/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i> NAV to Business Central Migration
+                      </a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="https://www.dynamicssquare.co.uk/upgrade-dynamics-nav-to-dynamics-365-business-central/"
-                      
-                    >
-                    <a><i className="bi bi-box-arrow-up-right"></i> Why to
-                      Upgrade Dynamics NAV to Business Central</a>  
+                    <Link href="https://www.dynamicssquare.co.uk/upgrade-dynamics-nav-to-dynamics-365-business-central/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i> Why to
+                        Upgrade Dynamics NAV to Business Central
+                      </a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="https://www.dynamicssquare.co.uk/reasons-to-upgrade-accounting-software/"
-                      
-                    >
-                     <a><i className="bi bi-box-arrow-up-right"></i> Is Your
-                      Business Outgrowing Your Accounting Software?</a> 
+                    <Link href="https://www.dynamicssquare.co.uk/reasons-to-upgrade-accounting-software/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i> Is Your
+                        Business Outgrowing Your Accounting Software?
+                      </a>
                     </Link>
                   </li>
                 </ul>
