@@ -245,6 +245,11 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   pauseOnMouseEnter: true,
                 }}
                 breakpoints={{
+                  0: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    speed: 20000,
+                  },
                   640: {
                     slidesPerView: 1,
                     spaceBetween: 20,

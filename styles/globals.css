@@ -6403,7 +6403,7 @@ font-weight:400
 }
 .new-card-sol .body p{
   font-size: 16px;
-  font-weight: 300;font-size: 16px;
+  font-weight: 300;
   font-weight: 300;
   margin-bottom: 20px;
   line-height: 1.2;
@@ -8036,11 +8036,24 @@ ul.checkmark li {
   margin-bottom:10px;
   color:#000
 }
-@media (max-width: 768px){
 
- 
-}
 @media (max-width: 992px){
+  .repet-col .cont h3 {
+    margin-bottom: 15px;
+}
+  .repet-col .icon {
+    flex: 15% 1;
+    max-width: 15%;
+}
+.repet-col .cont p {
+  font-size: 15px;
+}
+  .new-card-sol .body p {
+  height: auto; 
+}
+  .new-card-sol .body p{
+    font-size:15px
+  }
   .slider-inner-solution-1 h3 {
     font-size: 24px !important;
   }
@@ -8092,14 +8105,29 @@ ul.checkmark li {
 }
 .card-ds-slide .card-body {
   padding: 15px;
-  height: auto;
+  height: 270px;
 }
 .solution-new-tab-content{
   max-width: 100%;
   padding-top: 20px;
+  flex: none;
+    margin-left: 0 !important;
 }
 .bb{
   display:none
+}
+.casestudys .casestudys-slider-item .case-content-wrapper .case-content {
+  flex: 40% 1;
+  max-width: 40%;
+}
+}
+@media (max-width: 768px){
+  .card-ds-slide .card-text {
+    font-size: 14px;
+}
+.card-ds-slide .card-body {
+  padding: 15px;
+  height: 320px;
 }
 }
 @media (min-width: 768px) and (max-width: 991px){
