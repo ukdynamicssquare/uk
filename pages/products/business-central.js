@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay, FreeMode } from "swiper";
 import ModalVideo from "react-modal-video";
-import Blog from "../../../components/Blog";
+import Blog from "../../components/Blog";
 
 const BusinessCentral = () => {
   const [isOpen, setOpen] = useState(false);
