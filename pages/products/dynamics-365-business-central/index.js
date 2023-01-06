@@ -268,12 +268,13 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   1300: {
                     slidesPerView: 3,
                     spaceBetween: 15,
+                    speed: 20000,
                   },
                   1400: {
                     slidesPerView: 4,
                     spaceBetween: 15,
                     speed: 20000,
-                  },
+                  }
                 }}
                 loop={true}
                 freeMode={true}
@@ -1247,19 +1248,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         </p>
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="slider-inner-solution-1">
-                        <h3>Unlock unimaginable capabilities</h3>
-                        <p>
-                          Join the cohort of successful businesses that have
-                          switched from QuickBooks, Xero, Sage, Microsoft
-                          Dynamics GP, and Google Spreadsheets to explore a wide
-                          range of functionalities that Dynamics 365 Business
-                          Central offers to power accounting & finance
-                          management.
-                        </p>
-                      </div>
-                    </SwiperSlide>
+
                     <SwiperSlide>
                       <div className="slider-inner-solution-1">
                         <h3>Automate your way to success</h3>
