@@ -303,7 +303,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-5  align-self-center">
               <h1 data-aos="fade-up">
-                UK's Trusted <br /> Microsoft Gold Partner
+                UK's Trusted <br /> Microsoft Dyanamics 365 Partner
               </h1>
               <p>
                 Simplify your end-to-end business processes to maximize ROI,
