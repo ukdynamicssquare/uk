@@ -184,7 +184,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           <div className="row">
             <div className="col-lg-6">
               <div className="vide-s">
-                <video className="video-screen" autoPlay loop muted>
+                <video className="video-screen" autoPlay loop muted poster="/img/video-thumb.png">
                   <source src="/video/BC.mp4" />
                 </video>
               </div>
