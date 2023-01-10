@@ -48,7 +48,7 @@ const IndustriesList = () => {
               <div className="location-list-wrper">
                 <h3>Startup</h3>
                 <div className="text-lg-center">
-                  <Link href="/industries/startup/">
+                  <Link href="/industries/startups/">
                     <a className="btn-get-started btn-sm scrollto">
                       <span>View More</span>
                     </a>
@@ -119,6 +119,34 @@ const IndustriesList = () => {
                 <div className="text-lg-center">
                   <Link
                     href="/industries/food-and-beverages/">
+                      <a
+                    className="btn-get-started btn-sm scrollto"
+                  >
+                    <span>View More</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="location-list-wrper">
+                <h3>D365 for Education</h3>
+                <div className="text-lg-center">
+                  <Link
+                    href="/industries/dynamics-365-for-education/">
+                      <a
+                    className="btn-get-started btn-sm scrollto"
+                  >
+                    <span>View More</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="location-list-wrper">
+                <h3>D365 For Manufacturing</h3>
+                <div className="text-lg-center">
+                  <Link
+                    href="/industries/manufacturing/">
                       <a
                     className="btn-get-started btn-sm scrollto"
                   >

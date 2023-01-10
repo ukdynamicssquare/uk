@@ -802,6 +802,9 @@ class Header extends Component {
                         </a>
                       </li>
                       <li>
+                        <a href="/industries/dynamics-365-for-education/">D365 for Education</a>
+                      </li>
+                      <li>
                         <a href="/industries/ecommerce/">Ecommerce</a>
                       </li>
                       <li>
@@ -1211,6 +1214,9 @@ class Header extends Component {
                                 <li>
                                   <a href="/industries/ecommerce/">Ecommerce</a>
                                 </li>
+                                <li>
+                        <a href="/industries/dynamics-365-for-education/">D365 for Education</a>
+                      </li>
                                 <li>
                                   <a href="/industries/microsoft-cloud-for-manufacturing/">
                                     Manufacturing (Microsoft Cloud)

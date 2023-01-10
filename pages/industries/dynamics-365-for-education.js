@@ -25,7 +25,7 @@ const Education = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-education/"
         />
-        <meta name="robots" content="noindex,nofollow"/>
+        <meta name="robots" content="index,follow"/>
       </Head>
       <ModalVideo
         channel="youtube"
@@ -58,9 +58,11 @@ const Education = () => {
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img
-                  src="/img/food-and-beverages-banner.png"
+                <Image
+                  src="/img/dynamics-365-for-education.png"
                   alt="Dynamics 365 For education"
+                  width={708}
+                  height={447}
                 />
               </div>
             </div>
@@ -334,10 +336,12 @@ const Education = () => {
               <div className="col-lg-6 align-items-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
-                      src="/img/food and beverages- side.png"
+                    <Image
+                      src="/img/dynamics-365-for-higher-education.png"
                       className="fix-im"
-                      alt="food and beverages- side"
+                      alt="dynamics-365-for-higher-education"
+                      width={483}
+                      height={513}
                     />
                     <div className="video-ytube video-ytubes">
                       <div className="popup-btn popup-btns">
@@ -345,9 +349,11 @@ const Education = () => {
                           <a
                             onClick={() => setOpen(true)}
                           >
-                            <img
+                            <Image
                               src="/img/Video-Food And beerages.png"
                               alt="Video-Food And beerages"
+                              width={390}
+                              height={259}
                             />
                             <span className="cente-icns">
                               <img src="/img/play_icons.svg" alt="play_icons" />
@@ -569,7 +575,12 @@ const Education = () => {
             <div className="row top-2 gx-5">
               <Blog />
               <div className="col-lg-6 align-self-center">
-                <img src="/img/n/Dynamics-food-beverages-Banner.png" alt="" />
+              <Image
+                  src="/img/dynamics-365-for-education.png"
+                  alt="Dynamics 365 For education"
+                  width={708}
+                  height={447}
+                />
               </div>
             </div>
           </div>
