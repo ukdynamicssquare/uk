@@ -21,11 +21,16 @@ import CookieConsent from 'react-cookie-consent';
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   if(router.asPath =='/contact-us/' ||
+      router.asPath =='/contact-us/?utm_source=email&utm_medium=contact-us&utm_campaign=navtobc_jan&utm_term=ds_uk' ||
+      router.asPath =='/contact-us/?utm_source=email&utm_medium=contact-us&utm_campaign=business_central_support&utm_term=ds_uk' ||
       router.asPath =='/thank-you/' ||
       router.asPath =='/thanks-webinar-registration/' ||
       router.asPath =='/thank-you/email-subscriber/' ||
       router.asPath =='/support-dynamics-365/' ||
+      router.asPath =='/support-dynamics-365/?utm_source=email&utm_medium=banner&utm_campaign=business_central_support&utm_term=ds_uk' ||
       router.asPath =='/subscribe-updates/' ||
+      router.asPath =='/subscribe-updates/?utm_source=email&utm_medium=subscribe_updates&utm_campaign=business_central_support&utm_term=ds_uk' ||
+      router.asPath =='/subscribe-updates/?utm_source=email&utm_medium=subscribe_updates&utm_campaign=navtobc_jan&utm_term=ds_uk' ||
       router.asPath =='/guides/download/Pdf-dynamics-crm/' ||
       router.asPath =='/guides/download/Pdf-guide-finance/' ||
       router.asPath =='/guides/download/Pdf-d365-supply-chain-management/' ||
@@ -38,6 +43,7 @@ function MyApp({ Component, pageProps }) {
       router.asPath =='/email-ax-to-finance/' ||
       router.asPath =='/email-wms/' ||
       router.asPath =='/email-gp-to-bc/' ||
+      router.asPath =='/upgrade-nav-to-business-central/?utm_source=Email&utm_medium=navtobc_campaign&utm_campaign=upgrade_nav_to_business_central&utm_term=uk' ||
       router.asPath =='/upgrade-nav-to-business-central/' 
 
   )  {

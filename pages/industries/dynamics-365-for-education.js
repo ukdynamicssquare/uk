@@ -3,7 +3,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Blog from "../../components/Blog";
-import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -27,13 +26,6 @@ const Education = () => {
         />
         <meta name="robots" content="index,follow"/>
       </Head>
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="hiaL1f4SQCQ"
-        onClose={() => setOpen(false)}
-      />
       <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
@@ -343,25 +335,6 @@ const Education = () => {
                       width={483}
                       height={513}
                     />
-                    <div className="video-ytube video-ytubes">
-                      <div className="popup-btn popup-btns">
-                        <Link href="#javascript:void(0)">
-                          <a
-                            onClick={() => setOpen(true)}
-                          >
-                            <Image
-                              src="/img/Video-Food And beerages.png"
-                              alt="Video-Food And beerages"
-                              width={390}
-                              height={259}
-                            />
-                            <span className="cente-icns">
-                              <img src="/img/play_icons.svg" alt="play_icons" />
-                            </span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
