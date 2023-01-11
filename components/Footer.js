@@ -310,6 +310,11 @@ const Footer = () =>{
                   alt="Tech-For-Socil-Impact"
                   className="footer-img"
                 />
+                 <img style={{width:'80px'}} 
+                  src="/img/UK badge.png"
+                  alt="UK badge"
+                  className="footer-img"
+                />
               </div>
               <div className="col-lg-2 col-12 footer-links">
                 <p>BUSINESS APPS</p>

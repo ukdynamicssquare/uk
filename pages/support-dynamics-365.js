@@ -8,10 +8,10 @@ const SupportDynamics365Mailer = () => {
   return (
     <>
       <Head>
-      <title>Maximize your resource utilization and leverage the full potential | Dynamics Square</title>
+      <title>Get Dynamics 365 Business Central Support in the UK</title>
         <meta
           name="description"
-          content="AI &amp; Machine Learning Capabilities"
+          content="For business central support, guidance plus tech and non-tech assistance with getting your Business Central up and running, please contact Dynamics Square."
         />
         <link
           rel="canonical"

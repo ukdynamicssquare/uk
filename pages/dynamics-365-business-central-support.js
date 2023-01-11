@@ -7,11 +7,11 @@ const BusinessCentralSupport = () => {
     <>
       <Head>
         <title>
-          Dynamics 365 Business Central Support Partner UK | Dynamics Square
+          Dynamics 365 Business Central Support UK - Dynamics Square
         </title>
         <meta
           name="description"
-          content="Get flexible Microsoft Dynamics 365 Business Central Support Packages that we have designed specifically for small and medium sized businesses (SMBs)."
+          content="Dynamics Square is a renowned Microsoft Dynamics 365 Business Central support service provider in the UK, and we are specifically helping SMBs."
         />
         <link
           rel="canonical"
@@ -24,9 +24,7 @@ const BusinessCentralSupport = () => {
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Dynamics 365 Business Central Support Services</h1>
               <p>
-                Are you struggling to find the right Microsoft Dynamics partner?
-                Get the UK's leading Dynamics 365 Business Central Support
-                Partner onboard for an efficient and effortless experience.
+                 Looking for a support partner that can understand the exact issues you are facing right now? If so, we've got you covered with the precise Business Central support services to get your business going. 
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -35,7 +33,7 @@ const BusinessCentralSupport = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Let's Discuss Over a Call </span>
                     </a>
                   </Link>
                 </div>
@@ -43,10 +41,10 @@ const BusinessCentralSupport = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/Dynamics-365-Finance-Banner-1.svg"
-                alt="Support-Banner"
-                width={636}
-                height={362}
+                src="/img/Dynamics-365-Business-Central-support.png"
+                alt="D365 Business Central Support-Banner"
+                width={1576}
+                height={1188}
               />
             </div>
           </div>
@@ -59,26 +57,19 @@ const BusinessCentralSupport = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>
-                  Efficient Dynamics 365 <br /> Business Central Support
-                  Services
+                Avail Extensive and Efficient Dynamics 365 <br /> Business Central Support Services
                 </h2>
                 <p>
-                  Streamline your business management efforts with a dedicated
-                  Microsoft Business Central support partner and let Dynamics
-                  365 work for rapid business growth and easy scalability. With
-                  a dedicated team of experts, we can get your business back on
-                  track with minimal resources and high profitability.
+                We have been offering our extensive and efficient Dynamics 365 Business Central support and <Link href="/dynamics-365-business-central-implementation/"> Business Central implementation
+                  </Link> services for a long time. We have clients from all industries, irrespective of the type and size. Our services enable businesses to efficiently utilise their business solutions while minimising redundancies in the system. 
                 </p>
                 <p>
-                  Transform the organisation's customer experience, process
-                  management, employee management, and data sharing for business
-                  optimisation with the right{" "}
-                  <Link href="/products/dynamics-365-business-central/">
-                    Business Central partner
-                  </Link>
+                With industry-specific experts, we have separate teams for different services, whether support, implementation, or a Business Central upgrade. Our sole mission is to deliver exceptional services to the customers while opening opportunities for growth, scalability, and high profitability.
                   .
                 </p>
-                <p></p>
+                <p>Irrespective of the size, whether a small or medium business, we offer dedicated and seamless services with a 99% satisfaction rate. Being a certified <Link href="/">
+                Microsoft Gold Partner </Link> in the UK, our focus is to offer hassle-free services while offering enhanced results and maximising growth. </p>
+                
               </header>
             </div>
           </div>
@@ -87,7 +78,7 @@ const BusinessCentralSupport = () => {
               <div className="commen-lef-pic">
                 <Image
                   src="/img/BC-1024x597.png"
-                  alt="BC-1024x597"
+                  alt="BC support-1024x597"
                   width={1024}
                   height={597}
                 />
@@ -95,42 +86,11 @@ const BusinessCentralSupport = () => {
             </div>
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info commen-rit-info-1">
-                <p>
-                  As a certified Microsoft gold partner, we aim to provide
-                  seamless and dedicated support to all SMBs with 99%
-                  satisfaction. We focus on streamlining hectic operations,
-                  better results, maximum growth, and easy scalability.
-                </p>
-                <p>
-                  We help businesses improve processes, efficient planning, easy
-                  data analysis, collaboration with different departments,
-                  centralized data processing, and real-time data reporting
-                  using cloud computing and artificial intelligence.
-                </p>
-                <p>
-                  At Dynamics Square, we are committed to providing highly
-                  embedded Business Central support for all businesses,
-                  irrespective of the industry and specific business
-                  requirements.
-                </p>
-                <p>
-                  Our support proactively analyses the error, evaluates the
-                  situation, predicts the outcomes, and provides the business
-                  with a sustainable solution.
-                </p>
-                <p>
-                  Whether you require{" "}
-                  <Link href="/dynamics-365-business-central-upgrade/">
-                    upgradation
-                  </Link>
-                  ,{" "}
-                  <Link href="/dynamics-365-business-central-implementation/">
-                    implementation
-                  </Link>
-                  , or customization services, our team is available to resolve
-                  all kinds of errors on time for a seamless and improved
-                  business process.
-                </p>
+             
+                <p>The requirements of business are subject to change due to various parameters, including competitor actions, the environment, global technology, market trends, and social norms. However, we will ensure that we provide you with a superior support system that is strong, dependable, and powerful. </p>
+                <p>When you contact us to resolve your <Link href="/products/dynamics-365-business-central/"> Business Central </Link> issues, we dive in and rectify them before the given timeline, along with minimising any kind of technical glitches you may have to deal with in the future. That's how we work. Our top USPs are quick response, highly cost-effective services, remote capabilities, faster issue resolution, and much more. </p>
+                <p>Our proactive support would resolve even the most complex error while utilising the bare minimum of your company's resources to assist you in getting back on track in difficult times. We will ensure that your system's performance is improved and shaped to support your business using our tried-and-true onboarding strategy. </p>
+                <p>If you want to transform your Business Central support and implementation experience in a better way, you should try our services once or at least try our free demo of any Microsoft Business application of your choice. </p>
               </div>
             </div>
           </div>
@@ -143,15 +103,13 @@ const BusinessCentralSupport = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>
-                  Why Choose Dynamic Square's Business Central Support Services?
+                  Why Choose our Business Central Support Services?
                 </h2>
                 <p>
-                  If you are looking for an efficient, knowledgeable, timely,
-                  and effective{" "}
+                If you are looking for a reliable and cost-effective first line of support to investigate and rectify critical issues at the time they occur, Dynamics Square would be your best choice for effective {" "}
                   <Link href="/products/dynamics-365-business-central/">
                     Dynamics 365 Business Central
-                  </Link>{" "}
-                  Support Partner, we would be your best choice.
+                  </Link>{" "} Support Partner.
                 </p>
               </header>
             </div>
@@ -183,12 +141,7 @@ const BusinessCentralSupport = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        The Ad-Hoc customer support model enables us to provide
-                        you with the best support for a particular purpose,
-                        irrespective of the issue's complexity. Once you contact
-                        us, our Business Central support team will analyse the
-                        problems and provide the best quote as per the budget
-                        and industry type.
+                      The ad-hoc support model allows us to offer tailored assistance to you for all general and specific issues, regardless of their complexity. When you contact our experienced support team, they will assess the problem and provide a customised quote that fits your budget and industry needs.
                       </div>
                     </div>
                   </div>
@@ -216,14 +169,7 @@ const BusinessCentralSupport = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Modern businesses need proactive and timely support to
-                        deal with simple and complex issues to continue the
-                        processes and operations with minimal loss. To cope with
-                        such problems, we have designed a 50-hour prepaid
-                        support model to provide best-in-class Business Central
-                        support services. This model supports organisations in
-                        understanding the changing business requirements due to
-                        changes in business methods and technologies.
+                      Proactive and timely support is crucial for modern businesses to handle daily issues. To run their operations smoothly, businesses need to resolve the issues with an impactful solution. We have created a 50-hour prepaid support model for all businesses that delivers top-notch Business Central support services without any delay. 
                       </div>
                     </div>
                   </div>
@@ -251,14 +197,7 @@ const BusinessCentralSupport = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        With the annual support model, Dynamics 365 Business
-                        Central support is committed to providing reliable and
-                        timely support to all our clients, irrespective of any
-                        industry. This makes the organisation work freely
-                        without looking for help whenever they encounter any
-                        issue or a bug in the processes and operations. You can
-                        focus on your business because our annual support has
-                        got you covered.
+                      Our annual support model for all Microsoft Business applications, including <Link href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</Link> and Dynamics 365 Business Central, is designed to ensure you avail of support in times of need. Our annual support gives you peace of mind so that you can focus on generating more business and capturing more clients. 
                       </div>
                     </div>
                   </div>
@@ -296,13 +235,7 @@ const BusinessCentralSupport = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        Whether there is a need for upgrade, implementation, or
-                        customization support, we have a dedicated{" "}
-                        <Link href="/our-services/dynamics-365-support-services/">
-                          D365 support
-                        </Link>{" "}
-                        team available to help you resolve any issues on time
-                        using efficient and productive solutions.
+                      We have dedicated separate teams to resolve all your issues, whether you need assistance with an upgrade, implementation, or support. Our Microsoft certified expert consultants are available to resolve any kind of issue on time using efficient and productive solutions. 
                       </div>
                     </div>
                   </div>
@@ -330,11 +263,7 @@ const BusinessCentralSupport = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        As a Microsoft-certified gold partner in the UK, we
-                        provide affordable packages without compromising the
-                        quality of service to all SMBs. Our packages enable
-                        businesses to avail best support services without
-                        investing a lot of money and effort.
+                      As a Microsoft-certified <Link href="/"> Dynamics 365 partner </Link> in the UK, we offer cost-effective solutions without affecting the quality of our service. All our packages include access to top-notch support services without placing a significant financial burden on your financial resources. 
                       </div>
                     </div>
                   </div>
@@ -362,13 +291,7 @@ const BusinessCentralSupport = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        With the latest solution or resolution comes a lot of
-                        new or updated functions that might be difficult to
-                        understand for existing users.{" "}
-                        <Link href="/">Dynamics Square</Link> is faithful to
-                        such organisations to help them understand the latest
-                        features and make the solution easy to access for all
-                        users.
+                      Most of the partners don't provide any kind of training to the users, but after the implementation, we offer trainings to users so that they can utilise Dynamics 365 Business Central in the most efficient and effective manner possible. 
                       </div>
                     </div>
                   </div>
@@ -386,8 +309,7 @@ const BusinessCentralSupport = () => {
               <div className="wy-sultion-left-head">
                 <h2>Top Features of D365 Business Central Support Service</h2>
                 <h3>
-                  ome of the reasons for choosing Dynamics Square as the right
-                  support partner are:{" "}
+                Some of the top reasons you should choose Dynamics Square as your support partner are:{" "}
                 </h3>
               </div>
               <div className="m-o-t m-o-t-b">
@@ -412,35 +334,24 @@ const BusinessCentralSupport = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Continues <br />
-                        Process Flow
+                      Sustainable <br />
+                      Business Flow 
                       </h3>
                       <div className="overlay">
                         <p>
-                          We have numerous Business Central Support Service
-                          Packages enabling users to continue business growth
-                          with 99% uptime. It drives the strategic development
-                          for the organisations to streamline the operation's
-                          flow irrespective of the simple or complex situation.
+                        Our Business Central Support service packages enable the users to avail themselves of the required assistance whenever it is needed to make the business mould itself towards the path of consistent and sustainable growth. Also, we will help you streamline business operations while generating positive results. 
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Effortless
+                      Smoother and  
                         <br />
-                        Adaption
+                        Productive Operations
                       </h3>
                       <div className="overlay">
                         <p>
-                          Our team of experts has been providing{" "}
-                          <Link href="/our-services/dynamics-365-implementation-services/">
-                            Dynamics 365 implementation
-                          </Link>{" "}
-                          or upgrade support services for the last 11 years. We
-                          have immense knowledge and experience of adapting new
-                          technologies effortlessly, replacing your legacy
-                          system.
+                        Irrespective of your business, our Business Central support experts are available to help you understand the effectiveness of existing capabilities while educating you on new functionalities to run a seamless and smoother business. 
                         </p>
                       </div>
                     </div>
@@ -450,34 +361,24 @@ const BusinessCentralSupport = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Smoother
+                      Hassle-Free  
                         <br />
-                        Operations
+                        Adaption
                       </h3>
                       <div className="overlay">
                         <p>
-                          It doesn't matter whether you belong to a small or a
-                          large organisation, our Business Central support
-                          experts will help you understand the overall solution
-                          with deep understanding of new functionalities to make
-                          you educated for seamless and smoother operations.
+                        With over 11 years of experience, we have been providing <Link href="/our-services/dynamics-365-implementation-services/">Dynamics 365 implementation</Link>, <Link href="/our-services/dynamics-365-upgrade-services/">upgrade</Link>, and support services to global businesses. With this experience, we gained immense knowledge about adapting new technologies effortlessly. 
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Stay Up
-                        <br />
-                        to date
+                      Stay Ahead of <br />
+                      the Competition  
                       </h3>
                       <div className="overlay">
                         <p>
-                          Modern businesses are changing, and so are the
-                          requirements for overall business management.
-                          Microsoft releases updates two times a year to make
-                          Business Central applicable for modern needs. We help
-                          businesses to stay updated and avail of all updates on
-                          time.
+                        The best part about Microsoft is that it automatically updates or upgrades the system whenever it releases the latest changes. And Microsoft makes these changes without any charges and processes them automatically without hampering the existing processes. 
                         </p>
                       </div>
                     </div>
@@ -495,9 +396,9 @@ const BusinessCentralSupport = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>
-                  Want to get Elite Dynamics 365 Business Central Support?
+                Want to get Premium Dynamics 365 Business Central Support at Affordable Prices? 
                 </h3>
-                <p>Click Below and Resolve all your Dynamics 365 Issues!</p>
+                <p>We are just a click away!</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#exampleModal">
                     <a
@@ -575,9 +476,9 @@ const BusinessCentralSupport = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        <Link href="https://www.dynamicssquare.co.uk/blog/migrate-nav-to-business-central/">
+                        <a href="https://blog.dynamicssquare.co.uk/migrate-nav-to-business-central/">
                           Business Central Migration
-                        </Link>{" "}
+                        </a>{" "}
                         can be hectic if you have not selected the right
                         Business Central support partner. Dynamics Square can
                         help any business with a seamless migration process,

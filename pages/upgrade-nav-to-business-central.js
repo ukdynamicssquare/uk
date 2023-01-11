@@ -8,10 +8,10 @@ const DynamicsNavSupportEndingSoon = () => {
   return (
     <>
       <Head>
-      <title>Navision to Dynamics 365 Business Central - Dynamics Square</title>
+      <title>Dynamics Square UK can help you upgrade your Dynamics NAV</title>
         <meta
           name="description"
-          content="Get up and upgrade your NAV/Navision to Dynamics 365 Business Central, and get started"
+          content="With Dynamics Square, you can upgrade Dynamics NAV to a cloud-based ERP system, Dynamics 365 Business Central, for a reasonable cost."
         />
         <link
           rel="canonical"

@@ -11,14 +11,14 @@ const MicrosoftDynamicsNAV = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics NAV: Navision Support Partner UK</title>
+        <title>Microsoft Dynamics NAV (Navision) Support Partner UK</title>
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-nav/"
         />
         <meta
           name="description"
-          content="Need Microsoft Dynamics NAV support? Whether you're using an older or newer version, we offer high quality, low cost Navision support services in the UK. Contact Now Today!"
+          content="Looking for Microsoft Dynamics NAV support? Whether you're using an older or newer version, we offer high quality, low cost Navision support services in the UK. Contact Now Today!"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-nav/" />
