@@ -12,12 +12,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          Microsoft Dynamics 365 Partner UK, London | Dynamics Square
-        </title>
+        <title>Microsoft Dynamics 365 Partner UK, Business Central Partner - Dynamics Square</title>
         <meta
           name="description"
-          content="Dynamics Square is UK&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services."
+          content="We are trusted UK's leading Microsoft Dynamics 365 Partners, our expert helping businesses to achieve desired results with Dynamics 365 apps, services like Business Central ERP & CRM."
         />
         <link rel="canonical" href="https://www.dynamicssquare.co.uk/" />
         <meta property="og:type" content="website" />
