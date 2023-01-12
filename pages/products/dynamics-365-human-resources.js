@@ -9,7 +9,7 @@ const HumanResource = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Human Resources | Optimize HR Programs</title>
+        <title>Dynamics 365 Human Resources - Demo & Pricing UK</title>
         <meta
           name="description"
           content="Manage workforce, maximize resource utilization, leverage valuable AI insights to craft a better workspace with Dynamics 365 Human Resources. Schedule a demo today."

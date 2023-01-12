@@ -12,11 +12,10 @@ const PowerVirtualAgents = () => {
     <>
       <Head>
         <title>
-          Microsoft Power Virtual Agents | Intelligent Virtual Agents
-        </title>
+          Microsoft Power Virtual Agents (Demo & Pricing) | Dynamics Sqaure</title>
         <meta
           name="description"
-          content="Enhance customer experience and boost sales using AI enabled chatbots built with Microsoft Power Virtual Agents. Schedule a free demo today."
+          content="Enhance customer experience and boost sales using AI enabled chatbots built with Microsoft Power Virtual Agents. Schedule a free demo today!"
         />
         <link
           rel="canonical"

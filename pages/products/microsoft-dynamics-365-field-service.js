@@ -14,7 +14,7 @@ const FieldService = () => {
         <title>Microsoft Dynamics 365 Field Service Partner UK | Dynamics Square</title>
         <meta
           name="description"
-          content="Streamline Your Field Operations and Optimize Your Resources By Leveraging Our Unique Microsoft Dynamics 365 Field Service Plans UK."
+          content="Streamline Your Field Operations and Optimize Your Resources By Leveraging Our Unique Microsoft Dynamics 365 Field Service pricing Plans UK."
         />
         <link
           rel="canonical"

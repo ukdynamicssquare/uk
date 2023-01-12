@@ -56,7 +56,7 @@ const ContactUs = () => {
                   <div className="col-lg-5 col-sm-12 align-self-center">
                     <div className="addre-left">
                       <p>
-                        Kemp House, 152-160 City Road,
+                        Kemp House, 124 City Road,
                         <br />
                         London, EC1V 2NX, U.K
                       </p>
@@ -246,7 +246,7 @@ const ContactUs = () => {
                             <i className="bi bi-geo-alt"></i>
                           </div>
                           <div className="content-right">
-                            Kemp House, 152-160 City Road, London, EC1V 2NX, U.K
+                            Kemp House, 124 City Road, London, EC1V 2NX, U.K
                           </div>
                         </div>
                         <div className="contact-list">

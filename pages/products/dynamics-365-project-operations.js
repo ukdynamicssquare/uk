@@ -11,10 +11,10 @@ const ProjectOperations = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Project Operations Partner UK</title>
+        <title>Dynamics 365 Project Operations Partner - Demo & Pricing UK</title>
         <meta
           name="description"
-          content="Dynamics 365 Apps- Bring Agility, Improve Transparency, and Streamline Your Projects through implementing Dynamics 365 Project Operations"
+          content="Improve transparency, bring agility, and streamline your projects through the implementation of Dynamics 365 Project Operations. Call us for a demo and pricing today!"
         />
         <link
           rel="canonical"

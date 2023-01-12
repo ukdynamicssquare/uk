@@ -12,7 +12,7 @@ const Marketing = () => {
         </title>
         <meta
           name="description"
-          content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Call now +44-207-193-2502 for demo and pricing UK."
+          content="Dynamics 365 Marketing can help you generate more customers and drive sales. Call now +44-207-193-2502 for demo and pricing at Dynamics Square UK."
         />
            <meta name="robots" content="index,follow" />
            <link
