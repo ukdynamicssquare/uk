@@ -18,7 +18,6 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Mochiy+Pop+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
             rel="stylesheet"
             />
-            <meta name="robots" content="index,follow"></meta>
             <meta name="msvalidate.01" content="EE56DA95B952D734B4521A0EFA1F0E8B" />
             <meta
       name="google-site-verification"

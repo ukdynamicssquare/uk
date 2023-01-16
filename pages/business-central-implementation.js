@@ -17,7 +17,7 @@ const BusinessCenteralImplemenationMailer = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/business-central-implementation/"
         />
-        <meta name="robots" content="noindex, nofollow"></meta>
+        <meta name="robots" content="noindex, nofollow" /> 
       </Head>
       <section id="action-call"
         className="Solution-banner hero-1 hero"
