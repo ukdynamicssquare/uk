@@ -11,7 +11,7 @@ const PowerAutomate = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power Automate (Demo & Pricing) | Dynamics Square</title>
+        <title>Microsoft Power Automate: Demo & Pricing UK | Dynamics Square</title>
         <meta
           name="description"
           content="Power Automate offers the ability to easily create workflows directly in your applications with a no-code approach that connects to hundreds of popular. Do call us for demo & pricing!"

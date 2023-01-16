@@ -17,6 +17,7 @@ const SupportDynamics365Mailer = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/support-dynamics-365/"
         />
+        <meta name="robots" content="noindex, nofollow"></meta>
       </Head>
       <section
         className="Solution-banner hero-1 hero"
@@ -34,52 +35,12 @@ const SupportDynamics365Mailer = () => {
               <p>
                 <b>Will handle every aspect of your Dynamics 365 system requirements:</b>
               </p>
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="ineer-div">
-                    <div className="left">
-                      <i class="bi bi-check2-all"></i>
-                    </div>
-                    <div className="right">
-                      <p>
-                      Ad-hoc Support to instantly resolve the issues whenever encountered.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="ineer-div">
-                    <div className="left">
-                      <i class="bi bi-check2-all"></i>
-                    </div>
-                    <div className="right">
-                      <p>
-                      Prepaid Hours Support to provide 50 hours of priority support to our clients.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="ineer-div">
-                    <div className="left">
-                      <i class="bi bi-check2-all"></i>
-                    </div>
-                    <div className="right">
-                      <p>
-                      Annual Support to help you keep the system running 24X7.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="ineer-div">
-                    <div className="left">
-                      <i class="bi bi-check2-all"></i>
-                    </div>
-                    <div className="right">
-                      <p>
-                      Allow users to help them understand the latest features & make the solution easy to access for all users.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <ul className="checkmark">
+                <li>Ad-hoc Support to instantly resolve the issues whenever encountered.</li>
+                <li>Prepaid Hours Support to provide 50 hours of priority support to our clients.</li>
+                <li>Annual Support to help you keep the system running 24X7.</li>
+                <li>Allow users to help them understand the latest features & make the solution easy to access for all users.</li>
+              </ul>
             </div>
             <div className="col-lg-1  align-self-center"></div>
             <div className="col-lg-5  align-self-center">
