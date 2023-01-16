@@ -253,7 +253,6 @@
     { "source": "/email-dynamics365-crm/", "destination": "/products/microsoft-dynamics-crm/", "statusCode": 301 },
     { "source": "/email-gp-to-bc/", "destination": "https://blog.dynamicssquare.co.uk/migrating-dynamics-gp-to-d365-business-central/", "statusCode": 301 },
     { "source": "/email-mtd-compliant/", "destination": "/", "statusCode": 301 },
-    { "source": "/support-dynamics-365/", "destination": "", "statusCode": 301 },
     { "source": "/support-dynamics-365/", "destination": "/our-services/dynamics-365-support-services/", "statusCode": 301 },
     { "source": "/upgrade-nav-to-business-central/", "destination": "/dynamics-nav-to-business-central/", "statusCode": 301 }
 
