@@ -16,6 +16,7 @@ const PdfpgDownload = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/guides/download/power-guide-pdf/"
         />
+        <meta name="robots" content="noindex, nofollow" />
       </Head>
      
       <section className="Solution-banner hero-1 custom-pd-4">
