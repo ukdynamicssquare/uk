@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }) {
       router.asPath =='/upgrade-nav-to-business-central/?utm_source=Email&utm_medium=navtobc_campaign&utm_campaign=upgrade_nav_to_business_central&utm_term=uk' ||
       router.asPath =='/upgrade-nav-to-business-central/' ||
       router.asPath =='/business-central-implementation/' || 
-      router.asPath =='/business-central-implementation/?utm_source=Email&utm_medium=implementation_campaign&utm_campaign=business_central_implementation&utm_term=us' 
+      router.asPath =='/business-central-implementation/?utm_source=Email&utm_medium=implementation_campaign&utm_campaign=business_central_implementation&utm_term=uk' 
 
   )  {
     return (

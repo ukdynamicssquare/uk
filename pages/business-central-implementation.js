@@ -106,7 +106,7 @@ const BusinessCenteralImplemenationMailer = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Improve efficiency, accuracy, and decision-making capabilities by automating and streamlining your financial processes, including accounting, planning, invoicing, and financial reporting, with built-in artificial intelligence, machine learning, and process automation.</p>
+                        <p>Improve efficiency, accuracy, and decision-making capabilities by automating and streamlining your financial processes, including accounting, planning, invoicing, and financial reporting, with built-in <Link href="/products/microsoft-dynamics-365-ai/"><a>artificial intelligence</a></Link>, <Link href="/products/azure-machine-learning/"><a>machine learning</a></Link>, and process automation.</p>
                       </div>
                     </div>
                   </div>
@@ -172,7 +172,7 @@ const BusinessCenteralImplemenationMailer = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>By streamlining your supply chain management procedures with <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365 Business Central</a></Link>, you can increase productivity, creativity, and decision-making capabilities.</p>
+                        <p>By streamlining your supply chain management procedures with <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>, you can increase productivity, creativity, and decision-making capabilities.</p>
                       </div>
                     </div>
                   </div>
@@ -210,7 +210,7 @@ const BusinessCenteralImplemenationMailer = () => {
             <div className="col-lg-12 col-md-12">
               <div className="price-btn d-flex justify-content-center">
                 <a className="btn-get-red" href="#action-call">
-                  <span>Implemnet Business Central today?</span>
+                  <span>Implement Business Central today?</span>
                 </a>
               </div>
             </div>
