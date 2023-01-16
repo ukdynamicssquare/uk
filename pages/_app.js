@@ -34,13 +34,7 @@ function MyApp({ Component, pageProps }) {
       router.asPath =='/guides/download/Pdf-d365-supply-chain-management/' ||
       router.asPath =='/guides/download/power-guide-pdf/' ||
       router.asPath =='/thank-you-for-registration/' ||
-      router.asPath =='/email-mtd-compliant/' ||
-      router.asPath =='/email-dynamics365-crm/' ||
-      router.asPath =='/emailer-power-bi/' ||
-      router.asPath =='/not-for-profit-fundrasing-engagenment/' ||
-      router.asPath =='/email-ax-to-finance/' ||
-      router.asPath =='/email-wms/' ||
-      router.asPath =='/email-gp-to-bc/'
+      router.asPath =='/not-for-profit-fundrasing-engagenment/' 
    
 
   )  {
