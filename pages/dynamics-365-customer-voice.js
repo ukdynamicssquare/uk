@@ -12,11 +12,16 @@ const CustomerVoice = () => {
           name="description"
           content=" Activate your feedback management system implementing Dynamics 365 Customer Voice to record, collect, and analyse responses for better understanding of your customer."
         />
-
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.co.uk/dynamics-365-customer-voice/"
+        />
         <meta
           property="og:url"
           content="https://www.dynamicssquare.co.uk/dynamics-365-customer-voice/"
         />
+        <meta name="robots" content="index,follow" />
+
       </Head>
 
 
