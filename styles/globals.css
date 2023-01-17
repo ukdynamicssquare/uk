@@ -102,6 +102,9 @@ svg {
   height: 1rem;
   position: relative;
 }
+ul li {
+  margin-bottom: 10px;
+}
 #services,
 .Solution-banner,
 .extr-cont,
