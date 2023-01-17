@@ -40,9 +40,11 @@ const CustomerVoice = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
-                src="/img/Dynamics-365-Finance-Banner.svg"
-                alt="Microsoft Dynamics 365 Finance"
+            <Image
+                src="/img/customer-service-banner.png"
+                alt="Dynamics 365 Customer Voice"
+                width={759}
+                height={513}
               />
             </div>
           </div>
