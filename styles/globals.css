@@ -3966,7 +3966,7 @@ section {
 }
 .navbar .dropdown:hover > .megamenu-list {
   opacity: 1;
-  top: 90%;
+  top: 85%;
   visibility: visible;
 }
 .navbar .dropdown:hover > .megamenu-list .right-list .rigt-list-menu ul {
