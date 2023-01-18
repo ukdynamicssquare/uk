@@ -101,7 +101,7 @@ const CustomerVoice = () => {
           <div className="row">
             <div className="col-lg-9">
             <header className="section-header" style={{textAlign:'left'}}>
-            <h2>Some Core Components of Dynamics 365 Customer Voice App</h2>
+              <h2>Some Core Components of Dynamics 365 Customer Voice App</h2>
           </header>
             <p style={{fontSize:'18px',marginBottom:'20px'}}>
                 <b>In general, you can do only three tasks with the D365 Customer Voice App: </b>
