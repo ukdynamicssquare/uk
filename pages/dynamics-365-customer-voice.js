@@ -46,10 +46,10 @@ const CustomerVoice = () => {
             </div>
             <div className="col-lg-6 align-self-center">
             <Image
-                src="/img/customer-service-banner.png"
+                src="/img/customer-voice-banner.png"
                 alt="Dynamics 365 Customer Voice"
-                width={759}
-                height={513}
+                width={910}
+                height={638}
               />
             </div>
           </div>
@@ -75,9 +75,9 @@ const CustomerVoice = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/microosoft-partner.png"
+                  src="/img/customer-voice-side.png"
                   alt="microosoft-partner.png"
-                  width={625} height={651}
+                  width={1038} height={1010}
                 />
               </div>
             </div>

@@ -69,7 +69,7 @@ class MyDocument extends Document {
                 `}
             </Script>
             <script src="https://www.googleoptimize.com/optimize.js?id=OPT-M8FWRNS"></script>
-            <Script id="Adoric-Script" strategy="beforeInteractive">
+            {/* <Script id="Adoric-Script" strategy="beforeInteractive">
                 {`
                (function (a, d, o, r, i, c, u, p, w, m) {
                 (m = d.getElementsByTagName(o)[0]),
@@ -107,7 +107,7 @@ class MyDocument extends Document {
                 "data-key"
               );
                 `}
-            </Script>
+            </Script> */}
         </Head>
         <body>
           <Main />
