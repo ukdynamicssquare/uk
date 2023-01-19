@@ -27,6 +27,7 @@ class MyDocument extends Document {
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-5BJVL7GDB9"
     ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76870474-2"></script>
             <Script id="hotjar" strategy="beforeInteractive">
                 {`
                (function (h, o, t, j, a, r) {
@@ -66,6 +67,14 @@ class MyDocument extends Document {
                 }
                 gtag("js", new Date());
                 gtag("config", "G-5BJVL7GDB9");
+                `}
+            </Script>
+            <Script id="google-analytics" strategy="beforeInteractive">
+                {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-76870474-2');
                 `}
             </Script>
             <script src="https://www.googleoptimize.com/optimize.js?id=OPT-M8FWRNS"></script>
