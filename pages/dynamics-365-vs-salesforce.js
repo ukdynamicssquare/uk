@@ -6,10 +6,10 @@ const Dynamics365vsSalesForce = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 vs Salesforce | Dynamics Square</title>
+        <title>Dynamics 365 vs Salesforce : CRM Comparison 2023 | Dynamics Square</title>
         <meta
           name="description"
-          content="Wisely chosen Customer Relationship Management or CRM solutions not just transform the way enterprises operate, but ensure next level business intelligence"
+          content="Explore comparison of Dynamics 365 vs Salesforce crm for businesses. Find out unique comparative of both crm and which one is the best fit for your business needs."
         />
         <link
           rel="canonical"
@@ -21,18 +21,13 @@ const Dynamics365vsSalesForce = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-                Dynamics 365 <br />
-                vs Salesforce
+                Dynamics 365 vs Salesforce
               </h1>
               <p>
-                Transitioning to Smartly Selected CRM Solution is an Intelligent
-                Move
+              An efficiently smart CRM solution to supercharge your business. Make the right move.
               </p>
               <p>
-                Wisely chosen Customer Relationship Management or CRM solutions
-                not just transform the way enterprises operate, but ensure next
-                level business intelligence for the processes across the
-                organization.
+              Choose an intelligent CRM solution to revolutionise the way you usually manage your customers. Use business intelligence to take your customer management to the next level. 
               </p>
               <br />
               <div>
@@ -67,52 +62,24 @@ const Dynamics365vsSalesForce = () => {
           <div className="row p-lg-6">
             <div className="col-lg-7 align-self-center">
               <p>
-                Having decided to implement a CRM system is an exciting moment,
-                especially for businesses looking to transform the ways they
-                operate. Making the right choice, however, can at times be a
-                daunting task. With an abundance of CRM solutions available
-                across the modern markets, it can be a bit tricky to know from
-                where to begin the hunt.
-                <br />
-                <br />
-                There are plentiful of CRM platforms out there for every
-                organization type, size, and niche. To find the right match,
-                enterprises must thoroughly explore and understand individual
-                requirements before initiating the search. For the best CRM
-                options, businesses might start seeking assistance from an
-                inclusive and established market leader, like Dynamics Square.
+              Currently, there are various <Link href="/products/microsoft-dynamics-crm/">CRM solutions</Link> available on the market that claim to be ideal for your business. Those businesses that want to transform the way they operate their customer management operations have to intelligently choose the perfect CRM solutions. They need to analyse the compatibility and adaptability of the solutions with their business operations before making a decision.</p>
+                
+                <p>
+                Based on the type of organisation, size, and niche, there are various CRM solutions available to meet the different demands of businesses. You need to explore all options, capabilities, and features before selecting the right solution. However, you can get help from Dynamics Square to make the search smoother and simpler for you.
               </p>
               <p>
                 <b>All that Matters is Making the Perfect Choice!</b>
               </p>
               <p>
-                To assist the system managers in finding an appropriate CRM
-                system for their organization, team Dynamics Square has
-                diligently identified and compared the main features of two
-                prominent CRM applications - Dynamics 365 (D365) and Salesforce:
+              To help you choose the right CRM solution for your business, our experts have already identified and compared the features and functions between <strong>Microsoft Dynamics 365 vs Salesforce</strong>. Before getting into the in-depth comparison, let's understand a bit about these two applications.
               </p>
               <p>
-                Dynamics 365 CRM suite is a web application that features
-                various other CRM platforms and focuses primarily on sales,
-                marketing, and service domains. D365 CRM suite can perform
-                either as a standalone service or in conjunction with other
-                applications across Microsoft Dynamics ecosystem.
+              <strong><Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link></strong> is a suite of ERP and CRM applications built to aid businesses with their different needs. In this suite, you will find business applications related to finance, HR, CRM, supply chain management, sales, marketing, customer service, and more. Microsoft offers the flexibility to connect different apps, including <Link href="/products/microsoft-dynamics-365-sales/">D365 for Sales</Link> , <Link href="/products/microsoft-dynamics-365-customer-service/">D365 for Customer Service</Link> , and <Link href="/products/microsoft-dynamics-365-commerce/">D365 for Commerce</Link> , to enhance the overall performance of Dynamics 365 CRM.
               </p>
               <p>
-                <b>
-                  D365 for Sales, D365 for Customer Service, and D365 for Retail
-                  are the critical applications integrated with Dynamics 365 CRM
-                  suit.
-                </b>
+              <strong>Salesforce</strong> CRM consists of different modules to streamline customer relationship management. You can select the type of module based on your company's requirements. You will find the sales, marketing, automation, field services, and other similar modules in it. 
               </p>
-              <p>
-                Salesforce CRM comprises various individual modules that
-                enterprises can pick and implement, depending on their business
-                needs. The modules deliver all the basic CRM functionalities,
-                such as managing sales and marketing data, while additional
-                capabilities like marketing automation and field services are
-                available with specialized modules.
-              </p>
+              
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-4 align-self-center">
@@ -135,9 +102,10 @@ const Dynamics365vsSalesForce = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="call_to_action-left">
-                <h3>Take the next steps for your business</h3>
+                <h3>Establish a Strong Relationship with your Customer with the Right CRM.
+</h3>
                 <p>
-                  Talk to our Dynamics 365 Expert to get the best price quotes.
+                Talk to our Dynamics 365 Expert and choose the right path.
                 </p>
                 <div className="m-o-t m-o-t-inde">
                   <Link href="#exampleModal">
@@ -146,7 +114,7 @@ const Dynamics365vsSalesForce = () => {
                     
                     className="btn-get-started scrollto"
                   >
-                    <span>Talk to Expert</span></a>
+                    <span>Let's Get Started!</span></a>
                   </Link>
                 </div>
               </div>
@@ -160,11 +128,9 @@ const Dynamics365vsSalesForce = () => {
           <header className="section-header">
             <h2 className="text-center">
               <b>
-                Sales Cloud, Service Cloud, and Marketing Cloud are the primary
-                components of Salesforce CRM.
+              Quick Comparative Review of Dynamics 365 CRM vs Salesforce CRM.
               </b>
             </h2>
-            <p className="text-center">Quick Comparative Review</p>
           </header>
           <div className="row">
             <div className="col-lg-12">
@@ -431,27 +397,20 @@ const Dynamics365vsSalesForce = () => {
                 <h3>Pros</h3>
                 <ul>
                   <li>
-                    Competitive pricing options with a flexible licensing model,
-                    appropriate for smaller businesses;
+                  Flexible licencing model with competitive pricing, best for SMBs.
                   </li>
                   <li>
-                    Enhances productivity through seamless integrations with
-                    other Microsoft applications, like Office 365, Outlook, and
-                    Power BI;
+                  Native and third-party integrations are available to enhance overall efficiency. You can easily integrate Office 365, Outlook, SharePoint, <Link href="/products/microsoft-power-bi/">Power BI</Link>, and more.  
                   </li>
-                  <li>Ensures 99.9% uptime through a committed SLA;</li>
+                  <li>Comes with 99.9% uptime using a committed SLA.</li>
                   <li>
-                    Delivers positive user experience with the interactive and
-                    intuitive interface;
+                    Interactive, simple, and intuitive interface to enhance the overall user-experience.
                   </li>
                   <li>
-                    Allows marketing automation capabilities with Dynamics 365
-                    Marketing;
+                  Automate most of the marketing operations using <Link href="/products/microsoft-dynamics-365-marketing/">Dynamics 365 Marketing</Link>.
                   </li>
                   <li>
-                    Allows native integrations with LinkedIn that help identify
-                    sales leads and build relationships through personalized
-                    engagement using LinkedIn data.
+                  Collect and share customer data in real-time to offer a personalised experience.
                   </li>
                 </ul>
               </div>
@@ -461,13 +420,10 @@ const Dynamics365vsSalesForce = () => {
                 <h3>Cons</h3>
                 <ul>
                   <li>
-                    Since its release in late 2016, businesses consider Dynamics
-                    365 CRM as new till now and wary of investing in its initial
-                    costs, ignoring long- term benefits;
+                  It is considered a new product, making customers unaware of its capabilities.
                   </li>
                   <li>
-                    Supports fewer third- party (Non- Microsoft) integrations
-                    than Salesforce;
+                  Not all third-party applications can be available for integration. But you can do this with your Microsoft Dynamics 365 partner.
                   </li>
                 </ul>
               </div>
@@ -486,25 +442,15 @@ const Dynamics365vsSalesForce = () => {
               <div className="content-box-223">
                 <h3>Pros</h3>
                 <ul>
-                  <li>Emerged as the industry's first pure cloud CRM vendor</li>
+                  <li>Popular as the industry's first cloud-based CRM application.</li>
                   <li>
-                    Manages customer learning programs through relevant
-                    orientation initiatives, developed by an in- house education
-                    network - Trailhead.
+                  Offer training and learning through different programmes organised by their homegrown education network, Trailhead.
                   </li>
                   <li>
-                    Salesforce's Marketing Cloud and Pardot platforms are well
-                    known, mature, and ready to implement.
+                  They offer the Salesforce AppExchange, an application marketplace that offers third-party integrations to help businesses enhance their capabilities.
                   </li>
                   <li>
-                    AppExchange, Salesforce's largest technology store chain,
-                    features numerous third- party integrations to assist
-                    businesses upscale their functionalities.
-                  </li>
-                  <li>
-                    With the recent acquisition of Demandware, a smart retailer
-                    ecommerce platform, Salesforce CRM has further enhanced its
-                    ecommerce capabilities.
+                  It offers enhanced e-commerce capabilities after the acquisition of Demandware.
                   </li>
                 </ul>
               </div>
@@ -513,25 +459,18 @@ const Dynamics365vsSalesForce = () => {
               <div className="content-box-223">
                 <h3>Cons</h3>
                 <ul>
-                  <li>Emerged as the industry's first pure cloud CRM vendor</li>
+                  <li>Only available in the cloud deployment option.</li>
                   <li>
-                    Manages customer learning programs through relevant
-                    orientation initiatives, developed by an in- house education
-                    network - Trailhead.
+                  It is way more expensive when compared to other popular CRM solutions.
                   </li>
                   <li>
-                    Salesforce's Marketing Cloud and Pardot platforms are well
-                    known, mature, and ready to implement.
+                  The user-interface is a bit more complex to understand and use.
                   </li>
                   <li>
-                    AppExchange, Salesforce's largest technology store chain,
-                    features numerous third- party integrations to assist
-                    businesses upscale their functionalities.
+                  When it comes to personalisation, Salesforce CRM offers a kind of standard system with a few touch ups.
                   </li>
                   <li>
-                    With the recent acquisition of Demandware, a smart retailer
-                    ecommerce platform, Salesforce CRM has further enhanced its
-                    ecommerce capabilities.
+                  You will have to face challenges while integrating Salesforce CRM with other business solutions.
                   </li>
                 </ul>
               </div>
@@ -542,9 +481,7 @@ const Dynamics365vsSalesForce = () => {
               <br />
               <br />
               <b>
-                Reach out to the Team Dynamics Square, premium technology
-                partner of Microsoft Dynamics, to evaluate and pick the best CRM
-                solution for your organization.
+              To further compare the pros and cons of Dynamics 365 CRM vs Salesforce, you can book a call with the team at Dynamics Square, a <Link href="/">Microsoft certified CRM partner</Link>, and resolve all your queries.
               </b>
             </p>
           </div>

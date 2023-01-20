@@ -6241,6 +6241,7 @@ margin-top:-130px !important
   letter-spacing: 0px;
   line-height: 1.2;
 }
+.card-ds-slide .card-title.power-title{margin-bottom: 15px;}
 .card-ds-slide .card-text{
   font-size: 16px;
   color: #000;
@@ -6309,12 +6310,15 @@ padding:15px opx
   border-radius: 0px !important;
 }
 .solution-new-tab .nav-link.active h3,.solution-new-tab .nav-link:hover h3{
-  color:white
+  color:#fff
 }
 
 .solution-new-tab .nav-link:hover{
-  background-color:var(--color-blue) !important;
+  background: #ebebeb !important;
   border-radius: 0px !important;
+}
+.solution-new-tab .nav-link:hover h3{
+  color:var(--color-blue)
 }
 .nav-pills .nav-link{
   border-radius: 0px !important;
@@ -6415,6 +6419,9 @@ font-weight:400
   line-height: 1.2;
   color: #000;
   height: 125px;
+}
+.new-card-sol.new-card-sol-b .body p{
+  height: 350px;
 }
 .new-card-sol .body a{
   font-size: 18px;
