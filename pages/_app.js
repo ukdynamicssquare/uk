@@ -35,8 +35,7 @@ function MyApp({ Component, pageProps }) {
       router.asPath =='/guides/download/power-guide-pdf/' ||
       router.asPath =='/thank-you-for-registration/' ||
       router.asPath =='/not-for-profit-fundrasing-engagenment/' 
-   
-
+  
   )  {
     return (
       <>
