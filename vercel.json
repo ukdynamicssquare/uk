@@ -254,7 +254,18 @@
     { "source": "/email-gp-to-bc/", "destination": "https://blog.dynamicssquare.co.uk/migrating-dynamics-gp-to-d365-business-central/", "statusCode": 301 },
     { "source": "/email-mtd-compliant/", "destination": "/", "statusCode": 301 },
     { "source": "/support-dynamics-365/", "destination": "/our-services/dynamics-365-support-services/", "statusCode": 301 },
-    { "source": "/upgrade-nav-to-business-central/", "destination": "/dynamics-nav-to-business-central/", "statusCode": 301 }
+    { "source": "/upgrade-nav-to-business-central/", "destination": "/dynamics-nav-to-business-central/", "statusCode": 301 },
+
+
+    { "source": "/topics/enterprise-resource-planning-software", "destination": "/products/microsoft-dynamics-erp/", "statusCode": 301 },
+    { "source": "/topics/microsoft-dynamics-partner-new-zealand/", "destination": "/", "statusCode": 301 },
+    { "source": "/products/microsoft-dynamics-365-business-central/advantages-capabilities/", "destination": "/products/dynamics-365-business-central/advantages-capabilities/", "statusCode": 301 },
+    { "source": "/products/microsoft-dynamics-sharepoint/", "destination": "/", "statusCode": 301 },
+    { "source": "/products/microsoft-dynamics-365-retail/", "destination": "/products/microsoft-dynamics-365-commerce/", "statusCode": 301 },
+    { "source": "/products/microsoft-azure/mobile/", "destination": "/products/microsoft-azure/", "statusCode": 301 },
+    { "source": "/topics/microsoft-dynamics-nav-upgrade/", "destination": "/dynamics-nav-to-business-central/", "statusCode": 301 }
+
 
   ]
 }
+
