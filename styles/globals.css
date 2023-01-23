@@ -6438,6 +6438,13 @@ font-weight:400
   z-index: 3;
   background-position: center;
 }
+/* .back-bg.back-power-bi{
+  background: url(/img/power-bi-botton-banner.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 3;
+  background-position: center;
+} */
 /* .back-bg:before {
   position: absolute;
     content: "";

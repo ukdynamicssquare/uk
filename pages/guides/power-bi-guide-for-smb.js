@@ -37,11 +37,7 @@ const PowerBIGuide = () => {
       <title>Power BI: The Definitive Guide For SMBs (2023)</title>
         <meta
           name="description"
-          content="A complete guide to Power BI (2023). Learn how to transform your data into interactive reports that drive results."
-        />
-       <meta
-          name="description"
-          content="A complete guide to Power BI. Learn how to transform your data into interactive reports that drive results."
+          content="A complete guide to Power BI (2023) for SMBs. Learn how to transform your data into interactive reports that drive results."
         />
         <meta
           name="keywords"
@@ -49,7 +45,7 @@ const PowerBIGuide = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/guides/power-bi-guide-for-smb/"
+          href="https://www.dynamicssquare.co.uk/guides/power-bi-guide-for-smb/"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/guides/power-bi-guide-for-smb/" />
