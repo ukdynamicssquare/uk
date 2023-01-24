@@ -6,10 +6,10 @@ const D365VSDynamicsAX = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 vs Dynamics AX | Dynamics Square</title>
+        <title>Dynamics 365 vs Dynamics AX : A quick comparisons </title>
         <meta
           name="description"
-          content="Choosing the right ERP platform has always been a tricky challenge for enterprises worldwide. However, given the benefits, it is sensible for modern"
+          content="which ERP your are choosing? Check out solid comparison Dynamics 365 vs Dynamics AX and find the one that fits your business needs perfectly."
         />
         <link
           rel="canonical"
@@ -21,8 +21,7 @@ const D365VSDynamicsAX = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-                Take A Big Leap With Modern And Smarter ERP Solution That Help
-                Enterprises Grow!
+              Microsoft Dynamics 365 vs Dynamics AX
               </h1>
               <br />
               <div>
@@ -50,7 +49,7 @@ const D365VSDynamicsAX = () => {
       <section>
         <div className="container">
           <header className="section-header">
-            <h2>Dynamics 365 VS Dynamics Ax</h2>
+            <h2>Dynamics 365 VS Dynamics Ax : Take A Big Leap With Modern And Smarter ERP Solution</h2>
             <p>
               Choosing the right ERP platform has always been a tricky challenge
               for enterprises worldwide. However, given the benefits, it is
@@ -90,8 +89,8 @@ const D365VSDynamicsAX = () => {
               </ul>
               <p>
                 This blog presents the most relevant comparative analysis for
-                making a more educated decision while upgrading from MS Dynamics
-                AX to MS Dynamics 365.
+                making a more educated decision while <Link href="https://blog.dynamicssquare.co.uk/migrating-from-dynamics-ax-to-dynamics-365/">upgrading from MS Dynamics
+                AX to Dynamics 365</Link>.
               </p>
             </div>
 
@@ -107,7 +106,7 @@ const D365VSDynamicsAX = () => {
           <header className="section-header">
             <h2>Primary Features</h2>
             <p>
-              Before starting evaluating the Dynamics AX and Dynamics 365, let
+              Before starting evaluating the <Link href="/products/microsoft-dynamics-ax/">Dynamics AX</Link> and <Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link>, let
               us have a quick peek into the primary features that keep these
               ultra- connected platforms in high demand:
             </p>
@@ -144,7 +143,7 @@ const D365VSDynamicsAX = () => {
                       <div className="accordion-body">
                         <p>
                           Available as a cloud, hybrid, and on- premises
-                          deployment options, ERP solutions bring the power,
+                          deployment options, <Link href="/products/microsoft-dynamics-erp/">ERP solutions</Link> bring the power,
                           speed, and intelligence to enterprises, thus providing
                           the core functionalities that organization need for
                           smart business decisions and business gains.
@@ -262,8 +261,7 @@ const D365VSDynamicsAX = () => {
                         <p>
                           Improve financial performance and smartly manage the
                           supply chain with Azure based business applications,
-                          tightly unified with MS Office 365 and MS Power
-                          Platform.
+                          tightly unified with MS Office 365 and <Link href="/products/microsoft-power-platform/">MS Power Platform</Link>.
                         </p>
                       </div>
                     </div>
@@ -297,7 +295,7 @@ const D365VSDynamicsAX = () => {
                       <div className="accordion-body">
                         <p>
                           Embedded Cortana Intelligence and other smart
-                          capabilities, like Power BI (Business Intelligence)
+                          capabilities, like <Link href="/products/microsoft-power-bi/">Power BI</Link> (Business Intelligence)
                           and Azure Machine Learning, deliver insightful and
                           interactive business reports with rich visuals and
                           interactive charts accessible on multiple devices.
@@ -503,12 +501,12 @@ const D365VSDynamicsAX = () => {
         <div className="container">
           <header className="section-header">
             <p>
-              Then what Separates Dynamics 365 from Dynamics AX?Although MS
+              Then what Separates Dynamics 365 from Dynamics AX? Although MS
               Dynamics AX and MS Dynamics 365 are quite similar in a variety of
               ways, there are still various overwhelming differences between the
               two platforms - from their deployment infrastructure to licensing
               options, integration capabilities, scalability, and other
-              development features.Below comparative chart lists the key
+              development features. Below comparative chart lists the key
               differences between Dynamics AX and Dynamics 365:
             </p>
           </header>
@@ -701,7 +699,7 @@ const D365VSDynamicsAX = () => {
               </p>
               <p>A Quick Walk Through to MS Dynamics 365</p>
               <p>
-                Dynamics 365 is available in the cloud, on-premises, or through
+                Dynamics 365 is available in the cloud, <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises</Link>, or through
                 hybrid deployment options that seamlessly adjust to fast
                 altering business needs, comply with regulations, and ensure
                 maximum RoI (short for Return on Investment).

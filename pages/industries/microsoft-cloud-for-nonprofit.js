@@ -575,7 +575,7 @@ const MicrosoftCloudForNonprofit = () => {
                       <SwiperSlide>
                         <div className="swiper-slide">
                           <div className="industries-list-more">
-                            <Link href="/industries//food-and-beverages/">
+                            <Link href="/industries/food-and-beverages/">
                               <a>
                                 <div className="img-wrp">
                                   <img

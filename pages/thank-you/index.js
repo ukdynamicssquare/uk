@@ -15,7 +15,6 @@ const ThankYou = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/thank-you/"
         />
-        <meta property="og:locale" content="en_GB" />
       </Head>
       <section className="Solution-banner" style={{paddingBottom:'160px'}}>
         <div className="container">
