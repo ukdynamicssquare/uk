@@ -462,7 +462,7 @@ const D360 = () => {
               </div>
               <br />
               <div className="text-center m-o-t new-btn-nn">
-                  <a href="https://www.dynamicssquare.co.uk/blog/dynamics-365-pricing-and-licensing/"
+                  <a href="https://blog.dynamicssquare.co.uk/dynamics-365-pricing-and-licensing/"
                     className="btn-get-started scrollto" target="_blank" rel=""
                   >
                     <span>Dynamics 365 Pricing & Licensing Guide </span>
