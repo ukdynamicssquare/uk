@@ -269,7 +269,9 @@ const SupportServices = () => {
 
       <section className="new-style-bg">
         <div className="container">
-          <header className="section-header">
+          <div className='row justify-content-center'>
+            <div className='col-lg-9'>
+            <header className="section-header">
             <h2>
               Leverage the Most Out of Your Investment <br /> with Our Dynamics
               365 Support Services
@@ -282,6 +284,8 @@ const SupportServices = () => {
               optimal support services.
             </p>
           </header>
+            </div>
+          </div>
           <div className="row g-5 pad2xyr">
             <div className="col-lg-6">
               <div className="style-grid-1">

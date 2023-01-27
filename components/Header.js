@@ -822,6 +822,11 @@ class Header extends Component {
                           Food & Beverages
                         </a>
                       </li>
+                      <li>
+                                  <a href="/industries/dynamics-365-for-healthcare/">
+                                  Dynamics 365 for Healthcare
+                                  </a>
+                                </li>
                     </ul>
                   </li>
                   <li className="dropdown">
@@ -1230,6 +1235,11 @@ class Header extends Component {
                                 <li>
                                   <a href="/industries/food-and-beverages/">
                                     Food & Beverages
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="/industries/dynamics-365-for-healthcare/">
+                                  Dynamics 365 for Healthcare
                                   </a>
                                 </li>
                               </ul>

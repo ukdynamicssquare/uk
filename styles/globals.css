@@ -71,6 +71,9 @@ p,
 ul li {
   font-size: 1rem;
 }
+.custom002 ul li{
+  margin-bottom:10px
+}
 body a,
 body a:hover {
   color: #ee3442;
@@ -364,6 +367,7 @@ section {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+  margin-top: 4px;
 }
 .Explore_more a:hover,
 .blogs-extra-left .blogs-extra-left-content h4 a:hover,
@@ -3105,6 +3109,9 @@ section {
   top: 0;
   left: 0;
   box-shadow: 10px 10px 10px 10px #000;
+}
+.custom0099{
+  margin-top: -60px;
 }
 .custom001
   .busine_service_bottom-left

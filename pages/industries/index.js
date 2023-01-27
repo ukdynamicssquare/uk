@@ -155,6 +155,20 @@ const IndustriesList = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="location-list-wrper">
+                <h3>Dynamics 365 for Healthcare</h3>
+                <div className="text-lg-center">
+                  <Link
+                    href="/industries/dynamics-365-for-healthcare/">
+                      <a
+                    className="btn-get-started btn-sm scrollto"
+                  >
+                    <span>View More</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
