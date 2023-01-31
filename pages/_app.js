@@ -34,7 +34,8 @@ function MyApp({ Component, pageProps }) {
       router.asPath =='/guides/download/Pdf-d365-supply-chain-management/' ||
       router.asPath =='/guides/download/power-guide-pdf/' ||
       router.asPath =='/thank-you-for-registration/' ||
-      router.asPath =='/not-for-profit-fundrasing-engagenment/' 
+      router.asPath =='/not-for-profit-fundrasing-engagenment/' ||
+      router.asPath =='/guides/download/pdf-business-central-guide/' 
    
 
   )  {

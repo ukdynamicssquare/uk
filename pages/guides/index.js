@@ -67,6 +67,35 @@ const Guides = () => {
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
                         <Link
+                          href="/guides/business-central-guide-for-smb/"
+                          className="over-ff text-center"
+                        >
+                          <img
+                            className="card-img-top"
+                            src="/img/chapter5-5.png"
+                            alt="business-central-guide"
+                          />
+                        </Link>
+                        <div className="card-body">
+                          <h5 className="card-title">
+                            <Link href="/guides/business-central-guide-for-smb/">
+                            Business Central: The Definitive Guide For SMBs
+                            </Link>
+                          </h5>
+                          <div className="btn-003 btn-009">
+                            <Link
+                              className="btn btn-sm btn-danger"
+                              href="/guides/business-central-guide-for-smb/"
+                            >
+                              View The Guide
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="card card-custom-1 p-3">
+                        <Link
                           href="/guides/power-bi-guide-for-smb/"
                           className="over-ff text-center"
                         >

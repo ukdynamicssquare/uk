@@ -1067,7 +1067,7 @@ const PowerBI = () => {
                   <p>Our dedicated <Link href="/power-bi-support/">Power BI support</Link> team offers absolute support and maintenance around the clock at every stage of BI implementation and deployment. Our support offerings include Power BI API assistance for BI templates and staff Power BI training through a hand-holding model. Our end-to-end training and support will ensure that your team is fully capable of data integration, modelling, analysing, and building stunning visuals.</p>
                   <Link href="#exampleModal">
                     <a data-bs-toggle="modal">
-                      <span>Migrate to BI Today</span>
+                      <span>Call For Support</span>
                     </a>
                   </Link>
                 </div>
@@ -1083,7 +1083,7 @@ const PowerBI = () => {
                   <p>Microsoft Power BI facilitates ease of use when dealing with advanced capabilities like data mining, data analytics, and data visualization. Although you may manage your datasets on other third-party tools, Power BI will enable you to drive the true value of your data. However, moving from your existing legacy BI tool to Power BI will need a roadmap from an expert migration service provider by us. Our expert team can handle the complete extent of your migration requirements starting from establishing a preliminary BI architecture to migrating from a legacy BI.</p>
                   <Link href="#exampleModal">
                     <a data-bs-toggle="modal">
-                      <span>Call For Support</span>
+                      <span>Migrate to BI Today</span>
                     </a>
                   </Link>
                 </div>
