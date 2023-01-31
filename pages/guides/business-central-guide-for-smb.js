@@ -1193,7 +1193,7 @@ const PowerBIGuide = () => {
                   <b className="h3-b">Get Data on the Move</b>
                 </p>
                 <p>
-                  Microsoft ERP (BC) offers a unified data platform to connect
+                  <Link href="/products/microsoft-dynamics-erp/"><a>Microsoft ERP</a></Link> (BC) offers a unified data platform to connect
                   the data of all departments to provide real-time visibility of
                   all processes, enabling users to take data-based actionable
                   decisions. You can use this data to prevent problems in real
@@ -1821,7 +1821,7 @@ const PowerBIGuide = () => {
                   warehouse functions and make the processes more efficient and
                   effective. Mobile WMS is capable of optimising the existing
                   processes while providing access to an attractive graphical
-                  user-interface. If you want to learn more about Mobile WMS and
+                  user-interface. If you want to learn more about <Link href="/wms-for-business-central/"><a>Mobile WMS for Business central</a></Link> and
                   how it can help you manage your specific warehouse operations,
                   our consultants can help.
                 </p>
@@ -1949,7 +1949,7 @@ const PowerBIGuide = () => {
                     </span>
                     , a leading conveyer manufacturer, has upgraded their
                     on-premises SAGE ERP system to Microsoft Dynamics 365
-                    Business Central to upgrade their CRM system.{" "}
+                    Business Central to upgrade their <Link href="/products/microsoft-dynamics-crm/"><a>CRM system</a></Link>.{" "}
                   </p>
                   <p>
                     Their business is growing, and managing it using an
@@ -1963,7 +1963,7 @@ const PowerBIGuide = () => {
                     using automation, like prepayments and bank account
                     reconciliation using Avalara tax extensions. Also, they
                     integrated Business Central with Microsoft native
-                    applications, including Excel, Power BI, and Outlook, to
+                    applications, including Excel, <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>, and Outlook, to
                     enhance efficiency and productivity.
                   </p>
                   <div className="text-right-t">
@@ -2036,7 +2036,7 @@ const PowerBIGuide = () => {
                   accessed using a unified Dynamics 365 license. Also, you can
                   access the separate apps of this suite by purchasing a
                   separate Business Central license. Moreover, you can check out
-                  the Microsoft Dynamics 365 pricing to get more information.
+                  the <Link href="https://blog.dynamicssquare.co.uk/dynamics-365-pricing-and-licensing/"><a>Microsoft Dynamics 365 pricing</a></Link> to get more information.
                 </p>
                 <p>
                   When it comes to Business Central licensing, the user
@@ -2806,7 +2806,7 @@ const PowerBIGuide = () => {
                 </p>
                 <p>
                   The future of Business Central is pretty clear. As we have
-                  seen with the major update from NAV to Business Central to
+                  seen with the major update from <Link href="/dynamics-nav-to-business-central/"><a>NAV to Business Central</a></Link> to
                   address modern business problems, Microsoft will continue to
                   update and upgrade this solution while enhancing core
                   performance to cater to the best solution for all changing
