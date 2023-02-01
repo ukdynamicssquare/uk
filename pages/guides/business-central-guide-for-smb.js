@@ -171,7 +171,7 @@ const PowerBIGuide = () => {
                     alt="Future Scope of Business Central"
                   />
                   <h3>Chapter 7</h3>
-                  <p>What's new in Business Central 2022? </p>
+                  <p>What's new in Business Central 2023? </p>
                 </a>
               </div>
             </div>
@@ -2421,7 +2421,7 @@ const PowerBIGuide = () => {
             <div className="col-lg-8">
               <header className="section-header section-header-tabless">
                 <h2>
-                  <strong>Chapter 7</strong>What's new in Business Central 2022?
+                  <strong>Chapter 7</strong>What's new in Business Central 2023?
                 </h2>
                 <p>
                   In this chapter, we will get to know the most recent changes

@@ -299,7 +299,7 @@ const FooterHide = () =>{
         </div>
         <div className="container">
           <div className="copyright">
-            &copy; Copyright &nbsp;<span>2022 Dynamics Square.</span>
+            &copy; Copyright &nbsp;<span>2023 Dynamics Square.</span>
             <div className="footer-extra-link">
               <Link href="/terms-of-use/">Terms of Use </Link>
               <Link href="/cookie-policy/">| Cookie </Link>
