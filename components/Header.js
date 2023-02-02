@@ -568,7 +568,7 @@ class Header extends Component {
                                       <a href="/products/microsoft-dynamics-ax/">
                                         <div className="pic">
                                           <img
-                                            src="/img//menu-icons/AX.png"
+                                            src="/img/menu-icons/AX.png"
                                             alt="AX"
                                           />
                                         </div>
