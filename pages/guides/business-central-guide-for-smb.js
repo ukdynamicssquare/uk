@@ -34,7 +34,7 @@ const PowerBIGuide = () => {
   return (
     <>
       <Head>
-        <title>Micrsoft Dynamics 365 Business Central: The Definitive Guide For SMBs (2023)</title>
+        <title>Microsoft Dynamics 365 Business Central: The Definitive Guide For SMBs (2023)</title>
         <meta
           name="description"
           content="Checkout the latest and comprehensive Microsoft Dynamics 365 Business Central guide for small business (2023) to help you maximise your business revenue while leveraging the power of automation."

@@ -296,7 +296,7 @@ const BCvsSap = () => {
               <div className="call_to_action-left">
                 <h3>
                   Thinking about implementing <br />
-                  Dynamics 365 F&O
+                  Dynamics 365 Business Central
                 </h3>
                 <p>
                   Talk to our Dynamics 365 Expert to get the best price quotes.
@@ -320,7 +320,7 @@ const BCvsSap = () => {
       <section className="pro-corn">
         <div className="container">
           <header className="section-header">
-            <h2>Pro & Cons - D365 F&O</h2>
+            <h2>Pro & Cons - D365 Business Central</h2>
           </header>
           <div className="row pd-60">
             <div className="col-md-6">

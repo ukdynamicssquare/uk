@@ -18,11 +18,11 @@ const BusinessCentral = () => {
     <>
       <Head>
         <title>
-          Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
+          Microsoft Dynamics 365 Business Central Partner UK
         </title>
         <meta
           name="description"
-          content="Dynamics Square is a top UK-based Microsoft Dynamics 365 Business Central Partner for SMBs providing support, training and consultancy. Schedule a free demo!"
+          content="We are the UK's leading Microsoft Dynamics 365 Busienss Central partner offering our cost-effective and reliable services to SMBs. Schedule a free demo today!"
         />
         <meta name="keywords" content="Microsoft Dynamics 365 Business Central, Business Central UK, Microsoft Dynamics 365 Pricing, Business Central Team Member License, Business Dynamics 365, Dynamics 365 Business Central Essentials, ERP Microsoft Dynamics 365,Microsfot 365 Business, Microsoft Bc, Microsoft Business Central Pricing UK, Microsoft Business Central Partner, Business Central Integration, MS Dynamics Business Central, Business Central Support"></meta>
         <link
@@ -141,10 +141,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
               <h2 className="heading-h2">
                 Digitally transform your <br /> business to the next level
               </h2>
-              <p className="banner-para">
-                Grow your business with an intelligent business platform to
-                streamline processes
-              </p>
+              <p className="banner-para">Microsoft Business Central, a finely tuned cloud-based solution to help you grow your business</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -440,15 +437,8 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <header className="section-header section-header-new-ct">
-                <h2>
-                  <span>Your business is unique so will be our</span>{" "}
-                  specialised strategy <span>for you</span>
-                </h2>
-                <p>
-                  We will help you design a customised Business Central suite
-                  using the applications that make your business cost-effective
-                  and fast. Connect the intelligent apps & automate workflows,
-                  so that you can focus on growth. <Link href="/dynamics-365-business-central-features/">Dynamics 365 Business Central features</Link> and <Link href="/products/dynamics-365-business-central/advantages-capabilities/">capabilities</Link> include:
+                <h2><span>Unique functionalities of</span> Business Central <span>Supports the Uniqueness of all Businesses</span></h2>
+                <p>Business Central is a technologically advanced solution capable of being personalised based on unique business requirements. We have a vast experience in aligning MSD 365 Business Central with any business for rapid and sustainable growth. Connect, collaborate, and automate the workflows to enable a business to maximise its output.<br /><br /> <Link href="/dynamics-365-business-central-features/">Dynamics 365 Business Central features</Link> and <Link href="/products/dynamics-365-business-central/advantages-capabilities/">capabilities</Link> include:
                 </p>
               </header>
             </div>
