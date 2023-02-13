@@ -4142,7 +4142,7 @@ section {
 .mobile-menu-section-wr .togglr-icon-nav {
   position: absolute;
   right: 13px;
-  top: 13px;
+  top: 17px;
 }
 .busines-accr {
   box-shadow: 0 0 15px 0 rgb(29 53 87 / 22%);
@@ -8120,7 +8120,7 @@ ul.checkmark li {
 
 .cont-m-mobile{
   position: absolute;
-    left: -35px;
+    left: -50px;
     top: 0px;
     border-radius: 5px;
     text-align: center;
