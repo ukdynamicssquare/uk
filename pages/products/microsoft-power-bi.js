@@ -12,7 +12,7 @@ const PowerBI = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power BI Experts, Services &amp; Pricing Plans</title>
+        <title>Microsoft Power BI : Experts & Consulting Services - Dynamics Square</title>
         <meta
           name="description"
           content="Need Microsoft Power BI services in the UK? Hire a trusted Power BI expert to transform your data into actionable insights. Get free online consultation today."

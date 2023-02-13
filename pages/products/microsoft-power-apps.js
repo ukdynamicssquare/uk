@@ -506,7 +506,7 @@ const PowerApps = () => {
                   or run unlimited apps.
                 </p>
                 <div className="price">
-                  £3.80<span>Per-User/Per Month</span>
+                £15.10<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -519,19 +519,16 @@ const PowerApps = () => {
 
             <div className="col-lg-4">
               <div className="box box-44">
-                <h3>Subscription plans</h3>
+                <h3>Pay-as-you-go plan</h3>
                 <p>
                   Best for businesses that want the agility to pay only when a
                   user runs an app during a monthly period.
                 </p>
                 <div className="price">
-                  £7.45<span>Per Active User/App/Month1</span>
+                  £7.45<span>Per Active User/App/Month2</span>
                 </div>
                 <ul>
-                  <li>
-                    Run one app or portal per user, stacking licences for access
-                    to each additional as their needs change.
-                  </li>
+                  <li>Azure subscription to pay per user, Based on the number of unique apps a user runs each month.</li>
                 </ul>
               </div>
             </div>
