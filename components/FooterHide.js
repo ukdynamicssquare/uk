@@ -239,7 +239,7 @@ const FooterHide = () =>{
                       rel=""
                       target="_self"
                     >
-                      Blog
+                      Blogs
                     </a>
                   </li>
                   <li>

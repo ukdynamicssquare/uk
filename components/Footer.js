@@ -397,7 +397,7 @@ const Footer = () =>{
                       rel=""
                       target="_self"
                     >
-                      Blog
+                      Blogs
                     </a>
                   </li>
                   <li>
