@@ -6604,6 +6604,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c2d47",endCo
     border-radius: 10px;
     padding: 30px 15px;
     margin: 0px 0px 0px 0px;
+    margin-top: 10px!important
+}
+.bnner_inline_images {
+  display: flex;
+  justify-content: center;
 }
 .our-serv-new-de {
   padding: 0px 15px;
@@ -6663,6 +6668,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c2d47",endCo
 }
 }
 @media (max-width: 992px) {
+
   .about-timeline .swiper-pagination .swiper-pagination-bullet{
     margin-right: 45px !important;
   }

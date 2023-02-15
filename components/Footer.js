@@ -292,6 +292,8 @@ const Footer = () =>{
                   <img
                     src="/img/dsuk-footer-logo.svg"
                     alt="dsuk-footer-logo"
+                    style={{marginBottom:"20px"}}
+                    width="230" height="81"
                   />
                 </Link>
                 <p>
@@ -304,16 +306,19 @@ const Footer = () =>{
                   src="/img/microsoft-partner.svg"
                   alt="microsoft-partner"
                   className="footer-img"
+                  width="230" height="81"
                 />
                 <img
                   src="/img/Tech-For-Socil-Impact.svg"
                   alt="Tech-For-Socil-Impact"
                   className="footer-img"
+                  width="230" height="81"
                 />
                  <img style={{width:'80px'}} 
                   src="/img/UK badge.png"
                   alt="UK badge"
                   className="footer-img"
+                  width="80" height="86"
                 />
               </div>
               <div className="col-lg-2 col-12 footer-links">

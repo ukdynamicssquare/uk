@@ -321,11 +321,11 @@ export default function Home() {
                 <div className="bnner_inline_images">
                   <ul>
                     <li>
-                      <Image
+                      <img
                         src="/img/Microsoft-Partner-black.png"
                         alt="Microsoft Partner black.png"
-                        width={206}
-                        height={67}
+                        width="206"
+                        height="67"
                       />
                     </li>
                   </ul>
@@ -341,8 +341,8 @@ export default function Home() {
                 src="/img/banner-head-image.png"
                 alt="dynamicssquare banner image UK"
                 className="icon"
-                width={746}
-                height={517}
+                width={750}
+                height={520}
               />
             </div>
             {/* <div
@@ -562,6 +562,8 @@ export default function Home() {
                     src="/img/business-center-logo.svg"
                     alt="business-center-logo"
                     className="icon"
+                    width="45"
+                    height="45"
                   />
                   <h3>
                     Dynamics 365 <br /> Business Central
@@ -586,6 +588,8 @@ export default function Home() {
                     src="/img/finace-icons.svg"
                     alt="finace-icons"
                     className="icon"
+                    width="45"
+                    height="45"
                   />
                   <h3>
                     Dynamics 365 <br />
@@ -611,6 +615,8 @@ export default function Home() {
                     src="/img/supplychain-logo.svg"
                     alt="supplychain-logo"
                     className="icon"
+                    width="45"
+                    height="45"
                   />
                   <h3>
                     Dynamics 365 <br />
@@ -640,6 +646,8 @@ export default function Home() {
                     src="/img/Sales_scalable.svg"
                     alt="Sales_scalable"
                     className="icon"
+                    width="45"
+                    height="45"
                   />
                   <h3>
                     Dynamics 365 <br />
@@ -669,6 +677,8 @@ export default function Home() {
                     src="/img/powerbilogo.png"
                     alt="Powerapps_power-apps"
                     className="icon"
+                    width="45"
+                    height="45"
                   />
                   <h3>
                     Microsoft <br />
@@ -698,6 +708,8 @@ export default function Home() {
                     src="/img/Azure-IoT.svg"
                     alt="Azure-IoT"
                     className="icon"
+                    width="45"
+                    height="45"
                   />
                   <h3>
                     Internet Of <br />
@@ -1278,10 +1290,12 @@ export default function Home() {
                             <img
                               src="/img/testimonials/Terence-Turner.png"
                               className="testimonial-img"
-                              alt=""
+                              alt="Terence-Turner"
+                              width="125"
+                              height="125"
                             />
                             <div className="imginner">
-                              <img src="/img/Icon metro-quote.png" alt="" />
+                              <img src="/img/Icon metro-quote.png" alt="metro-quote" width="51" height="41" />
                             </div>
                             <p>
                               Dynamics Square Team provided us a top-level
@@ -1305,9 +1319,11 @@ export default function Home() {
                               src="/img/testimonials/Nicolas-Hopwood.png"
                               className="testimonial-img"
                               alt="Nicolas-Hopwood"
+                              width="125"
+                              height="125"
                             />
                             <div className="imginner">
-                              <img src="/img/Icon metro-quote.png" alt="" />
+                              <img src="/img/Icon metro-quote.png" alt="metro-quote" width="51" height="41" />
                             </div>
                             <p>
                               The team at Dynamics Square helped us in upgrading
@@ -1330,11 +1346,14 @@ export default function Home() {
                               src="/img/testimonials/Jonathan-W.png"
                               className="testimonial-img"
                               alt="Jonathan-W.png"
+                              width="125"
+                              height="125"
                             />
                             <div className="imginner">
                               <img
                                 src="/img/Icon metro-quote.png"
                                 alt="metro-quote"
+                                width="51" height="41"
                               />
                             </div>
                             <p>
@@ -1421,7 +1440,9 @@ export default function Home() {
                     <img
                       src="/img/clients/client-1.png"
                       className="img-fluid"
-                      alt=""
+                      alt="client-1"
+                      width="173"
+                      height="68"
                     />
                   </div>
                 </SwiperSlide>
@@ -1431,7 +1452,9 @@ export default function Home() {
                     <img
                       src="/img/clients/client-2.png"
                       className="img-fluid"
-                      alt=""
+                      alt="client-2"
+                      width="173"
+                      height="68"
                     />
                   </div>
                 </SwiperSlide>
@@ -1440,7 +1463,9 @@ export default function Home() {
                     <img
                       src="/img/clients/client-3.png"
                       className="img-fluid"
-                      alt=""
+                      alt="client-3"
+                      width="173"
+                      height="68"
                     />
                   </div>
                 </SwiperSlide>
@@ -1450,7 +1475,9 @@ export default function Home() {
                     <img
                       src="/img/clients/client-4.png"
                       className="img-fluid"
-                      alt=""
+                      alt="client-4"
+                      width="173"
+                      height="68"
                     />
                   </div>
                 </SwiperSlide>
@@ -1459,7 +1486,9 @@ export default function Home() {
                     <img
                       src="/img/clients/client-5.png"
                       className="img-fluid"
-                      alt=""
+                      alt="client-5"
+                      width="173"
+                      height="68"
                     />
                   </div>
                 </SwiperSlide>
@@ -1468,7 +1497,9 @@ export default function Home() {
                     <img
                       src="/img/clients/client-4.png"
                       className="img-fluid"
-                      alt=""
+                      alt="client-6"
+                      width="173"
+                      height="68"
                     />
                   </div>
                 </SwiperSlide>
@@ -1516,6 +1547,8 @@ export default function Home() {
                         src="/img/case-1.png"
                         className="casestudys-slider-item-img"
                         alt=""
+                        width="191"
+                        height="76"
                       />
                       <p>
                         A leading British based manufacturer of Military
@@ -1548,6 +1581,8 @@ export default function Home() {
                         src="/img/crm-trading.png"
                         className="casestudys-slider-item-img"
                         alt="crm-trading"
+                        width="191"
+                        height="76"
                       />
                       <p>
                         UK's leading fragrance, skincare, cosmetics, and
@@ -1580,6 +1615,8 @@ export default function Home() {
                         src="/img/wipersupplywide.png"
                         className="casestudys-slider-item-img"
                         alt="wipersupplywide"
+                        width="191"
+                        height="76"
                       />
                       <p>
                         British-based Hygienic Disposable Cleaning & Wiping
