@@ -101,9 +101,11 @@ const Finance = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
-                src="/img/Dynamics-365-Finance-Banner.svg"
+              <Image
+                src="/img/Dynamics-365-Finance-Banner.png"
                 alt="Microsoft Dynamics 365 Finance"
+                width={868}
+                height={487}
               />
             </div>
           </div>
@@ -137,7 +139,7 @@ const Finance = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Budget.svg" alt="icons" />
+                          <img src="/img/Budget.svg" alt="icons" width="40" height="40" />
                         </div>
                         <span>Budgeting</span>
                       </button>
@@ -168,7 +170,7 @@ const Finance = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/Financials-3.svg" alt="icons" />
+                          <img src="/img/Financials-3.svg" alt="icons" width="40" height="40" />
                         </div>
                         <span>Financials</span>
                       </button>
@@ -205,7 +207,7 @@ const Finance = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Project.svg" alt="icons" />
+                          <img src="/img/Project.svg" width="40" height="40" alt="icons" />
                         </div>
                         <span>Project Management</span>
                       </button>
@@ -238,7 +240,7 @@ const Finance = () => {
                         <div className="wr-in">
                           <img
                             src="/img/International-Accounting-3.svg"
-                            alt="icons"
+                            alt="icons" width="40" height="40"
                           />
                         </div>
                         <span>International Accounting</span>
