@@ -1,5 +1,6 @@
-import Link from "next/link";
-import React from "react";
+import Image from "next/image";
+
+
 const Blog = () => {
   return (
     <>
@@ -14,11 +15,11 @@ const Blog = () => {
               href="https://blog.dynamicssquare.co.uk/microsoft-dynamics-365-business-central-for-manufacturing/"
               target="_self"
             >
-              <img
+              <Image
                 src="/img/Business-Central-for-Manufacturing.jpg"
                 alt="img"
-                width="200"
-                height="104"
+                width={1200}
+                height={627}
               />
             </a>
           </div>
@@ -42,11 +43,11 @@ const Blog = () => {
               href="https://blog.dynamicssquare.co.uk/how-to-avail-the-dynamics-365-business-central-trial/"
               target="_self"
             >
-              <img
+              <Image
                 src="/img/Business-Central-Trial.jpg"
                 alt="img"
-                width="200"
-                height="104"
+                width={1200}
+                height={627}
               />
             </a>
           </div>
@@ -69,11 +70,11 @@ const Blog = () => {
               href="https://blog.dynamicssquare.co.uk/what-is-business-central-implementation-methodology/"
               target="_self"
             >
-              <img
+              <Image
                 src="/img/Business-Central-Implementation-Methodology.jpg"
                 alt="img"
-                width="200"
-                height="104"
+                width={1200}
+                height={627}
               />
             </a>
           </div>
@@ -96,11 +97,11 @@ const Blog = () => {
               href="https://blog.dynamicssquare.co.uk/dynamics-365-business-central-vs-dynamics-365-sales/"
               target="_self"
             >
-              <img
+              <Image
                 src="/img/Blue-White-Simple-Financial-Tips-Blog-Banner-1.png"
                 alt="img"
-                width="200"
-                height="104"
+                width={1200}
+                height={627}
               />
             </a>
           </div>
