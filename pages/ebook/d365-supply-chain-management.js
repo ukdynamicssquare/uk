@@ -69,7 +69,7 @@ const StartGuideThree = () => {
         <meta property="og:description" content="Learn how to streamline your supply chain processes and optimize your operations with our Dynamics 365 Supply Chain Management guide. Download our free eBook to discover expert tips, real-world examples, and best practices for achieving supply chain excellence." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/dynamics-SCM-Ebook-og.png" />
         <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="628" />
+          <meta property="og:image:height" content="630" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/ebook/d365-supply-chain-management/" />
         <meta property="twitter:title" content="Ultimate Dynamics 365 Supply Chain eBook" />
