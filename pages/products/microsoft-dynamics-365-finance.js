@@ -426,6 +426,8 @@ const Finance = () => {
                         <img
                           src="/img/video-Finance.png"
                           alt="video-Finance"
+                          width={390}
+                          height={259}
                         />
                         <span className="cente-icns">
                           <img
