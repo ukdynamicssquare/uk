@@ -26,9 +26,7 @@ const ThankYou = () => {
               </h2>
               <div className="text-center">
                 <div className="">
-                  <Link href="/" >
-                    <a className="btn-get-started scrollto"><span>Back to Home</span></a>
-                  </Link>
+                    <a href="/" className="btn-get-started scrollto"><span>Back to Home</span></a>
                 </div>
               </div>
             </div>
