@@ -99,33 +99,6 @@ const FooterHide = () =>{
                 <div className="content-right">info@dynamicssquare.co.uk</div>
               </div>
             </div>
-
-            <div className="col-lg-3">
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-geo-alt"></i>
-                </div>
-                <div className="content-right">
-                  Utrechtseweg 341, 3818 EL Amersfoort, Netherlands
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-telephone"></i>
-                </div>
-                <div className="content-right">
-                  <a target="_self" rel="" href="tel:+3197010257044">
-                    +31 970 102 57044
-                  </a>
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-envelope"></i>
-                </div>
-                <div className="content-right">info@dynamicssquare.co.uk</div>
-              </div>
-            </div>
             <div className="col-lg-3">
               <div className="contact-list">
                 <div className="icons-left">
@@ -152,6 +125,33 @@ const FooterHide = () =>{
                 <div className="content-right">info@dynamicssquare.co.uk</div>
               </div>
             </div>
+            <div className="col-lg-3">
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-geo-alt"></i>
+                </div>
+                <div className="content-right">
+                  Utrechtseweg 341, 3818 EL Amersfoort, Netherlands
+                </div>
+              </div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-telephone"></i>
+                </div>
+                <div className="content-right">
+                  <a target="_self" rel="" href="tel:+3197010257044">
+                    +31 970 102 57044
+                  </a>
+                </div>
+              </div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-envelope"></i>
+                </div>
+                <div className="content-right">info@dynamicssquare.co.uk</div>
+              </div>
+            </div>
+           
           </div>
         </div>
       </div>
