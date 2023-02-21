@@ -296,6 +296,35 @@ const ContactUs = () => {
                           </div>
                         </div>
                       </div>
+                      <div className="col-lg-4">
+                      <div className="cont-hh">
+                          <h3>Birmingham</h3>
+                        </div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-geo-alt"></i>
+                </div>
+                <div className="content-right">
+                Izabella House, 24 - 26 Regents Place, City Centre, Birmingham
+                </div>
+              </div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-telephone"></i>
+                </div>
+                <div className="content-right">
+                <a target="_self" rel="" href="tel:+442071932502">
+                    +44 207 193 2502
+                  </a>
+                </div>
+              </div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-envelope"></i>
+                </div>
+                <div className="content-right">info@dynamicssquare.co.uk</div>
+              </div>
+            </div>
                     </div>
                   </div>
                   <div
