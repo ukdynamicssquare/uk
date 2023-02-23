@@ -44,8 +44,8 @@ const Bccontinia = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/Continia-bg"
-                alt="Microsoft Dynamics 365 Finance"
+                src="/img/Continia-bg.png"
+                alt="Continia for business central"
                 width={964}
                 height={452}
               />

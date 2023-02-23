@@ -31,7 +31,7 @@ const MicrosoftDynamicsPartnerBirmingham = () => {
             <div className="col-lg-6 align-self-center">
               <Image
                 src="/img/birmingham-bg.png"
-                alt="Microsoft-Dynamics-Partner-Bristol-Location-768x501"
+                alt="Microsoft-Dynamics-Partner-birmingham"
                 width={708} height={447}
               />
             </div>
