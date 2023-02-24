@@ -6339,7 +6339,7 @@ margin-top:-130px !important
   height:550px
 }
 .busine-swiper .swiper-wrapper{
-padding:15px opx
+padding:15px 0px
 }
 .busine-swiper .swiper-pagination-bullet{
     width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,50px));
@@ -6560,6 +6560,9 @@ font-weight:400
   line-height: 1.25;
 }
 .sidenn-wr .cll-bt{}
+.extra-new p{
+  text-align:center
+}
 /*businecentermew*/
 /*power bi new sectio*/
 @media (min-width: 991px) {

@@ -113,8 +113,8 @@ const FooterHide = () =>{
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                <a target="_self" rel="" href="tel:+442071932502">
-                    +44 207 193 2502
+                <a target="_self" rel="" href="tel:+441213182798">
+                    +44 121 318 2798
                   </a>
                 </div>
               </div>
