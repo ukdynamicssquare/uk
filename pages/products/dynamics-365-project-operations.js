@@ -5,16 +5,17 @@ import Script from "next/script";
 import Link from "next/link";
 import ModalVideo from "react-modal-video";
 import Blog from "../../components/Blog";
+import Form from "../../components/Form";
 const ProjectOperations = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-        <title>Dynamics 365 Project Operations Partner - Demo & Pricing UK</title>
+        <title>Dynamics 365 Project Operations Partner UK</title>
         <meta
           name="description"
-          content="Improve transparency, bring agility, and streamline your projects through the implementation of Dynamics 365 Project Operations. Call us for a demo and pricing today!"
+          content="Looking for a Dynamics 365 Project Operations partner? Improve project transparency, increase agility & streamline your operations. Call us for a demo and pricing today! "
         />
         <link
           rel="canonical"
@@ -55,7 +56,7 @@ const ProjectOperations = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/project-operation-banner.png" alt="images" />
+              <img src="/img/project-operation-banner.png" alt="d365 project operation" />
             </div>
           </div>
         </div>
@@ -67,21 +68,15 @@ const ProjectOperations = () => {
             <div class="col-lg-9">
               <header className="section-header">
                 <h2>What is dynamics 365 Project Operations?</h2>
-                <p>
-                  <b>
-                    Empower your team to drive visibility and agility to ensure
-                    on-time project delivery within budget all through Dynamics
-                    365 Project Operations.
-                  </b>
-                </p>
-                <br />
-                <p>
-                  Connect your project operations from sales, resourcing, and
-                  financing to project management by effectively leveraging
-                  Dynamics 365 Project Operations. A single unified app helps to
-                  bring your team together to drive collaboration, faster your
-                  project delivery, and maximize your growth potentials.
-                </p>
+                <p>Empower your team to drive visibility and agility for ensuring on-time project deliveries while optimizing budget for a maximum revenue with <strong>Dynamics 365 Project Operations</strong>. </p>
+
+ 
+
+                <p>Seamlessly manage all projects of your business, from sales to finance, by effectively leveraging Dynamics 365 Project Operations; a simple yet powerful solution built by Microsoft. Being a unified and reliable solution, it can help you bring your team together to drive collaboration, accelerate project delivery, and maximise growth potential. </p>
+
+ 
+
+                <p>Dynamics 365 Project Operations modules can offer real-time actionable insights to help you generate more leads, close deals faster, and accelerate project delivery with enhanced profitability. Such insights let the business match the right professional with the right project, resulting in better decisions regardless of any scenario. </p>
               </header>
             </div>
           </div>
@@ -151,6 +146,37 @@ const ProjectOperations = () => {
                         right talent to the right project impacting the overall
                         project development cycle while ensuring the quality of
                         the project and fulfilling deadlines.
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin5"
+                        aria-expanded="false"
+                        aria-controls="fin5"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/icons_resource-management.svg"
+                            alt="icons"
+                          />
+                        </div>
+                        <span>Superior Deal Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin5"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                      Simplify your bid management strategies using automation, along with shortlisting deals for higher profit margins. Track contract status, deliver project quotes, forecast winning leads, and make an accurate estimation. 
                       </div>
                     </div>
                   </div>
@@ -229,12 +255,94 @@ const ProjectOperations = () => {
                       </div>
                     </div>
                   </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin6"
+                        aria-expanded="false"
+                        aria-controls="fin6"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/icons_data-management.svg"
+                            alt="icons"
+                          />
+                        </div>
+                        <span>Manage Time and Expense</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin6"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnews"
+                    >
+                      <div className="accordion-body">
+                      Track time and expense on each point of a business transaction to evaluate the business and its ROI. You can easily submit, approve, and conform all transactions for faster and smoother settlement.
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+
+      <section className="new-style-bg">
+        <div className="container">
+        <div className="row justify-content-center">
+            <div class="col-lg-9">
+              <header className="section-header">
+                <h2>Microsoft Dynamics 365 Project Operations Benefits</h2>
+               <p>Optimise existing resources and generate more revenue using D365 Project Operations Modules.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row g-5">
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Project Financial Management</h3>
+                  <p>Access the financial data of projects in real-time to take instant actionable decisions that result in enhanced business performance and maximised efficiency.</p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Enhance Project Transparency</h3>
+                  <p>Bring visibility, eliminate data silos, and access business intelligence to track each project accurately and precisely.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Maximised Customer Satisfaction</h3>
+                  <p>Streamline project management, enhance the customer experience, and keep customers updated for each milestone of a project to offer optimum customer satisfaction.</p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Accelerate Team Collaboration</h3>
+                  <p>Access a unified platform, get a 360-degree holistic view, and connect all departments to accelerate team collaboration for maximised returns.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <p className="text-center" style={{paddingTop:"30px",fontSize:"20px"}}><b>Want to avail of a Dynamics 365 Project Operations trial?<br /> <Link href="/contact-us/"><a>Connect to our certified Microsoft consultants</a></Link> and start using it now! </b></p>
+          </div>
+        </div>
+      </section>
+
+
 
       <section className="Solution-business-why">
         <div className="container">
@@ -482,6 +590,33 @@ const ProjectOperations = () => {
                     </a>
                   </Link>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="busine_service_bottom custom001">
+        <div className="container">
+          <div className="row p-433">
+            <div className="col-lg-6 align-self-center">
+              <div className="side-heading side-heading-system">
+                <h2 style={{fontSize:"24px"}}>Why should you choose Dynamics Square as your D365 Project Operations implementation partner? </h2>
+              </div>
+              <div className="custom002">
+                <p>Choosing the right partner is a critical choice for all business owners or decision-makers. A wrong choice can make you bear a huge investment loss, whereas a right choice can double or triple the revenue by simplifying the entire business operations.</p>
+                <p>This is where Dynamics Square comes in. With 11+ years of experience in the industry and a huge team of <Link href="/"><a>Microsoft certified consultants</a></Link>, we are the ideal partner for your Dynamics 365 Project Operations implementation needs.</p>
+                <p>At Dynamics Square, our motto is to offer best-in-class customer satisfaction and take a collaborative approach to ensure your project's success, irrespective of the complexity or the scenario.</p>
+      
+                <p>We offer end-to-end services, including <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> Project Operations consulting, solution customization, deployment, on-site training, and durable support. For all businesses, we offer Microsoft's proven methodology and our expertise to deliver a tailored solution for your unique business requirements.</p>
+                <p>Partnering with us means you can expect a smooth implementation process, increased productivity, and a measurable return on investment. Let's collaborate and take your business to the next level.</p>
+              </div>
+            </div>
+            <div className="col-lg-1 align-self-center"></div>
+            <div className="col-lg-5 align-self-center">
+              <div className="busine_service_bottom-left common-side-form">
+                <Form />
               </div>
             </div>
           </div>
