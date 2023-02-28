@@ -158,6 +158,14 @@ section {
   font-size: 15px;
   z-index:6
 }
+.ustom00008 ul li{
+  margin-bottom:10px;
+  color: var(--color-grey);
+}
+.ustom00008 .endsec{padding-top: 20px;}
+.ustom00008 .endsec img{width: 180px;}
+.ustom00008 .endsec p{margin-bottom: 3px;
+  font-weight: 500;}
 .img-txt-cent,
 .sec-title,
 .section-header {

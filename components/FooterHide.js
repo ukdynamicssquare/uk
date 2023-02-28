@@ -272,6 +272,10 @@ const FooterHide = () =>{
                     <i className="bi bi-chevron-right"></i>
                     <Link href="/privacy-policy/">Privacy policy</Link>
                   </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <Link href="/modern-slavery-act/">Modern Slavery Act</Link>
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-3 col-md-12 text-md-start">
