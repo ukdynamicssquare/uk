@@ -87,11 +87,11 @@ const Wms = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
                 <h2>
-                SImlpify your Warehouse Processes while Enhancing Effeciency 
+                Simlpify your Warehouse Processes while Enhancing Efficiency 
                 </h2>
               </div>
               <div className="custom-p-001">
-                <p>Mobile WMS for Business Central supports the core warehouse processes seemlessly while pushing the team towards more efficiency and productivity. It also supports basic workflow and offers easy integration with Business Central and <Link href="/products/microsoft-dynamics-nav/"><a>Microsoft Dynamics NAV</a></Link>.</p>
+                <p>Mobile WMS for Business Central supports the core warehouse processes seamlessly while pushing the team towards more efficiency and productivity. It also supports basic workflow and offers easy integration with Business Central and <Link href="/products/microsoft-dynamics-nav/"><a>Microsoft Dynamics NAV</a></Link>.</p>
                 <p>With a simple user interface and an attractive graphical evaluation, Mobile WMS for Business Central is easy to configure for all kinds of warehhouse requirements. Even for unique business needs, the performance and capability of Mobile WMS from Tasklet factory can be extended to meet all custom needs.</p>
                 <p>Warehouse Management in Business Central is a separate module to tackle all kinds of complex warehouse operations. Based on the unique requirements of a business, you have to integrate add-ons to make it ideal for your business. It integrates with the standard functionalities of D365 Business Central or Dynamics NAV ERP, making it a stable and perfect WMS tool.</p>
                 <p>We live in an era of centralised businesses where data transfer happens in real-time. Without online connectivity, warehouse operations may stop, leading to financial as well as efficiency losses. But, Mobile WMS from Tasklet Factory has you covered, as you can use the app with full functionality in offline mode too. Whatever the task you are performing, whether counting, moving, receiving items, or sending them to distribution, you can perform it without any issue.</p>
