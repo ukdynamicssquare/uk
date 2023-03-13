@@ -6577,7 +6577,7 @@ font-weight:400
   border: none;
   outline: none;
   position: fixed;
-  bottom: 15px;
+  bottom: 10px;
   left: 15px;
   height: 60px;
   width: 60px;
@@ -6587,7 +6587,7 @@ font-weight:400
 }
 .fixed-button a{
   color:#fff;
-  font-size: 16px;
+  font-size: 20px;
 }
 .fixed-button a:hover{
   color:#fff
