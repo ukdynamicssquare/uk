@@ -603,7 +603,7 @@ The latest version includes several new features and improvements that make it a
               <div className="box box-22">
                 <h3>Team Member <br /> License</h3>
                 <div className="price">
-                  <sup>£</sup>7<span>Per-User/Per Month</span>
+                  £7<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center" style={{fontSize:'14px'}}>
@@ -616,7 +616,7 @@ The latest version includes several new features and improvements that make it a
               <div className="box box-22">
                 <h3>Operations <br />Activity License</h3>
                 <div className="price">
-                  <sup>£</sup>45<span>Per-User/Per Month</span>
+                  £45<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center" style={{fontSize:'14px'}}>
@@ -632,7 +632,7 @@ The latest version includes several new features and improvements that make it a
                 Full User <br /> License
                 </h3>
                 <div className="price">
-                  <sup>£</sup>60<span>Per-User/Per Month</span>
+                  £60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center" style={{fontSize:'14px'}}>
@@ -646,7 +646,7 @@ The latest version includes several new features and improvements that make it a
               <div className="box box-22">
                 <h3>Device <br /> License</h3>
                 <div className="price">
-                  <sup>£</sup>67<span>Per-User/Per Month</span>
+                  £67<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center" style={{fontSize:'14px'}}>
