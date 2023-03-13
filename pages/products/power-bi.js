@@ -22,8 +22,7 @@ const PowerBI = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/power-bi/"
-        />
+          href="https://www.dynamicssquare.co.uk/products/power-bi/" />
       </Head>
       <ModalVideo
         channel="youtube"

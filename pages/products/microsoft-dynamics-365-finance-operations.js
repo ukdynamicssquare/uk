@@ -15,8 +15,7 @@ const FinanceOperations = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance-operations/"
-        />
+          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance-operations/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
