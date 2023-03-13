@@ -6578,10 +6578,10 @@ font-weight:400
   outline: none;
   position: fixed;
   bottom: 85px;
-  right: 20px;
+  right: 25px;
   height: 60px;
   width: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   border-radius: 30px;
   box-shadow: 1px 3px 5px #888888;
 }
