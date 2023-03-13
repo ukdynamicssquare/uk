@@ -404,7 +404,7 @@ const PowerBI = () => {
             <h2>Microsoft Power BI Pricing</h2>
             <p>
               Being a trusted Power BI implementation partner, we can reveal the
-              best-suited Power BI pricing plans for your business to grow.
+              best-suited Power <Link href="https://blog.dynamicssquare.co.uk/power-bi-pricing-uk/"><a>Power BI pricing</a></Link> plans for your business to grow.
             </p>
           </header>
           <div className="row gy-4 p-9">
