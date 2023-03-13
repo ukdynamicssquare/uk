@@ -6571,11 +6571,38 @@ font-weight:400
 .extra-new p{
   text-align:center
 }
+.fixed-button {
+  background-color: #ee3442;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  height: 45px;
+  width: 45px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  box-shadow: 1px 3px 5px #888888;
+}
+.fixed-button a{
+  color:#fff;
+  font-size: 16px;
+}
+.fixed-button a:hover{
+  color:#fff
+}
+.fixed-button:hover{
+  background-color:#1d3557
+}
 /*businecentermew*/
 /*power bi new sectio*/
 @media (min-width: 991px) {
   .mob-disp {
     display: none;
+  }
+  .call-bb-wr{
+    display:none
   }
 }
 @media (max-width: 991px) {

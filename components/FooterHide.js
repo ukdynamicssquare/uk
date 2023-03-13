@@ -338,6 +338,12 @@ const FooterHide = () =>{
           </div>
         </div>
       </footer>
+      <div className='call-bb-wr'>
+      <button class="fixed-button wobble" type="button">
+      <a href="tel:+442071932502" target="_self"><i class="bi bi-telephone-fill"></i></a>
+</button>
+
+      </div>
     </>
     
     );
