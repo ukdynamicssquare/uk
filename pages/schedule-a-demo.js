@@ -2,6 +2,8 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import Form from "../components/Form";
+import FooterHide from "../components/FooterHide";
+
 
 const ScheduleDemoForm = () => {
   return (
@@ -27,7 +29,7 @@ const ScheduleDemoForm = () => {
       </section>
 
          
-      <section className="custom-sed-demp-wraper">
+      <section className="custom-sed-demp-wraper" style={{paddingBottom:"160px"}}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-5 col-md-8  align-self-center">
@@ -41,6 +43,7 @@ const ScheduleDemoForm = () => {
           </div>
         </div>
       </section>
+      <FooterHide />
     </>
   );
 };
