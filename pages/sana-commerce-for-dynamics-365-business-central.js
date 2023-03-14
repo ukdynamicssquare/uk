@@ -11,7 +11,7 @@ const Bcinsights = () => {
         <title>Sana Commerce for Microsoft Dynamics 365 business central</title>
         <meta
           name="description"
-          content="Sana Commerce is an integrated e-commerce platform for Microsoft Dynamics 365 Business Central. Streamline your online sales and improve customer experience today!"
+          content="Sana Commerce is the ultimate e-commerce solution for Microsoft Dynamics 365 Business Central. With seamless integration and user-friendly features, boost your online sales and improve customer satisfaction."
         />
         <link
           rel="canonical"
