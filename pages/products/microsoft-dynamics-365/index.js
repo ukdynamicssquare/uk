@@ -113,12 +113,16 @@ const D360 = () => {
 
       <section className="new-bg">
         <div className="container">
-          <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
             <h2>Benefits You Get From Using Microsoft Dynamics 365</h2>
             <p>
             Microsoft Dynamics 365 is the most efficient business management solution capable of building, deploying, and supporting advanced ERP and CRM features. It provides more freedom to provide the best support to the end-user, from manufacturing to after-sales service. Below are the key reasons to consider Microsoft Dynamics 365 for your business: 
             </p>
           </header>
+            </div>
+          </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -447,12 +451,16 @@ const D360 = () => {
 
       <section className="Solution-business-whys">
         <div className="container">
+       <div className="row justify-content-center">
+        <div className="col-lg-8">
         <header className="section-header">
             <h2>How Much Microsoft Dynamics 365 Licensing & Cost?</h2>
             <p>
             Microsoft provides two ways of Microsoft Dynamics 365 Licensing for the organizations. These plans are based on the apps and integrations that come under Microsoft Dynamics 365 and the number of users as per access to Dynamics 365.
             </p>
           </header>
+        </div>
+       </div>
           <div className="row g-5 justify-content-center">
           
             <div className="col-lg-8">
@@ -821,12 +829,16 @@ const D360 = () => {
 
       <section className="bg-333">
         <div className="container">
-          <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
             <h2>
             Get Dynamics 365 Services With Dynamics Square
             </h2>
             <p>As a Microsoft Gold Certified Partner UK, we provide you with a seamless experience in upgrading or implementing Dynamics 365 without disturbing your existing work process. </p>
           </header>
+            </div>
+          </div>
           <div className="row">
             <div className="col-lg-4">
               <div className="commen-box-2">

@@ -42,10 +42,11 @@ const Wms = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
-                src=""
-                alt="Continia Document Capture"
-              />
+            <Image
+                  src="/img/Continia-Document.png"
+                  alt="Continia Document Capture"
+                  width={960} height={666}
+                />
             </div>
           </div>
         </div>
@@ -78,9 +79,9 @@ const Wms = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src=""
-                  alt="Continia Document Capture"
-                  width={442} height={453}
+                  src="/img/scan-capture-analyse.png"
+                  alt="scan-capture-analyse"
+                  width={530} height={545}
                 />
               </div>
             </div>
@@ -107,7 +108,7 @@ const Wms = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Group1407.svg" alt="Group1407" />
+                  <img src="/img/intelegent-ocr.png" alt="intelegent-ocr" />
                 </div>
                 <div className="style-grid-content">
                   <h3>Intelligent OCR</h3>
@@ -117,7 +118,7 @@ const Wms = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Add-ons.svg" alt="Add-ons.svg" />
+                  <img src="/img/automation.png" alt="automation" />
                 </div>
                 <div className="style-grid-content">
                   <h3>Automation Enabled</h3>
@@ -128,7 +129,7 @@ const Wms = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Group1408.svg" alt="Group1408" />
+                <img src="/img/automatic-approval.png" alt="automatic-approval" />
                 </div>
                 <div className="style-grid-content">
                   <h3>Automatic Approval</h3>
@@ -139,8 +140,8 @@ const Wms = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <img
-                    src="/img/Modifications.svg"
-                    alt="Modifications"
+                    src="/img/history.png"
+                    alt="history"
                   />
                 </div>
                 <div className="style-grid-content">
@@ -159,10 +160,10 @@ const Wms = () => {
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
                   <Image
-                    src=""
+                    src="/img/contonia-BC-addonn.png"
                     className="fix-im"
                     alt="Continia Document Capture"
-                    width={536} height={584}
+                    width={1085} height={656}
                   />
                   {/* <img
                     src="/img/ico6.svg"

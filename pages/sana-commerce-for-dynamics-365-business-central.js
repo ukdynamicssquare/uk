@@ -41,10 +41,10 @@ const Bcinsights = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src=""
+                src="/img/sana-Commerce.png"
                 alt="Sana Commerce for Dynamics 365 Business Central"
-                width={964}
-                height={452}
+                width={1018}
+                height={687}
               />
             </div>
           </div>
@@ -64,8 +64,6 @@ const Bcinsights = () => {
           </div>
         </div>
       </section>
-
-    
 
       <section>
         <div className="container">
@@ -189,7 +187,6 @@ const Bcinsights = () => {
         </div>
       </section>
 
-    
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
@@ -212,7 +209,6 @@ const Bcinsights = () => {
           </div>
         </div>
       </section>
-
 
       <section className="busine_service_bottom custom05a">
         <div className="container">

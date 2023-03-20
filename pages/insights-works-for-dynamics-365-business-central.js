@@ -41,10 +41,10 @@ const Bcinsights = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src=""
+                src="/img/insightworks.png"
                 alt="Insights Works for Dynamics 365 Business Central"
-                width={964}
-                height={452}
+                width={991}
+                height={666}
               />
             </div>
           </div>

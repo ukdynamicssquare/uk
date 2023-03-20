@@ -37,9 +37,10 @@ const UpgradeServices = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src=""
+                src="/img/erp-partner-banner.png"
                 alt="Change Your ERP Partner"
-                width={514} height={472}
+               width={723}
+               height={517}
               />
             </div>
           </div>
@@ -73,7 +74,7 @@ const UpgradeServices = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Group1407.svg" alt="Group1407" />
+                  <img src="/img/strong_communication.png" alt="strong_communication" />
                 </div>
                 <div className="style-grid-content">
                   <h3>Strong Communication</h3>
@@ -83,7 +84,7 @@ const UpgradeServices = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Add-ons.svg" alt="Add-ons.svg" />
+                  <img src="/img/proven_records.png" alt="proven_records" />
                 </div>
                 <div className="style-grid-content">
                   <h3>Proven Track Record</h3>
@@ -94,7 +95,7 @@ const UpgradeServices = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Group1408.svg" alt="Group1408" />
+                  <img src="/img/Equipped_resources.png" alt="Equipped_resources" />
                 </div>
                 <div className="style-grid-content">
                   <h3>Equipped with Resources</h3>
@@ -105,8 +106,8 @@ const UpgradeServices = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <img
-                    src="/img/Modifications.svg"
-                    alt="Modifications"
+                    src="/img/robust_Methodlogy.png"
+                    alt="robust_Methodlogy"
                   />
                 </div>
                 <div className="style-grid-content">
