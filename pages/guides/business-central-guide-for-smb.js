@@ -34,15 +34,16 @@ const PowerBIGuide = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Business Central: The Definitive Guide For SMBs (2023)</title>
+        <title>What is Business Central? (2023 Guide for SMBs)</title>
         <meta
           name="description"
-          content="Checkout the latest and comprehensive Microsoft Dynamics 365 Business Central guide for small business (2023) to help you maximise your business revenue while leveraging the power of automation."
+          content="What is Microsoft Business Central, benefits, pricing and licensing, capabilities and more with our 2023 guide. Streamline your business operations and increase efficiency."
         />
         <meta
           name="keywords"
           content="business central guide, business central for small business, ultimate business central guide, comprehensive business central guide, business central guide for SMBs, business central buisness guide, business central guide for business, business central for beginners, business central for manufacturing"
         />
+        <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/guides/business-central-guide-for-smb/"
@@ -70,7 +71,7 @@ const PowerBIGuide = () => {
             <div className="col-lg-7 align-self-center text-center">
               <Image
                 src="/img/chapter5-5.png"
-                alt="The Ultimate Guide"
+                alt="what is business central"
                 width={992}
                 height={499}
               />
