@@ -23,6 +23,66 @@ const PowerApps = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-power-apps/"
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                  "@type": "Question",
+                  "name": "Which apps are included in Power Apps?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Power Apps consists of six solutions, which are: AI Builder, Automate Processes, Azure + Power Apps, Build Apps, Connect Data, and Pages. All these solutions have separate motives and can be used for different purposes."
+                  }
+                },{
+                  "@type": "Question",
+                  "name": "What kinds of apps can I build using Power Apps?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can rapidly build custom apps to connect your data sources to different Microsoft platforms. These customised apps are based on your business needs and complexity. It allows you to build various kinds of responsive applications that can be operated using the web and mobile."
+                  }
+                },{
+                  "@type": "Question",
+                  "name": "Is there any need to learn code to build apps?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, there is no need to learn any kind of code language to build a customised app using Power Apps. It comes with built-in templates and a simple user interface to help you understand the exact requirements and build the app accordingly. It is a kind of drag-and-drop platform where you only need to align the desired functions to get the desired result."
+                  }
+                },{
+                  "@type": "Question",
+                  "name": "How much time will it take to build an app using Power Apps?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "There can be no accurate answer to this question. It totally depends on the complexity of the app and the functions you want in an app. Users can build the required app whenever it is needed and modify it later to meet their changing needs."
+                  }
+                },{
+                  "@type": "Question",
+                  "name": "How many apps or services can I connect with Power Apps?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can connect an unlimited number of data sources, apps, and services with Power Apps to make the whole system work together and enhance the growth of the organsation. You can avail yourself of a library of Microsoft Dataverse and connectors to connect various data sources together. Not only data sources, but you can also integrate some other applications too, including Azure, Power Platform, Microsoft Dynamics 365, and more native apps."
+                  }
+                },{
+                  "@type": "Question",
+                  "name": "What are the top features of Power Apps?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Power Apps offers numerous features and capabilities to help users efficiently build customised apps using low code. Some of the powerful features are pre-built templates, a drag-and-drop builder, a role based personalised user experience, a built-in website development tool, private submission of information, and much more."
+                  }
+                },{
+                  "@type": "Question",
+                  "name": "What are the available Power Apps pricing options?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Power Apps pricing and licencing is based on two basic plans: subscription or pay-as-you-go. The Subscription Plan is more flexible for businesses, allowing them to offer licences to users based on app usage. The pay-as-you-go Plan is designed for businesses that want to be charged monthly, per user, for the apps they use.There are two per-app plan options available under the subscription plan:£3.80 per user/app/month,£15.10 per user/month,The pay-as-you-go plan is £7.45 per active user/app/month."
+                  }
+                }]
+             
+            }),
+          }}
+        />
       </Head>
       <ModalVideo
         channel="youtube"
