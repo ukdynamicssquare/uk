@@ -29,6 +29,67 @@ const Commerce = () => {
         <meta property="twitter:title" content="Dynamics 365 Commerce | Retail ERP Solution" />
         <meta property="twitter:description" content="Unify your back-office, in-store, and digital experience by empowering your system with our exclusive Microsoft Dynamics 365 Commerce packages." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/commerce-banner.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "What is D365 Commerce?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Microsoft Dynamics 365 Commerce is a proven retail solution that integrates or unifies your back-office, in-store, and digital experiences. D365 Commerce enables you to optimize your operations, improve your employee productivity, boost customer engagement, and drive efficient results while reducing costs, time, and energy. With built-in AI capabilities, streamline your core operations from efficiently managing customers to resources to supply chain to marketing practices, and more."
+                }
+              },{
+                "@type": "Question",
+                "name": "What is D365 Commerce scale?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Commerce Scale Unit allows stores to sell products even if their internet connection is not consistent! It means that your store can still process credit card transactions, issue gift cards, and sync data with HQ despite poor internet service."
+                }
+              },{
+                "@type": "Question",
+                "name": "Is Dynamics 365 Retail the same as Dynamics 365 commerce?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dynamics 365 Retail is now Dynamics 365 Commerce. It has recently had an important upgrade. Because of the way it was named before, people had difficulty connecting the name to what this system is capable of doing. Dynamics 365 commerce contains features such as e-commerce and back office control, among others."
+                }
+              },{
+                "@type": "Question",
+                "name": "What are the top benefits of D365 Commerce?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Dynamics 365 Commerce platform provides numerous benefits to users, including cloud-based features, simplified customer engagement, increased customer loyalty, business-specific flexibility, adaptability to modern business requirements, and an easy-to-use user interface."
+                }
+              },{
+                "@type": "Question",
+                "name": "What are some important capabilities of D365 Commerce?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "It has numerous capabilities that can assist you in providing a more functional customer experience. It offers capabilities including centralised data, smart operations, good customer engagement, an adaptable platform, and much more."
+                }
+              },{
+                "@type": "Question",
+                "name": "Are integrations allowed with this business application?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, you can integrate the desired apps, whether native or third-party, with Dynamics 365 Commerce. However, you will need to contact your support partner to build the required application that understands your requirements and works accordingly."
+                }
+              },{
+                "@type": "Question",
+                "name": "What is the cost of a Dynamics 365 Commerce implementation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "D365 Commerce implementation isn't fixed. It varies from business to business. One of the critical factors that determines the cost of implementation is the complexity of the solution and the business requirements. To get an accurate estimate, you need to contact a Microsoft-certified gold partner like Dynamics Square."
+                }
+              }]
+            
+              
+            }),
+          }}
+        />
       </Head>
       <ModalVideo
         channel="youtube"
