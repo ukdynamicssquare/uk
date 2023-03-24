@@ -11,14 +11,14 @@ const CaseStudyGlobalTea = () => {
   return (
     <>
       <Head>
-      <title>Global Tea &amp; Commodities | Dynamics NAV Support</title>
+      <title>Dynamics NAV 2016 Support Services - Case Study</title>
         <meta
           name="description"
           content="Global Tea & Commodities Ltd. worked with Dynamics Square to get dedicated Microsoft Dynamics NAV support. Read Global Tea case story to gain insights."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/case-studies/global-tea/"
+          href="https://www.dynamicssquare.co.uk/case-studies/nav16-support/"
         />
       </Head>
       <section className="hero-1 hero">
@@ -27,11 +27,8 @@ const CaseStudyGlobalTea = () => {
             <div className="col-lg-6 align-self-center">
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
-                  <span className="date-ti">Global Tea Case Study</span>
-                  <h1>
-                    A world-leading distributor of Tea, Coffee, and Macadamia
-                    Nuts
-                  </h1>
+                  <span className="date-ti">Case Study</span>
+                  <h1>Dynamics NAV 2016 Support Services</h1>
                   <p>Enhanced their Existing NAV 2016 for Manage Auctions</p>
                 </div>
               </div>
@@ -55,9 +52,9 @@ const CaseStudyGlobalTea = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                  <img
-                    src="/img/global-tea-logo.png"
-                    alt="global-tea-logo"
+                <img
+                    src="/img/casestudy-pic.png"
+                    alt="casestudy-pic"
                   />
                 </div>
                 <div className="col-lg-9">

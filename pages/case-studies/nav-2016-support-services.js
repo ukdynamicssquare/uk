@@ -7,42 +7,40 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 
-const CaseStudyTimosco = () => {
+const CaseStudyWiper = () => {
   return (
     <>
       <Head>
-        <title>Timesco | Upgrading to Dynamics 365 Business Central</title>
+      <title>Microsoft NAV 2016 Support - Case Study</title>
         <meta
           name="description"
-          content="Timesco worked with Dynamics Square to upgrade to Dynamics 365 Business Central from Dynamics NAV. Read Timesco case story to gain insights."
+          content="A UK based hygienic disposable cleaning and wiping wholesaler collaborated with Dynamics Square to enhance their existing system NAV 2016 support service. Explore this case study!"
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/case-studies/timesco/"
+          href="https://www.dynamicssquare.co.uk/case-studies/nav-2016-support-services/"
         />
       </Head>
       <section className="hero-1 hero">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 align-self-center">
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
-                  <span className="date-ti">TIMESCO Case Study</span>
-                  <h1>
-                    The UK's premier manufacturer of medical devices for
-                    Anesthesia, Surgery, Podiatry & General Medical.
-                  </h1>
-                  <p>Upgrade to Dynamics 365 Business Central Online</p>
+                  <span className="date-ti">
+                    Case Study
+                  </span>
+                  <h1>Microsoft NAV 2016 Support - Case Study</h1>
+                  <p>Providing Support with their Existing System</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 align-self-center">
               <div className="sider-over">
                 <Image
-                  src="/img/Dynamics-365-Business-Central.png"
-                  alt="business centeral implementation"
-                  width={1024}
-                  height={597}
+                  src="/img/business-central-implementation-banner-1.svg"
+                  alt="business-central-implementation-banner"
+                  width={1024} height={586}
                 />
               </div>
             </div>
@@ -56,22 +54,29 @@ const CaseStudyTimosco = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                  <img src="/img/timesco-logo.png" alt="timesco-logo" />
+                <img
+                    src="/img/casestudy-pic.png"
+                    alt="casestudy-pic"
+                  />
                 </div>
                 <div className="col-lg-9">
                   <p>
-                    Established in 1964,{" "}
-                    <a href="https://timesco.com/" target="_blank">
-                      Timesco
+                    Established in 1993{" "}
+                    <a
+                      href="http://www.wipersupply.com/"
+                      rel="noopener nofollow"
+                      target="_blank"
+                    >
+                      {" "}
+                      Wiper Supply Services{" "}
                     </a>{" "}
-                    is a well-known manufacturer and supplier of surgical
-                    instruments in the UK market and is continuously working to
-                    expand the same globally. Timesco is expanding with a
-                    product range that includes Anesthesia, Surgery, General
-                    Medical, and Podiatry in the medical industry. They are also
-                    working toward innovating and developing medical
-                    technologies to bring awareness and improve the quality of
-                    human life.
+                    is a British-based wholesaler of hygienic disposable
+                    cleaning and wiping products. They deliver their products to
+                    national as well as international clients of restaurants,
+                    hotels, manufacturing industries, and more. They specialize
+                    in manufacturing and supplying 70 GSM heavy-duty color-coded
+                    wipes and disposable non-woven wiping products to different
+                    industries.
                   </p>
                 </div>
               </div>
@@ -89,13 +94,9 @@ const CaseStudyTimosco = () => {
             </h2>
           </header>
           <div className="row gx-5">
-            <div className="col-lg-6">
-              <Image
-                src="/img/cast-stu-pic.png"
-                alt="cast-stu-pic"
-                width={484}
-                height={407}
-              />
+            <div className="col-lg-6 align-self-center">
+              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic"
+              width={484} height={407} />
             </div>
             <div className="col-lg-6">
               <div className="content-icons-modil-1">
@@ -107,9 +108,9 @@ const CaseStudyTimosco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Timesco was not satisfied with their previous Dynamics NAV
-                      support partner in terms of providing on-time system
-                      support and the sort of services they anticipate.
+                      Wiper Supply Services wanted to increase the sales volume
+                      with customers by upselling and cross-selling their
+                      products.
                     </p>
                   </div>
                 </div>
@@ -122,16 +123,9 @@ const CaseStudyTimosco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Facing difficulties while driving their manufacturing,
-                      supplying, and distribution operations through on-premises{" "}
-                      <Link
-                        href="/products/microsoft-dynamics-nav/"
-                        target="_blank"
-                        rel="noopener"
-                      >
-                        Dynamics NAV
-                      </Link>{" "}
-                      2013 R2.
+                      They planned a strategy of reaching out to the group of
+                      existing customers and promoting their other products by
+                      applying for discounts and promotions.
                     </p>
                   </div>
                 </div>
@@ -144,9 +138,21 @@ const CaseStudyTimosco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Finding a trustworthy partner to upgrade their Dynamics
-                      NAV 2013 R2 system and getting timely support were a
-                      challenge for them.
+                      The client also wants to run an awareness campaign for its
+                      new products to the existing customers.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-exclamation-triangle"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      Wiper Supply want to promote the new products by showing
+                      them on the sales invoice of such customers.
                     </p>
                   </div>
                 </div>
@@ -160,7 +166,7 @@ const CaseStudyTimosco = () => {
         <div className="container">
           <header className="section-header">
             <h2>Solution Delivered</h2>
-            <p>Upgrading to Dynamics 365 Business Central Online</p>
+            <p>Support Offered to Wiper Supply Services</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -213,14 +219,8 @@ const CaseStudyTimosco = () => {
                           </div>
                           <div className="text-wrp-content">
                             <p>
-                              Dynamics Square upgraded Timesco's system from
-                              Dynamics NAV 2013 R2 to{" "}
-                              <Link
-                                href="/products/dynamics-365-business-central/"
-                                target="_blank"
-                              >
-                                Dynamics 365 Business Central online.
-                              </Link>
+                              Dynamics Square helped Wiper Supply in
+                              implementing their strategy for growth and sales.
                             </p>
                           </div>
                         </div>
@@ -238,10 +238,11 @@ const CaseStudyTimosco = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                Integrated Timesco's Business Central account
-                                with third-party Document Management add on and
-                                performed seamless migration to ensure connected
-                                and smoother data-driven practices.
+                                We helped them filter out the group of customers
+                                who have purchased similar products in a
+                                particular period by creating a report with the
+                                sold product's category code and the client's
+                                code.
                               </p>
                             </div>
                           </div>
@@ -260,10 +261,9 @@ const CaseStudyTimosco = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                We provided onsite UAT (User Acceptance
-                                Training) for two weeks during the pandemic & Go
-                                Live Sessions to ensure seamless user adaptation
-                                to Timesco team.
+                                We used this data to send customized mails for
+                                up-sale and cross-sale to a particular group of
+                                customers.
                               </p>
                             </div>
                           </div>
@@ -282,9 +282,52 @@ const CaseStudyTimosco = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                We helped Timesco to easily move to Dynamics 365
-                                Business Central and seamlessly start using the
-                                newly upgraded system.
+                                Dynamics Square helped them link the related
+                                products to sell with the customer's current
+                                data.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="swiper-slide">
+                        <div className="swiper-slide">
+                          <div className="industries-list-more">
+                            <div className="img-wrp">
+                              <img
+                                src="/img/material-lightbulb-outline.svg"
+                                alt="proffesional-service"
+                              />
+                            </div>
+                            <div className="text-wrp-content">
+                              <p>
+                                Whenever a particular item is sold, the linked
+                                products will be displayed in the sales
+                                invoice's suggestion section, making it visible
+                                for purchase to the current customer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="swiper-slide">
+                        <div className="swiper-slide">
+                          <div className="industries-list-more">
+                            <div className="img-wrp">
+                              <img
+                                src="/img/material-lightbulb-outline.svg"
+                                alt="proffesional-service"
+                              />
+                            </div>
+                            <div className="text-wrp-content">
+                              <p>
+                                We helped Wiper Supply Services gain more
+                                visibility for the new products, making it
+                                easier for them to up-sell and cross-sell.
                               </p>
                             </div>
                           </div>
@@ -316,11 +359,8 @@ const CaseStudyTimosco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Timesco is now using D365 Business Central on the cloud
-                      while leveraging Azure-based data-driven practices
-                      integrated with Outlook helping them to accelerate their
-                      business flow while improving their financial capabilities
-                      and ensuring reliable compliance management.
+                      Dynamics Square helped them grow in the number of sales
+                      compared with last quarter.
                     </p>
                   </div>
                 </div>
@@ -333,14 +373,12 @@ const CaseStudyTimosco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Timesco ensured that they have doubled their production
-                      capacity and increased their revenue by leveraging
-                      connected data experience gained through our integrated
-                      business management solution.
+                      With the help of Dynamics Square's expert team, Wiper
+                      Supply Services has achieved a rise in sales, 3X of the
+                      current sales.
                     </p>
                   </div>
                 </div>
-
                 <div className="content-inner-moil-1">
                   <div className="icons-left">
                     <div className="ext-bord">
@@ -349,21 +387,64 @@ const CaseStudyTimosco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Our end-to-end user training and support helped Timesco
-                      employees to adapt, learn, and use the system efficiently
-                      without losing the current workflow.
+                      The current customers of Wiper Supply Services started
+                      ordering new products more frequently than earlier. With
+                      the sales of old products, the new products also started
+                      to gain some visibility and sales in the market.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      The new products get a boost in sales with the help of a
+                      new product marketing strategy.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      <Link
+                        href="/our-services/dynamics-365-support-services/"
+                        target="_blank"
+                      >
+                        Dynamics Square Support
+                      </Link>{" "}
+                      helps them create a strategy that doesn't need extra cost
+                      to market the new products. The ROI (return over
+                      investment) cost of new product marketing for old
+                      customers becomes almost zero.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      Our support team helped them increase the total number of
+                      sales and new customers.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              <Image
-                src="/img/Group1435.png"
-                alt="Group1435"
-                width={640}
-                height={598}
-              />
+            <div className="col-lg-6 align-self-center">
+              <Image src="/img/Group1435.png" alt="Group1435"  width={640} height={598}/>
             </div>
           </div>
         </div>
@@ -379,8 +460,8 @@ const CaseStudyTimosco = () => {
                   skills and commitment to us. They analyze the situation and
                   deliver to best fit our requirement and solutions.
                 </p>
-                <h4>Mark Shaxted</h4>
-                <span>Operations Manager | CRM Trading</span>
+                <h4>Andrew Farleigh</h4>
+                <span>Director, Wiper Supply Services</span>
               </div>
             </div>
           </div>
@@ -406,12 +487,11 @@ const CaseStudyTimosco = () => {
                 <div className="m-o-t m-o-t-inde">
                   <Link href="#exampleModal">
                     <a
-                      data-bs-toggle="modal"
-                      href="#exampleModal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Schedule a Demo</span>
-                    </a>
+                    data-bs-toggle="modal"
+                    
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Schedule a Demo</span></a>
                   </Link>
                 </div>
               </div>
@@ -423,4 +503,4 @@ const CaseStudyTimosco = () => {
   );
 };
 
-export default CaseStudyTimosco;
+export default CaseStudyWiper;

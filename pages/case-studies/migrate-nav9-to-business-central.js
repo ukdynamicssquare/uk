@@ -1,46 +1,43 @@
-import Link from "next/link"; 
-import Head from 'next/head';
-import Image from 'next/image';
+import Link from "next/link";
+import Head from "next/head";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 
-const CaseStudyPasante = () => {
-    return (
-      <>
-        <Head>
-        <title>
-          Pasante | Upgrade to Dynamics 365 Business Central On-Premises
-        </title>
+const CaseStudyArteak = () => {
+  return (
+    <>
+      <Head>
+        <title>Migrate NAV 9 R2 to Dynamics 365 Business Central</title>
         <meta
           name="description"
-          content="Pasante worked with Dynamics Square to upgrade from Dynamics NAV 2009 to Dynamics NAV 2018. Read CRM Trading case story to gain insights."
+          content="A one of the leading HSSE consulting and operational service provider collaborated with Dynamics Square to enhance their system from Dynamics NAV 9 R2 to Dynamics 365 Business Central migration. Explore this case study!"
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/case-studies/pasante/"
+          href="https://www.dynamicssquare.co.uk/case-studies/migrate-nav9-to-business-central/"
         />
-        </Head>
-        <section className="hero-1 hero">
+      </Head>
+      <section className="hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
-                  <span className="date-ti">Pasante Case Study</span>
-                  <h1>World's Largest British Based Condom Manufacturer.</h1>
-                  <p>Upgrade to Dynamics 365 Business Central On-Premises</p>
+                  <span className="date-ti">Case Study</span>
+                  <h1>Migrate NAV 9 R2 to Dynamics 365 Business Central</h1>
+                  <p>Implementation of Dynamics 365 Business Central Cloud</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="sider-over">
-                <Image
-                  src="/img/Dynamics-365-Business-Central.png"
-                  alt="business centeral implementation"
-                  width={1024} height={597}
+                <img
+                  src="/img/business-central-implementation-banner-1.svg"
+                  alt="business-central-implementation-banner"
                 />
               </div>
             </div>
@@ -53,29 +50,28 @@ const CaseStudyPasante = () => {
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="row bg-case">
-                <div className="col-lg-3 align-self-center">
-                  <img src="/img/pasante-logo.png" alt="pasante-logo" />
+                <div className="col-lg-3 align-self-center text-center">
+                  <img
+                    src="/img/casestudy-pic.png"
+                    alt="casestudy-pic"
+                  />
                 </div>
-                <div className="col-lg-9">
+                <div className="col-lg-9 align-self-center">
                   <p>
-                    Established in 1992, it was the first condom store in the UK{" "}
+                    With the headquarters situated in London,{" "}
                     <a
-                      href="https://pasante.com/"
+                      href="https://arteakltd.co.uk/"
                       rel="noopener nofollow"
                       target="_blank"
                     >
                       {" "}
-                      Pasante
+                      Arteak{" "}
                     </a>{" "}
-                    is the world's leading British brand, fully established in
-                    2000 to manufacture sexual health products. They provide the
-                    best sexual health products to consumers and inspire them to
-                    make better choices for their health. Also, they are in
-                    partnership with NHS (National Health Services) and NPOs
-                    (Non-profit organizations) to provide safe products to the
-                    mass. PHL (Pasante Healthcare Limited) exports its products
-                    to more than 45 countries globally. Even, It is the largest
-                    condom supplier to NHS and for many charity organizations.
+                    is serving its expertise in HSSE consulting and operational
+                    services. Arteak offers a wide range of services to its
+                    national as well as international clients to consistently
+                    manage the HSE (Health, Safety, and Environment) and
+                    register unhindered growth.
                   </p>
                 </div>
               </div>
@@ -94,7 +90,7 @@ const CaseStudyPasante = () => {
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407}/>
+              <Image src="/img/cast-stu-pic.png" alt="Case studies Dynamicsquare" width={487} height={404}/>
             </div>
             <div className="col-lg-6">
               <div className="content-icons-modil-1">
@@ -106,16 +102,10 @@ const CaseStudyPasante = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Pasante was not satisfied with the working of{" "}
-                      <Link
-                        href="/products/microsoft-dynamics-nav/"
-                        target="_blank"
-                      >
-                        Dynamics NAV
-                      </Link>{" "}
-                      2009. They were looking for an On-Premises ERP (Enterprise
-                      Resource Planning) solution to manage some departments
-                      like finance, supply chain, and customer service.
+                      Arteak Limited was not satisfied with the accounting
+                      system accuracy of their old NAV version. They were
+                      looking for a cloud ERP (Enterprise Resource Planning)
+                      solution to streamline the finance and accounting system.
                     </p>
                   </div>
                 </div>
@@ -128,11 +118,9 @@ const CaseStudyPasante = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Pasante were facing performance difficulties from NAV09.
-                      Their NAV versions perform slower in simple tasks like
-                      opening ledgers and exporting data. These tasks were
-                      impacting the performance of the users as well as the
-                      overall efficiency.
+                      Arteak was facing difficulties in managing the increasing
+                      workload on the company with their version of NAV. They
+                      are unable to match their existing trial balance.
                     </p>
                   </div>
                 </div>
@@ -145,17 +133,23 @@ const CaseStudyPasante = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      The business of Pasante was expanding, but the older
-                      version of NAV was not allowing them to scale in terms of
-                      technology and functionality. They want to upgrade their
-                      NAV version to{" "}
-                      <Link
-                        href="/products/dynamics-365-business-central/"
-                        target="_blank"
-                      >
-                        Dynamics 365 Business Central,
-                      </Link>{" "}
-                      to scale the processes.
+                      Arteak Limited was unsatisfied with the support and
+                      services of its existing ERP partner.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-exclamation-triangle"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      Their existing server was deployed on a host server and
+                      the hosting provider refused to provide any access for
+                      further development work for the sake of organization
+                      growth.
                     </p>
                   </div>
                 </div>
@@ -168,8 +162,10 @@ const CaseStudyPasante = () => {
                   <div className="cintent-right">
                     <p>
                       Due to the mandatory submission of VAT returns to HMRC,
-                      they were facing issues with NAV09 as it was not
-                      compatible with the new norms of the UK government.
+                      they were facing issues with their NAV version as it was
+                      not compatible with the new norms of the UK government for
+                      all VAT returns. This submission has to be done
+                      electronically.
                     </p>
                   </div>
                 </div>
@@ -183,9 +179,7 @@ const CaseStudyPasante = () => {
         <div className="container">
           <header className="section-header">
             <h2>Solution Delivered</h2>
-            <p>
-              Upgrading to Microsoft Dynamics 365 Business Central On-Premises
-            </p>
+            <p>Upgrading to Dynamics 365 Business Central Online</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -238,9 +232,13 @@ const CaseStudyPasante = () => {
                           </div>
                           <div className="text-wrp-content">
                             <p>
-                              <Link href="/">Dynamics Square</Link> upgraded
-                              the ERP of Pasante from NAV09 to Microsoft
-                              Dynamics 365 Business Central On-premise.
+                              Dynamics Square upgraded Arteak's ERP from an
+                              older version of{" "}
+                              <Link href="/products/microsoft-dynamics-nav/">
+                                
+                                Dynamics NAV
+                              </Link>{" "}
+                              to Microsoft Dynamics 365 Business Central Online.
                             </p>
                           </div>
                         </div>
@@ -258,11 +256,9 @@ const CaseStudyPasante = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                Dynamics 365 Business Central enables the
-                                employees of Pasante to manage the entire
-                                business from one dashboard with total security
-                                due to the secured on-premises database
-                                deployment.
+                                Business Central Cloud enables the employees of
+                                Arteak LImited to run and manage the entire
+                                business from anywhere and anytime.
                               </p>
                             </div>
                           </div>
@@ -281,10 +277,14 @@ const CaseStudyPasante = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                The whole business system of Pasante
-                                re-structured on their legacy production
-                                process. This makes the users manage the
-                                processes of all departments from one dashboard.
+                                <Link
+                                  target="_blank"
+                                  href="/products/dynamics-365-business-central/"
+                                >
+                                  Microsoft Dynamics BC
+                                </Link>{" "}
+                                helped them in dealing with finance and
+                                accounting needs.
                               </p>
                             </div>
                           </div>
@@ -303,29 +303,7 @@ const CaseStudyPasante = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                Dynamics 365 Business Central is capable of
-                                streamlining the tasks such as setup change,
-                                user tasks, maintaining employee ledger, and
-                                more.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="swiper-slide">
-                        <div className="swiper-slide">
-                          <div className="industries-list-more">
-                            <div className="img-wrp">
-                              <img
-                                src="/img/material-lightbulb-outline.svg"
-                                alt="proffesional-service"
-                              />
-                            </div>
-                            <div className="text-wrp-content">
-                              <p>
-                                We helped Pasante with the required
+                                We helped Arteak Limited with the required
                                 customizations and integrations for seamless
                                 operations.
                               </p>
@@ -346,11 +324,11 @@ const CaseStudyPasante = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                Dynamics Square helped Pasante understand the
-                                Business Intelligence feature of Dynamics 365
-                                Business Central. It helped them gain accurate
-                                insights about all the processes and operations
-                                and make informed decisions whenever needed.
+                                Dynamics Square helped the client understand all
+                                features and tools of Business Central Online
+                                and helped them connect data across the
+                                departments, like finance, accounting, sales,
+                                and customer management.
                               </p>
                             </div>
                           </div>
@@ -382,10 +360,8 @@ const CaseStudyPasante = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      The system of Pasante started to perform flawlessly
-                      without any glitches after the upgrade. Also, Dynamics
-                      Square resolved the common issue of slow opening and slow
-                      execution of simple tasks.
+                      The new ERP solution of Arteak Limited started to perform
+                      flawlessly without any lag issues.
                     </p>
                   </div>
                 </div>
@@ -398,10 +374,50 @@ const CaseStudyPasante = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
+                      Arteak Limited is now able to match the accurate figures
+                      of their turnovers along with the allocated costs.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      The hectic task of analyzing the business income over
+                      expenditure become simple.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      Now, they can use Dynamics 3655 Business Central to
+                      generate the balance sheet and profit/loss statements, and
+                      can share the same with the concerned people in a matter
+                      of few clicks.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
                       The client now works with the new technology to make the
-                      business work smoothly without any system performance
-                      issues. Now, they are able to automate the assembly order
-                      process.
+                      business smooth without system performance issues. Now,
+                      they are able to automate the production process.
                     </p>
                   </div>
                 </div>
@@ -413,9 +429,9 @@ const CaseStudyPasante = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      The process of importing and exporting data/reports has
-                      become easy and accurate with the new technical
-                      architecture.
+                      After the implementation of new ERP, they posses complete
+                      control and safety over ERP data due to the server
+                      deployment on Microsoft Azure.
                     </p>
                   </div>
                 </div>
@@ -427,10 +443,9 @@ const CaseStudyPasante = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      We helped them integrate their system with other Microsoft
-                      apps like office, excel, etc. This enables the client to
-                      share the reports or data with other users in a few
-                      clicks.
+                      With the help of Business Central, they can share the tax
+                      invoice of their client over email, saving a lot of manual
+                      paperwork.
                     </p>
                   </div>
                 </div>
@@ -442,37 +457,16 @@ const CaseStudyPasante = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      With the new{" "}
-                      <Link
-                        href="/products/dynamics-365-business-central/"
-                        target="_blank"
-                      >
-                        Dynamics 365 Business Central,
-                      </Link>{" "}
-                      it becomes easy to submit the tax reports as MTD returns
-                      with HMRC directly from Business Central without any
-                      delay.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>
-                      As a trusted partner, Dynamics Square helped them
-                      understand the working of 365 Business Central for growth
-                      and scalability.
+                      With the new Dynamics 365 Business Central, it becomes
+                      easy to submit the tax reports as MTD returns with HMRC
+                      directly from Business Central without any delay
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598} />
+              <Image src="/img/Group1435.png" alt="Dynamics square casestudy" width={640} height={598}/>
             </div>
           </div>
         </div>
@@ -484,17 +478,14 @@ const CaseStudyPasante = () => {
             <div className="col-md-12">
               <div className="case-clent-test">
                 <p>
-                  We were quite nervous about upgrading our ERP system to the
-                  new version of Business Central, fortunately Nitesh and the
-                  team of Dynamics Square were there to support us through all
-                  the trials and tribulations resulting in successful rollout of
-                  our stall. We can already see the growth in production brought
-                  by our new system and we're only one and a half months in.
-                  Thanks again to the team of Dynamics Square for all the
-                  support and hardwork.
+                  We worked with Nitesh to further customize our Microsoft
+                  Dynamics Package. He provided us a top level service with well
+                  trained staff as well as excellent support when needed.
+                  Dynamics Square is a very professional and trustworth. Will
+                  surely recommend to everyone
                 </p>
-                <h4>Nicolas Hopwood</h4>
-                <span> IT and Facilities Manager, Pasante</span>
+                <h4>Terence Turner</h4>
+                <span>General Manager | Arteak Limited</span>
               </div>
             </div>
           </div>
@@ -521,7 +512,7 @@ const CaseStudyPasante = () => {
                   <Link href="#exampleModal">
                     <a
                     data-bs-toggle="modal"
-                    href="#exampleModal"
+                    
                     className="btn-get-started scrollto"
                   >
                     <span>Schedule a Demo</span></a>
@@ -532,9 +523,8 @@ const CaseStudyPasante = () => {
           </div>
         </div>
       </section>
-      </>
-    );
-  };
+    </>
+  );
+};
 
-  export default CaseStudyPasante;
-  
+export default CaseStudyArteak;

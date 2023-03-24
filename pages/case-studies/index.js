@@ -120,20 +120,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/crm-trading-1.png"
+                            src="/img/case-studies-1.jpg"
                             alt="crm-trading"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            See how CRM Trading boosted it's operational
-                            efficiency by upgrading from Dynamics NAV 2009 to
-                            Dynamics NAV 2018.
+                            UK's top personal care brand boosted operational efficiency up to 4X by upgrading from Dynamics NAV 2009 to Dynamics NAV 2018. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/crm-trading/"
+                            href="/case-studies/nav09-nav18-upgrade/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -145,20 +143,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/pasante-logo.png"
-                            alt="pasante-logo.png"
+                            src="/img/case-studies-2.jpg"
+                            alt="case-studies-2.jpg"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Find out how Pasante improved accuracy and
-                            productivity by upgrading from Dynamics NAV to
-                            Business Central On-premise.
+                            UK's top sexual wellness brand improved productivity by up to 68% by upgrading to Business Central On-premise from Dynamics NAV. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/pasante/"
+                            href="/case-studies/nav09-to-business-central-upgrade/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -171,20 +167,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/timesco-logo.png"
+                            src="/img/case-studies-3.jpg"
                             alt="timesco-logo"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Explore how Timesco improved production capacity and
-                            doubled revenue by upgrading Dynamics NAV to
-                            Business Central Online.
+                            A medical instrument supplier and manufacturer doubled revenue and improved production capacity by upgrading to Business Central Online from Dynamics NAV.
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/timesco/"
+                            href="/case-studies/nav13R2-to-business-central/ "
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -196,20 +190,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/cqc-logo-1-300x103-1.png"
+                            src="/img/case-studies-4.jpg"
                             alt="cqc-logo-1-300x103-1"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Discover how CQC improved accounting capabilities by
-                            implementing Microsoft Dynamics 365 Business Central
-                            online
+                            A UK's leading defence apparel manufacturer increased efficiency and accuracy by up to 50% by implementing Microsoft Dynamics 365 Business Central online. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/cqc/"
+                            href="/case-studies/nav2009R2-to-business-central/ "
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -221,20 +213,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/cropped-arteak-logo-2.png"
+                            src="/img/case-studies-5.jpg"
                             alt="cropped-arteak-logo-2"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            See how Arteak Limited improved overall accounting
-                            and financial processes by implementing Dynamics 365
-                            Business Central.
+                            Learn how an HSSE consulting firm improved overall accounting and financial processes by implementing Dynamics 365 Business Central. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/arteak/"
+                            href="/case-studies/migrate-nav9-to-business-central/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -246,20 +236,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/wipersupplywide-1-300x54-1.png"
+                            src="/img/case-studies-6.jpg"
                             alt="wipersupplywide-1-300x54-1"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Explore how Wiper Supply Services doubled sales
-                            volume and customers by getting dedicated support
-                            from Dynamics Square.
+                            A UK-based paper and forest product manufacturer doubled its sales volume and customers with dedicated support from Dynamics Square. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/wiper-supply-services/"
+                            href="/case-studies/nav-2016-support-services/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -270,18 +258,16 @@ const CategoryList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/tea.png" alt="tea" />
+                          <img src="/img/case-studies-7.jpg" alt="tea" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Learn how Dynamics Square helped Global Tea &
-                            Commodities Limited by customizing and providing
-                            stress-free Dynamics NAV support.
+                            Learn how a UK-based tea manufacturing brand received stress-free Dynamics NAV support from Dynamics Square through customization and dedicated services. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/global-tea/"
+                            href="/case-studies/nav16-support/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -302,20 +288,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/crm-trading-1.png"
+                            src="/img/case-studies-1.jpg"
                             alt="crm-trading"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            See how CRM Trading boosted it's operational
-                            efficiency by upgrading from Dynamics NAV 2009 to
-                            Dynamics NAV 2018.
+                            UK's top personal care brand boosted operational efficiency up to 4X by upgrading from Dynamics NAV 2009 to Dynamics NAV 2018. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/crm-trading/"
+                            href="/case-studies/nav09-nav18-upgrade/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -327,20 +311,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/pasante-logo.png"
-                            alt="pasante-logo.png"
+                            src="/img/case-studies-2.jpg"
+                            alt="case-studies-2.jpg"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Find out how Pasante improved accuracy and
-                            productivity by upgrading from Dynamics NAV to
-                            Business Central On-premise.
+                            UK's top sexual wellness brand improved productivity by up to 68% by upgrading to Business Central On-premise from Dynamics NAV. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/pasante/"
+                            href="/case-studies/nav09-to-business-central-upgrade/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -353,20 +335,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/timesco-logo.png"
+                            src="/img/case-studies-3.jpg"
                             alt="timesco-logo"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Explore how Timesco improved production capacity and
-                            doubled revenue by upgrading Dynamics NAV to
-                            Business Central Online.
+                            A medical instrument supplier and manufacturer doubled revenue and improved production capacity by upgrading to Business Central Online from Dynamics NAV.
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/timesco/"
+                            href="/case-studies/nav13R2-to-business-central/ "
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -387,20 +367,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/cqc-logo-1-300x103-1.png"
+                            src="/img/case-studies-4.jpg"
                             alt="cqc-logo-1-300x103-1"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Discover how CQC improved accounting capabilities by
-                            implementing Microsoft Dynamics 365 Business Central
-                            online
+                            A UK’s leading defence apparel manufacturer increased efficiency and accuracy by up to 50% by implementing Microsoft Dynamics 365 Business Central online. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/cqc/"
+                            href="/case-studies/nav2009R2-to-business-central/ "
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -412,20 +390,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/cropped-arteak-logo-2.png"
+                            src="/img/case-studies-5.jpg"
                             alt="cropped-arteak-logo-2"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            See how Arteak Limited improved overall accounting
-                            and financial processes by implementing Dynamics 365
-                            Business Central.
+                            Learn how an HSSE consulting firm improved overall accounting and financial processes by implementing Dynamics 365 Business Central. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/arteak/"
+                            href="/case-studies/migrate-nav9-to-business-central/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -446,20 +422,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/wipersupplywide-1-300x54-1.png"
+                            src="/img/case-studies-6.jpg"
                             alt="wipersupplywide-1-300x54-1"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Explore how Wiper Supply Services doubled sales
-                            volume and customers by getting dedicated support
-                            from Dynamics Square.
+                            A UK-based paper and forest product manufacturer doubled its sales volume and customers with dedicated support from Dynamics Square. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/wiper-supply-services/"
+                            href="/case-studies/nav-2016-support-services/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -470,18 +444,16 @@ const CategoryList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/tea.png" alt="tea" />
+                          <img src="/img/case-studies-7.jpg" alt="tea" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Learn how Dynamics Square helped Global Tea &
-                            Commodities Limited by customizing and providing
-                            stress-free Dynamics NAV support.
+                            Learn how a UK-based tea manufacturing brand received stress-free Dynamics NAV support from Dynamics Square through customization and dedicated services. 
                           </p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/global-tea/"
+                            href="/case-studies/nav16-support/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study

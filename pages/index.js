@@ -1304,7 +1304,7 @@ export default function Home() {
                               trustworthy.
                             </p>
                             <h3>Terence Turner</h3>
-                            <h4>General Manager, Arteak</h4>
+                            <h4>General Manager</h4>
                           </div>
                         </div>
                       </div>
@@ -1332,7 +1332,7 @@ export default function Home() {
                               to our staff.
                             </p>
                             <h3>Nicolas Hopwood</h3>
-                            <h4>Facilities Manager, Pasante</h4>
+                            <h4>Facilities Manager</h4>
                           </div>
                         </div>
                       </div>
@@ -1363,7 +1363,7 @@ export default function Home() {
                               professional
                             </p>
                             <h3>Jonathan W</h3>
-                            <h4>Technical Director, Parweld</h4>
+                            <h4>Technical Director</h4>
                           </div>
                         </div>
                       </div>
@@ -1407,107 +1407,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="clients" className="clients">
-        <div className="container" data-aos="fade-up">
-          <div className="clients-slider swiper">
-            <div className="swiper-wrapper align-items-center">
-              <Swiper
-                autoplay={{
-                  delay: 10000,
-                  disableOnInteraction: true,
-                }}
-                slidesPerView={2}
-                spaceBetween={10}
-                breakpoints={{
-                  640: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                  },
-                  768: {
-                    slidesPerView: 4,
-                    spaceBetween: 40,
-                  },
-                  1024: {
-                    slidesPerView: 5,
-                    spaceBetween: 50,
-                  },
-                }}
-                modules={[Autoplay]}
-                className="mySwiper"
-              >
-                <SwiperSlide>
-                  <div className="swiper-slide">
-                    <img
-                      src="/img/clients/client-1.png"
-                      className="img-fluid"
-                      alt="client-1"
-                      width="173"
-                      height="68"
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  {" "}
-                  <div className="swiper-slide">
-                    <img
-                      src="/img/clients/client-2.png"
-                      className="img-fluid"
-                      alt="client-2"
-                      width="173"
-                      height="68"
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper-slide">
-                    <img
-                      src="/img/clients/client-3.png"
-                      className="img-fluid"
-                      alt="client-3"
-                      width="173"
-                      height="68"
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  {" "}
-                  <div className="swiper-slide">
-                    <img
-                      src="/img/clients/client-4.png"
-                      className="img-fluid"
-                      alt="client-4"
-                      width="173"
-                      height="68"
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper-slide">
-                    <img
-                      src="/img/clients/client-5.png"
-                      className="img-fluid"
-                      alt="client-5"
-                      width="173"
-                      height="68"
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper-slide">
-                    <img
-                      src="/img/clients/client-4.png"
-                      className="img-fluid"
-                      alt="client-6"
-                      width="173"
-                      height="68"
-                    />
-                  </div>
-                </SwiperSlide>
-              </Swiper>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section id="casestudys" className="casestudys ">
         <div className="container" data-aos="fade-up">
@@ -1543,13 +1442,6 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <img
-                        src="/img/case-1.png"
-                        className="casestudys-slider-item-img"
-                        alt=""
-                        width="191"
-                        height="76"
-                      />
                       <p>
                         A leading British based manufacturer of Military
                         Equipment implemented Microsoft Dynamics 365 Business
@@ -1567,7 +1459,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="case-button">
-                        <Link href="/case-studies/cqc/">
+                        <Link href="/case-studies/nav2009R2-to-business-central/">
                           <a className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
@@ -1577,13 +1469,7 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <img
-                        src="/img/crm-trading.png"
-                        className="casestudys-slider-item-img"
-                        alt="crm-trading"
-                        width="191"
-                        height="76"
-                      />
+                
                       <p>
                         UK's leading fragrance, skincare, cosmetics, and
                         haircare wholesaler was looking to improve its
@@ -1601,7 +1487,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="case-button">
-                        <Link href="/case-studies/crm-trading/">
+                        <Link href="/case-studies/nav09-nav18-upgrade/">
                           <a className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
@@ -1611,13 +1497,6 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <img
-                        src="/img/wipersupplywide.png"
-                        className="casestudys-slider-item-img"
-                        alt="wipersupplywide"
-                        width="191"
-                        height="76"
-                      />
                       <p>
                         British-based Hygienic Disposable Cleaning & Wiping
                         Products wholesaler wanted to up and cross sell to
@@ -1635,7 +1514,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="case-button">
-                        <Link href="/case-studies/wiper-supply-services/">
+                        <Link href="/case-studies/nav-2016-support-services/">
                           <a className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>

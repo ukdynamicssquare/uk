@@ -1,47 +1,47 @@
-import Link from "next/link"; 
-import Head from 'next/head';
-import Image from 'next/image';
+import Link from "next/link";
+import Head from "next/head";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 
-const CaseStudyCqc = () => {
-    return (
-      <>
-        <Head>
-        <title>CQC | Dynamics 365 Business Central Implementation</title>
+const CrmTrading = () => {
+  return (
+    <>
+      <Head>
+      <title>Dynamics NAV 2009 to NAV 2018 Upgrade | Case Study</title>
         <meta
           name="description"
-          content="CQC worked with Dynamics Square to implement Microsoft Dynamics 365 Business Central cloud. Read CQC case story to gain insights."
+          content="UK's leading fragrance supplier worked with Dynamics Square to upgrade from Dynamics NAV 2009 to Dynamics NAV 2018. Read the case story to gain insights."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/case-studies/cqc/"
+          href="https://www.dynamicssquare.co.uk/case-studies/nav09-nav18-upgrade/"
         />
-          
-        </Head>
-        <section className="hero-1 hero">
+      </Head>
+      <section className="hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
-                  <span className="date-ti">CQC Case Study</span>
-                  <h1>
-                    World's leading British-based Textile Products manufacturer
-                    for Military.
-                  </h1>
-                  <p>Implementation of Dynamics 365 Business Central Cloud</p>
+                  <span className="date-ti">Case Study</span>
+                  <h1>Dynamics NAV 2009 to NAV 2018 Upgrade</h1>
+                  <p>
+                    Boost up the operational efficiency with Microsoft Dynamics
+                    NAV 2018
+                  </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="sider-over">
-                <img
-                  src="/img/business-central-implementation-banner-1.svg"
-                  alt="business-central-implementation-banner"
+                <Image
+                  src="/img/Dynamics-365-Business-Central.png"
+                  alt="Business central casestudy"
+                  width={1024} height={597}
                 />
               </div>
             </div>
@@ -55,25 +55,32 @@ const CaseStudyCqc = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                  <img src="/img/cqc-logo.png" alt="cqc-logo" />
-                </div>
+               <div> <div><img
+                    src="/img/casestudy-pic.png"
+                    alt="casestudy-pic"
+                  /></div>
+                </div></div>
                 <div className="col-lg-9">
                   <p>
-                    Established in 1948,{" "}
+                    Established in 1982,{" "}
                     <a
-                      href="https://cqc.co.uk/"
+                      href="https://crmtrading.co.uk/"
                       rel="noopener nofollow"
                       target="_blank"
                     >
-                      {" "}
-                      CQC{" "}
+                      CRM Trading
                     </a>{" "}
-                    is the world-leading manufacturer of textile products mainly
-                    for the defense market. CQC is known for its world-class
-                    high quality and robust military products serving the UK
-                    Ministry of Defense and other international military
-                    agencies. CQC is working to establish itself as one of the
-                    UK experts in designing and manufacturing CBRN clothing.
+                    is the leading wholesaler of fragrance, skincare, hair-care,
+                    and cosmetics. With over 35 years of experience in the
+                    beauty industry, they have been serving their products to a
+                    number of brands like Calvin Klein, Davidoff, Vera Wang,
+                    Marc Jacobs, and Sarah Jessica Parker. With a warehouse
+                    based in the UK, they are ready to source any products and
+                    deliver them to the destination within the UK and abroad.
+                    Also, they are available in trade shows like Spring and
+                    Autumn Fairs at NEC Birmingham, Cosmoprof in Bologna, and
+                    the TFWA show in Cannes to showcase their wide variety of
+                    premium products.
                   </p>
                 </div>
               </div>
@@ -92,7 +99,7 @@ const CaseStudyCqc = () => {
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={487} height={407}/>
+              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407}/>
             </div>
             <div className="col-lg-6">
               <div className="content-icons-modil-1">
@@ -104,17 +111,15 @@ const CaseStudyCqc = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      CQC was not satisfied with the inventory valuation of
-                      their current{" "}
+                      CRM Trading was not satisfied with the output of{" "}
                       <Link
                         href="/products/microsoft-dynamics-nav/"
                         target="_blank"
                       >
-                        NAV version.
-                      </Link>
-                      They were looking for a cloud ERP (Enterprise Resource
-                      Planning) solution to manage finance, supply chain, and
-                      inventory departments.
+                        Dynamics NAV
+                      </Link>{" "}
+                      2009. They primarily need an ERP solution to manage
+                      finance, but NAV09 lacks several aspects.
                     </p>
                   </div>
                 </div>
@@ -127,10 +132,10 @@ const CaseStudyCqc = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      They were facing difficulties tallying their inventory
-                      with the trial balance of any financial period. This issue
-                      was impacting the financial performance of the overall
-                      business.
+                      Facing difficulties in dealing with the expansion in
+                      business operations in terms of transaction volume. Also,
+                      they cannot manage the increase in workload due to the
+                      high volume of business operations.
                     </p>
                   </div>
                 </div>
@@ -143,8 +148,8 @@ const CaseStudyCqc = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      CQC could not match and manage the actual WIP
-                      (work-in-progress) figure and BIN-wise inventory.
+                      NAV09 starts to perform slower in completing the tasks
+                      like opening ledgers and exporting data in excel.
                     </p>
                   </div>
                 </div>
@@ -156,24 +161,9 @@ const CaseStudyCqc = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      They were experiencing issues matching the figures between
-                      product consumption and product production.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-exclamation-triangle"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>
-                      Due to the mandatory submission of VAT returns to HMRC,
-                      they were facing issues with their NAV version as it was
-                      not compatible with the new norms of the UK government for
-                      all VAT returns. This submission has to be done
-                      electronically.
+                      Due to the new norms by the UK government, the MTD (Making
+                      Tax Digital) compliance became mandatory, and NAV09 was
+                      not built for this.
                     </p>
                   </div>
                 </div>
@@ -240,12 +230,8 @@ const CaseStudyCqc = () => {
                           </div>
                           <div className="text-wrp-content">
                             <p>
-                              Dynamics Square upgraded the ERP of CQC from{" "}
-                              <Link href="/dynamics-nav-to-business-central/">
-                               
-                                NAV to Microsoft Dynamics 365 Business Central
-                                Online.
-                              </Link>
+                              Dynamics Square upgraded CRM Trading's System from
+                              NAV09 to NAV 2018.
                             </p>
                           </div>
                         </div>
@@ -263,9 +249,8 @@ const CaseStudyCqc = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                D365 Business Central Cloud enables the users of
-                                CQC to run and manage the entire business from
-                                anywhere and anytime.
+                                We have integrated the whole Financial process
+                                into NAV 2018 to meet the accounting needs.
                               </p>
                             </div>
                           </div>
@@ -284,15 +269,9 @@ const CaseStudyCqc = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                <Link
-                                  target="_blank"
-                                  href="/products/dynamics-365-business-central/"
-                                >
-                                  Dynamics 365 Business Central
-                                </Link>{" "}
-                                Online helped the client meet their accounting
-                                needs by implementing this new online ERP
-                                solution.
+                                NAV 2018 is capable of streamlining the tasks
+                                such as setup change, user tasks, maintaining
+                                employee ledger, and more.
                               </p>
                             </div>
                           </div>
@@ -311,8 +290,10 @@ const CaseStudyCqc = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                We helped CQC with the required customizations
-                                and integrations for seamless operations.
+                                Dynamics Square helped CRM Trading to understand
+                                the NAV's Business Intelligence, which helped
+                                them gain accurate insights about the business
+                                and make informed decisions in real-time.
                               </p>
                             </div>
                           </div>
@@ -331,11 +312,8 @@ const CaseStudyCqc = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                Dynamics Square helped the client understand all
-                                features and tools of Business Central Online
-                                and helped them connect data across the
-                                departments, like finance, inventory, sales, and
-                                purchase.
+                                We helped CRM Trading embed the NAV 2018 with
+                                apps like Office 365 and Microsoft Excel.
                               </p>
                             </div>
                           </div>
@@ -367,8 +345,10 @@ const CaseStudyCqc = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      The upgraded system of CQC started to perform flawlessly
-                      without any lag issues.
+                      The system of CRM Trading started to perform flawlessly
+                      and glitch-free since the upgrade. Also, the client's
+                      issue about the slow opening of ledgers is resolved with
+                      one click opening.
                     </p>
                   </div>
                 </div>
@@ -381,9 +361,15 @@ const CaseStudyCqc = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Dynamics Square has resolved the issues of inventory
-                      management. They are now able to tally its inventory
-                      valuation with TB (Trial Balance).
+                      With{" "}
+                      <Link
+                        href="/products/microsoft-dynamics-nav/"
+                        target="_blank"
+                      >
+                        Dynamics NAV 2018
+                      </Link>
+                      , the client was able to export any number of data to
+                      excel without any error or issue.
                     </p>
                   </div>
                 </div>
@@ -395,8 +381,11 @@ const CaseStudyCqc = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      CQC started getting accurate WIP (work-in-progress)
-                      figures and can monitor the data in real-time.
+                      The integration with Microsoft Office 365 enables the
+                      client to share the reports or data, like tax invoices,
+                      through e-mails instantly with their customers. This
+                      real-time sharing of data results in quicker disbursement
+                      of the products and paper savings for nature.
                     </p>
                   </div>
                 </div>
@@ -408,8 +397,8 @@ const CaseStudyCqc = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      With multi-bins on location, the client was able to get
-                      the bin-wise inventory position.
+                      With the NAV 2018, CRM Trading can now submit its tax
+                      reports as MTD return with HMRC without any delay.
                     </p>
                   </div>
                 </div>
@@ -421,59 +410,16 @@ const CaseStudyCqc = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      With the help of Business Intelligence of Dynamics 365
-                      Business Central, the system started to give suggestions
-                      to the client for the consumed raw material against the
-                      produced products.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>
-                      The client now works with the new technology to make the
-                      business smooth without system performance issues. Now,
-                      they are able to automate the production process.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>
-                      With Dynamics 365 Business Central, it becomes easy to
-                      submit the tax reports as MTD returns with HMRC directly
-                      from Business Central without any delay.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>
-                      As a trusted partner, Dynamics Square helped them
-                      understand the working of 365 Business Central for growth
-                      and scalability.
+                      As a trusted partner, Dynamics Square helped CRM Trading
+                      for the betterment of the support ticket system to measure
+                      the time and quality.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598}  />
+              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598}/>
             </div>
           </div>
         </div>
@@ -485,20 +431,12 @@ const CaseStudyCqc = () => {
             <div className="col-md-12">
               <div className="case-clent-test">
                 <p>
-                  I recommend Dynamics Square as a provider of Microsoft
-                  Dynamics 365. We were using a very old version of NAV which
-                  was time-consuming and not user-friendly. Nitesh called me to
-                  offer the services of Dynamics Square as a partner, and it was
-                  a good decision to change and upgrade to Dynamics 365 Business
-                  Central Cloud. At first, my team was hesitant to use the
-                  upgraded version of ERP, but after training and testing, we
-                  have 6+ months of good experience. With the upgraded system,
-                  we are happy with our decision. The service provided by
-                  Dynamics Square has been great during the implementation, and
-                  Nitesh has continued to keep in touch with us for follow-up.
+                  We are impressed with their product awareness, technical
+                  skills and commitment to us. They analyze the situation and
+                  deliver to best fit our requirement and solutions.
                 </p>
-                <h4>Davina Bevan</h4>
-                <span>Finance Director, CQC Limited</span>
+                <h4>Mark Shaxted</h4>
+                <span>Operations Manager | CRM Trading</span>
               </div>
             </div>
           </div>
@@ -523,9 +461,8 @@ const CaseStudyCqc = () => {
                 </p>
                 <div className="m-o-t m-o-t-inde">
                   <Link href="#exampleModal">
-                    <a
-                    data-bs-toggle="modal"
-                    
+                    <a data-bs-toggle="modal"
+                    href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Schedule a Demo</span></a>
@@ -536,9 +473,8 @@ const CaseStudyCqc = () => {
           </div>
         </div>
       </section>
-      </>
-    );
-  };
+    </>
+  );
+};
 
-  export default CaseStudyCqc;
-  
+export default CrmTrading;

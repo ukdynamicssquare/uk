@@ -261,7 +261,14 @@
     { "source": "/products/microsoft-dynamics-sharepoint/", "destination": "/", "statusCode": 301 },
     { "source": "/products/microsoft-dynamics-365-retail/", "destination": "/products/microsoft-dynamics-365-commerce/", "statusCode": 301 },
     { "source": "/products/microsoft-azure/mobile/", "destination": "/products/microsoft-azure/", "statusCode": 301 },
-    { "source": "/topics/microsoft-dynamics-nav-upgrade/", "destination": "/dynamics-nav-to-business-central/", "statusCode": 301 }
+    { "source": "/topics/microsoft-dynamics-nav-upgrade/", "destination": "/dynamics-nav-to-business-central/", "statusCode": 301 },
+    { "source": "/case-studies/crm-trading/ ", "destination": "/case-studies/nav09-nav18-upgrade/ ", "statusCode": 301 },
+    { "source": "/case-studies/pasante/", "destination": "/case-studies/nav09-to-business-central-upgrade/", "statusCode": 301 },
+    { "source": "/case-studies/timesco/", "destination": "/case-studies/nav13R2-to-business-central/", "statusCode": 301 },
+    { "source": "/case-studies/cqc/", "destination": "/case-studies/nav2009R2-to-business-central/", "statusCode": 301 },
+    { "source": "/case-studies/arteak/", "destination": "/case-studies/migrate-nav9-to-business-central/", "statusCode": 301 },
+    { "source": "/case-studies/wiper-supply-services/", "destination": "/case-studies/nav-2016-support-services/", "statusCode": 301 },
+    { "source": "/case-studies/global-tea/", "destination": "/case-studies/nav16-support/", "statusCode": 301 }
 
 
   ]
