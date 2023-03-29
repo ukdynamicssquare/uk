@@ -7,7 +7,7 @@ const SupportServices = () => {
     <>
       <Head>
       <title>
-          Microsoft Dynamics 365 Support & Services Partner | Dynamics Square
+          Microsoft Dynamics 365 Support & Services Partner UK | Dynamics Square
         </title>
         <meta
           name="description"
@@ -507,6 +507,117 @@ const SupportServices = () => {
                     <Link href="/">Dynamics 365 Consulting services</Link>, we can reveal the best
                     quote for you.
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <header className="section-header">
+            <h2>
+              Most searched <br /> Microsoft Dynamics 365  Support
+            </h2>
+            <p>Click to explore the best answer!</p>
+          </header>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >What is Microsoft Dynamics 365 Support?</button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft offers different business management applications to help streamline their entire business while simplifying existing operations. These applications are supposed to be maintained, updated, and upgraded over time to meet customer as well as market demands. For this, we have certified Microsoft partners who offer support services, as Microsoft doesn,t provide such services directly to businesses. If you own any of the Microsoft Dynamics 365 solutions, you will need an efficient Dynamics 365 support partner for effective business operations.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >Is it necessary to get support?</button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>If you want an efficient working of your business solution and want to resolve critical business issues whenever they arise, you will need the right ERP support partner. Even so, you will need the partner to upgrade or update your existing system to align with the latest business requirements. To avail seamless support, contact Dynamics Square and make your business future-proof.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >How can I avail instant support for Dynamics 365 applications?</button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>It might be possible that you are stuck with an error or an issue that requires immediate support to get it resolved. In such a case, you will need to contact your Dynamics support partner, like Dynamics Square, and avail of ad-hoc support for instant resolution of all your business issues.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >Can I avail support for other Microsoft solutions as well?</button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Yes, most of the Microsoft certified support partner offers their support services to other Microsoft solutions as well. If you have integrated any application of the <Link href="/products/microsoft-power-platform/"><a>Power Platform</a></Link>, like Power BI or <Link href="/products/microsoft-power-apps/"><a>Power Apps</a></Link>, you can get support whenever required.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >Does support from partners help with system updates or upgrades?</button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>If you are working with an outdated ERP or CRM solution and want to update or upgrade it, your support partner can do it easily. Even so, the entire system can be updated without hampering your current business operations.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

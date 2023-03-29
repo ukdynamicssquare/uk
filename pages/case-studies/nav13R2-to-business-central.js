@@ -29,7 +29,7 @@ const CaseStudyTimosco = () => {
                 <div className="top-se">
                   <span className="date-ti">Case Study</span>
                   <h1>NAV 13 R2 to Dynamics 365 Business Central Upgrade</h1>
-                  <p>Upgrade to Dynamics 365 Business Central Online</p>
+                  <p>NAV 13 R2 to Dynamics 365 Business Central Online Upgrade </p>
                 </div>
               </div>
             </div>
@@ -59,20 +59,7 @@ const CaseStudyTimosco = () => {
                   />
                 </div>
                 <div className="col-lg-9">
-                  <p>
-                    Established in 1964,{" "}
-                    <a href="https://timesco.com/" target="_blank">
-                      Timesco
-                    </a>{" "}
-                    is a well-known manufacturer and supplier of surgical
-                    instruments in the UK market and is continuously working to
-                    expand the same globally. Timesco is expanding with a
-                    product range that includes Anesthesia, Surgery, General
-                    Medical, and Podiatry in the medical industry. They are also
-                    working toward innovating and developing medical
-                    technologies to bring awareness and improve the quality of
-                    human life.
-                  </p>
+                  <p>Established in 1964,the company is a well-known manufacturer and supplier of surgical instruments in the UK market and is continuously working to expand the same globally. The company was expanding with a product range that includes Anesthesia, Surgery, General Medical, and Podiatry in the medical industry. They were also working toward innovating and developing medical technologies to bring awareness and improve the quality of human life.</p>
                 </div>
               </div>
             </div>
@@ -106,11 +93,7 @@ const CaseStudyTimosco = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Timesco was not satisfied with their previous Dynamics NAV
-                      support partner in terms of providing on-time system
-                      support and the sort of services they anticipate.
-                    </p>
+                    <p>The company was not satisfied with their previous Dynamics NAV support partner in terms of providing on-time system support and the sort of services they anticipate.</p>
                   </div>
                 </div>
 
@@ -121,9 +104,7 @@ const CaseStudyTimosco = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Facing difficulties while driving their manufacturing,
-                      supplying, and distribution operations through on-premises{" "}
+                    <p>They were facing difficulties while driving their manufacturing, supplying, and distribution operations through on-premises{" "}
                       <Link
                         href="/products/microsoft-dynamics-nav/"
                         target="_blank"
@@ -143,11 +124,7 @@ const CaseStudyTimosco = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Finding a trustworthy partner to upgrade their Dynamics
-                      NAV 2013 R2 system and getting timely support were a
-                      challenge for them.
-                    </p>
+                    <p>Finding a trustworthy partner for NAV 13 R2 to Dynamics 365 Business Central upgrade and getting timely support were the major challenges for them.</p>
                   </div>
                 </div>
               </div>
@@ -160,7 +137,7 @@ const CaseStudyTimosco = () => {
         <div className="container">
           <header className="section-header">
             <h2>Solution Delivered</h2>
-            <p>Upgrading to Dynamics 365 Business Central Online</p>
+            <p>NAV 13 R2 to Dynamics 365 Business Central Online Upgrade</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -213,7 +190,7 @@ const CaseStudyTimosco = () => {
                           </div>
                           <div className="text-wrp-content">
                             <p>
-                              Dynamics Square upgraded Timesco's system from
+                              Dynamics Square upgraded the company system from
                               Dynamics NAV 2013 R2 to{" "}
                               <Link
                                 href="/products/dynamics-365-business-central/"
@@ -238,7 +215,7 @@ const CaseStudyTimosco = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                Integrated Timesco's Business Central account
+                                Integrated the company Business Central account
                                 with third-party Document Management add on and
                                 performed seamless migration to ensure connected
                                 and smoother data-driven practices.
@@ -263,7 +240,7 @@ const CaseStudyTimosco = () => {
                                 We provided onsite UAT (User Acceptance
                                 Training) for two weeks during the pandemic & Go
                                 Live Sessions to ensure seamless user adaptation
-                                to Timesco team.
+                                to the company team.
                               </p>
                             </div>
                           </div>
@@ -282,7 +259,7 @@ const CaseStudyTimosco = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                We helped Timesco to easily move to Dynamics 365
+                                We helped the company to easily move to Dynamics 365
                                 Business Central and seamlessly start using the
                                 newly upgraded system.
                               </p>
@@ -315,13 +292,7 @@ const CaseStudyTimosco = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Timesco is now using D365 Business Central on the cloud
-                      while leveraging Azure-based data-driven practices
-                      integrated with Outlook helping them to accelerate their
-                      business flow while improving their financial capabilities
-                      and ensuring reliable compliance management.
-                    </p>
+                    <p>The company is now using D365 Business Central on the cloud while leveraging Azure-based data-driven practices. Also, the system was integrated with Outlook helping them to accelerate their business flow while improving their financial capabilities and ensuring reliable compliance management.</p>
                   </div>
                 </div>
 
@@ -332,12 +303,7 @@ const CaseStudyTimosco = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Timesco ensured that they have doubled their production
-                      capacity and increased their revenue by leveraging
-                      connected data experience gained through our integrated
-                      business management solution.
-                    </p>
+                    <p>They want to double their production capacity and increase their revenue by leveraging connected data experience through our integrated business management solution.</p>
                   </div>
                 </div>
 
@@ -348,11 +314,7 @@ const CaseStudyTimosco = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Our end-to-end user training and support helped Timesco
-                      employees to adapt, learn, and use the system efficiently
-                      without losing the current workflow.
-                    </p>
+                    <p>Our end-to-end user training and support helped employees of the company to adapt, learn, and use the system efficiently without losing the current workflow.</p>
                   </div>
                 </div>
               </div>
@@ -380,7 +342,7 @@ const CaseStudyTimosco = () => {
                   deliver to best fit our requirement and solutions.
                 </p>
                 <h4>Mark Shaxted</h4>
-                <span>Operations Manager | CRM Trading</span>
+                <span>Operations Manager</span>
               </div>
             </div>
           </div>

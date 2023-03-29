@@ -28,7 +28,7 @@ const CaseStudyArteak = () => {
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
                   <span className="date-ti">Case Study</span>
-                  <h1>Migrate NAV 9 R2 to Dynamics 365 Business Central</h1>
+                  <h1>NAV 9 R2 to Dynamics 365 Business Central Upgrade</h1>
                   <p>Implementation of Dynamics 365 Business Central Cloud</p>
                 </div>
               </div>
@@ -57,22 +57,7 @@ const CaseStudyArteak = () => {
                   />
                 </div>
                 <div className="col-lg-9 align-self-center">
-                  <p>
-                    With the headquarters situated in London,{" "}
-                    <a
-                      href="https://arteakltd.co.uk/"
-                      rel="noopener nofollow"
-                      target="_blank"
-                    >
-                      {" "}
-                      Arteak{" "}
-                    </a>{" "}
-                    is serving its expertise in HSSE consulting and operational
-                    services. Arteak offers a wide range of services to its
-                    national as well as international clients to consistently
-                    manage the HSE (Health, Safety, and Environment) and
-                    register unhindered growth.
-                  </p>
+                  <p>Based on London, the company is serving its expertise in HSSE consulting and operational services. They offer a wide range of services to its national as well as international clients to consistently manage the HSE (Health, Safety, and Environment) and register unhindered growth.</p>
                 </div>
               </div>
             </div>
@@ -101,12 +86,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Arteak Limited was not satisfied with the accounting
-                      system accuracy of their old NAV version. They were
-                      looking for a cloud ERP (Enterprise Resource Planning)
-                      solution to streamline the finance and accounting system.
-                    </p>
+                    <p>The company was running on NAV 9 version, and they have to deal with inaccurate accounting system. They were looking to upgrade their existing NAV version with Business Central online to streamline the finance and accounting system.</p>
                   </div>
                 </div>
 
@@ -117,11 +97,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Arteak was facing difficulties in managing the increasing
-                      workload on the company with their version of NAV. They
-                      are unable to match their existing trial balance.
-                    </p>
+                    <p>Also, they were facing difficulties in managing the regularly increasing workload on existing operations with their version of NAV. They are unable to match their existing trial balance.</p>
                   </div>
                 </div>
 
@@ -132,10 +108,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Arteak Limited was unsatisfied with the support and
-                      services of its existing ERP partner.
-                    </p>
+                    <p>The company was unsatisfied with the support and services of its existing ERP partner. Their existing servers were deployed on a host server and the hosting provider refused to provide any access for further development. The existing partner was hampering them to enhance the performance using existing system. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -145,12 +118,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Their existing server was deployed on a host server and
-                      the hosting provider refused to provide any access for
-                      further development work for the sake of organization
-                      growth.
-                    </p>
+                    <p>Businesses were struggling to comply with the UK government's new requirement of electronically submitting VAT returns to HMRC due to their NAV version being incompatible.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -160,13 +128,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Due to the mandatory submission of VAT returns to HMRC,
-                      they were facing issues with their NAV version as it was
-                      not compatible with the new norms of the UK government for
-                      all VAT returns. This submission has to be done
-                      electronically.
-                    </p>
+                    <p>With the help of Business Central, businesses can now seamlessly integrate their NAV software with the latest VAT return submission guidelines, ensuring compliance and streamlined financial operations.</p>
                   </div>
                 </div>
               </div>
@@ -232,7 +194,7 @@ const CaseStudyArteak = () => {
                           </div>
                           <div className="text-wrp-content">
                             <p>
-                              Dynamics Square upgraded Arteak's ERP from an
+                              Dynamics Square upgraded  the company ERP from an
                               older version of{" "}
                               <Link href="/products/microsoft-dynamics-nav/">
                                 
@@ -257,7 +219,7 @@ const CaseStudyArteak = () => {
                             <div className="text-wrp-content">
                               <p>
                                 Business Central Cloud enables the employees of
-                                Arteak LImited to run and manage the entire
+                                the companyto run and manage the entire
                                 business from anywhere and anytime.
                               </p>
                             </div>
@@ -303,7 +265,7 @@ const CaseStudyArteak = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                We helped Arteak Limited with the required
+                                We helped  the company with the required
                                 customizations and integrations for seamless
                                 operations.
                               </p>
@@ -359,10 +321,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The new ERP solution of Arteak Limited started to perform
-                      flawlessly without any lag issues.
-                    </p>
+                    <p>The new ERP solution of the company started to perform flawlessly without any lag issues.</p>
                   </div>
                 </div>
 
@@ -373,10 +332,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Arteak Limited is now able to match the accurate figures
-                      of their turnovers along with the allocated costs.
-                    </p>
+                    <p>They are now able to match the accurate figures of their turnovers along with the allocated costs. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -386,10 +342,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The hectic task of analyzing the business income over
-                      expenditure become simple.
-                    </p>
+                    <p>The hectic task of analyzing the business income over expenditure become simple.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -399,12 +352,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Now, they can use Dynamics 3655 Business Central to
-                      generate the balance sheet and profit/loss statements, and
-                      can share the same with the concerned people in a matter
-                      of few clicks.
-                    </p>
+                    <p>Now, they can use Dynamics 3655 Business Central to generate the balance sheet and profit/loss statements and can share the same with the concerned people in a matter of few clicks.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -414,11 +362,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The client now works with the new technology to make the
-                      business smooth without system performance issues. Now,
-                      they are able to automate the production process.
-                    </p>
+                    <p>The client now works with the new technology to make the business smooth without system performance issues. Now, they are able to automate the production process.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -428,11 +372,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      After the implementation of new ERP, they posses complete
-                      control and safety over ERP data due to the server
-                      deployment on Microsoft Azure.
-                    </p>
+                    <p>After the implementation of new ERP, they posses complete control and safety over ERP data due to the server deployment on Microsoft Azure.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -442,11 +382,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      With the help of Business Central, they can share the tax
-                      invoice of their client over email, saving a lot of manual
-                      paperwork.
-                    </p>
+                    <p>With the help of Business Central, they can share the tax invoice of their client over email, saving a lot of manual paperwork.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -456,11 +392,7 @@ const CaseStudyArteak = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      With the new Dynamics 365 Business Central, it becomes
-                      easy to submit the tax reports as MTD returns with HMRC
-                      directly from Business Central without any delay
-                    </p>
+                    <p>With the new Dynamics 365 Business Central, it becomes easy to submit the tax reports as MTD returns with HMRC directly from Business Central without any delay.</p>
                   </div>
                 </div>
               </div>
@@ -485,7 +417,7 @@ const CaseStudyArteak = () => {
                   surely recommend to everyone
                 </p>
                 <h4>Terence Turner</h4>
-                <span>General Manager | Arteak Limited</span>
+                <span>General Manager</span>
               </div>
             </div>
           </div>

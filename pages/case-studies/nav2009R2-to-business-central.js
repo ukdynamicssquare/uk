@@ -58,23 +58,7 @@ const CaseStudyCqc = () => {
                   />
                 </div>
                 <div className="col-lg-9">
-                  <p>
-                    Established in 1948,{" "}
-                    <a
-                      href="https://cqc.co.uk/"
-                      rel="noopener nofollow"
-                      target="_blank"
-                    >
-                      {" "}
-                      CQC{" "}
-                    </a>{" "}
-                    is the world-leading manufacturer of textile products mainly
-                    for the defense market. CQC is known for its world-class
-                    high quality and robust military products serving the UK
-                    Ministry of Defense and other international military
-                    agencies. CQC is working to establish itself as one of the
-                    UK experts in designing and manufacturing CBRN clothing.
-                  </p>
+                  <p>The company was established in 1948 and is currently a world-leading manufacturer of textile products mainly for the defense market. The company is known for its world-class high quality and robust military products serving the UK Ministry of Defense and other international military agencies. They are working to establish itself as one of the UK experts in designing and manufacturing CBRN clothing.</p>
                 </div>
               </div>
             </div>
@@ -103,18 +87,14 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      CQC was not satisfied with the inventory valuation of
-                      their current{" "}
+                    <p>The company was not satisfied with the inventory valuation of their current{" "}
                       <Link
                         href="/products/microsoft-dynamics-nav/"
                         target="_blank"
                       >
                         NAV version.
-                      </Link>
-                      They were looking for a cloud ERP (Enterprise Resource
-                      Planning) solution to manage finance, supply chain, and
-                      inventory departments.
+                      </Link>{" "}
+                      They were looking for a NAV to Dynamics 365 Business Central cloud ERP upgrade solution to manage finance, supply chain, and inventory departments.
                     </p>
                   </div>
                 </div>
@@ -126,12 +106,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They were facing difficulties tallying their inventory
-                      with the trial balance of any financial period. This issue
-                      was impacting the financial performance of the overall
-                      business.
-                    </p>
+                    <p>They were facing difficulties to tally their inventory with the trial balance of any financial period. This issue was impacting the financial performance of the overall business.</p>
                   </div>
                 </div>
 
@@ -142,10 +117,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      CQC could not match and manage the actual WIP
-                      (work-in-progress) figure and BIN-wise inventory.
-                    </p>
+                    <p>The company could not match and manage the actual WIP (work-in-progress) figure and BIN-wise inventory.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -155,10 +127,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They were experiencing issues matching the figures between
-                      product consumption and product production.
-                    </p>
+                    <p>Also, they were experiencing issues matching the figures between product consumption and product production.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -168,13 +137,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Due to the mandatory submission of VAT returns to HMRC,
-                      they were facing issues with their NAV version as it was
-                      not compatible with the new norms of the UK government for
-                      all VAT returns. This submission has to be done
-                      electronically.
-                    </p>
+                    <p>Due to the mandatory submission of VAT returns to HMRC, they were facing issues with their NAV version as it was not compatible with the new norms of the UK government for all VAT returns. Because the new rules states that the submission has to be done electronically.</p>
                   </div>
                 </div>
               </div>
@@ -187,7 +150,7 @@ const CaseStudyCqc = () => {
         <div className="container">
           <header className="section-header">
             <h2>Solution Delivered</h2>
-            <p>Upgrading to Dynamics 365 Business Central Online</p>
+            <p>NAV 9 R2 to Business Central Online Upgrade</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -240,7 +203,7 @@ const CaseStudyCqc = () => {
                           </div>
                           <div className="text-wrp-content">
                             <p>
-                              Dynamics Square upgraded the ERP of CQC from{" "}
+                              Dynamics Square upgraded the ERP of the company from{" "}
                               <Link href="/dynamics-nav-to-business-central/">
                                
                                 NAV to Microsoft Dynamics 365 Business Central
@@ -264,7 +227,7 @@ const CaseStudyCqc = () => {
                             <div className="text-wrp-content">
                               <p>
                                 D365 Business Central Cloud enables the users of
-                                CQC to run and manage the entire business from
+                                the company to run and manage the entire business from
                                 anywhere and anytime.
                               </p>
                             </div>
@@ -311,7 +274,7 @@ const CaseStudyCqc = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                We helped CQC with the required customizations
+                                We helped the company with the required customizations
                                 and integrations for seamless operations.
                               </p>
                             </div>
@@ -366,10 +329,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The upgraded system of CQC started to perform flawlessly
-                      without any lag issues.
-                    </p>
+                    <p>The upgraded system of the company was started to perform flawlessly without any lag issues.</p>
                   </div>
                 </div>
 
@@ -380,11 +340,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Dynamics Square has resolved the issues of inventory
-                      management. They are now able to tally its inventory
-                      valuation with TB (Trial Balance).
-                    </p>
+                    <p>Dynamics Square has resolved the issues they were facing with inventory management. Now, they are able to tally its inventory valuation with TB (Trial Balance).</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -394,10 +350,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      CQC started getting accurate WIP (work-in-progress)
-                      figures and can monitor the data in real-time.
-                    </p>
+                    <p>After the upgrade, they have started getting accurate WIP (work-in-progress) figures and can monitor the data in real-time.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -407,10 +360,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      With multi-bins on location, the client was able to get
-                      the bin-wise inventory position.
-                    </p>
+                    <p>With multi-bins on location, the client was able to get the bin-wise inventory position.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -420,12 +370,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      With the help of Business Intelligence of Dynamics 365
-                      Business Central, the system started to give suggestions
-                      to the client for the consumed raw material against the
-                      produced products.
-                    </p>
+                    <p>With the help of Business Intelligence of Dynamics 365 Business Central, the system started to give suggestions to the client for the consumed raw material against the produced products.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -435,11 +380,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The client now works with the new technology to make the
-                      business smooth without system performance issues. Now,
-                      they are able to automate the production process.
-                    </p>
+                    <p>The client now works with the new technology to make the business flow smooth without any performance issues. Now, they are able to automate the production process.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -449,11 +390,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      With Dynamics 365 Business Central, it becomes easy to
-                      submit the tax reports as MTD returns with HMRC directly
-                      from Business Central without any delay.
-                    </p>
+                    <p>With Dynamics 365 Business Central, it becomes easy to submit the tax reports as MTD returns with HMRC directly from Business Central without any delay.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -463,11 +400,7 @@ const CaseStudyCqc = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      As a trusted partner, Dynamics Square helped them
-                      understand the working of 365 Business Central for growth
-                      and scalability.
-                    </p>
+                    <p>As a trusted partner, Dynamics Square helped them understand the working of 365 Business Central for growth and scalability.</p>
                   </div>
                 </div>
               </div>
@@ -498,7 +431,7 @@ const CaseStudyCqc = () => {
                   Nitesh has continued to keep in touch with us for follow-up.
                 </p>
                 <h4>Davina Bevan</h4>
-                <span>Finance Director, CQC Limited</span>
+                <span>Finance Director</span>
               </div>
             </div>
           </div>

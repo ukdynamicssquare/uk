@@ -60,24 +60,7 @@ const CaseStudyWiper = () => {
                   />
                 </div>
                 <div className="col-lg-9">
-                  <p>
-                    Established in 1993{" "}
-                    <a
-                      href="http://www.wipersupply.com/"
-                      rel="noopener nofollow"
-                      target="_blank"
-                    >
-                      {" "}
-                      Wiper Supply Services{" "}
-                    </a>{" "}
-                    is a British-based wholesaler of hygienic disposable
-                    cleaning and wiping products. They deliver their products to
-                    national as well as international clients of restaurants,
-                    hotels, manufacturing industries, and more. They specialize
-                    in manufacturing and supplying 70 GSM heavy-duty color-coded
-                    wipes and disposable non-woven wiping products to different
-                    industries.
-                  </p>
+                  <p>The company is established in 1993 and a British-based wholesaler of hygienic disposable cleaning and wiping products. They deliver their products to national as well as international clients of restaurants, hotels, manufacturing industries, and more. They specialize in manufacturing and supplying 70 GSM heavy-duty color-coded wipes and disposable non-woven wiping products to different industries.</p>
                 </div>
               </div>
             </div>
@@ -107,11 +90,7 @@ const CaseStudyWiper = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Wiper Supply Services wanted to increase the sales volume
-                      with customers by upselling and cross-selling their
-                      products.
-                    </p>
+                    <p>They wanted to increase the sales volume with customers by upselling and cross selling their products.</p>
                   </div>
                 </div>
 
@@ -122,11 +101,7 @@ const CaseStudyWiper = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They planned a strategy of reaching out to the group of
-                      existing customers and promoting their other products by
-                      applying for discounts and promotions.
-                    </p>
+                    <p>They planned a strategy of reaching out to the group of existing customers and promoting their other products by applying for discounts and promotions.</p>
                   </div>
                 </div>
 
@@ -137,10 +112,7 @@ const CaseStudyWiper = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The client also wants to run an awareness campaign for its
-                      new products to the existing customers.
-                    </p>
+                    <p>The client also wants to run an awareness campaign for its new products to the existing customers.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -150,10 +122,7 @@ const CaseStudyWiper = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Wiper Supply want to promote the new products by showing
-                      them on the sales invoice of such customers.
-                    </p>
+                    <p>The company want to promote the new products by showing them on the sales invoice of such customers.</p>
                   </div>
                 </div>
               </div>
@@ -166,7 +135,7 @@ const CaseStudyWiper = () => {
         <div className="container">
           <header className="section-header">
             <h2>Solution Delivered</h2>
-            <p>Support Offered to Wiper Supply Services</p>
+            <p>Microsoft NAV 2016 Support Offered to the Company</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -219,7 +188,7 @@ const CaseStudyWiper = () => {
                           </div>
                           <div className="text-wrp-content">
                             <p>
-                              Dynamics Square helped Wiper Supply in
+                              Dynamics Square helped the company in
                               implementing their strategy for growth and sales.
                             </p>
                           </div>
@@ -325,7 +294,7 @@ const CaseStudyWiper = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                We helped Wiper Supply Services gain more
+                                We helped the company Services gain more
                                 visibility for the new products, making it
                                 easier for them to up-sell and cross-sell.
                               </p>
@@ -358,10 +327,7 @@ const CaseStudyWiper = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Dynamics Square helped them grow in the number of sales
-                      compared with last quarter.
-                    </p>
+                    <p>Dynamics Square helped them grow in the number of sales compared with last quarter.</p>
                   </div>
                 </div>
 
@@ -372,11 +338,7 @@ const CaseStudyWiper = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      With the help of Dynamics Square's expert team, Wiper
-                      Supply Services has achieved a rise in sales, 3X of the
-                      current sales.
-                    </p>
+                    <p>With the help of Dynamics Square's expert team, the company has achieved a rise in sales, 3X of the current sales. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -386,12 +348,7 @@ const CaseStudyWiper = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The current customers of Wiper Supply Services started
-                      ordering new products more frequently than earlier. With
-                      the sales of old products, the new products also started
-                      to gain some visibility and sales in the market.
-                    </p>
+                    <p>The current customers of the company have started ordering new products more frequently than earlier. With the sales of old products, the new products also started to gain some visibility and sales in the market. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -401,10 +358,7 @@ const CaseStudyWiper = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The new products get a boost in sales with the help of a
-                      new product marketing strategy.
-                    </p>
+                    <p>The new products get a boost in sales with the help of a new product marketing strategy. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -421,10 +375,7 @@ const CaseStudyWiper = () => {
                       >
                         Dynamics Square Support
                       </Link>{" "}
-                      helps them create a strategy that doesn't need extra cost
-                      to market the new products. The ROI (return over
-                      investment) cost of new product marketing for old
-                      customers becomes almost zero.
+                      helps them create a strategy that doesn't need extra cost to market the new products. The ROI (return over investment) cost of new product marketing for old customers becomes almost zero. 
                     </p>
                   </div>
                 </div>
@@ -435,10 +386,7 @@ const CaseStudyWiper = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Our support team helped them increase the total number of
-                      sales and new customers.
-                    </p>
+                    <p>Our support team helped them increase the total number of sales and new customers.</p>
                   </div>
                 </div>
               </div>
@@ -461,7 +409,7 @@ const CaseStudyWiper = () => {
                   deliver to best fit our requirement and solutions.
                 </p>
                 <h4>Andrew Farleigh</h4>
-                <span>Director, Wiper Supply Services</span>
+                <span>Director</span>
               </div>
             </div>
           </div>

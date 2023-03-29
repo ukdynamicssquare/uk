@@ -29,10 +29,7 @@ const CrmTrading = () => {
                 <div className="top-se">
                   <span className="date-ti">Case Study</span>
                   <h1>Dynamics NAV 2009 to NAV 2018 Upgrade</h1>
-                  <p>
-                    Boost up the operational efficiency with Microsoft Dynamics
-                    NAV 2018
-                  </p>
+                  <p>Boost up the operational efficiency with Microsoft Dynamics NAV 2018</p>
                 </div>
               </div>
             </div>
@@ -61,27 +58,7 @@ const CrmTrading = () => {
                   /></div>
                 </div></div>
                 <div className="col-lg-9">
-                  <p>
-                    Established in 1982,{" "}
-                    <a
-                      href="https://crmtrading.co.uk/"
-                      rel="noopener nofollow"
-                      target="_blank"
-                    >
-                      CRM Trading
-                    </a>{" "}
-                    is the leading wholesaler of fragrance, skincare, hair-care,
-                    and cosmetics. With over 35 years of experience in the
-                    beauty industry, they have been serving their products to a
-                    number of brands like Calvin Klein, Davidoff, Vera Wang,
-                    Marc Jacobs, and Sarah Jessica Parker. With a warehouse
-                    based in the UK, they are ready to source any products and
-                    deliver them to the destination within the UK and abroad.
-                    Also, they are available in trade shows like Spring and
-                    Autumn Fairs at NEC Birmingham, Cosmoprof in Bologna, and
-                    the TFWA show in Cannes to showcase their wide variety of
-                    premium products.
-                  </p>
+                  <p>A leading wholesaler of fragrance, skincare, hair-care, and cosmetics has decided for NAV 2009 to NAV 2018 upgrade for enhancing their overall operational efficiency. They were having 35 years of experience in the beauty industry and serving their products to a number of brands like Calvin Klein, Davidoff, Vera Wang, Marc Jacobs, and Sarah Jessica Parker. With a warehouse based in the UK, they are ready to source any products and deliver them to the destination within the UK and abroad. Also, they are available in trade shows like Spring and Autumn Fairs at NEC Birmingham, Cosmoprof in Bologna, and the TFWA show in Cannes to showcase their wide variety of premium products.</p>
                 </div>
               </div>
             </div>
@@ -110,17 +87,7 @@ const CrmTrading = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      CRM Trading was not satisfied with the output of{" "}
-                      <Link
-                        href="/products/microsoft-dynamics-nav/"
-                        target="_blank"
-                      >
-                        Dynamics NAV
-                      </Link>{" "}
-                      2009. They primarily need an ERP solution to manage
-                      finance, but NAV09 lacks several aspects.
-                    </p>
+                    <p>The company was not satisfied with the output of <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link> 2009. They primarily need an ERP solution to manage finance, but NAV09 lacks several aspects.</p>
                   </div>
                 </div>
 
@@ -131,12 +98,7 @@ const CrmTrading = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Facing difficulties in dealing with the expansion in
-                      business operations in terms of transaction volume. Also,
-                      they cannot manage the increase in workload due to the
-                      high volume of business operations.
-                    </p>
+                    <p>Facing difficulties in dealing with the expansion in business operations in terms of transaction volume. Also, they cannot manage the increase in workload due to the high volume of business operations.</p>
                   </div>
                 </div>
 
@@ -147,10 +109,7 @@ const CrmTrading = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      NAV09 starts to perform slower in completing the tasks
-                      like opening ledgers and exporting data in excel.
-                    </p>
+                    <p>NAV09 starts to perform slower in completing the tasks like opening ledgers and exporting data in excel.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -160,11 +119,7 @@ const CrmTrading = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Due to the new norms by the UK government, the MTD (Making
-                      Tax Digital) compliance became mandatory, and NAV09 was
-                      not built for this.
-                    </p>
+                    <p>Due to the new norms by the UK government, the MTD (Making Tax Digital) compliance became mandatory, and NAV09 was not built for this.</p>
                   </div>
                 </div>
               </div>
@@ -177,7 +132,7 @@ const CrmTrading = () => {
         <div className="container">
           <header className="section-header">
             <h2>Solution Delivered</h2>
-            <p>Upgrading to Dynamics 365 Business Central Online</p>
+            <p>Upgraded their NAV 2009 to NAV 2018</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -230,7 +185,7 @@ const CrmTrading = () => {
                           </div>
                           <div className="text-wrp-content">
                             <p>
-                              Dynamics Square upgraded CRM Trading's System from
+                              Dynamics Square upgraded the company System from
                               NAV09 to NAV 2018.
                             </p>
                           </div>
@@ -290,7 +245,7 @@ const CrmTrading = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                Dynamics Square helped CRM Trading to understand
+                                Dynamics Square helped the company to understand
                                 the NAV's Business Intelligence, which helped
                                 them gain accurate insights about the business
                                 and make informed decisions in real-time.
@@ -312,7 +267,7 @@ const CrmTrading = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                We helped CRM Trading embed the NAV 2018 with
+                                We helped the company embed the NAV 2018 with
                                 apps like Office 365 and Microsoft Excel.
                               </p>
                             </div>
@@ -344,12 +299,7 @@ const CrmTrading = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The system of CRM Trading started to perform flawlessly
-                      and glitch-free since the upgrade. Also, the client's
-                      issue about the slow opening of ledgers is resolved with
-                      one click opening.
-                    </p>
+                    <p>The upgraded system of the company started to perform flawlessly and glitch-free since the upgrade. Also, the client's issue about the slow opening of ledgers is resolved with one click opening.</p>
                   </div>
                 </div>
 
@@ -368,8 +318,7 @@ const CrmTrading = () => {
                       >
                         Dynamics NAV 2018
                       </Link>
-                      , the client was able to export any number of data to
-                      excel without any error or issue.
+                      , the client was able to export any number of data to excel without any error or issue.
                     </p>
                   </div>
                 </div>
@@ -380,12 +329,7 @@ const CrmTrading = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The integration with Microsoft Office 365 enables the
-                      client to share the reports or data, like tax invoices,
-                      through e-mails instantly with their customers. This
-                      real-time sharing of data results in quicker disbursement
-                      of the products and paper savings for nature.
+                    <p>The integration with Microsoft Office 365 enables the client to share the reports or data, like tax invoices, through e-mails instantly with their customers. This real-time sharing of data results in quicker disbursement of the products and paper savings for nature.
                     </p>
                   </div>
                 </div>
@@ -396,10 +340,7 @@ const CrmTrading = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      With the NAV 2018, CRM Trading can now submit its tax
-                      reports as MTD return with HMRC without any delay.
-                    </p>
+                    <p>From NAV 2009 to NAV 2018 upgrade, the company can now submit its tax reports as MTD return with HMRC without any delay.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -409,11 +350,7 @@ const CrmTrading = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      As a trusted partner, Dynamics Square helped CRM Trading
-                      for the betterment of the support ticket system to measure
-                      the time and quality.
-                    </p>
+                    <p>As a trusted partner, Dynamics Square helped the company for the betterment of the support ticket system to measure the time and quality.</p>
                   </div>
                 </div>
               </div>
@@ -436,7 +373,7 @@ const CrmTrading = () => {
                   deliver to best fit our requirement and solutions.
                 </p>
                 <h4>Mark Shaxted</h4>
-                <span>Operations Manager | CRM Trading</span>
+                <span>Operations Manager</span>
               </div>
             </div>
           </div>

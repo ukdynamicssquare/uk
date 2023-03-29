@@ -28,8 +28,8 @@ const CaseStudyPasante = () => {
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
                   <span className="date-ti">Case Study</span>
-                  <h1>Dynamics NAV 2009 to Business Central On-Premise</h1>
-                  <p>Upgrade to Dynamics 365 Business Central On-Premises</p>
+                  <h1>Dynamics NAV 2009 to Business Central On-Premises</h1>
+                  <p>NAV 2009 to Dynamics 365 Business Central On-Premises Upgrade</p>
                 </div>
               </div>
             </div>
@@ -58,26 +58,7 @@ const CaseStudyPasante = () => {
                   />
                 </div>
                 <div className="col-lg-9">
-                  <p>
-                    Established in 1992, it was the first condom store in the UK{" "}
-                    <a
-                      href="https://pasante.com/"
-                      rel="noopener nofollow"
-                      target="_blank"
-                    >
-                      {" "}
-                      Pasante
-                    </a>{" "}
-                    is the world's leading British brand, fully established in
-                    2000 to manufacture sexual health products. They provide the
-                    best sexual health products to consumers and inspire them to
-                    make better choices for their health. Also, they are in
-                    partnership with NHS (National Health Services) and NPOs
-                    (Non-profit organizations) to provide safe products to the
-                    mass. PHL (Pasante Healthcare Limited) exports its products
-                    to more than 45 countries globally. Even, It is the largest
-                    condom supplier to NHS and for many charity organizations.
-                  </p>
+                  <p>The company was established in 1992 and world's leading condom manufacturing British brand, fully established in 2000 to manufacture sexual health products. They provide the best sexual health products to consumers and inspire them to make better choices for their health. Also, they are in partnership with NHS (National Health Services) and NPOs (Non-profit organizations) to provide safe products to the mass. The generally exports its products to more than 45 countries globally. Even, it is the largest condom supplier to NHS and for many charity organizations.</p>
                 </div>
               </div>
             </div>
@@ -106,18 +87,18 @@ const CaseStudyPasante = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Pasante was not satisfied with the working of{" "}
-                      <Link
-                        href="/products/microsoft-dynamics-nav/"
-                        target="_blank"
-                      >
-                        Dynamics NAV
-                      </Link>{" "}
-                      2009. They were looking for an On-Premises ERP (Enterprise
-                      Resource Planning) solution to manage some departments
-                      like finance, supply chain, and customer service.
-                    </p>
+                    <p>The company was not satisfied with the working of <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link> 2009. They were looking for NAV 2009 to business central On-Premises ERP upgrade solution to manage some departments like finance, supply chain, and customer service.</p>
+                  </div>
+                </div>
+
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-exclamation-triangle"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>They were facing performance issues from NAV09. Their NAV versions perform slower in simple tasks like opening ledgers and exporting data. These tasks were impacting the performance of the users as well as the overall efficiency.</p>
                   </div>
                 </div>
 
@@ -129,34 +110,14 @@ const CaseStudyPasante = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Pasante were facing performance difficulties from NAV09.
-                      Their NAV versions perform slower in simple tasks like
-                      opening ledgers and exporting data. These tasks were
-                      impacting the performance of the users as well as the
-                      overall efficiency.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-exclamation-triangle"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>
-                      The business of Pasante was expanding, but the older
-                      version of NAV was not allowing them to scale in terms of
-                      technology and functionality. They want to upgrade their
-                      NAV version to{" "}
+                    Their business was expanding, but the older version of NAV was not allowing them to scale in terms of technology and functionality. They want to upgrade their NAV version to{" "}
                       <Link
                         href="/products/dynamics-365-business-central/"
                         target="_blank"
                       >
                         Dynamics 365 Business Central,
                       </Link>{" "}
-                      to scale the processes.
+                      so that they can align with current market demands.
                     </p>
                   </div>
                 </div>
@@ -167,11 +128,7 @@ const CaseStudyPasante = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Due to the mandatory submission of VAT returns to HMRC,
-                      they were facing issues with NAV09 as it was not
-                      compatible with the new norms of the UK government.
-                    </p>
+                    <p>Due to the mandatory submission of VAT returns to HMRC, they were facing issues with NAV09 as it was not compatible with the new norms of the UK government.</p>
                   </div>
                 </div>
               </div>
@@ -184,9 +141,7 @@ const CaseStudyPasante = () => {
         <div className="container">
           <header className="section-header">
             <h2>Solution Delivered</h2>
-            <p>
-              Upgrading to Microsoft Dynamics 365 Business Central On-Premises
-            </p>
+            <p>Upgrading to Microsoft Dynamics 365 Business Central On-Premises Dynamics Square upgraded the ERP of the company from NAV 2009 to Business Central on-premises.</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -240,7 +195,7 @@ const CaseStudyPasante = () => {
                           <div className="text-wrp-content">
                             <p>
                               <Link href="/">Dynamics Square</Link> upgraded
-                              the ERP of Pasante from NAV09 to Microsoft
+                              the ERP of the company from NAV09 to Microsoft
                               Dynamics 365 Business Central On-premise.
                             </p>
                           </div>
@@ -260,7 +215,7 @@ const CaseStudyPasante = () => {
                             <div className="text-wrp-content">
                               <p>
                                 Dynamics 365 Business Central enables the
-                                employees of Pasante to manage the entire
+                                employees of the company to manage the entire
                                 business from one dashboard with total security
                                 due to the secured on-premises database
                                 deployment.
@@ -282,7 +237,7 @@ const CaseStudyPasante = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                The whole business system of Pasante
+                                The whole business system of the company
                                 re-structured on their legacy production
                                 process. This makes the users manage the
                                 processes of all departments from one dashboard.
@@ -326,7 +281,7 @@ const CaseStudyPasante = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                We helped Pasante with the required
+                                We helped the company with the required
                                 customizations and integrations for seamless
                                 operations.
                               </p>
@@ -347,7 +302,7 @@ const CaseStudyPasante = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                Dynamics Square helped Pasante understand the
+                                Dynamics Square helped the company understand the
                                 Business Intelligence feature of Dynamics 365
                                 Business Central. It helped them gain accurate
                                 insights about all the processes and operations
@@ -382,12 +337,7 @@ const CaseStudyPasante = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The system of Pasante started to perform flawlessly
-                      without any glitches after the upgrade. Also, Dynamics
-                      Square resolved the common issue of slow opening and slow
-                      execution of simple tasks.
-                    </p>
+                    <p>The system of the company started to perform flawlessly without any glitches after the upgrade. Also, Dynamics Square resolved the common issue of slow opening and slow execution of simple tasks.</p>
                   </div>
                 </div>
 
@@ -398,12 +348,7 @@ const CaseStudyPasante = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The client now works with the new technology to make the
-                      business work smoothly without any system performance
-                      issues. Now, they are able to automate the assembly order
-                      process.
-                    </p>
+                    <p>The client now works with the new technology to make the business work smoothly without any system performance issues. Now, they are able to automate the assembly order process.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -413,11 +358,7 @@ const CaseStudyPasante = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The process of importing and exporting data/reports has
-                      become easy and accurate with the new technical
-                      architecture.
-                    </p>
+                    <p>The process of importing and exporting data/reports has become easy and accurate with the new technical architecture. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -427,12 +368,7 @@ const CaseStudyPasante = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      We helped them integrate their system with other Microsoft
-                      apps like office, excel, etc. This enables the client to
-                      share the reports or data with other users in a few
-                      clicks.
-                    </p>
+                    <p>We helped them integrate their system with other Microsoft apps like office, excel, etc. This enables the client to share the reports or data with other users in a few clicks.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -450,9 +386,7 @@ const CaseStudyPasante = () => {
                       >
                         Dynamics 365 Business Central,
                       </Link>{" "}
-                      it becomes easy to submit the tax reports as MTD returns
-                      with HMRC directly from Business Central without any
-                      delay.
+                      it becomes easy to submit the tax reports as MTD returns with HMRC directly from Business Central without any delay.
                     </p>
                   </div>
                 </div>
@@ -463,11 +397,7 @@ const CaseStudyPasante = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      As a trusted partner, Dynamics Square helped them
-                      understand the working of 365 Business Central for growth
-                      and scalability.
-                    </p>
+                    <p>As a trusted partner, Dynamics Square helped them understand the working of 365 Business Central for growth and scalability. </p>
                   </div>
                 </div>
               </div>
@@ -495,7 +425,7 @@ const CaseStudyPasante = () => {
                   support and hardwork.
                 </p>
                 <h4>Nicolas Hopwood</h4>
-                <span> IT and Facilities Manager, Pasante</span>
+                <span> IT and Facilities Manager</span>
               </div>
             </div>
           </div>

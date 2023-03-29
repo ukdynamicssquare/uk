@@ -29,7 +29,7 @@ const CaseStudyGlobalTea = () => {
                 <div className="top-se">
                   <span className="date-ti">Case Study</span>
                   <h1>Dynamics NAV 2016 Support Services</h1>
-                  <p>Enhanced their Existing NAV 2016 for Manage Auctions</p>
+                  <p>Enhanced their Existing NAV 2016 to Manage Auctions</p>
                 </div>
               </div>
             </div>
@@ -58,26 +58,7 @@ const CaseStudyGlobalTea = () => {
                   />
                 </div>
                 <div className="col-lg-9">
-                  <p>
-                    Founded in 1991,{" "}
-                    <a
-                      href="http://www.wipersupply.com/"
-                      rel="noopener nofollow"
-                      target="_blank"
-                    >
-                      {" "}
-                      Global Tea & Commodities Ltd.{" "}
-                    </a>{" "}
-                    is one of the largest and fastest-growing distributors of
-                    tea, coffee, and macadamia nuts. It offers its wide range of
-                    products to all stages of the supply chain. The Global Tea
-                    and Commodities has crossed the sales of $220 million to
-                    date and processed more than 70 million kilos of tea each
-                    year. Being the most prominent independent tea and coffee
-                    company in the UK, it has employed over 4,000 people around
-                    the world. In Africa, they are the largest producer of
-                    macadamia nuts.
-                  </p>
+                  <p>The company was founded in 1991 and a largest and fastest-growing distributors of tea, coffee, and macadamia nuts. It offers its wide range of products to all stages of the supply chain. The company has crossed the sales of $220 million to date and processed more than 70 million kilos of tea each year. Being the most prominent independent tea and coffee company in the UK, it has employed over 4,000 people around the world. In Africa, they are the largest producer of macadamia nuts.</p>
                 </div>
               </div>
             </div>
@@ -106,11 +87,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Global Tea and Commodities Ltd has to purchase raw
-                      material like tea and coffee from auctions in Kenya and
-                      face difficulty processing such auctions.
-                    </p>
+                    <p>The company has to purchase raw materials like tea and coffee from auctions in Kenya and face difficulty processing such auctions.</p>
                   </div>
                 </div>
 
@@ -121,10 +98,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Global Tea wanted to track each step of such auctions on
-                      NAV.
-                    </p>
+                    <p>They wanted to track each step of such auctions on NAV. </p>
                   </div>
                 </div>
 
@@ -135,10 +109,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They were facing difficulties managing the auctions either
-                      on paper or on spreadsheets.
-                    </p>
+                    <p>They were facing difficulties managing the auctions either on paper or on spreadsheets. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -148,11 +119,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They wanted to customize their NAV so that they could
-                      manage all the data of auctions and clients for sale and
-                      purchase perspective.
-                    </p>
+                    <p>They wanted to customize their NAV so that they could manage all the data of auctions and clients for sale and purchase perspective. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -162,11 +129,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The client also wants to manage the sale and purchase of
-                      their products to their subsidiaries situated in other
-                      countries.
-                    </p>
+                    <p>The client also wants to manage the sale and purchase of their products to their subsidiaries situated in other countries.</p>
                   </div>
                 </div>
               </div>
@@ -324,11 +287,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Global Tea and Commodities can manage all the running
-                      action on their NAV with hassling to manage everything on
-                      paper
-                    </p>
+                    <p>The company can now manage all the running action on their NAV with hassling to manage everything on paper.</p>
                   </div>
                 </div>
 
@@ -339,12 +298,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Global Tea can now maintain the history of purchased
-                      products from suppliers with the essential details like
-                      grade and quality. They can manage such data till the
-                      inventory is sold to a particular client.
-                    </p>
+                    <p>They can now maintain the history of purchased products from suppliers with the essential details like grade and quality. Also, they can manage such data till the inventory is sold to a particular client. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -354,10 +308,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Their refreshed NAV system can now create automatic sales
-                      and purchase transitions for their subsidiary companies.
-                    </p>
+                    <p>Their refreshed NAV system can now create automatic sales and purchase transitions for their subsidiary companies. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -367,12 +318,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Using the customized NAV, the employees of Global Tea and
-                      Commodities can manage the production, supply chain,
-                      inventory, finance, and similar department from a single
-                      dashboard.
-                    </p>
+                    <p>Using the customized NAV, the employees of the company can manage the production, supply chain, inventory, finance, and similar department from a single dashboard.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -382,10 +328,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The management of trader transactions and inventory
-                      management has become an easy task.
-                    </p>
+                    <p>The management of trader transactions and inventory management has become an easy task.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -395,11 +338,7 @@ const CaseStudyGlobalTea = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They can now create the sales and purchase invoices
-                      digitally and send them to their respective trader via
-                      e-mail, making this process seamless.
-                    </p>
+                    <p>They can now create the sales and purchase invoices digitally and send them to their respective trader via e-mail, making this process seamless.</p>
                   </div>
                 </div>
               </div>
