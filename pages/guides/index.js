@@ -32,9 +32,10 @@ const Guides = () => {
         <div className="container">
           <header className="section-header" style={{paddingBottom:'70px'}}>
           <h2>Make your digital transformation journey a success</h2>
+          <p> Latest Guides</p>
           </header>
-          <div className="row">
-            <div className="col-lg-3">
+          <div className="row justify-content-center">
+            {/* <div className="col-lg-3">
               <div
                 className="nav flex-column nav-pills me-3 side-bar-common-tabs"
                 id="v-pills-tab"
@@ -54,7 +55,7 @@ const Guides = () => {
                   Latest Guides
                 </button>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-9">
               <div className="tab-content" id="v-pills-tabContent">
                 <div
@@ -84,10 +85,10 @@ const Guides = () => {
                           </h5>
                           <div className="btn-003 btn-009">
                             <Link
-                              className="btn btn-sm btn-danger"
+                             
                               href="/guides/business-central-guide-for-smb/"
                             >
-                              View The Guide
+                             <a  className="btn btn-sm btn-danger">View The Guide</a>
                             </Link>
                           </div>
                         </div>
@@ -113,10 +114,10 @@ const Guides = () => {
                           </h5>
                           <div className="btn-003 btn-009">
                             <Link
-                              className="btn btn-sm btn-danger"
+                             
                               href="/guides/power-bi-guide-for-smb/"
                             >
-                              View The Guide
+                             <a  className="btn btn-sm btn-danger">View The Guide</a>
                             </Link>
                           </div>
                         </div>

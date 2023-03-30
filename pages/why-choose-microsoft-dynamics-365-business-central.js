@@ -11,7 +11,7 @@ const WhyChooseBc = () => {
         </title>
         <meta
           name="description"
-          content="Get the details of why choose Microsoft Dynamics 365 Business Central? Use end to end your business solutions and advantages."
+          content="Check out why Choose Microsoft Dynamics 365 Business Central and advantages for your business? Streamline processes, boost productivity, and make informed decisions"
         />
         <link
           rel="canonical"
@@ -48,35 +48,20 @@ const WhyChooseBc = () => {
 
       <section>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
               <header className="section-header">
-                <h2>
-                  Let's Get Familiar with Microsoft Dynamics 365 Business
-                  Central and its Advantages
-                </h2>
+                <h2>Let's Get Familiar with Microsoft Dynamics 365 Business Central and Its Advantages</h2>
                 <p>
                   <Link href="/products/dynamics-365-business-central/">
                     Microsoft Dynamics 365 Business Central
                   </Link>{" "}
-                  is a cloud-based, unified business management solution that
-                  helps enterprises transform their entry-level accounting
-                  software or legacy Enterprise Resource Planning (ERP) system
-                  into a comprehensive solution to manage critical business
-                  functions. This includes finance, operations, sales, and
-                  customer service. With Microsoft Dynamics 365 Business
-                  Central, businesses can tap into the power of the cloud to
-                  streamline their operations, improve customer service, and
-                  boost sales.
+                  is a cloud-based, unified business management solution that helps enterprises transform their entry-level accounting software or legacy Enterprise Resource Planning (ERP) system into a comprehensive solution to manage critical business functions. It seamlessly streamlines and connect different departments of a business, including finance, operations, sales, supply chain, distribution, and customer service.  
                   <br />
                   <br />
-                  <b>
-                    Business Central is a tried-and-true solution that has
-                    helped over 160,000 customers and millions of users
-                    worldwide streamline their processes, improve customer
-                    relations, and enable growth.
-                  </b>
+                  Microsoft Dynamics 365 Business Central enables the businesses to leverage the power of cloud manage core business operations, improve customer service, maximise productivity, optimize resources, enhance overall efficiency, and boost ROI. 
                 </p>
+                <p><b>Business Central is a modern, advance, and AI-powered solution that has helped over 200,000 customers and 3 million global users to streamline their processes, improve customer relations, and enable growth. </b></p>
               </header>
             </div>
           </div>
@@ -92,39 +77,58 @@ const WhyChooseBc = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
+              <div className="scrol-sect">
               <div className="custom-p-0001">
                 <div className="left">
-                  <img src="/img/RingChart1.png" alt="RingChart1" />
+                  <img src="/img/RingChart-01.png" alt="RingChart1" />
                 </div>
                 <div className="right">
-                  <p>
-                    of consumers said they would stop doing business with a
-                    company using outdated technology.
-                  </p>
+                  <p>23% reduction on operational costs; small business reported.</p>
                 </div>
               </div>
               <div className="custom-p-0001">
                 <div className="left">
-                  <img src="/img/RingChart2.png" alt="Ring Chart2" />
+                  <img src="/img/RingChart-02.png" alt="Ring Chart2" />
                 </div>
                 <div className="right">
-                  <p>
-                    of businesses said their employees get more done in the same
-                    amount of time thanks to cloud and mobile technologies.
-                  </p>
+                  <p>64% of companies are planning to implement Cloud ERP, like Business Central within the next three years.</p>
                 </div>
               </div>
               <div className="custom-p-0001">
                 <div className="left">
-                  <img src="/img/RingChart3.png" alt="Ring Chart3" />
+                  <img src="/img/RingChart-03.png" alt="Ring Chart3" />
                 </div>
                 <div className="right">
-                  <p>
-                    of businesses said technology is critical to their company's
-                    future.{" "}
-                  </p>
+                  <p>88% of organisations reported that successful ERP implementation helped them grow.</p>
                 </div>
               </div>
+              <div className="custom-p-0001">
+                <div className="left">
+                  <img src="/img/RingChart-04.png" alt="Ring Chart4" />
+                </div>
+                <div className="right">
+                  <p>50% of businesses are planning to upgrade and acquire modern ERP systems to simplify their existing operations.</p>
+                </div>
+              </div>
+              <div className="custom-p-0001">
+                <div className="left">
+                  <img src="/img/RingChart-05.png" alt="RingChart-05" />
+                </div>
+                <div className="right">
+                  <p>87% of organisations desired guidance in choosing the right <Link href="/dynamics-365-business-central-implementation/"><a>ERP implementation partner</a></Link>.</p>
+                </div>
+              </div>
+              <div className="custom-p-0001">
+                <div className="left">
+                  <img src="/img/RingChart-06.png" alt="RingChart-06" />
+                </div>
+                <div className="right">
+                  <p>95% of businesses have improved their business operations using the right ERP solutions, which lead to reduced processing time, enhanced collaboration, and a unified data platform. </p>
+                </div>
+              </div>
+              </div>
+              
+
             </div>
           </div>
         </div>
@@ -518,6 +522,33 @@ const WhyChooseBc = () => {
                       </div>
                     </div>
                   </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin12"
+                        aria-expanded="false"
+                        aria-controls="fin12"
+                      >
+                        <div className="wr-in wr-in-001">
+                          <img src="/img/ic-1.svg" alt="ic-1" />
+                        </div>
+                        <span>Easy to Scale</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin12"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                      With time, businesses grow, as do their operations. Due to the flexible offering of server deployment, you can easily scale the business using the required hardware and software. In terms of scalability, the Business Central cloud offers stable ways to deal with growing processes.</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -548,6 +579,210 @@ const WhyChooseBc = () => {
                       <span>Talk to Expert</span>
                     </a>
                   </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="new-style-bg">
+        <div className="container">
+          <div className='row justify-content-center'>
+            <div className='col-lg-9'>
+            <header className="section-header">
+            <h2>Why Choose Microsoft Dynamics 365 Business Central as your Right ERP Solution?  </h2>
+          </header>
+            </div>
+          </div>
+          <div className="row g-5 pad2xyr">
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                <div class="wr-in"><span class="number-st">1</span></div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Reduce Costs</h3>
+                  <p>A perfect <Link href="/products/microsoft-dynamics-erp/"><a>ERP solution</a></Link> is capable of reducing the annual IT cost. Also, with a flexible subscription-based pricing model, a business can save a lot of money with diverse licencing options. </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                <div class="wr-in"><span class="number-st">2</span></div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Boosts Sales </h3>
+                  <p>With enhanced team collaboration using a centralised data platform, you can enhance the productivity and efficiency of the team, resulting in accelerated sales. Also, you can avail sales insights in real-time to make actionable decisions whenever needed. </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                <div class="wr-in"><span class="number-st">3</span></div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Improves Customer Service </h3>
+                  <p>Real-time insights let the employees offer a better and more effective customer journey. Even so, you can personalise the sales cycle by using insights, like purchasing interest, demographic data, and other existing information. </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                <div class="wr-in"><span class="number-st">4</span></div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Optimise Supply Chain </h3>
+                  <p>Efficient supply chain management is one of the vital tasks that has to be done accurately, irrespective of the conditions. With Business Central, you can easily optimise supply chain management while controlling the inventory and distribution cycle. </p>
+                </div>
+              </div>
+
+              
+            </div>
+            <div className="col-lg-6">
+            <div className="style-grid-1">
+                <div className="style-grid-icons">
+                <div class="wr-in"><span class="number-st">5</span></div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Global Connectivity</h3>
+                  <p>The Microsoft Dynamics 365 Business Central cloud offers seamless and consistent connectivity to all users, enabling them to access the data anywhere and anytime. Even so, a user can access the data from any device, irrespective of location boundaries.</p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                <div class="wr-in"><span class="number-st">6</span></div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Full Data Security</h3>
+                  <p>With the trust of Microsoft, all your data is in safe hands, utilising the power of Microsoft Azure. Microsoft data servers are secured and can handle any amount of your precious data with full protection from any form of malware or cyberattack. </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                <div class="wr-in"><span class="number-st">7</span></div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Seamless Update or Upgrade</h3>
+                  <p>With cloud server deployment, Microsoft will take care of all updates and upgrades it releases on a semi-annual basis. Microsoft solutions are so powerful that any change will be implemented without hampering the current processes or performances of existing operations.</p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                <div class="wr-in"><span class="number-st">8</span></div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Centralised Database</h3>
+                  <p>Microsoft Business Central offers a centralised database that opens up the opportunities of data collection, collaboration, and sharing in real-time whenever required. An edit or update made by any user of any department can be accessed by another user of another department with ease, but based on permissions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <header className="section-header">
+                <h2>Have you got <br /> questions about Microsoft Dynamics 365 Business Central?</h2>
+                <p>Click through to our FAQ for the best answers!</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >What are the benefits of using Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>There are numerous business-centred benefits a business can avail, irrespective of the type and size of the business. The benefits include seamless integration, global connectivity, availability of diverse customizations, a lower cost of ownership, easy scale, a highly interactive user interface, flexible licencing options, and full data security using Microsoft Azure.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >Why upgrade to Business Central?</button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Business Central is an AI-powered business solution that helps users automate their core business operations, enhancing their overall efficiency and productivity. If you want to avail a modern solution that is capable of controlling and managing your entire business using a single platform, you should go for the <Link href="https://blog.dynamicssquare.co.uk/migrate-nav-to-business-central/"><a>NAV to Business Central upgrade</a></Link>. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >Why migrate to MS Dynamics 365 Business Central?</button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>It might be possible that your current solution is unable to furnish the desired solution for all your business issues. Or, perhaps, you are fed up with the quality of your current <Link href="/our-services/dynamics-365-support-services/"><a>Microsoft support partner</a></Link>. In such scenarios, you should migrate to Business Central if you want to focus on business growth rather than getting stuck with resolving daily business activities.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >How much does Business Central cost?</button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>The implementation <Link href="co.uk/dynamics-365-business-central-pricing-licensing/"><a>cost of Business Central</a></Link> depends on various factors, which include the complexity of the business, unique business requirements, choice of server deployment, number of employees, type, and size of the business.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >How much time will it take for BC implementation?</button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>The time taken for BC implementation depends on the complexity of the entire implementation. If the implementation is standard, it can take 5 days to 45 days. And, if the implementation is personalised and has custom-built integrations, it can take up to 4 months.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

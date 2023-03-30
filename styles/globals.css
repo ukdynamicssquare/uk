@@ -6621,6 +6621,31 @@ font-weight:400
   word-wrap: normal !important;
   word-break: normal;
 }
+.scrol-sect{
+  display: block;
+    overflow-y: scroll;
+    height: 400px;
+    padding-right: 30px;
+}
+/* width */
+.scrol-sect::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.scrol-sect::-webkit-scrollbar-track {
+  background: #555; 
+}
+ 
+/* Handle */
+.scrol-sect::-webkit-scrollbar-thumb {
+  background: #bb2b36; 
+}
+
+/* Handle on hover */
+.scrol-sect::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 /*businecentermew*/
 /*power bi new sectio*/
 @media (min-width: 991px) {
