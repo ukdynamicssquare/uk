@@ -321,11 +321,11 @@ export default function Home() {
                 <div className="bnner_inline_images">
                   <ul>
                     <li>
-                      <img
+                      <Image
                         src="/img/Microsoft-Partner-black.png"
                         alt="Microsoft Partner black.png"
-                        width="206"
-                        height="67"
+                        width={206}
+                        height={67}
                       />
                     </li>
                   </ul>
@@ -341,197 +341,11 @@ export default function Home() {
                 src="/img/banner-head-image.png"
                 alt="dynamicssquare banner image UK"
                 className="icon"
-                width={750}
-                height={520}
+                width={1000}
+                height={800}
               />
             </div>
-            {/* <div
-              className="col-lg-6 hero-img hero-img-home"
-              data-aos="zoom-out"
-              data-aos-delay="200"
-            >
-              <div className="banner-service-wraper">
-                <ul className="list-n fist-m">
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/dynamics-365-business-central/">
-                        <a>
-                          <img
-                            src="/img/business-center-logo.svg"
-                            alt="business-center-logo"
-                          />
-                          <span>
-                            Business <br />
-                            Central
-                          </span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/microsoft-azure/">
-                        <a>
-                          <img
-                            src="/img/azur-icons.svg"
-                            alt="azur-icons"
-                          />
-                          <span>Azure</span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                </ul>
-                <ul className="list-n fist-m-2">
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/microsoft-power-apps/">
-                        <a>
-                          <img
-                            src="/img/Powerapps_power-apps.svg"
-                            alt="Powerapps_power-apps"
-                          />
-                          <span>
-                            Power
-                            <br /> Apps
-                          </span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/microsoft-dynamics-365-finance/">
-                        <a>
-                          <img
-                            src="/img/finace-icons.svg"
-                            alt="finace-icons"
-                          />
-                          <span>Finance</span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/microsoft-dynamics-365-customer-service/">
-                        <a>
-                          <img
-                            src="/img/customer-service-icons.svg"
-                            alt="customer-service-icons"
-                          />
-                          <span>
-                            Customer
-                            <br /> Service
-                          </span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                </ul>
-                <ul className="list-n  fist-m-3">
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/dynamics-365-supply-chain-management/">
-                        <a>
-                          <img
-                            src="/img/supplychain-logo.svg"
-                            alt="supplychain-logo"
-                          />
-                          <span>
-                            Supply
-                            <br />
-                            Chain
-                          </span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                  <li className="list-n-wrp-size">
-                    <div className="list-n-wrp">
-                      <Link href="/products/microsoft-dynamics-365/">
-                        <a>
-                          <img
-                            src="/img/ds-365.png"
-                            alt="Microsoft Dynamics 365 Partner"
-                          />
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/microsoft-dynamics-365-field-service/">
-                        <a>
-                          <img
-                            src="/img/feald-service-logo.svg"
-                            alt="feald-service-logo"
-                          />
-                          <span>
-                            Field <br /> Service
-                          </span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                </ul>
-                <ul className="list-n  fist-m-2">
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/microsoft-power-bi/">
-                        <a>
-                          <img
-                            src="/img/powerbilogo.png"
-                            alt="powerbilogo"
-                          />
-                          <span>Power BI</span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/microsoft-dynamics-365-marketing/">
-                        <a>
-                          <img src="/img/marketing.svg" alt="marketing" />
-                          <span>Marketing</span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/microsoft-dynamics-365-sales/">
-                        <a>
-                          <img
-                            src="/img/Sales_scalable.svg"
-                            alt="Sales_scalable"
-                          />
-                          <span>Sales</span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                </ul>
-                <ul className="list-n fist-m">
-                  <li>
-                    <div className="list-n-wrp">
-                      <Link href="/products/dynamics-365-human-resources/">
-                        <a>
-                          <img
-                            src="/img/human-resource.svg"
-                            alt="human-resource"
-                          />
-                          <span>
-                            Human <br /> Resources
-                          </span>
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
+            
           </div>
         </div>
       </section>
@@ -575,7 +389,7 @@ export default function Home() {
                   finance, and ensure a sound customer experience.
                 </p>
                 <Link href="/products/dynamics-365-business-central/">
-                  <a className="read-more">
+                  <a className="read-more" aria-label="Dynamics 365 Business Central"> 
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -602,7 +416,7 @@ export default function Home() {
                   and more informed financial decisions.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-finance/">
-                  <a className="read-more">
+                  <a className="read-more" aria-label="Dynamics 365 Finance">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -629,7 +443,7 @@ export default function Home() {
                   end-to-end supply chain operations.
                 </p>
                 <Link href="/products/dynamics-365-supply-chain-management/">
-                  <a className="read-more">
+                  <a className="read-more" aria-label="Dynamics 365 Supply Chain">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -660,7 +474,7 @@ export default function Home() {
                   for Sales.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-sales/">
-                  <a className="read-more">
+                  <a className="read-more" aria-label="Dynamics 365 Sales">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -691,7 +505,7 @@ export default function Home() {
                   informed decisions for better productivity ahead.
                 </p>
                 <Link href="/products/microsoft-power-bi/">
-                  <a className="read-more">
+                  <a className="read-more" aria-label="Microsoft Power BI">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -723,7 +537,7 @@ export default function Home() {
                   Azure.
                 </p>
                 <Link href="/products/azure-iot-internet-of-things/">
-                  <a className="read-more">
+                  <a className="read-more" aria-label="Internet Of Things">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -749,8 +563,9 @@ export default function Home() {
                     <a
                       data-bs-toggle="modal"
                       className="btn btn-md btn-danger btn-custmm"
+                      aria-label="pop up form"
                     >
-                      Request a Demo
+                      Request a Demo <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -767,8 +582,8 @@ export default function Home() {
                 </p>
                 <div className="cla-brn">
                   <Link href="/products/microsoft-dynamics-365/">
-                    <a className="btn btn-md btn-danger btn-custmm">
-                      Learn More
+                    <a className="btn btn-md btn-danger btn-custmm" aria-label="Want to know what more Dynamics 365 can do">
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -802,7 +617,7 @@ export default function Home() {
                   business.
                 </p>
                 <Link href="/our-services/dynamics-365-implementation-services/">
-                  <a>Learn More</a>
+                  <a aria-label="Implementation services">Learn More <span className="screen-reader-text">Details</span></a>
                 </Link>
               </div>
             </div>
@@ -817,7 +632,7 @@ export default function Home() {
                   better RoI.
                 </p>
                 <Link href="/our-services/dynamics-365-upgrade-services/">
-                  <a>Learn More</a>
+                  <a aria-label="Upgrade services">Learn More <span className="screen-reader-text">Details</span></a>
                 </Link>
               </div>
             </div>
@@ -832,7 +647,7 @@ export default function Home() {
                   Chain, and Power BI.
                 </p>
                 <Link href="/our-services/dynamics-365-support-services/">
-                  <a>Learn More</a>
+                  <a aria-label="Support Services">Learn More <span className="screen-reader-text">Details</span></a>
                 </Link>
               </div>
             </div>
@@ -852,8 +667,8 @@ export default function Home() {
                 <div className="top">
                   <img
                     src="/img/StartUp-icons.png"
-                    width="50"
-                    height="50"
+                    width="64"
+                    height="64"
                     className="boxshadow"
                     alt="StartUp-icons"
                   />
@@ -868,7 +683,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/startups/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -879,9 +694,9 @@ export default function Home() {
               <div className="figer-box">
                 <div className="top">
                   <img
-                    src="/img/Not for Profit--icons.png"
-                    width="50"
-                    height="50"
+                    src="/img/Not-for-Profit-icons.png"
+                    width="64"
+                    height="64"
                     className="boxshadow"
                     alt="Not for Profit"
                   />
@@ -896,7 +711,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/microsoft-cloud-for-nonprofit/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -908,8 +723,8 @@ export default function Home() {
                 <div className="top">
                   <img
                     src="/img/E-Commerce-icons.png"
-                    width="50"
-                    height="50"
+                    width="64"
+                    height="64"
                     className="boxshadow"
                     alt="StartUp-icons"
                   />
@@ -924,7 +739,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/ecommerce/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -935,9 +750,9 @@ export default function Home() {
               <div className="figer-box">
                 <div className="top">
                   <img
-                    src="/img/Manufacturing & Distribution-icons.png"
-                    width="50"
-                    height="50"
+                    src="/img/Manufacturing-Distribution-icons.png"
+                    width="64"
+                    height="64"
                     className="boxshadow"
                     alt="StartUp-icons"
                   />
@@ -952,7 +767,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/microsoft-cloud-for-manufacturing/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -963,9 +778,9 @@ export default function Home() {
               <div className="figer-box">
                 <div className="top">
                   <img
-                    src="/img/Professional Services-icons.png"
-                    width="50"
-                    height="50"
+                    src="/img/Professional-Services-icons.png"
+                    width="64"
+                    height="64"
                     className="boxshadow"
                     alt="StartUp-icons"
                   />
@@ -980,7 +795,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/professional-services/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -991,9 +806,9 @@ export default function Home() {
               <div className="figer-box">
                 <div className="top">
                   <img
-                    src="/img/Food & Beverages-icons.png"
-                    width="50"
-                    height="50"
+                    src="/img/Food-and-Beverages-icons.png"
+                    width="64"
+                    height="64"
                     className="boxshadow"
                     alt="StartUp-icons"
                   />
@@ -1008,7 +823,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/food-and-beverages/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -1460,7 +1275,7 @@ export default function Home() {
                       </div>
                       <div className="case-button">
                         <Link href="/case-studies/nav2009R2-to-business-central/">
-                          <a className="btn btn-md btn-custom-1">Read More</a>
+                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
                         </Link>
                       </div>
                     </div>
@@ -1488,7 +1303,7 @@ export default function Home() {
                       </div>
                       <div className="case-button">
                         <Link href="/case-studies/nav09-nav18-upgrade/">
-                          <a className="btn btn-md btn-custom-1">Read More</a>
+                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
                         </Link>
                       </div>
                     </div>
@@ -1515,7 +1330,7 @@ export default function Home() {
                       </div>
                       <div className="case-button">
                         <Link href="/case-studies/nav-2016-support-services/">
-                          <a className="btn btn-md btn-custom-1">Read More</a>
+                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
                         </Link>
                       </div>
                     </div>

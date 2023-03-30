@@ -71,7 +71,7 @@ const Form = () => {
                   <div className="mb-3">
                     <textarea
                       className="form-control"
-                      id="exampleFormControlTextarea1"
+                      id="exampleFormControlTextarea2"
                       placeholder="* How Can We Help You?"
                       rows="3"
                       name="message"
@@ -84,9 +84,10 @@ const Form = () => {
                       checked
                       readOnly
                       className="form-check-input"
-                      id="exampleCheck1"
+                      id="exampleCheck2"
+                       aria-labelledby="lbl-main-checkbox"
                     />
-                    <label className="form-check-label">
+                    <label className="form-check-label" htmlFor="exampleCheck2">
                       I agree to the
                       <a href="/privacy-policy/" target="_blank">
                         {" "}

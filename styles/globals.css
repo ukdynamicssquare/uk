@@ -4,7 +4,8 @@
   --color-white: hsl(0, 0%, 100%);
   --color-darken: hsl(0, 0%, 20%);
   --color-red-100: hsl(204deg 79% 24%);
-  --color-red: #ee3442;
+  /* --color-red: #bb2b36; */
+  --color-red: #bb2b36;
   --color-blue: #1d3557;
   --color-grey: #585858;
   --color-bg: #f7f9fb;
@@ -76,7 +77,7 @@ ul li {
 }
 body a,
 body a:hover {
-  color: #ee3442;
+  color: #bb2b36;
   text-decoration: none;
 }
 
@@ -273,7 +274,7 @@ section {
   visibility: hidden;
   opacity: 0;
   z-index: 99999;
-  background: #ee3442;
+  background: #bb2b36;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -387,11 +388,11 @@ section {
 .navbar .dropdown ul li:hover > a,
 .navbar a:hover,
 .navbar li:hover > a {
-  color: #ee3442;
+  color: #bb2b36;
 }
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #ee3442;
+  background: #bb2b36;
   padding: 0.5rem 1rem;
   margin-left: 20px;
   border-radius: 4px;
@@ -958,7 +959,7 @@ section {
   padding: 0.6rem 1.3rem !important;
   border-radius: 5px !important;
   color: #fff !important;
-  background: var(--color-red) !important;
+  background: #bb2b36 !important;
 }
 .figer-box {
   display: flex;
@@ -1219,7 +1220,7 @@ section {
   padding: 8px 0;
   position: absolute;
   bottom: -5px;
-  color: #f03543;
+  color: #c51623;
 }
 .services .service-box .read-more i {
   line-height: 0;
@@ -1278,7 +1279,7 @@ section {
 }
 .pricing .price {
   font-size: 36px;
-  color: #ee3442;
+  color: #bb2b36;
   font-weight: 500;
   margin-bottom: 30px;
 }
@@ -1311,7 +1312,7 @@ section {
   font-size: 15px;
 }
 .pricing ul li .bi {
-  color: #ee3442;
+  color: #bb2b36;
   font-size: 20px;
   margin-right: 15px;
   font-weight: 700;
@@ -1328,10 +1329,10 @@ section {
   transition: 0.3s;
   font-size: 16px;
   font-weight: 500;
-  border: 1px solid #ee3442;
+  border: 1px solid #bb2b36;
 }
 .pricing .btn-buy:hover {
-  background: #ee3442;
+  background: #bb2b36;
   color: #fff;
 }
 .pricing .featured {
@@ -1362,7 +1363,7 @@ section {
 }
 .faq .accordion-button:not(.collapsed) {
   background: 0 0;
-  color: #ee3442;
+  color: #bb2b36;
   border-bottom: 0;
 }
 .faq .accordion-body {
@@ -1694,7 +1695,7 @@ section {
 }
 .testimonials-rigt-iner-2 h4 {
   font-size: 48px;
-  color: #ee3442;
+  color: #bb2b36;
   font-weight: 500;
 }
 .testimonials-rigt-iner-2 span {
@@ -1739,7 +1740,7 @@ section {
   margin-bottom: 0;
   font-size: 28px;
   font-weight: 500;
-  color: #ee3442;
+  color: #bb2b36;
 }
 .casestudys .casestudys-slider-item .case-content-wrapper .case-content span {
   display: block;
@@ -2516,6 +2517,10 @@ section {
 .footer-extra-link {
   margin-left: 15px;
 }
+.footer-extra-link a{
+  color:#ffada7;
+  text-decoration:underline
+}
 .section-bg {
   background: url(/img/intro-bg.jpg) center/cover no-repeat fixed;
   position: relative;
@@ -2636,7 +2641,7 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: var(--color-red);
+  background: #bb2b36;
   box-shadow: 0 5px 30px rgb(65 84 241 / 40%);
   -moz-box-shadow: 0 5px 30px rgb(65 84 241 / 40%);
   -webkit-box-shadow: 0 5px 30px rgb(65 84 241 / 40%);
@@ -2949,7 +2954,7 @@ section {
 .new-btn .btn-get-started-color:hover {
   color: #fff;
   background: #a93963;
-  background: linear-gradient(90deg, #a93963 0, #ee3442 71%);
+  background: linear-gradient(90deg, #a93963 0, #bb2b36 71%);
 }
 .why-solution-wrapper .why-solution-wrapper-inner {
   position: relative;
@@ -3286,7 +3291,7 @@ section {
   font-weight: 500;
 }
 .blogs-extra-right ul li a .bi {
-  color: #ee3442;
+  color: #bb2b36;
   margin-right: 10px;
   font-size: 18px;
 }
@@ -3321,7 +3326,7 @@ section {
 }
 .content-inner-moil-1 .ext-bord .bi {
   font-size: 30px;
-  color: #ee3442;
+  color: #bb2b36;
 }
 .over-img img {
   position: absolute;
@@ -3563,7 +3568,7 @@ section {
 .services_siltion .icon-box::before {
   content: "";
   position: absolute;
-  background: #ee3442;
+  background: #bb2b36;
   right: 0;
   left: 0;
   bottom: 0;
@@ -3741,9 +3746,9 @@ section {
   margin: 0 auto;
   border-radius: 5px;
   text-decoration: none;
-  background: linear-gradient(90deg, #a93963 0, #ee3442 71%);
-  background: -moz-linear-gradient(90deg, #a93963 0, #ee3442 71%);
-  background: -webkitlinear-gradient(90deg, #a93963 0, #ee3442 71%);
+  background: linear-gradient(90deg, #a93963 0, #bb2b36 71%);
+  background: -moz-linear-gradient(90deg, #a93963 0, #bb2b36 71%);
+  background: -webkitlinear-gradient(90deg, #a93963 0, #bb2b36 71%);
 }
 .square-flip .square .boxshadow,
 .square-flip .square .textshadow,
@@ -3765,7 +3770,7 @@ section {
   margin-bottom: 15px;
 }
 .footer-contact-s .contact-list .icons-left i {
-  color: #ee3442;
+  color: #bb2b36;
   font-size: 24px;
 }
 .footer-contact-s .contact-list .content-right {
@@ -3916,7 +3921,7 @@ section {
   white-space: nowrap;
   color: #fff;
   background: #a93963;
-  background: linear-gradient(90deg, #a93963 0, #ee3442 71%);
+  background: linear-gradient(90deg, #a93963 0, #bb2b36 71%);
   padding: 0.5rem 1.5rem;
   font-weight: 500;
   font-size: 14px;
@@ -6167,8 +6172,8 @@ color:var(--color-red)
   margin-bottom:40px
 }
 .more-new-inner .btn-custmm{
-  background: var(--color-red);
-    border-color: var(--color-red);
+  background: #bb2b36;
+    border-color: #bb2b36;
     width: 185px;
     padding: 0.6rem 1.4rem;
     font-size: 16px;
@@ -6221,7 +6226,7 @@ margin-top:-130px !important
 .our-serv-new-de a{
   font-size: 16px;
   font-weight: 600;
-  color:var(--color-red);
+  color: #c51623;
 }
 .our-serv-new-de a:hover{
   color:var(--color-blue);
@@ -6233,7 +6238,7 @@ margin-top:-130px !important
   display:none
 }
 .custom-p-009 a{
-    background: var(--color-red);
+  background: #bb2b36;
     color: white;
     display: inline-block;
     margin-top: 30px;
@@ -6579,7 +6584,7 @@ font-weight:400
   text-align:center
 }
 .fixed-button {
-  background-color: #ee3442;
+  background-color: #bb2b36;
   color: #FFFFFF;
   border: none;
   outline: none;
@@ -6600,7 +6605,21 @@ font-weight:400
   color:#fff
 }
 .fixed-button:hover{
-  background-color: #ee3442;
+  background-color: #bb2b36;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  word-break: normal;
 }
 /*businecentermew*/
 /*power bi new sectio*/
@@ -8155,7 +8174,7 @@ ul.checkmark li::before {
   top: 5px;
   /* width: 6px;
   height: 12px;
-  border: solid #ee3442;
+  border: solid #bb2b36;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -8323,7 +8342,7 @@ ul.checkmark li::before {
   top: 5px;
   /* width: 6px;
   height: 12px;
-  border: solid #ee3442;
+  border: solid #bb2b36;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);

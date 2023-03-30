@@ -63,9 +63,10 @@ const FormSubsriber = () => {
               checked
               readOnly
               className="form-check-input"
-              id="exampleCheck1"
+              id="exampleCheck3"
+              aria-labelledby="lbl-main-checkbox"
             />
-            <label className="form-check-label" htmlFor="exampleCheck1">
+            <label className="form-check-label" htmlFor="exampleCheck3">
               I agree to the&nbsp;
               <Link
                 href="/privacy-policy/"

@@ -808,11 +808,10 @@ const ContactUs = () => {
                   className="footer-img"
                   width="230" height="81"
                 />
-                 <img style={{width:'80px'}} 
-                  src="/img/UK badge.png"
+                  <img 
+                  src="/img/UK-badge.png"
                   alt="UK badge"
-                  className="footer-img"
-                  width="80" height="86"
+                  width="88" height="88"
                 />
               </div>
               <div className="col-lg-2 col-12 footer-links">
@@ -918,6 +917,7 @@ const ContactUs = () => {
                     rel=""
                     href="https://twitter.com/dsquare_uk"
                     className="twitter"
+                    aria-label="Twitter" 
                   >
                     <i className="bi bi-twitter"></i>
                   </a>
@@ -926,6 +926,7 @@ const ContactUs = () => {
                     rel=""
                     href="https://www.facebook.com/dynamicssquareuk/"
                     className="facebook"
+                    aria-label="Facebook" 
                   >
                     <i className="bi bi-facebook"></i>
                   </a>
@@ -934,6 +935,7 @@ const ContactUs = () => {
                     rel=""
                     href="https://www.instagram.com/dynamicssquareuk/"
                     className="instagram"
+                    aria-label="Instagram" 
                   >
                     <i className="bi bi-instagram"></i>
                   </a>
@@ -942,6 +944,7 @@ const ContactUs = () => {
                     rel=""
                     href="https://www.linkedin.com/showcase/dynamics-square-uk/"
                     className="linkedin"
+                    aria-label="Linkedin" 
                   >
                     <i className="bi bi-linkedin"></i>
                   </a>
@@ -970,8 +973,8 @@ const ContactUs = () => {
         </div>
       </footer>
       <div className='call-bb-wr'>
-      <button class="fixed-button wobble" type="button">
-      <a href="tel:+442071932502" target="_self"><i class="bi bi-telephone-fill"></i></a>
+      <button className="fixed-button wobble" type="button">
+      <a href="tel:+442071932502" target="_self" aria-label="telephone"><i className="bi bi-telephone-fill"></i></a>
 </button>
 
       </div>
