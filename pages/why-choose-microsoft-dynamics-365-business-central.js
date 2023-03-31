@@ -761,7 +761,7 @@ const WhyChooseBc = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>The implementation <Link href="co.uk/dynamics-365-business-central-pricing-licensing/"><a>cost of Business Central</a></Link> depends on various factors, which include the complexity of the business, unique business requirements, choice of server deployment, number of employees, type, and size of the business.</p>
+                      <p>The implementation <Link href="/dynamics-365-business-central-pricing-licensing/"><a>cost of Business Central</a></Link> depends on various factors, which include the complexity of the business, unique business requirements, choice of server deployment, number of employees, type, and size of the business.</p>
                     </div>
                   </div>
                 </div>
