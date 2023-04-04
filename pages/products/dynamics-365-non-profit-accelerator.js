@@ -300,7 +300,7 @@ const NonProfitAccelerator = () => {
                           their time and effort to support an organization's
                           cause. Track volunteer preferences, skills and
                           availability and establish Volunteer Projects
-                          leveraging Dynamics 365 Project Service Automation.
+                          leveraging <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> Project Service Automation.
                         </p>
                         <p>
                           Dynamics 365 Nonprofit Accelerator can help organize

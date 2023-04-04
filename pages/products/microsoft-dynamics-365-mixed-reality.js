@@ -243,8 +243,8 @@ const MicrosoftDynamics365MixedReality = () => {
                         instructions followed by necessary images, videos, and
                         3D holograms. Businesses can bring continuity in their
                         workspace even when complex tasks are performed and
-                        improve their entire workflow with the help of Microsoft
-                        Dynamics 365 guides.
+                        improve their entire workflow with the help of <Link href="/products/microsoft-dynamics-365/"><a>Microsoft
+                        Dynamics 365 guides</a></Link>.
                       </div>
                     </div>
                   </div>
@@ -299,8 +299,8 @@ const MicrosoftDynamics365MixedReality = () => {
               <div className="wy-sultion-left-head">
                 <h2>Dynamics 365 Mixed Reality Features</h2>
                 <h3>
-                  How does Microsoft Dynamics 365 Finance help to Elevate Your
-                  Financial Capabilities?
+                  How does Microsoft Dynamics 365 Mixed Reality help to Elevate Your
+                  Business Capabilities?
                 </h3>
               </div>
             </div>
@@ -732,11 +732,11 @@ const MicrosoftDynamics365MixedReality = () => {
                       problems in real-time.
                       <br />
                       <br />
-                      When integrated with Dynamics 365 Field Service, it can
+                      When integrated with <Link href="/products/microsoft-dynamics-365-field-service/"><a>Dynamics 365 Field Service</a></Link>, it can
                       help businesses to capture the asset information. If there
                       is a piece of critical or complex information, can be
-                      transformed into easy visualization by integrating with
-                      Power BI or any other enterprise-level application.
+                      transformed into easy visualization by <Link href="/products/microsoft-power-bi/"><a>integrating with
+                      Power BI</a></Link> or any other enterprise-level application.
                     </div>
                   </div>
                 </div>
