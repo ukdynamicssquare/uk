@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
-import Blog from "../../components/Blog";
+// import Blog from "../../components/Blog";
 import FormGuide from "../../components/FormGuide";
 const PowerBI = () => {
   const [isOpen, setOpen] = useState(false);
@@ -932,7 +932,115 @@ const PowerBI = () => {
             </p>
           </header>
           <div className="row top-2 gx-5">
-            <Blog />
+            {/* <Blog /> */}
+
+            <div className="col-lg-6">
+        <div className="blogs-extra-title">
+          <h3>Articles</h3>
+        </div>
+
+        <div className="blogs-extra-left">
+          <div className="blogs-extra-left-img">
+            <a
+              href="https://blog.dynamicssquare.co.uk/sales-insight-using-power-bi-dynamics-365/"
+              target="_self"
+            >
+              <img
+                src="https://blog.dynamicssquare.co.uk/wp-content/uploads/2023/02/MicrosoftTeams-image-16.png"
+                alt="img"
+                width="210"
+                height="110"
+              />
+            </a>
+          </div>
+          <div className="blogs-extra-left-content">
+            <h4>
+              <a
+
+                href="https://blog.dynamicssquare.co.uk/sales-insight-using-power-bi-dynamics-365/"
+                target="_self"
+              >How To Understand Sales Insight Using Power BI & Dynamics 365?</a>
+            </h4>
+            <span>February 3, 2023</span>
+          </div>
+        </div>
+        <div className="blogs-extra-left">
+          <div className="blogs-extra-left-img">
+            <a
+              href="https://blog.dynamicssquare.co.uk/sharepoint-integration-with-power-bi/"
+              target="_self"
+            >
+              <img
+                src="https://blog.dynamicssquare.co.uk/wp-content/uploads/2023/01/MicrosoftTeams-image-7.jpg"
+                alt="img"
+                width="210"
+                height="110"
+              />
+            </a>
+          </div>
+          <div className="blogs-extra-left-content">
+            <h4>
+              <a
+
+                href="https://blog.dynamicssquare.co.uk/sharepoint-integration-with-power-bi/"
+                target="_self"
+              >SharePoint Integration With Power BI</a>
+            </h4>
+            <span>January 13, 2023</span>
+          </div>
+        </div>
+        <div className="blogs-extra-left">
+          <div className="blogs-extra-left-img">
+            <a
+              href="https://blog.dynamicssquare.co.uk/power-bi-pricing-uk/"
+              target="_self"
+            >
+              <img
+                src="https://blog.dynamicssquare.co.uk/wp-content/uploads/2022/11/MicrosoftTeams-image-29.png"
+                alt="img"
+                width="210"
+                height="110"
+              />
+            </a>
+          </div>
+          <div className="blogs-extra-left-content">
+            <h4>
+              <a
+
+                href="https://blog.dynamicssquare.co.uk/power-bi-pricing-uk/"
+                target="_self"
+              >Power BI Pricing - Power BI Pro Vs. Power BI Premium</a>
+            </h4>
+            <span>November 17, 2022</span>
+          </div>
+        </div>
+        <div className="blogs-extra-left">
+          <div className="blogs-extra-left-img">
+            <a
+              href="https://blog.dynamicssquare.co.uk/power-bi-vs-tableau/"
+              target="_self"
+            >
+              <img
+                src="https://blog.dynamicssquare.co.uk/wp-content/uploads/2023/02/MicrosoftTeams-image-16.png"
+                alt="img"
+                width="210"
+                height="110"
+              />
+            </a>
+          </div>
+          <div className="blogs-extra-left-content">
+            <h4>
+              <a
+
+                href="https://blog.dynamicssquare.co.uk/power-bi-vs-tableau/"
+                target="_self"
+              >Power BI Vs Tableau [A Practical Comparison] 2023</a>
+            </h4>
+            <span>September 8, 2022</span>
+          </div>
+        </div>
+      </div>
+
             <div className="col-lg-6">
               <div className="blogs-extra-title">
                 <h3>Important Power BI Links:</h3>
