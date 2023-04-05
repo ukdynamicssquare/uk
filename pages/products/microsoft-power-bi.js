@@ -1021,7 +1021,7 @@ const PowerBI = () => {
               target="_self"
             >
               <img
-                src="https://blog.dynamicssquare.co.uk/wp-content/uploads/2023/02/MicrosoftTeams-image-16.png"
+                src="https://blog.dynamicssquare.co.uk/wp-content/uploads/2022/09/MicrosoftTeams-image-13.png"
                 alt="img"
                 width="210"
                 height="110"
@@ -1034,7 +1034,7 @@ const PowerBI = () => {
 
                 href="https://blog.dynamicssquare.co.uk/power-bi-vs-tableau/"
                 target="_self"
-              >Power BI Vs Tableau [A Practical Comparison] 2023</a>
+              >Power BI Vs Tableau [A Practical Comparison] 2023 </a>
             </h4>
             <span>September 8, 2022</span>
           </div>
