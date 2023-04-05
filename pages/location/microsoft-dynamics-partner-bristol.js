@@ -6,7 +6,7 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
   return (
     <>
       <Head>
-      <title>Microsoft Dynamics Partner Bristl, UK </title>
+      <title>Microsoft Dynamics Partner Bristol, UK </title>
 <meta name="description" content="Dynamics Square is Microsoft Dynamics partner in Bristol, UK serving quality assured ERP and CRM solutions with high-end support. Book free consultation today."/>
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-bristol/" />
 
@@ -18,7 +18,7 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
               <h1>
                 Microsoft Dynamics
                 <br />
-                Partner Bristol
+                Partner Bristol 
               </h1>
               <p>
               Dynamics Square is a certified Microsoft Gold Partner located in Bristol to support nearby businesses with Microsoft Business Solutions. </p>
