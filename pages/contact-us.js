@@ -783,11 +783,10 @@ const ContactUs = () => {
             <div className="row gy-4">
               <div className="col-lg-5 col-md-12 footer-info">
                 <Link href="/" className="logo d-flex align-items-center">
-                  <img
-                    src="/img/dsuk-footer-logo.svg"
-                    alt="dsuk-footer-logo"
-                    style={{marginBottom:"20px"}}
-                    width="230" height="81"
+                  <img style={{marginBottom:"20px"}} 
+                   src="/img/dynamics_square_tm_logo_footer.svg"
+                   alt="Dynamics Square TM Logo"
+                   width="230" height="81"
                   />
                 </Link>
                 <p>

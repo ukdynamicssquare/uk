@@ -317,8 +317,8 @@ const Footer = () =>{
               <div className="col-lg-5 col-md-12 footer-info">
                 <Link href="/" className="logo d-flex align-items-center">
                   <img
-                    src="/img/dsuk-footer-logo.svg"
-                    alt="dsuk-footer-logo"
+                      src="/img/dynamics_square_tm_logo_footer.svg"
+                      alt="Dynamics Square TM Logo"
                     style={{marginBottom:"20px"}}
                     width="230" height="81"
                   />

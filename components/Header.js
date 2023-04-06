@@ -26,9 +26,10 @@ class Header extends Component {
               <div className="left-logo">
                 <a href="/" className="logo">
                   <img
-                    src="/img/dynamicssqure-logo.svg"
-                    alt="Dynamics Square logo"
-                    width="282" height="19"
+                     src="/img/dynamics_square_tm_logo.svg"
+                     alt="Dynamics Square TM Logo"
+                     width="282"
+                     height="19"
                   />
                 </a>
               </div>
