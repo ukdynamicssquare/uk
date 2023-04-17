@@ -11,7 +11,7 @@ const SupportServices = () => {
         </title>
         <meta
           name="description"
-          content="Drive continuity in your processes and ensure a sustainable approach with our seamless Dynamics 365 Support Services. Continuous monitoring of your system and processes can help to attain lifelong success."
+          content="UK's leading Microsoft Gold Partner specialises in Dynamics 365 support for AX, NAV, GP, BC, and F&O services. Let's call 2071 932 502 for any help!"
         />
         <link
           rel="canonical"
