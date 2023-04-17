@@ -806,6 +806,40 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/wms-for-business-central/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/Insight_Work.png"
+                                            alt="Sana_Commerce"
+                                            width="48" height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Mobile WMS BC</span>
+                                          <p>Optimize your warehouse operations, simplify your inventory management, and boost your profits</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/continia-document-capture-with-business-central/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/continia.png"
+                                            alt="Sana_Commerce"
+                                            width="48" height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Continia OCR</span>
+                                          <p>Transform your document management, avail seamless document processing and effortlessly manage your documents</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -1293,6 +1327,50 @@ class Header extends Component {
                                   Dynamics 365 Business Central vs. NetSuite
                                 </a>
                               </li> */}
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <div className="accordion-header" id="list-7">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="collapseSeven"
+                          >
+                            <a href="/industries/">
+                              <span>Add-Ons</span>
+                            </a>
+                          </button>
+                        </div>
+                        <div
+                          id="collapseSeven"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="list-7"
+                          data-bs-parent="#mobile-toggle-nav"
+                        >
+                          <div className="accordion-body">
+                            <div className="iner-list">
+                              <ul>
+                                <li>
+                                  <a href="/continia-for-dynamics-365-business-central/">Continia integration</a>
+                                </li>
+                                <li>
+                                  <a href="/insights-works-for-dynamics-365-business-central/">Insight Works</a>
+                                </li>
+                                <li>
+                                  <a href="/sana-commerce-for-dynamics-365-business-central/">Sana Commerce</a>
+                                </li>
+                                <li>
+                                  <a href="/wms-for-business-central/">Mobile WMS BC</a>
+                                </li>
+                                <li>
+                                  <a href="/continia-document-capture-with-business-central/">Continia OCR</a>
+                                </li>
                               </ul>
                             </div>
                           </div>
