@@ -8,10 +8,10 @@ const WhyMigrade360 = () => {
   return (
     <>
       <Head>
-        <title>Top 10 Reasons to Choose Microsoft Dynamics 365</title>
+        <title>Unlock the Power of Cloud Computing: Migrate to Microsoft Dynamics 365</title>
         <meta
           name="description"
-          content="Here are the top 10 reasons to choose or migrate to Microsoft Dynamics 365. Get the best Dynamics 365 implementation plans from Dynamics Square."
+          content="Meta Description: Unlock the power of cloud computing by migrating to Microsoft Dynamics 365 cloud. Supercharge your business and streamline operations. Contact us for a free consultation."
         />
         <link
           rel="canonical"
@@ -33,7 +33,8 @@ const WhyMigrade360 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
-              <h1>10 Reasons Why Migrate To Microsoft Dynamics 365</h1>
+              <h1>Migrate to Microsoft Dynamics 365: Unlock the Power of Cloud Computing</h1>
+              <p>Leave behind your outdated legacy systems and embrace the future of cloud computing with Microsoft Dynamics 365. Experience unparalleled business success and dominate your industry.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -41,7 +42,7 @@ const WhyMigrade360 = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Let’s Get Started! </span>
                     </a>
                   </Link>
                 </div>
@@ -63,30 +64,57 @@ const WhyMigrade360 = () => {
           <div className="row">
             <div className="col-lg-12">
               <header className="section-header">
-                <p>
-                  <Link href="/products/microsoft-dynamics-365/">
-                    Microsoft Dynamics 365
-                  </Link>{" "}
-                  empowers enterprises, of all dimensions, to scale-up their
-                  productive capabilities through advanced integrations with{" "}
-                  <Link href="/products/microsoft-power-bi/">Power BI</Link>
-                  , SharePoint, Office 365 and meaningful real-time business
-                  insights.
-                  <br />
-                  <br />
-                  Dynamics 365 smartly embeds powerful Microsoft Business
-                  Applications that deliver a precise view of all customers'
-                  engagements.
-                  <br />
-                  <br />
-                  Dynamics 365 can flexibly be deployed{" "}
-                  <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">
-                    in-cloud or on-premise
-                  </Link>
-                  , enabling businesses to attune their organizational tools
-                  seamlessly with the altering business environment.
-                </p>
+                <h2>Why Migrate to Microsoft Dynamics 365 Cloud?</h2>
               </header>
+            </div>
+            <div className="col-lg-6">
+                <div className="custom-p-001" style={{paddingBottom:"20px"}}>
+                  <p>If you are dealing with any of the possible reasons below, you should migrate to Dynamics 365 Cloud today.</p>
+                  <ul>
+                  <li>Are you still running on your legacy ERP system, which is making your business processes slow and full of errors?</li> 
+
+                  <li>Are you unsatisfied with your current system's performance?</li> 
+
+                  <li>Do you want to avail yourself of automation?</li> 
+
+                  <li>Want to get global connectivity for all business processes?</li> 
+
+                  <li>Unable to integrate new applications for the ease of business?</li> 
+
+                  <li>Stuck with paying high maintenance and support costs?</li>
+                  </ul>
+                </div>
+            </div>
+            <div className="col-lg-6">
+                <div className="custom-p-001"  style={{paddingBottom:"30px"}}>
+                  <p>
+                  As a business owner, if you are dealing with any of the above issues, it is time to consider migrating to Dynamics 365 cloud  ERP from your existing legacy ERP system. Your current system might be stopping you from accelerating business growth while streamlining the entire business activity that deals with achieving great success. Also, it might be possible that you are satisfied with the performance of your existing on-premises ERP system, but in the near future, you would have to face circumstances like: 
+                  </p>
+                  <ul>
+                  <li>Lack of flexibility and agility</li> 
+
+                  <li>Limited sources of integration</li> 
+
+                  <li>High maintenance cost</li> 
+
+                  <li>Data security risks</li> 
+
+                  <li>Lack of real-time insights </li>
+
+                  <li>Limited mobility</li> 
+                  </ul>
+                </div>
+            </div>
+            <div className="col-lg-12">
+            <div className="custom-p-001">
+            <p>Businesses achieve success through proactive decisions that have to be made before the problem arrives. And we both know the upcoming problem. </p>
+            <p>Are the risks and limitations of your legacy system preventing your business from growing at full scale? What's stopping you from making the best decision for your business and migrating to an advanced, modern, agile, and secure system like <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link>? 
+            Don't let outdated technology hold your business back from achieving great success. 
+            Check out the overview of Migrating to Microsoft Dynamics 365 - <b>Watch Video</b> </p>
+           <div className="text-center"  style={{paddingTop:"30px"}}>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/nIGQrswcj-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           </div>
+              </div>
             </div>
           </div>
         </div>
@@ -102,27 +130,22 @@ const WhyMigrade360 = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
-                <h2>Is Dynamics 365 Right For Your Business?</h2>
+                <h2>Cloud Vs On-Premises ERP</h2>
               </div>
               <div className="custom-p-001">
-                <p>
-                  Microsoft Dynamics 365 is a combination of customer
-                  relationship management (CRM) and enterprise resource planning
-                  (ERP) software, backed with high-end business intelligence and
-                  productivity tools.
-                  <br />
-                  <br />
-                  Dynamics 365 provides a 360-degree view of your business
-                  processes, sales insights, business financials, operations and
-                  much more. <br />
-                  <br />
-                  We're{" "}
-                  <Link href="/products/microsoft-dynamics-365/">
-                    Microsoft Dynamics 365 experts
-                  </Link>{" "}
-                  in the UK helping small to enterprise level organizations with
-                  their digital transformation a success.
-                </p>
+                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Cost Saving</h3>
+                <p>Cloud-based ERP like Dynamics 365 or <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> offers significant cost savings by eliminating the need for expensive investments, which include hardware, maintenance, and support.</p>
+                <br />
+                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Collaboration & accessibility</h3>
+                <p>A cloud solution provides global connectivity to users, enabling them to control and manage core business operations in real-time. You can even collaborate with the team irrespective of the location boundaries.</p>
+                <br />
+
+                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Automatic Maintenance & Upgrades</h3>
+                <p>Your cloud system provider will make sure to update and upgrade your system on time without hampering your existing business operations. Also, the <Link href="/"><a>ERP implementation partner</a></Link> will ensure timely maintenance, reducing overall downtime.</p>
+                <br />
+
+                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Full Integration</h3>
+                <p>Based on your unique business processes, you can easily integrate different business solutions to make your ERP system perfect, accurate, and efficient.</p>
               </div>
             </div>
           </div>
@@ -132,10 +155,7 @@ const WhyMigrade360 = () => {
       <section>
         <div className="container">
           <header className="section-header">
-            <h2>
-              Here are top 10 reasons why migrate <br />
-              to Microsoft Dynamics 365
-            </h2>
+            <h2>Top Reasons to Migrate Dynamics 365 <br /> from On-Premises to Cloud</h2>
           </header>
           <div className="row p-lg-6">
             <div className="col-lg-6">
@@ -154,20 +174,17 @@ const WhyMigrade360 = () => {
                         <div className="wr-in">
                           <span className="number-st">1</span>
                         </div>
-                        <span>Critical business insights</span>
+                        <span>Advanced Cloud-based Technology</span>
                       </button>
                     </h3>
                     <div
                       id="fin1"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Generates real time business insights leveraging an
-                        advanced Power BI interface enabling businesses to
-                        ensure all business functions are performing in sync
-                        with the set Key Performance Indicators (KPIs).
+                      Microsoft offers advanced cloud-based technologies to deal with modern businesses. It allows such businesses to easily scale the process, gaining flexibility and accessibility with ease. 
                       </div>
                     </div>
                   </div>
@@ -185,20 +202,17 @@ const WhyMigrade360 = () => {
                         <div className="wr-in">
                           <span className="number-st">2</span>
                         </div>
-                        <span>Centralized information source</span>
+                        <span>Improved Security</span>
                       </button>
                     </h3>
                     <div
                       id="fin2"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Unifies advanced Customer Relationship Management (CRM)
-                        features leveraging Microsoft Outlook integration while
-                        seamlessly connects users to a centralized platform,
-                        enabling businesses to efficiently streamline workflows.
+                      Microsoft has its own personal cloud servers, such as Azure, which offers data encryption, threat identification, and securing data from any kind of malicious attack. 
                       </div>
                     </div>
                   </div>
@@ -216,20 +230,17 @@ const WhyMigrade360 = () => {
                         <div className="wr-in">
                           <span className="number-st">3</span>
                         </div>
-                        <span>Ease of accessibility</span>
+                        <span>Enhanced Collaboration</span>
                       </button>
                     </h3>
                     <div
                       id="fin3"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Enables anywhere and anytime work capabilities through
-                        licensed mobile applications, available for iOS,
-                        Android, and Windows, empowering users to be productive
-                        and stay engaged with customers, round the clock.
+                      Dynamics 365 offers seamless collaboration across different departments of a business without considering the geo-location of the business unit. It unifies the entire business communication to form a single source of truth.
                       </div>
                     </div>
                   </div>
@@ -247,20 +258,17 @@ const WhyMigrade360 = () => {
                         <div className="wr-in">
                           <span className="number-st">4</span>
                         </div>
-                        <span>Social media monitoring</span>
+                        <span>Lower Cost of Ownership</span>
                       </button>
                     </h3>
                     <div
                       id="fin4"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Monitors web chats, posts, or other relevant content
-                        through smart social marketing application enabling
-                        businesses to get familiar with the target audience and
-                        build marketing tactics to improve customer engagements.
+                      Cloud ERP deployment offers a lower cost of ownership with the lowest maintenance costs due to the elimination of the need to invest in costly hardware, software, and maintenance activities. Most of these operations are managed by your Microsoft Dynamics 365 partner without bothering the business.
                       </div>
                     </div>
                   </div>
@@ -278,20 +286,17 @@ const WhyMigrade360 = () => {
                         <div className="wr-in">
                           <span className="number-st">5</span>
                         </div>
-                        <span>Data security</span>
+                        <span>Real-time Insights</span>
                       </button>
                     </h3>
                     <div
                       id="fin5"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Safeguards information for cloud based applications and
-                        data sources through robust access controls that include
-                        physical datacenter, service hosting platform, network
-                        connectivity, and user / administrator access levels.
+                      The cloud connectivity offers real-time insights that let the concerned users stay connected with the entire system or a single process anywhere and anytime. This allowed the users to make informed and actionable decisions whenever required. 
                       </div>
                     </div>
                   </div>
@@ -316,21 +321,17 @@ const WhyMigrade360 = () => {
                         <div className="wr-in">
                           <span className="number-st">6</span>
                         </div>
-                        <span>Improved resource scheduling</span>
+                        <span>Modern User Interface</span>
                       </button>
                     </h3>
                     <div
                       id="fin6"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Aligns business resources, including time, resources,
-                        and workforce through lead scoring and list validation
-                        features enabling sales teams to generate consistent
-                        leads, acquire new customers, and retain existing
-                        patrons.
+                      Dynamics 365 Cloud offers an intuitive and simple user interface that lets the users easily understand all functions and features, resulting in a higher ROI with a good amount of user engagement.
                       </div>
                     </div>
                   </div>
@@ -348,21 +349,17 @@ const WhyMigrade360 = () => {
                         <div className="wr-in">
                           <span className="number-st">7</span>
                         </div>
-                        <span>Contact management</span>
+                        <span>Industry-Specific Functionality</span>
                       </button>
                     </h3>
                     <div
                       id="fin7"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Collects, updates, organizes, and even archives
-                        customer's contact information through an embedded
-                        Microsoft Excel online integration that enables users to
-                        seamlessly manage and control their critical CRM
-                        databases.
+                      The best part about Dynamics 365 in the cloud is that it can be customised based on type, size, requirements, and the purpose of the industry. This allows the industries to avail of a bespoke business management ERP solution with higher operational efficiency.
                       </div>
                     </div>
                   </div>
@@ -380,21 +377,17 @@ const WhyMigrade360 = () => {
                         <div className="wr-in">
                           <span className="number-st">8</span>
                         </div>
-                        <span>Reduced downtime</span>
+                        <span>Equipped with AI</span>
                       </button>
                     </h3>
                     <div
                       id="fin8"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Facilitates a proactive service model through a robust
-                        field service management solution that unifies
-                        predictive maintenance with machine learning and
-                        Internet of Things (IoT), thus minimizing operational
-                        downtimes.
+                      Microsoft Dynamics 365 is not only equipped with AI but also comes with the latest technologies of ML (machine learning) and BI (business intelligence). Such technologies allow businesses to utilise automation, resulting in enhanced overall efficiency.
                       </div>
                     </div>
                   </div>
@@ -412,21 +405,17 @@ const WhyMigrade360 = () => {
                         <div className="wr-in">
                           <span className="number-st">9</span>
                         </div>
-                        <span>Scalable architect</span>
+                        <span>Critical Business Insights</span>
                       </button>
                     </h3>
                     <div
                       id="fin9"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Integrates seamlessly with business management solutions
-                        and Microsoft Office applications to deliver
-                        comprehensive solutions, enabling CRM teams to
-                        successfully manage business interactions and customer
-                        relations.
+                      Gain real-time business insights and optimise performance with its standard and <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link> user interfaces. By monitoring key performance indicators (KPIs) across all business functions, our solution ensures your operations are in sync and performing at their best.
                       </div>
                     </div>
                   </div>
@@ -444,24 +433,52 @@ const WhyMigrade360 = () => {
                         <div className="wr-in">
                           <span className="number-st">10</span>
                         </div>
-                        <span>Intelligent budgeting</span>
+                        <span>Smooth Customer Service</span>
                       </button>
                     </h3>
                     <div
                       id="fin10"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Monitors and analyzes current service requirements to
-                        predict future demand trends while also recommends
-                        relevant and prompt tactics, empowering budgeting teams
-                        to smartly execute anticipated financial expenses.
+                      Microsoft Dynamics 365 collects data, analyses it, and processes it to offer a smooth and great customer experience based on captured insights.
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="busine_service_bottom custom05">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="busine_service_bottom-left custom012">
+                <Image src="/img/whu-upgrade-side.png" alt="whu-upgrade-side" width={456} height={463} />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="side-heading-custom-01">
+                <h2>The Benefits of Migrating to Dynamics 365</h2>
+              </div>
+              <div className="custom-p-001">
+                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Increased Efficiency</h3>
+                <p>Upgrading to Microsoft Dynamics 365 in the cloud will allow a business to streamline all operations while automating the recurring and manual ones. This frees up time and resources, resulting in enhanced business efficiency.</p>
+                <br />
+                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Better Data Management</h3>
+                <p>When it comes to data management, no one does it better than Microsoft D365. It fetches real-time insights and enables the employees to make data-driven decisions. It also ensures data accuracy and security, reducing the risk of data loss or theft. </p>
+                <br />
+
+                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Scalability and Flexibility</h3>
+                <p>Dynamics 365 for Cloud offers a different and flexible pricing model to all businesses, irrespective of any differentiating parameter. You can even enhance the performance of your current system at any time by contacting your ERP partner.</p>
+                <br />
+                <p><b>Eliminate the misconceptions of moving to the cloud</b></p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cipqse0mrBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
               </div>
             </div>
           </div>
@@ -478,20 +495,15 @@ const WhyMigrade360 = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="call_to_action-left">
-                <h3>Migrate to Microsoft Dynamics 365</h3>
-                <p>
-                  We helped several organizations with their digital
-                  transformation aspirations. From upgrade and implementation to
-                  support, and audit services, we have got it all covered for
-                  you.
-                </p>
+                <h3>Migrate to Microsoft Dynamics 365 Cloud Today!</h3>
+                <p>Don't let your legacy system hold you back. Contact us now and migrate to Dynamics 365 for game-changing results.</p>
                 <div className="m-o-t m-o-t-inde">
                   <Link href="#exampleModal">
                     <a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Talk to Expert</span>
+                      <span>Talk to Expert Now!</span>
                     </a>
                   </Link>
                 </div>
@@ -500,6 +512,53 @@ const WhyMigrade360 = () => {
           </div>
         </div>
       </section>
+      <section className="busine_service_bottom custom05">
+        <div className="container">
+          <div className="row">
+          <div className="col-lg-12">
+              <header className="section-header">
+                <h2>Why Small Businesses Should Migrate to Dynamics 365 Now!</h2>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            
+            <div className="col-lg-6 align-self-center">
+              <div className="custom-p-001">
+                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Competitive Edge</h3>
+                <p>Microsoft Dynamics 365 empowers small businesses with the same advanced technology used by larger companies, leveling the playing field and enabling you to compete on an equal footing. With this, you can optimize your operations, streamline processes, and deliver exceptional customer experiences, giving you the edge, you need to succeed in today's market.</p>
+                <br />
+            
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="custom-p-001">
+                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Competitive Edge</h3>
+                <p>Microsoft Dynamics 365 empowers small businesses with the same advanced technology used by larger companies, leveling the playing field and enabling you to compete on an equal footing. With this, you can optimize your operations, streamline processes, and deliver exceptional customer experiences, giving you the edge, you need to succeed in today's market.</p>
+            
+              </div>
+            </div>
+            <div className="col-lg-12 align-self-center">
+              <div className="custom-p-001">
+
+
+                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Faster Implementation</h3>
+                <p>Experience fast and hassle-free implementation with Dynamics 365. The cloud version eliminates the need for extensive hardware or software upgrades, enabling small businesses to achieve planned ROI. Dynamics Square can help you accelerate time to value and achieve success.</p>
+                <br />
+                <p><b>See Also -</b></p>
+                <ul>
+                  <li><a href="https://blog.dynamicssquare.co.uk/dynamics-365-on-premises-to-cloud-migration/">Dynamics 365 On-premises to Cloud Migration: Discover New Heights</a></li>
+                  <li><a href="https://blog.dynamicssquare.co.uk/erp-implementation/">ERP Implementation: How A Partner Can Make All the Difference</a></li>
+                  <li><a href="https://blog.dynamicssquare.co.uk/erp-implementation-phases/">ERP Implementation Phases; Steps for a Successful Implementation</a></li>
+                </ul>
+            
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      
     </>
   );
 };
