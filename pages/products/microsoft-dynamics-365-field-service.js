@@ -77,7 +77,7 @@ const FieldService = () => {
     "name": "How much does it cost to implement a Dynamics 365 Field Service module?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Users can buy the Field Service app at £71.60 per user/per month applicable for First Dynamics 365 app. Further, ‘Subsequent Qualifying Dynamics 365 App’, users are required to pay £15.10 per user/per month. To avail of more information for Microsoft Field Service Management licensing, connect with the experts at Dynamics Square."
+      "text": "Users can buy the Field Service app at £78.10 per user/per month applicable for First Dynamics 365 app. Further, ‘Subsequent Qualifying Dynamics 365 App’, users are required to pay £15.10 per user/per month. To avail of more information for Microsoft Field Service Management licensing, connect with the experts at Dynamics Square."
     }
   },{
     "@type": "Question",
@@ -527,7 +527,7 @@ const FieldService = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Field Service</h3>
                 <div className="price">
-                  £71.60<span>Per-User/Per Month</span>
+                  £78.10<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -811,7 +811,7 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Users can buy the Field Service app at £71.60 per user/per
+                      Users can buy the Field Service app at £78.10 per user/per
                       month applicable for First{" "}
                       <Link href="/products/microsoft-dynamics-365/">
                         Dynamics 365

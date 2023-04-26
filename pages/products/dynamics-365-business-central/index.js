@@ -1437,7 +1437,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   Essentials
                 </h3>
                 <div className="price">
-                  £52.80<span>Per-User/Per Month</span>
+                £57.50<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -1469,7 +1469,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   Premium
                 </h3>
                 <div className="price">
-                  £75.40<span>Per-User/Per Month</span>
+                £82.20<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -1510,7 +1510,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   Team Members
                 </h3>
                 <div className="price">
-                  £6<span>Per-User/Per Month</span>
+                £6.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>

@@ -411,7 +411,7 @@ const Sales = () => {
                   Professional
                 </h3>
                 <div className="price">
-                  <sup>£</sup>49<span>Per-User/Per Month</span>
+                £53.40<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -428,7 +428,7 @@ const Sales = () => {
                   Essentials
                 </h3>
                 <div className="price">
-                  <sup>£</sup>71.60<span>Per-User/Per Month</span>
+                £78.10<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -458,7 +458,7 @@ const Sales = () => {
                   Premium
                 </h3>
                 <div className="price">
-                  <sup>£</sup>101.80<span>Per-User/Per Month</span>
+                £111<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

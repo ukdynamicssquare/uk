@@ -76,7 +76,7 @@ const PowerApps = () => {
                   "name": "What are the available Power Apps pricing options?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "The Power Apps pricing and licencing is based on two basic plans: subscription or pay-as-you-go. The Subscription Plan is more flexible for businesses, allowing them to offer licences to users based on app usage. The pay-as-you-go Plan is designed for businesses that want to be charged monthly, per user, for the apps they use.There are two per-app plan options available under the subscription plan:£3.80 per user/app/month,£15.10 per user/month,The pay-as-you-go plan is £7.45 per active user/app/month."
+                    "text": "The Power Apps pricing and licencing is based on two basic plans: subscription or pay-as-you-go. The Subscription Plan is more flexible for businesses, allowing them to offer licences to users based on app usage. The pay-as-you-go Plan is designed for businesses that want to be charged monthly, per user, for the apps they use.There are two per-app plan options available under the subscription plan:£4.10 per user/app/month,£16.40 per user/month,The pay-as-you-go plan is £8.20 per active user/app/month."
                   }
                 }]
              
@@ -546,7 +546,7 @@ const PowerApps = () => {
                   or run unlimited apps.
                 </p>
                 <div className="price">
-                  £3.80<span>Per-User/App/Per Month</span>
+                  £4.10<span>Per-User/App/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -566,7 +566,7 @@ const PowerApps = () => {
                   or run unlimited apps.
                 </p>
                 <div className="price">
-                £15.10<span>Per-User/Per Month</span>
+                £16.40<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -585,7 +585,7 @@ const PowerApps = () => {
                   user runs an app during a monthly period.
                 </p>
                 <div className="price">
-                  £7.45<span>Per Active User/App/Month2</span>
+                  £8.20<span>Per Active User/App/Month2</span>
                 </div>
                 <ul>
                   <li>Azure subscription to pay per user, Based on the number of unique apps a user runs each month.</li>
@@ -855,11 +855,11 @@ const PowerApps = () => {
                         </b>
                       </p>
                       <ul>
-                        <li>£3.80 per user/app/month </li>
-                        <li>£15.10 per user/month</li>
+                        <li>£4.10 per user/app/month </li>
+                        <li>£16.40 per user/month</li>
                       </ul>
                       <p>
-                        The pay-as-you-go plan is £7.45 per active
+                        The pay-as-you-go plan is £8.20 per active
                         user/app/month.
                       </p>
                       <p>

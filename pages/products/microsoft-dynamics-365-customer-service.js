@@ -328,7 +328,7 @@ const CustomerService = () => {
                   Professional
                 </h3>
                 <div className="price">
-                  <sup>£</sup>52.80<span>Per-User/Per Month</span>
+                £41.10<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -361,7 +361,7 @@ const CustomerService = () => {
                   Essentials
                 </h3>
                 <div className="price">
-                  <sup>£</sup>135.70<span>Per-User/Per Month</span>
+                £78.10<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>

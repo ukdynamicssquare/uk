@@ -546,7 +546,7 @@ const ProjectOperations = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Project Operations</h3>
                 <div className="price">
-                  £90.50<span>Per-User/Per Month</span>
+                  £98.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -815,7 +815,7 @@ const ProjectOperations = () => {
                         service for your business. The pricing for D365 Project
                         Operations is entirely dependent on your company's needs
                         and the type of deployment. The standard cloud
-                        deployment pricing is £90.50 per user/month and is also
+                        deployment pricing is £98.60 per user/month and is also
                         available on Microsoft's website. On-premises deployment
                         always comes with customised pricing, and it depends on
                         business to business.
