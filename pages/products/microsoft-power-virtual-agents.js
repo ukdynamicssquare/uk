@@ -469,7 +469,7 @@ const PowerVirtualAgents = () => {
                   Run intelligent chatbots across websites and other channels.
                 </p>
                 <div className="price">
-                  <sup>£</sup>754.10<span>Per month for 2,000 sessions</span>
+                £164.40<span>Per month for 2,000 sessions</span>
                 </div>
                 <ul>
                   <li>
@@ -487,7 +487,7 @@ const PowerVirtualAgents = () => {
                   Add additional sessions to your Power Virtual Agents plan.
                 </p>
                 <div className="price">
-                  <sup>£</sup>339.30<span>Per month for 1,000 sessions</span>
+                £82.20<span>Per month for 1,000 sessions</span>
                 </div>
                 <ul>
                   <li>Requires a Power Virtual Agents licence.</li>

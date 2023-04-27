@@ -448,7 +448,7 @@ const PowerAutomate = () => {
                 <h3>Licence by user</h3>
                 <p>Per user plan</p>
                 <div className="price">
-                  <sup>£</sup>11.30<span>Per-User/Per Month</span>
+                £12.30<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -464,7 +464,7 @@ const PowerAutomate = () => {
                 <h3>Licence by user</h3>
                 <p>Per user plan with attended RPA</p>
                 <div className="price">
-                  <sup>£</sup>30.20<span>Per-User/Per Month</span>
+                £32.90<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -481,7 +481,7 @@ const PowerAutomate = () => {
                 <h3>License by flow</h3>
                 <p>Per flow plan</p>
                 <div className="price">
-                  <sup>£</sup>75.40<span>For Five Flows/Month</span>
+                £82.20<span>For Five Flows/Month</span>
                 </div>
                 <ul>
                   <li>

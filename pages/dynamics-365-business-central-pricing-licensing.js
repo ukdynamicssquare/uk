@@ -7,11 +7,11 @@ const BusinessCentralPricingLicensing = () => {
     <>
       <Head>
         <title>
-          Dynamics 365 Business Central Pricing & Licensing Guide 2023 | Dynamics Square
+          Dynamics 365 Business Central Pricing & Licensing (2023 UK) | Dynamics Square
         </title>
         <meta
           name="description"
-          content="Dynamics 365 Business Central pricing and licensing guides that is specifically designed for SMBs. Packages includes team members, essentials & premium."
+          content="Latest Dynamics 365 Business Central pricing and licensing guides that is specifically designed for SMBs. Packages includes team members, essentials & premium."
         />
           <link
           rel="canonical"
@@ -128,7 +128,7 @@ const BusinessCentralPricingLicensing = () => {
                   Essentials
                 </h3>
                 <div className="price">
-                  £52.80<span>Per-User/Per Month</span>
+                £57.50<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -160,7 +160,7 @@ const BusinessCentralPricingLicensing = () => {
                   Premium
                 </h3>
                 <div className="price">
-                  £75.40<span>Per-User/Per Month</span>
+                £82.20<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -198,7 +198,7 @@ const BusinessCentralPricingLicensing = () => {
                   Team Members
                 </h3>
                 <div className="price">
-                  £6<span>Per-User/Per Month</span>
+                £6.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
