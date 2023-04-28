@@ -12,11 +12,108 @@ const D360 = () => {
         </title>
         <meta
           name="description"
-          content="Need Microsoft Dynamics 365 CRM and ERP services? Scale-up your business productivity by implementing Dynamics 365 apps from Microsoft Gold Partner Dynamics Square."
+          content="Need Microsoft Dynamics 365 CRM and ERP services? Scale-up your business productivity by implementing Dynamics 365 apps from Microsoft Gold Partner Dynamics Square UK."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/"
+        />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              
+              "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Is Dynamics 365 available on-premises?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dynamics 365 is a highly flexible business management software solution that offers organisations the choice of deploying servers on company premises, in the cloud, or as a hybrid environment. Companies can also move to the cloud or hybrid solutions after initially opting for on-premises servers."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is Microsoft Dynamics 365 the same for all industries?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Microsoft Dynamics 365 is adaptable for all businesses, irrespective of their industry. MS Dynamics 365 implementation partner will add or customise the features as per business requirements for a seamless workflow."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why should I use Microsoft Dynamics 365?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If your business is growing and you're looking for a solution to help it run even more smoothly, Microsoft Dynamics 365 is the solution. Not only does it help with business management, but it also increases productivity and efficiency using AI, ML, and cloud computing. In other words, it's the right tool to help your business reach its fullest potential."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is Dynamics 365 scalable as per my business growth?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Microsoft Dynamics 365 cloud enables businesses to scale processes or operations in response to changing business needs and organizational growth. The best part of the cloud is the ease of increasing the power and performance of servers without having to invest a lot of money, effort, and time."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I integrate native and third-party apps with Dynamics 365?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Microsoft provides the ability to integrate Dynamics 365 with native as well as third-party apps using APIs to make the data processing a lot smoother. Users can supercharge their processes for ERP and CRM by connecting different apps for ease of usage."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the difference between Microsoft Dynamics NAV and 365?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dynamics NAV is an ERP (Enterprise Resource Planning) solution capable of managing departments like finance, manufacturing, and more. Whereas Dynamics 365 is a set of 12 applications consisting of ERP and CRM to aid businesses with overall growth."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the difference between Microsoft Business Central and 365?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Microsoft Business Central is the evolved version of NAV and a part of the Dynamics 365 applications. Business Central is a modern ERP solution with more advanced features and capabilities than NAV."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I customise Dynamics 365 based on my requirements?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can customise the features and functionalities of Dynamics 365 based on the kind of industry and specific business requirements. Your Dynamics 365 support partner will help you evaluate your specific needs and provide a better customization option."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a business intelligence tool in Dynamics 365?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, MS Dynamics 365 is an advanced solution for all the ERP and CRM needs of small and mid-sized organisations. It uses many technologies and intelligence tools, like Cortana, Power BI, and Azure IoT, to help businesses with ease of operations."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many users can Dynamics 365 support?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There is no fixed number when it comes to the number of users of D365 support. It depends on the editions and type of deployment. With on-premises deployment, the number of users is limited, but with cloud deployment, the number of users can be increased or decreased with the performance of servers at any time."
+    }
+  },{
+    "@type": "Question",
+    "name": "How much does Dynamics 365 implementation cost?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost of implementation depends on various factors, like current ERP and CRM solutions, industry type, business requirements, integrations, customizations, deployment, and much more. Once an implementation partner evaluates all such factors, you will have the exact cost quotation."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can we integrate Microsoft Office with Dynamics 365?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, both are native Microsoft products and are compatible with each other's functionality. Organizations can integrate Office 365 applications, like Excel, Word, and other Microsoft business applications, making the data more convenient to use."
+    }
+  }]
+
+              
+            }),
+          }}
         />
       </Head>
       <section className="Solution-banner hero-1 hero">

@@ -25,6 +25,53 @@ const BusinessCentralImplementation = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/dynamics-365-business-central-implementation/"
         />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "Is Business Central an ERP?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Business Central is a highly embedded ERP designed to support end-to-end enterprise practices while improving the entire workflow and accelerating the overall performance to maximize profitability. Business Central can be configured either on-cloud or on-premises depending on your specific needs. Further, it can be customized as per your specific business domain or industry context.To drive streamlined enterprise practices, D365 Business Central can be integrated with any of your existing Microsoft apps or even any third-party applications. This helps to seamlessly manage, access, and drive your data to attain overall success. To know how Business Central can help or work for your business, connect with our experts at Dynamics Square. We can help."
+                }
+              },{
+                "@type": "Question",
+                "name": "What is Business Central used for?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "D365 Business Central helps manage your day-to-day tasks or processes in sales, customers, finance, projects, supply chain, warehousing, manufacturing, and human resources. It helps to centralize your data and drive a collaborative data experience."
+                }
+              },{
+                "@type": "Question",
+                "name": "What is included in Dynamics 365 Business Central?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "When you implement a cloud-based ERP system like Business Central, it includes a complete set of business solutions, helping businesses to automate their manual processes, streamline their data-driven activities in real-time, and connect people, processes, and workflows. D365 Business Central also enables you to manage your sales, inventory, warehousing, manufacturing, and finance practices. Everyone from top management to the executive level can benefit from D365 Business Central."
+                }
+              },{
+                "@type": "Question",
+                "name": "How do I implement Microsoft Dynamics 365 Business Central?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dynamics 365 Business Central implementation process requires a step-by-step effort to be followed. Let's understand the implementation process flow for Business Central. Steps are given below:Setup-First you need to leverage Business Central Setup just to install the different required components. The components include Business Central production or development environment.Setup can be found in installation media named with setup.exe file. Once you run the installation, you will have options on whether to install the individual components or select the predefined option to install the logical set of components.Configuration-During the installation phase, several configuration settings will be demonstrated wherein you can either choose to customize the settings or can go with the initial settings. Once your settings are done, you can even change the configuration settings by making use of tools like Business Central Server Administration tool and Business Central Administration Shell.Prerequisite Installations-To complete the installation process, you are required to install the other software too such as database requiring SQL Server and Web client requiring IIS.Downloading Business Central to Install Further-Business central is available and can be downloaded from Microsoft Support. The downloaded file will contain setup.exe file. You can find several versions to choose from. Every release is equipped even with minor updates that are published on a regular basis.Download Files-Now, all you need is to go to the update page to download the release that you are willing to install. Once your download is completed, you are required to install the setup. To download the setup, follow the initial steps.Implementing Dynamics 365 Business Central requires expert practices, training, and support, if you need experts for Dynamics 365 Business Central Services, discuss your requirement with Dynamics Square, we can help to implement a highly customized solution suited to your exact business needs."
+                }
+              },{
+                "@type": "Question",
+                "name": "How long does it take to implement Business Central?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "D365 Business Central implementation process may vary from project to project, business to business, and industry to industry. Depending on your project complexity, customization requirements, and integration needs, it can take 3 to 9 months. If you are seeking to implement Dynamics 365 Business Central, contact Dynamics Square. By evaluating and analyzing your exact implementation needs, we can tell you how long your project implementation will take.You can also contact us for a free system health check as we are here to implement your dream project in the most productive way associated with our appropriate training and assistance."
+                }
+              }]
+            }),
+          }}
+        />
+  
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
