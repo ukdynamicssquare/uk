@@ -301,6 +301,32 @@ const D360 = () => {
                       </div>
                     </div>
                   </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin9"
+                        aria-expanded="false"
+                        aria-controls="fin9"
+                      >
+                        
+                        <span>Predictive Analytics</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin9"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Dynamics 365 can let you predict the latest trends, identify fluctuating patterns, predict future demands, and check for abnormalities in the market. It enables a business to make data-driven decisions in real-time to maximise its overall output.</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -383,6 +409,32 @@ const D360 = () => {
                     >
                       <div className="accordion-body">
                       Microsoft Dynamics 365 always lets you connect with the system to make informed decisions anytime. Whether out of town or working inside the organization, it will keep you updated. Cloud deployment makes the users more productive and efficient.
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin10"
+                        aria-expanded="false"
+                        aria-controls="fin10"
+                      >
+                        
+                        <span>Lower Cost of Ownership</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin10"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnews"
+                    >
+                      <div className="accordion-body">
+                      <p>Unlike on-premises server deployment, which comes with a high initial investment cost, you can opt for cloud deployment, which comes with a monthly subscription pricing model. It eliminates the high investment cost and saves money, letting you focus more on business growth than managing finances.</p>
                       </div>
                     </div>
                   </div>
@@ -601,6 +653,27 @@ const D360 = () => {
             </div>
           </div>
         </div>
+      </section>
+      <section>
+     <div className="container">
+     <div className="row justify-content-center">
+            <div className="col-md-10">
+            <header className="section-header">
+            <h2>Dynamics Square; Your Personal Solution Partner</h2>
+            <p>Offering Microsoft Dynamics 365 implementation across the globe for the last 11+ years </p>
+            <p>In today's fast-paced world, businesses and their operations are constantly evolving, growing more intricate by the day. It's time to put an end to the chaos, and there's no better solution than implementing Microsoft Dynamics 365.</p>
+            <p>At Dynamics Square, we're dedicated to streamlining businesses all across UK by offering top-notch Dynamics 365 support, solidifying our reputation as a trusted D365 solution partner.</p>
+            <p>As a Microsoft Certified Gold Partner, we pride ourselves on our expertise, resources, and experience - all crucial elements to tackle any issue and simplify your business operations.</p>
+
+            <p>Our team of highly skilled technical consultants is here to understand the challenges you're facing, providing personalised solutions in the blink of an eye. We're committed to keeping your business on track, no matter what hurdles come your way.</p>
+
+            <p>With a proven track record of serving 500+ satisfied customers across the globe and boasting a team of 150+ certified Dynamics 365 consultants, we've made it our mission to build lasting relationships with our clients while delivering cost-effective, comprehensive solutions.</p>
+
+            <p>Don't let your business issues hold you back - Dynamics Square is here for you, ready to provide instant support whenever you need it. Let us help you unlock your business's full potential.</p>
+          </header>
+            </div>
+          </div>
+     </div>
       </section>
       <section className="solution-faq faq">
         <div className="container">
