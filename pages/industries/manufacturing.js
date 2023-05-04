@@ -14,10 +14,10 @@ const Startup = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Manufacturing &amp; Distribution</title>
+        <title>Dynamics 365 for Manufacturing &amp; Distribution | Dyanmics Square UK</title>
         <meta
           name="description"
-          content="Dynamics 365 For Manufacturing-Keep track of your production lines and bring transparency with Microsoft Dynamics 365 for Manufacturing and Distribution."
+          content="With Microsoft Dynamics 365 for Manufacturing and Distribution, you can track production lines and enhance transparency in your operations."
         />
         <link
           rel="canonical"
@@ -37,9 +37,9 @@ const Startup = () => {
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
                 <h1>
-                  Dynamics 365
+                  Dynamics 365 
                   <br />
-                  Manufacturing
+                  for Manufacturing
                 </h1>
                 <p>Drive Sustainability In Your Manufacturing Operations</p>
                 <p>
@@ -73,10 +73,7 @@ const Startup = () => {
         <section>
           <div className="container">
             <header className="section-header">
-              <h2>
-                Manage it all, with Dynamics 365 <br />
-                for Manufacturing!
-              </h2>
+              <h2>Microsoft Dynamics 365: All-in-one Solution for your Manufacturing Business </h2>
               <p>
                 Connect your systems and enable seamless distribution across
                 your manufacturing unit to simplify your end-to-end
@@ -449,6 +446,121 @@ const Startup = () => {
             </div>
           </div>
         </section>
+
+        <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <header className="section-header">
+                <h2>Have you got <br /> questions about Dynamics 365 Manufacturing?</h2>
+                <p>Click through to our FAQ for the best answers!</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >What is Dynamics 365 for Manufacturing? </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p> Dynamics 365 for Manufacturing is a powerful and seamless application to monitor the entire manufacturing process and enhance the overall efficiency of the plant. It gathers data in real-time and lets the employee make data-driven decisions. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >Does Dynamics 365 have manufacturing? </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Yes, <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> comes with various applications to manage different verticals of a business, which include manufacturing, finance, supply chain management, and warehouse operations. The manufacturing section empowers the users to streamline all processes, from picking up the raw material to checking the quality. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >What are the different types of manufacturing processes in D365? </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>D365 for manufacturing consists of different processes that include job shop, repetitive job shop, make-to-order, make-to-stock, configure-to-order, engineer-to-order, mixed mode, and process manufacturing. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >How can Dynamics 365 for Manufacturing help improve collaboration? </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Dynamics 365 is a flexible solution that offers on-premises and cloud deployment options. And, with <Link href="/industries/microsoft-cloud-for-manufacturing/"><a>Dynamics 365 for cloud manufacturing</a></Link>, you can empower your team to collaborate with different departments as well as employees to make data sharing more efficient and effective.  </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >What are the benefits of using Dynamics 365 for manufacturing? </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Dynamics 365 Manufacturing offers numerous benefits to its users. You can streamline change management, improve quality, enable predictive maintenance, build a seamless distribution process, build strong relationships with customers, track inventory levels in real-time, and offer an outstanding customer experience. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
         <section className="industry-more-sec">
           <div className="container">
             <header className="section-header">

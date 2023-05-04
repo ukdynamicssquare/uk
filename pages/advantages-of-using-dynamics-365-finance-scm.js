@@ -6,8 +6,8 @@ const AdvantagesfinanceScm = () => {
     return (
       <>
         <Head>
-        <title>Dynamics 365 Finance &amp; Supply Chain Advantages</title>
-<meta name="description" content="Dynamics 365 Finance &amp; Supply Chain puts flexibility and scalability at the core of your business, enabling you to start quickly, grow at your own pace, and adapt in real time."/>
+        <title>Dynamics 365 Finance & Supply Chain Management Advantages</title>
+<meta name="description" content="Check out some advantage of Dynamics 365 Finance & Supply Chain management. Optimize financials, inventory, production & more to streamline operations & drive growth."/>
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/advantages-of-using-dynamics-365-finance-scm/" />
         </Head>
         <section className="Solution-banner hero-1 hero">
@@ -17,12 +17,7 @@ const AdvantagesfinanceScm = () => {
               <h1>
                 Dynamics 365 Finance <br />& Supply Chain Advantages
               </h1>
-              <p>
-                Dynamics 365 for Finance and Supply Chain Management puts
-                flexibility and scalability at the core of your business,
-                enabling you to start quickly, grow at your own pace, and adapt
-                in real time.
-              </p>
+              <p>Dynamics 365 for Finance and Supply Chain Management puts flexibility and scalability at the core of your business, enabling you to start quickly, grow at your own pace, and adapt to new processes in real time.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -46,437 +41,109 @@ const AdvantagesfinanceScm = () => {
         </div>
       </section>
 
-      <section>
+      <section className="new-style-bg">
         <div className="container">
-          <header className="section-header">
-            <h2>
-              9 advantages of Microsoft Dynamics 365 <br />
-              for Finance and Supply Chain Management
-            </h2>
+          <div className='row justify-content-center'>
+            <div className='col-lg-9'>
+            <header className="section-header">
+            <h2>Microsoft Dynamics 365 for Finance and Supply Chain Management: Top Benefits You Can Avail for Your Business.</h2>
+            <p>
+              Dynamics Square has an extensive team with end-to-end expertise to
+              take care of system and process integrity. Whether you want to
+              eliminate your system risks, improve your system capabilities,
+              want to train your end-users, or more, we are here to serve our
+              optimal support services.
+            </p>
           </header>
-          <div className="row p-lg-6">
+            </div>
+          </div>
+          <div className="row g-5 pad2xyr">
             <div className="col-lg-6">
-              <div className="finace-acc">
-                <div className="accordion" id="accnew">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin1"
-                        aria-expanded="false"
-                        aria-controls="fin1"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/Application.svg"
-                            alt="Application"
-                          />
-                        </div>
-                        <span>Applications</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin1"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Dynamics 365 delivers a variety of purpose-built
-                          applications to help your business manage its
-                          day-to-day operation and supply chain. Available
-                          through AppSource, Microsoft's online marketplace,
-                          it's easy to find apps that specifically tailor to
-                          your business needs.
-                        </p>
-                        <p>
-                          Whether you're searching for a specific payroll
-                          application or a document and report management
-                          solution, such as the one offered by Lasernet, you'll
-                          find exactly what you need to round out the
-                          functionality of your ERP.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin2"
-                        aria-expanded="false"
-                        aria-controls="fin2"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/scalability.svg"
-                            alt="scalability"
-                          />
-                        </div>
-                        <span>Scalability</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin2"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Because Dynamics 365 is based on a monthly
-                          subscription model, it's incredibly easy for your
-                          business to scale up or down as needed.
-                        </p>
-                        <p>
-                          This is particularly helpful for seasonal businesses
-                          but also for fast-growing companies. As we've
-                          experienced with many of our own customers, once
-                          Dynamics 365 has been implemented, their operational
-                          performance and productivity increase, thereby
-                          requiring the need to scale up quickly. Dynamics 365
-                          makes this a painless experience.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin3"
-                        aria-expanded="false"
-                        aria-controls="fin3"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/predictibility.svg"
-                            alt="predictibility"
-                          />
-                        </div>
-                        <span>Predictability</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin3"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          You'll be able to anticipate your monthly operational
-                          costs. Because your organization is not on the hook
-                          for a large yearly license, you'll never have to
-                          commit to more than the number of licenses you need
-                          for the individuals utilizing the solution. Even if
-                          your business needs to scale up or down, the
-                          predictability factor still remains.
-                        </p>
-                        <p>
-                          Dynamics 365 makes it possible to build more effective
-                          business intelligence for clear, informed decision
-                          making—including forecasting for the number of
-                          licenses needed in future months.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin4"
-                        aria-expanded="false"
-                        aria-controls="fin4"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/real-time-analysis.svg"
-                            alt="real-time-analysis"
-                          />
-                        </div>
-                        <span>Real-time Analytics</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin4"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Dynamics 365 is cloud-based, your information will
-                          always be up-to-date. No more miscalculations due to a
-                          lag in your system or missing a key piece of data
-                          because it was being edited by another user.
-                        </p>
-                        <p>
-                          Within the Finance and Supply Chain Management
-                          modules, you'll have the ability to adjust to changing
-                          financial requirements with a flexible, guided,
-                          rules-based chart of accounts, dimensions and global
-                          tax engine. Through predictive analytics, you'll gain
-                          the trust of your customers by solving potential
-                          problems before they even arise.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin5"
-                        aria-expanded="false"
-                        aria-controls="fin5"
-                      >
-                        <div className="wr-in">
-                          <img src="/img/agility.svg" alt="agility" />
-                        </div>
-                        <span>Agility</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin5"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          With{" "}
-                          <Link href="/products/microsoft-dynamics-365-finance/">
-                          <a>
-                            Dynamics 365 for Finance
-                          </a>
-                          </Link>{" "}
-                          and{" "}
-                          <Link href="/products/dynamics-365-supply-chain-management/">
-                          <a>
-                            Supply Chain Management
-                          </a>
-                          </Link>{" "}
-                          modules, you'll be able to close your books faster,
-                          deliver more robust reporting and increase your
-                          profitability with precise business intelligence.
-                        </p>
-                        <p>
-                          Additionally, you'll find your company is able to
-                          accelerate time to market and adapt the application to
-                          your needs with no code visual editors and tools that
-                          make it easy to build and deploy web and mobile apps.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+              <h3 style={{marginBottom:'20px'}}>Dynamics 365 Finance </h3>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Simplify Financial Operations </h3>
+                  <p><Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link> simplifies all financial and accounting operations, irrespective of the complexity of the situation. It comes with automation tools that make the entire business operation simple, productive, and efficient.  </p>
                 </div>
               </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Assets Management</h3>
+                  <p>Managing assets is one of the essential tasks of a business responsible for managing movable and fixed assets. Built into D365 for Finance to track all investments, revenue, expenditures, profit margin, and more.  </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Profit Tracking </h3>
+                  <p>The profit tracking module enables the organisation to track all expenses, calculate the margin, predict profit, and track them in real time. Calculating an accurate profit number empowers an organisation to plan, calculate revenue, and find areas for improvement to maximise profit.  </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Multi-Currency Management </h3>
+                  <p>Nowadays, businesses operate globally, accepting multi-currency transactions to enhance and build a sustainable path to generating revenue. This lets the user track accounts payable and receivable data for international customers.  </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Tax Management </h3>
+                  <p>Tax management has become a cumbersome task of tracking, calculating, and submitting taxes to the concerned government agency without any kind of direct or manual involvement. This module eliminates the task of following basic tax-related tasks that include manual tax calculation, audit, reporting, and more.  </p>
+                </div>
+              </div>
+
             </div>
 
             <div className="col-lg-6">
-              <div className="finace-acc">
-                <hr className="mob-disp" />
-                <div className="accordion" id="accneww">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin6"
-                        aria-expanded="false"
-                        aria-controls="fin6"
-                      >
-                        <div className="wr-in">
-                          <img src="/img/security.svg" alt="security" />
-                        </div>
-                        <span>Security</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin6"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accneww"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Because Dynamics 365 is cloud-based and hosted via
-                          Azure, you'll rest easily knowing that your data stays
-                          completely safe.
-                        </p>
-                        <p>
-                          Azure Security Center allows for a unified view of
-                          security across all of your workloads.
-                          <br />
-                          You'll be able to find vulnerabilities and remediate
-                          quickly as well as detect and respond swiftly to
-                          attacks while limiting your exposure to threats.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin7"
-                        aria-expanded="false"
-                        aria-controls="fin7"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/accesibility.svg"
-                            alt="accesibility"
-                          />
-                        </div>
-                        <span>Accessibility</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin7"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accneww"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          The demands of today's modern workplace mean that you
-                          need to have fast and easy access to all of your
-                          solutions, files and data whether you're in the
-                          office, on the road or on site at another location.
-                        </p>
-                        <p>
-                          Wherever you are in the world, you'll have access to
-                          everything you need, all in real-time.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin9"
-                        aria-expanded="false"
-                        aria-controls="fin9"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/lowered-cost.svg"
-                            alt="lowered-cost"
-                          />
-                        </div>
-                        <span>Lowered Costs With Increased Productivity</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin9"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accneww"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Dynamics 365 Finance and Supply Chain Management
-                          modules faster optimal workplace productivity and
-                          efficiency with the ability to build role-based
-                          workspace that provide intelligent automation, task
-                          prioritization and integration with Office 365.
-                        </p>
-                        <p>
-                          Financial process automation, budget planning and
-                          control allow for minimized operational costs. And
-                          because you'll have a centralized financial management
-                          solution with robust financial intelligence and
-                          embedded analytics, you'll propel margin revenue
-                          growth.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin10"
-                        aria-expanded="false"
-                        aria-controls="fin10"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/compliance.svg"
-                            alt="compliance"
-                          />
-                        </div>
-                        <span>Compliance</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin10"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accneww"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Azure adheres to strict guidelines and ensures that
-                          all compliance laws for your region are followed.
-                        </p>
-                        <p>
-                          Additionally, you're able to work with a single
-                          regulatory configuration format that can be used
-                          across multiple versions of Microsoft Dynamics 365 for
-                          Finance and Supply Chain Management and Microsoft
-                          Dynamics AX.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+              <h3 style={{marginBottom:'20px'}}>Dynamics 365 Supply Chain Management </h3>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Demand Management </h3>
+                  <p>You can streamline the product demand and process it for safe delivery with impactful job scheduling. Also, you can track the available resources to fulfil the demand requirements, resulting in timely delivery planning.  </p>
                 </div>
               </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Track Production Needs </h3>
+                  <p><Link href="/products/dynamics-365-supply-chain-management/"><a>D365 for Supply Chain Management</a></Link> lets you manage and control all supply chain operations to streamline production demands. It lets you create a BOM (bill of materials), track labour resources, maintain the basic operations of supply chain management, and automate the process to lower the chances of errors.  </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Transparent Supply Chain</h3>
+                  <p>With Microsoft Dynamics 365 Supply Chain Management cloud deployment, you can avail transparency across all business operations to maximise overall efficiency. You can even make data-driven decisions by leveraging real-time insights.  </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Workflow Automation </h3>
+                  <p>D365 Supply Chain Management automates most of the manual and recurring processes, resulting in enhanced business flow. Also, it builds a bridge of smooth communication between different departments and employees to create a collective approach. </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Lowered Operational Cost </h3>
+                  <p>D365 for supply chain cloud deployment offers a central platform to optimise resources, lower administrative costs, reduce considerable errors, and calculate accurate demands. These factors let a business reduce its overall operational costs.  </p>
+                </div>
+              </div>
+
+
             </div>
+           
           </div>
         </div>
       </section>
+
 
       <section className="why-slider">
         <div className="container">
           <header className="section-header">
             <h2>Why Dynamics Square?</h2>
-            <p>
-              We employ market leading technologies, consultants, processes and
-              proven methodologies to help clients to design, implement and
-              manage their business solutions that align to business priorities,
-              maximum return on their investment and to create high performance
-              organizations.
-            </p>
+            <p>With modern and advanced business solutions, we are here to help you transform the way you do business with your customers. We priorities offering a solution to push your business towards success while creating an eminently performing organisation. </p>
           </header>
           <div className="row pad-3y">
             <div className="col-lg-4 col-md-6">
@@ -485,37 +152,25 @@ const AdvantagesfinanceScm = () => {
                   <i className="bi bi-check-lg"></i>{" "}
                   <span>Years of Expertise</span>
                 </h3>
-                <p>
-                  Our years of expertise helps us to align ourselves with our
-                  customer's business needs, expectations with Microsoft
-                  Business Solutions.
-                </p>
+                <p>Since the last 11+ years, we have been serving our expertise to the businesses of the UK with our best-in-class <Link href="/our-services/dynamics-365-implementation-services/"><a>Dynamics 365 implementation</a></Link>, <Link href="/our-services/dynamics-365-support-services/"><a>support</a></Link>, and upgrade services. </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="why-slider-sec why-slider-sec-nee">
                 <h3>
                   <i className="bi bi-check-lg"></i>{" "}
-                  <span>In-depth Knowledge</span>
+                  <span>Customers That Trust Us </span>
                 </h3>
-                <p>
-                  Our in-depth knowledge of products, technology, and Industry
-                  helps us to design the solution that align with our customer's
-                  business needs.
-                </p>
+                <p>With 500+ global customers, we have been helping businesses build seamless opportunities for growth and scalability. </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="why-slider-sec why-slider-sec-nee">
                 <h3>
                   <i className="bi bi-check-lg"></i>{" "}
-                  <span>Subject Matter Experts</span>
+                  <span>Skilled Technical Consultants</span>
                 </h3>
-                <p>
-                  Our highly experienced team of Professionals having the
-                  collective experience of over hundreds of successful Project
-                  implementations.
-                </p>
+                <p>We have a team of 150+ skilled technical and functional consultants to resolve the issue at the time you encounter it. Isn't it fast?</p>
               </div>
             </div>
           </div>

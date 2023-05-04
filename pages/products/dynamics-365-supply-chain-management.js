@@ -11,7 +11,7 @@ const SupplyChainManagement = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Supply Chain Management Demo & Pricing | Dynamics Square</title>
+        <title>Dynamics 365 Supply Chain Management Partner UK | Dynamics Square</title>
         <meta
           name="description"
           content="Dynamics 365 Supply Chain management helps organizations simplify, streamline, and accelerate their supply chain practices just to produce, drive, and scale high."
