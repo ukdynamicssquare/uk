@@ -17,7 +17,7 @@ const Startup = () => {
         <title>Dynamics 365 for Manufacturing &amp; Distribution | Dyanmics Square UK</title>
         <meta
           name="description"
-          content="With Microsoft Dynamics 365 for Manufacturing and Distribution, you can track production lines and enhance transparency in your operations."
+          content="Microsoft Dynamics 365 for manufacturing & distribution helps enhance productivity, optimize supply chain and integrated solution to simplified operations."
         />
         <link
           rel="canonical"
