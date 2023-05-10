@@ -175,7 +175,7 @@ const FooterHide = () =>{
                   skilled Microsoft consultants.
                 </p>
                 <img
-                  src="/img/microsoft-partner.svg"
+                  src="/img//img/microsoft-partner-footer.png"
                   alt="microsoft-partner"
                   className="footer-img"
                 />

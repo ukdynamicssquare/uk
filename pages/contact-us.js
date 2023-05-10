@@ -796,7 +796,7 @@ const ContactUs = () => {
                   skilled Microsoft consultants.
                 </p>
                 <img
-                  src="/img/microsoft-partner.svg"
+                  src="/img/microsoft-partner-footer.png"
                   alt="microsoft-partner"
                   className="footer-img"
                   width="230" height="81"
