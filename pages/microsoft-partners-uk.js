@@ -15,7 +15,7 @@ const PartnerUK = () => {
         <title>Microsoft Partners UK | Dynamics Square</title>
         <meta
           name="description"
-          content="Dynamics Square is a leading Microsoft partner in the UK, delivering end-to-end business solutions and expert consulting services. Contact us today to learn more!"
+          content="Dynamics Square is a leading Microsoft partner in the UK, delivering end-to-end business solutions and expert consulting services. Do Contact us today!"
         />
         <link rel="canonical" href="https://www.dynamicssquare.co.uk/microsoft-partners-uk/" />
       </Head>
