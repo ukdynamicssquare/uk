@@ -3325,8 +3325,8 @@ section {
   font-weight: 500;
 }
 .m-o-t-inde .btn-get-started:hover {
-  color: #1d3557 !important;
-  background: #fff;
+  color:var(--color-blue ) !important;
+  background: #fff !important;
 }
 .content-inner-moil-1 .ext-bord .bi {
   font-size: 30px;
