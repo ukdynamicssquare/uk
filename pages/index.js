@@ -15,7 +15,7 @@ export default function Home() {
         <title>Microsoft Dynamics 365 Partner UK, Business Central Partner - Dynamics Square</title>
         <meta
           name="description"
-          content="We are trusted UK's leading Microsoft Dynamics 365 Partners, our expert helping businesses to achieve desired results with Dynamics 365 apps, services like Business Central ERP & CRM."
+          content="As a leading Microsoft Dynamics 365 Partner in the UK, our experts help businesses achieve desired results with the implementation of Dynamics 365 apps such as Business Central, NAV, AX, and Power BI. Contact us Today!"
         />
         <link rel="canonical" href="https://www.dynamicssquare.co.uk/" />
         <meta property="og:type" content="website" />
