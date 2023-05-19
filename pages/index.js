@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Partner UK, Business Central Partner - Dynamics Square</title>
+        <title>Microsoft Dynamics 365 Partner UK, Business Central Partner - Dynamics Square™</title>
         <meta
           name="description"
           content="As a leading Microsoft Dynamics 365 Partner in the UK, our experts help businesses achieve desired results with the implementation of Dynamics 365 apps such as Business Central, NAV, AX, and Power BI. Contact us Today!"
