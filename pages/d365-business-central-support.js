@@ -15,7 +15,7 @@ const BusinessCentralSupport = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/dynamics-365-business-central-support/"
+          href="https://www.dynamicssquare.co.uk/d365-business-central-support/"
         />
       </Head>
       <section className="Solution-banner hero-1 hero">

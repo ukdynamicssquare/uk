@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Image from "next/image";
 
+
 class Header extends Component {
   componentDidMount() {
     let elementId = document.getElementById("header");

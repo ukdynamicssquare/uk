@@ -268,7 +268,8 @@
     { "source": "/case-studies/cqc/", "destination": "/case-studies/nav2009R2-to-business-central/", "statusCode": 301 },
     { "source": "/case-studies/arteak/", "destination": "/case-studies/migrate-nav9-to-business-central/", "statusCode": 301 },
     { "source": "/case-studies/wiper-supply-services/", "destination": "/case-studies/nav-2016-support-services/", "statusCode": 301 },
-    { "source": "/case-studies/global-tea/", "destination": "/case-studies/nav16-support/", "statusCode": 301 }
+    { "source": "/case-studies/global-tea/", "destination": "/case-studies/nav16-support/", "statusCode": 301 },
+    { "source": "/dynamics-365-business-central-support/", "destination": "/d365-business-central-support/", "statusCode": 301 }
 
 
   ]

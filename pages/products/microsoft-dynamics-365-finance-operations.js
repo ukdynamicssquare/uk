@@ -2,6 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import Blog from "../../components/Blog";
+import TimerModal from "../../components/TimerModal";
 const FinanceOperations = () => {
   return (
     <>
@@ -1169,6 +1170,7 @@ The latest version includes several new features and improvements that make it a
           </div>
         </div>
       </section>
+      <TimerModal />
     </>
   );
 };

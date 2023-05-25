@@ -165,7 +165,7 @@ const AdvantagesCapabilities = () => {
             <h2>
               Dynamics 365
               <br />
-              Business Central Advantages
+              Business Central Capabilities
             </h2>
           </header>
           <div className="row p-lg-6">
