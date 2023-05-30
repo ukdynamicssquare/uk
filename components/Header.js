@@ -747,6 +747,25 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/products/microsoft-sustainability-manager/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/Sustainability-Manager.png"
+                                            alt="AI"
+                                            width="48" height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Sustainability Manager</span>
+                                          <p>
+                                          Record, report, and reduce the environmental impact
+                                          </p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>

@@ -4046,6 +4046,7 @@ section {
 }
 .list-itmes-maga-menu .pic img {
   width: 35px;
+  mix-blend-mode: darken;
 }
 .list-itmes-maga-menu .content span {
   color: #414141;
