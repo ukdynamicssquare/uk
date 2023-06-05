@@ -11,7 +11,7 @@ const WhyMigrade360 = () => {
         <title>Unlock the Power of Cloud Computing: Migrate to Microsoft Dynamics 365</title>
         <meta
           name="description"
-          content="Meta Description: Unlock the power of cloud computing by migrating to Microsoft Dynamics 365 cloud. Supercharge your business and streamline operations. Contact us for a free consultation."
+          content="Unlock the power of cloud computing by migrating to Microsoft Dynamics 365 cloud. Supercharge your business and streamline operations. Contact us for a free consultation."
         />
         <link
           rel="canonical"
@@ -523,7 +523,7 @@ const WhyMigrade360 = () => {
           </div>
           <div className="row justify-content-center">
             
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-6">
               <div className="custom-p-001">
                 <h3 style={{fontSize:"18px",fontWeight:"500"}}>Competitive Edge</h3>
                 <p>Microsoft Dynamics 365 empowers small businesses with the same advanced technology used by larger companies, leveling the playing field and enabling you to compete on an equal footing. With this, you can optimize your operations, streamline processes, and deliver exceptional customer experiences, giving you the edge, you need to succeed in today's market.</p>
@@ -531,14 +531,7 @@ const WhyMigrade360 = () => {
             
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="custom-p-001">
-                <h3 style={{fontSize:"18px",fontWeight:"500"}}>Competitive Edge</h3>
-                <p>Microsoft Dynamics 365 empowers small businesses with the same advanced technology used by larger companies, leveling the playing field and enabling you to compete on an equal footing. With this, you can optimize your operations, streamline processes, and deliver exceptional customer experiences, giving you the edge, you need to succeed in today's market.</p>
-            
-              </div>
-            </div>
-            <div className="col-lg-12 align-self-center">
+            <div className="col-lg-6">
               <div className="custom-p-001">
 
 

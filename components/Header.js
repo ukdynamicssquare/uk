@@ -891,6 +891,11 @@ class Header extends Component {
                               </a>
                             </li>
                             <li>
+                              <a href="/gp-to-business-central-migration/">
+                                Migrate GP to Business Central
+                              </a>
+                            </li>
+                            <li>
                               <a href="/products/dynamics-365-business-central/advantages-capabilities/">
                                 Business Central - Advantages & Capabilities
                               </a>
