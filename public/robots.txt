@@ -5,5 +5,3 @@ Disallow: /wp-content/
 Disallow: /react-ds/
 
 Sitemap: https://www.dynamicssquare.co.uk/sitemap.xml
-Sitemap: https://www.dynamicssquare.co.uk/sitemap-0.xml
-Sitemap: https://blog.dynamicssquare.co.uk/sitemap_index.xml
