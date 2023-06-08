@@ -11,7 +11,7 @@ export async function getServerSideProps() {
   const res = await fetch(process.env.BACKEND_URL+"/api/allblog");
   const blogs = await res.json();
 
-  const business = await fetch(process.env.BACKEND_URL+"/api/blog/category/business-central"
+  const business = await fetch(process.env.BACKEND_URL+"/api/blog/category/Business/business-central"
   );
   const businesscentral = await business.json();
 
