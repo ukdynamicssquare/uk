@@ -31,7 +31,7 @@ export async function getServerSideProps(context) {
 function CategoryBlogs({ blogs, categoryblogs }) {
   const router = useRouter();
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 2;
+  const pageSize = 10;
  
   const onPageChange = (page) => {
     setCurrentPage(page);
@@ -81,7 +81,7 @@ function CategoryBlogs({ blogs, categoryblogs }) {
           </div>
           <div className="row">
             <div className="col-lg-3">
-              <div className="blogs-ex-side-cate">
+              <div className="blogs-ex-side-cate blogs-ex-side-cate-inn">
                 <h3>Explore by Topic</h3>
                 <ul>
                   {categoryblogs &&

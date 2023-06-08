@@ -31,7 +31,7 @@ export async function getServerSideProps(context) {
 function Authors({authorslist, blgsbyauthorslist }) {
   const router = useRouter();
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 2;
+  const pageSize = 15;
  
   const onPageChange = (page) => {
     setCurrentPage(page);

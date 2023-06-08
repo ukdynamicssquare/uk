@@ -8573,7 +8573,7 @@ ul.checkmark li {
   margin-bottom: 30px;
 }
 .blogs-ex-side-cate ul{
-  padding:0;
+  padding:15px;
   list-style:none
 }
 .blogs-ex-side-cate ul li.active a
@@ -9084,6 +9084,39 @@ margin:0px 10px 10px 0px
   color: #273266;
 }
 
+.blogs-ex-side-cate ul {
+  padding: 15px 15px 15px 0px;
+  list-style: none;
+  height: 400px;
+  overflow-y: scroll;
+}
+/* width */
+.blogs-ex-side-cate ul::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.blogs-ex-side-cate ul::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.blogs-ex-side-cate ul::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.blogs-ex-side-cate ul::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.blogs-ex-side-cate.blogs-ex-side-cate-home ul{
+  height: auto;
+  overflow:auto
+}
+.blogs-ex-side-cate ul li:hover a{ 
+  text-decoration:none
+}
+
 
 @media (min-width: 1201px) and (max-width: 1400px){
   .blogs-lates h1 a, .blogs-lates.blogs-lates-top-head h1{
@@ -9140,7 +9173,7 @@ margin:0px 10px 10px 0px
     padding: 40px 30px 40px
 }
 .blogs-ex-side-cate ul,.auter-cate ul{
-  display: flex;
+  /* display: flex; */
     align-items: center;
     /* flex-wrap: wrap; */
     overflow-x: scroll;
@@ -9150,6 +9183,10 @@ margin:0px 10px 10px 0px
 }
 .blogs-ex-side-cate ul li,.auter-cate ul li{
   margin: 0px 10px 0px 0px;
+  display:inline-block
+}
+.auter-cate,.blogs-ex-side-cate {
+  margin-bottom: 30px;
 }
 .bootom-blogs-sub .row-bg{
   background:transparent
