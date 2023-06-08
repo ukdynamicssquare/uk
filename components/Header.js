@@ -1577,7 +1577,6 @@ class Header extends Component {
                                   <a
                                     href="/blog/"
                                     target="_self"
-                                    rel=""
                                   >
                                     Blogs
                                   </a>
