@@ -1043,7 +1043,7 @@ class Header extends Component {
                       <li>
                         <a
                           href="/blog/"
-                          rel=""
+                        
                           target="_self"
                         >
                           Blogs
