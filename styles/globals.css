@@ -8840,8 +8840,10 @@ ul.checkmark li {
     color: #273266;
     margin-bottom: 30px;
 }
-.blogs-content ul li{}
+.blogs-content ul li,.blogs-content ul li p,.blogs-content ul li a,.blogs-content ul li p a{font-size: 18px;    letter-spacing: 0.02px;}
+.blogs-content ul li p{}
 .blogs-content ul li a{}
+.blogs-content ul li p a{}
 .blogs-content ul li a:hover{}
 .blogs-content img{
   display:block;
