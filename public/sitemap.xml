@@ -560,17 +560,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/microsoft-dynamics-365/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-trial/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/business-central/</loc>
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -599,61 +589,7 @@
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/power-bi/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/dynamics-nav/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/comparison/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/dynamics-ax/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/dynamics-365-fo/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/microsoft-cloud/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/power-platform/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/crm/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/erp/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/field-service/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/category/dynamics-365-scm/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/blog/microsoft-dynamics-navision-2016-for-e-services/</loc>
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
@@ -724,21 +660,13 @@
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-365-Sales-Implementation/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/blog/top-benefits-of-dynamics-365-sales/</loc>
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI-Reports/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/blog/sharepoint-integration-with-power-bi/</loc>
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
@@ -749,16 +677,7 @@
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/What-Is-Power-BI/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI-Architecture/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/blog/power-bi-vs-tableau/</loc>
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
@@ -774,26 +693,7 @@
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI-for-your-Business/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Implement-Power-BI/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Migrate-NAV-to-Business-Central/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/NAV-Migrate/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/blog/ms-dynamics-navision-2016-the-navigation-pane/</loc>
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
@@ -914,21 +814,7 @@
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Shopify-Connector%C2%A0for-Business-Central/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-Implementation-Methodology/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/blog/microsoft-crm-helps-focus-on-the-core-issues-concerning-marketing/</loc>
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
@@ -984,11 +870,7 @@
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-2022-Wave-1/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/blog/how-to-use-power-bi-on-mac-devices/</loc>
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
@@ -1134,336 +1016,7 @@
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Sage-Alternatives/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Azure-IoT-Central/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/what-is-azure-iot-hub/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-365-Pricing/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-365-Licensing/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-365/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/ERP-Implementation/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-365-Implementation/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Microsoft-Cloud-Solution/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-Apps-Pricing/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Microsoft-Dynamics-Copilot/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-Apps-for-Business/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/ERP-Implementation-Phases/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Sales-Insight-Using-Power-BI/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Microsoft-Dynamics-365/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-Apps-Licensing-Plan/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-Vs-Sage-50/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-vs-Acumatica-ERP/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Acumatica/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-365-Field-Service/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/ERP/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/ERP-Sysyem/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Connected-Field-Service/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/SharePoint-Integration/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI-Pricing/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI-Premium-Cost/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-SharePoint-integration/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-VS-Odoo/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Microsoft-Supply-Chain-Platform/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Microsoft-Gold-Partner/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-365-Supply-Chain-Management/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI-vs-Tableau/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/D365-Finance-and-Operations/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-CRM-Guide/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Microsoft-Cloud-for-Sustainability/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Future-Of-CRM/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Benefits-of-Dynamics-365-Sales/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Benefits-of-Dynamics-365-CRM/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Announcing-the-Launch/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-365-Support/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-365-Storage-Cost/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-NAV-used-for/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamics-CRM-2011-To-Dynamics-365-Online/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI-vs-Jet-Reports/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Microsoft-Dynamics-AX-Features/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Upgrade-Dynamics-NAV-to-Business-Central/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-Vs-Dynamics-365-Sales/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-Vs-GP/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-Vs-Finance/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-Vs-Supply-Chain/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/CRM-Software/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Technology-Trends/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Azure-IoT-Hub/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Microsoft-Azure-IoT/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Dynamic-365-Supply-Chain-ERP/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI-For-Mac/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Microsoft-Dynamics-365-Finance/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/IoT-platforms/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Upgrade-Accounting-Software/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI-For-Your-Business/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Data-Cleaning-In-Power-BI/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Power-BI-Cleaning/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/power-bi-cleaning-up-data/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/blog/tag/Business-Central-Wave/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/blog/reasons-to-upgrade-accounting-software/</loc>
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
@@ -1501,6 +1054,59 @@
 </url>
 <url>
   <loc>https://www.dynamicssquare.co.uk/blog/best-iot-platforms/</loc>
+  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
+
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/dynamics-365-pricing-and-licensing/</loc>
+  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/data-cleaning-in-power-bi/</loc>
+  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/what-is-dynamics-365-business-central/</loc>
+  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/top-benefits-of-dynamics-365-sales/</loc>
+  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/microsoft-dynamics-365-support/</loc>
+  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/how-to-choose-the-right-cloud-based-erp-crm-software/</loc>
+  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/website-launch-announcement/</loc>
+  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/document-management-with-ms-dynamics-nav/</loc>
+  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/install-microsoft-dynamics-365-business-central-on-premises/</loc>
+  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-vs-great-plains/</loc>
   <lastmod>2023-06-08T15:47:56+00:00</lastmod>
   <priority>0.33</priority>
 </url>
