@@ -28,18 +28,18 @@ function Post({ blogs, blogcat, authordetials, author }) {
                 <meta name="description" content={item.meta_description} />
                 <link
                   rel="canonical"
-                  href={`https://dynamicssquare.ca/blog/${item.title_slug}`+
+                  href={`https://dynamicssquare.co.uk/blog/${item.title_slug}`+
                 '/'}
                 />
                 <meta property="og:title" content={item.meta_title} />
                 <meta property="og:site_name" content="Dynamics Square" />
                 <meta
                   property="og:url"
-                  content={`https://dynamicssquare.ca/blog/${item.title_slug}`}
+                  content={`https://dynamicssquare.co.uk/blog/${item.title_slug}`}
                 />
                 <meta property="og:description" content={item.meta_keyword} />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content={`${item.meta_image}`} />
+                <meta property="og:image" content={`https://dynamicssquare.co.uk/blog/${item.meta_image}`} />
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="" />
                 <meta property="twitter:title" content={item.meta_title} />
@@ -47,7 +47,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   property="twitter:description"
                   content={item.meta_keyword}
                 />
-                <meta property="twitter:image" content={`${item.meta_image}`} />
+                <meta property="twitter:image" content={`https://dynamicssquare.co.uk/blog/${item.meta_image}`} />
                 <script
                   type="application/ld+json"
                   dangerouslySetInnerHTML={{
@@ -113,7 +113,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
                           <div className="sociallist">
                             <FacebookShareButton
-                              url={`https://dsukblog.vercel.app/blog/${item.title_slug}`}
+                             url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                               media={`${item.meta_image}`}
                               quote={item.title}
                             >
@@ -123,7 +123,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                             </FacebookShareButton>
 
                             <TwitterShareButton
-                              url={`https://dsukblog.vercel.app/blog/${item.title_slug}`}
+                             url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                               media={`${item.meta_image}`}
                               quote={item.title}
                             >
@@ -133,7 +133,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                             </TwitterShareButton>
 
                             <LinkedinShareButton
-                              url={`https://dsukblog.vercel.app/blog/${item.title_slug}`}
+                             url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                               media={`${item.meta_image}`}
                               source={item.title}
                               summary={item.short_description.substring(0, 60)}
@@ -162,7 +162,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                            </div>
                         <div className="sociallist sociallist-bott">
                           <FacebookShareButton
-                            url={`https://dsukblog.vercel.app/blog/${item.title_slug}`}
+                           url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                             media={`${item.meta_image}`}
                             quote={item.title}
                           >
@@ -172,7 +172,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                           </FacebookShareButton>
 
                           <TwitterShareButton
-                            url={`https://dsukblog.vercel.app/blog/${item.title_slug}`}
+                           url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                             media={`${item.meta_image}`}
                             quote={item.title}
                           >
@@ -182,7 +182,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                           </TwitterShareButton>
 
                           <LinkedinShareButton
-                            url={`https://dsukblog.vercel.app/blog/${item.title_slug}`}
+                           url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                             media={`${item.meta_image}`}
                             source={item.title}
                           >
