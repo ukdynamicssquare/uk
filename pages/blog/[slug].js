@@ -28,14 +28,14 @@ function Post({ blogs, blogcat, authordetials, author }) {
                 <meta name="description" content={item.meta_description} />
                 <link
                   rel="canonical"
-                  href={`https://dynamicssquare.co.uk/blog/${item.title_slug}`+
+                  href={`https://www.dynamicssquare.co.uk//blog/${item.title_slug}`+
                 '/'}
                 />
                 <meta property="og:title" content={item.meta_title} />
                 <meta property="og:site_name" content="Dynamics Square" />
                 <meta
                   property="og:url"
-                  content={`https://dynamicssquare.co.uk/blog/${item.title_slug}`+
+                  content={`https://www.dynamicssquare.co.uk//blog/${item.title_slug}`+
                   '/'}
                 />
                 <meta property="og:description" content={item.meta_keyword} />
