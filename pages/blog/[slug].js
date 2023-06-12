@@ -35,11 +35,12 @@ function Post({ blogs, blogcat, authordetials, author }) {
                 <meta property="og:site_name" content="Dynamics Square" />
                 <meta
                   property="og:url"
-                  content={`https://dynamicssquare.co.uk/blog/${item.title_slug}`}
+                  content={`https://dynamicssquare.co.uk/blog/${item.title_slug}`+
+                  '/'}
                 />
                 <meta property="og:description" content={item.meta_keyword} />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content={`https://dynamicssquare.co.uk/blog/${item.meta_image}`} />
+                <meta property="og:image" content={`${item.meta_image}`} />
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="" />
                 <meta property="twitter:title" content={item.meta_title} />
@@ -47,7 +48,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   property="twitter:description"
                   content={item.meta_keyword}
                 />
-                <meta property="twitter:image" content={`https://dynamicssquare.co.uk/blog/${item.meta_image}`} />
+                <meta property="twitter:image" content={`${item.meta_image}`} />
                 <script
                   type="application/ld+json"
                   dangerouslySetInnerHTML={{
