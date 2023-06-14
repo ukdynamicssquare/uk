@@ -215,7 +215,8 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   </div>
                   <div className="col-lg-4">
                     <div className="prom-bann">
-                      <Link href="/schedule-a-demo/"><a><img src="/img/d605-left.png" alt="d605-left" /></a></Link>
+                      <Link href="/schedule-a-demo/"><a style={{marginBottom:'20px',display:'block'}}><img src="/img/blog-side-pic-top.png" alt="d605-left" /></a></Link>
+                      <Link href="/guides/power-bi-guide-for-smb//"><a><img src="/img/blog-side-pic-bottom.png" alt="d605-left" /></a></Link>
                     </div>
                   </div>
                 </div>
