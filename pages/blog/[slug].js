@@ -215,7 +215,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   </div>
                   <div className="col-lg-4">
                     <div className="prom-bann">
-                      <img src="/img/blog-pic.jpg" alt="bg-pic" />
+                      <Link href="/schedule-a-demo/"><a><img src="/img/d605-left.png" alt="d605-left" /></a></Link>
                     </div>
                   </div>
                 </div>
