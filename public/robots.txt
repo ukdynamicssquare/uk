@@ -1,8 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /tag/
-Disallow: /category/
-Disallow: /wp-content/
+Disallow: /blog/tag/
+Disallow: /blog/category/
 Disallow: /react-ds/
 
 Sitemap: https://www.dynamicssquare.co.uk/sitemap.xml

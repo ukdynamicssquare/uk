@@ -2190,7 +2190,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://blog.dynamicssquare.co.uk/migrate-nav-to-business-central/">
+                    <Link href="/blog/migrate-nav-to-business-central/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i> NAV to Business Central Migration
                       </a>

@@ -151,7 +151,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                         <div className="blogs-content-inner">
                           {parse(item.description)}
                         </div>
-                        <div><em>Tags</em>:
+                        {/* <div><em>Tags</em>:
                         <>
                           {item.meta_tags?.split(',').map((item2,i) => (
                           <Link href={`/blog/tag/${item2.split(" ").join("-")}`} key={i}><a><span className="blog-tagged">{item2.charAt(0).toUpperCase() + item2.slice(1)}</span></a></Link>
@@ -160,7 +160,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                           
 
                         </>
-                           </div>
+                           </div> */}
                         <div className="sociallist sociallist-bott">
                           <FacebookShareButton
                            url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}

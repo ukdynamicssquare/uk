@@ -404,7 +404,7 @@ const PowerBI = () => {
             <h2>Microsoft Power BI Pricing</h2>
             <p>
               Being a trusted Power BI implementation partner, we can reveal the
-              best-suited Power <Link href="https://blog.dynamicssquare.co.uk/power-bi-pricing-uk/"><a>Power BI pricing</a></Link> plans for your business to grow.
+              best-suited Power <Link href="/blog/"><a>Power BI pricing</a></Link> plans for your business to grow.
             </p>
           </header>
           <div className="row gy-4 p-9">
@@ -942,7 +942,7 @@ const PowerBI = () => {
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="https://blog.dynamicssquare.co.uk/sales-insight-using-power-bi-dynamics-365/"
+              href="/blog/sales-insight-using-power-bi-dynamics-365/"
               target="_self"
             >
               <img
@@ -957,7 +957,7 @@ const PowerBI = () => {
             <h4>
               <a
 
-                href="https://blog.dynamicssquare.co.uk/sales-insight-using-power-bi-dynamics-365/"
+                href="/blog/sales-insight-using-power-bi-dynamics-365/"
                 target="_self"
               >How To Understand Sales Insight Using Power BI & Dynamics 365?</a>
             </h4>
@@ -967,7 +967,7 @@ const PowerBI = () => {
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="https://blog.dynamicssquare.co.uk/sharepoint-integration-with-power-bi/"
+              href="/blog/sharepoint-integration-with-power-bi/"
               target="_self"
             >
               <img
@@ -982,7 +982,7 @@ const PowerBI = () => {
             <h4>
               <a
 
-                href="https://blog.dynamicssquare.co.uk/sharepoint-integration-with-power-bi/"
+                href="/blog/sharepoint-integration-with-power-bi/"
                 target="_self"
               >SharePoint Integration With Power BI</a>
             </h4>
@@ -992,7 +992,7 @@ const PowerBI = () => {
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="https://blog.dynamicssquare.co.uk/power-bi-pricing-uk/"
+              href="/blog/power-bi-pricing-uk/"
               target="_self"
             >
               <img
@@ -1007,7 +1007,7 @@ const PowerBI = () => {
             <h4>
               <a
 
-                href="https://blog.dynamicssquare.co.uk/power-bi-pricing-uk/"
+                href="/blog/power-bi-pricing-uk/"
                 target="_self"
               >Power BI Pricing - Power BI Pro Vs. Power BI Premium</a>
             </h4>
@@ -1017,7 +1017,7 @@ const PowerBI = () => {
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="https://blog.dynamicssquare.co.uk/power-bi-vs-tableau/"
+              href="/blog/power-bi-vs-tableau/"
               target="_self"
             >
               <img
@@ -1032,7 +1032,7 @@ const PowerBI = () => {
             <h4>
               <a
 
-                href="https://blog.dynamicssquare.co.uk/power-bi-vs-tableau/"
+                href="/blog/power-bi-vs-tableau/"
                 target="_self"
               >Power BI Vs Tableau [A Practical Comparison] 2023 </a>
             </h4>
