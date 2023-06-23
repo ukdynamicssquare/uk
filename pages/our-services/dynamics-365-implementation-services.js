@@ -14,7 +14,7 @@ const ImplementationServices = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Implementation Services Partner UK</title>
+        <title>Dynamics 365 Implementation & Integration Services Partner UK</title>
         <meta
           name="description"
           content="UK's Dynamics Square is known for providing Dynamics 365 implementation services worldwide. Our ERP & CRM implementations plans are backed by solid processes, methodologies, and experience."
