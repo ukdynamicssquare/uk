@@ -1121,8 +1121,13 @@
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>http://localhost:3000/blog/what-is-microsoft-power-apps/</loc>
+  <loc>https://www.dynamicssquare.co.uk/blog/what-is-microsoft-power-apps/</loc>
   <lastmod>2023-06-20T16:47:56+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/blog/business-central-vs-dynamics-365/</loc>
+  <lastmod>2023-06-22T16:47:56+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 </urlset>
