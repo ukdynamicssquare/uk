@@ -7,11 +7,11 @@ const UpgradeServices = () => {
     <>
       <Head>
         <title>
-          Dynamics 365 Upgrade Service Partner UK | Trusted by 250+ Clients
+          Dynamics 365 Upgrade Solutions & Service UK | Trusted by 250+ Clients
         </title>
         <meta
           name="description"
-          content="Upgrade your system capabilities, process flow, adapt operational change through our highly integrated Dynamics 365 upgrade services. We have extensive experience in helping businesses upgrade their systems."
+          content="Upgrade your system capabilities, process flow, adapt operational change through our highly integrated Dynamics 365 upgrade solutions. We have extensive experience in helping businesses upgrade services their systems."
         />
         <link
           rel="canonical"
@@ -62,7 +62,7 @@ const UpgradeServices = () => {
           <header className="section-header">
             <h2>Why Upgrade To Dynamics 365?</h2>
             <p>
-              Are you looking to upgrade to Dynamics 365? Discover all the
+              Are you looking to upgrade solution to Dynamics 365? Discover all the
               answers right here.
             </p>
           </header>
@@ -126,7 +126,7 @@ const UpgradeServices = () => {
       <section className="upgard-bg">
         <div className="container">
           <header className="section-header">
-            <h2>Microsoft Dynamics 365 Upgrades</h2>
+            <h2>Microsoft Dynamics 365 Upgrade Solutions</h2>
             <p>
               Leverage new functionalities and capabilities by upgrading your
               current ERP or CRM systems to Dynamics 365
