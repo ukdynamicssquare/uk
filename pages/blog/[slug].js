@@ -149,7 +149,10 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
                       <div className="blogs-content">
                         <div className="blogs-content-inner">
-                        <script>const trinityScript = document.createElement('script'); trinityScript.setAttribute('fetchpriority', 'high'); trinityScript.src = 'https://trinitymedia.ai/player/trinity/2900012927/?pageURL=' + encodeURIComponent(window.location.href); document.currentScript.parentNode.insertBefore(trinityScript, document.currentScript);</script>
+                        <script>const trinityScript = document.createElement('script'); 
+trinityScript.setAttribute('fetchpriority', 'high'); 
+trinityScript.src = 'https://trinitymedia.ai/player/trinity/2900012927/?pageURL=' + encodeURIComponent(window.location.href); 
+document.body.appendChild(trinityScript);</script>
                           {parse(item.description)}
                         </div>
                         {/* <div><em>Tags</em>:
