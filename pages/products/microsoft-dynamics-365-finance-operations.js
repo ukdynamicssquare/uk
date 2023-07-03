@@ -127,9 +127,11 @@ const FinanceOperations = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
-                src="/img/Dynamics-365-Finance-Banner-1.svg"
+              <Image
+                src="/img/Dynamics-365-Finance-Banner.png"
                 alt="Dynamics-365-Finance & operations-Banner"
+                width={868}
+                height={487}
               />
             </div>
           </div>
@@ -251,7 +253,7 @@ const FinanceOperations = () => {
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" id="headingOne">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -261,7 +263,7 @@ const FinanceOperations = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Budget.svg" alt="icons" />
+                          <img src="/img/Budget.svg" alt="icons" width="40" height="40" />
                         </div>
                         <span>Finance Management</span>
                       </button>
@@ -269,7 +271,7 @@ const FinanceOperations = () => {
                     <div
                       id="fin1"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
+                      aria-labelledby="headingOne"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
@@ -326,7 +328,7 @@ const FinanceOperations = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" id="headingThree">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -336,7 +338,7 @@ const FinanceOperations = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/Financials-3.svg" alt="icons" />
+                          <img src="/img/Financials-3.svg" alt="icons" width="40" height="40" />
                         </div>
                         <span>Supply Chain Management</span>
                       </button>
@@ -344,7 +346,7 @@ const FinanceOperations = () => {
                     <div
                       id="fin2"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
+                      aria-labelledby="headingThree"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
@@ -406,7 +408,7 @@ const FinanceOperations = () => {
                 <hr className="mob-disp" />
                 <div className="accordion" id="accnews">
                   <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingTwo">
+                    <h2 className="accordion-header" id="headingfive">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -416,7 +418,7 @@ const FinanceOperations = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Project.svg" alt="icons" />
+                          <img src="/img/Project.svg" alt="icons" width="40" height="40" />
                         </div>
                         <span>Manufacturing</span>
                       </button>
@@ -424,7 +426,7 @@ const FinanceOperations = () => {
                     <div
                       id="fin3"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
+                      aria-labelledby="headingfive"
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
@@ -480,7 +482,7 @@ const FinanceOperations = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingTwo">
+                    <h2 className="accordion-header" id="headingsix">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -492,7 +494,7 @@ const FinanceOperations = () => {
                         <div className="wr-in">
                           <img
                             src="/img/International-Accounting-3.svg"
-                            alt="icons"
+                            alt="icons" width="40" height="40"
                           />
                         </div>
                         <span>Services</span>
@@ -501,7 +503,7 @@ const FinanceOperations = () => {
                     <div
                       id="fin4"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
+                      aria-labelledby="headingsix"
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
