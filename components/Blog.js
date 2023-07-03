@@ -18,8 +18,8 @@ const Blog = () => {
               <Image
                 src="/img/Business-Central-for-Manufacturing.jpg"
                 alt="img"
-                width={1200}
-                height={627}
+                width={256}
+                height={134}
               />
             </a>
           </div>
@@ -46,8 +46,8 @@ const Blog = () => {
               <Image
                 src="/img/Business-Central-Trial.jpg"
                 alt="img"
-                width={1200}
-                height={627}
+                width={256}
+                height={134}
               />
             </a>
           </div>
@@ -73,8 +73,8 @@ const Blog = () => {
               <Image
                 src="/img/Business-Central-Implementation-Methodology.jpg"
                 alt="img"
-                width={1200}
-                height={627}
+                width={256}
+                height={134}
               />
             </a>
           </div>
@@ -100,8 +100,8 @@ const Blog = () => {
               <Image
                 src="/img/Blue-White-Simple-Financial-Tips-Blog-Banner-1.png"
                 alt="img"
-                width={1200}
-                height={627}
+                width={256}
+                height={134}
               />
             </a>
           </div>
