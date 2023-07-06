@@ -172,7 +172,7 @@ const ContactUs = () => {
                       Canada
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  {/* <li className="nav-item" role="presentation">
                     <button
                       className="nav-link"
                       id="contact-tab-2"
@@ -185,7 +185,7 @@ const ContactUs = () => {
                     >
                       Europe
                     </button>
-                  </li>
+                  </li> */}
                   <li className="nav-item" role="presentation">
                     <button
                       className="nav-link"
@@ -524,7 +524,7 @@ const ContactUs = () => {
                       </div>
                     </div>
                   </div>
-                  <div
+                  {/* <div
                     className="tab-pane fade"
                     id="contact-2"
                     role="tabpanel"
@@ -561,7 +561,7 @@ const ContactUs = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div
                     className="tab-pane fade"
                     id="contact-3"

@@ -45,7 +45,7 @@ const FooterHide = () =>{
      <div className="footer-contact-s">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-4">
               <div className="contact-list">
                 <div className="icons-left">
                   <i className="bi bi-geo-alt"></i>
@@ -72,7 +72,7 @@ const FooterHide = () =>{
               </div>
             </div>
 
-            <div className="col-lg-3">
+            <div className="col-lg-4">
               <div className="contact-list">
                 <div className="icons-left">
                   <i className="bi bi-geo-alt"></i>
@@ -99,7 +99,7 @@ const FooterHide = () =>{
                 <div className="content-right">info@dynamicssquare.co.uk</div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4">
               <div className="contact-list">
                 <div className="icons-left">
                   <i className="bi bi-geo-alt"></i>
@@ -125,7 +125,7 @@ const FooterHide = () =>{
                 <div className="content-right">info@dynamicssquare.co.uk</div>
               </div>
             </div>
-            <div className="col-lg-3">
+            {/* <div className="col-lg-3">
               <div className="contact-list">
                 <div className="icons-left">
                   <i className="bi bi-geo-alt"></i>
@@ -150,7 +150,7 @@ const FooterHide = () =>{
                 </div>
                 <div className="content-right">info@dynamicssquare.co.uk</div>
               </div>
-            </div>
+            </div> */}
            
           </div>
         </div>
