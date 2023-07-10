@@ -20,7 +20,6 @@ const Finance = () => {
           property="og:url"
           content="https://www.dynamicssquare.co.uk/industries/dynamics-365-automotive-accelerator/"
         />
-        <meta name="robots" content="noindex, nofollow" />
       </Head>
 
      
@@ -50,10 +49,10 @@ const Finance = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/vend-business-central-integration.png"
-                alt="business-center-new-banne"
-                width={868}
-                height={487}
+                src="/img/dynamics-365-automotive.png"
+                alt="dynamics-365-automotive"
+                width={719}
+                height={447}
               />
             </div>
           </div>
@@ -145,8 +144,8 @@ const Finance = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/microosoft-partner.png"
-                  alt="microosoft-partner.png"
+                  src="/img/dynamics-365-automotive-side.png"
+                  alt="dynamics-365-automotive"
                   width={625} height={651}
                 />
               </div>
@@ -220,7 +219,7 @@ const Finance = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pics">
-                <img src="/img/n-1.png" alt="pic" />
+                <img src="/img/Customer-360.png" alt="Customer-360" />
               </div>
             </div>
           </div>
@@ -230,7 +229,7 @@ const Finance = () => {
           >
             <div className="col-lg-7">
               <div className="commen-lef-pic">
-                <img src="/img/n-2.png" alt="pic" />
+                <img src="/img/B2C.png" alt="B2C" />
               </div>
             </div>
             <div className="col-lg-5 align-self-center">
@@ -251,14 +250,14 @@ const Finance = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-              <img src="/img/n-3.png" alt="pic" />
+              <img src="/img/Lead-Disposition.png" alt="Lead-Dispositi" />
               </div>
             </div>
           </div>
           <div className="row pad9x align-items-center">
           <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-              <img src="/img/n-4.png" alt="pic" />
+              <img src="/img/Vehicle-Inventory.png" alt="Vehicle-Inventory" />
               </div>
             </div>
             <div className="col-lg-5 align-self-center">
