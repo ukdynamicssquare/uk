@@ -18,7 +18,7 @@ const Finance = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dynamicssquare.co.uk/industries/dynamics-365-automotive-accelerator/"
+          content="https://www.dynamicssquare.co.uk//img/dynamics-365-automotive.png"
         />
       </Head>
 
