@@ -1006,6 +1006,11 @@ class Header extends Component {
                                   Dynamics 365 for Healthcare
                                   </a>
                                 </li>
+                                <li>
+                                  <a href="/industries/dynamics-365-automotive-accelerator/">
+                                  Automotive Accelerator
+                                  </a>
+                                </li>
                     </ul>
                   </li>
                   <li className="dropdown">
@@ -1474,6 +1479,11 @@ class Header extends Component {
                                 <li>
                                   <a href="/industries/dynamics-365-for-healthcare/">
                                   Dynamics 365 for Healthcare
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="/industries/dynamics-365-automotive-accelerator/">
+                                  Automotive Accelerator
                                   </a>
                                 </li>
                               </ul>
