@@ -211,7 +211,7 @@ const Finance = () => {
 
           <div className="row pad9x" style={{ paddingBottom: "50px" }}>
             <div className="col-lg-5 align-self-center">
-              <div className="commen-rit-info">
+              <div className="commen-rit-infos">
                 <h3>Customer 360 - auto form </h3>
                 <p>The Customer 360 - auto form contains all essential information about the customer and prospects while empowering the sales representative to build strong relationships with the customer. Also, this data helps the representative start intentional conversations with the customer based on stored data and preferences. </p>
               
@@ -228,12 +228,12 @@ const Finance = () => {
             style={{ paddingBottom: "50px" }}
           >
             <div className="col-lg-7">
-              <div className="commen-lef-pic">
+              <div className="commen-lef-pics">
                 <img src="/img/B2C.png" alt="B2C" />
               </div>
             </div>
             <div className="col-lg-5 align-self-center">
-              <div className="commen-rit-info">
+              <div className="commen-rit-infos">
                 <h3>B2C portal </h3>
                 <p>The B2C portal shows different parameters that lead to customer interactions. It includes car configuration, inventory browsing, forums, community data, and scheduling test drives. </p>
               </div>
@@ -242,26 +242,26 @@ const Finance = () => {
 
           <div className="row pad9x align-items-center"  style={{ paddingBottom: "50px" }}>
             <div className="col-lg-5 align-self-center">
-              <div className="commen-rit-info">
+              <div className="commen-rit-infos">
                 <h3>Lead Disposition Form </h3>
                 <p>When you connect the system with <Link href="/products/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing</a></Link>, it will start showcasing the inbound lead data. Check out the below image that fetches the data based on customer activity. Based on the numbers, it will show you the score of Predictive Lead Scoring and a log of customer activity. </p>
              
               </div>
             </div>
             <div className="col-lg-7 align-self-center">
-              <div className="commen-lef-pic">
+              <div className="commen-lef-pics">
               <img src="/img/Lead-Disposition.png" alt="Lead-Dispositi" />
               </div>
             </div>
           </div>
           <div className="row pad9x align-items-center">
           <div className="col-lg-7 align-self-center">
-              <div className="commen-lef-pic">
+              <div className="commen-lef-pics">
               <img src="/img/Vehicle-Inventory.png" alt="Vehicle-Inventory" />
               </div>
             </div>
             <div className="col-lg-5 align-self-center">
-              <div className="commen-rit-info">
+              <div className="commen-rit-infos">
                 <h3>Vehicle Inventory Dashboard </h3>
                 <p>You can easily embed the <Link href="/products/microsoft-power-bi/"><a>Power BI dashboard</a></Link> in Dynamics 365 Automotive Accelerator to get real-time insights. This helps the representative get the data on the total remaining inventory, available stocks, list price by model, and further details.</p>
              
