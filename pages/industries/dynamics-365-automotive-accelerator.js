@@ -274,7 +274,7 @@ const Finance = () => {
 
       <section>
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
             <div className="col-lg-10">
               <header className="commen-rit-info">
                 <p>Dynamics 365 Automotive Accelerator is a robust and effective solution when it comes to streamlining the automotive operations of the business. Capable of integrating with native as well as third-party solutions, it molds itself based on customer as well as business requirements. </p>
