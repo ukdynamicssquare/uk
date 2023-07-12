@@ -168,6 +168,19 @@ const IndustriesList = () => {
                   </Link>
                 </div>
               </div>
+            </div> <div className="col-lg-4 col-md-6">
+              <div className="location-list-wrper">
+                <h3>Dynamics 365 Automotive Accelerator</h3>
+                <div className="text-lg-center">
+                  <Link
+                    href="/industries/dynamics-365-automotive-accelerator/">
+                      <a
+                    className="btn-get-started btn-sm scrollto"
+                  >
+                    <span>View More</span></a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
