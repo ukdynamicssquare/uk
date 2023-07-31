@@ -329,6 +329,12 @@ section {
   color: #012970;
   margin-top: 3px;
 }
+.footer .footer-img{
+  display:block
+}
+.footer .footer-img.m-r{
+
+}
 .navbar,
 .portfolio-details .portfolio-description p {
   padding: 0;
@@ -2443,7 +2449,7 @@ section {
   padding: 60px 0 30px;
 }
 .footer .footer-top .footer-info .footer-img {
-  width: 214px;
+  /* width: 214px; */
   display: block;
   margin: 0 0 20px;
 }

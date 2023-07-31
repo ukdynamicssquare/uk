@@ -160,12 +160,13 @@ const FooterHide = () =>{
         <div className="footer-top">
           <div className="container">
             <div className="row gy-4">
-              <div className="col-lg-5 col-md-12 footer-info">
+            <div className="col-lg-5 col-md-12 footer-info">
                 <Link href="/" className="logo d-flex align-items-center">
-                  <img
-                     src="/img/dynamics_square_tm_logo_footer.svg"
-                     alt="Dynamics Square TM Logo"
-                     width="230" height="81"
+                  <Image
+                      src="/img/dynamics_square_tm_logo_footer.svg"
+                      alt="Dynamics Square TM Logo"
+                    style={{marginBottom:"20px"}}
+                    width={230} height={81}
                   />
                 </Link>
                 <p>
@@ -174,20 +175,23 @@ const FooterHide = () =>{
                   source next-gen Microsoft Business Apps from our highly
                   skilled Microsoft consultants.
                 </p>
-                <img
-                  src="/img//img/microsoft-partner-footer.png"
+                <Image
+                  src="/img/microsoft-partner-footer.png"
                   alt="microsoft-partner"
                   className="footer-img"
-                />
-                <img
+                  width={230} height={200}
+                /><br />
+                <Image
                   src="/img/Tech-For-Socil-Impact.svg"
                   alt="Tech-For-Socil-Impact"
-                  className="footer-img"
-                />
-                 <img 
+                  className="footer-img m-r"
+                  width={230} height={120}
+                /> <br />
+                 <Image
                   src="/img/UK-badge.png"
                   alt="UK badge"
-                  width="88" height="88"
+                  className="footer-img"
+                  width={98} height={98}
                 />
               </div>
               <div className="col-lg-2 col-12 footer-links">
