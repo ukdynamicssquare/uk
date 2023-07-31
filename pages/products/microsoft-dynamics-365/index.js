@@ -139,7 +139,7 @@ const D360 = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/d360-banner.png" alt="Microsoft Dynamics 365" />
+              <Image src="/img/d360-banner.png" alt="Microsoft Dynamics 365" width={628} height={398} />
             </div>
           </div>
         </div>
@@ -151,10 +151,12 @@ const D360 = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/d605-left.png"
                     className="fix-im"
                     alt="d605-left"
+                    width={570}
+                    height={531}
                   />
                   {/* <div className="video-ytube">
                     <div className="popup-btn">
@@ -504,9 +506,11 @@ const D360 = () => {
             </div>
             <div className="col-lg-5 align-self-center">
               <div className="commen-lef-pic">
-                <img
+                <Image
                   src="/img/d360-banner.png"
                   alt="Microsoft Dynamics 365"
+                  width={628}
+                  height={398}
                 />
               </div>
             </div>
@@ -1013,7 +1017,7 @@ const D360 = () => {
             <div className="col-lg-4">
               <div className="commen-box-2">
                 <div className="icons">
-                  <img src="/img/Group774.svg" alt="Trustworthy Partner" />
+                  <Image src="/img/Group774.svg" alt="Trustworthy Partner" width={48} height={48} />
                 </div>
                 <div className="commen-boc-2-info">
                   <h3>Trustworthy Partner</h3>
@@ -1026,7 +1030,7 @@ const D360 = () => {
             <div className="col-lg-4">
               <div className="commen-box-2">
                 <div className="icons">
-                  <img src="/img/Group772.svg" alt="Trustworthy Partner" />
+                  <Image src="/img/Group772.svg" alt="Trustworthy Partner" width={48} height={48} />
                 </div>
                 <div className="commen-boc-2-info">
                   <h3>End-to-End Training</h3>
@@ -1039,7 +1043,7 @@ const D360 = () => {
             <div className="col-lg-4">
               <div className="commen-box-2">
                 <div className="icons">
-                  <img src="/img/Group773.svg" alt="Off-Hours Support" />
+                  <Image src="/img/Group773.svg" alt="Off-Hours Support" width={48} height={48} />
                 </div>
                 <div className="commen-boc-2-info">
                   <h3>Off-Hours Support</h3>
