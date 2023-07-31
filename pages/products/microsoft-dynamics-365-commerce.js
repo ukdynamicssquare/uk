@@ -9,10 +9,10 @@ const Commerce = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Commerce (Retail) Demo & Pricing UK</title>
+        <title>Dynamics 365 Commerce (Retail) UK Partner</title>
         <meta
           name="description"
-          content="Unify your back-office, in-store, and digital experience by empowering your system with our exclusive Microsoft Dynamics 365 Commerce (retail) packages."
+          content="Enhance your system with our exclusive Microsoft Dynamics 365 Commerce (retail) packages to seamlessly unify your back-office, in-store, and digital experiences."
         />
         <link
           rel="canonical"
