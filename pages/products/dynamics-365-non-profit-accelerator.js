@@ -10,8 +10,8 @@ const NonProfitAccelerator = () => {
   return (
     <>
       <Head>
-      <title>Dynamics 365 Nonprofit Accelerator | Dynamics for Charities</title>
-<meta name="description" content="Dynamics 365 Non-Profit Accelerator is meant to empower not-for-profit and other charitable organizations to achieve their objectives without losing focus on delivering quality service and maintaining strong relations with donors and volunteers who make achieving success possible."/>
+      <title>Dynamics 365 Nonprofit Accelerator | Dynamics Square UK</title>
+<meta name="description" content="Implement Dynamics 365 Nonprofit Accelerator to simplify charity operations, streamline funds management, build customize solutions, and monitor expenses while optimizing funds."/>
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/products/dynamics-365-non-profit-accelerator/" />
       </Head>
       <ModalVideo
@@ -30,19 +30,14 @@ const NonProfitAccelerator = () => {
                 <br />
                 Nonprofit Accelerator
               </h1>
-              <p>
-                The primary aim of Microsoft Dynamics 365 Nonprofit Accelerator
-                is to fuel not-for-profit processes such as program delivery,
-                supporter and volunteer management, impact measurement and
-                fundraising.
-              </p>
+              <p>Eliminate data silos, automate core nonprofit processes, and get powerful insights in real-time to supercharge growth with Dynamics 365 Nonprofit Accelerator.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span></a>
+                    <span>Let's Get Started!</span></a>
                   </Link>
                 </div>
               </div>
@@ -60,24 +55,15 @@ const NonProfitAccelerator = () => {
 
       <section>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
               <header className="section-header">
-                <h2>
-                  What is Dynamics 365 Nonprofit Accelerator?
-                </h2>
+                <h2>What Is Dynamics 365 Nonprofit Accelerator?</h2>
                 <p>
-                  <b>
-                    Your Mission Coming True Through Secure and Reliable
-                    Microsoft Solution.
-                  </b>
+                  <b>Dynamics 365 for Nonprofit Accelerator empowers charities to leverage the power of the latest AI-enabled technologies to make a strong impact on society.</b>
                   <br />
                   <br />
-                  Microsoft Dynamics 365 Non-Profit Accelerator is meant to
-                  empower not-for-profit and other charitable organizations to
-                  achieve their objectives without losing focus on delivering
-                  quality service and maintaining strong relations with donors
-                  and volunteers who make achieving success possible.
+                  It is a suite of sample applications that lets you build specific applications to deal with fundraising activity, programme delivery, and award management campaigns. Built using CDL (common data model), Microsoft Dataverse, and the Microsoft Dynamics 365 ecosystem, D365 Nonprofit Accelerator offers powerful capabilities that include programme delivery, case management, volunteer management, global donations, TAX management, and more. <br /><br />The Dynamics 365 Nonprofit Accelerator empowers the organisation with global charity activities while meeting international standards, like IATI (International Aid Transparency Initiative), SDGs (United Nations Sustainable Development Goals). It is a unified platform for charities that can integrate the native <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link> and <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> Platform to enhance the overall efficiency, productivity, and growth of the organisation.<br /><br />D365 Non-profit Accelerator enables the organisation to achieve their objectives while making a greater impact in society and building a sustainable relationship with donors, volunteers, and the public. 
                 </p>
               </header>
             </div>
@@ -87,10 +73,8 @@ const NonProfitAccelerator = () => {
       <section>
         <div className="container">
           <header className="section-header">
-            <h2>
-              Dynamics 365 Nonprofit
-              <br /> Accelerator Features
-            </h2>
+            <h2>Dynamics 365 Nonprofit 
+Accelerator Features: <br />Modernize Charity to Make a Social Impact </h2>
           </header>
           <div className="row p-lg-6">
             <div className="col-lg-6">
@@ -109,7 +93,7 @@ const NonProfitAccelerator = () => {
                         <div className="wr-in">
                           <img src="/img/Budget.svg" alt="icons" />
                         </div>
-                        <span>Increase donor and volunteer engagement</span>
+                        <span>Unified Data Storage </span>
                       </button>
                     </h3>
                     <div
@@ -119,13 +103,7 @@ const NonProfitAccelerator = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>
-                          Complete constituent profiles for individuals,
-                          households, and organizations, including biographical
-                          details, communication methods, preferences,
-                          relationships, salutations, employment and education
-                          history, donations, and awards management.
-                        </p>
+                        <p>Collect, monitor, and manage the data of donors, volunteers, the public, and stakeholders in one place. Also, you can get the data on all donations, expenses, available resources, and restricted funds on a single screen. </p>
                       </div>
                     </div>
                   </div>
@@ -143,7 +121,7 @@ const NonProfitAccelerator = () => {
                         <div className="wr-in">
                           <img src="/img/Financials-3.svg" alt="icons" />
                         </div>
-                        <span>Donation management</span>
+                        <span>Project Management</span>
                       </button>
                     </h3>
                     <div
@@ -153,24 +131,7 @@ const NonProfitAccelerator = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>
-                          The sample dashboard for donations includes gift
-                          acknowledgement, tracking of individual and
-                          organizational pledges and gifts, one-time and
-                          recurring gifts, gifts in kind, and grant
-                          disbursements. You can track and manage donations, and
-                          their relation to donors and specific campaigns. Full
-                          donation history, information on recurring donations,
-                          and pledge amounts are accessible in one easily
-                          digestible interface.
-                        </p>
-                        <p>
-                          The app integrates with many popular ERP systems so
-                          transactional data can be synced with external
-                          financial systems. It also connects to third-party
-                          payment solutions and gateways to process donations
-                          made across digital platforms.
-                        </p>
+                        <p>You can monitor and track different donations using a single, unified platform with real-time insights. Manage available resources and fund allocation to ensure equal distribution across different projects. </p>
                       </div>
                     </div>
                   </div>
@@ -186,9 +147,9 @@ const NonProfitAccelerator = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Financials-3.svg" alt="icons" />
+                        <img src="/img/Budget.svg" alt="icons" />
                         </div>
-                        <span>Fundraising</span>
+                        <span>Build Specific Applications </span>
                       </button>
                     </h3>
                     <div
@@ -198,10 +159,7 @@ const NonProfitAccelerator = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>
-                          Dynamics 365 nonprofit accelerator can track all major
-                          stages of high-touch fundraising.
-                        </p>
+                        <p>Integrate the Power Platform and build specific applications to deal with complex charity operations using a low-code interface. This will simplify and optimise the existing processes.</p>
                       </div>
                     </div>
                   </div>
@@ -219,7 +177,7 @@ const NonProfitAccelerator = () => {
                         <div className="wr-in">
                           <img src="/img/Financials-3.svg" alt="icons" />
                         </div>
-                        <span>Award management</span>
+                        <span>Track Fundraising Activity </span>
                       </button>
                     </h3>
                     <div
@@ -229,89 +187,11 @@ const NonProfitAccelerator = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>
-                          Awards management data model and sample application
-                          including dockets, inquiries, requests, awards
-                          recommendations, reviews, reports, budgets, and
-                          disbursements.
-                        </p>
+                        <p>Track the status of all fundraising activities to make sure the funds are received at the right time. Set up reminders to get funds for recurring donations.</p>
                       </div>
                     </div>
                   </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin5"
-                        aria-expanded="false"
-                        aria-controls="fin5"
-                      >
-                        <div className="wr-in">
-                          <img src="/img/Financials-3.svg" alt="icons" />
-                        </div>
-                        <span>Program delivery</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin5"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Outcome and result model enables nonprofits to
-                          efficiently deliver on their missions, measure
-                          results, and communicate impact that includes aligning
-                          beneficiaries and funds to the results framework.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin6"
-                        aria-expanded="false"
-                        aria-controls="fin6"
-                      >
-                        <div className="wr-in">
-                          <img src="/img/Financials-3.svg" alt="icons" />
-                        </div>
-                        <span>Volunteer management</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin6"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Non-profits are often powered by volunteers who give
-                          their time and effort to support an organization's
-                          cause. Track volunteer preferences, skills and
-                          availability and establish Volunteer Projects
-                          leveraging <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> Project Service Automation.
-                        </p>
-                        <p>
-                          Dynamics 365 Nonprofit Accelerator can help organize
-                          and optimize a charity's volunteer force, with
-                          rostering and time-sheet features, and profile
-                          management that allows non-profits to assign the right
-                          volunteers to the right project.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -333,7 +213,7 @@ const NonProfitAccelerator = () => {
                         <div className="wr-in">
                           <img src="/img/Project.svg" alt="icons" />
                         </div>
-                        <span>Membership management</span>
+                        <span>Volunteer Management </span>
                       </button>
                     </h3>
                     <div
@@ -343,12 +223,7 @@ const NonProfitAccelerator = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>
-                          Membership Category entity that establishes membership
-                          levels and Membership entity that links Constituents
-                          to Membership Category, enabling the creation and
-                          tracking of membership over time.
-                        </p>
+                        <p>Simplify volunteer management while establishing a connection with the administrator of the organisation. Distribute resources, allocate funds, and track expenses for all volunteers with ease. </p>
                       </div>
                     </div>
                   </div>
@@ -369,7 +244,7 @@ const NonProfitAccelerator = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Finance and CRM data integrator</span>
+                        <span>Collecting and Distributing Donations </span>
                       </button>
                     </h3>
                     <div
@@ -379,11 +254,7 @@ const NonProfitAccelerator = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>
-                          Template data integrator tasks to connect nonprofit
-                          accelerator constituents, donations, awards, and
-                          programs to Finance and Operations.
-                        </p>
+                        <p>Collect donations globally and distribute them for the right cause while tracking each penny. Monitor the amount of restricted funds while offering real-time insights to the donor. </p>
                       </div>
                     </div>
                   </div>
@@ -399,12 +270,9 @@ const NonProfitAccelerator = () => {
                         aria-controls="fin9"
                       >
                         <div className="wr-in">
-                          <img
-                            src="/img/International-Accounting-3.svg"
-                            alt="icons"
-                          />
+                        <img src="/img/Project.svg" alt="icons" />
                         </div>
-                        <span>Case management</span>
+                        <span>Programme Delivery </span>
                       </button>
                     </h3>
                     <div
@@ -414,11 +282,7 @@ const NonProfitAccelerator = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>
-                          Provides building blocks for partners to aid program
-                          staff in tracking clients and cases tying cases to
-                          specific program goals.
-                        </p>
+                        <p>Track each project along with monitoring resources. Track the outcome of each project to efficiently deliver the donation to the right cause. Also, you can optimise the resources and funds to align with the beneficiaries. </p>
                       </div>
                     </div>
                   </div>
@@ -439,7 +303,7 @@ const NonProfitAccelerator = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Project management & program design</span>
+                        <span>Donation Management </span>
                       </button>
                     </h3>
                     <div
@@ -449,60 +313,11 @@ const NonProfitAccelerator = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>
-                          Build a complete delivery framework that tracks
-                          activities and progress to a theory of change assuring
-                          delivery of programs aligned to indicators and program
-                          objectives, budgets, and results.
-                        </p>
+                        <p>Manage donations, gift acknowledgements, organisational pledges, recurring funds, and grant disbursements. Track donation history and donor information in real-time. </p>
                       </div>
                     </div>
                   </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin11"
-                        aria-expanded="false"
-                        aria-controls="fin11"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/International-Accounting-3.svg"
-                            alt="icons"
-                          />
-                        </div>
-                        <span>Functionality</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin11"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnews"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Program design - In order to support this application,
-                          this solution depends on nonprofit core and nonprofit
-                          measurement data schemas.
-                        </p>
-                        <p>
-                          Nonprofit operations toolkit - In order to support
-                          this application, this solution depends on the
-                          nonprofit core data schema.
-                        </p>
-                        <p>
-                          Common Data Model for Nonprofits sample apps - In
-                          order to support this application, this solution
-                          depends on the nonprofit core data schema.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -515,19 +330,13 @@ const NonProfitAccelerator = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="call-to-action-content">
-                <h3>
-                  How Microsoft Dynamics 365 for Charities can Boost Your
-                  Non-profit Flow
-                </h3>
-                <p>
-                  Willing to know how Microsoft Dynamics 365 can help you evolve
-                  your non-profit organizational flow?
-                </p>
+                <h3>Simplify Funds and Track Expenses with Microsoft Dynamics 365 Nonprofit Accelerator </h3>
+                <p>Track all your donations and expenditure while focusing on collecting more grants. Want to know how? </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link  href="/industries/non-profits/"><a
                     className="btn-get-started scrollto"
                   >
-                    <span>Learn more</span></a>
+                    <span>Contact us Now! </span></a>
                   </Link>
                 </div>
               </div>
@@ -535,6 +344,63 @@ const NonProfitAccelerator = () => {
           </div>
         </div>
       </section>
+      <section className="Solution-business-why custom-pd-1">
+          <div className="container">
+            <div className="row gx-5">
+              <div className="col-lg-6 align-self-center">
+                <h2>Why Should you implement the Dynamics 365 Nonprofit Accelerator? </h2>
+                <p>It will simplify and modernise the way you collect donations, distribute them, and track expenses, leveraging the power of AI, BI, and other latest technologies. </p>
+              </div>
+              <div className="col-lg-6">
+                <div className="content-icons-modil-1">
+                  <div className="content-inner-moil-1">
+                    <div className="icons-left">
+                      <div className="ext-bord">
+                        <i className="bi bi-check2"></i>
+                      </div>
+                    </div>
+                    <div className="cintent-right">
+                      <p>The CDM will enable you to manage constituents, fundraising activities, award management, and efficient programme delivery. </p>
+                    </div>
+                  </div>
+
+                  <div className="content-inner-moil-1">
+                    <div className="icons-left">
+                      <div className="ext-bord">
+                        <i className="bi bi-check2"></i>
+                      </div>
+                    </div>
+                    <div className="cintent-right">
+                      <p>It comes with a standard programme design template that empowers nonprofits to build effective programmes and solve organisational issues. </p>
+                    </div>
+                  </div>
+
+                  <div className="content-inner-moil-1">
+                    <div className="icons-left">
+                      <div className="ext-bord">
+                        <i className="bi bi-check2"></i>
+                      </div>
+                    </div>
+                    <div className="cintent-right">
+                      <p>Integrate Power Apps to build and customise applications, eliminating the complexity of the system. </p>
+                    </div>
+                  </div>
+                  <div className="content-inner-moil-1">
+                    <div className="icons-left">
+                      <div className="ext-bord">
+                        <i className="bi bi-check2"></i>
+                      </div>
+                    </div>
+                    <div className="cintent-right">
+                      <p>Get the fundraising, expenses, and programme delivery data in real time to make data-driven decisions whenever required. </p>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
@@ -565,31 +431,152 @@ const NonProfitAccelerator = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="blogs-extra-title">
-                <h4>Documents</h4>
+            <div className="col-lg-6 d-flex align-items-center">
+                <div className="side-heading">
+                  <h2>Leverage Modern Technology to Make a Remarkable Impact on society. </h2>
+                  <p>Implement Dynamics 365 Nonprofit Accelerator to monitor charity impact, do extra for society, and connect charities with the public to make a difference. </p>
+                  <div className="text-lg-start mm-t" style={{marginTop:'-20px'}}>
+                    <Link href="#exampleModal"><a
+                      data-bs-toggle="modal"
+                  
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Connect with a Nonprofit Consultant Now! </span></a>
+                    </Link>
+                  </div>
+                </div>
               </div>
-              <div className="blogs-extra-right">
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/not-for-profit-accelerator.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Microsoft
-                      Dynamics 365 Not for Profit Solution
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/pdf/not-for-profit-accelerator.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Microsoft
-                      Dynamics 365 Not for Profit Feature Availability
-                    </a>
-                  </li>
-                </ul>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <header className="section-header">
+            <h2>
+              Have you got
+              <br />
+              questions about Non Profit Accelerator?
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >How does Microsoft Dynamics 365 CRM benefit Not for Profit Organisation?</button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>Microsoft offers a variety of business management solutions, among which <Link href="/products/microsoft-dynamics-crm/"><a>Dynamics 365 CRM</a></Link> is the most popular and effective. It can aid nonprofit organisations in managing their donors, stakeholders, and board members while offering a superior experience of charity interaction.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >Is my organisation eligible for Dynamics 365 nonprofit pricing?</button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>Yes, irrespective of the size and complexity of your charitable organisation, you are eligible to implement Dynamics 365 for nonprofits. It will supercharge your core operations while accelerating your ability to make a greater impact on society for an important cause.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >How can Dynamics 365 help nonprofits?</button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>Dynamics 365 nonprofit accelerator can help you manage funds, streamline expenses, monitor resources, and control frontline humanitarian logistics. Not only this, but Dynamics 365 empowers you to automate processes, manage project delivery, and offer donation data in real time.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >How a custom-built Dynamics 365 CRM for a non-Profit Organisation look like?</button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>Charities or nonprofit organisations work with different methodologies and different causes. This leads to their specific needs and demands. To deal with such processes, you can customise your Dynamics 365 CRM to align with your nonprofit's needs. Your Dynamics 365 CRM implementation partner will understand your requirements and offer you the perfect solution.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >What is included in Microsoft 365 for nonprofits?</button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                   <p>Dynamics 365 nonprofit comes with exceptional features, tools, and capabilities to deal with the changing demands of modern nonprofit organisations. It comes with award management, project tracking, fundraising management, volunteer management, tax management, and tracking project goals. and much more capability.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >What can I expect when I buy through a Microsoft partner?</button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                   <p>When you buy Dynamics 365 Nonprofit from a Microsoft-certified solutions partner, like Dynamics Square UK, you will get cost effectiveness, reliability, trustworthiness, and value for money services.</p>
+                    </div>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
