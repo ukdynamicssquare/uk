@@ -416,7 +416,7 @@ const NonProfitAccelerator = () => {
                   />
                   <div className="video-ytube">
                     <div className="popup-btn">
-                      <Link  href="#javascript:void(0)"><a
+                      <a
                         onClick={() => setOpen(true)}
                       >
                         <Image src="/img/Video-Non Profit.png" alt="Video-Non Profit" width={390} height={259} />
@@ -426,7 +426,7 @@ const NonProfitAccelerator = () => {
                             alt="play_icons"
                           />
                         </span></a>
-                      </Link>
+                     
                     </div>
                   </div>
                 </div>
