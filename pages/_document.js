@@ -68,7 +68,7 @@ class MyDocument extends Document {
                 gtag("config", "G-5BJVL7GDB9");
                 `}
             </Script>
-            <script src="https://www.googleoptimize.com/optimize.js?id=OPT-M8FWRNS"></script>
+
             {/* <Script id="Adoric-Script" strategy="beforeInteractive">
                 {`
                (function (a, d, o, r, i, c, u, p, w, m) {

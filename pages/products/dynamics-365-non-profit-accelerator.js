@@ -90,7 +90,7 @@ const NonProfitAccelerator = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Budget.svg" alt="icons" />
+                          <img src="/img/Budget.svg" alt="icons" width="36" height="36" />
                         </div>
                         <span>Unified Data Storage </span>
                       </button>
@@ -118,7 +118,7 @@ const NonProfitAccelerator = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/Financials-3.svg" alt="icons" />
+                          <img src="/img/Financials-3.svg" alt="icons" width="36" height="36" />
                         </div>
                         <span>Project Management</span>
                       </button>
@@ -146,7 +146,7 @@ const NonProfitAccelerator = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                        <img src="/img/Budget.svg" alt="icons" />
+                        <img src="/img/Budget.svg" alt="icons" width="36" height="36" />
                         </div>
                         <span>Build Specific Applications </span>
                       </button>
@@ -174,7 +174,7 @@ const NonProfitAccelerator = () => {
                         aria-controls="fin4"
                       >
                         <div className="wr-in">
-                          <img src="/img/Financials-3.svg" alt="icons" />
+                          <img src="/img/Financials-3.svg" alt="icons" width="36" height="36" />
                         </div>
                         <span>Track Fundraising Activity </span>
                       </button>
@@ -210,7 +210,7 @@ const NonProfitAccelerator = () => {
                         aria-controls="fin7"
                       >
                         <div className="wr-in">
-                          <img src="/img/Project.svg" alt="icons" />
+                          <img src="/img/Project.svg" alt="icons" width="36" height="36" />
                         </div>
                         <span>Volunteer Management </span>
                       </button>
@@ -241,6 +241,7 @@ const NonProfitAccelerator = () => {
                           <img
                             src="/img/International-Accounting-3.svg"
                             alt="icons"
+                            width="36" height="36"
                           />
                         </div>
                         <span>Collecting and Distributing Donations </span>
@@ -269,7 +270,7 @@ const NonProfitAccelerator = () => {
                         aria-controls="fin9"
                       >
                         <div className="wr-in">
-                        <img src="/img/Project.svg" alt="icons" />
+                        <img src="/img/Project.svg" alt="icons" width="36" height="36" />
                         </div>
                         <span>Programme Delivery </span>
                       </button>
@@ -300,6 +301,7 @@ const NonProfitAccelerator = () => {
                           <img
                             src="/img/International-Accounting-3.svg"
                             alt="icons"
+                            width="36" height="36"
                           />
                         </div>
                         <span>Donation Management </span>
