@@ -80,7 +80,7 @@ const NonProfitAccelerator = () => {
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -108,7 +108,7 @@ const NonProfitAccelerator = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -136,7 +136,7 @@ const NonProfitAccelerator = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -164,7 +164,7 @@ const NonProfitAccelerator = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -200,7 +200,7 @@ const NonProfitAccelerator = () => {
                 <hr className="mob-disp" />
                 <div className="accordion" id="accnews">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -228,7 +228,7 @@ const NonProfitAccelerator = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -260,7 +260,7 @@ const NonProfitAccelerator = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -288,7 +288,7 @@ const NonProfitAccelerator = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"

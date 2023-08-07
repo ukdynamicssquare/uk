@@ -123,7 +123,7 @@ class Header extends Component {
                             >
                               <div className="container">
                                 <div className="row">
-                                  {/* <div className="col-md-4">
+                                  <div className="col-md-4">
                                     <div className="list-itmes-maga-menu">
                                       <a href="/products/dynamics-365-business-central/">
                                         <div className="pic">
@@ -142,7 +142,7 @@ class Header extends Component {
                                         </div>
                                       </a>
                                     </div>
-                                  </div> */}
+                                  </div>
                                   <div className="col-md-4">
                                     <div className="list-itmes-maga-menu">
                                       <a href="/products/microsoft-dynamics-365-finance/">
