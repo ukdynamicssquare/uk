@@ -63,7 +63,7 @@ const NonProfitAccelerator = () => {
                   <b>Dynamics 365 for Nonprofit Accelerator empowers charities to leverage the power of the latest AI-enabled technologies to make a strong impact on society.</b>
                   <br />
                   <br />
-                  It is a suite of sample applications that lets you build specific applications to deal with fundraising activity, programme delivery, and award management campaigns. Built using CDL (common data model), Microsoft Dataverse, and the Microsoft Dynamics 365 ecosystem, D365 Nonprofit Accelerator offers powerful capabilities that include programme delivery, case management, volunteer management, global donations, TAX management, and more. <br /><br />The Dynamics 365 Nonprofit Accelerator empowers the organisation with global charity activities while meeting international standards, like IATI (International Aid Transparency Initiative), SDGs (United Nations Sustainable Development Goals). It is a unified platform for charities that can integrate the native <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link> and <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> Platform to enhance the overall efficiency, productivity, and growth of the organisation.<br /><br />D365 Non-profit Accelerator enables the organisation to achieve their objectives while making a greater impact in society and building a sustainable relationship with donors, volunteers, and the public. 
+                  It is a suite of sample applications that lets you build specific applications to deal with fundraising activity, programme delivery, and award management campaigns. Built using CDL (common data model), Microsoft Dataverse, and the Microsoft Dynamics 365 ecosystem, D365 Nonprofit Accelerator offers powerful capabilities that include programme delivery, case management, volunteer management, global donations, TAX management, and more. <br /><br />The Dynamics 365 Nonprofit Accelerator empowers the organisation with global charity activities while meeting international standards, like IATI (International Aid Transparency Initiative), SDGs (United Nations Sustainable Development Goals). It is a unified platform for charities that can integrate the native <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link> and <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> Platform to enhance the overall efficiency, productivity, and growth of the organisation. 
                 </p>
               </header>
             </div>
@@ -73,8 +73,7 @@ const NonProfitAccelerator = () => {
       <section>
         <div className="container">
           <header className="section-header">
-            <h2>Dynamics 365 Nonprofit 
-Accelerator Features: <br />Modernize Charity to Make a Social Impact </h2>
+            <h2>Dynamics 365 Nonprofit Accelerator Features: Empower Charities for Efficiency and Impact</h2>
           </header>
           <div className="row p-lg-6">
             <div className="col-lg-6">
