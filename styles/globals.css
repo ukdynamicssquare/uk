@@ -81,7 +81,7 @@ body a:hover {
   color: #b5101f;
   text-decoration: none;
 }
-p a{
+p a,.faq ul li a{
   text-decoration:underline
 }
 
