@@ -35,52 +35,7 @@ const ImplementationServices = () => {
         <meta property="twitter:description" content="Dynamics Square is known for providing Dynamics 365 implementation services worldwide. Our ERP & CRM implementations plans are backed by solid processes, methodologies, and experience." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/implimenation-service-banner.png" />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "How to choose the right Dynamics 365 implementation partner?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Selecting the right partner is a task that needs a lot of effort. However, various factors must be evaluated before selecting the right partner, including precious work, expertise in a particular module, support availability, time to implement, and implementation cost."
-    }
-  },{
-    "@type": "Question",
-    "name": "What is the role of Dynamics Square in D365 Implementation?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Dynamics Square is one of the leading implementation support partners in the UK and has been providing its services for the last 11 years. Our team is an expert in consulting, implementing, upgrade, and providing support for modules of Dynamics Square."
-    }
-  },{
-    "@type": "Question",
-    "name": "What is the process of Dynamics 365 Sales implementation?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "The implementation process of Dynamics 365 and Dynamics 365 Sales is slightly different. Dynamics 365 is a full package consisting of CRM and ERP solutions, whereas Sales is one of the modules of 365 to streamline the whole sales process."
-    }
-  },{
-    "@type": "Question",
-    "name": "How much time does implementation take?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "There is no absolute data about the exact time taken in the implementation process. It depends on various factors, including business requirements, deployment options, the complexity of business, and customized requirements."
-    }
-  },{
-    "@type": "Question",
-    "name": "What is the cost of implementing Dynamics 365?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "The cost of implementation depends on various factors, including business requirements, server deployment, business complexity, process types, and data amount. However, your implementation partner will get you the exact cost and resolve your related issues."
-    }
-  }]
-              
-            }),
-          }}
-        />
+        
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

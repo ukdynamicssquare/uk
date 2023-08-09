@@ -29,51 +29,6 @@ const SupportServices = () => {
         <meta property="twitter:description" content="Drive continuity in your processes and ensure a sustainable approach with our seamless Dynamics 365 Support Services. Continuous monitoring of your system and processes can help to attain lifelong success." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/support-service-banner.png" />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [{
-                  "@type": "Question",
-                  "name": "What is Microsoft Dynamics 365 Support?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Microsoft offers different business management applications to help streamline their entire business while simplifying existing operations. These applications are supposed to be maintained, updated, and upgraded over time to meet customer as well as market demands. For this, we have certified Microsoft partners who offer support services, as Microsoft doesn,t provide such services directly to businesses. If you own any of the Microsoft Dynamics 365 solutions, you will need an efficient Dynamics 365 support partner for effective business operations."
-                  }
-                },{
-                  "@type": "Question",
-                  "name": "Is it necessary to get support?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "If you want an efficient working of your business solution and want to resolve critical business issues whenever they arise, you will need the right ERP support partner. Even so, you will need the partner to upgrade or update your existing system to align with the latest business requirements. To avail seamless support, contact Dynamics Square and make your business future-proof."
-                  }
-                },{
-                  "@type": "Question",
-                  "name": "How can I avail instant support for Dynamics 365 applications?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "It might be possible that you are stuck with an error or an issue that requires immediate support to get it resolved. In such a case, you will need to contact your Dynamics support partner, like Dynamics Square, and avail of ad-hoc support for instant resolution of all your business issues."
-                  }
-                },{
-                  "@type": "Question",
-                  "name": "Can I avail support for other Microsoft solutions as well?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, most of the Microsoft certified support partner offers their support services to other Microsoft solutions as well. If you have integrated any application of the Power Platform, like Power BI or Power Apps, you can get support whenever required."
-                  }
-                },{
-                  "@type": "Question",
-                  "name": "Does support from partners help with system updates or upgrades?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "If you are working with an outdated ERP or CRM solution and want to update or upgrade it, your support partner can do it easily. Even so, the entire system can be updated without hampering your current business operations."
-                  }
-                }]
-            }),
-          }}
-        />
         
       </Head>
       <section className="Solution-banner hero-1 hero">

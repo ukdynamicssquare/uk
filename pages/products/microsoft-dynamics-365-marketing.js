@@ -30,53 +30,7 @@ const Marketing = () => {
         <meta property="twitter:title" content="Dynamics 365 Marketing Automation & Implementation Partner" />
         <meta property="twitter:description" content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Find out how you can use Dynamics 365 Marketing to make the most out of your marketing campaigns." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is Dynamics 365 for Marketing?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Dynamics 365 for Marketing is a tool for automating entire marketing operations. It manages the journey of a customer from becoming a lead to a recurring client. Also, it seamlessly tracks all activities of the customer to offer them better products and services."
-    }
-  },{
-    "@type": "Question",
-    "name": "Which features are available in Dynamics 365 Marketing?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Microsoft Dynamics 365 Marketing offers various features for all businesses, whether small or large. Some of the core features include a smooth customer journey, managing events, personalising marketing, understanding leads, and much more."
-    }
-  },{
-    "@type": "Question",
-    "name": "Is Dynamics 365 Marketing ERP or CRM?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Dynamics 365 Marketing is a CRM (customer relationship management) application. However, it carries a few options for ERP (enterprise resource planning) as well as standard operations."
-    }
-  },{
-    "@type": "Question",
-    "name": "Which one is for me, Microsoft Dynamics 365 Marketing or Salesforce?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "If you are considering ease of accessibility and want a simple user interface with a cost-effective pricing strategy irrespective of the type of business, you should go with D365 Marketing."
-    }
-  },{
-    "@type": "Question",
-    "name": "How much does D365 marketing cost?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "The cost of Dynamics 365 Marketing totally depends on the complexity of the business and its unique requirements. However, if you want to use it as a standalone application, you have to pay £1,232.90 per tenant/month, and if you are using one of the Dynamics 365 apps, you have to pay £616.50 per tenant/month as an additional amount."
-    }
-  }]
-
-              
-            }),
-          }}
-        />
+        
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

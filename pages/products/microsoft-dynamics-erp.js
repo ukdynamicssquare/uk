@@ -26,53 +26,6 @@ const Erp = () => {
         <meta property="twitter:title" content="Microsoft Dynamics ERP | Enterprise Grade ERP Solution" />
         <meta property="twitter:description" content="Simplify and manage your enterprise practices by an Integrated Microsoft Dynamics ERP Solution. Request a free demo from our ERP expert today." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/ERP-banner.png" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [{
-                "@type": "Question",
-                "name": "What is Microsoft Dynamics ERP?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Microsoft Dynamics ERP is an enterprise resource management application capable of connecting almost all departments of a business and streamlining all operations for efficient business practices. It provides a centrally managed platform where all users of the organisation can interact, communicate, and share data in real-time without any restrictions. MS Dynamics ERP can successfully connect the supply chain, finance, operations, commerce, manufacturing, human resources, and reporting."
-                }
-              },{
-                "@type": "Question",
-                "name": "What are the major ERP solutions from Microsoft?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Microsoft possesses various ERP solutions built to deal with specific business operations. These solutions are given below: Microsoft Dynamics GP : Accounting software. , Microsoft Dynamics NAV : An ERP solution for SMBs. , Microsoft Dynamics SL : Business management solution. Microsoft Dynamics AX : For finance management, Microsoft Dynamics 365 Finance : Microsoft Dynamics 365 Finance, Microsoft Dynamics 365 Business Central: All-in-one business management"
-                }
-              },{
-                "@type": "Question",
-                "name": "State some benefits of Microsoft Dynamics ERP.",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "MS Dynamics ERP offers a number of benefits to businesses, helping them grow in terms of revenue and customers. It offers many benefits, including better insights, scalability, adaptability, seamless data reporting, improved efficiency, high revenue, and ease of customization as per changing business needs."
-                }
-              },{
-                "@type": "Question",
-                "name": "What are the top industries that are actively using Microsoft Dynamics ERP?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Businesses are using ERP solutions to smooth their business operations while following simplified methods. Almost all industries are using this solution, but some are totally dependent on it, including distribution, manufacturing, wholesale, construction, healthcare, transport, logistics, and food and beverage."
-                }
-              },{
-                "@type": "Question",
-                "name": "How much does Microsoft ERP implementation cost, and how much time will it take?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "When it comes to stating the exact time and cost of Microsoft ERP implementation, no one can give you accurate data as these two things depend on various factors, like the complexity of the system, server deployment, amount of data transfer, number of integrations, and type of customization."
-                }
-              }] 
-              
-            }),
-          }}
-        />
-      
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

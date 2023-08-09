@@ -28,53 +28,7 @@ const HumanResource = () => {
         <meta property="twitter:title" content="Dynamics 365 Human Resources | Optimize HR Programs" />
         <meta property="twitter:description" content="Manage workforce, maximize resource utilization, leverage valuable AI insights to craft a better workspace with Dynamics 365 Human Resources. Schedule a demo today." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [{
-                "@type": "Question",
-                "name": "What is the Dynamics 365 HR system?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "D365 Human Resource is an employee management solution built to empower HR people and drive improved employee engagement practices. It is a powerful solution that improves organisational agility, provides actionable insights, and accelerates recruitment, among other benefits."
-                }
-              },{
-                "@type": "Question",
-                "name": "Is Dynamics 365 Human Resources free?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "No, D365 Human Resources isn't free. You can, however, take advantage of a free 30-day trial period.You can get the trial by following the Microsoft Dynamics 365 page. And, when it comes to D365 Human Resource pricing and licensing, you can check out the pricing section available above."
-                }
-              },{
-                "@type": "Question",
-                "name": "What are the top features of D365 Human Resources?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "This is a powerful application that offers immense features and capabilities to all users, including, empowering employees, optimising current processes, pushing employees for their personal development, and optimising HR policies for a more engaging employee experience."
-                }
-              },{
-                "@type": "Question",
-                "name": "What is the cost of D365 Human Resource Implementation?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "The cost of implementation is not fixed because the cost of a business solution depends on the complexity of the business and its changing requirements. If you want to get an accurate quote for the cost of this application so that you can get started working with it, contact the certified D365 Human Resource Implementation Partner."
-                }
-              },{
-                "@type": "Question",
-                "name": "How much time will it take to implement D365 HR?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "The implementation time varies from business to business. With the individualised demands and increased need for customisation, it would not be right to give you exact data. However, you can contact a certified gold support partner like Dynamics Square to discuss your needs. Once our expert consultants understand your needs, we will give you an estimate of the time and cost of the entire process."
-                }
-              }]
-            
-              
-            }),
-          }}
-        />
+       
       </Head>
       <ModalVideo
         channel="youtube"

@@ -24,46 +24,6 @@ const MicrosoftDynamicsAX = () => {
         <meta property="twitter:description" content="Looking for Microsoft Dynamics AX support partner in UK? Dynamics Square - trusted by over a 250+ clients in the UK. Contact us today to see how we can help you get the most out of your investment in AX!" />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/ax-feature1.png" />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is Microsoft Dynamics AX used for?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "MS Dynamics AX is an ERP (Enterprise Resource Planning) solution capable of streamlining the finances and operations of a business with full efficiency and effectiveness. It helps businesses manage almost all critical operations, organise them, and automate the recurring and manual tasks."
-    }
-  },{
-    "@type": "Question",
-    "name": "Is Microsoft Dynamics AX still available?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "No, Dynamics AX is not available for new installation or implementation, but Microsoft still provides its support and upgrade services to some versions only. If you want to avail the latest capabilities to streamline your finances, you can go for Microsoft Dynamics 365 Finance, a cloud-based application for small, medium, and large organisations."
-    }
-  },{
-    "@type": "Question",
-    "name": "What is the difference between Microsoft Dynamics NAV and AX?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "The basis for the difference between these two applications is that Dynamics NAV is an overall business management solution with few capabilities of CRM, whereas Dynamics is a complete ERP to control and supervise financial operations of an enterprise."
-    }
-  },{
-    "@type": "Question",
-    "name": "Who uses Microsoft Dynamics AX?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Generally, Microsoft Dynamics AX is used in such industries with a need to supervise and control financial transactions only. There can be two kinds of users: one for small companies with basic requirements, and another for such companies with complex financial transactions, irrespective of their size and type."
-    }
-  }]
-              
-            }),
-          }}
-        />
-
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

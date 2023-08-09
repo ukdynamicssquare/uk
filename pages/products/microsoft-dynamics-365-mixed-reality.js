@@ -32,45 +32,6 @@ const MicrosoftDynamics365MixedReality = () => {
         <meta property="twitter:description" content="Empower your workforce and optimize your operations with Dynamics 365 Mixed Reality Applications like remote assist, product visualize and guides." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Mixed-Reality-banner.png" />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is Mixed Reality and how does it work?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Mixed Reality is a next-generation solution that can be leveraged to empower people in your organization and to improve your customer experience while reducing risks and costing. Mix Reality combines physical and digital worlds to interact in real-time to serve several purposes from remote services to virtual visualization to preparing learning guides for the users within your organization. Mixed Reality bridges the gap between people and objects that are on distance. Here, one does not need to visit miles just to collaborate with the object, things can be managed from the distance. For instance, businesses can showcase their complicated, large, customizable products to the customers using Mixed Reality concepts or devices. Microsoft's HoloLens is an example of a Mixed Reality device."
-    }
-  },{
-    "@type": "Question",
-    "name": "How businesses can improve their workflow with Mixed Reality solutions?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Mixed Reality is a business transforming solution that enables the organization in various terms. It can help to simplify your complex processes and ease your day-to-day tasks by bringing the digital information to demonstrate like real-world experience. Here are few key benefits that can be availed with Mixed Reality licensing: Showcase complicated products or issues from distance in real-time. Generate trust and improve customer satisfaction during the process. Reduce downtime and eliminate the traveling need. Collaborate in real-time and proactively solve the problems. Quickly identify issues and get technical assistance anywhere."
-    }
-  },{
-    "@type": "Question",
-    "name": "What are Mixed Reality Services?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "When it comes to Microsoft's Mixed Reality Services, it helps to improve your workflow, customer trust, and facilitate your workforce with the self-created Mix Reality guides to learn the required information in real-time and implement the same to ensure smoother and continuous operational flow in your organization. Mixed Reality Services can be availed of in the following terms: Microsoft Dynamics 365 Remote Assist, Microsoft Dynamics 365 Layout, Accounts Receivable, Cash & Bank Management, Microsoft Dynamics 365 Product Visualize, Microsoft Dynamics 365 Guides To know more about contact Dynamics Square Team, we can help."
-    }
-  },{
-    "@type": "Question",
-    "name": "How is Mixed Reality used in Businesses?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "When there is a complex, harsh, or risk-enabled task, Mixed Reality can help with Experiential Training which allows the workforce to learn things in the process without indulging in any risk. This enables continuity in business flow and empowers people in your organization to resolve the interruptions by self-learning in real-time. If you are running a kind of business wherein you have complex, customizable, large-size products that can't be carried by your workforce while client or customer visiting, Mixed Reality can help to start improving your customer experience as well as their trust while being in the process. If you want to solve your business problems or want to improve your business flow, contact us, we can suggest and configure the best possible solution for your business."
-    }
-  }]
-              
-            }),
-          }}
-        />
       </Head>
 
       <ModalVideo
