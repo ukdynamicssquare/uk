@@ -39,7 +39,7 @@ const Startup = () => {
                 <Image
                   src="/img/CRM-header-banner.png"
                   alt="Bespoke CRM System"
-                  width={805} height={473}
+                  width={1024} height={586}
                 />
               </div>
             </div>
