@@ -81,6 +81,9 @@ body a:hover {
   color: #b5101f;
   text-decoration: none;
 }
+p a{
+  text-decoration:underline
+}
 
 .about-banner h2,
 .extr-cont span a,
