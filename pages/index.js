@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Spline from "@splinetool/react-spline";
-import Script from "next/script";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
