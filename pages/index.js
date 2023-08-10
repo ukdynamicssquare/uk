@@ -389,7 +389,7 @@ export default function Home() {
                   finance, and ensure a sound customer experience.
                 </p>
                 <Link href="/products/dynamics-365-business-central/">
-                  <a className="read-more" aria-label="Dynamics 365 Business Central"> 
+                  <a className="read-more"> 
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -416,7 +416,7 @@ export default function Home() {
                   and more informed financial decisions.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-finance/">
-                  <a className="read-more" aria-label="Dynamics 365 Finance">
+                  <a className="read-more">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -443,7 +443,7 @@ export default function Home() {
                   end-to-end supply chain operations.
                 </p>
                 <Link href="/products/dynamics-365-supply-chain-management/">
-                  <a className="read-more" aria-label="Dynamics 365 Supply Chain">
+                  <a className="read-more">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -474,7 +474,7 @@ export default function Home() {
                   for Sales.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-sales/">
-                  <a className="read-more" aria-label="Dynamics 365 Sales">
+                  <a className="read-more">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -505,7 +505,7 @@ export default function Home() {
                   informed decisions for better productivity ahead.
                 </p>
                 <Link href="/products/microsoft-power-bi/">
-                  <a className="read-more" aria-label="Microsoft Power BI">
+                  <a className="read-more">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -537,7 +537,7 @@ export default function Home() {
                   Azure.
                 </p>
                 <Link href="/products/azure-iot-internet-of-things/">
-                  <a className="read-more" aria-label="Internet Of Things">
+                  <a className="read-more">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -563,7 +563,6 @@ export default function Home() {
                     <a
                       data-bs-toggle="modal"
                       className="btn btn-md btn-danger btn-custmm"
-                      aria-label="pop up form"
                     >
                       Request a Demo <span className="screen-reader-text">Details</span>
                     </a>
@@ -582,7 +581,7 @@ export default function Home() {
                 </p>
                 <div className="cla-brn">
                   <Link href="/products/microsoft-dynamics-365/">
-                    <a className="btn btn-md btn-danger btn-custmm" aria-label="Want to know what more Dynamics 365 can do">
+                    <a className="btn btn-md btn-danger btn-custmm">
                       Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
@@ -617,7 +616,7 @@ export default function Home() {
                   business.
                 </p>
                 <Link href="/our-services/dynamics-365-implementation-services/">
-                  <a aria-label="Implementation services">Learn More <span className="screen-reader-text">Details</span></a>
+                  <a>Learn More <span className="screen-reader-text">Details</span></a>
                 </Link>
               </div>
             </div>
@@ -632,7 +631,7 @@ export default function Home() {
                   better RoI.
                 </p>
                 <Link href="/our-services/dynamics-365-upgrade-services/">
-                  <a aria-label="Upgrade services">Learn More <span className="screen-reader-text">Details</span></a>
+                  <a>Learn More <span className="screen-reader-text">Details</span></a>
                 </Link>
               </div>
             </div>
@@ -647,7 +646,7 @@ export default function Home() {
                   Chain, and Power BI.
                 </p>
                 <Link href="/our-services/dynamics-365-support-services/">
-                  <a aria-label="Support Services">Learn More <span className="screen-reader-text">Details</span></a>
+                  <a>Learn More <span className="screen-reader-text">Details</span></a>
                 </Link>
               </div>
             </div>
