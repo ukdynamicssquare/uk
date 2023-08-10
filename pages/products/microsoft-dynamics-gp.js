@@ -1,34 +1,30 @@
 import Head from "next/head";
 import Image from "next/image";
-import Script from "next/script";
 import Link from "next/link";
 
 const MicrosoftDynamicsGP = () => {
   return (
     <>
       <Head>
-        <title>
-          Microsoft Dynamics GP Partner UK (Great Plains) | Dynamics
-          Square
-        </title>
+        <title>Microsoft Dynamics GP (Great Plains) Support Partner UK</title>
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-gp/"
         />
         <meta
           name="description"
-          content="Streamline your finances, sales, service and operations by implementing Microsoft Dynamics GP (Great Plains). Request a free Dynamics GP demo today."
+          content="Looking for Microsoft Dynamics GP support in UK? Streamline your finances, sales, service and operations by implementing Great Plains. Contact Now Today!"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-gp/" />
         <meta property="og:title" content="Dynamics GP Partner | Dynamics Great Plains Partner UK | Dynamics Square" />
-        <meta property="og:description" content="Streamline your finances, sales, service and operations by implementing Microsoft Dynamics GP (Great Plains). Request a free Dynamics GP demo today." />
+        <meta property="og:description" content="Looking for Microsoft Dynamics GP support in UK? Streamline your finances, sales, service and operations by implementing Great Plains. Contact Now Today!" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/gpbanner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-gp/" />
         <meta property="twitter:title" content="Dynamics GP Partner | Dynamics Great Plains Partner UK | Dynamics Square" />
-        <meta property="twitter:description" content="Streamline your finances, sales, service and operations by implementing Microsoft Dynamics GP (Great Plains). Request a free Dynamics GP demo today." />
+        <meta property="twitter:description" content="Looking for Microsoft Dynamics GP support in UK? Streamline your finances, sales, service and operations by implementing Great Plains. Contact Now Today!" />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/gpbanner.png" />
 
       </Head>
