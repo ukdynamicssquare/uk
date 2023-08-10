@@ -1096,7 +1096,6 @@ class Header extends Component {
                     className="getstarted custtss"
                     href="tel:+442071932502"
                     target="_self"
-                    aria-label="telephone" 
                   >
                     <i className="bi bi-telephone-fill"></i> &nbsp;&nbsp;0207
                     193 2502
@@ -1113,7 +1112,6 @@ class Header extends Component {
                     className="getstarted custtss"
                     href="tel:+442071932502"
                     target="_self"
-                    aria-label="telephone" 
                   >
                     <i className="bi bi-telephone-fill"></i></a>
                   </div>
