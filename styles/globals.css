@@ -8772,6 +8772,9 @@ ul.checkmark li {
     font-size: 14px;
     font-weight: 600;
 }
+.blogs-breadcromb .breadcrumb-item{
+  font-size: 14px;
+}
 .blogs-breadcromb .breadcrumb-item a:hover{
   color:var(--color-red )
 }
@@ -8812,7 +8815,8 @@ ul.checkmark li {
   display: block;
 }
 .blogs-lates.blogs-lates-repet {
-  padding-right:20px
+  padding-right:20px;
+  margin-bottom: 30px;
 }
 .blogs-lates.blogs-lates-repet h3 a{
 
@@ -9249,6 +9253,7 @@ margin:0px 10px 10px 0px
     padding: 0px;
   }
 }
+
 
 
 
