@@ -8944,9 +8944,9 @@ ul.checkmark li {
 }
 .author-side-head .left .link-din{
   position: absolute;
-    bottom: 0;
     left: 25%;
     font-size: 16px;
+    margin-top: 8px;
 }
 .author-side-head .left .link-din a i{
   color:#fff
