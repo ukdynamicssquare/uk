@@ -223,10 +223,12 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         experience.
                       </p>
                     </div>
-                    <img
+                    <Image
                       src="/img/slider-dem-1.png"
                       className="card-img-bottom"
                       alt="..."
+                      width={1239}
+                      height={498}
                     />
                   </div>
                 </SwiperSlide>
@@ -245,10 +247,12 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         define the seamless operational workflow thoroughly.
                       </p>
                     </div>
-                    <img
+                    <Image
                       src="/img/slider-dem-2.png"
                       className="card-img-bottom"
                       alt="..."
+                      width={826}
+                      height={332}
                     />
                   </div>
                 </SwiperSlide>
@@ -264,10 +268,12 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         your business from anywhere.
                       </p>
                     </div>
-                    <img
+                    <Image
                       src="/img/slider-dem-3.png"
                       className="card-img-bottom"
                       alt="..."
+                      width={830}
+                      height={332}
                     />
                   </div>
                 </SwiperSlide>
@@ -284,10 +290,12 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         on the same page.
                       </p>
                     </div>
-                    <img
+                    <Image
                       src="/img/slider-dem-4.png"
                       className="card-img-bottom"
                       alt="..."
+                      width={826}
+                      height={332}
                     />
                   </div>
                 </SwiperSlide>
@@ -299,10 +307,12 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       </h3>
                       <p className="card-text">Using the integrated CRM, you can accelerate your sales cycle to achieve faster closures. With CRM capabilities like customer interaction tracking, predicting opportunities like up-sell and cross-sell, tailoring pricing, and creating discounts, you can decode customer experience to your benefit.</p>
                     </div>
-                    <img
+                    <Image
                       src="/img/slider-dem-5.png"
                       className="card-img-bottom"
                       alt="..."
+                      width={826}
+                      height={332}
                     />
                   </div>
                 </SwiperSlide>
@@ -316,10 +326,12 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       Regardless of size, security can be detrimental to businesses. Dynamics 365 Business Central is designed and deployed on an advanced security-enabled Azure cloud with multiple security features like authentication, authorization, data encryption, and auditing, to ensure enterprise-grade defences.
                       </p>
                     </div>
-                    <img
+                    <Image
                       src="/img/slider-dem-6.png"
                       className="card-img-bottom"
                       alt="..."
+                      width={826}
+                      height={332}
                     />
                   </div>
                 </SwiperSlide>
@@ -333,10 +345,12 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       Cut carbon footprint by leveraging the Sustainability Manager to track and manage your emissions in real time from a unified dashboard. Using the power of business intelligence to visualise data and make informed decisions.
                       </p>
                     </div>
-                    <img
+                    <Image
                       src="/img/slider-dem-7.png"
                       className="card-img-bottom"
                       alt="..."
+                      width={826}
+                      height={332}
                     />
                   </div>
                 </SwiperSlide>
@@ -349,7 +363,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <img src="/img/micrsoft-bc-image.png" alt="" />
+            <Image src="/img/micrsoft-bc-image.png" alt="micrsoft-bc-image.png" width={2300} height={974} />
           </div>
         </div>
       </div>
@@ -1223,7 +1237,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
             <div className="col-lg-4">
               <div className="new-card-sol">
                 <div className="head-img">
-                  <img src="/img/bc-icons-new-1.png" alt="icons" />
+                  <img src="/img/bc-icons-new-1.png" alt="icons" width="210" height="119" />
                 </div>
                 <div className="body">
                   <h3>Business Central Implementation</h3>
@@ -1244,7 +1258,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
             <div className="col-lg-4">
               <div className="new-card-sol">
                 <div className="head-img">
-                  <img src="/img/bc-icons-new-2.png" alt="icons" />
+                  <img src="/img/bc-icons-new-2.png" alt="icons"  width="210" height="119" />
                 </div>
                 <div className="body">
                   <h3>Migrate to Business Central</h3>
@@ -1265,7 +1279,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
             <div className="col-lg-4">
               <div className="new-card-sol">
                 <div className="head-img">
-                  <img src="/img/bc-icons-new-3.png" alt="icons" />
+                  <img src="/img/bc-icons-new-3.png" alt="icons"  width="210" height="119" />
                 </div>
                 <div className="body">
                   <h3>Business Central Support</h3>
