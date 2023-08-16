@@ -429,6 +429,8 @@ const PowerBIGuide = () => {
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width="769"
+                    height="324"
                   />
                 </div>
               </header>
@@ -478,9 +480,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2265.png"
                   alt="Power BI History Roadmap"
+                  width={1039}
+                  height={213}
                 />
               </div>
               <div className="cont-table-inner">
@@ -511,9 +515,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2288.png"
                   alt="2022 Gartner Magic Quadrant for Analytics and Business Intelligence Platforms"
+                  width={705}
+                  height={703}
                 />
               </div>
               <div className="cont-table-inner">
@@ -524,9 +530,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2185.png"
                   alt="transform basic data into interactive reports"
+                  width={1052}
+                  height={416}
                 />
               </div>
               <div className="cont-table-inner">
@@ -548,9 +556,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2188.png"
                   alt="US businesses lose $100 billion every year due to data inaccuracy."
+                  width={1053}
+                  height={228}
                 />
               </div>
               <div className="cont-table-inner">
@@ -567,9 +577,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2322.png"
                   alt="71% of businesses opt for Microsoft Azure as their number one vendor."
+                  width={1053}
+                  height={306}
                 />
               </div>
               <div className="cont-table-inner">
@@ -604,9 +616,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2210.png"
                   alt="4 steps in Power BI architecture."
+                  width={1053}
+                  height={262}
                 />
               </div>
               <div className="cont-table-inner">
@@ -678,9 +692,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2216.png"
                   alt="Power BI allows users to communicate with live visuals using filters"
+                  width={1052}
+                  height={358}
                 />
               </div>
               <div className="cont-table-inner">
@@ -782,34 +798,37 @@ const PowerBIGuide = () => {
                 </ul>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2293.png"
                   alt="The wonderful company uses Power BI for easy reporting and dashboards"
+                  width={1052} height={269}
                 />
                 <a href="https://customers.microsoft.com/en-us/story/842619-the-wonderful-company-consumer-goods-power-bi">
                   (Source)
                 </a>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2294.png"
                   alt="Kuwait international uses power bi for data visualisation"
+                  width={1052} height={270}
                 />
                 <a href="https://customers.microsoft.com/fr-fr/story/dgca-government-azure">
                   (Source)
                 </a>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2295.png"
                   alt="Nokia implemented Power BI for HR to get real-time insights"
+                  width={1052} height={270}
                 />
                 <a href="https://customers.microsoft.com/en-us/story/842850-nokia-telecommunications-power-bi">
                   (Source)
                 </a>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-22.jpg" alt="group-22" />
+                <Image src="/img/group-22.jpg" alt="group-22"  width={624} height={348} />
               </div>
             </div>
           </div>
@@ -832,11 +851,15 @@ const PowerBIGuide = () => {
                     src="/img/group-2282.png"
                     alt="Power BI Features and Benefits"
                     className="shape-1"
+                    width="250"
+                    height="250"
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width="769"
+                    height="324"
                   />
                 </div>
               </header>
@@ -912,9 +935,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2220.png"
                   alt="top 5 features of power bi"
+                  width={1052}
+                  height={375}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1044,9 +1069,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2278.png"
                   alt="top 10 power bi benefits"
+                  width={1040}
+                  height={344}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1056,27 +1083,33 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2299.png"
                   alt="power bi use case 1"
+                  width={1052}
+                  height={270}
                 />
                 <a href="https://customers.microsoft.com/en-us/story/817472-grundfos-manufacturing-power-bi">
                   (Source)
                 </a>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2300.png"
                   alt="power bi use case 2"
+                  width={1052}
+                  height={270}
                 />
                 <a href="https://customers.microsoft.com/en-us/story/810496-sandvik-coromant-chemicals-power-bi">
                   (Source)
                 </a>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2301.png"
                   alt="power bi client story"
+                  width={1052}
+                  height={270}
                 />
                 <a href="https://customers.microsoft.com/en-us/story/791222-rockwell-automation-manufacturing-power-bi">
                   (Source)
@@ -1115,11 +1148,15 @@ const PowerBIGuide = () => {
                     src="/img/PowerBi-Dashboard.png"
                     alt="Power BI Dashboards"
                     className="shape-1"
+                    width="250"
+                    height="250"
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width="769"
+                    height="324"
                   />
                 </div>
               </header>
@@ -1151,9 +1188,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2223.png"
                   alt="Transform data and view on power bi dashboards"
+                  width={1052}
+                  height={791}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1214,7 +1253,7 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2224-4.png" alt="group-2224" />
+                <Image src="/img/group-2224-4.png" alt="group-2224" width={1054} height={340} />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -1263,9 +1302,11 @@ const PowerBIGuide = () => {
                 </ul>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21212.png"
                   alt="power bi dashboard get data button"
+                  width={244}
+                  height={595}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1279,7 +1320,7 @@ const PowerBIGuide = () => {
                 </ul>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-21213.png" alt="import data" />
+                <Image src="/img/group-21213.png" alt="import data" width={162} height={202} />
               </div>
               <div className="cont-table-inner">
                 <ul>
@@ -1290,9 +1331,11 @@ const PowerBIGuide = () => {
                 </ul>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21214.png"
                   alt="one drive for business"
+                  width={750}
+                  height={264}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1305,9 +1348,11 @@ const PowerBIGuide = () => {
                 </ul>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21215.png"
                   alt="Import button to start importing the file"
+                  width={386}
+                  height={196}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1319,9 +1364,11 @@ const PowerBIGuide = () => {
                 </ul>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21216.png"
                   alt="success message will be displayed"
+                  width={422}
+                  height={113}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1337,9 +1384,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21201.png"
                   alt="Procurement Analysis Sample report"
+                  width={624}
+                  height={348}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1354,9 +1403,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21202.png"
                   alt=" Discount Analysis and Spend Overview"
+                  width={682}
+                  height={396}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1366,9 +1417,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21203.png"
                   alt="Spend Overview tab"
+                  width={867}
+                  height={71}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1379,7 +1432,7 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-21204.png" alt="Pin to Dashboard" />
+                <Image src="/img/group-21204.png" alt="Pin to Dashboard" width={296} height={182} />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -1390,7 +1443,7 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-21205.png" alt="Pin Live button" />
+                <Image src="/img/group-21205.png" alt="Pin Live button" width={936} height={482} />
               </div>
               <div className="cont-table-inner">
                 <p>
@@ -1403,9 +1456,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21206.png"
                   alt="Power bi data visualisation"
+                  width={624}
+                  height={449}
                 />
               </div>
 
@@ -1444,9 +1499,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2302.png"
                   alt="Finance Dashboard in power bi"
+                  width={942}
+                  height={529}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1490,9 +1547,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2306.png"
                   alt="HR Dashboard of Power BI"
+                  width={1046}
+                  height={586}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1533,9 +1592,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2305.png"
                   alt="Power BI Logistics Dashboard"
+                  width={1052}
+                  height={589}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1573,9 +1634,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2304.png"
                   alt="Powe BI Sales dashboard"
+                  width={1050}
+                  height={586}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1617,9 +1680,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2307.png"
                   alt="Power BI Marketing Dashboard"
+                  width={1051}
+                  height={590}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1683,9 +1748,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21207.jpg"
                   alt="why power bi is the best tool"
+                  width={624}
+                  height={263}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1718,9 +1785,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21208.jpg"
                   alt="custom power bi dashboard for PWC"
+                  width={974}
+                  height={546}
                 />
               </div>
               <div className="cont-table-inner">
@@ -1749,9 +1818,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21209.jpg"
                   alt="researcher dashboard"
+                  width={512}
+                  height={624}
                 />
               </div>
             </div>
@@ -1775,11 +1846,15 @@ const PowerBIGuide = () => {
                     src="/img/PowerBi-integration.png"
                     alt="PowerBi-integration"
                     className="shape-1"
+                    width="250"
+                    height="250"
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width="769"
+                    height="324"
                   />
                 </div>
               </header>
@@ -1881,9 +1956,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-21211.png"
                   alt="Microsoft Appsource"
+                  width={1430}
+                  height={761}
                 />
               </div>
               <div className="iner-pp">
@@ -1918,11 +1995,15 @@ const PowerBIGuide = () => {
                     src="/img/PowerBi-Licensing.png"
                     alt="Power BI Versions, Pricing, and Licensing"
                     className="shape-1"
+                    width="250"
+                    height="250"
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width="769"
+                    height="324"
                   />
                 </div>
               </header>
@@ -2130,7 +2211,7 @@ const PowerBIGuide = () => {
               </div>
 
               <div className="iner-pp">
-                <img src="/img/group-2227.png" alt="power bi version" />
+                <Image src="/img/group-2227.png" alt="power bi version" width={1052} height={441} />
               </div>
               <div className="new-Pricing-wrp">
                 <div className="new-Pricing">
@@ -2366,10 +2447,10 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2221.png" alt="group-2221" />
+                <Image src="/img/group-2221.png" alt="group-2221" width={1093} height={215} />
               </div>
               <div className="iner-pp">
-                <img src="/img/group-2222.png" alt="group-2222" />
+                <Image src="/img/group-2222.png" alt="group-2222" width={1039} height={350} />
               </div>
             </div>
           </div>
@@ -2394,11 +2475,15 @@ const PowerBIGuide = () => {
                     src="/img/PowerBi-vs.png"
                     alt="Power BI vs. Competitors"
                     className="shape-1"
+                    width="250"
+                    height="250"
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width="769"
+                    height="324"
                   />
                 </div>
               </header>
@@ -2429,9 +2514,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2225.png"
                   alt="Power BI vs. Tableau"
+                  width={1039}
+                  height={319}
                 />
               </div>
               <div className="cont-table-inner">
@@ -2444,9 +2531,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2224.png"
                   alt="Power BI vs. QlikView"
+                  width={1039}
+                  height={475}
                 />
               </div>
               <div className="cont-table-inner">
@@ -2459,9 +2548,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2256.png"
                   alt="Power BI vs. Tableau vs. Qlikview"
+                  width={1039}
+                  height={472}
                 />
               </div>
               <div className="cont-table-inner">
@@ -2470,9 +2561,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2258.png"
                   alt="Power BI vs. Looker"
+                  width={1039}
+                  height={405}
                 />
               </div>
               <div className="cont-table-inner">
@@ -2481,9 +2574,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2259.png"
                   alt="Power BI vs. Quicksight (AWS)"
+                  width={1039}
+                  height={278}
                 />
               </div>
               <div className="cont-table-inner">
@@ -2492,9 +2587,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2260.png"
                   alt="Power BI vs. Crystal reports (SAP)"
+                  width={1039}
+                  height={237}
                 />
               </div>
               <div className="cont-table-inner">
@@ -2503,9 +2600,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2261.png"
                   alt="Power BI vs. Salesforce Sales Cloud"
+                  width={1039}
+                  height={237}
                 />
               </div>
               <div className="cont-table-inner">
@@ -2514,9 +2613,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2262.png"
                   alt="Power BI vs. Excel"
+                  width={1039}
+                  height={358}
                 />
               </div>
               <div className="iner-pp">
@@ -2552,11 +2653,15 @@ const PowerBIGuide = () => {
                     src="/img/Future-Scope.png"
                     alt="Future Scope Of Power BI"
                     className="shape-1"
+                    width="250"
+                    height="250"
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width="769"
+                    height="324"
                   />
                 </div>
               </header>
@@ -2576,9 +2681,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2298.png"
                   alt="business intelligence market is expected to increase to $41 billion at a 12% CAGR by 2026"
+                  width={1052}
+                  height={467}
                 />
               </div>
               <div className="cont-table-inner">
@@ -2599,9 +2706,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2312.png"
                   alt="70% organisations track the quality of data at different levels, which reduced their operational risks and costs by 60%"
+                  width={1052}
+                  height={258}
                 />
               </div>
 
