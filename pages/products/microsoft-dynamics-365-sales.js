@@ -104,7 +104,8 @@ const Sales = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/sales-hub-app.svg" alt="icons" />
+                          <img src="/img/sales-hub-app.svg" alt="icons"  width="36"
+                            height="36" />
                         </div>
                         <span>Sales Hub App</span>
                       </button>
@@ -147,6 +148,8 @@ const Sales = () => {
                           <img
                             src="/img/sales-proffesional-app.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Sales Professional App</span>
@@ -313,6 +316,8 @@ const Sales = () => {
                   <img
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -340,6 +345,8 @@ const Sales = () => {
                   <img
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -360,6 +367,8 @@ const Sales = () => {
                   <img
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">

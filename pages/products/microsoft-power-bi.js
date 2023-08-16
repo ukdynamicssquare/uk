@@ -90,6 +90,8 @@ const PowerBI = () => {
                           <img
                             src="/img/Power-BI-Desktop.svg"
                             alt="Power-BI-Desktop"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Power BI Desktop</span>
@@ -124,6 +126,8 @@ const PowerBI = () => {
                           <img
                             src="/img/Power-Bi-Service.svg"
                             alt="Power-Bi-Service"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Power BI Service</span>
@@ -165,6 +169,8 @@ const PowerBI = () => {
                           <img
                             src="/img/Power-Bi-Mobile.svg"
                             alt="Power-Bi-Mobile"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Power BI Mobile</span>
