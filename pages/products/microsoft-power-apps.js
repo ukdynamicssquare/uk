@@ -104,6 +104,8 @@ const PowerApps = () => {
                           <img
                             src="/img/icons-power-apps_Quick-and-Easy.svg"
                             alt="icons-power-apps_Quick-and-Easy"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Quick and Easy</span>
@@ -147,6 +149,8 @@ const PowerApps = () => {
                           <img
                             src="/img/icons-power-apps_App-Development.svg"
                             alt="icons-power-apps_App-Development"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Professional App Development</span>
@@ -188,6 +192,8 @@ const PowerApps = () => {
                           <img
                             src="/img/icons-power-apps_Enhancing-Capabilities.svg"
                             alt="icons-power-apps_Enhancing-Capabilities"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Enhancing Capabilities</span>
@@ -233,6 +239,8 @@ const PowerApps = () => {
                           <img
                             src="/img/icons-power-apps_Responsive-Design.svg"
                             alt="icons-power-apps_Responsive-Design"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Responsive Design</span>
@@ -269,6 +277,8 @@ const PowerApps = () => {
                           <img
                             src="/img/icons-power-apps_Data.svg"
                             alt="icons-power-apps_Data"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Data</span>
@@ -428,6 +438,8 @@ const PowerApps = () => {
                   <img
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -449,6 +461,8 @@ const PowerApps = () => {
                   <img
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">

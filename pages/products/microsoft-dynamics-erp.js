@@ -149,6 +149,8 @@ const Erp = () => {
                           <img
                             src="/img/icons-commerce.svg"
                             alt="icons-commerce"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Commerce</span>
@@ -187,6 +189,8 @@ const Erp = () => {
                           <img
                             src="/img/icons_finance-1.svg"
                             alt="icons_finance-1"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Finance</span>
@@ -225,6 +229,8 @@ const Erp = () => {
                           <img
                             src="/img/icons_HR-management-1.svg"
                             alt="icons_HR-management"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Human Resource</span>
@@ -270,6 +276,8 @@ const Erp = () => {
                           <img
                             src="/img/icons_manufacturing-1.svg"
                             alt="icons_manufacturing-1"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Manufacturing</span>
@@ -307,6 +315,8 @@ const Erp = () => {
                           <img
                             src="/img/icons_supply-chain-1.svg"
                             alt="icons_supply-chain-1"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Supply Chain</span>

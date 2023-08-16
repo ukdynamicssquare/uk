@@ -239,6 +239,8 @@ const CustomerService = () => {
                   <img
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -259,6 +261,8 @@ const CustomerService = () => {
                   <img
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -283,6 +287,8 @@ const CustomerService = () => {
                   <img
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">

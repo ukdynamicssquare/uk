@@ -98,6 +98,8 @@ const PowerVirtualAgents = () => {
                           <img
                             src="/img/icons-power-apps_Quick-and-Easy.svg"
                             alt="icons-power-apps_Quick-and-Easy"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Easy Chatbot Creation</span>
@@ -139,6 +141,8 @@ const PowerVirtualAgents = () => {
                           <img
                             src="/img/icons-power-apps_App-Development.svg"
                             alt="icons-power-apps_App-Development"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Instant Actions</span>
@@ -195,6 +199,8 @@ const PowerVirtualAgents = () => {
                           <img
                             src="/img/icons-power-apps_Enhancing-Capabilities.svg"
                             alt="icons-power-apps_Enhancing-Capabilities"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Smarter Bots</span>
@@ -242,6 +248,8 @@ const PowerVirtualAgents = () => {
                           <img
                             src="/img/icons-power-apps_Responsive-Design.svg"
                             alt="icons-power-apps_Responsive-Design"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Easy to Start</span>
@@ -411,6 +419,7 @@ const PowerVirtualAgents = () => {
                   <img
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width="64" height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -433,6 +442,7 @@ const PowerVirtualAgents = () => {
                   <img
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width="64" height="64"
                   />
                 </div>
                 <div className="card_new_content">

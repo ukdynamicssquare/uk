@@ -55,9 +55,11 @@ const Marketing = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/marketing-banners.png"
                 alt="Dynamics 365 Marketing"
+                width={808}
+                height={508}
               />
             </div>
           </div>
@@ -98,6 +100,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_centeralised-source.svg"
                             alt="icons_centeralised-source"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Centralized Source</span>
@@ -139,6 +143,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_Personalized-Communication-.svg"
                             alt="icons_Personalized-Communication"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Personalized Communication</span>
@@ -177,6 +183,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_Journey-Mapping.svg"
                             alt="icons_Journey-Mapping"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Journey Mapping</span>
@@ -220,6 +228,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_Email-Templates-.svg"
                             alt="icons_Email-Templates"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Email Templates</span>
@@ -257,6 +267,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_Customer-Feedback-.svg"
                             alt="icons_Customer-Feedback"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Customer Feedback</span>
@@ -296,6 +308,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_Automated-Lead-Scoring.svg"
                             alt="icons_Automated-Lead-Scoring"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Automated Lead Scoring</span>
@@ -357,7 +371,7 @@ const Marketing = () => {
                         aria-controls="fins1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Group11.png" alt="Group11" />
+                          <img src="/img/Group11.png" alt="Group11" width="90" height="90" />
                         </div>
                         <span>Core Marketing</span>
                       </button>
@@ -389,7 +403,7 @@ const Marketing = () => {
                         aria-controls="fins2"
                       >
                         <div className="wr-in">
-                          <img src="/img/Group12.png" alt="Group12" />
+                          <img src="/img/Group12.png" alt="Group12" width="90" height="90" />
                         </div>
                         <span>Event Management</span>
                       </button>
@@ -420,7 +434,7 @@ const Marketing = () => {
                         aria-controls="fins3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Group13.png" alt="Group13" />
+                          <img src="/img/Group13.png" alt="Group13" width="90" height="90" />
                         </div>
                         <span>Forms Pro</span>
                       </button>
@@ -452,7 +466,7 @@ const Marketing = () => {
                         aria-controls="fins4"
                       >
                         <div className="wr-in">
-                          <img src="/img/Group14.png" alt="Group14" />
+                          <img src="/img/Group14.png" alt="Group14" width="90" height="90" />
                         </div>
                         <span>Add-Ons</span>
                       </button>
@@ -628,9 +642,11 @@ const Marketing = () => {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
-                <img
+                <Image
                   src="/img/microosoft-partner.png"
                   alt="Microosoft Partner"
+                  width={625}
+                  height={651}
                 />
               </div>
             </div>

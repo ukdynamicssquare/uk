@@ -120,6 +120,8 @@ const FieldService = () => {
                           <img
                             src="/img/icons_customer-resolution.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Streamline Customer Resolution</span>
@@ -154,6 +156,8 @@ const FieldService = () => {
                           <img
                             src="/img/icons_resource-scheduling.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Optimize Resource Scheduling</span>
@@ -195,6 +199,8 @@ const FieldService = () => {
                           <img
                             src="/img/icons_seamless-integration.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Seamless Integration</span>
@@ -229,6 +235,8 @@ const FieldService = () => {
                           <img
                             src="/img/icons_real-time-insight.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Real-Time Insights</span>
@@ -390,6 +398,7 @@ const FieldService = () => {
                   <img
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width="64" height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -410,6 +419,7 @@ const FieldService = () => {
                   <img
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width="64" height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -430,6 +440,7 @@ const FieldService = () => {
                   <img
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width="64" height="64"
                   />
                 </div>
                 <div className="card_new_content">

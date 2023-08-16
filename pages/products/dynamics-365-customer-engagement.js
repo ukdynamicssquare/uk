@@ -56,9 +56,11 @@ const Dynamics365CustomerEngagement = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center text-center">
-              <img
+              <Image
                 src="/img/customer-engagement-banner.png"
                 alt="D365 customer engagement"
+                width={699}
+                height={447}
               />
             </div>
           </div>
@@ -140,9 +142,11 @@ const Dynamics365CustomerEngagement = () => {
             <div className="col-lg-5 align-self-center">
               <div className="busine_service_bottt">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/customer-engagement-side-image.png"
                     alt="customer-engagement-side-images"
+                    width={532}
+                    height={513}
                   />
                 </div>
               </div>
@@ -330,6 +334,8 @@ const Dynamics365CustomerEngagement = () => {
                   <img
                     src="/img/Customer-Service.svg"
                     alt="Customer-Service"
+                    width="94"
+                    height="94"
                   />
                 </div>
                 <div className="style-grid-content">
@@ -348,7 +354,8 @@ const Dynamics365CustomerEngagement = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/sales.svg" alt="sales" />
+                  <img src="/img/sales.svg" alt="sales"  width="94"
+                    height="94" />
                 </div>
                 <div className="style-grid-content">
                   <h3>Remain Productive</h3>
@@ -369,6 +376,8 @@ const Dynamics365CustomerEngagement = () => {
                   <img
                     src="/img/supply-chain-icons.svg"
                     alt="supply-chain-icons"
+                    width="94"
+                    height="94"
                   />
                 </div>
                 <div className="style-grid-content">
@@ -389,6 +398,8 @@ const Dynamics365CustomerEngagement = () => {
                   <img
                     src="/img/Field-Service-icons.svg"
                     alt="Field-Service-icons"
+                    width="94"
+                    height="94"
                   />
                 </div>
                 <div className="style-grid-content">
