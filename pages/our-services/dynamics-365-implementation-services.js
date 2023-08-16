@@ -154,9 +154,11 @@ const ImplementationServices = () => {
             </div>
             <div className="col-lg-6">
               <div className="custom-bg-001-right">
-                <img
+                <Image
                   src="/img/Dynamics-365-overview.svg"
                   alt="Dynamics-365-overview"
+                  width={555}
+                  height={552}
                 />
               </div>
             </div>
@@ -170,7 +172,7 @@ const ImplementationServices = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/finance-icns-1.svg" alt="finance-icns-1" />
+                  <Image src="/img/finance-icns-1.svg" alt="finance-icns-1" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Finance</h3>
@@ -185,7 +187,7 @@ const ImplementationServices = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/sales.svg" alt="sales" />
+                  <Image src="/img/sales.svg" alt="sales"  width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Sales</h3>
@@ -199,7 +201,7 @@ const ImplementationServices = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Customer-Service.svg" alt="Customer-Service" />
+                  <Image src="/img/Customer-Service.svg" alt="Customer-Service"  width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Customer Service</h3>
@@ -213,9 +215,10 @@ const ImplementationServices = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img
+                  <Image
                     src="/img/Project-Management-icons.svg"
                     alt="Project-Management-icons"
+                    width={94} height={94}
                   />
                 </div>
                 <div className="style-grid-content">
@@ -232,9 +235,10 @@ const ImplementationServices = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img
+                  <Image
                     src="/img/supply-chain-icons.svg"
                     alt="supply-chain-icons"
+                    width={94} height={94}
                   />
                 </div>
                 <div className="style-grid-content">
@@ -250,7 +254,7 @@ const ImplementationServices = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/marketing-icons.svg" alt="marketing-icons" />
+                  <Image src="/img/marketing-icons.svg" alt="marketing-icons"  width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Marketing</h3>
@@ -266,9 +270,10 @@ const ImplementationServices = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img
+                  <Image
                     src="/img/Field-Service-icons.svg"
                     alt="Field-Service-icons"
+                    width={94} height={94}
                   />
                 </div>
                 <div className="style-grid-content">
@@ -287,7 +292,7 @@ const ImplementationServices = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/commerce-icons.svg" alt="commerce-icons" />
+                  <Image src="/img/commerce-icons.svg" alt="commerce-icons"  width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Commerce</h3>
@@ -335,7 +340,7 @@ const ImplementationServices = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="box-6-pic">
-                <img src="/img/imp-left.svg" alt="imp-left.svg" />
+                <Image src="/img/imp-left.svg" alt="imp-left.svg" width={531} height={771} />
               </div>
             </div>
 
@@ -454,11 +459,15 @@ const ImplementationServices = () => {
                             src="/img/Component-1-icons.svg"
                             className="overmain-thumb"
                             alt="Component-1-icons"
+                            width="181"
+                            height="181"
                           />
                           <img
                             src="/img/Component-1-iconss.svg"
                             className="over"
                             alt="Component-1-icons-red"
+                            width="181"
+                            height="181"
                           />
                         </div>
                       </SwiperSlide>
@@ -468,11 +477,15 @@ const ImplementationServices = () => {
                             src="/img/Component-2.svg"
                             className="overmain-thumb-1"
                             alt="Component-2"
+                            width="181"
+                            height="181"
                           />
                           <img
                             src="/img/Component-2-iconss.svg"
                             className="over-1"
                             alt="Component-2-icons-red"
+                            width="181"
+                            height="181"
                           />
                         </div>
                       </SwiperSlide>
@@ -482,11 +495,15 @@ const ImplementationServices = () => {
                             src="/img/Component-3.svg"
                             className="overmain-thumb-2"
                             alt="Component-3"
+                            width="181"
+                            height="181"
                           />
                           <img
                             src="/img/Component-3-iconss.svg"
                             className="over-1"
                             alt="Component-1-icons-red"
+                            width="181"
+                            height="181"
                           />
                         </div>
                       </SwiperSlide>
@@ -496,11 +513,15 @@ const ImplementationServices = () => {
                             src="/img/Component-4.svg"
                             className="overmain-thumb-3"
                             alt="Component-4"
+                            width="181"
+                            height="181"
                           />
                           <img
                             src="/img/Component-4-iconss.svg"
                             className="over-1"
                             alt="Component-1-icons-red"
+                            width="181"
+                            height="181"
                           />
                         </div>
                       </SwiperSlide>
@@ -510,11 +531,15 @@ const ImplementationServices = () => {
                             src="/img/Component-5.svg"
                             className="overmain-thumb-4"
                             alt="Component-5"
+                            width="181"
+                            height="181"
                           />
                           <img
                             src="/img/Component-5-iconss.svg"
                             className="over-1"
                             alt="Component-1-icons-red"
+                            width="181"
+                            height="181"
                           />
                         </div>
                       </SwiperSlide>
