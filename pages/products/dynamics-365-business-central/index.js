@@ -370,7 +370,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
 
       <section className="nn-bg">
         <div className="bb">
-          <img src="/img/bus-bg.png" alt="bgimage" />
+          <img src="/img/bus-bg.png" alt="bgimage" width="542" height="568" />
         </div>
         <div className="container">
           <div className="row justify-content-center">
@@ -1053,7 +1053,9 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       <img
                         src="/img/case-1.png"
                         className="casestudys-slider-item-img"
-                        alt=""
+                        alt="casestudys-slider-item-img"
+                        width="180"
+                        height="75"
                       />
                       <p>
                         A leading British based manufacturer of Military
@@ -1086,6 +1088,8 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         src="/img/crm-trading.png"
                         className="casestudys-slider-item-img"
                         alt="crm-trading"
+                        width="180"
+                        height="75"
                       />
                       <p>
                         UK's leading fragrance, skincare, cosmetics, and
@@ -1118,6 +1122,8 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         src="/img/wipersupplywide.png"
                         className="casestudys-slider-item-img"
                         alt="wipersupplywide"
+                        width="180"
+                        height="75"
                       />
                       <p>
                         British-based Hygienic Disposable Cleaning & Wiping
