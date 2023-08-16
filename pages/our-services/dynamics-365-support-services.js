@@ -149,6 +149,8 @@ const SupportServices = () => {
                           <img
                             src="/img/Group1404.svg"
                             alt="Group1404"
+                            width="151"
+                            height="151"
                           />
                         </div>
                         <span>Ad-Hoc Support</span>
@@ -181,6 +183,8 @@ const SupportServices = () => {
                           <img
                             src="/img/Group1403.svg"
                             alt="Group1403"
+                            width="151"
+                            height="151"
                           />
                         </div>
                         <span>Prepaid Hours Support</span>
@@ -217,6 +221,8 @@ const SupportServices = () => {
                           <img
                             src="/img/Group1402.svg"
                             alt="Group1402"
+                            width="151"
+                            height="151"
                           />
                         </div>
                         <span>Annual Support</span>
@@ -291,7 +297,7 @@ const SupportServices = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Group1407.svg" alt="Group1407" />
+                  <Image src="/img/Group1407.svg" alt="Group1407" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Account Management</h3>
@@ -309,7 +315,7 @@ const SupportServices = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Add-ons.svg" alt="Add-ons.svg" />
+                  <Image src="/img/Add-ons.svg" alt="Add-ons.svg" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Add-ons</h3>
@@ -328,7 +334,7 @@ const SupportServices = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Group1408.svg" alt="Group1408" />
+                  <Image src="/img/Group1408.svg" alt="Group1408" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Training</h3>
@@ -346,9 +352,10 @@ const SupportServices = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img
+                  <Image
                     src="/img/Modifications.svg"
                     alt="Modifications"
+                    width={94} height={94}
                   />
                 </div>
                 <div className="style-grid-content">
