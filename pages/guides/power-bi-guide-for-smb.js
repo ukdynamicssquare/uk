@@ -102,9 +102,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-1" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/Power-bi-pic-1.png"
                     alt="Power BI Overview"
+                    width={150}
+                    height={150}
                   />
                   <h3>Chapter 1</h3>
                   <p>What is Power BI?</p>
@@ -114,9 +116,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-2" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/power-2.png"
                     alt="Power BI Features and Benefits"
+                    width={150}
+                    height={150}
                   />
                   <h3>Chapter 2</h3>
                   <p>Power BI Features and Benefits</p>
@@ -126,9 +130,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-3" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/power-3.png"
                     alt="Power BI Dashboard Examples"
+                    width={150}
+                    height={150}
                   />
                   <h3>Chapter 3</h3>
                   <p>Power BI Dashboard & Examples</p>
@@ -138,9 +144,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-4" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/power-4.png"
                     alt="Power BI Integration & Automation"
+                    width={150}
+                    height={150}
                   />
                   <h3>Chapter 4</h3>
                   <p>Power BI Integration & automation</p>
@@ -150,9 +158,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-5" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/power-5.png"
                     alt="Power BI Versions, Pricing & Licensing"
+                    width={150}
+                    height={150}
                   />
                   <h3>Chapter 5</h3>
                   <p>Power BI Versions, Pricing, and Licensing</p>
@@ -162,9 +172,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-6" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/power-6.png"
                     alt="Power BI vs Others BI Tools"
+                    width={150}
+                    height={150}
                   />
                   <h3>Chapter 6</h3>
                   <p>Power BI vs Others</p>
@@ -174,9 +186,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-7" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/group-2330.png"
                     alt="Future Scope of Power BI"
+                    width={150}
+                    height={150}
                   />
                   <h3>Chapter 7</h3>
                   <p>Future Scope Of Power BI</p>
@@ -239,9 +253,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2175.png"
                   alt="Data visualisation makes 5X faster decisions"
+                  width={1052}
+                  height={226}
                 />
               </div>
               <div className="cont-table-inner">
@@ -265,9 +281,11 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2176.png"
                   alt="70% of businesses rate data as crucial"
+                  width={1052}
+                  height={283}
                 />
               </div>
               <div className="cont-table-inner">
@@ -296,9 +314,11 @@ const PowerBIGuide = () => {
                 </ol>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2174.png"
                   alt="Deloitte Survey on Data Analytics"
+                  width={1052}
+                  height={341}
                 />
               </div>
               <div className="cont-table-inner">
@@ -314,9 +334,11 @@ const PowerBIGuide = () => {
                 </ol>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/group-2183.png"
                   alt="top 3 business intelligence trends of 2022"
+                  width={1052}
+                  height={307}
                 />
               </div>
               <div className="cont-table-inner">
@@ -371,9 +393,11 @@ const PowerBIGuide = () => {
               </div>
               <div className="iner-pp">
               <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal" ><img
+                  <a data-bs-toggle="modal" ><Image
                     src="/img/powerb-guide-call-to-banner-2.png"
                     alt="power-guide"
+                    width={1260}
+                    height={510}
                   /></a>
                 </Link>
               </div>
@@ -398,6 +422,8 @@ const PowerBIGuide = () => {
                     src="/img/POwerBI-Intro.png"
                     alt="Introduction To Power BI"
                     className="shape-1"
+                   width="250"
+                   height="250"
                   />
                   <img
                     src="/img/over-lay-shape.png"
@@ -1058,9 +1084,11 @@ const PowerBIGuide = () => {
               </div>
               <div className="iner-pp">
               <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal" ><img
+                  <a data-bs-toggle="modal" ><Image
                     src="/img/powerb-guide-call-to-banner-2.png"
                     alt="power-guide"
+                    width={1260}
+                    height={510}
                   /></a>
                 </Link>
               </div>
@@ -1622,13 +1650,15 @@ const PowerBIGuide = () => {
               </div>
               <div className="iner-pp">
               <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal" ><img
+                  <a data-bs-toggle="modal" ><Image
                     src="/img/powerb-guide-call-to-banner-2.png"
                     alt="power-guide"
+                    width={1260}
+                    height={510}
                   /></a>
                 </Link>
               </div>
-              <div class="cont-table-inner">
+              <div className="cont-table-inner">
                 <p>
                   <b className="h3">Health Industry Used Cases</b>
                 </p>
@@ -1858,9 +1888,11 @@ const PowerBIGuide = () => {
               </div>
               <div className="iner-pp">
               <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal" ><img
+                  <a data-bs-toggle="modal" ><Image
                     src="/img/powerb-guide-call-to-banner-2.png"
                     alt="power-guide"
+                    width={1260}
+                    height={510}
                   /></a>
                 </Link>
               </div>
@@ -2075,9 +2107,11 @@ const PowerBIGuide = () => {
               </div>
               <div className="iner-pp">
               <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal" ><img
+                  <a data-bs-toggle="modal" ><Image
                     src="/img/powerb-guide-call-to-banner-2.png"
                     alt="power-guide"
+                    width={1260}
+                    height={510}
                   /></a>
                 </Link>
               </div>
@@ -2487,9 +2521,11 @@ const PowerBIGuide = () => {
               </div>
               <div className="iner-pp">
               <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal" ><img
+                  <a data-bs-toggle="modal" ><Image
                     src="/img/powerb-guide-call-to-banner-2.png"
                     alt="power-guide"
+                    width={1260}
+                    height={510}
                   /></a>
                 </Link>
               </div>
@@ -2670,9 +2706,11 @@ const PowerBIGuide = () => {
               </div>
               <div className="iner-pp">
               <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal" ><img
+                  <a data-bs-toggle="modal" ><Image
                     src="/img/powerb-guide-call-to-banner-2.png"
                     alt="power-guide"
+                    width={1260}
+                    height={510}
                   /></a>
                 </Link>
               </div>

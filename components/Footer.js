@@ -316,12 +316,12 @@ const Footer = () =>{
             <div className="row gy-4">
               <div className="col-lg-5 col-md-12 footer-info">
                 <Link href="/" className="logo d-flex align-items-center">
-                  <Image
+                  <a><Image
                       src="/img/dynamics_square_tm_logo_footer.svg"
                       alt="Dynamics Square TM Logo"
                     style={{marginBottom:"20px"}}
                     width={230} height={81}
-                  />
+                  /></a>
                 </Link>
                 <p>
                   Dynamics Square is UK's leading Microsoft Gold Certified
