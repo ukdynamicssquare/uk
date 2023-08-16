@@ -100,6 +100,8 @@ const HumanResource = () => {
                           <img
                             src="/img/icons-_Highly-Flexible-Solution.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Highly Flexible Solution</span>
@@ -134,6 +136,8 @@ const HumanResource = () => {
                           <img
                             src="/img/icons-_Connected-HR-Practices.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Connected HR Practices</span>
@@ -168,6 +172,8 @@ const HumanResource = () => {
                           <img
                             src="/img/icons-_Highly-Flexible-Solution.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Collect Staff Insights</span>
@@ -206,6 +212,8 @@ const HumanResource = () => {
                           <img
                             src="/img/icons-_Actionable-Insights.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Actionable Insights</span>
@@ -240,6 +248,8 @@ const HumanResource = () => {
                           <img
                             src="/img/icons-_Highly-Flexible-Solution.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Offer an Enhanced Experience</span>
@@ -271,6 +281,8 @@ const HumanResource = () => {
                           <img
                             src="/img/icons-_Actionable-Insights.svg"
                             alt="icons"
+                            width="36"
+                            height="36"
                           />
                         </div>
                         <span>Improve HR Policies</span>
@@ -468,6 +480,8 @@ const HumanResource = () => {
                   <img
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -488,6 +502,8 @@ const HumanResource = () => {
                   <img
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -508,6 +524,8 @@ const HumanResource = () => {
                   <img
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">

@@ -234,9 +234,11 @@ const PowerPlatform = () => {
             <div className="col-lg-4">
               <div className="commen-box-2 commen-box-9">
                 <div className="icons icons-0101">
-                  <img
+                  <Image
                     src="/img/combo-icon_BI-Bcentral.svg"
                     alt="combo-icon_BI-Bcentral"
+                    width={242}
+                    height={120}
                   />
                 </div>
                 <div className="commen-boc-2-info">
@@ -262,9 +264,11 @@ const PowerPlatform = () => {
             <div className="col-lg-4">
               <div className="commen-box-2 commen-box-9">
                 <div className="icons icons-0101">
-                  <img
+                  <Image
                     src="/img/combo-icon_powerapps-bcentral.svg"
                     alt="combo-icon_powerapps-bcentral"
+                    width={242}
+                    height={120}
                   />
                 </div>
                 <div className="commen-boc-2-info">
@@ -290,9 +294,11 @@ const PowerPlatform = () => {
             <div className="col-lg-4">
               <div className="commen-box-2 commen-box-9">
                 <div className="icons icons-0101">
-                  <img
+                  <Image
                     src="/img/combo-icon_virtualagent-bcentral.svg"
                     alt="combo-icon_virtualagent-bcentral"
+                    width={242}
+                    height={120}
                   />
                 </div>
                 <div className="commen-boc-2-info">

@@ -70,9 +70,11 @@ const Ecommerce = () => {
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img
+                <Image
                   src="/img/ecommerce banner.png"
                   alt="Microsoft Dynamics 365 For Ecommerce"
+                  width={723}
+                  height={473}
                 />
               </div>
             </div>
@@ -175,7 +177,7 @@ const Ecommerce = () => {
             <div className="row">
               <div className="col-lg-5">
                 <div className="call_to_action-right over-img">
-                  <img src="/img/MaskGroup8.png" alt="image" />
+                  <img src="/img/MaskGroup8.png" alt="image" width="339" height="483" />
                 </div>
               </div>
               <div className="col-lg-7 align-self-center">
@@ -216,6 +218,8 @@ const Ecommerce = () => {
                     <img
                       src="/img/Distribution-Delivery.svg"
                       alt="Distribution-Delivery"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -232,6 +236,8 @@ const Ecommerce = () => {
                     <img
                       src="/img/inventory-management-icon-01.svg"
                       alt="inventory-management-icon-01"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -248,6 +254,8 @@ const Ecommerce = () => {
                     <img
                       src="/img/connect-collaborate.svg"
                       alt="Customer Management"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -264,6 +272,8 @@ const Ecommerce = () => {
                     <img
                       src="/img/Production-Mnagement (1).svg"
                       alt="Finance Management"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -283,6 +293,8 @@ const Ecommerce = () => {
                     <img
                       src="/img/Design-and-Training.svg"
                       alt="Supply Chain Management"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -299,6 +311,8 @@ const Ecommerce = () => {
                     <img
                       src="/img/Service-Management.svg"
                       alt="Production Management"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -315,6 +329,8 @@ const Ecommerce = () => {
                     <img
                       src="/img/icons-ax-_procurment.svg"
                       alt="Procurement"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -331,6 +347,8 @@ const Ecommerce = () => {
                     <img
                       src="/img/icons_Constituent Analytics.svg"
                       alt="icons_Constituent Analytics"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -382,10 +400,12 @@ const Ecommerce = () => {
               <div className="col-lg-6 align-self-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
+                    <Image
                       src="/img/Ecommerce-side.png"
                       className="fix-im"
                       alt="Ecommerce side"
+                      width={553}
+                      height={532}
                     />
 
                     <div className="video-ytube video-ytubes">
@@ -395,9 +415,11 @@ const Ecommerce = () => {
                                               
                           onClick={() => setOpen(true)}
                         >
-                          <img
+                          <Image
                             src="/img/video-Ecommerce.png"
                             alt="video-Ecommerce"
+                            width={390}
+                            height={259}
                           />
                           <span className="cente-icns">
                             <img
@@ -492,6 +514,8 @@ const Ecommerce = () => {
                                 <img
                                   src="/img/Food-and-beverage.svg"
                                   alt="Food-and-beverage"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="text-wrp-content">
@@ -516,6 +540,8 @@ const Ecommerce = () => {
                                   <img
                                     src="/img/NotforProfit.svg"
                                     alt="NotforProfit"
+                                    width="48"
+                                    height="48"
                                   />
                                 </div>
                                 <div className="text-wrp-content">
@@ -542,6 +568,8 @@ const Ecommerce = () => {
                                   <img
                                     src="/img/proffesional-service.svg"
                                     alt="proffesional-service"
+                                    width="48"
+                                    height="48"
                                   />
                                 </div>
                                 <div className="text-wrp-content">
@@ -567,6 +595,8 @@ const Ecommerce = () => {
                                   <img
                                     src="/img/microsoft-cloud-for-manufacturing.svg"
                                     alt="microsoft-cloud-for-manufacturing"
+                                    width="48"
+                                    height="48"
                                   />
                                 </div>
                                 <div className="text-wrp-content">
@@ -592,6 +622,8 @@ const Ecommerce = () => {
                                   <img
                                     src="/img/start-up.svg"
                                     alt="start-up"
+                                    width="48"
+                                    height="48"
                                   />
                                 </div>
                                 <div className="text-wrp-content">
@@ -627,7 +659,7 @@ const Ecommerce = () => {
             <div className="row top-2 gx-5">
               <Blog />
               <div className="col-lg-6 align-self-center">
-                <img src="/img/n/Dynamics-ecommerce-Banner.png" alt="" />
+                <Image src="/img/n/Dynamics-ecommerce-Banner.png" alt="Dynamics-ecommerce-Banner" width={790} height={470} />
               </div>
             </div>
           </div>

@@ -233,6 +233,8 @@ const MicrosoftCloudForNonprofit = () => {
                     <img
                       src="/img/icons-nonprofits_Constituent Management.svg"
                       alt="icons-nonprofits_Constituent Management"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -240,7 +242,7 @@ const MicrosoftCloudForNonprofit = () => {
                     <p>
                       Attract, engage, and retain your donors to support your
                       foundational base. By leveraging the centralized view of
-                      constituents’ data, know your donors, supports, or
+                      constituents' data, know your donors, supports, or
                       fundraisers.
                     </p>
                   </div>
@@ -250,6 +252,8 @@ const MicrosoftCloudForNonprofit = () => {
                     <img
                       src="/img/icons_Personalized Engagement.svg"
                       alt="icons_Personalized Engagement"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -266,6 +270,8 @@ const MicrosoftCloudForNonprofit = () => {
                     <img
                       src="/img/icons_Constituent Analytics.svg"
                       alt="icons_Constituent Analytics"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -282,6 +288,8 @@ const MicrosoftCloudForNonprofit = () => {
                     <img
                       src="/img/icons-_centralised data.svg"
                       alt="icons-_centralised data"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -300,6 +308,8 @@ const MicrosoftCloudForNonprofit = () => {
                     <img
                       src="/img/icons-nonprofits_Awards Management.svg"
                       alt="icons-nonprofits_Awards Management"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -316,6 +326,8 @@ const MicrosoftCloudForNonprofit = () => {
                     <img
                       src="/img/icons-nonprofits_Constituent Management.svg"
                       alt="icons-nonprofits_Constituent Management"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -332,6 +344,8 @@ const MicrosoftCloudForNonprofit = () => {
                     <img
                       src="/img/icons-nonprofits_program delivery.svg"
                       alt="icons-nonprofits_program delivery"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="card_new_content">
@@ -581,6 +595,8 @@ const MicrosoftCloudForNonprofit = () => {
                                   <img
                                     src="/img/Food-and-beverage.svg"
                                     alt="Food-and-beverage"
+                                    width="48"
+                                    height="48"
                                   />
                                 </div>
                                 <div className="text-wrp-content">
@@ -608,6 +624,8 @@ const MicrosoftCloudForNonprofit = () => {
                                     <img
                                       src="/img/Ecommerce.svg"
                                       alt="Ecommerce"
+                                      width="48"
+                                    height="48"
                                     />
                                   </div>
                                   <div className="text-wrp-content">
@@ -635,6 +653,8 @@ const MicrosoftCloudForNonprofit = () => {
                                     <img
                                       src="/img/proffesional-service.svg"
                                       alt="proffesional-service"
+                                      width="48"
+                                    height="48"
                                     />
                                   </div>
                                   <div className="text-wrp-content">
@@ -662,6 +682,8 @@ const MicrosoftCloudForNonprofit = () => {
                                     <img
                                       src="/img/microsoft-cloud-for-manufacturing.svg"
                                       alt="microsoft-cloud-for-manufacturing"
+                                      width="48"
+                                    height="48"
                                     />
                                   </div>
                                   <div className="text-wrp-content">
@@ -689,6 +711,8 @@ const MicrosoftCloudForNonprofit = () => {
                                     <img
                                       src="/img/start-up.svg"
                                       alt="start-up"
+                                      width="48"
+                                    height="48"
                                     />
                                   </div>
                                   <div className="text-wrp-content">
