@@ -1514,10 +1514,12 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                             <img
                               src="/img/testimonials/Terence-Turner.png"
                               className="testimonial-img"
-                              alt=""
+                              alt="testimonial-img"
+                              width="125"
+                              height="125"
                             />
                             <div className="imginner">
-                              <img src="/img/Icon metro-quote.png" alt="" />
+                              <img src="/img/Icon metro-quote.png" width="51" height="51" alt="metro-quote" />
                             </div>
                             <p>
                               Dynamics Square Team provided us a top-level
@@ -1541,9 +1543,11 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                               src="/img/testimonials/Nicolas-Hopwood.png"
                               className="testimonial-img"
                               alt="Nicolas-Hopwood"
+                              width="125"
+                              height="125"
                             />
                             <div className="imginner">
-                              <img src="/img/Icon metro-quote.png" alt="" />
+                              <img src="/img/Icon metro-quote.png" alt="metro-quote" width="51" height="51" />
                             </div>
                             <p>
                               The team at Dynamics Square helped us in upgrading
@@ -1566,11 +1570,14 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                               src="/img/testimonials/Jonathan-W.png"
                               className="testimonial-img"
                               alt="Jonathan-W.png"
+                              width="125"
+                              height="125"
                             />
                             <div className="imginner">
                               <img
                                 src="/img/Icon metro-quote.png"
                                 alt="metro-quote"
+                                width="51" height="51"
                               />
                             </div>
                             <p>
