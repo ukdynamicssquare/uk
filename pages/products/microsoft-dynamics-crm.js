@@ -121,6 +121,8 @@ const MicrosoftDynamicsCrm = () => {
                           <img
                             src="/img/icons_simplify-marketing.svg"
                             alt="icons_simplify-marketing"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Simplify Sales & Marketing</span>
@@ -158,6 +160,8 @@ const MicrosoftDynamicsCrm = () => {
                           <img
                             src="/img/icons_maximise-sales.svg"
                             alt="icons_maximise-sales"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Maximize Sales</span>
@@ -202,6 +206,8 @@ const MicrosoftDynamicsCrm = () => {
                           <img
                             src="/img/icons_customer-relation.svg"
                             alt="icons_customer-relation"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Build Sustainable Customer Relationships</span>
