@@ -108,7 +108,7 @@ const Wms = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/intelegent-ocr.png" alt="intelegent-ocr" />
+                  <img src="/img/intelegent-ocr.png" alt="intelegent-ocr" width="90" height="90" />
                 </div>
                 <div className="style-grid-content">
                   <h3>Intelligent OCR</h3>
@@ -118,7 +118,7 @@ const Wms = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/automation.png" alt="automation" />
+                  <img src="/img/automation.png" alt="automation" width="90" height="90" />
                 </div>
                 <div className="style-grid-content">
                   <h3>Automation Enabled</h3>
@@ -129,7 +129,7 @@ const Wms = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <img src="/img/automatic-approval.png" alt="automatic-approval" />
+                <img src="/img/automatic-approval.png" alt="automatic-approval" width="90" height="90" />
                 </div>
                 <div className="style-grid-content">
                   <h3>Automatic Approval</h3>
@@ -142,6 +142,7 @@ const Wms = () => {
                   <img
                     src="/img/history.png"
                     alt="history"
+                    width="90" height="90"
                   />
                 </div>
                 <div className="style-grid-content">

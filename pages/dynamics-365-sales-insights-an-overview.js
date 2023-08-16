@@ -95,7 +95,7 @@ const SalesInsightsanOverview = () => {
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-4 align-self-center">
-              <img src="/img/sal.jpg" alt="sal" />
+              <Image src="/img/sal.jpg" alt="sal"  width={900} height={350} />
             </div>
           </div>
         </div>
@@ -219,7 +219,7 @@ const SalesInsightsanOverview = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="call_to_action-right over-img">
-                <img src="/img/MaskGroup8.png" alt="image" />
+                <img src="/img/MaskGroup8.png" alt="image" width="339" height="483" />
               </div>
             </div>
             <div className="col-lg-7 align-self-center">

@@ -312,7 +312,7 @@ const PowerBI = () => {
                 </div>
                 <div className="col-lg-6 col-md-6">
                   <div className="all-to-power-bi-pic text-center">
-                    <img src="/img/mask-group3x.png" alt="mask-group@3x" />
+                    <img src="/img/mask-group3x.png" alt="mask-group@3x" width="894" height="954" />
                   </div>
                 </div>
               </div>
@@ -359,6 +359,8 @@ const PowerBI = () => {
                   <img
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -387,6 +389,8 @@ const PowerBI = () => {
                   <img
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
