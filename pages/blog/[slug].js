@@ -1,11 +1,9 @@
 
 import Head from "next/head";
 import Link from "next/link";
-import Script from "next/script";
 import parse from "html-react-parser";
 import { useRouter } from 'next/router';
 import BlogSubscriberForm from "../../components/BlogSubscriberForm";
-import { ShareSocial } from "react-share-social";
 import {
   FacebookShareButton,
   TwitterShareButton,
