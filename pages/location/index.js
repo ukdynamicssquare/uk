@@ -152,6 +152,22 @@ const Locations = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="location-list-wrper">
+                <h3>
+                  Microsoft Dynamics
+                  <br /> Partner Sheffield
+                </h3>
+                <div className="text-lg-center">
+                  <Link
+                    href="/location/microsoft-dynamics-partner-sheffield/"><a
+                    className="btn-get-started btn-sm scrollto"
+                  >
+                    <span>Know More</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
