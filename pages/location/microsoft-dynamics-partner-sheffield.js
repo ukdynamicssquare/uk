@@ -75,7 +75,7 @@ const MicrosoftDynamicsPartnerSheffield = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info">
                 <h3>Dynamics 365 Upgrade Services </h3>
-                <p>The way of doing business is subject to change with time, market fluctuations, and customer demands. To align with such variabilities, we need to upgrade existing Microsoft business solutions. Irrespective of the solution, whether Business Central or Power BI, we are available to upgrade your solution with the most innovative solution. With our team of expert Dynamics 365 consultants, you will love the way we understand your business and offer you the much-needed upgrade. </p>
+                <p>The way of doing business is subject to change with time, market fluctuations, and customer demands. To align with such variabilities, we need to upgrade existing Microsoft business solutions. Irrespective of the solution, whether Business Central or Power BI, we are available to upgrade your solution with the most innovative solution. With our team of expert Dynamics 365 consultants, you will appreciate the way we understand your business and offer you the much-needed upgrade. </p>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
