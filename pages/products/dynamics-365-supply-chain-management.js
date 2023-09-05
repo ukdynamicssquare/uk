@@ -1014,59 +1014,39 @@ const SupplyChainManagement = () => {
               </header>
             </div>
           </div>
-          <div className="row top-2 gx-5 justify-content-center">
+          <div className="row top-2 gx-5">
             <Blog />
-            {/* <div className="col-lg-6">
+            <div className="col-lg-6">
               <div className="blogs-extra-title">
                 <h3>Documents</h3>
               </div>
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <Link href="#" target="_blank">
-                     <a><i className="bi bi-file-earmark-pdf"></i>Nucleus Research
-                      Report 2019</a>
+                    <Link href="/blog/d365-supply-chain-management-overview/">
+                     <a><i className="bi bi-box-arrow-up-right"></i>Dynamics 365 Supply Chain Management: Overview, Benefits, Features</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" target="_blank">
-                      <a><i className="bi bi-file-earmark-pdf"></i>The top 8 Trends
-                      Every COO Should Know</a>
+                    <Link href="/blog/what-is-dynamics-365-supply-chain-management/">
+                      <a><i className="bi bi-box-arrow-up-right"></i>TWhat Is Dynamics 365 Supply Chain?</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" target="_blank">
-                      <i className="bi bi-file-earmark-pdf"></i>The Savvy
-                      Leader’s Guide to Building Intelligent Supply Chain
+                    <Link href="/blog/microsoft-supply-chain-platform/">
+                     <a> <i className="bi bi-box-arrow-up-right"></i>Microsoft Supply Chain Platform: New Approach To Designing Supply Chains For Agility, Automation, And Sustainability</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" target="_blank">
-                      <i className="bi bi-file-earmark-pdf"></i>Creating an
-                      Agile Supply Chain
+                    <Link href="/blog/d365-finance-and-operations-overview/">
+                     <a> <i className="bi bi-box-arrow-up-right"></i>D365 Finance And Operations: Overview, Capabilities, Benefits, FAQ</a>
                     </Link>
                   </li>
-                  <li>
-                    <Link href="#" target="_blank">
-                      <i className="bi bi-file-earmark-pdf"></i>A Quick-Start
-                      Guide for Improving Supply Chain Resilience
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" target="_blank">
-                      <i className="bi bi-file-earmark-pdf"></i>Risk Mitigation
-                      Across Today's Supply Chain
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" target="_blank">
-                      <i className="bi bi-file-earmark-pdf"></i> Licensing Guide
-                    </Link>
-                  </li>
+                  
                 </ul>
               </div>
              
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
