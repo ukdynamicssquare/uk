@@ -423,8 +423,11 @@ const Sales = () => {
                 £53.40<span>Per-User/Per Month</span>
                 </div>
                 <ul>
-                  <li className="text-center">
+                  <li className="">
                     Core sales force automation and Microsoft 365 integration
+                  </li>
+                  <li className="" style={{color:"#111",fontSize:"14px",color: "rgb(184 43 55)"}}>
+                  <i className="bi bi-check-lg"></i>Microsoft Sales Copilot available at an additional cost
                   </li>
                 </ul>
               </div>
@@ -440,9 +443,12 @@ const Sales = () => {
                 £78.10<span>Per-User/Per Month</span>
                 </div>
                 <ul>
-                  <li className="text-center">
+                  <li className="">
                     Industry-leading sales force automation with contextual
                     insights and advanced customisation capabilities
+                  </li>
+                  <li className="" style={{color:"#111",fontSize:"14px",color: "rgb(184 43 55)"}}>
+                  <i className="bi bi-check-lg"></i>Includes now Microsoft Sales Copilot
                   </li>
                 </ul>
               </div>
@@ -470,9 +476,12 @@ const Sales = () => {
                 £111<span>Per-User/Per Month</span>
                 </div>
                 <ul>
-                  <li className="text-center">
+                  <li className="">
                     Dynamics 365 Sales Enterprise plus prebuilt customisable
                     intelligence solutions for sellers and managers
+                  </li>
+                  <li className="" style={{color:"#111",fontSize:"14px",color: "rgb(184 43 55)"}}>
+                  <i className="bi bi-check-lg"></i>Includes now Microsoft Sales Copilot
                   </li>
                 </ul>
               </div>
