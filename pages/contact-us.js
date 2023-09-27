@@ -7,10 +7,10 @@ const ContactUs = () => {
     return (
       <>
         <Head>
-        <title>Contact Dynamics Square for IT Advice</title>
+        <title>Contact Dynamics Square for D365 Advice</title>
         <meta
           name="description"
-          content="The IT experts from Dynamics Square are here to help provide expert cloud IT advice for your business."
+          content="Dynamics Square's Dyanmic 365 consultants are available to give experienced cloud IT guidance for your company."
         />
          <link
           rel="canonical"

@@ -26,13 +26,13 @@ function BlogPreview({ blogs }) {
                 <meta name="description" content={item.meta_description} />
                 <link
                   rel="canonical"
-                  href={`https://dynamicssquare.ca/blog/${item.title_slug}`}
+                  href={`https://dynamicssquare.co.uk/blog/${item.title_slug}`}
                 />
                 <meta property="og:title" content={item.meta_title} />
                 <meta property="og:site_name" content="Dynamics Square" />
                 <meta
                   property="og:url"
-                  content={`https://dynamicssquare.ca/blog/${item.title_slug}`}
+                  content={`https://dynamicssquare.co.uk/blog/${item.title_slug}`}
                 />
                 <meta property="og:description" content={item.meta_keyword} />
                 <meta property="og:type" content="website" />

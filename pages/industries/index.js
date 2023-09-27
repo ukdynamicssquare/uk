@@ -5,10 +5,10 @@ const IndustriesList = () => {
   return (
     <>
       <Head>
-        <title>Industries | Dynamics Square</title>
+        <title>Dyanmics 356 for Industries | Dynamics Square</title>
         <meta
           name="description"
-          content="Power the growth of your industry by implementing Dynamics 365 Business applications. Our Dynamics 365 experts have the expertise to assist you in any"
+          content="Power the growth of your industry by implementing Dynamics 365 Business applications. Our Dynamics 365 experts have the expertise to assist you in any time."
         />
         <link
           rel="canonical"
