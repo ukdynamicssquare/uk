@@ -54,10 +54,10 @@ const StartGuideThree = () => {
   return (
     <>
       <Head>
-        <title>The Extensive Guide to Dynamics CRM</title>
+        <title>The Extensive Guide to Dynamics 365 Supply Chain Management</title>
         <meta
           name="description"
-          content="Download our free eBook - Dynamics CRM to simplify your customer relationship journey and enhance profitability along with rapid growth."
+          content="Download our free eBook - Dynamics 365 Supply Chain Management20 to simplify your customer relationship journey and enhance profitability along with rapid growth."
         />
         <link
           rel="canonical"
