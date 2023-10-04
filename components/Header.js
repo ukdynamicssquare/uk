@@ -877,6 +877,23 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/continia-expense-management/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/continia.png"
+                                            alt="Sana_Commerce"
+                                            width="48" height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Continia Expense Management </span>
+                                          <p>Monitor your entire corporate expenses while eliminating the chances of manual errors with Continia Expense Management</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -1415,6 +1432,9 @@ class Header extends Component {
                                 </li>
                                 <li>
                                   <a href="/continia-document-capture-with-business-central/">Continia OCR</a>
+                                </li>
+                                <li>
+                                  <a href="/continia-expense-management/">Continia expense management</a>
                                 </li>
                               </ul>
                             </div>
