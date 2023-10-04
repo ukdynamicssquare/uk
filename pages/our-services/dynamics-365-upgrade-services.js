@@ -99,12 +99,7 @@ const UpgradeServices = () => {
                 </p>
                 <p>
                   Whether to upgrade your legacy system with cloud capabilities,
-                  or performing{" "}
-                  <Link href="/dynamics-nav-to-business-central/">
-                    NAV to Business Central upgrade
-                  </Link>
-                  , or ensuring AX to finance and supply chain upgrade, we can
-                  provide seamless and cost-effective upgrade solutions.
+                  or performing{" "}NAV to Business Central upgrade, or ensuring <Link href="/blog/dynamics-ax-to-dynamics-365-migration/"><a>AX to finance and supply chain upgrade</a></Link>, we can provide seamless and cost-effective upgrade solutions.
                 </p>
               </div>
               <div className="custom-btn-new">
@@ -143,8 +138,9 @@ const UpgradeServices = () => {
                   on-premises or on-cloud. Since Microsoft has abandoned its
                   support to older versions of NAV (older than 2018), hence, if
                   you are still leveraging your system capabilities leveraging
-                  NAV versions, it's time to ensure NAV to Business Central
-                  Upgrade.
+                  NAV versions, it's time to ensure  <Link href="/dynamics-nav-to-business-central/">
+                    NAV to Business Central upgrade
+                  </Link>.
                 </p>
               </div>
             </div>
@@ -173,7 +169,7 @@ const UpgradeServices = () => {
                   Since Microsoft disabled{" "}
                   <Link href="/products/microsoft-dynamics-ax/">
                     Dynamics AX
-                  </Link>
+                  </Link>{" "}
                   for new customers, although existing customers can still avail
                   of additional benefits or AX support. When it comes to
                   upgrading your AX account with Dynamics 365 Finance & Supply
@@ -192,9 +188,9 @@ const UpgradeServices = () => {
                 <p>
                   When your enterprise's processes or data-driven practices
                   start compromising and you are still relying on your legacy
-                  systems other than
+                  systems other than{' '}
                   <Link href="/products/microsoft-dynamics-365/">
-                    &nbsp;Microsoft Dynamics 365&nbsp;
+                  Microsoft Dynamics 365
                   </Link>
                   , it could be the best time to upgrade to Dynamics 365. If you
                   are willing to streamline, automate, and simplify your
