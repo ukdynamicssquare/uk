@@ -166,7 +166,7 @@ function BlogPreview({ blogs }) {
 
                       <div className="blogs-content">
                         <div className="blogs-content-inner">
-                        {parse(item.description, {
+                        {/* {parse(item.description, {
                             replace: (domNode) => {
                               // Render images using next/image
                               if (domNode.type === 'tag' && domNode.name === 'img') {
@@ -179,8 +179,8 @@ function BlogPreview({ blogs }) {
                               // Return other nodes as is
                               return domNode;
                             },
-                          })}
-                          {/* {parse(item.description)} */}
+                          })} */}
+                          {parse(item.description)}
                         </div>
                         <div className="sociallist sociallist-bott">
                           <FacebookShareButton
