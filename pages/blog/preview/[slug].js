@@ -3,6 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Script from "next/script";
 import parse from "html-react-parser";
+import Image from "next/image";
+import cheerio from 'cheerio';
 import { ShareSocial } from "react-share-social";
 import {
   FacebookShareButton,
@@ -10,8 +12,26 @@ import {
   LinkedinShareButton,
 } from "react-share";
 
+// Utility function to parse HTML content and extract image URLs
+function parseImagesFromHtml(htmlContent) {
+  if (!htmlContent) {
+    return []; // Return an empty array if htmlContent is undefined or null
+  }
+
+  const $ = cheerio.load(htmlContent.toString()); // Convert to string
+  const images = [];
+
+  $('img').each((index, element) => {
+    const src = $(element).attr('src');
+    const alt = $(element).attr('alt');
+    images.push({ src, alt });
+  });
+
+  return images;
+}
 
 function BlogPreview({ blogs }) {
+  const images = parseImagesFromHtml(blogs.description);
   
   return (
     
@@ -146,7 +166,21 @@ function BlogPreview({ blogs }) {
 
                       <div className="blogs-content">
                         <div className="blogs-content-inner">
-                          {parse(item.description)}
+                        {parse(item.description, {
+                            replace: (domNode) => {
+                              // Render images using next/image
+                              if (domNode.type === 'tag' && domNode.name === 'img') {
+                                const src = domNode.attribs.src;
+                                const alt = domNode.attribs.alt;
+                                return (
+                                  <Image src={src} alt={alt} width={800} height={400} key={src} />
+                                );
+                              }
+                              // Return other nodes as is
+                              return domNode;
+                            },
+                          })}
+                          {/* {parse(item.description)} */}
                         </div>
                         <div className="sociallist sociallist-bott">
                           <FacebookShareButton

@@ -2,6 +2,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import parse from "html-react-parser";
+import Image from "next/image";
+import cheerio from 'cheerio';
 import { useRouter } from 'next/router';
 import BlogSubscriberForm from "../../components/BlogSubscriberForm";
 import {
@@ -10,13 +12,34 @@ import {
   LinkedinShareButton,
 } from "react-share";
 
+// Utility function to parse HTML content and extract image URLs
+function parseImagesFromHtml(htmlContent) {
+  if (!htmlContent) {
+    return []; // Return an empty array if htmlContent is undefined or null
+  }
+
+  const $ = cheerio.load(htmlContent.toString()); // Convert to string
+  const images = [];
+
+  $('img').each((index, element) => {
+    const src = $(element).attr('src');
+    const alt = $(element).attr('alt');
+    images.push({ src, alt });
+  });
+
+  return images;
+}
+
+
+
 
 function Post({ blogs, blogcat, authordetials, author }) {
   const router = useRouter();
+  const images = parseImagesFromHtml(blogs.description);
   return (
-    
+
     <div>
-      
+
       <section>
         {blogs &&
           blogs.map((item, i) => (
@@ -26,15 +49,15 @@ function Post({ blogs, blogcat, authordetials, author }) {
                 <meta name="description" content={item.meta_description} />
                 <link
                   rel="canonical"
-                  href={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`+
-                '/'}
+                  href={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}` +
+                    '/'}
                 />
                 <meta property="og:title" content={item.meta_title} />
                 <meta property="og:site_name" content="Dynamics Square" />
                 <meta
                   property="og:url"
-                  content={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`+
-                  '/'}
+                  content={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}` +
+                    '/'}
                 />
                 <meta property="og:description" content={item.meta_keyword} />
                 <meta property="og:type" content="website" />
@@ -49,9 +72,10 @@ function Post({ blogs, blogcat, authordetials, author }) {
                 <meta property="twitter:image" content={`${item.meta_image}`} />
                 <script
 
-                 type="application/ld+json"
+                  type="application/ld+json"
 
-                    dangerouslySetInnerHTML={{ __html:item.additional_script
+                  dangerouslySetInnerHTML={{
+                    __html: item.additional_script
 
                   }}
 
@@ -105,15 +129,15 @@ function Post({ blogs, blogcat, authordetials, author }) {
                               </a>
                             </span>
                             <span className="cate">
-                            <Link href={`/blog/category/${item.category_slug}`}><a>
-                            <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
+                              <Link href={`/blog/category/${item.category_slug}`}><a>
+                                <i className="bi bi-app"></i> {item.category}
+                              </a></Link>
                             </span>
                           </div>
 
                           <div className="sociallist">
                             <FacebookShareButton
-                             url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
+                              url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                               media={`${item.meta_image}`}
                               quote={item.title}
                             >
@@ -123,7 +147,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                             </FacebookShareButton>
 
                             <TwitterShareButton
-                             url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
+                              url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                               media={`${item.meta_image}`}
                               quote={item.title}
                             >
@@ -133,7 +157,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                             </TwitterShareButton>
 
                             <LinkedinShareButton
-                             url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
+                              url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                               media={`${item.meta_image}`}
                               source={item.title}
                               summary={item.short_description.substring(0, 60)}
@@ -148,11 +172,25 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
                       <div className="blogs-content">
                         <div className="blogs-content-inner">
-                        <script>const trinityScript = document.createElement('script'); 
-trinityScript.setAttribute('fetchpriority', 'high'); 
-trinityScript.src = 'https://trinitymedia.ai/player/trinity/2900012927/?pageURL=' + encodeURIComponent(window.location.href); 
-document.body.appendChild(trinityScript);</script>
-                          {parse(item.description)}
+                          <script>const trinityScript = document.createElement('script');
+                            trinityScript.setAttribute('fetchpriority', 'high');
+                            trinityScript.src = 'https://trinitymedia.ai/player/trinity/2900012927/?pageURL=' + encodeURIComponent(window.location.href);
+                            document.body.appendChild(trinityScript);</script>
+                          {/* {parse(item.description)} */}
+                          {parse(item.description, {
+                            replace: (domNode) => {
+                              // Render images using next/image
+                              if (domNode.type === 'tag' && domNode.name === 'img') {
+                                const src = domNode.attribs.src;
+                                const alt = domNode.attribs.alt;
+                                return (
+                                  <Image src={src} alt={alt} width={800} height={400} key={src} />
+                                );
+                              }
+                              // Return other nodes as is
+                              return domNode;
+                            },
+                          })}
                         </div>
                         {/* <div><em>Tags</em>:
                         <>
@@ -166,7 +204,7 @@ document.body.appendChild(trinityScript);</script>
                            </div> */}
                         <div className="sociallist sociallist-bott">
                           <FacebookShareButton
-                           url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
+                            url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                             media={`${item.meta_image}`}
                             quote={item.title}
                           >
@@ -176,7 +214,7 @@ document.body.appendChild(trinityScript);</script>
                           </FacebookShareButton>
 
                           <TwitterShareButton
-                           url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
+                            url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                             media={`${item.meta_image}`}
                             quote={item.title}
                           >
@@ -186,7 +224,7 @@ document.body.appendChild(trinityScript);</script>
                           </TwitterShareButton>
 
                           <LinkedinShareButton
-                           url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
+                            url={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
                             media={`${item.meta_image}`}
                             source={item.title}
                           >
@@ -206,76 +244,75 @@ document.body.appendChild(trinityScript);</script>
                                 <span className="link-din"><a href={author.linkedin_url} target="_blank"> <i className="bi bi-linkedin"></i></a></span>
                               </div>
                               <div className="right">
-                               <Link href={`/blog/author/${author.name.split(" ").join("-")}`}><a><span>{author.name}</span></a></Link>
-                               <p>{author.about}</p>
+                                <Link href={`/blog/author/${author.name.split(" ").join("-")}`}><a><span>{author.name}</span></a></Link>
+                                <p>{author.about}</p>
                               </div>
                             </div>
                           ))}
 
-                       
+
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-4">
                     <div className="prom-bann">
-                      <Link href="/schedule-a-demo/"><a style={{marginBottom:'20px',display:'block'}}><img src="/img/blog-side-pic-top.png" alt="d605-left" /></a></Link>
+                      <Link href="/schedule-a-demo/"><a style={{ marginBottom: '20px', display: 'block' }}><img src="/img/blog-side-pic-top.png" alt="d605-left" /></a></Link>
                       <Link href="/guides/power-bi-guide-for-smb/"><a><img src="/img/blog-side-pic-bottom.png" alt="d605-left" /></a></Link>
                     </div>
                   </div>
                 </div>
 
                 <div className="row pd-90">
-                  
+
                   {blogcat &&
                     blogcat.map((item1, i) => {
-                      if(router.query.slug !=item1.title_slug)
-                      {
+                      if (router.query.slug != item1.title_slug) {
                         return <div className="col-lg-6" key={i}>
-                         
-                        <div className="blogs-lates blogs-lates-repet">
-                          <h3>
-                            <Link href={`/blog/${item1.title_slug}`}>
-                              <a>{item1.title}</a>
-                            </Link>
-                          </h3>
-                          <div className="blogs-info-list">
-                            <span className="user">
-                            <Link href={`/blog/author/${item1.author.split(" ").join("-")}`}><a>
-                            <i className="bi bi-person-circle"></i>{" "}
-                            {item1.author}
-                          </a></Link>
-                            </span>
-                            <span className="date">
-                              <a>
-                                <i className="bi bi-calendar"></i>{" "}
-                                {item1.publish_date}
-                              </a>
-                            </span>
-                            <span className="time">
-                              <a>
-                                <i className="bi bi-clock"></i>{" "}
-                                {item1.read_time}
-                              </a>
-                            </span>
-                            <span className="cate">
-                            <Link href={`/blog/category/${item.category_slug}`}><a>
-                            <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
-                            </span>
-                          </div>
-                          <div className="b-card-info">
-                            <p>{item1.short_description.substring(0, 60)}</p>
-                            <div className="page-link-read">
-                              <a href={`/blog/${item1.title_slug}`}>
-                                Read More <span>{">"}</span>
-                              </a>
+
+                          <div className="blogs-lates blogs-lates-repet">
+                            <h3>
+                              <Link href={`/blog/${item1.title_slug}`}>
+                                <a>{item1.title}</a>
+                              </Link>
+                            </h3>
+                            <div className="blogs-info-list">
+                              <span className="user">
+                                <Link href={`/blog/author/${item1.author.split(" ").join("-")}`}><a>
+                                  <i className="bi bi-person-circle"></i>{" "}
+                                  {item1.author}
+                                </a></Link>
+                              </span>
+                              <span className="date">
+                                <a>
+                                  <i className="bi bi-calendar"></i>{" "}
+                                  {item1.publish_date}
+                                </a>
+                              </span>
+                              <span className="time">
+                                <a>
+                                  <i className="bi bi-clock"></i>{" "}
+                                  {item1.read_time}
+                                </a>
+                              </span>
+                              <span className="cate">
+                                <Link href={`/blog/category/${item.category_slug}`}><a>
+                                  <i className="bi bi-app"></i> {item.category}
+                                </a></Link>
+                              </span>
+                            </div>
+                            <div className="b-card-info">
+                              <p>{item1.short_description.substring(0, 60)}</p>
+                              <div className="page-link-read">
+                                <a href={`/blog/${item1.title_slug}`}>
+                                  Read More <span>{">"}</span>
+                                </a>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
                       }
-                      
-                     })}
+
+                    })}
                 </div>
               </div>
 
@@ -302,35 +339,34 @@ document.body.appendChild(trinityScript);</script>
           ))}
       </section>
     </div>
-    
+
   );
 }
 export async function getServerSideProps(context) {
   let slug = context.query.slug;
   console.log(slug);
- 
-  const res = await fetch(`${process.env.BACKEND_URL}`+'/api/blog_details/'+slug);
+
+  const res = await fetch(`${process.env.BACKEND_URL}` + '/api/blog_details/' + slug);
   const blogs = await res.json();
-  const bloglength =blogs.length;
-  if(bloglength >=1)
-  {
+  const bloglength = blogs.length;
+  if (bloglength >= 1) {
     const category = blogs[0]["category_slug"];
-    const res1 = await fetch(`${process.env.BACKEND_URL}`+'/api/blog/related/'+category);
+    const res1 = await fetch(`${process.env.BACKEND_URL}` + '/api/blog/related/' + category);
     const blogcat = await res1.json();
-  
+
     const author = blogs[0]["author_email"];
-    const authorres = await fetch(`${process.env.BACKEND_URL}`+'/api/blog/author/details/'+author.split("-").join(" ")
+    const authorres = await fetch(`${process.env.BACKEND_URL}` + '/api/blog/author/details/' + author.split("-").join(" ")
     );
     const authordetials = await authorres.json();
-  
+
     return { props: { blogs, blogcat, authordetials, author } };
   }
-  else{
-    return{
-      notFound:true,
-     };
+  else {
+    return {
+      notFound: true,
+    };
   }
-  
+
 }
 export default Post;
 
