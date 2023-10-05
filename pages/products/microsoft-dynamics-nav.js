@@ -80,7 +80,7 @@ const MicrosoftDynamicsNAV = () => {
       <section className="busine_service_bottom custom001">
         <div className="container">
           <div className="row g-5">
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-12 align-self-center">
               <div className="side-heading">
                 <h2>What is Microsoft Dynamics NAV?</h2>
               </div>
@@ -104,9 +104,16 @@ const MicrosoftDynamicsNAV = () => {
                   intelligence) while enhancing the overall efficiency of the
                   business.{" "}
                 </p>
+              <div style={{display:'block',margin:'30px 0px',textAlign:'center'}}>
+              <Image
+                    src="/img/NAV-implementation.jpg"
+                    alt="d605-left"
+                    width={900} height={563}
+                  />
+              </div>
 
                 <p>
-                  Microsoft NAV provides a centralised platform to connect,
+                  Microsoft Navision ERP provides a centralised platform to connect,
                   collaborate, and share data using a single dashboard for ease
                   of use and accessibility. This enables the users to take
                   intelligent, smart, and fast decisions to succeed on the right
@@ -115,6 +122,7 @@ const MicrosoftDynamicsNAV = () => {
                   in maximised efficiency while improving relations with
                   customers for a greater experience.
                 </p>
+               
                 <p>
                   Businesses are unique, and so are their processes. This
                   Microsoft ERP is so flexible that it fits in all industries,
@@ -129,7 +137,7 @@ const MicrosoftDynamicsNAV = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-1"></div>
+            {/* <div className="col-lg-1"></div>
             <div className="col-lg-5 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
@@ -141,7 +149,7 @@ const MicrosoftDynamicsNAV = () => {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -149,7 +157,7 @@ const MicrosoftDynamicsNAV = () => {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-12">
               <header className="section-header">
                 <h2>Benefits Of Microsoft Dynamics NAV</h2>
                 <p>
@@ -218,7 +226,7 @@ const MicrosoftDynamicsNAV = () => {
                       <div className="accordion-body">
                         <p>
                           Businesses have the choice to opt for the desired
-                          deployment option. NAV generally comes with an
+                          deployment option. Navision generally comes with an
                           on-premises deployment option, but you can avail
                           yourself of the cloud deployment option by upgrading
                           your current NAV version to Business Central. You can
@@ -378,7 +386,7 @@ const MicrosoftDynamicsNAV = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                          Using Dynamics NAV, businesses can make a big
+                          Using Micrsoft Navision, businesses can make a big
                           difference to the level of customer service they
                           provide. Eventually, it will be more likely to win
                           over new customers and keep their existing ones coming
@@ -460,7 +468,7 @@ const MicrosoftDynamicsNAV = () => {
               With your current NAV version, you may be experiencing a number of
               issues, such as performance issues, lags during processing, costly
               maintenance, a complex user interface, and ineffective features.
-              It might be possible that your current NAV version is inefficient
+              It might be possible that your current Navision version is inefficient
               for tackling your current business requirements. If so, your
               current system needs an urgent upgrade.{" "}
             </p>
@@ -1047,7 +1055,7 @@ const MicrosoftDynamicsNAV = () => {
                           </a>
                         </li>
                         <li>
-                          <Link href="/dynamics-365-business-central-support/">
+                          <Link href="/d365-business-central-support/">
                             Dynamics 365 Business Central support
                           </Link>
                         </li>
