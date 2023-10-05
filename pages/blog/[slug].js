@@ -36,9 +36,6 @@ function parseImagesFromHtml(htmlContent) {
 function Post({ blogs, blogcat, authordetials, author }) {
   const router = useRouter();
   const images = parseImagesFromHtml(blogs.description);
-  const imageLoader = ({ src, width, quality }) => {
-    return `${src}?w=${width}&q=${quality || 85}`
-  }
 
 
   return (
@@ -181,8 +178,8 @@ function Post({ blogs, blogcat, authordetials, author }) {
                             trinityScript.setAttribute('fetchpriority', 'high');
                             trinityScript.src = 'https://trinitymedia.ai/player/trinity/2900012927/?pageURL=' + encodeURIComponent(window.location.href);
                             document.body.appendChild(trinityScript);</script>
-                          {/* {parse(item.description)} */}
-                          {parse(item.description, {
+                          {parse(item.description)}
+                          {/* {parse(item.description, {
                             replace: (domNode) => {
                               // Render images using next/image
                               if (domNode.type === 'tag' && domNode.name === 'img') {
@@ -202,7 +199,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                               // Return other nodes as is
                               return domNode;
                             },
-                          })}
+                          })} */}
                        
                         </div>
                         {/* <div><em>Tags</em>:
