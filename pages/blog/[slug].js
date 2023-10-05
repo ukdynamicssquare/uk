@@ -36,6 +36,11 @@ function parseImagesFromHtml(htmlContent) {
 function Post({ blogs, blogcat, authordetials, author }) {
   const router = useRouter();
   const images = parseImagesFromHtml(blogs.description);
+  const imageLoader = ({ src, width, quality }) => {
+    return `${src}?w=${width}&q=${quality || 85}`
+  }
+
+
   return (
 
     <div>
@@ -176,21 +181,29 @@ function Post({ blogs, blogcat, authordetials, author }) {
                             trinityScript.setAttribute('fetchpriority', 'high');
                             trinityScript.src = 'https://trinitymedia.ai/player/trinity/2900012927/?pageURL=' + encodeURIComponent(window.location.href);
                             document.body.appendChild(trinityScript);</script>
-                          {parse(item.description)}
-                          {/* {parse(item.description, {
+                          {/* {parse(item.description)} */}
+                          {parse(item.description, {
                             replace: (domNode) => {
                               // Render images using next/image
                               if (domNode.type === 'tag' && domNode.name === 'img') {
                                 const src = domNode.attribs.src;
                                 const alt = domNode.attribs.alt;
                                 return (
-                                  <Image src={src} alt={alt} width={800} height={400} key={src} />
+                                //  <div style={{margin:'30px 0px'}}>
+                                //    <Image src={src} alt={alt} width={650} height={350} key={src}
+                                //     objectFit='contain' loader={imageLoader}  />
+                                //   </div>
+                                <div style={{ position: "relative", width: "100%", paddingBottom: "30%",margin:"30px 0px" }}>
+                                <Image src={src} alt={alt} layout="fill"
+                                  objectFit="contain" key={src} />
+                              </div>
                                 );
                               }
                               // Return other nodes as is
                               return domNode;
                             },
-                          })} */}
+                          })}
+                       
                         </div>
                         {/* <div><em>Tags</em>:
                         <>
@@ -240,6 +253,8 @@ function Post({ blogs, blogcat, authordetials, author }) {
                                 <img
                                   src={author.profile_photo_path}
                                   alt="bg-pic"
+                                  width={74}
+                                  height={74}
                                 />
                                 <span className="link-din"><a href={author.linkedin_url} target="_blank"> <i className="bi bi-linkedin"></i></a></span>
                               </div>
@@ -256,8 +271,8 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   </div>
                   <div className="col-lg-4">
                     <div className="prom-bann">
-                      <Link href="/schedule-a-demo/"><a style={{ marginBottom: '20px', display: 'block' }}><img src="/img/blog-side-pic-top.png" alt="d605-left" /></a></Link>
-                      <Link href="/guides/power-bi-guide-for-smb/"><a><img src="/img/blog-side-pic-bottom.png" alt="d605-left" /></a></Link>
+                      <Link href="/schedule-a-demo/"><a style={{ marginBottom: '20px', display: 'block' }}><Image src="/img/blog-side-pic-top.png" width={413} height={350} alt="d605-left" /></a></Link>
+                      <Link href="/guides/power-bi-guide-for-smb/"><a><Image src="/img/blog-side-pic-bottom.png" alt="d605-left" width={413} height={190} /></a></Link>
                     </div>
                   </div>
                 </div>
