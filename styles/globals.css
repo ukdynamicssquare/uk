@@ -101,6 +101,8 @@ h6 {
 .rigt-conte-vs1 ul li,
 p {
   color: var(--color-grey);
+  word-wrap: break-word;
+    white-space: break-spaces;
 }
 img {
   height: auto;

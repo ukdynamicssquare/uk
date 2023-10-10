@@ -980,7 +980,7 @@ export default function Home() {
                       duration={300}
                     />
                   </span> */}
-                  <span className="inner">135+</span>
+                  <span className="inner">150+</span>
                   <p>Microsoft Consultants</p>
                 </div>
               </div>
@@ -1007,7 +1007,7 @@ export default function Home() {
                       duration={300}
                     />
                   </span> */}
-                  <span className="inner">11+</span>
+                  <span className="inner">12+</span>
                   <p>Years of Expertise</p>
                 </div>
               </div>

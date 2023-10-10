@@ -75,9 +75,9 @@ const AboutUs = () => {
                 </div>
                 <div className="right-content">
                   <p>
-                    As a Microsoft Gold Partner and trusted by 250+ clients
+                    As a Microsoft Gold Partner and trusted by 500+ clients
                     worldwide, we're proactively delivering cloud technology
-                    solutions, training, and support from a team of 135+ highly
+                    solutions, training, and support from a team of 150+ highly
                     skilled Microsoft consultants.
                   </p>
                 </div>
@@ -90,19 +90,19 @@ const AboutUs = () => {
             <div className="row inner-side-pad">
               <div className="col-lg-4 col-md-4">
                 <div className="counter-sec inerr">
-                  <h3>250+</h3>
+                  <h3>500+</h3>
                   <p>Clients Worldwide</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4">
                 <div className="counter-sec inerr">
-                  <h3>135+</h3>
+                  <h3>150+</h3>
                   <p>Certified Professionals</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4">
                 <div className="counter-sec inerr">
-                  <h3>11+</h3>
+                  <h3>12+</h3>
                   <p>Years Experience</p>
                 </div>
               </div>
