@@ -1,29 +1,31 @@
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
+import Form from "../components/Form";
 
 const D365VSDynamicsAX = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 vs Dynamics AX : A quick comparisons </title>
+        <title>Dynamics 365 vs Dynamics AX : [Must comparisons] </title>
         <meta
           name="description"
-          content="which ERP your are choosing? Check out solid comparison Dynamics 365 vs Dynamics AX and find the one that fits your business needs perfectly."
+          content="Compare the capabilities, features, and tools of Dynamics AX vs Dynamics 365. Uncover the trust of Dynamics 365 you have been missing."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/d365-vs-dynamics-ax/"
         />
+        
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-              Microsoft Dynamics 365 vs Dynamics AX
+              Microsoft Dynamics 365 <br /> vs Dynamics AX
               </h1>
-              <br />
+              <p>Compare the capabilities, tools, and functionalities between Dynamics 365 vs Dynamics AX to choose the intelligent solution for your unique business. </p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -48,304 +50,206 @@ const D365VSDynamicsAX = () => {
 
       <section>
         <div className="container">
-          <header className="section-header">
-            <h2>Dynamics 365 VS Dynamics Ax : Take A Big Leap With Modern And Smarter ERP Solution</h2>
-            <p>
-              Choosing the right ERP platform has always been a tricky challenge
-              for enterprises worldwide. However, given the benefits, it is
-              sensible for modern organizations to own a smart ERP system that
-              restructures the ways businesses function.
-            </p>
-            <p>
-              With fast- evolving business landscape and aggressive
-              modernizations, getting the relevant insights into the business,
-              competition, and customers is becoming more critical, than ever
-              before, for business success. Therefore, enterprises across the
-              globe are increasingly switching to intelligent ERP (short for
-              Enterprise Resource Planning) solutions, primarily to optimize
-              their financial performances and streamline business operations.
-            </p>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Why Dynamics AX vs Dynamics 365 Comparison is Necessary?</h2>
+            <p>Embrace the power of automation and advanced business tactics with Dynamics 365. </p>
+            <p>With the comparison, you will get to compare the exceptional benefits, latest technologies, and advanced ERP functionality that can lead your business towards direct growth. Before getting into the comparison, let me help you understand the concept of Dynamics 365 that's concealed from you.  </p>
           </header>
-          <div className="row p-lg-6 align-self-center">
-            <div className="col-lg-6 align-self-center">
-              <p>
-                <b>
-                  Here are the frequently asked questions that organizations
-                  seek answers while selecting an ERP solution:
-                </b>
-              </p>
-              <ul>
-                <li>Does my enterprise need an ERP?</li>
-                <li>What new features or applications my enterprise needs?</li>
-                <li>
-                  Does a cloud- based platform is more appropriate or is an on-
-                  premise system sufficient?
-                </li>
-                <li>
-                  How safe is it to transfer data from an existing system?
-                </li>
-                <li>What are the associated costs?</li>
-                <li>What level of training do users require?</li>
-              </ul>
-              <p>
-                This blog presents the most relevant comparative analysis for
-                making a more educated decision while <Link href="https://blog.dynamicssquare.co.uk/migrating-from-dynamics-ax-to-dynamics-365/">upgrading from MS Dynamics
-                AX to Dynamics 365</Link>.
-              </p>
-            </div>
-
-            <div className="col-lg-6">
-              <Image src="/img/ax-nn.jpg" alt="ax-nn" width={1000} height={500} />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="ds-ax">
+      <section className="busine_service_bottom custom001" style={{marginTop:'-80px'}}>
         <div className="container">
-          <header className="section-header">
-            <h2>Primary Features</h2>
-            <p>
-              Before starting evaluating the <Link href="/products/microsoft-dynamics-ax/">Dynamics AX</Link> and <Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link>, let
-              us have a quick peek into the primary features that keep these
-              ultra- connected platforms in high demand:
-            </p>
-          </header>
-          <div className="row p-lg-6">
-            <div className="col-lg-6">
-              <div className="finace-acc">
-                <div className="accordion" id="accnew">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin1"
-                        aria-expanded="false"
-                        aria-controls="fin1"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/Smart-Business-Decision.svg"
-                            alt="Smart-Business-Decision"
-                          />
-                        </div>
-                        <span>Smarter Business Decisions</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin1"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Available as a cloud, hybrid, and on- premises
-                          deployment options, <Link href="/products/microsoft-dynamics-erp/">ERP solutions</Link> bring the power,
-                          speed, and intelligence to enterprises, thus providing
-                          the core functionalities that organization need for
-                          smart business decisions and business gains.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin2"
-                        aria-expanded="false"
-                        aria-controls="fin2"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/improve-operational-efficiency.svg"
-                            alt="improve-operational-efficiency"
-                          />
-                        </div>
-                        <span>Improved Operational Efficiencies</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin2"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          The innovative personal workspace concept aids
-                          business teams to prioritize, monitor, and complete
-                          the tasks efficiently, quickly, and within the set
-                          deadlines.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin3"
-                        aria-expanded="false"
-                        aria-controls="fin3"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/User-Experience.svg"
-                            alt="User-Experience"
-                          />
-                        </div>
-                        <span>Enhanced User Experience</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin3"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          The touch enabled UI (short for User Interface)
-                          provides anytime, anywhere access from any device,
-                          allowing a seamless user experience to business
-                          managers and allowing them to complete assigned tasks
-                          on time.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div className="row p-433">
+            <div className="col-lg-6 align-self-center">
+              <div className="side-heading side-heading-system">
+                <h2>What is Dynamics 365? - A Solution or a Suite of Solutions </h2>
+              </div>
+              <div className="custom002">
+                <p><Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> isn't a solution; yes, you heard it right. It is a suite of applications that contains different ERP (enterprise resource planning) and CRM (customer relationship management) solutions for all businesses, irrespective of size. Actually, it contains different business management solutions capable of streamlining different business operations. </p>
+                <p>Almost all websites on Google Search Engine are doing a comparison on Dynamics AX vs Dynamics 365, which is basically illogical. How would someone compare an ERP solution (Dynamics AX) with a suite of ERP and CRM solutions (Microsoft Dynamics 365)? </p>
               </div>
             </div>
-
-            <div className="col-lg-6">
-              <div className="finace-acc">
-                <hr className="mob-disp" />
-                <div className="accordion" id="accneww">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin6"
-                        aria-expanded="false"
-                        aria-controls="fin6"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/advance-application.svg"
-                            alt="advance-application"
-                          />
-                        </div>
-                        <span>Advanced Applications</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin6"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accneww"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Improve financial performance and smartly manage the
-                          supply chain with Azure based business applications,
-                          tightly unified with MS Office 365 and <Link href="/products/microsoft-power-platform/">MS Power Platform</Link>.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin7"
-                        aria-expanded="false"
-                        aria-controls="fin7"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/Meaningful-Business-Insights.svg"
-                            alt="Meaningful-Business-Insights"
-                          />
-                        </div>
-                        <span>Meaningful Business Insights</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin7"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accneww"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Embedded Cortana Intelligence and other smart
-                          capabilities, like <Link href="/products/microsoft-power-bi/">Power BI</Link> (Business Intelligence)
-                          and Azure Machine Learning, deliver insightful and
-                          interactive business reports with rich visuals and
-                          interactive charts accessible on multiple devices.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin8"
-                        aria-expanded="false"
-                        aria-controls="fin8"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/Data Management.svg"
-                            alt="Data Management"
-                          />
-                        </div>
-                        <span>Simplified Data Management</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin8"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accneww"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Pre- built Common Data Model (CDM) allows operation
-                          heads to analyze, manage, and connect organization-
-                          wide data seamlessly with other MS or third- party
-                          applications, delivering a unified view while
-                          maximizing output.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div className="col-lg-1 align-self-center"></div>
+            <div className="col-lg-5 align-self-center">
+              <div className="busine_service_bottom-left common-side-form">
+               <Form />
               </div>
             </div>
           </div>
         </div>
       </section>
+      <section className="busine_service_bottom custom05">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="busine_service_bottom-left custom012">
+                <Image
+                  src="/img/microosoft-partner.png"
+                  alt="microosoft-partner.png"
+                  width={625} height={651}
+                />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="side-heading-custom-01">
+                <h2>Is there really a comparison between Dynamics AX and Dynamis 365?</h2>
+              </div>
+              <div className="custom-p-001">
+                <p>There is no comparison between these two because comparison takes place when two things are on the same level. If you want to compare Dynamics AX with other ERP solutions from Dynamics 365, you can do so with Business Central, Dynamics 365 Finance, Dynamics CRM, Dynamics f&o, or Dynamics NAV. In general, Dynamics 365 contains 12 major business solutions that are widely popular among growing businesses.</p>
+                <p>When it comes to comparing Dynamics AX with other solutions, you can go with Dynamics 365 Finance. Because both solutions are finance and accounting-specific and have similar infrastructure, Dynamics 365 Finance is an upgraded and modern version of Dynamics AX, which offers AI-driven tools for modern-day businesses.</p>
+                <p>If not, that's not your fault because Microsoft ERP partners are offering support services to keep Dynamics AX running, which makes you think that it is still available. The truth is, Microsoft has stopped offering Dynamics AX licences and support (mainstream and extended) to all businesses. If you don't believe us, you can contact Microsoft.</p>
+              </div>
+              <div className="text-lg-start">
+                  <Link href="/contact-us/">
+                    <a
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Contact Microsoft Now!</span>
+                    </a>
+                  </Link>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section className="busine_service_bottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="side-heading-custom-01">
+                <h2>Does Microsoft still Sells Dynamics AX?</h2>
+              </div>
+              <div className="custom-p-001">
+                <p>This is the most important question you should be concerned about. Because it is the basis of the entire Dynamics 365 vs AX comparison. If Microsoft has stopped offering a solution, there is no point in investing in an obsolete solution with the hope of consistent business growth. </p>
+                <div className="tabls-cloud table-responsive">
+                <table className="table table-striped   align-middle">
+                  <thead>
+                    <tr>
+                      <th>Dynamics AX Versions </th>
+                      <th>Mainstream Support</th>
+                      <th>Extended Support</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p>Dynamics AX 2009 </p>
+                      </td>
+                      <td>
+                        <p>09-Oct-18</p>
+                      </td>
+                      <td>
+                        <p>12-Apr-22 </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Dynamics AX 2012</p>
+                      </td>
+                      <td>
+                        <p>09-Oct-18</p>
+                      </td>
+                      <td>
+                        <p>12-Apr-22 </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Dynamics AX 2012 R2</p>
+                      </td>
+                      <td>
+                        <p>09-Oct-18</p>
+                      </td>
+                      <td>
+                        <p>12-Apr-22 </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Dynamics AX 2012 R3</p>
+                      </td>
+                      <td>
+                        <p>09-Oct-24</p>
+                      </td>
+                      <td>
+                        <p>10-Jan-23</p>
+                      </td>
+                    </tr>
+                   
+                  </tbody>
+                </table>
+              </div>
+              <p>Based on the latest data, Microsoft doesn't sell Dynamics AX anymore. The company has ended mainstream and extended support for all versions and recommended businesses upgrade to a better ERP solution, like <Link href="/products/microsoft-dynamics-365-finance-operations/"><a>Dynamics 365 Finance and Operations</a></Link>.</p>
+              <p>For your knowledge, mainstream support is offered by Microsoft for a few years from the date of the release of a version. It contains system upgrades, updates, bug fixes, and a lot more. Once the mainstream support ends, the extended support starts for the next few years. During this time, Microsoft releases updates for data security only.</p>
+              <p>Dynamics AX is a basic financial ERP solution that can also manage and connect other departments too. But, with time, the solution has become outdated based on business and customer demands. Later, Microsoft releases Dynamics 365 Finance and Operations as an upgraded version of AX that offers some powerful capabilities to manage complex financial and supply chain operations.</p>
+              <p>You can go for a Dynamics AX to Dynamics 365 Finance & Operations upgrade, but it is a bit costly to implement and comes with a lot of tools that might not be required by your organisation. Because it comes with a lot of modules to streamline different sections of a business.</p>
+              <p>Microsoft understood this concern and divided Dynamics 365 Finance & Operations into two different applications: Dynamics 365 Finance and <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link>. So, based on your business requirements, you can go with any solution that suits your needs.</p>
+              <p>Now, you can avail yourself of the desired solution by paying the licence fee for a specific one rather than paying for the whole package.</p>
+              </div>
+              <div className="text-lg-start">
+                  <Link href="/contact-us/">
+                    <a
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Help me Choose a Better Solution</span>
+                    </a>
+                  </Link>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section className="busine_service_bottom custom05">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5 align-self-center">
+              <div className="busine_service_bottom-left custom012">
+                <Image
+                  src="/img/microosoft-partner.png"
+                  alt="microosoft-partner.png"
+                  width={625} height={651}
+                />
+              </div>
+            </div>
+            <div className="col-lg-7 align-self-center">
+              <div className="side-heading-custom-01">
+                <h2>Dynamics 365 Finance or Dynamics 365 Finance and Operations - Which one is better?</h2>
+              </div>
+              <div className="custom-p-001">
+                <p>When it comes to choosing a better solution, it differs from one business to another. Before making a perfect choice, you need to understand your business requirements and what's bringing your business down. You may need to analyse the capabilities of your existing ERP solution, market scenarios, and customer demands so that you can know your current needs and predict your future requirements too.</p>
+                <p>Dynamics 365 Finance and Operations is a cloud-based ERP solution capable of managing and streamlining entire financial and inventory operations. Built specifically for large businesses, it can handle the complex processes of different departments, which include finance, manufacturing, warehouses, and inventory.</p>
+                <p>Whereas Dynamics 365 Finance is specifically built for organisations with complex requirements for financial functionalities, It can manage all financial requirements, whether simple or complicated, but might not be able to manage other operations like finance and accounting.</p>
+                <p>So, if you have a requirement for managing finance, supply chain, inventory, and manufacturing operations, you can consider purchasing Dynamics 365 Finance and Operations. Otherwise, you can go for Dynamics 365 Finance to tackle complicated financial operations.</p>
+              </div>
+            
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section className="busine_service_bottom">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className="side-heading-custom-01">
+                <h2>Dynamics AX vs Dynamics 365 Finance - What's the Core Difference?</h2>
+              </div>
+              <div className="custom-p-001">
+                <p>We understand that Dynamics 365 Finance is built on the infrastructure of Dynamics AX and being on the same platform, both of these share a lot of similarities and differences as well.</p>
+                <p><Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> is a legacy system that comes with various outdated features of business management. Specifically, it is built to manage financial and accounting operations, but it can also deal with other departments. With an on-premises server deployment option, Dynamics AX offers the limited capabilities required for today's business scenario.</p>
+                <p>Whereas Dynamics 365 Finance is a cloud-based ERP solution equipped with the latest technologies of AI, BI, and ML to offer automation and powerful tools. Regardless of the financial complexities, it can be a perfect fit for any business. D365 Finance offers real-time insights that enable users to make data-driven decisions. In fact, it is built in such a way that it reduces the overall costs and optimises the financials of a business, leading to better financial planning and analysis.</p>
+              </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
 
       <section className="call_to_action call_to_action-height pd-401">
         <div className="container">
@@ -376,428 +280,238 @@ const D365VSDynamicsAX = () => {
           </div>
         </div>
       </section>
-
       <section>
         <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-9">
           <header className="section-header">
-            <h2>
-              Are Dynamics AX and <br />
-              Dynamics 365 Similar?
-            </h2>
-            <p>
-              Nearly, as both MS Dynamics AX and MS Dynamics 365 have embedded
-              outstanding BI capabilities, offering an exceptional user
-              experience, and enabling businesses to develop interactive
-              dashboards through high- end reporting features.
-            </p>
+            <h2>Dynamics 365 Finance - Advantages for Modern Businesses</h2>
+            <p><Link href="/products/microsoft-dynamics-365-finance/"><a>D365 Finance</a></Link> is a market-leading ERP solution that comes with powerful tools to manage entire businesses while simplifying complex financial issues. Available on cloud and on-premises deployments, it offers interactive user interfaces and flawless opportunities for collaboration. It offers numerous benefits to its users, among which some are listed below.</p>
           </header>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="tabls-cloud table-responsive">
-                <table className="table table-striped   align-middle">
-                  <thead>
-                    <tr>
-                      <th>
-                        MS <br />
-                        Dynamics AX
-                      </th>
-                      <th>
-                        Major <br />
-                        Similarities
-                      </th>
-                      <th>
-                        MS <br />
-                        Dynamics 365
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <p>
-                          An improvised, touch- enabled UI for seamless
-                          performance across numerous devices and operating
-                          systems
-                        </p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>User Experience</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>
-                            <em>
-                              <u>PLUS</u>
-                            </em>
-                          </strong>
-                          <br />
-                          Personalized workspaces for altering needs with
-                          customized views and forms
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>
-                          Intuitive workspaces and real- time analytics
-                          supported by Azure based Machine Learning Services
-                        </p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Business Intelligence</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>
-                            <em>
-                              <u>PLUS</u>
-                            </em>
-                          </strong>
-                          <br />
-                          Self- Service Analytics along with Meaningful business
-                          insights on customers and competitors
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>
-                          Specialized tools for complex and diverse business
-                          reporting on organization- wide functionalities
-                        </p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Reporting Features</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>
-                            <em>
-                              <u>PLUS</u>
-                            </em>
-                          </strong>
-                          <br />
-                          Generate insightful reports and create interactive
-                          dashboards through the integration of Dynamics 365
-                          data to an MS Azure SQL database
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+          </div>
+         </div>
+          <div className="row p-lg-6">
+            <div className="col-lg-6">
+              <div className="finace-acc">
+                <div className="accordion" id="accnew">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin1"
+                        aria-expanded="false"
+                        aria-controls="fin1"
+                      >
+                        <span>Get a 360-Degree Business View</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin1"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Dynamics 365 Finance is capable of tracking all business processes to offer you real-time visibility for enhanced decision-making. It can efficiently track all resources, minimise manual errors, and automate the essential core tasks for improved results.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin2"
+                        aria-expanded="false"
+                        aria-controls="fin2"
+                      >
+                        <span>Reduced Operational Cost</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin2"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>The D365 Finance cloud enables you to save a lot of assets and business resources. Due to monthly subscription costs, there is no need to invest money regularly in updates, upgrades, maintenance, integrations, and customisations. This will reduce operational costs and let you invest this money in business growth.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin3"
+                        aria-expanded="false"
+                        aria-controls="fin3"
+                      >
+                      
+                        <span>Enhanced Productivity</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin3"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Centralised data servers let you receive, share, and store data in the cloud, which builds a consistent data flow across different departments of the organization. You can even avail yourself of data insights that can help you make proactive decisions to enhance the quality of a particular process. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="finace-acc">
+                <hr className="mob-disp" />
+                <div className="accordion" id="accneww">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin6"
+                        aria-expanded="false"
+                        aria-controls="fin6"
+                      >
+                     
+                        <span>Empowers businesses to Scale Easily</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin6"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accneww"
+                    >
+                      <div className="accordion-body">
+                        <p>Growing businesses need instant support to increase the performance of a particular process or department. Dynamics 365 Finance and Operations empowers the business to scale the process, performance, and entire system whenever required instantly with the help of a Dynamics 365 Finance implementation partner.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin7"
+                        aria-expanded="false"
+                        aria-controls="fin7"
+                      >
+                       
+                        <span>Avail Seamless User Experience</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin7"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accneww"
+                    >
+                      <div className="accordion-body">
+                        <p>Get the interactive user experience to properly utilise all the tools, functions, and capabilities. With the perfect placement of all tools, you can navigate the system with ease, regardless of your licencing plan. If there is a need, you can even customise the navigation and the dashboard to make it more productive as per your needs.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin8"
+                        aria-expanded="false"
+                        aria-controls="fin8"
+                      >
+                       
+                        <span>Integrate the desired Solution (in minutes)</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin8"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accneww"
+                    >
+                      <div className="accordion-body">
+                        <p>Microsoft offers immense flexibility when it comes to integrating different add-ons or solutions with any of its solutions in the Dynamics 365 Ecosystem. You can easily integrate native as well as third-party solutions with Dynamics 365 Finance to increase efficiency. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-12">
+            <div className="text-center" style={{paddingTop:'60px',marginBottom:'-60px'}}>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Book a Dynamics 365 Finance Demo!</span>
+                    </a>
+                  </Link>
+                </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section>
+
+      <section className="busine_service_bottom">
         <div className="container">
-          <header className="section-header">
-            <p>
-              Then what Separates Dynamics 365 from Dynamics AX? Although MS
-              Dynamics AX and MS Dynamics 365 are quite similar in a variety of
-              ways, there are still various overwhelming differences between the
-              two platforms - from their deployment infrastructure to licensing
-              options, integration capabilities, scalability, and other
-              development features. Below comparative chart lists the key
-              differences between Dynamics AX and Dynamics 365:
-            </p>
-          </header>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="tabls-cloud table-responsive">
-                <table className="table table-striped   align-middle">
-                  <thead>
-                    <tr>
-                      <th>MS Dynamics AX</th>
-                      <th>Primary Differences</th>
-                      <th>MS Dynamics 365</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <p>Physical On- Premise Servers</p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Infrastructure</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>Cloud Based, Hybrid, and On- Premise Deployments</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>Capital Expense - Yearly Subscription/ Fee</p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>License</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>
-                          Flexible Operating Expenses&nbsp;
-                          <em>(Pay- As- You- Go Model)</em>
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>
-                          Specialized tools for complex and diverse business
-                          reporting on organization- wide functionalities
-                        </p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Reporting Features</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>
-                          Generate insightful reports and create interactive
-                          dashboards through the integration of Dynamics 365
-                          data to an MS Azure SQL database
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>Software Based</p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>User Interface</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>Browser Based</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>Minimal - Almost None</p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Compatibility</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>Multiple Devices (Mobile, Tablets, and more)</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>
-                          MS Office, CRM&nbsp;
-                          <em>(short for Customer Relationship Management)</em>
-                        </p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Integration</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>CRM, Power BI, MS Office 365, Cortana</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>Requires Manual Intervention</p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Updates</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>Updates Automatically</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>Medium to Large Enterprises</p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Scalability</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>Global Enterprises</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>None</p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Additional Applications</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>Power Applications and Flow</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>MorphX</p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Development</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>Visual Studio (X++, XML)</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>Higher Information Technology (IT) Costs</p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>Maintenance</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>Budget Friendly Maintenance</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>Support Available until October 2021</p>
-                      </td>
-                      <td>
-                        <p>
-                          <strong>System Support</strong>
-                        </p>
-                      </td>
-                      <td>
-                        <p>Not Known</p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className="side-heading-custom-01">
+                <h2>Why Should I Upgrade from Dynamics AX to Dynamics 365 Finance? </h2>
               </div>
-              <p className="extr-conts">
-                <b>Are You Ready for the Big Leap?</b>
-              </p>
-              <p>A Quick Walk Through to MS Dynamics 365</p>
-              <p>
-                Dynamics 365 is available in the cloud, <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises</Link>, or through
-                hybrid deployment options that seamlessly adjust to fast
-                altering business needs, comply with regulations, and ensure
-                maximum RoI (short for Return on Investment).
-              </p>
-              <p>
-                <b>
-                  Below is the Feature Loaded Platform Variants of MS Dynamics
-                  365:
-                </b>
-              </p>
-              <ul>
-                <li>
-                  <strong>Dynamics 365 Finance:</strong>&nbsp;Automates global
-                  financial operations, monitors performance in real time,
-                  predicts future outcomes, and enables insightful business
-                  decisions to drive maximum growth.
-                </li>
-                <li>
-                  <strong>Dynamics 365 Supply Chain Management:</strong>
-                  &nbsp;Improves business visibility across the global
-                  operations, delivers predictive insights, and enhances supply
-                  chain and manufacturing capabilities through exceptional
-                  features, including Internet of Things (IoT), Mixed Reality,
-                  and Artificial Intelligence (AI).
-                </li>
-                <li>
-                  <strong>Dynamics 365 Commerce:</strong>&nbsp;Delivers
-                  excellent digital and in- store shopping experiences and
-                  simplifies overall store management functionalities.
-                </li>
-                <li>
-                  <strong>Dynamics 365 Human Resources:</strong>&nbsp;Ensures
-                  people success, optimizes workforce expenses, and drives an
-                  agile, high-performance work culture.
-                </li>
-              </ul>
-              <p>
-                Connect with a licensed MS Dynamics Vendor, like Dynamics Square
-                (the most trusted MS Dynamics partner) to understand and learn
-                the benefits of moving from Dynamics AX (on- premises
-                deployment) to Dynamics 365 (cloud- based platform).
-              </p>
-            </div>
+              <div className="custom-p-001">
+                <p>Dynamics AX has become an outdated solution that's inefficient for competing with today's market demands. If you still want to use it, you will need consistent support from a Microsoft Solutions Partner.</p>
+                <p>We understand that upgrading from a year-old solution that you have been using isn't easy at all. Because, with time, we become hooked on the functionality, interface, navigation, and all.</p>
+                <p>But you need to accept the fact that other businesses will upgrade to the latest technology, giving them a competitive advantage over you with a lot of advanced tools and features.</p>
+                <p>The process of upgrading from Dynamics AX to Dynamics 365 Finance might feel complicated, but the results will be promising.</p>
+                <p>Imagine centralising data from different departments, automating recurring processes, availing AI-driven insights for overall growth, and opening up the doors to endless business opportunities with this upgrade. Based on our research, businesses that have implemented Dynamics 365 Finance have tracked enhanced ROI in less than 3 years.</p>
+              </div>
+             
           </div>
+        </div>
         </div>
       </section>
 
-      <section className="why-slider">
+      <section className="custom05">
         <div className="container">
-          <header className="section-header">
-            <h3>Why Dynamics Square?</h3>
-            <p>
-              We employ market leading technologies, consultants, processes and
-              proven methodologies to help clients to design, implement and
-              manage their business solutions that align to business priorities,
-              maximum return on their investment and to create high performance
-              organizations.
-            </p>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Why Choose Dynamics Square as a Dynamics 365 upgrade partner?</h2>
+            <p>Dynamics Square UK has been offering its flawless Dynamics AX to Dynamics 365 Finance upgrade service to all businesses. We have been in this industry for more than 12 years and pretty much understand what businesses want to grow in this highly competitive market.</p>
+            <p>Even if you are still confused about Dynamics AX vs Dynamics 365 and unable to find a better solution, our team of 150+ technical consultants is available to show you the right path.</p>
           </header>
-          <div className="row pad-3y">
-            <div className="col-lg-4 col-md-6">
-              <div className="why-slider-sec why-slider-sec-nee">
-                <h4>
-                  <i className="bi bi-check-lg"></i>{" "}
-                  <span>Years of Expertise</span>
-                </h4>
-                <p>
-                  Our years of expertise helps us to align ourselves with our
-                  customer's business needs, expectations with Microsoft
-                  Business Solutions.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="why-slider-sec why-slider-sec-nee">
-                <h4>
-                  <i className="bi bi-check-lg"></i>{" "}
-                  <span>In-depth Knowledge</span>
-                </h4>
-                <p>
-                  Our in-depth knowledge of products, technology, and Industry
-                  helps us to design the solution that align with our customer's
-                  business needs.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="why-slider-sec why-slider-sec-nee">
-                <h4>
-                  <i className="bi bi-check-lg"></i>{" "}
-                  <span>Subject Matter Experts</span>
-                </h4>
-                <p>
-                  Our highly experienced team of Professionals having the
-                  collective experience of over hundreds of successful Project
-                  implementations.
-                </p>
-              </div>
+          <div className="text-center">
+                  <Link href="/contact-us/">
+                    <a
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Contact Dynamics 365 Experts Now!</span>
+                    </a>
+                  </Link>
+                </div>
             </div>
           </div>
         </div>

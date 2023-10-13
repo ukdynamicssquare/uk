@@ -915,6 +915,28 @@ section {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.counter-sec-consult .inerr{
+    margin-bottom: 25px;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 2px 5px #dde2ef;
+    border-radius: 5px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center
+}
+.counter-sec-consult .inerr h3{
+  color: #d34936;
+  font-size: 28px;
+}
+.counter-sec-consult .inerr p{
+  font-size: 14px;
+  color: #1d3557;
+  font-weight: 600;
+}
 .mission-content .mission-inner-con {
  
 }
@@ -2657,6 +2679,18 @@ section {
 .Health-Check .content p:last-child,
 .why-slider-sec-nee p {
   margin-bottom: 0;
+}
+.why-slider-secss{
+  padding:15px
+}
+.why-slider-secss h3 span{
+  color: var(--color-blue);
+    font-size: 22px;
+    font-weight: 700;
+}
+.why-slider-secss p{
+  font-size: 15px;
+    margin-bottom: 0;
 }
 .Health-Check .content .read-more {
   margin-top: 30px;
@@ -4769,6 +4803,9 @@ section {
   -webkit-box-shadow: 0 15px 30px 0 rgba(24, 109, 184, 0.16);
   padding: 30px;
   height: 250px;
+}
+.why-slider-sec-new .why-slider-sec{
+  height: auto;
 }
 .why-slider-sec-nee {
   height: 250px;
@@ -7319,6 +7356,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c2d47",endCo
   .hero h1 {
     font-size: 32px;
   }
+
   .about-intr-wrpper {
     padding: 30px 15px 0 30px;
     flex-wrap: wrap;
