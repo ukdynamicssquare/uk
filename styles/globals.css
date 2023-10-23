@@ -1305,7 +1305,7 @@ section {
   box-shadow: 0 0 30px rgba(1, 41, 112, 0.08);
   border-radius: 20px;
   position: relative;
-  overflow-y: scroll;
+  overflow-y: auto;
   transition: 0.3s;
   height: 600px;
 }
