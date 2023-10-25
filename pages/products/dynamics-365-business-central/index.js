@@ -1375,7 +1375,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           </div>
           <div className="row gy-4">
             <div className="col-lg-4">
-              <div className="box">
+              <div className="box boc-bc-scroll">
                 <h3>
                   Dynamics 365 Business Central
                   <br />
@@ -1407,7 +1407,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
               </div>
             </div>
             <div className="col-lg-4">
-              <div className="box">
+              <div className="box boc-bc-scroll">
                 <h3>
                   Dynamics 365 Business Central
                   <br />
@@ -1447,8 +1447,8 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="box">
+            <div className="col-lg-4 boc-bc-scroll">
+              <div className="box boc-bc-scroll">
                 <h3>
                   Dynamics 365 Business Central
                   <br />
