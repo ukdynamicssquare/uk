@@ -284,7 +284,7 @@ const MicrosoftDynamicsGP = () => {
                   Business Central Features
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link href="/dynamics-365-business-central-features/">
+                  <Link href="/gp-to-business-central-migration/">
                     <a className="btn-get-started scrollto">
                       <span>Read More</span>
                     </a>

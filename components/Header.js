@@ -27,10 +27,10 @@ class Header extends Component {
               <div className="left-logo">
                 <a href="/" className="logo">
                   <img
-                     src="/img/dynamics_square_tm_logo.svg"
-                     alt="Dynamics Square TM Logo"
-                     width="282"
-                     height="19"
+                    src="/img/dynamics_square_tm_logo.svg"
+                    alt="Dynamics Square TM Logo"
+                    width="282"
+                    height="19"
                   />
                 </a>
               </div>
@@ -658,43 +658,43 @@ class Header extends Component {
                                     </div>
                                   </div>
                                   <div className="col-md-4">
-                                  <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-erp/">
-                                      <div className="pic">
-                                        <img
-                                          src="/img/menu-icons/ERP.png"
-                                          alt="GP"
-                                          width="48" height="48"
-                                        />
-                                      </div>
-                                      <div className="content">
-                                        <span>Dynamics ERP</span>
-                                        <p>
-                                        Streamline Entire Business Management with Ease
-                                        </p>
-                                      </div>
-                                    </a>
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/products/microsoft-dynamics-erp/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/ERP.png"
+                                            alt="GP"
+                                            width="48" height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Dynamics ERP</span>
+                                          <p>
+                                            Streamline Entire Business Management with Ease
+                                          </p>
+                                        </div>
+                                      </a>
+                                    </div>
                                   </div>
-                                </div>
-                                <div className="col-md-4">
-                                  <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365-finance-operations/">
-                                      <div className="pic">
-                                        <img
-                                          src="/img/menu-icons/F&Q.png"
-                                          alt="GP"
-                                          width="48" height="48"
-                                        />
-                                      </div>
-                                      <div className="content">
-                                        <span>Dynamics F&O</span>
-                                        <p>
-                                        Accelerate your Finance and Inventory more Efficiently
-                                        </p>
-                                      </div>
-                                    </a>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/products/microsoft-dynamics-365-finance-operations/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/F&Q.png"
+                                            alt="GP"
+                                            width="48" height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Dynamics F&O</span>
+                                          <p>
+                                            Accelerate your Finance and Inventory more Efficiently
+                                          </p>
+                                        </div>
+                                      </a>
+                                    </div>
                                   </div>
-                                </div>
                                 </div>
                               </div>
                             </div>
@@ -777,7 +777,7 @@ class Header extends Component {
                                         <div className="content">
                                           <span>Sustainability Manager</span>
                                           <p>
-                                          Record, report, and reduce the environmental impact
+                                            Record, report, and reduce the environmental impact
                                           </p>
                                         </div>
                                       </a>
@@ -796,8 +796,25 @@ class Header extends Component {
                                         <div className="content">
                                           <span>Nav Upgrade</span>
                                           <p>
-                                          Let us help you with a smoother and stress-free NAV upgrade process
+                                            Let us help you with a smoother and stress-free NAV upgrade process
                                           </p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/products/dynamics-365-non-profit-accelerator/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/non-profit.png"
+                                            alt="NAV Upgrade"
+                                            width="48" height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Non-profits Accelerator</span>
+                                          <p>Supercharge Non-profits with AI</p>
                                         </div>
                                       </a>
                                     </div>
@@ -913,7 +930,7 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
-                                  
+
                                 </div>
                               </div>
                             </div>
@@ -924,7 +941,7 @@ class Header extends Component {
                         <div className="rigt-list-menu">
                           <p>Must Read</p>
                           <ul>
-                          <li>
+                            <li>
                               <a href="/dynamics-nav-to-business-central/">
                                 Nav to Business Central Upgrade
                               </a>
@@ -1044,15 +1061,15 @@ class Header extends Component {
                         </a>
                       </li>
                       <li>
-                                  <a href="/industries/dynamics-365-for-healthcare/">
-                                  Dynamics 365 for Healthcare
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="/industries/dynamics-365-automotive-accelerator/">
-                                  Automotive Accelerator
-                                  </a>
-                                </li>
+                        <a href="/industries/dynamics-365-for-healthcare/">
+                          Dynamics 365 for Healthcare
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/industries/dynamics-365-automotive-accelerator/">
+                          Automotive Accelerator
+                        </a>
+                      </li>
                     </ul>
                   </li>
                   <li className="dropdown">
@@ -1107,7 +1124,7 @@ class Header extends Component {
                       <li>
                         <a
                           href="/blog/"
-                        
+
                           target="_self"
                         >
                           Blogs
@@ -1134,34 +1151,34 @@ class Header extends Component {
                     </a>
                   </li>
                   <li>
-                  <a
-                    className="getstarted custtss"
-                    href="tel:+442071932502"
-                    target="_self"
-                  >
-                    <i className="bi bi-telephone-fill"></i> &nbsp;&nbsp;0207
-                    193 2502
-                  </a>
+                    <a
+                      className="getstarted custtss"
+                      href="tel:+442071932502"
+                      target="_self"
+                    >
+                      <i className="bi bi-telephone-fill"></i> &nbsp;&nbsp;0207
+                      193 2502
+                    </a>
                   </li>
                 </ul>
               </div>
             </nav>
             <div className="mobile-menu-section-wr">
-            
+
               <div className="togglr-icon-nav">
-              <div className="cont-m-mobile">
+                <div className="cont-m-mobile">
                   <a
                     className="getstarted custtss"
                     href="tel:+442071932502"
                     target="_self"
                   >
                     <i className="bi bi-telephone-fill"></i></a>
-                  </div>
+                </div>
                 <a
                   href="#offcanvasWithBothOptions"
                   data-bs-toggle="offcanvas"
                   aria-controls="offcanvasWithBothOptions"
-                  aria-label="offcanvas" 
+                  aria-label="offcanvas"
                 >
                   <i className="bi bi-list mobile-nav-toggle"></i>
                 </a>
@@ -1502,8 +1519,8 @@ class Header extends Component {
                                   <a href="/industries/ecommerce/">Ecommerce</a>
                                 </li>
                                 <li>
-                        <a href="/industries/dynamics-365-for-education/">D365 for Education</a>
-                      </li>
+                                  <a href="/industries/dynamics-365-for-education/">D365 for Education</a>
+                                </li>
                                 <li>
                                   <a href="/industries/microsoft-cloud-for-manufacturing/">
                                     Manufacturing (Microsoft Cloud)
@@ -1521,12 +1538,12 @@ class Header extends Component {
                                 </li>
                                 <li>
                                   <a href="/industries/dynamics-365-for-healthcare/">
-                                  Dynamics 365 for Healthcare
+                                    Dynamics 365 for Healthcare
                                   </a>
                                 </li>
                                 <li>
                                   <a href="/industries/dynamics-365-automotive-accelerator/">
-                                  Automotive Accelerator
+                                    Automotive Accelerator
                                   </a>
                                 </li>
                               </ul>
