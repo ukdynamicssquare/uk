@@ -899,17 +899,15 @@ const FieldService = () => {
                   </li>
                 </ul>
               </div>
-              {/* <div className="blogs-extra-title">
+              <div className="blogs-extra-title">
                         <h4>Learn More</h4>
                      </div>
                      <div className="blogs-extra-right">
-                        <ul>
-                           <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Collections automation</Link></li>
-                           <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Vendor invoice automation</Link></li>
-                           <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Why to Upgrade Dynamics NAV to Business Central</Link></li>
-                           <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Asset leasing</Link></li>
+                     <ul>
+                           <li><Link href="/blog/dynamics-365-field-service-7-things-to-know-before-setting-up/"><a><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Field Service: Things To Know Before Setting Up!</a></Link></li>
+                         
                         </ul>
-                     </div> */}
+                     </div>
             </div>
           </div>
         </div>

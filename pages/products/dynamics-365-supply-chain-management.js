@@ -1029,7 +1029,7 @@ const SupplyChainManagement = () => {
                   </li>
                   <li>
                     <Link href="/blog/what-is-dynamics-365-supply-chain-management/">
-                      <a><i className="bi bi-box-arrow-up-right"></i>TWhat Is Dynamics 365 Supply Chain?</a>
+                      <a><i className="bi bi-box-arrow-up-right"></i>What Is Dynamics 365 Supply Chain?</a>
                     </Link>
                   </li>
                   <li>

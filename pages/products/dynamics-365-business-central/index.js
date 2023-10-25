@@ -2149,7 +2149,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/upgrade-dynamics-nav-to-dynamics-365-business-central/">
+                    <Link href="/blog/upgrade-dynamics-nav-to-dynamics-365-business-central/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i> Why to
                         Upgrade Dynamics NAV to Business Central
@@ -2157,7 +2157,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/reasons-to-upgrade-accounting-software/">
+                    <Link href="/blog/reasons-to-upgrade-accounting-software/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i> Is Your
                         Business Outgrowing Your Accounting Software?

@@ -805,17 +805,16 @@ const CustomerService = () => {
                   </li>
                 </ul>
               </div>
-              {/* <div className="blogs-extra-title">
+              <div className="blogs-extra-title">
                       <h4>Learn More</h4>
                    </div>
                    <div className="blogs-extra-right">
-                      <ul>
-                         <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Collections automation</Link></li>
-                         <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Vendor invoice automation</Link></li>
-                         <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Why to Upgrade Dynamics NAV to Business Central</Link></li>
-                         <li><Link href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Asset leasing</Link></li>
-                      </ul>
-                   </div> */}
+                   <ul>
+                           <li><Link href="/blog/dynamics-crm-guide-overview/"><a><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 CRM Guide</a></Link></li>
+                           <li><Link href="/blog/top-benefits-of-dynamics-365-customer-service/"><a><i className="bi bi-box-arrow-up-right"></i> 9 Benefits of Dynamics 365 Customer Service</a></Link></li>
+                          
+                        </ul>
+                   </div>
             </div>
           </div>
         </div>
