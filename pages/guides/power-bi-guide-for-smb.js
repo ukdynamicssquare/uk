@@ -354,7 +354,7 @@ const PowerBIGuide = () => {
                   is a business intelligence application that allows
                   organisations to{" "}
                   <a
-                    href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/"
+                    href="https://www.dynamicssquare.co.uk/blog/power-bi-reports/"
                     rel=""
                     target="_self"
                   >
@@ -380,7 +380,7 @@ const PowerBIGuide = () => {
                 <p>
                   If yes, this{" "}
                   <a
-                    href="https://www.dynamicssquare.com/blog/an-introduction-to-microsoft-power-bi/"
+                    href="https://www.dynamicssquare.co.uk/blog/what-is-power-bi/"
                     target="_self"
                     rel=""
                   >
@@ -496,7 +496,7 @@ const PowerBIGuide = () => {
                   Microsoft Power BI is a business intelligence solution that
                   allows users to analyse the data,{" "}
                   <a
-                    href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/"
+                    href="https://www.dynamicssquare.co.uk/blog/power-bi-reports/"
                     rel=""
                     target="_self"
                   >
@@ -605,7 +605,7 @@ const PowerBIGuide = () => {
                   <br className="mrg" />
                   Understanding{" "}
                   <a
-                    href="https://www.dynamicssquare.com/blog/power-bi-architecture-and-its-components-explained/"
+                    href="https://www.dynamicssquare.co.uk/blog/power-bi-architecture/"
                     rel=""
                     target="_self"
                   >
@@ -2767,7 +2767,7 @@ const PowerBIGuide = () => {
                   partner, and we can resolve all your queries to help you
                   understand the need for{" "}
                   <a
-                    href="https://www.dynamicssquare.com/blog/why-your-business-needs-power-bi/"
+                    href="https://www.dynamicssquare.co.uk/blog/why-power-bi-for-business/"
                     target="_self"
                     rel=""
                   >
