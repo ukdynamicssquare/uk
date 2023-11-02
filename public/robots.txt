@@ -3,5 +3,6 @@ Allow: /
 Disallow: /blog/tag/
 Disallow: /blog/category/
 Disallow: /react-ds/
+Disallow: /blog/expert-opinion-on-dynamics-365-human-resources/
 
 Sitemap: https://www.dynamicssquare.co.uk/sitemap.xml
