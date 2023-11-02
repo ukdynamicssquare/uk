@@ -44,12 +44,7 @@ const Sales = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Dynamics 365 Sales</h1>
-              <p>
-                Upgrade your system with Microsoft Dynamics 365 Sales to impact
-                your sales drive and improve sound customer relationships to
-                elevate your business values while maximizing your revenue
-                outcomes.
-              </p>
+              <p>Better sales, engaged customers & improved revenue. Grow your business with high-velocity sales and personalised customer engagement with Dynamics 365 sales.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
