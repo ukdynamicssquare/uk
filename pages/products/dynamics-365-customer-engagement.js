@@ -7,11 +7,11 @@ const Dynamics365CustomerEngagement = () => {
     <>
       <Head>
         <title>
-          Dynamics 365 Customer Engagement Partner UK | Dynamics Square
+          Dynamics 365 Customer Engagement (D365 CE) Partner UK
         </title>
         <meta
           name="description"
-          content="Uplift your sales &amp; marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement plans."
+          content="Uplift your sales & marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement (CE) plans."
         />
         <link
           rel="canonical"
@@ -19,14 +19,14 @@ const Dynamics365CustomerEngagement = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-customer-engagement/" />
-        <meta property="og:title" content="Dynamics 365 Customer Engagement Partner UK | Dynamics Square" />
-        <meta property="og:description" content="Uplift your sales & marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement plans." />
+        <meta property="og:title" content="Dynamics 365 Customer Engagement (D365 CE) Partner UK" />
+        <meta property="og:description" content="Uplift your sales & marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement (CE) plans." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/customer-engagement-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-customer-engagement/" />
-        <meta property="twitter:title" content="Dynamics 365 Customer Engagement Partner UK | Dynamics Square" />
-        <meta property="twitter:description" content="Uplift your sales & marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement plans." />
+        <meta property="twitter:title" content="Dynamics 365 Customer Engagement (D365 CE) Partner UK" />
+        <meta property="twitter:description" content="Uplift your sales & marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement (CE) plans." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/customer-engagement-banner.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
