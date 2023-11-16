@@ -54,6 +54,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   href={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}` +
                     '/'}
                 />
+                {item.rank==1 && <meta name="robots" content="noindex, nofollow" />}
                 <meta property="og:title" content={item.meta_title} />
                 <meta property="og:site_name" content="Dynamics Square" />
                 <meta
