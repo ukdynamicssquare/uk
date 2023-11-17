@@ -30,7 +30,7 @@ export async function getServerSideProps() {
 
 function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blogtranding }) {
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 5;
+  const pageSize = 10;
 
   const onPageChange = (page) => {
     setCurrentPage(page);
