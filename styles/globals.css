@@ -9578,11 +9578,14 @@ text-decoration: none;
 }
 .commen-rit-info-list p ,.commen-rit-info-list ul li,.commen-rit-info-nav-p p ,.commen-rit-info-nav p{
   color: #303a49 !important;
-    font-size: 17px;
+    font-size: 16px;
 }
 .commen-rit-info-list ul li .bi{
   margin-right:10px;
   color:var(--color-red)
+}
+.commen-rit-info-list ul li [class*=" bi-"]::before ,.cist-effect-list span [class*=" bi-"]::before{
+  font-weight: bold !important;
 }
 .m-o-b .btn-get-started {
   background: #fff !important;
@@ -9654,7 +9657,7 @@ text-decoration: none;
 }
 
 .nav-impo-info{
-  padding: 35px 80px;
+  padding: 35px 75px;
     box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
     border-radius: 5px;
     background-color: #0cb3bf;
@@ -9702,3 +9705,184 @@ text-decoration: none;
     color: #433838;
 }
 .service-box.service-box-nav .read-more{}
+.nav-pro-bg{
+  background: #f7f9fb;
+}
+
+.prom-offer-nav{
+  border-radius: 5px;
+  box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
+  background-color: #0cb3bf;
+  padding: 30px 60px;
+  margin-top: -45px;
+}
+.prom-offer-nav .right-border{
+  border-right: 1px solid #fff;
+}
+.prom-offer-nav .prom-offer-price{
+
+}
+.prom-offer-nav .prom-offer-price h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+.prom-offer-nav .prom-offer-price span{
+  color: #f7f9fb;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: right;
+  display:block;
+  padding-right: 65px;
+}
+.prom-offer-nav .prom-offer-contet p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding-left:40px;
+  margin-bottom: 0;
+}
+.metology-sec{
+  padding-top:80px
+}
+.nav-metology{}
+.nav-metology h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #1d3557;
+}
+.nav-metology p{
+  font-size: 16px;
+  color: #303a49;
+  line-height: 1.5;
+}
+.nav-metology-table.table-responsive{
+}
+.nav-metology-table.table-responsive .table>thead>tr>th{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  color: #303a49;
+}
+.nav-metology-table.table-responsive .table>tbody>tr>td{
+  font-size: 16px;
+  line-height: 1.5;
+  color: #303a49;
+}
+.nav-metology-table.table-responsive .table tr{
+  border-bottom-color: #7b93b7;
+}
+.nav-metology-table.table-responsive .table tr:last-child{
+  border-bottom: transparent;
+}
+.nav-metology-table.table-responsive .table>:not(caption)>*>*{
+  padding: 0.8rem 0.5rem;
+}
+.nav-bg{
+  background-color: #1a3b62;
+  margin-top: 80px;
+}
+.expected-nav{
+  margin-top: -120px;
+}
+.nav-to-bc-feature{
+  display:block;
+  overflow:hidden;
+  background-color: #f7f9fb;
+  padding:30px;
+  border-radius: 5px;
+  min-height: 300px;
+}
+.nav-to-bc-feature h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #1a3b62;
+}
+.nav-to-bc-feature span{
+  font-size: 18px;
+  font-weight: 600;
+  color: #303a49;
+  display:block;
+  margin-bottom:10px
+}
+.nav-to-bc-feature p{
+  font-size: 16px;
+  color: #303a49;
+  line-height: 1.5;
+}
+.nav-to-bc-feature a{
+  font-size: 16px;
+  color: #d73d3d;
+}
+
+.nav-to-bc-feature a:hover{}
+
+.nav-bg-p-white{
+  color:#fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  padding-top:60px;
+  text-align:center
+}
+.nav-bg-p-white span{
+  color: #0cb3bf;
+}
+.nav-bg-gray{
+  background-color:#f7f9fb
+}
+.cist-effect-list{
+  display:block;
+  padding-right:20px
+}
+.cist-effect-list span{
+  display: flex;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #303a49;
+}
+.cist-effect-list span .bi{
+  color: #e63946;
+  margin-right:10px
+}
+.upgrading-list{
+  display: flex;
+  margin-bottom: 30px;
+}
+.upgrading-list .left{
+  margin-right: 30px;
+}
+.upgrading-list .right{}
+.upgrading-list .right h4{
+  font-size: 18px;
+  font-weight: 600;
+  color: #303a49;
+}
+.upgrading-list .right p{
+  font-size: 16px;
+  line-height: 1.5;
+  color: #303a49;
+  margin-bottom:0px
+}
+.upgrading-list .left .shapes{
+  background-color: #fbeaee;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.upgrading-list .left .shapes img{
+
+}
+.commen-rit-info.commen-rit-info-na{
+padding-top:0;
+padding-right:60px
+}
+.section-header-nav h3{
+  color: #0cb3bf;
+}
+.bg-shapess{
+  padding-top:0px
+}
