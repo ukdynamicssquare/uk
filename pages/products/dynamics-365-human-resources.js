@@ -491,8 +491,8 @@ const HumanResource = () => {
                     Human Resources implementation.
                   </p>
                   <div className="action-content">
-                    <Link data-bs-toggle="modal" href="#exampleModal">
-                      Get Started
+                    <Link  href="/dynamics-365-human-resources-implementation/">
+                     <a>Get Started</a>
                     </Link>
                   </div>
                 </div>
