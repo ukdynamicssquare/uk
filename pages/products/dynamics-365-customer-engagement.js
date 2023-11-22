@@ -587,6 +587,139 @@ const Dynamics365CustomerEngagement = () => {
           </div>
         </div>
       </section>
+
+
+
+
+
+
+
+
+
+
+
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-7">
+              {" "}
+              <header className="section-header">
+                <h2>
+                  Have you got questions about Microsoft Dynamics 365 Customer Engagement?
+                </h2>
+                <p>Click through to our FAQ for the best answers!</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="accrlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accr-content-1"
+                    >1. What is Dynamics 365 Customer Engagement?</button>
+                  </h3>
+                  <div
+                    id="accr-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accrlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Dynamics 365 CE, formerly known as Dynamics 365 CRM, is a complete set of applications essential to building a strong relationship with customers. It is a complete package capable of streamlining the entire CRM requirements of a business.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accr-content-2"
+                    >2.	What is the difference between Dynamics 365 Customer Engagement and Sales?</button>
+                  </h3>
+                  <div
+                    id="accr-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accrlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>D365 CE is a complete package of CRM applications, whereas D365 Sales is one such application from the package. Dynamics 365 CE can empower you to streamline sales, enhance the customer experience, and drive maximum results, whereas D365 Sales specifically focuses on capturing more clients and increasing sales.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accr-content-3"
+                    >3.	What applications come under Dynamics 365 Customer Engagement?</button>
+                  </h3>
+                  <div
+                    id="accr-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accrlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Dynamics 365 CE contains four applications that include Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service, and Dynamics 365 Field Service. Based on requirements, a business can implement any solution or a combination of more than one.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accr-content-4"
+                    >4.	Why is D365 CE necessary for businesses?</button>
+                  </h3>
+                  <div
+                    id="accr-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accrlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>D365 CE is very essential to streamline, manage, and control all customer relationship requirements for a business. It can be customised to match the business requirements to drive effective customer engagement with proven results.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accr-content-5"
+                    >5.	What are the core benefits of Dynamics 365 Customer Engagement?</button>
+                  </h3>
+                  <div
+                    id="accr-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accrlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>There are numerous benefits to D365 CE that can help you achieve higher sales numbers while offering great customer service. It empowers businesses to drive customer-centric campaigns, lowers sales and marketing efforts, and offers efficient results.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
     </>
   );
 };
