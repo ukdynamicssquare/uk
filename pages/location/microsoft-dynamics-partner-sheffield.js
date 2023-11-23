@@ -331,7 +331,7 @@ const MicrosoftDynamicsPartnerSheffield = () => {
                     </div>
                   </div>
                   <div className="cintent-right cintent-right-001">
-                    <h3>You can Trust Us like our 500+ Clients</h3>
+                    <h3>You can Trust Us like our 350+ Clients</h3>
                     <p>With a team of Microsoft Dynamics 365 experts, we are delivering excellence and expertise to the businesses of Sheffield with the Microsoft Dynamics 365 solution. Our motto is to offer exceptional customer service with minimal investment and to help you achieve great success. </p>
                   </div>
                 </div>

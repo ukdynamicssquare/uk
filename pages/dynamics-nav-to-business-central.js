@@ -438,7 +438,7 @@ const DynamicsNavToBusinessCentral = () => {
                 <p>
                   Dynamics Square can be your best choice when it comes to
                   choosing a NAV to Business Central upgrade partner. With 150+
-                  technical consultants, 500+ successful projects, and 24*7
+                  technical consultants, 350+ successful projects, and 24*7
                   support uptime, we are available to accelerate your business
                   growth regardless of your industry.
                 </p>
@@ -466,7 +466,7 @@ const DynamicsNavToBusinessCentral = () => {
                   <p>
                     Dynamics Square is Microsoft's gold partner. So far, we have
                     delivered <b>170+</b> implementation projects and serving{" "}
-                    <b>500+</b> clients globally.
+                    <b>350+</b> clients globally.
                   </p>
                 </div>
               </div>

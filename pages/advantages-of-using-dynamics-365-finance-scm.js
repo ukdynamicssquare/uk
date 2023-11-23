@@ -161,7 +161,7 @@ const AdvantagesfinanceScm = () => {
                   <i className="bi bi-check-lg"></i>{" "}
                   <span>Customers That Trust Us </span>
                 </h3>
-                <p>With 500+ global customers, we have been helping businesses build seamless opportunities for growth and scalability. </p>
+                <p>With 350+ global customers, we have been helping businesses build seamless opportunities for growth and scalability. </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">

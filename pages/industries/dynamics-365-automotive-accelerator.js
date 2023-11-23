@@ -282,7 +282,7 @@ const Finance = () => {
 <p>Implementing Dynamics 365 Automotive Accelerator will supercharge business growth while also powering the business to achieve business goals and resolve complex challenges. </p>
 
 <p>Dynamics Square is committed to helping growing businesses by all possible means. For the last 12+ years, we have been offering our <Link href="/our-services/dynamics-365-support-services/"><a>Dynamics 365 support</a></Link>, <Link href="/our-services/dynamics-365-implementation-services/"><a>implementation</a></Link>, and <Link href="/our-services/dynamics-365-upgrade-services/"><a>upgrade services</a></Link> to global customers. </p>
-<p>With 150+ consultants and 500+ customers, Dynamics Square has become a reliable Microsoft Solutions Partner. In case of need, you can write us an email at info@dynamicssquare.co.uk or call us at +44-207-193-2502 directly to get instant help. </p>
+<p>With 150+ consultants and 350+ customers, Dynamics Square has become a reliable Microsoft Solutions Partner. In case of need, you can write us an email at info@dynamicssquare.co.uk or call us at +44-207-193-2502 directly to get instant help. </p>
               </header>
             </div>
           </div>
