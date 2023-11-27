@@ -14,7 +14,7 @@ const Dynamics365Consultant = () => {
           name="description"
           content="Get the seamless Dynamics 365 Consultancy service from the certified Microsoft Dynamics consultants UK. We are reliable, cost-effective, and trusted by 350+ clients."
         />
-        <link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-consultant/" />
+        <link rel="canonical" href="https://www.dynamicssquare.co.uk/our-services/dynamics-365-consultant/" />
       </Head>
       <main>
         <section className="Solution-banner hero-1 hero about-banner">
@@ -158,7 +158,7 @@ const Dynamics365Consultant = () => {
                 <ul>
                   <li>12+<span>years Partnership <br /> with Microsoft </span></li>
                   <li>150+<span>Microsoft Certified <br /> Consultants </span></li>
-                  <li>300+ <span>Global <br /> Clients </span></li>
+                  <li>350+ <span>Global <br /> Clients </span></li>
                   <li>20+<span>Microsoft Product <br /> Expertise </span></li>
                   <li>99% <span>Customer <br /> Satisfaction </span></li>
                   <li>100+<span>Technical <br /> Consultants </span></li>
