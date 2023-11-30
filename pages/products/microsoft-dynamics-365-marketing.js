@@ -8,11 +8,11 @@ const Marketing = () => {
     <>
       <Head>
       <title>
-      Dynamics 365 Marketing Partner UK: Demo & Pricing - Dynamics Square
+      Microsoft Dynamics 365 Marketing - Dynamics Square UK
         </title>
         <meta
           name="description"
-          content="Dynamics 365 Marketing can help you generate more customers and drive sales. Call now +44-207-193-2502 for demo and pricing at Dynamics Square UK."
+          content="Microsoft Dynamics 365 for Marketing is an all-in-one solution that combine integrating automation, analytics, and customer insights to optimise marketing strategies and boost CE."
         />
            <meta name="robots" content="index,follow" />
            <link
@@ -21,14 +21,14 @@ const Marketing = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/" />
-        <meta property="og:title" content="Dynamics 365 Marketing Automation & Implementation Partner" />
-        <meta property="og:description" content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Find out how you can use Dynamics 365 Marketing to make the most out of your marketing campaigns." />
+        <meta property="og:title" content="Microsoft Dynamics 365 Marketing - Dynamics Square UK" />
+        <meta property="og:description" content="Microsoft Dynamics 365 for Marketing is an all-in-one solution that combine integrating automation, analytics, and customer insights to optimise marketing strategies and boost CE." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/" />
-        <meta property="twitter:title" content="Dynamics 365 Marketing Automation & Implementation Partner" />
-        <meta property="twitter:description" content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Find out how you can use Dynamics 365 Marketing to make the most out of your marketing campaigns." />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Marketing - Dynamics Square UK" />
+        <meta property="twitter:description" content="Microsoft Dynamics 365 for Marketing is an all-in-one solution that combine integrating automation, analytics, and customer insights to optimise marketing strategies and boost CE." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
         
       </Head>
@@ -41,7 +41,7 @@ const Marketing = () => {
                 <br />
                 Marketing
               </h1>
-              <p>Automate your marketing to increase your conversion rates</p>
+              <p>Automate your marketing activities, create engaging content leveraging AI, and increase your conversion rates with Dynamics 365 Marketing.</p>
               <div>
                 <div className="text-center text-lg-start align-self-center">
                   <Link  href="#exampleModal"><a
@@ -68,6 +68,7 @@ const Marketing = () => {
       <section>
         <div className="container">
           <header className="section-header">
+            <p style={{paddingBottom:'40px'}}><b>Note: </b> From September 1, 2023, Dynamics 365 Marketing and Dynamics 365 Insights have been merged into one unified solution: <Link href="/blog/dynamics-365-customer-insights-journeys/"><a>Dynamics 365 Insights - Journey</a></Link>. This combination will empower businesses to offer great customer experiences by utilising data insights.</p>
             <h2>
               What is dynamics 365
               <br />
@@ -503,36 +504,35 @@ const Marketing = () => {
         <div className="container">
           <header className="section-header">
             <h2>Dynamics 365 Marketing Pricing</h2>
+            <p>With the transformation of D365 Marketing into Dynamics 365 Insights – Journey, the pricing of this standalone application has been recently announced by Microsoft. </p>
           </header>
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-6 col-md-6">
               <div className="box box-22">
                 <h3>
-                Dynamics 365 Marketing
+                Dynamics 365 Marketing  <br /> (Dynamics 365 Insights – Journey)
                 </h3>
-                <p><b>For organisations without any other Dynamics 365 application</b></p>
+                <p><b>New Customer</b></p>
                 <div className="price">
-                  £1,232.90<span>Per-User/Per Month</span>
+                  £1346<span>Per-Tenant/Per Month</span>
                 </div>
                 <ul>
-                  <li className="text-center">
-                  Includes 10,000 contacts, 100,000 interactions, 1,000 SMS Messages<sup>2</sup>
-                  </li>
+                  <li className="text-center">10,000 People Interacted and 100,00 People Unified</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="box box-22">
                 <h3>
-                Dynamics 365 Marketing Attach
+                Dynamics 365 Marketing Attach <br /> (Dynamics 365 Insights – Journey)
                 </h3>
-                <p><b>For organisations with a qualifying Dynamics 365 application<sup>3</sup></b></p>
+                <p><b>Existing Customer</b></p>
                 <div className="price">
-                  £616.50<span>Per-User/Per Month</span>
+                  £792<span>Per-Tenant/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                  Includes 10,000 contacts, 100,000 interactions, 1,000 SMS Messages
+                  10,000 People Interacted and 100,00 People Unified
                   </li>
                 </ul>
               </div>
@@ -682,6 +682,26 @@ const Marketing = () => {
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
               <div className="accordion accordion-flush" id="faqlist1">
+              <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-0"
+                    >Are Microsoft Dynamics 365 Marketing and Microsoft Dynamics 365 Insights - Journey same?</button>
+                  </h3>
+                  <div
+                    id="faq-content-0"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist0"
+                  >
+                    <div className="accordion-body">
+                    No, Microsoft has merged Marketing and Insights solutions to offer a single powerful solution capable of fulfilling the core demands of business that consists of marketing and data insights. From September 1, 2023, Dynamics 365 Marketing isn’t available for purchase, as you can go for D365 Insights – Journey.
+                    
+                    </div>
+                  </div>
+                </div>
                 <div className="accordion-item">
                   <h3 className="accordion-header">
                     <button
