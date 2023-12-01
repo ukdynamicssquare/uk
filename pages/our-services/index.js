@@ -183,6 +183,40 @@ const Inedex = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="location-list-wrper">
+                <h3>Dynamics 365 Training</h3>
+                <p>
+                Get personalised training from experienced Microsoft ERP consultants and industry experts to properly utilise Dynamics 365 solutions, boost productivity, and empower your team to achieve goals. 
+                </p>
+                <br />
+                <div className="text-lg-center">
+                  <Link
+                    href="/our-services/dynamics-365-training/"><a
+                    className="btn-get-started btn-sm scrollto">
+            
+                    <span>View More</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="location-list-wrper">
+                <h3>Microsoft Dynamics 365 Consultants</h3>
+                <p>
+                Onboard Microsoft-certified Dynamics 365 consultants to resolve issues whenever you encounter them, simplify business operations, optimise processes, and push your business towards digital transformation. 
+                </p>
+                <br />
+                <div className="text-lg-center">
+                  <Link
+                    href="/our-services/dynamics-365-consultant/"><a
+                    className="btn-get-started btn-sm scrollto">
+            
+                    <span>View More</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -1098,6 +1098,11 @@ class Header extends Component {
                           Dynamics 365 Training
                         </a>
                       </li>
+                      <li>
+                        <a href="/our-services/dynamics-365-consultant/">
+                          Dynamics 365 Consultants
+                        </a>
+                      </li>
                     </ul>
                   </li>
                   <li className="dropdown">
@@ -1598,6 +1603,11 @@ class Header extends Component {
                                 <li>
                                   <a href="/our-services/dynamics-365-training/">
                                     Dynamics 365 Training
+                                  </a>
+                                </li>
+                                <li> 
+                                  <a href="/our-services/dynamics-365-consultant/">
+                                    Dynamics 365 Consultants
                                   </a>
                                 </li>
                               </ul>
