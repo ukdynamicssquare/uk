@@ -9886,3 +9886,242 @@ padding-right:60px
 .bg-shapess{
   padding-top:0px
 }
+
+.btn-get-started.btn-nav{
+  background-color: #ffffff;
+    color: var(--color-red);
+    font-weight: 500;
+}
+.btn-get-started.btn-nav:hover{
+  background-color: var(--color-red) !important;
+  color:#ffffff
+}
+.btn-get-started.btn-nav .bi::before,[class*=" bi-"]::before{
+  font-weight: 600 !important;
+}
+
+.nav-icon-box-bg{
+  position:relative
+}
+.over-heading-nav{
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  display: block;
+  padding: 30px 20px;
+  border-radius: 0px 0px 5px 5px;
+  top: -70px;
+}
+.over-heading-nav h3{
+  font-size: 18px;
+  color: #1d3557;
+  font-weight: 600;
+}
+.over-heading-nav.bg-1{
+  background: #bdf0d1;
+}
+.over-heading-nav.bg-2{
+  background: #d0f1f9;
+}
+.over-heading-nav.bg-3{
+  background: #ccd3ef;
+}
+.over-heading-nav.bg-4{
+  background: #f1d9ff;
+}
+.commen-rit-info.commen-rit-info-list h3{
+font-size:24px
+}
+.pd-40{
+  padding:80px 0px
+}
+.pd-3333{
+  padding-bottom: 80px;
+}
+.pd-3334{
+  padding-bottom: 80px;
+}
+.pd-3335{}
+
+.new-testmoinal-wrp{
+  background-color: #0cb3bf;
+  padding: 60px 60px 60px 80px;
+}
+.new-testmoinal-wrp p{color:#ffffff;font-size: 18px;
+  font-weight: 600;}
+.new-testmoinal-wrp span{color:#ffffff;display:block; color: #ebf3ff;font-size: 18px;}
+.mySwiper-testmon .swiper-button-next:after{
+  color: #020202;
+}
+.mySwiper-testmon .swiper-button-prev:after {
+  color: #020202;
+}
+.testomonial-new-heading{
+  padding-bottom: 40px;
+}
+.testomonial-new-heading h3{
+  font-size: 32px;
+  color: #1a3b62;
+}
+.testomonial-new-heading p{
+  font-size: 18px;
+  line-height: 1.44;
+  color: #545c68;
+}
+.bg-gray{
+  background: #f7f9fb;
+  padding-bottom: 140px;
+}
+.top-nag-top{
+  margin-top: -200px;
+}
+.new-iner-head{
+  text-align:center
+}
+.new-iner-head h3{
+  font-size: 32px;
+  font-weight: bold;
+  color: #1d3557;
+  padding-bottom: 80px;
+}
+.pd-top-40{
+  padding-top: 80px;
+}
+.box-style-12{
+  text-align:center;
+  padding: 30px 20px;
+  position:relative
+}
+.box-style-12 img{
+  margin-bottom: 30px;
+  background: #fbeaee;
+  border-radius: 50%;
+  padding: 15px;
+  border: 5px solid #fff;
+}
+
+.box-style-12 p{
+
+}
+.cut-pad-12{
+  padding: 80px 0px 60px 0px;
+  background: #fff;
+}
+.bg-sha{
+  position:relative
+}
+.bg-shapte{
+  background: url(/img/Vector-500.png) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: -25px;
+    background-size: contain;
+}
+.m-t-10{
+  margin-top: -30px;
+}
+.m-t-11{
+  margin-top: -60px;
+}
+.m-t-12{
+  margin-top: -100px;
+}
+.lef-head-nn{
+  padding: 30px 0px 60px 0px;
+}
+.lef-head-nn h3{
+  font-size: 24px;
+  font-weight: bold;
+  color: #1d3557;
+}
+.nnd-top-30{
+  padding-bottom: 100px;
+}
+
+.left-newww{
+  display: flex;
+}
+.faq-nav{
+  background-color: #f7f9fb;
+}
+.left-newww .bi{
+  color:#d73d3d;
+  margin-right: 20px;
+}
+.faq-nav .accordion-item .accordion-button,.faq-nav .accordion-body{
+  background-color: #f7f9fb;
+}
+.faq-nav .accordion-item{
+border-color:rgb(123 147 183 / 40%)
+}
+.faq-nav.faq .accordion-button {
+  font-weight: 700;
+}
+.bg-gra{
+  background-color:#f7f9fb
+}
+.industri-sec{
+  display: block;
+    overflow: hidden;
+    padding: 30px;
+    background: #fff;
+    margin-bottom:30px
+}
+.industri-sec .list-left{
+  display: flex;
+}
+.industri-sec .list-left .bi{
+  margin-right: 20px;
+  color:#d73d3d
+}
+.industri-sec .list-left h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #1d3557;
+}
+.industri-sec .list-left-cont{
+  margin-top: 15px;
+}
+.industri-sec .list-left-cont p{
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.callto-prpmo-offer{}
+.callto-prpmo-offer .toe{
+  position: relative;
+  padding: 30px;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.25);
+  background-color: #0cb3bf;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  width: 390px;
+}
+.callto-prpmo-offer .toe h3{
+  font-size: 40px;
+  font-weight: 300;
+  color:#fff
+}
+.callto-prpmo-offer .toe h3 span{
+  font-weight:bold
+}
+.callto-prpmo-offer .toe:after{
+  content: '';
+    position: absolute;
+    border-top: 20px solid #0cb3bf;
+    border-bottom: 20px solid #ddd0;
+    border-left: 20px solid #0cb3bf;
+    border-right: 20px solid #ddd0;
+    bottom: -38px;
+    left: 50px;
+}
+.callto-prpmo-offer h4{
+  font-size: 32px;
+  font-weight: bold;
+  color: #1d3557;
+}
+.callto-prpmo-offer p{
+  font-size: 18px;
+  color: #545c68;
+  line-height: 1.44;
+}
