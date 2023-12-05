@@ -585,6 +585,8 @@ section {
   visibility: visible;
   background: #fff;
   box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
+  -moz-box-shadow:0 0 30px rgba(127, 137, 161, 0.25);
+  -webkit-box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
 }
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
@@ -932,6 +934,8 @@ section {
   background: #ffffff;
   padding: 20px;
   box-shadow: 0px 2px 5px #dde2ef;
+  -moz-box-shadow: 0px 2px 5px #dde2ef;
+  -webkit-box-shadow: 0px 2px 5px #dde2ef;
   border-radius: 5px;
   height: 125px;
   display: flex;
@@ -1030,6 +1034,8 @@ section {
   background: #fff;
   height: 275px;
   box-shadow: 0 10px 30px 0 rgb(22 92 196 / 16%);
+  -moz-box-shadow: 0 10px 30px 0 rgb(22 92 196 / 16%);
+  -webkit-box-shadow: 0 10px 30px 0 rgb(22 92 196 / 16%);
   border-radius: 10px;
 }
 .figer-box .top {
@@ -1313,6 +1319,8 @@ section {
   background: #fff;
   text-align: center;
   box-shadow: 0 0 30px rgba(1, 41, 112, 0.08);
+  -moz-box-shadow:  0 0 30px rgba(1, 41, 112, 0.08);
+  -webkit-box-shadow:  0 0 30px rgba(1, 41, 112, 0.08);
   border-radius: 20px;
   position: relative;
   overflow: hidden;
@@ -1321,6 +1329,8 @@ section {
 }
 .pricing .box:hover {
   box-shadow: 0 0 30px rgba(1, 41, 112, 0.1);
+  -moz-box-shadow:  0 0 30px rgba(1, 41, 112, 0.1);
+  -webkit-box-shadow:  0 0 30px rgba(1, 41, 112, 0.1);
 }
 .pricing .box.boc-bc-scroll ul {
   height: 300px;
@@ -1630,6 +1640,8 @@ section {
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0 0 30px rgba(1, 41, 112, 0.08);
+  -moz-box-shadow: 0 0 30px rgba(1, 41, 112, 0.08);
+  -webkit-box-shadow: 0 0 30px rgba(1, 41, 112, 0.08);
 }
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
@@ -1938,6 +1950,8 @@ section {
 .blog .entry,
 .blog .sidebar {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 .recent-blog-posts .post-box .post-img {
   overflow: hidden;
@@ -3212,6 +3226,8 @@ section {
   top: 0;
   left: 0;
   box-shadow: 10px 10px 10px 10px #000;
+  -moz-box-shadow: 10px 10px 10px 10px #000;
+  -webkit-box-shadow: 10px 10px 10px 10px #000;
 }
 .custom0099 {
   margin-top: -60px;
@@ -4251,6 +4267,8 @@ section {
 }
 .busines-accr {
   box-shadow: 0 0 15px 0 rgb(29 53 87 / 22%);
+  -moz-box-shadow: 0 0 15px 0 rgb(29 53 87 / 22%);
+  -webkit-box-shadow: 0 0 15px 0 rgb(29 53 87 / 22%);
   padding: 30px 15px;
   border-radius: 7px;
   margin: 60px 10px;
@@ -4717,6 +4735,7 @@ section {
 .why-slider-sec {
   box-shadow: 0 15px 30px 0 rgba(24, 109, 184, 0.16);
   -moz-box-shadow: 0 15px 30px 0 rgba(24, 109, 184, 0.16);
+  -webkit-box-shadow: 0 15px 30px 0 rgba(24, 109, 184, 0.16);
 }
 .section-heade-custom h3 img {
   margin-left: 10px;
@@ -5230,6 +5249,8 @@ section {
 }
 .bg-case {
   box-shadow: 0 15px 30px 0 rgb(22 92 196 / 16%);
+  -moz-box-shadow: 0 15px 30px 0 rgb(22 92 196 / 16%);
+  -webkit-box-shadow: 0 15px 30px 0 rgb(22 92 196 / 16%);
   background: #fff;
   border-radius: 15px;
   padding: 30px;
@@ -5381,6 +5402,8 @@ section {
 }
 .wr-in .number-st {
   box-shadow: 5px 5px 10px 0 rgb(22 92 196 / 16%);
+  -moz-box-shadow: 5px 5px 10px 0 rgb(22 92 196 / 16%);
+  -webkit-box-shadow: 5px 5px 10px 0 rgb(22 92 196 / 16%);
   /* letter-spacing: 1px; */
   background: #fff;
   width: 56px;
@@ -5522,6 +5545,8 @@ section {
 .parten-more {
   padding: 30px 30px 15px;
   box-shadow: 0 0 30px rgb(1 41 112 / 8%);
+  -moz-box-shadow: 0 0 30px rgb(1 41 112 / 8%);
+  -webkit-box-shadow: 0 0 30px rgb(1 41 112 / 8%);
   margin-bottom: 15px;
 }
 .parten-more h3 {
@@ -5633,6 +5658,8 @@ section {
   align-items: center;
   background: #fff;
   box-shadow: 0 0 1px #01297042;
+  -moz-box-shadow: 0 0 1px #01297042;
+  -webkit-box-shadow: 0 0 1px #01297042;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -5656,6 +5683,8 @@ section {
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 0 10px #01297042;
+  -moz-box-shadow: 0 0 10px #01297042;
+  -webkit-box-shadow: 0 0 10px #01297042;
 }
 .main-form-wrper-nav h3 {
   font-size: 20px;
@@ -5729,12 +5758,16 @@ section {
   background: #fff;
   padding: 80px 40px;
   box-shadow: 0 0 132px -56px #32323296;
+  -moz-box-shadow: 0 0 132px -56px #32323296;
+  -webkit-box-shadow: 0 0 132px -56px #32323296;
   border-radius: 10px;
 }
 .bg-3335,
 .sedule-form .main-form-wrper {
   background: #fff;
   box-shadow: 0 10px 25px 0 rgb(0 19 48 / 35%);
+  -moz-box-shadow: 0 10px 25px 0 rgb(0 19 48 / 35%);
+  -webkit-box-shadow: 0 10px 25px 0 rgb(0 19 48 / 35%);
   border-radius: 10px;
 }
 .custom00004 h2 {
@@ -5856,6 +5889,8 @@ section {
   font-size: 14px;
   margin: 0;
   box-shadow: 0 0 32px #00000026;
+  -moz-box-shadow: 0 0 32px #00000026;
+  -webkit-box-shadow: 0 0 32px #00000026;
   color: #000 !important;
   background: #fff !important;
   z-index: 999999999999999 !important;
@@ -6077,6 +6112,8 @@ section {
   padding: 20px 40px;
   background: #f6f8fc;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 21%);
+  -moz-box-shadow: 0px 0px 10px rgb(0 0 0 / 21%);
+  -webkit-box-shadow: 0px 0px 10px rgb(0 0 0 / 21%);
   border-radius: 15px;
   margin: 25px 0px;
   z-index: 2;
@@ -6312,6 +6349,8 @@ section {
 .ns-bdd {
   border-radius: 20px;
   box-shadow: 0 15px 30px 0 rgba(29, 52, 98, 0.16);
+  -moz-box-shadow: 0 15px 30px 0 rgba(29, 52, 98, 0.16);
+  -webkit-box-shadow: 0 15px 30px 0 rgba(29, 52, 98, 0.16);
   background-color: #fff;
   padding: 60px;
   margin-top: -130px !important;
@@ -6380,6 +6419,8 @@ section {
   top: 40%;
   background: #ffffff57;
   box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
   padding: 15px 10px;
   border-radius: 0px 15px 15px 0px;
   transition: 0.6s;
@@ -6434,6 +6475,8 @@ section {
 .card-ds-slide {
   border: none !important;
   box-shadow: 0 15px 30px 0 rgb(39 71 101 / 16%);
+  -moz-box-shadow: 0 15px 30px 0 rgb(39 71 101 / 16%);
+  -webkit-box-shadow: 0 15px 30px 0 rgb(39 71 101 / 16%);
 }
 .card-ds-slide:hover {
 }
@@ -6541,6 +6584,8 @@ section {
 .solution-new-tab-content .inner-con-div {
   border-radius: 10px;
   box-shadow: 0 15px 30px 0 rgba(39, 71, 101, 0.16);
+  -moz-box-shadow: 0 15px 30px 0 rgba(39, 71, 101, 0.16);
+  -webkit-box-shadow: 0 15px 30px 0 rgba(39, 71, 101, 0.16);
   background-color: #fff;
   padding: 40px;
   color: #000;
@@ -6607,6 +6652,8 @@ section {
 }
 .new-card-sol {
   box-shadow: 0 15px 30px 0 rgb(39 71 101 / 16%);
+  -moz-box-shadow: 0 15px 30px 0 rgb(39 71 101 / 16%);
+  -webkit-box-shadow: 0 15px 30px 0 rgb(39 71 101 / 16%);
   border-radius: 10px;
   overflow: hidden;
   display: block;
@@ -6741,6 +6788,8 @@ section {
   margin-bottom: 25px;
   border-radius: 30px;
   box-shadow: 1px 3px 5px #888888;
+  -moz-box-shadow: 1px 3px 5px #888888;
+  -webkit-box-shadow: 1px 3px 5px #888888;
 }
 .fixed-button a {
   color: #fff;
@@ -6819,6 +6868,8 @@ section {
   background-color: white;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   width: 500px;
 }
@@ -8486,6 +8537,8 @@ ul.checkmark li {
   border-radius: 5px;
   font-size: 16px;
   box-shadow: 1px 0px 6px #0000003d;
+  -moz-box-shadow: 1px 0px 6px #0000003d;
+  -webkit-box-shadow: 1px 0px 6px #0000003d;
 }
 
 @media (max-width: 992px) {
@@ -9479,6 +9532,8 @@ ul.checkmark li {
   background-color: #fff;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   display: inline-flex;
   float: none;
   flex-flow: column nowrap;
@@ -9557,6 +9612,8 @@ text-decoration: none;
   background: #fff;
   border-radius: 5px;
   box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
+  -moz-box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
+  -webkit-box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
   height: 300px;
   margin-bottom:20px
 }
@@ -9653,7 +9710,7 @@ text-decoration: none;
 }
 .video-info-call p{
   color: #f5f5f5;
-  ont-size: 18px;
+  font-size: 18px;
   margin-bottom:30px
 }
 .bb-tn .btn{
@@ -9669,6 +9726,8 @@ text-decoration: none;
 .nav-impo-info{
   padding: 35px 75px;
     box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
+    -moz-box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
+    -webkit-box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
     border-radius: 5px;
     background-color: #0cb3bf;
     position: relative;
@@ -9722,6 +9781,8 @@ text-decoration: none;
 .prom-offer-nav{
   border-radius: 5px;
   box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
+  -moz-box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
+  -webkit-box-shadow: 10px 10px 30px 0 rgba(29, 53, 87, 0.1);
   background-color: #0cb3bf;
   padding: 30px 60px;
   margin-top: -45px;
@@ -10102,6 +10163,8 @@ border-color:rgb(123 147 183 / 40%)
   position: relative;
   padding: 30px;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.25);
   background-color: #0cb3bf;
   margin-bottom: 60px;
   border-radius: 5px;
