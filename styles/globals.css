@@ -9288,6 +9288,10 @@ ul.checkmark li {
 .blogs-content-inner ul li b a {
   font-weight: 400 !important;
 }
+.blogs-content-inner p iframe{
+  width:100%;
+  height:500px
+}
 .blogs-ex-side-cate-home ul {
   display: flex;
   flex-wrap: wrap;
@@ -9457,6 +9461,12 @@ ul.checkmark li {
   }
   .popup-cust .content {
     padding: 0px;
+  }
+}
+@media(max-width:768px){
+  .blogs-content-inner p iframe{
+    width:100%;
+    height:auto
   }
 }
 
