@@ -4530,6 +4530,12 @@ section {
 }
 .team-memb .tem-mem-pic {
 }
+.team-memb .tem-mem-pic.tem-mem-pic-size img{
+  border: 5px solid #d5d5d5;
+    width: 210px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
 .team-memb .tem-mem-info {
 }
 .team-memb .tem-mem-info h4 {
@@ -9980,6 +9986,9 @@ ul.checkmark li {
 .nav-icon-box-bg {
   position: relative;
 }
+.nav-icon-box-bg:hover h3{
+  color:#bb2b36
+}
 .over-heading-nav {
   position: relative;
   bottom: 0;
@@ -10213,4 +10222,7 @@ ul.checkmark li {
   font-size: 18px;
   color: #545c68;
   line-height: 1.44;
+}
+.nav-pro-bg-white-pd{
+  margin-bottom: -60px;
 }
