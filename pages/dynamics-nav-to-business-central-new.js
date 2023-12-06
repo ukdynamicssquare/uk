@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation , Autoplay } from 'swiper';
+import { Navigation, Autoplay } from 'swiper';
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
@@ -28,7 +28,7 @@ const DynamicsNavToBusinessCentral = () => {
               <p>Dynamics Square is here to ensure a smoother transition for you, without costing a million bucks! Are you ready?</p>
               <Link href="#exampleModal">
                 <a data-bs-toggle="modal" className="btn-get-started scrollto btn-nav">
-                  <span>Talk to Our Seasoned Experts Now <i className="bi bi-arrow-right"></i></span></a>
+                  <span>Talk to Our Seasoned Experts Now  <i className="bi bi-arrow-right"></i></span></a>
               </Link>
             </div>
             <div className="col-lg-6 align-self-center">
@@ -55,42 +55,52 @@ const DynamicsNavToBusinessCentral = () => {
           <div className="row pd-333">
             <div className="col-lg-3">
               <div className="nav-icon-box-bg">
-                <div className="pic-nav">
-                  <img src="/img/nav-icon-mac-1.png" alt="contact_support" />
-                </div>
-                <div className="over-heading-nav bg-1">
-                  <h3>I would like to receive support and advice on my current NAV version.</h3>
-                </div>
+                <Link href="/our-services/dynamics-365-support-services/">
+                 <a> <div className="pic-nav">
+                    <img src="/img/nav-icon-mac-1.png" alt="contact_support" />
+                  </div>
+                  <div className="over-heading-nav bg-1">
+                    <h3>I would like to receive support and advice on my current NAV version.</h3>
+                  </div></a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="nav-icon-box-bg">
-                <div className="pic-nav">
+                <Link href='#exampleModal'>
+                <a data-bs-toggle="modal" ><div className="pic-nav">
                   <img src="/img/nav-icon-mac-2.png" alt="contact_support" />
                 </div>
                 <div className="over-heading-nav bg-2">
                   <h3>I am looking for enhancements in my existing NAV version.</h3>
-                </div>
+                </div></a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="nav-icon-box-bg">
-                <div className="pic-nav">
+               <Link href="/our-services/dynamics-365-upgrade-services/">
+               <a><div className="pic-nav">
                   <img src="/img/nav-icon-mac-3.png" alt="contact_support" />
                 </div>
                 <div className="over-heading-nav bg-3">
                   <h3>I am using NAV, but willing to Upgrade to Dynamics 365 Business Central.</h3>
-                </div>
+                </div></a>
+               </Link>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="nav-icon-box-bg">
-                <div className="pic-nav">
+               <Link href="/products/microsoft-dynamics-365/">
+              <a>
+              <div className="pic-nav">
                   <img src="/img/nav-icon-mac-4.png" alt="contact_support" />
                 </div>
                 <div className="over-heading-nav bg-4">
                   <h3>I would like to learn more about the D365 business applications ecosystem.</h3>
                 </div>
+              </a>
+               </Link>
               </div>
             </div>
           </div>
@@ -122,15 +132,15 @@ const DynamicsNavToBusinessCentral = () => {
                 <p><b>The time is now to make a progressive shift as NAV support from Microsoft will not be till the end</b></p>
               </div>
               <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Contact our consultant now <i className="bi bi-arrow-right"></i></span>
-                    </a>
-                  </Link>
-                </div>
+                <Link href="#exampleModal">
+                  <a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Book A Demo <i className="bi bi-arrow-right"></i></span>
+                  </a>
+                </Link>
+              </div>
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-5 align-self-center">
@@ -144,15 +154,15 @@ const DynamicsNavToBusinessCentral = () => {
           </div>
 
           <div className="row pd-3334">
-          <div className="col-lg-5 align-self-center">
+            <div className="col-lg-5 align-self-center">
               <div className="commen-lef-pic">
                 <img
-                  src="/img/analyze-real-time.png"
-                  alt="analyze-real-time"
+                  src="/img/higher-expenses.png"
+                  alt="higher-expenses"
                 />
               </div>
             </div>
-          
+
             <div className="col-lg-1"></div>
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
@@ -162,15 +172,15 @@ const DynamicsNavToBusinessCentral = () => {
                 <p><b>Let’d find out which version of NAV or Business Central you are on before taking the next step?</b></p>
               </div>
               <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Contact our consultant now <i className="bi bi-arrow-right"></i></span>
-                    </a>
-                  </Link>
-                </div>
+                <Link href="#exampleModal">
+                  <a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Contact our consultant now <i className="bi bi-arrow-right"></i></span>
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
 
@@ -197,8 +207,8 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-lef-pic">
                 <img
-                  src="/img/analyze-real-time.png"
-                  alt="analyze-real-time"
+                  src="/img/minimize-risks.png"
+                  alt="Minimize Risks"
                 />
               </div>
             </div>
@@ -211,7 +221,7 @@ const DynamicsNavToBusinessCentral = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
-            <div className="testomonial-new-heading">
+              <div className="testomonial-new-heading">
                 <h3>Rest let’s hear what our client <br /> has to say in their testimonials.</h3>
                 <p>See why they consider Dynamics Square a trusted partner.</p>
               </div>
@@ -223,22 +233,22 @@ const DynamicsNavToBusinessCentral = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper mySwiper-testmon">
-              <SwiperSlide>  
-                <div className="new-testmoinal-wrp">
-                      <p>There are several risks associated with upgrading your customized NAV Version, including compatibility issues, potential data loss, operational downtime, cost overruns, and challenges in integrating with other systems. However, with our team, you can avoid these hassles. Our NAV & Dynamics Business Central experts guarantee a seamless, risk-free transition of objects and data. They ensure an effective upgrade without disrupting your business operations.</p>
-                      <span>-Facility Manager</span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>  
-                <div className="new-testmoinal-wrp">
-                      <p>There are several risks associated with upgrading your customized NAV Version, including compatibility issues, potential data loss, operational downtime, cost overruns, and challenges in integrating with other systems. However, with our team, you can avoid these hassles. Our NAV & Dynamics Business Central experts guarantee a seamless, risk-free transition of objects and data. They ensure an effective upgrade without disrupting your business operations.</p>
-                      <span>-Facility Manager</span>
-                </div>
-              </SwiperSlide>
-          </Swiper>
+              <Swiper navigation={true} modules={[Navigation]} className="mySwiper mySwiper-testmon">
+                <SwiperSlide>
+                  <div className="new-testmoinal-wrp">
+                    <p>There are several risks associated with upgrading your customized NAV Version, including compatibility issues, potential data loss, operational downtime, cost overruns, and challenges in integrating with other systems. However, with our team, you can avoid these hassles. Our NAV & Dynamics Business Central experts guarantee a seamless, risk-free transition of objects and data. They ensure an effective upgrade without disrupting your business operations.</p>
+                    <span>-Facility Manager</span>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="new-testmoinal-wrp">
+                    <p>There are several risks associated with upgrading your customized NAV Version, including compatibility issues, potential data loss, operational downtime, cost overruns, and challenges in integrating with other systems. However, with our team, you can avoid these hassles. Our NAV & Dynamics Business Central experts guarantee a seamless, risk-free transition of objects and data. They ensure an effective upgrade without disrupting your business operations.</p>
+                    <span>-Facility Manager</span>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
 
-            
+
             </div>
           </div>
           <div className='row justify-content-center pd-top-40'>
@@ -264,9 +274,8 @@ const DynamicsNavToBusinessCentral = () => {
                 <h3>Business Growth is About Taking the Next Innovative Step</h3>
                 <p>See how we can help you succeed with D365 Business Central easily, at a cost-effective price.</p>
                 <div className="text-center m-o-b">
-                  <Link href="#exampleModal">
+                  <Link href="/case-studies/">
                     <a
-                      data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
                       <span>Read More Case Stories <i className="bi bi-arrow-right"></i></span>
@@ -282,7 +291,7 @@ const DynamicsNavToBusinessCentral = () => {
 
       <section className='cut-pad-12'>
         <div className='container'>
-        <div className="row justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>Is it the Right Time to Level Up your business from NAV to Business Central?</h2>
@@ -291,35 +300,35 @@ const DynamicsNavToBusinessCentral = () => {
           </div>
           <div className="row">
             <div className='col-lg-5'>
-            <div className='lef-head-nn'>
+              <div className='lef-head-nn'>
                 <h3>Let’s consider the factors to analyze <br /> that is the right time to level up</h3>
               </div>
             </div>
           </div>
-          <div className='row bg-sha'>       
+          <div className='row bg-sha'>
             <div className='bg-shapte'></div>
             <div className='col-lg-3'>
               <div className='box-style-12'>
-                  <img src="/img/rule_settings-1.png" alt="icons" />
-                  <p>When Microsoft support lifecycle comes to an end</p>
+                <img src="/img/rule_settings-1.png" alt="icons" />
+                <p>When Microsoft support lifecycle comes to an end</p>
               </div>
             </div>
             <div className='col-lg-3 m-t-10'>
               <div className='box-style-12'>
-                  <img src="/img/chart_data.png" alt="icons" />
-                  <p>Your origination is seeking business growth</p>
+                <img src="/img/chart_data.png" alt="icons" />
+                <p>Your origination is seeking business growth</p>
               </div>
             </div>
             <div className='col-lg-3 m-t-11'>
               <div className='box-style-12'>
-                  <img src="/img/data_saver_on.png" alt="icons" />
-                  <p>When your business requires tighter integration like Microsoft 365, Power BI, or Azure</p>
+                <img src="/img/data_saver_on.png" alt="icons" />
+                <p>When your business requires tighter integration like Microsoft 365, Power BI, or Azure</p>
               </div>
             </div>
             <div className='col-lg-3 m-t-12'>
               <div className='box-style-12'>
-                  <img src="/img/add_chart.png" alt="icons" />
-                  <p>If your industry or region has specific regulatory requirements, unique reporting or data retention requirements.</p>
+                <img src="/img/add_chart.png" alt="icons" />
+                <p>If your industry or region has specific regulatory requirements, unique reporting or data retention requirements.</p>
               </div>
             </div>
           </div>
@@ -330,7 +339,7 @@ const DynamicsNavToBusinessCentral = () => {
       <section className="bg-shape bg-shape-bg nnd-top-30">
         <div className="container">
           <div className="row pad9x rever-1">
-        
+
             <div className="col-lg-5 align-self-center">
               <div className="commen-lef-pic">
                 <img
@@ -347,15 +356,15 @@ const DynamicsNavToBusinessCentral = () => {
                 <p>Dynamics Square ensures that you will Witness Big Changes in Daily Operation Work Like never before.</p>
               </div>
               <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Talk to our Expert <i className="bi bi-arrow-right"></i></span>
-                    </a>
-                  </Link>
-                </div>
+                <Link href="#exampleModal">
+                  <a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Talk to our Expert <i className="bi bi-arrow-right"></i></span>
+                  </a>
+                </Link>
+              </div>
             </div>
 
           </div>
@@ -378,7 +387,7 @@ const DynamicsNavToBusinessCentral = () => {
                   <h3>Dynamics Square believe in doing an Auditing of your Old System before suggesting a new one</h3>
                   <p>Upgrading an ERP is quite a critical decision for organizations as it is done through ample research and the involvement of the right ERP Implementation partner.</p>
                   <div className="bb-tn">
-                    <Link href="/"><a className="btn btn-md">Get Health Check Audit Now <i className="bi bi-arrow-right"></i></a></Link>
+                    <Link href="/free-dynamics-365-system-health-check/"><a className="btn btn-md">Get Health Check Audit Now <i className="bi bi-arrow-right"></i></a></Link>
                   </div>
                 </div>
               </div>
@@ -408,7 +417,7 @@ const DynamicsNavToBusinessCentral = () => {
               <div className="commen-rit-info commen-rit-info-nav">
                 <h2>Learn why upgrading from NAV to BC is a progressive step towards your business growth</h2>
                 <p>With rapid advancements due to the digital era, there is advancement in the latest technologies to align it with the fast-paced working environment.</p>
-                <p>Microsoft has responded to this evolution by introducing new functionalities, bettering existing features, and leveraging cloud integration to meet the needs of a forward-thinking work environment.</p> 
+                <p>Microsoft has responded to this evolution by introducing new functionalities, bettering existing features, and leveraging cloud integration to meet the needs of a forward-thinking work environment.</p>
                 <p>With features like enhanced seamless integration among Microsoft products like Excel, Word, Outlook, Teams, etc., improved scalability, user experience, global accessibility, and other advanced features, you can enhance your chances of success.</p>
 
               </div>
@@ -425,10 +434,10 @@ const DynamicsNavToBusinessCentral = () => {
           </div>
         </div>
       </section>
-      
+
       <section className='solution-faq faq faq-nav'>
         <div className='container'>
-        <div className="row mar-top-7">
+          <div className="row mar-top-7 justify-content-center">
             <div className="col-md-8">
               <div className="accordion accordion-flush" id="faqlist1">
                 <div className="accordion-item">
@@ -439,8 +448,8 @@ const DynamicsNavToBusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                     <div className='left-newww'>
-                     <i className="bi bi-check-circle"></i> Are you facing difficulty managing finances in your organizations?</div>
+                      <div className='left-newww'>
+                        <i className="bi bi-check-circle"></i> Are you facing difficulty managing finances in your organizations?</div>
                     </button>
                   </h3>
                   <div
@@ -449,7 +458,7 @@ const DynamicsNavToBusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    <p>If you're finding it difficult to manage finances, then it is worth considering a financial management solution like Microsoft Dynamics 365 Business Central. This intelligent application by Microsoft handles advanced accounting capabilities that support general ledger, accounts payable, accounts receivable and fixed asset management. You can also streamline the financial planning process as Business Central can create manage & track budgets. Business Central is effectual when it comes to planning the future with budget forecasting tools</p>
+                      <p>If you're finding it difficult to manage finances, then it is worth considering a financial management solution like Microsoft Dynamics 365 Business Central. This intelligent application by Microsoft handles advanced accounting capabilities that support general ledger, accounts payable, accounts receivable and fixed asset management. You can also streamline the financial planning process as Business Central can create manage & track budgets. Business Central is effectual when it comes to planning the future with budget forecasting tools</p>
                     </div>
                   </div>
                 </div>
@@ -461,8 +470,8 @@ const DynamicsNavToBusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                        <div className='left-newww'>
-                     <i className="bi bi-check-circle"></i> Do you know you can collaborate well by adding Microsoft Business Central to Microsoft Teams?</div>
+                      <div className='left-newww'>
+                        <i className="bi bi-check-circle"></i> Do you know you can collaborate well by adding Microsoft Business Central to Microsoft Teams?</div>
                     </button>
                   </h3>
                   <div
@@ -471,18 +480,7 @@ const DynamicsNavToBusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      The term SLA refers to Service Level Agreement for
-                      Microsoft online services defined as a part of Microsoft
-                      volume licensing agreement. SLA for Azure IoT Central was
-                      last updated on September 2018. Through this SLA,
-                      Microsoft commits that Azure IoT Central will be available
-                      at least 99 percent of the overall time.
-                      <br />
-                      <br />
-                      SLA for Azure Central comprises a multitude of terms. To
-                      know more, experts at Dynamics are always available to
-                      help enterprises seeking to modernize their enterprise
-                      environment with IoT-connected experience.
+                    We know that integrating Microsoft Business Central with Microsoft Teams can lead to a more collaborative work environment. With this seamless integration, Microsoft Teams across various departments can work together and make quicker decisions. They can provide several benefits like quick approvals, and quick access to Business Central data from within Teams allowing team members to quickly find and share relevant information, improving productivity etc. 
                     </div>
                   </div>
                 </div>
@@ -494,8 +492,8 @@ const DynamicsNavToBusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                       <div className='left-newww'>
-                     <i className="bi bi-check-circle"></i> How can you get Real-Time Business Insights from Business Central?</div>
+                      <div className='left-newww'>
+                        <i className="bi bi-check-circle"></i> How can you get Real-Time Business Insights from Business Central?</div>
                     </button>
                   </h3>
                   <div
@@ -504,13 +502,7 @@ const DynamicsNavToBusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Azure IoT Central is designed with cross-platform and
-                      cross-device compatibility with almost all desktops,
-                      tablets, mobile devices, or browsers. To know your system
-                      compatibility, connect with our experts, we will let you
-                      know your system compatibility for Azure IoT Central and
-                      how deploying IoT Central with it can help your enterprise
-                      to drive a smarter connected experience.
+                    If you are seeking help in decision-making, then fret not! By automating reports and financial dashboards, organizations can gain real-time insights into their financial status. This analysis helps in decision-making and risk management. Further, it empowers decision-makers to analyze and predict data, enabling them to respond intelligently and make informed plans that are refraining from risks etc. 
                     </div>
                   </div>
                 </div>
@@ -522,8 +514,8 @@ const DynamicsNavToBusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                        <div className='left-newww'>
-                     <i className="bi bi-check-circle"></i> Do you want to simplify your tasks by intelligently automating your business?</div>
+                      <div className='left-newww'>
+                        <i className="bi bi-check-circle"></i> Do you want to simplify your tasks by intelligently automating your business?</div>
                     </button>
                   </h3>
                   <div
@@ -532,13 +524,7 @@ const DynamicsNavToBusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      In Azure IoT Central, data can be retained for 30-days of
-                      period. Further, businesses can export their data at
-                      regular intervals by making effective use of the export
-                      feature. Leveraging 'Export Feature', you can export your
-                      IoT enriched or filtered data from your IoT Central
-                      application. Such exported data can help to support future
-                      rhythms in terms of insights, analytics, etc.
+                    D365 Business Central permits the employees in the organizations to create custom workflows.  For example, you can set up approval workflows for purchase orders, sales orders, or expense reports. Then automation ensures that the assigned person reviews the document before proceeding. Further, automation in the inventory management process ensures that you have the right amount of stock on hand, minimizing overstocking or understocking issues. Sales and Customer Relationship Management is also streamlined through automation.  
                     </div>
                   </div>
                 </div>
@@ -550,8 +536,8 @@ const DynamicsNavToBusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
                     >
-                       <div className='left-newww'>
-                     <i className="bi bi-check-circle"></i> Are you worried about managing your organization whilst working remotely and globally?</div>
+                      <div className='left-newww'>
+                        <i className="bi bi-check-circle"></i> Are you worried about managing your organization whilst working remotely and globally?</div>
                     </button>
                   </h3>
                   <div
@@ -560,19 +546,10 @@ const DynamicsNavToBusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      For new users, Azure IoT Central is available with 7-days
-                      of free trial embedded with a standard message size is
-                      4KB. Once your trial period gets over, you can choose from
-                      the standard available plans depending on your specific
-                      requirement. There are three types of standard plans
-                      available for Azure IoT Central, you can choose out of
-                      them: Standard Tier 0, Standard Tier 1, and Standard Tier
-                      2.
+                    With Business Central Upgrade, you can access the system remotely from anywhere with an internet connection. This feature is increasingly important in today's flexible work environments. Additionally, if you are considering expansion, then Dynamics Business Central Upgrade is a must for your organization. This can easily adjust to your changing business needs in different locations of the world. 
                       <br />
                       <br />
-                      To know which one could be a fruitful deal for your
-                      business, talk to us, we will let you know by examining or
-                      evaluating your exact IoT business requirement.
+                      For companies that rely on Microsoft NAV, the move to D365 Business Central can represent a substantial upgrade in technology that can facilitate Big Wins.  
                     </div>
                   </div>
                 </div>
@@ -585,7 +562,7 @@ const DynamicsNavToBusinessCentral = () => {
 
       <section className="bg-shapess">
         <div className="container">
-        
+
 
           <div className="row pad10x g-5">
             <div className="col-lg-6 align-self-center">
@@ -707,8 +684,8 @@ const DynamicsNavToBusinessCentral = () => {
             <div className='col-lg-7'>
               <div className='industri-sec'>
                 <div className='list-left'>
-                <i className="bi bi-check-circle"></i>
-                <h3>Do you have any special business central training plan?</h3>
+                  <i className="bi bi-check-circle"></i>
+                  <h3>Do you have any special business central training plan?</h3>
                 </div>
                 <div className='list-left-cont'>
                   <p>Dynamics Square believes in personal training sessions. Our seasoned professionals are always ready to provide on-site training for trainers and employees. Additionally, Dynamics Square has prepared free online modules, recorded sessions, and more.</p>
@@ -716,8 +693,8 @@ const DynamicsNavToBusinessCentral = () => {
               </div>
               <div className='industri-sec'>
                 <div className='list-left'>
-                <i className="bi bi-check-circle"></i>
-                <h3>Would there be a cost involved in upgrading to Business Central?</h3>
+                  <i className="bi bi-check-circle"></i>
+                  <h3>Would there be a cost involved in upgrading to Business Central?</h3>
                 </div>
                 <div className='list-left-cont'>
                   <p>The initial shift from Dynamics NAV to Business Central involves one-time costs that will pave towards long-term benefits. The long-term benefits include smoother operations and an overall more efficient and scalable system.</p>
@@ -750,7 +727,7 @@ const DynamicsNavToBusinessCentral = () => {
 
       <section>
         <div className='container'>
-        <div className="row pad9x g-5">
+          <div className="row pad9x g-5">
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-nav">
                 <h2>Methods of Upgrade from NAV to Dynamics 365 Business Central</h2>
@@ -770,8 +747,27 @@ const DynamicsNavToBusinessCentral = () => {
           </div>
         </div>
       </section>
+      <section className="nav-pro-bg-white">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Dynamics NAV to Business Central Upgrade Process</h2>
+                <p>Upgrading to Microsoft Dynamics 365 Business Central is a critical process, and the phases vary as per the business requirement and complexity. However, below are the phases involved in a standard Business Central upgrade:</p>
+              </header>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-lg-12'>
+            <div className='text-center'>
+                <img src='/img/bc-upgrade-process.png' alt='BC Upgrade Process' />
+            </div>
+             </div>
+          </div>
+        </div>
+      </section>
 
-      <section className="nav-pro-bg">
+      <section className="nav-pro-bg-white-pd">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -783,10 +779,10 @@ const DynamicsNavToBusinessCentral = () => {
         </div>
       </section>
 
-      
 
 
-   
+
+
 
 
 
@@ -827,7 +823,7 @@ const DynamicsNavToBusinessCentral = () => {
       </section>
 
 
-    
+
 
 
 
@@ -904,56 +900,56 @@ const DynamicsNavToBusinessCentral = () => {
           <div className="row">
             <div className="col-lg-4">
               <div className="team-memb">
-                <div className="tem-mem-pic">
-                  <img src="/img/gaurav-goyal.png" alt="gaurav-goyal" />
+                <div className="tem-mem-pic tem-mem-pic-size">
+                  <img src="/img/01.png" alt="gaurav-goyal" />
                 </div>
                 <div className="tem-mem-info">
-                  <h4>Gaurav Goyal</h4>
-                  <span>Co-Founder</span>
-                  <p>"Nurturing people and investing in their capabilities to build a resilient organization."</p>
+                  <h4>Nitesh Sharma</h4>
+                  <span>Head of Business Development</span>
+                  {/* <p>"Nurturing people and investing in their capabilities to build a resilient organization."</p> */}
                 </div>
-                <div class="social">
-                  <Link href="https://www.linkedin.com/in/manish-g-74854a44">
-                    <a><i class="bi bi-linkedin" style={{ fontSize: '26px' }}></i></a>
+                <div className="social">
+                  <Link href="https://www.linkedin.com/in/niteshsharmads/">
+                    <a><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
                   </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="team-memb">
-                <div className="tem-mem-pic">
+                <div className="tem-mem-pic tem-mem-pic-size">
                   <Link href="https://www.linkedin.com/in/manish-g-74854a44">
-                    <a><img src="/img/manish-goyal.png" alt="manish-goyal" /></a>
+                    <a><img src="/img/02.png" alt="manish-goyal" /></a>
 
                   </Link>
                 </div>
                 <div className="tem-mem-info">
-                  <h4>Manish Goyal</h4>
-                  <span>Co-Founder</span>
-                  <p>"Helping companies with Digital Transformation using innovative Microsoft cloud technology"</p>
+                  <h4>Darshan A. Mungekar</h4>
+                  <span>Principal Solution Architect</span>
+                  {/* <p>"Helping companies with Digital Transformation using innovative Microsoft cloud technology"</p> */}
                 </div>
-                <div class="social">
-                  <Link href="https://www.linkedin.com/in/manish-g-74854a44">
-                    <a><i class="bi bi-linkedin" style={{ fontSize: '26px' }}></i></a>
+                <div className="social">
+                  <Link href="https://www.linkedin.com/in/darshan-mungekar-pmp-six-sigma-51511011/">
+                    <a><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
                   </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="team-memb">
-                <div className="tem-mem-pic">
-                  <img src="/img/dr-felton-lean.png" alt="dr-felton-lean" />
+                <div className="tem-mem-pic tem-mem-pic-size">
+                  <img src="/img/04.png" alt="dr-felton-lean" />
                 </div>
                 <div className="tem-mem-info">
-                  <h4>Dr. Felton Lean</h4>
-                  <span>The People Person</span>
-                  <p>"Helping employees and organisations to achieve more through learning and development."</p>
+                  <h4>Rohit Solanki</h4>
+                  <span>Customer Success manager</span>
+                  {/* <p>"Helping employees and organisations to achieve more through learning and development."</p> */}
                 </div>
-                <div class="social">
+                {/* <div className="social">
                   <Link href="https://www.linkedin.com/in/manish-g-74854a44">
-                    <a><i class="bi bi-linkedin" style={{ fontSize: '26px' }}></i></a>
+                    <a><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
