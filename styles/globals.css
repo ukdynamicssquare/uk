@@ -9989,6 +9989,9 @@ ul.checkmark li {
 .nav-icon-box-bg:hover h3{
   color:#bb2b36
 }
+.nav-icon-box-bg:hover h3 span{
+ color: #000 !important;
+}
 .over-heading-nav {
   position: relative;
   bottom: 0;
@@ -10001,7 +10004,11 @@ ul.checkmark li {
 .over-heading-nav h3 {
   font-size: 18px;
   color: #1d3557;
-  font-weight: 600;
+  font-weight: 400;
+}
+.over-heading-nav h3 span{
+  color: #9b1414;
+    font-weight: 500;
 }
 .over-heading-nav.bg-1 {
   background: #bdf0d1;
@@ -10018,6 +10025,10 @@ ul.checkmark li {
 .commen-rit-info.commen-rit-info-list h3 {
   font-size: 24px;
 }
+.commen-rit-info.commen-rit-info-list h3 span{
+  color: #0cb3bf;
+    font-weight: bold;
+}
 .pd-40 {
   padding: 80px 0px;
 }
@@ -10032,7 +10043,7 @@ ul.checkmark li {
 
 .new-testmoinal-wrp {
   background-color: #0cb3bf;
-  padding: 60px 60px 60px 80px;
+  padding: 60px 80px 60px 100px;
 }
 .new-testmoinal-wrp p {
   color: #ffffff;
@@ -10055,8 +10066,9 @@ ul.checkmark li {
   padding-bottom: 40px;
 }
 .testomonial-new-heading h3 {
-  font-size: 32px;
-  color: #1a3b62;
+  font-size: 30px;
+    color: #1a3b62;
+    font-weight: 700;
 }
 .testomonial-new-heading p {
   font-size: 18px;
@@ -10179,8 +10191,11 @@ ul.checkmark li {
   margin-top: 15px;
 }
 .industri-sec .list-left-cont p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
+}
+.top-margn-top-120{
+  margin-top: -120px;
 }
 .callto-prpmo-offer {
 }
@@ -10194,6 +10209,13 @@ ul.checkmark li {
   margin-bottom: 60px;
   border-radius: 5px;
   width: 390px;
+}
+.callto-prpmo-offer .toe .coloor{
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 18px;
+  text-align: right;
+  margin-right: 13px;
 }
 .callto-prpmo-offer .toe h3 {
   font-size: 40px;

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import DropdownComponent from '../components/DropdownComponent';
 import 'swiper/css/navigation';
 import { Navigation, Autoplay } from 'swiper';
 import Link from "next/link";
@@ -8,6 +9,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 const DynamicsNavToBusinessCentral = () => {
+  
   return (
     <>
       <Head>
@@ -51,6 +53,11 @@ const DynamicsNavToBusinessCentral = () => {
             </div>
           </div>
 
+          <div>
+
+      
+    </div>
+
 
           <div className="row pd-333">
             <div className="col-lg-3">
@@ -60,7 +67,7 @@ const DynamicsNavToBusinessCentral = () => {
                     <img src="/img/nav-icon-mac-1.png" alt="contact_support" />
                   </div>
                   <div className="over-heading-nav bg-1">
-                    <h3>I would like to receive support and advice on my current NAV version</h3>
+                    <h3>I would like to receive <span>support and advice</span> on my current NAV version</h3>
                   </div></a>
                 </Link>
               </div>
@@ -72,7 +79,7 @@ const DynamicsNavToBusinessCentral = () => {
                   <img src="/img/nav-icon-mac-2.png" alt="contact_support" />
                 </div>
                 <div className="over-heading-nav bg-2">
-                  <h3>I am looking for enhancements in my existing NAV version</h3>
+                  <h3>I am <span>looking for enhancements</span> in my existing NAV version</h3>
                 </div></a>
                 </Link>
               </div>
@@ -84,7 +91,7 @@ const DynamicsNavToBusinessCentral = () => {
                   <img src="/img/nav-icon-mac-3.png" alt="contact_support" />
                 </div>
                 <div className="over-heading-nav bg-3">
-                  <h3>I am using NAV, but willing to Upgrade to Dynamics 365 Business Central</h3>
+                  <h3>I am using NAV, but willing to <span>Upgrade to Dynamics 365 Business Central</span></h3>
                 </div></a>
                </Link>
               </div>
@@ -97,7 +104,7 @@ const DynamicsNavToBusinessCentral = () => {
                   <img src="/img/nav-icon-mac-4.png" alt="contact_support" />
                 </div>
                 <div className="over-heading-nav bg-4">
-                  <h3>I would like to learn more about the D365 business applications ecosystem</h3>
+                  <h3>I would like to <span>learn more about the D365</span> business applications ecosystem</h3>
                 </div>
               </a>
                </Link>
@@ -126,7 +133,7 @@ const DynamicsNavToBusinessCentral = () => {
           <div className="row pd-3333">
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
-                <h3>NAV support from Microsoft is getting exhausted</h3>
+                <h3>NAV support from Microsoft is getting <span>exhausted</span></h3>
                 <p>We all know that as Microsoft products age, they gradually phase out support for older versions. However, Dynamics Square recognizes the potential chaos that arises when Microsoft discontinues support for older NAV versions, including patches and fixes.</p>
                 <p>Our team is committed to providing the right help, even if Microsoft support ends, or until you are ready to upgrade to an advanced version. Also, if you have outgrown your NAV version, we will always be there to enhance it by integrating new features in the older versions.</p>
                 <p><b><i>The time is now to make a progressive shift as NAV support from Microsoft will not be till the end.</i></b></p>
@@ -166,20 +173,14 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-1"></div>
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
-                <h3>You can protect your business from higher expenses associated with newer versions</h3>
+                <h3>You can protect your business from <span>higher expenses</span> associated with newer versions</h3>
                 <p>The cost of upgrading from Nav to Dynamics Business Cental increases annually by about 10-15% due to Microsoft's D365 Business Central yearly version releases. By Upgrading your older NAV version every time, you stay in tandem with automation enhancements.</p>
                 <p>The delayed updates not only add to additional expenses but also means missing out on new automation capabilities. Therefore, it is advisable to Upgrade timely to ensure that object and data migration is done smoothly and within the timeline.</p>
                 <p><b><i>Let’s find out which version of NAV or Business Central you are on before taking the next step?</i></b></p>
               </div>
               <div className="text-center text-lg-start">
-                <Link href="#exampleModal">
-                  <a
-                    data-bs-toggle="modal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Check your status <i className="bi bi-arrow-right"></i></span>
-                  </a>
-                </Link>
+              {/* <DropdownComponent /> */}
+              <a href="#" className="btn-get-started scrollto">Check your status </a>
               </div>
             </div>
           </div>
@@ -187,7 +188,7 @@ const DynamicsNavToBusinessCentral = () => {
           <div className="row pd-3335">
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
-                <h3>Minimize risks while upgrading from NAV to the latest Business Central version</h3>
+                <h3><span>Minimize risks</span> while upgrading from NAV to the latest Business Central version</h3>
                 <p>There are several risks associated with upgrading your customized NAV Version, including compatibility issues, potential data loss, operational downtime, cost overruns, and challenges in integrating with other systems. However, with our team, you can avoid these hassles.</p>
                 <p>Our NAV & Dynamics Business Central experts guarantee a seamless, risk-free transition of objects and data. They ensure an effective upgrade without disrupting your business operations.</p>
                 {/* <p><b>Maybe the NAV version is not the issue; it could be your current partner and their methodologies.</b></p> */}
@@ -220,9 +221,9 @@ const DynamicsNavToBusinessCentral = () => {
       <section className='bg-gray'>
         <div className="container">
           <div className="row">
-            <div className="col-lg-5">
+            <div className="col-lg-6">
               <div className="testomonial-new-heading">
-                <h3>Let’s hear what our clients <br /> have to say in their testimonials.</h3>
+                <h3>Let’s hear what our clients <br /> have to say in their testimonials</h3>
                 <p>See why they consider Dynamics Square a trusted partner.</p>
               </div>
             </div>
@@ -384,10 +385,10 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="video-info-call">
-                  <h3>Dynamics Square believe in doing an Auditing of your Old System before suggesting a new one</h3>
+                  <h3>Dynamics Square believe in doing an Auditing of your NAV System before suggesting a new one</h3>
                   <p>Upgrading an ERP is quite a critical decision for organizations as it is done through ample research and the involvement of the right ERP Implementation partner.</p>
                   <div className="bb-tn">
-                    <Link href="/free-dynamics-365-system-health-check/"><a className="btn btn-md">Get Health Check Audit Now <i className="bi bi-arrow-right"></i></a></Link>
+                    <Link href="/free-dynamics-365-system-health-check/"><a className="btn btn-md">Get Your NAV Audit Now <i className="bi bi-arrow-right"></i></a></Link>
                   </div>
                 </div>
               </div>
@@ -702,10 +703,11 @@ const DynamicsNavToBusinessCentral = () => {
               </div>
             </div>
             <div className='col-lg-1'></div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 top-margn-top-120'>
               <div className='callto-prpmo-offer'>
                 <div className='toe'>
                   <h3>SAVE UPTO <span>40%</span></h3>
+                  <p className='coloor'>on licensing cost upto 3 years </p>
                 </div>
                 <h4>We assure you the Best Rate in the Industry</h4>
                 <p>At Dynamics Square, we make sure you can save up to 40% on your NAV to Dynamics 365 Business Central upgrade.</p>
@@ -715,7 +717,7 @@ const DynamicsNavToBusinessCentral = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Get in touch with our experts <i className="bi bi-arrow-right"></i></span>
+                      <span>Avail the Best Price In Market Now  <i className="bi bi-arrow-right"></i></span>
                     </a>
                   </Link>
                 </div>
@@ -728,7 +730,7 @@ const DynamicsNavToBusinessCentral = () => {
       <section>
         <div className='container'>
           <div className="row pad9x g-5">
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info commen-rit-info-nav">
                 <h2>Methods of Upgrade from NAV to Dynamics 365 Business Central</h2>
                 <p>There are two routes for migrating from NAV to Dynamics Business Central. The first is the Upgrade Process, and the second is called Re-implementation. The Upgrade Process is quicker and can automatically transfer historical data to Dynamics Business Central. However, with Re-implementation, you have to start anew as it involves setting up new data structures and does not automatically transfer historical data.</p>
@@ -736,7 +738,7 @@ const DynamicsNavToBusinessCentral = () => {
               </div>
             </div>
             {/* <div className="col-lg-1 align-self-center"></div> */}
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
                 <img
                   src="/img/Group-nav.png"
@@ -884,6 +886,7 @@ const DynamicsNavToBusinessCentral = () => {
           </div>
         </div>
       </section>
+      
 
       <section className="domain-expertise">
         <div className="container">
@@ -898,24 +901,8 @@ const DynamicsNavToBusinessCentral = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4">
-              <div className="team-memb">
-                <div className="tem-mem-pic tem-mem-pic-size">
-                  <img src="/img/01.png" alt="gaurav-goyal" />
-                </div>
-                <div className="tem-mem-info">
-                  <h4>Nitesh Sharma</h4>
-                  <span>Head of Business Development</span>
-                  {/* <p>"Nurturing people and investing in their capabilities to build a resilient organization."</p> */}
-                </div>
-                <div className="social">
-                  <Link href="https://www.linkedin.com/in/niteshsharmads/">
-                    <a><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4">
+           
+            <div className="col-lg-3">
               <div className="team-memb">
                 <div className="tem-mem-pic tem-mem-pic-size">
                   <Link href="https://www.linkedin.com/in/manish-g-74854a44">
@@ -935,7 +922,24 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-3">
+              <div className="team-memb">
+                <div className="tem-mem-pic tem-mem-pic-size">
+                  <img src="/img/04.png" alt="dr-felton-lean" />
+                </div>
+                <div className="tem-mem-info">
+                  <h4>Balaji Ravindran</h4>
+                  <span>Solution Architect</span>
+                  {/* <p>"Helping employees and organisations to achieve more through learning and development."</p> */}
+                </div>
+                {/* <div className="social">
+                  <Link href="https://www.linkedin.com/in/manish-g-74854a44">
+                    <a><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
+                  </Link>
+                </div> */}
+              </div>
+            </div>
+            <div className="col-lg-3">
               <div className="team-memb">
                 <div className="tem-mem-pic tem-mem-pic-size">
                   <img src="/img/04.png" alt="dr-felton-lean" />
@@ -950,6 +954,23 @@ const DynamicsNavToBusinessCentral = () => {
                     <a><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
                   </Link>
                 </div> */}
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="team-memb">
+                <div className="tem-mem-pic tem-mem-pic-size">
+                  <img src="/img/01.png" alt="gaurav-goyal" />
+                </div>
+                <div className="tem-mem-info">
+                  <h4>Nitesh Sharma</h4>
+                  <span>Head of Business Development</span>
+                  {/* <p>"Nurturing people and investing in their capabilities to build a resilient organization."</p> */}
+                </div>
+                <div className="social">
+                  <Link href="https://www.linkedin.com/in/niteshsharmads/">
+                    <a><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
