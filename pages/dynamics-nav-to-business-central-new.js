@@ -985,7 +985,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-12">
               <header className="section-header section-header-nav">
                 {/* <h2>Then we are here to deliver Good Luck with Your Upgrade!</h2> */}
-                <h3>Get Ready to Get a Personalized Session Now!</h3>
+                <h3>Get Ready for a Personalized Session Now!</h3>
               </header>
             </div>
           </div>
