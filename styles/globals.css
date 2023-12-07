@@ -10248,3 +10248,56 @@ ul.checkmark li {
 .nav-pro-bg-white-pd{
   margin-bottom: -60px;
 }
+
+@media (min-width:1200px) and (max-width:1400px){
+  .over-heading-nav h3 {
+    font-size: 17px;
+  }
+  .over-heading-nav {
+    top: -56px;
+}
+.over-heading-nav {
+  padding: 20px 20px;
+}
+}
+@media (min-width:992px) and (max-width:1199px){
+  .over-heading-nav h3 {
+    font-size: 15px;
+  }
+  .over-heading-nav {
+    padding: 4px 8px 20px 8px;
+}
+.over-heading-nav {
+  top: -40px;
+}
+.tab-pc img{
+  margin-top: 158px;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (max-width:991px){
+  .Solution-banner.nav-solution .ceb {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.over-heading-nav {
+  padding: 0px 10px 20px 10px;
+  
+}
+.over-heading-nav h3 {
+  font-size: 16px;
+}
+}
+@media (min-width:300px) and (max-width:767px){
+  .over-heading-nav {
+    padding: 30px 10px 20px 10px;
+}
+.nav-icon-box-bg{
+  text-align: center;
+}
+.tab-pc img{
+  margin-top: 158px;
+}
+}

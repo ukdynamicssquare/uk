@@ -28,12 +28,14 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Dynamics NAV to Dynamics <br /> Business Central Upgrade</h1>
               <p>Dynamics Square is here to ensure a smoother transition for you, without costing a million bucks! Are you ready?</p>
-              <Link href="#exampleModal">
+             <div className='ceb'>
+             <Link href="#exampleModal">
                 <a data-bs-toggle="modal" className="btn-get-started scrollto btn-nav">
                   <span>Talk to Our Seasoned Experts  <i className="bi bi-arrow-right"></i></span></a>
               </Link>
+             </div>
             </div>
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-6 align-self-center tab-pc">
               <img
                 src="/img/navi-bc-banner-new.png"
                 alt="Dynamics-NAV-To-Business-Central-Upgrade-1024x597"
@@ -60,7 +62,7 @@ const DynamicsNavToBusinessCentral = () => {
 
 
           <div className="row pd-333">
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-sm-6">
               <div className="nav-icon-box-bg">
                 <Link href="/our-services/dynamics-365-support-services/">
                  <a> <div className="pic-nav">
@@ -72,7 +74,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-sm-6">
               <div className="nav-icon-box-bg">
                 <Link href='#exampleModal'>
                 <a data-bs-toggle="modal" ><div className="pic-nav">
@@ -84,7 +86,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-sm-6">
               <div className="nav-icon-box-bg">
                <Link href="/our-services/dynamics-365-upgrade-services/">
                <a><div className="pic-nav">
@@ -96,7 +98,7 @@ const DynamicsNavToBusinessCentral = () => {
                </Link>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-sm-6">
               <div className="nav-icon-box-bg">
                <Link href="/products/microsoft-dynamics-365/">
               <a>
@@ -176,11 +178,11 @@ const DynamicsNavToBusinessCentral = () => {
                 <h3>You can protect your business from <span>higher expenses</span> associated with newer versions</h3>
                 <p>The cost of upgrading from Nav to Dynamics Business Cental increases annually by about 10-15% due to Microsoft's D365 Business Central yearly version releases. By Upgrading your older NAV version every time, you stay in tandem with automation enhancements.</p>
                 <p>The delayed updates not only add to additional expenses but also means missing out on new automation capabilities. Therefore, it is advisable to Upgrade timely to ensure that object and data migration is done smoothly and within the timeline.</p>
-                <p><b><i>Let’s find out which version of NAV or Business Central you are on before taking the next step?</i></b></p>
+                <p><b><i>Let's find out which version of NAV or Business Central you are on before taking the next step?</i></b></p>
               </div>
               <div className="text-center text-lg-start">
-              {/* <DropdownComponent /> */}
-              <a href="#" className="btn-get-started scrollto">Check your status </a>
+              <DropdownComponent />
+              {/* <a href="#" className="btn-get-started scrollto">Check your status </a> */}
               </div>
             </div>
           </div>
