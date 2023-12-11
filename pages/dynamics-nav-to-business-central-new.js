@@ -298,7 +298,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>Is it the Right Time to Level Up your business from NAV to Business Central?</h2>
-                <p>Let’s consider the factors to analyze that is the right time to level up</p>
+                <p>Let's consider the factors to analyze that is the right time to level up</p>
               </header>
             </div>
           </div>
@@ -311,7 +311,7 @@ const DynamicsNavToBusinessCentral = () => {
           </div>
           <div className='row bg-sha'>
             <div className='bg-shapte'></div>
-            <div className='col-lg-3'>
+            <div className='col-lg-3 m-t-09'>
               <div className='box-style-12'>
                 <img src="/img/rule_settings-1.png" alt="icons" />
                 <p>When Microsoft support lifecycle comes to an end</p>
