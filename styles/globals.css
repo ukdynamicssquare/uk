@@ -10363,13 +10363,83 @@ ul.checkmark li {
 .callto-prpmo-offer .toe h3 {
   font-size: 28px;
 }
+.pd-40{
+  padding:0px 0px;
+  margin-top:-40px
+}
+.commen-rit-info.commen-rit-info-list h3 {
+  font-size: 20px;
+}
+.commen-lef-pic{
+  margin-top:40px
+}
+.pd-3333 {
+  padding-bottom: 30px;
+}
+.pd-3334 {
+  padding-bottom: 40px;
+}
+.cut-pad-12 {
+  padding: 40px 0px 40px 0px;
+  background: #fff;
+}
+.lef-head-nn{
+  display:none
+}
+.nnd-top-30{
+  padding-top:0px
+}
+.bg-video-wrap{
+  height:auto
+}
+.video-info-call{
+  padding: 40px 0px;
+}
+.nav-impo-info {
+  padding: 30px;
+}
+.faq-nav.faq .accordion-button {
+  font-weight: 700;
+  line-height: 1.5;
+}
+.pad10x {
+  padding-top: 0px;
+}
+.callto-prpmo-offer .toe .coloor {
+  font-size: 15px;
+  text-align: left;
+  margin-right: 0px;
+}
+.expected-nav {
+  margin-top: 0px;
+}
+.nav-to-bc-feature {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.nav-bg-p-white {
+  padding-top: 30px;
+}
+.commen-rit-info.commen-rit-info-na {
+  padding-right: 0px;
+}
 }
 @media (min-width:300px) and (max-width:767px){
   .over-heading-nav {
     padding: 30px 10px 20px 10px;
 }
+.new-testmoinal-wrp{
+  padding:30px 40px
+}
+.new-testmoinal-wrp p {
+  font-size: 16px;
+  font-weight:500
+}
 .nav-icon-box-bg{
   text-align: center;
+}
+.new-testmoinal-wrp span {
+  font-size: 16px;
 }
 .tab-pc img{
   margin-bottom: -35px;
