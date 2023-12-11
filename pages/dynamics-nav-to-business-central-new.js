@@ -441,7 +441,7 @@ const DynamicsNavToBusinessCentral = () => {
       <section className='solution-faq faq faq-nav'>
         <div className='container'>
           <div className="row mar-top-7 justify-content-center">
-            <div className="col-md-8">
+            <div className="col-md-8 col-sm-12">
               <div className="accordion accordion-flush" id="faqlist1">
                 <div className="accordion-item">
                   <h3 className="accordion-header">
