@@ -14,7 +14,7 @@ const DropdownComponent = () => {
     setTimeout(() => {
       setSelectedOption(selected);
       setLoading(false);
-    }, 1000);
+    }, 500);
   };
 
   const handleButtonClick = () => {
@@ -34,7 +34,7 @@ const DropdownComponent = () => {
       {/* {!showSelect && <a className="btn-get-started scrollto" onClick={handleButtonClick}>Check your status </a>
       
       } */}
-      <a className="btn-get-started scrollto" onClick={handleButtonClick}>Check your status </a>
+      <a className="btn-get-started scrollto cuer" onClick={handleButtonClick}>Check your NAV Version Status </a>
       {showSelect && (
         <>
           {/* <div className="header">
@@ -48,13 +48,16 @@ const DropdownComponent = () => {
 
             <select className='form-select' id="select_box" onChange={handleSelectChange} value={selectedOption} disabled={loading}>
               <option value="a">Select Nav Version</option>
-              <option value="b">Dyanmics NAV 2009 R2</option>
-              <option value="c">Dyanmics NAV 2013</option>
-              <option value="d">Dyanmics NAV 2013 R2</option>
-              <option value="e">Dyanmics NAV 2015</option>
-              <option value="f">Dyanmics NAV 2016</option>
-              <option value="g">Dyanmics NAV 2017</option>
-              <option value="h">Dyanmics NAV 2018</option>
+              <option value="b">Dynamics NAV 4.0 </option>
+              <option value="c">Dynamics NAV 5.0 </option>
+              <option value="d">Dynamics NAV 2009</option>
+              <option value="e">Dyanmics NAV 2009 R2</option>
+              <option value="f">Dyanmics NAV 2013</option>
+              <option value="g">Dyanmics NAV 2013 R2</option>
+              <option value="h">Dyanmics NAV 2015</option>
+              <option value="i">Dyanmics NAV 2016</option>
+              <option value="j">Dyanmics NAV 2017</option>
+              <option value="k">Dyanmics NAV 2018</option>
             </select>
           </div>
           {loading && <div className='center-loading'>Loading...</div>}
@@ -67,78 +70,120 @@ const DropdownComponent = () => {
                 </div>
                 <div id="b" className={selectedOption === 'b' ? '' : 'hide'}>
                   <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2009 R2</h3>
-                    <div className='star-date stds'>Start Date : <span>2011-03-15</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2015-01-13</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2020-01-14</span></div>
+                    <h3><span className='hh'>Product Name :</span>Dynamics NAV 4.0 </h3>
+                    <div className='star-date stds'>Start Date : <span>12/12/2004 </span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>1/12/2010 </span></div>
                     <div className='result'>
                       <p className='red'>Your Dynamics NAV version is expired </p>
+                      <p>Mainstream Support of your NAV has been ended, but we got your back with an efficient Support or Business Central Upgrade.</p>
                     </div>
                   </div>
                 </div>
                 <div id="c" className={selectedOption === 'c' ? '' : 'hide'}>
-                <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2013</h3>
-                    <div className='star-date stds'>Start Date : <span>2012-12-19</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2018-01-19</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2023-01-10</span></div>
+                  <div className='prod'>
+                    <h3><span className='hh'>Product Name :</span>Dynamics NAV 5.0 </h3>
+                    <div className='star-date stds'>Start Date : <span>4/1/2007 </span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>4/10/2012 </span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>4/11/2017 </span></div>
                     <div className='result'>
                       <p className='red'>Your Dynamics NAV version is expired </p>
+                      <p>Mainstream and Extended Support of your NAV has been ended, but we got your back with an efficient Support or Business Central Upgrade. </p>
                     </div>
                   </div>
                 </div>
                 <div id="d" className={selectedOption === 'd' ? '' : 'hide'}>
-                <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2013 R2</h3>
-                    <div className='star-date stds'>Start Date : <span>2013-12-30</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2018-01-09</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2023-01-10</span></div>
+                  <div className='prod'>
+                    <h3><span className='hh'>Product Name :</span>Dynamics NAV 2009 </h3>
+                    <div className='star-date stds'>Start Date : <span>2/12/2009 </span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>1/13/2015 </span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>1/14/2020 </span></div>
                     <div className='result'>
                       <p className='red'>Your Dynamics NAV version is expired </p>
+                      <p>Mainstream and Extended Support of your NAV has been ended, but we got your back with an efficient Support or Business Central Upgrade. </p>
                     </div>
                   </div>
                 </div>
                 <div id="e" className={selectedOption === 'e' ? '' : 'hide'}>
-                <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2015</h3>
-                    <div className='star-date stds'>Start Date : <span>2014-12-17</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2020-01-14</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2025-01-14</span></div>
+                  <div className='prod'>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2009 R2</h3>
+                    <div className='star-date stds'>Start Date : <span>03/15/2011 </span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>1/13/2015 </span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>1/14/2020 </span></div>
                     <div className='result'>
-                      <p className='red blue'>Your Dynamics NAV version</p>
+                      <p className='red'>Your Dynamics NAV version is expired </p>
+                      <p>Mainstream and Extended Support of your NAV has been ended, but we got your back with an efficient Support or Business Central Upgrade. </p>
                     </div>
                   </div>
                 </div>
                 <div id="f" className={selectedOption === 'f' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2016</h3>
-                    <div className='star-date stds'>Start Date : <span>2016-01-03</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2021-04-13</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2026-04-14</span></div>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2013</h3>
+                    <div className='star-date stds'>Start Date : <span>01/10/2012</span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>1/9/2018 </span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>1/10/2023 </span></div>
                     <div className='result'>
-                      <p className='red blue'>Your Dynamics NAV version</p>
+                      <p className='red'>Your Dynamics NAV version is expired </p>
+                      <p>Mainstream and Extended Support of your NAV has been ended, but we got your back with an efficient Support or Business Central Upgrade. </p>
                     </div>
                   </div>
                 </div>
                 <div id="g" className={selectedOption === 'g' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2017</h3>
-                    <div className='star-date stds'>Start Date : <span>2016-10-27</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2022-01-11</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2027-01-11</span></div>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2013 R2</h3>
+                    <div className='star-date stds'>Start Date : <span>31/10/2013 </span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>1/9/2018 </span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>1/10/2023 </span></div>
                     <div className='result'>
-                      <p className='red blue'>Your Dynamics NAV version</p>
+                      <p className='red'>Your Dynamics NAV version is expired </p>
+                      <p>Mainstream and Extended Support of your NAV has been ended, but we got your back with an efficient Support or Business Central Upgrade. </p>
                     </div>
                   </div>
                 </div>
                 <div id="h" className={selectedOption === 'h' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2018</h3>
-                    <div className='star-date stds'>Start Date : <span>2017-12-01</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2023-01-10</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2028-01-11</span></div>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2015</h3>
+                    <div className='star-date stds'>Start Date : <span>17/12/2014 </span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>14/01/2020 </span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>14/01/2025 </span></div>
                     <div className='result'>
-                      <p className='red blue'>Your Dynamics NAV version</p>
+                      {/* <p className='red blue'>Your Dynamics NAV version</p> */}
+                      <p>Mainstream Support has ended, but Microsoft still offers you its limited support. However, we are here to support your NAV regardless of complexity, or you can go for a Business Central upgrade.  </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="i" className={selectedOption === 'i' ? '' : 'hide'}>
+                <div className='prod'>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2016</h3>
+                    <div className='star-date stds'>Start Date : <span>03/01/2016 </span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>13/04/2021 </span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>14/04/2026 </span></div>
+                    <div className='result'>
+                      {/* <p className='red blue'>Your Dynamics NAV version</p> */}
+                      <p>Mainstream Support has ended, but Microsoft still offers you its limited support. However, we are here to support your NAV regardless of complexity, or you can go for a Business Central upgrade.  </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="j" className={selectedOption === 'j' ? '' : 'hide'}>
+                <div className='prod'>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2017</h3>
+                    <div className='star-date stds'>Start Date : <span>27/10/2016</span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>11/01/2022</span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>11/01/2027</span></div>
+                    <div className='result'>
+                      {/* <p className='red blue'>Your Dynamics NAV version</p> */}
+                      <p>Mainstream Support has ended, but Microsoft still offers you its limited support. However, we are here to support your NAV regardless of complexity, or you can go for a Business Central upgrade.  </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="k" className={selectedOption === 'k' ? '' : 'hide'}>
+                <div className='prod'>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2018</h3>
+                    <div className='star-date stds'>Start Date : <span>01/12/2017</span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>10/12/2023</span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>11/01/2028</span></div>
+                    <div className='result'>
+                      {/* <p className='red blue'>Your Dynamics NAV version</p> */}
+                      <p>Mainstream Support has ended, but Microsoft still offers you its limited support. However, we are here to support your NAV regardless of complexity, or you can go for a Business Central upgrade.  </p>
                     </div>
                   </div>
                 </div>
@@ -210,6 +255,9 @@ const DropdownComponent = () => {
           border: none;
           cursor: pointer;
           font-size: 1.2em;
+        }
+        .cuer{
+          cursor:pointer
         }
       `}</style>
     </div>
