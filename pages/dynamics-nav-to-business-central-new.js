@@ -13,12 +13,16 @@ const DynamicsNavToBusinessCentral = () => {
   return (
     <>
       <Head>
-        <title>
-          Upgrade Dynamics NAV to Business Central | Dynamics Square UK
+      <title>
+        Upgrade Dynamics NAV to Business Central | Dynamics Square UK
         </title>
         <meta
           name="description"
           content="Looking for stree-free Upgrade from Dynamics NAV to Business Central services? Book a free consultation today to know more about NAV upgrade offers and more."
+        />
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.co.uk/dynamics-nav-to-business-central/"
         />
         <meta name="robots" content="noindex, nofollow"></meta>
       </Head>
@@ -26,7 +30,7 @@ const DynamicsNavToBusinessCentral = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
-              <h1>Dynamics NAV to Dynamics <br /> Business Central Upgrade</h1>
+              <h1>Dynamics NAV To  Business Central Upgrade</h1>
               <p>Dynamics Square is here to ensure a smoother transition for you, without costing a million bucks! Are you ready?</p>
              <div className='ceb'>
              <Link href="#exampleModal">
@@ -129,6 +133,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>why to upgrade from NAV <br /> to Dynamics 365 Business Central?</h2>
+                <p>Check out the top reason to find why smart business owners are opting for NAV upgrade. </p>
               </header>
             </div>
           </div>
@@ -137,7 +142,7 @@ const DynamicsNavToBusinessCentral = () => {
               <div className="commen-rit-info commen-rit-info-list">
                 <h3>NAV support from Microsoft is getting <span>exhausted</span></h3>
                 <p>We all know that as Microsoft products age, they gradually phase out support for older versions. However, Dynamics Square recognizes the potential chaos that arises when Microsoft discontinues support for older NAV versions, including patches and fixes.</p>
-                <p>Our team is committed to providing the right help, even if Microsoft support ends, or until you are ready to upgrade to an advanced version. Also, if you have outgrown your NAV version, we will always be there to enhance it by integrating new features in the older versions.</p>
+                <p>Our team is committed to providing the right help, even if Microsoft support ends, or until you are ready to go for Navision upgrade to an advanced version. Also, if you have outgrown your NAV version, we will always be there to enhance it by integrating new features in the older versions.</p>
                 <p><b><i>The time is now to make a progressive shift as NAV support from Microsoft will not be till the end.</i></b></p>
               </div>
               <div className="text-center text-lg-start">
@@ -175,10 +180,11 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-1"></div>
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
-                <h3>You can protect your business from <span>higher expenses</span> associated with newer versions</h3>
-                <p>The cost of upgrading from Nav to Dynamics Business Cental increases annually by about 10-15% due to Microsoft's D365 Business Central yearly version releases. By Upgrading your older NAV version every time, you stay in tandem with automation enhancements.</p>
-                <p>The delayed updates not only add to additional expenses but also means missing out on new automation capabilities. Therefore, it is advisable to Upgrade timely to ensure that object and data migration is done smoothly and within the timeline.</p>
-                <p><b><i>Let's find out which version of NAV or Business Central you are on before taking the next step?</i></b></p>
+                <h3>Upgrade Now, Pay Less Later: <span>Secure Your Investment for Business Growth </span></h3>
+                <p>Delaying an upgrade from NAV to Business Central could raise costs by 15% yearly, as each Business Central yearly version release widens the gap, increasing complexity and expense - missing out new automation capabilities.  </p>
+                <p>Therefore, it is advisable to upgrade timely to ensure that object and data migration is done smoothly and within the timeline. Because, Microsoft will take care of all kinds of updates, upgrades, bug fixes, and patch installations without even hampering your existing business operations. </p>
+                <p>So, if you are willing to upgrade in the future, why not consider taking this decision today? It will save a lot of resources that can be invested in business growth.</p>
+                <p><b><i>Let's find out which NAV version you are on before taking the next step.</i></b></p>
               </div>
               <div className="text-center text-lg-start">
               <DropdownComponent />
@@ -257,7 +263,7 @@ const DynamicsNavToBusinessCentral = () => {
           <div className='row justify-content-center pd-top-40'>
             <div className='col-lg-5'>
               <div className='new-iner-head'>
-                <h3>Business is driven by 3 pillars</h3>
+                <h3>A Successful Business is driven by 3 Core Pillars </h3>
                 <img
                   src="/img/pillars-3.png"
                   alt="analyze-real-time"
@@ -297,8 +303,8 @@ const DynamicsNavToBusinessCentral = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <header className="section-header">
-                <h2>Is it the Right Time to Level Up your business from NAV to Business Central?</h2>
-                <p>Let's consider the factors to analyze that is the right time to level up</p>
+                <h2>Is it the right time to upgrade your NAV to Business Central?  </h2>
+                <p>Let's consider the 4 factors to analyze that is the right time to level up</p>
               </header>
             </div>
           </div>
@@ -355,8 +361,9 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-1 align-self-center"></div>
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
-                <p>Dynamics NAV is a popular ERP application. However, this popular solution also requires upgrades to keep up with the futuristic environment.</p>
-                <p>Therefore, if you are continuously seeing that your future goals are not accomplished, and processes have become redundant, then it is the right time to make this switch!</p>
+                <p>Microsoft Dynamics NAV helped you grow your business, but it’s time to adapt to an advanced solution that understands your unique needs and grows with you. If you feel like NAV is slowing you down and limiting your ability to achieve goals, it's time for a change. </p>
+                <p>The time has come to empower Business Central, an upgraded version of Dynamics NAV, to unlock new growth opportunities with modern technology. Built using the cloud, Business Central comes with powerful features of automation, scalability, uninterrupted communication, and simplifying business to boost efficiency. </p>
+                <p>Don't settle for limitations. Invest in your future with Business Central. </p>
                           </div>
               <div className="text-center text-lg-start">
                 <Link href="#exampleModal">
@@ -364,7 +371,7 @@ const DynamicsNavToBusinessCentral = () => {
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Talk to our Upgrade Expert <i className="bi bi-arrow-right"></i></span>
+                    <span>Talk to our Upgrade Expert! <i className="bi bi-arrow-right"></i></span>
                   </a>
                 </Link>
               </div>

@@ -48,13 +48,13 @@ const DropdownComponent = () => {
 
             <select className='form-select' id="select_box" onChange={handleSelectChange} value={selectedOption} disabled={loading}>
               <option value="a">Select Nav Version</option>
-              <option value="b">Dyanmics NAN 2009 R2</option>
-              <option value="c">Dyanmics NAN 2013</option>
-              <option value="d">Dyanmics NAN 2013 R2</option>
-              <option value="e">Dyanmics NAN 2015</option>
-              <option value="f">Dyanmics NAN 2016</option>
-              <option value="g">Dyanmics NAN 2017</option>
-              <option value="h">Dyanmics NAN 2018</option>
+              <option value="b">Dyanmics NAV 2009 R2</option>
+              <option value="c">Dyanmics NAV 2013</option>
+              <option value="d">Dyanmics NAV 2013 R2</option>
+              <option value="e">Dyanmics NAV 2015</option>
+              <option value="f">Dyanmics NAV 2016</option>
+              <option value="g">Dyanmics NAV 2017</option>
+              <option value="h">Dyanmics NAV 2018</option>
             </select>
           </div>
           {loading && <div className='center-loading'>Loading...</div>}
@@ -67,7 +67,7 @@ const DropdownComponent = () => {
                 </div>
                 <div id="b" className={selectedOption === 'b' ? '' : 'hide'}>
                   <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAN 2009 R2</h3>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2009 R2</h3>
                     <div className='star-date stds'>Start Date : <span>2011-03-15</span></div>
                     <div className='end-date stds'>Mainstream Date : <span>2015-01-13</span></div>
                     <div className='ext-date stds'>Extended End Date : <span>2020-01-14</span></div>
@@ -78,10 +78,10 @@ const DropdownComponent = () => {
                 </div>
                 <div id="c" className={selectedOption === 'c' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAN 2009 R2</h3>
-                    <div className='star-date stds'>Start Date : <span>2011-03-15</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2015-01-13</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2020-01-14</span></div>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2013</h3>
+                    <div className='star-date stds'>Start Date : <span>2012-12-19</span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>2018-01-19</span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>2023-01-10</span></div>
                     <div className='result'>
                       <p className='red'>Your Dynamics NAV version is expired </p>
                     </div>
@@ -89,10 +89,10 @@ const DropdownComponent = () => {
                 </div>
                 <div id="d" className={selectedOption === 'd' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAN 2009 R2</h3>
-                    <div className='star-date stds'>Start Date : <span>2011-03-15</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2015-01-13</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2020-01-14</span></div>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2013 R2</h3>
+                    <div className='star-date stds'>Start Date : <span>2013-12-30</span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>2018-01-09</span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>2023-01-10</span></div>
                     <div className='result'>
                       <p className='red'>Your Dynamics NAV version is expired </p>
                     </div>
@@ -100,45 +100,45 @@ const DropdownComponent = () => {
                 </div>
                 <div id="e" className={selectedOption === 'e' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAN 2009 R2</h3>
-                    <div className='star-date stds'>Start Date : <span>2011-03-15</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2015-01-13</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2020-01-14</span></div>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2015</h3>
+                    <div className='star-date stds'>Start Date : <span>2014-12-17</span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>2020-01-14</span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>2025-01-14</span></div>
                     <div className='result'>
-                      <p className='red'>Your Dynamics NAV version is expired </p>
+                      <p className='red blue'>Your Dynamics NAV version</p>
                     </div>
                   </div>
                 </div>
                 <div id="f" className={selectedOption === 'f' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAN 2009 R2</h3>
-                    <div className='star-date stds'>Start Date : <span>2011-03-15</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2015-01-13</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2020-01-14</span></div>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2016</h3>
+                    <div className='star-date stds'>Start Date : <span>2016-01-03</span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>2021-04-13</span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>2026-04-14</span></div>
                     <div className='result'>
-                      <p className='red'>Your Dynamics NAV version is expired </p>
+                      <p className='red blue'>Your Dynamics NAV version</p>
                     </div>
                   </div>
                 </div>
                 <div id="g" className={selectedOption === 'g' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAN 2009 R2</h3>
-                    <div className='star-date stds'>Start Date : <span>2011-03-15</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2015-01-13</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2020-01-14</span></div>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2017</h3>
+                    <div className='star-date stds'>Start Date : <span>2016-10-27</span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>2022-01-11</span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>2027-01-11</span></div>
                     <div className='result'>
-                      <p className='red'>Your Dynamics NAV version is expired </p>
+                      <p className='red blue'>Your Dynamics NAV version</p>
                     </div>
                   </div>
                 </div>
                 <div id="h" className={selectedOption === 'h' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAN 2009 R2</h3>
-                    <div className='star-date stds'>Start Date : <span>2011-03-15</span></div>
-                    <div className='end-date stds'>Mainstream Date : <span>2015-01-13</span></div>
-                    <div className='ext-date stds'>Extended End Date : <span>2020-01-14</span></div>
+                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2018</h3>
+                    <div className='star-date stds'>Start Date : <span>2017-12-01</span></div>
+                    <div className='end-date stds'>Mainstream Date : <span>2023-01-10</span></div>
+                    <div className='ext-date stds'>Extended End Date : <span>2028-01-11</span></div>
                     <div className='result'>
-                      <p className='red blue'>Your Dynamics NAV version is expired </p>
+                      <p className='red blue'>Your Dynamics NAV version</p>
                     </div>
                   </div>
                 </div>
@@ -172,12 +172,12 @@ const DropdownComponent = () => {
       }
 .red{
   color: white;
-  background: #9d2828;
+  background: #ae2c3e;
   margin-top: 25px;
   padding: 9px 20px;
 }
 .red.blue{
-  background: #0050b5;
+  background: #267eed;
 }
 
       .mob-them{
