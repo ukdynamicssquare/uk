@@ -130,14 +130,14 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>why to upgrade from NAV <br /> to Dynamics 365 Business Central?</h2>
-                <p>Check out the top reason to find why smart business owners are opting for NAV upgrade. </p>
+                <p>Check out the top reasons why smart business owners are opting for a NAV upgrade.</p>
               </header>
             </div>
           </div>
           <div className="row pd-3333">
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
-                <h3>NAV support from Microsoft is getting <span>exhausted</span></h3>
+                <h3>NAV support from Microsoft is Getting <span>Exhausted</span></h3>
                 <p>We all know that as Microsoft products age, they gradually phase out support for older versions. However, Dynamics Square recognizes the potential chaos that arises when Microsoft discontinues support for older NAV versions, including patches and fixes.</p>
                 <p>Our team is committed to providing the right help, even if Microsoft support ends, or until you are ready to go for Navision upgrade to an advanced version. Also, if you have outgrown your NAV version, we will always be there to enhance it by integrating new features in the older versions.</p>
                 <p><b><i>The time is now to make a progressive shift as NAV support from Microsoft will not be till the end.</i></b></p>
@@ -178,7 +178,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
                 <h3>Upgrade Now, Pay Less Later: <span>Secure Your Investment for Business Growth </span></h3>
-                <p>Delaying an upgrade from NAV to Business Central could raise costs by 15% yearly, as each <Link href="/products/dynamics-365-business-central/"><a target='_blank'>Business Central</a></Link> yearly version release widens the gap, increasing complexity and expense - missing out new automation capabilities.  </p>
+                <p>Delaying an upgrade from NAV to Business Central could raise costs by 15%, as every <Link href="/products/dynamics-365-business-central/"><a target='_blank'>Business Central</a></Link> yearly version release widens the gap, increasing complexity and expense - missing out new automation capabilities. </p>
                 <p>Therefore, it is advisable to upgrade timely to ensure that object and data migration is done smoothly and within the timeline. Because, Microsoft will take care of all kinds of updates, upgrades, bug fixes, and patch installations without even hampering your existing business operations. </p>
                 <p>So, if you are willing to upgrade in the future, why not consider taking this decision today? It will save a lot of resources that can be invested in business growth.</p>
                 <p><b><i>Let's find out which NAV version you are on before taking the next step.</i></b></p>
