@@ -264,15 +264,34 @@ const DynamicsNavToBusinessCentral = () => {
             </div>
           </div>
           <div className='row justify-content-center pd-top-40'>
-            <div className='col-lg-5'>
+            <div className='col-lg-12 new-iner-head'>
+            <h3 className='text-center'>A Successful Business <br /> is driven by 3 Core Pillars </h3>
+            </div>
+            <div className='col-lg-5 align-self-center'>
               <div className='new-iner-head'>
-                <h3>A Successful Business is driven by 3 Core Pillars </h3>
+              
                 <img
                   src="/img/pillars-3.png"
                   alt="analyze-real-time"
                 />
               </div>
             </div>
+            <div className='col-lg-1'></div>
+           <div className='col-lg-6 align-self-center'>
+                <div className='piller-secr'>
+                  <h4>People</h4>
+                  <p>Boost engagement and productivity by enhancing your team's collaboration and decision-making, aligned with each employee's unique skills. </p>
+                </div>
+                <div className='piller-secr'>
+                  <h4>Data</h4>
+                  <p>Transform your business data into AI-driven, actionable insights for more informed decision-making.</p>
+                </div>
+                <div className='piller-secr'>
+                  <h4>Tool</h4>
+                  <p>Streamline processes and seamlessly integrate with existing systems to ensure smoother operations and an enhanced ROI.</p>
+                </div>
+           </div>
+          
           </div>
         </div>
       </section>

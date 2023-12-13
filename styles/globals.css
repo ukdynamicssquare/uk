@@ -10252,8 +10252,26 @@ ul.checkmark li {
   margin-top: -80px;
   padding-bottom:100px
 }
+.piller-secr{
+  padding: 20px 75px 20px 40px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.25);
+    border-left: 4px solid #0dafbd;
+    /* border-radius: 10px 7px 0px 0px; */
+    width: 90%;
+}
+.piller-secr h4{
+  font-size: 22px;
+    color: #1d3559;
+    margin-bottom: 15px;
+}
+.piller-secr p{margin-bottom: 0;}
 
 @media (min-width:1200px) and (max-width:1400px){
+  .piller-secr{
+    padding: 20px 30px 20px 40px;
+  }
   .over-heading-nav h3 {
     font-size: 17px;
   }
@@ -10271,6 +10289,9 @@ ul.checkmark li {
 }
 }
 @media (min-width:992px) and (max-width:1199px){
+  .piller-secr{
+    padding: 20px 20px 20px 40px;
+  }
   .over-heading-nav h3 {
     font-size: 15px;
   }
@@ -10330,6 +10351,13 @@ ul.checkmark li {
   }
 }
 @media (max-width:991px){
+  .new-iner-head img{
+    margin-bottom:40px
+  }
+  .piller-secr{
+    padding: 20px 20px 20px 40px;
+    width:100%
+  }
   .top-button-p {
     margin-top: -40px 
   }
