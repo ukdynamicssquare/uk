@@ -32,7 +32,7 @@ const DynamicsNavToBusinessCentral = () => {
              <div className='ceb'>
              <Link href="#exampleModal">
                 <a data-bs-toggle="modal" className="btn-get-started scrollto btn-nav">
-                  <span>Talk to Our Seasoned Experts  <i className="bi bi-arrow-right"></i></span></a>
+                  <span>Speak to our experts   <i className="bi bi-arrow-right"></i></span></a>
               </Link>
              </div>
             </div>
