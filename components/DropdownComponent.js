@@ -259,6 +259,11 @@ const DropdownComponent = () => {
         .cuer{
           cursor:pointer
         }
+        @media (max-width:991px){
+          .nav-v-h .form-select{
+            width: 100%;
+          }
+        }
       `}</style>
     </div>
   );

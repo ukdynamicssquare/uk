@@ -66,7 +66,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="nav-icon-box-bg">
                 <Link href="/our-services/dynamics-365-support-services/">
-                 <a> <div className="pic-nav">
+                 <a target='_blank'> <div className="pic-nav">
                     <img src="/img/nav-icon-mac-1.png" alt="contact_support" />
                   </div>
                   <div className="over-heading-nav bg-1">
@@ -90,7 +90,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="nav-icon-box-bg">
                <Link href="/our-services/dynamics-365-upgrade-services/">
-               <a><div className="pic-nav">
+               <a target='_blank'><div className="pic-nav">
                   <img src="/img/nav-icon-mac-3.png" alt="contact_support" />
                 </div>
                 <div className="over-heading-nav bg-3">
@@ -102,7 +102,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="nav-icon-box-bg">
                <Link href="/products/microsoft-dynamics-365/">
-              <a>
+              <a target='_blank'>
               <div className="pic-nav">
                   <img src="/img/nav-icon-mac-4.png" alt="contact_support" />
                 </div>
@@ -178,7 +178,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
                 <h3>Upgrade Now, Pay Less Later: <span>Secure Your Investment for Business Growth </span></h3>
-                <p>Delaying an upgrade from NAV to Business Central could raise costs by 15% yearly, as each <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> yearly version release widens the gap, increasing complexity and expense - missing out new automation capabilities.  </p>
+                <p>Delaying an upgrade from NAV to Business Central could raise costs by 15% yearly, as each <Link href="/products/dynamics-365-business-central/"><a target='_blank'>Business Central</a></Link> yearly version release widens the gap, increasing complexity and expense - missing out new automation capabilities.  </p>
                 <p>Therefore, it is advisable to upgrade timely to ensure that object and data migration is done smoothly and within the timeline. Because, Microsoft will take care of all kinds of updates, upgrades, bug fixes, and patch installations without even hampering your existing business operations. </p>
                 <p>So, if you are willing to upgrade in the future, why not consider taking this decision today? It will save a lot of resources that can be invested in business growth.</p>
                 <p><b><i>Let's find out which NAV version you are on before taking the next step.</i></b></p>
@@ -287,7 +287,7 @@ const DynamicsNavToBusinessCentral = () => {
                 <p>See how we can help you succeed with D365 Business Central easily, at a cost-effective price.</p>
                 <div className="text-center m-o-b">
                   <Link href="/case-studies/">
-                    <a
+                    <a target='_blank'
                       className="btn-get-started scrollto"
                     >
                       <span>Read More Case Stories <i className="bi bi-arrow-right"></i></span>
@@ -364,7 +364,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-1 align-self-center"></div>
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
-                <p><Link href="/products/microsoft-dynamics-nav/"><a>Microsoft Dynamics NAV</a></Link> helped you grow your business, but it’s time to adapt to an advanced solution that understands your unique needs and grows with you. If you feel like NAV is slowing you down and limiting your ability to achieve goals, it's time for a change. </p>
+                <p><Link href="/products/microsoft-dynamics-nav/"><a target='_blank'>Microsoft Dynamics NAV</a></Link> helped you grow your business, but it’s time to adapt to an advanced solution that understands your unique needs and grows with you. If you feel like NAV is slowing you down and limiting your ability to achieve goals, it's time for a change. </p>
                 <p>The time has come to empower Business Central, an upgraded version of Dynamics NAV, to unlock new growth opportunities with modern technology. Built using the cloud, Business Central comes with powerful features of automation, scalability, uninterrupted communication, and simplifying business to boost efficiency. </p>
                 <p>Don't settle for limitations. Invest in your future with Business Central. </p>
                           </div>
@@ -400,7 +400,7 @@ const DynamicsNavToBusinessCentral = () => {
                   <h3>Dynamics Square believe in doing an Auditing of your NAV System before suggesting a new one</h3>
                   <p>Upgrading an ERP is quite a critical decision for organizations as it is done through ample research and the involvement of the right ERP Implementation partner.</p>
                   <div className="bb-tn">
-                    <Link href="/free-dynamics-365-system-health-check/"><a className="btn btn-md">Get Your NAV Audit Now <i className="bi bi-arrow-right"></i></a></Link>
+                    <Link href="/free-dynamics-365-system-health-check/"><a target='_blank' className="btn btn-md">Get Your NAV Audit Now <i className="bi bi-arrow-right"></i></a></Link>
                   </div>
                 </div>
               </div>
@@ -559,7 +559,7 @@ const DynamicsNavToBusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    With <Link href="/dynamics-nav-to-business-central-new/"><a>Business Central Upgrade</a></Link>, you can access the system remotely from anywhere with an internet connection. This feature is increasingly important in today's flexible work environments. Additionally, if you are considering expansion, then Dynamics Business Central Upgrade is a must for your organization. This can easily adjust to your changing business needs in different locations of the world. 
+                    With Business Central Upgrade, you can access the system remotely from anywhere with an internet connection. This feature is increasingly important in today's flexible work environments. Additionally, if you are considering expansion, then Dynamics Business Central Upgrade is a must for your organization. This can easily adjust to your changing business needs in different locations of the world. 
                       <br />
                       <br />
                       For companies that rely on Microsoft NAV, the move to D365 Business Central can represent a substantial upgrade in technology that can facilitate <b>Big Wins</b>.  
@@ -639,7 +639,7 @@ const DynamicsNavToBusinessCentral = () => {
 
                 </div>
                 <h3>Standard Business Central</h3>
-                <p>This route is for the organization that wants Microsoft Dynamics 365 Business Central with its standard features for a specific business process. With its functionality, one can start fresh and not carry over any existing modifications from previous <Link href="/products/microsoft-dynamics-erp/"><a>ERP systems</a></Link>. This is apt for companies looking for an easy-to-navigate transition without any extensive modifications.</p>
+                <p>This route is for the organization that wants Microsoft Dynamics 365 Business Central with its standard features for a specific business process. With its functionality, one can start fresh and not carry over any existing modifications from previous <Link href="/products/microsoft-dynamics-erp/"><a target='_blank'>ERP systems</a></Link>. This is apt for companies looking for an easy-to-navigate transition without any extensive modifications.</p>
                 {/* <Link href="/">
                   <a className="read-more">
                     <span>Know More</span>
@@ -659,7 +659,7 @@ const DynamicsNavToBusinessCentral = () => {
 
                 </div>
                 <h3>BC with existing Customization</h3>
-                <p>With this, businesses can carry over existing customizations and modifications from their previous ERP solution. Generally referred to as the &quot;Start from Modified&quot; approach, it allows businesses to retain their customizations whilst benefiting from the progressive <Link href="/dynamics-nav-to-business-central-new/"><a>features of Business Central</a></Link>.</p>
+                <p>With this, businesses can carry over existing customizations and modifications from their previous ERP solution. Generally referred to as the &quot;Start from Modified&quot; approach, it allows businesses to retain their customizations whilst benefiting from the progressive <Link href="/dynamics-365-business-central-features/"><a target='_blank'>features of Business Central</a></Link>.</p>
                 {/* <Link href="/">
                   <a className="read-more">
                     <span>Know More</span>
@@ -701,7 +701,7 @@ const DynamicsNavToBusinessCentral = () => {
                   <h3>Do you have any special business central training plan?</h3>
                 </div>
                 <div className='list-left-cont'>
-                  <p>Dynamics Square believes in personal training sessions. Our seasoned professionals are always ready to provide on-site <Link href="/our-services/dynamics-365-training/"><a>training</a></Link> for trainers and employees. Additionally, Dynamics Square has prepared free online modules, recorded sessions, and more.</p>
+                  <p>Dynamics Square believes in personal training sessions. Our seasoned professionals are always ready to provide on-site <Link href="/our-services/dynamics-365-training/"><a target='_blank'>training</a></Link> for trainers and employees. Additionally, Dynamics Square has prepared free online modules, recorded sessions, and more.</p>
                 </div>
               </div>
               <div className='industri-sec'>
@@ -745,7 +745,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info commen-rit-info-nav">
                 <h2>Methods of Upgrade from NAV to Dynamics 365 Business Central</h2>
-                <p>There are two routes for <Link href="/blog/migrate-nav-to-business-central/"><a>migrating from NAV to Dynamics Business Central</a></Link>. The first is the Upgrade Process, and the second is called Re-implementation. The Upgrade Process is quicker and can automatically transfer historical data to Dynamics Business Central. However, with Re-implementation, you have to start anew as it involves setting up new data structures and does not automatically transfer historical data.</p>
+                <p>There are two routes for <Link href="/blog/migrate-nav-to-business-central/"><a target='_blank'>migrating from NAV to Dynamics Business Central</a></Link>. The first is the Upgrade Process, and the second is called Re-implementation. The Upgrade Process is quicker and can automatically transfer historical data to Dynamics Business Central. However, with Re-implementation, you have to start anew as it involves setting up new data structures and does not automatically transfer historical data.</p>
 
               </div>
             </div>
@@ -918,7 +918,7 @@ const DynamicsNavToBusinessCentral = () => {
               <div className="team-memb">
                 <div className="tem-mem-pic tem-mem-pic-size">
                   <Link href="https://www.linkedin.com/in/manish-g-74854a44">
-                    <a><img src="/img/02.png" alt="manish-goyal" /></a>
+                    <a target='_blank'><img src="/img/02.png" alt="manish-goyal" /></a>
 
                   </Link>
                 </div>
@@ -929,7 +929,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
                 <div className="social">
                   <Link href="https://www.linkedin.com/in/darshan-mungekar-pmp-six-sigma-51511011/">
-                    <a><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
+                    <a target='_blank'><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
                   </Link>
                 </div>
               </div>
@@ -980,7 +980,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
                 <div className="social">
                   <Link href="https://www.linkedin.com/in/niteshsharmads/">
-                    <a><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
+                    <a target='_blank'><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
                   </Link>
                 </div>
               </div>
