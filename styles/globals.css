@@ -10265,8 +10265,29 @@ ul.checkmark li {
   font-size: 22px;
     color: #1d3559;
     margin-bottom: 15px;
+    padding-left: 10px;
 }
 .piller-secr p{margin-bottom: 0;}
+.side-text-new{
+  margin-bottom: 30px;
+}
+.side-text-new>div h4{
+  font-size: 18px;
+    color: var(--color-blue);
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.side-text-new>div{
+  border-left: 4px solid #bb2b36;
+}
+.side-text-new p {
+  padding: 0px 20px;
+}
+.pric-t-p{padding: 50px 0px 20px;}
+.pric-t-p p{
+  text-align:center
+}
 
 @media (min-width:1200px) and (max-width:1400px){
   .piller-secr{
