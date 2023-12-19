@@ -47,17 +47,17 @@ const DropdownComponent = () => {
             <hr />
 
             <select className='form-select' id="select_box" onChange={handleSelectChange} value={selectedOption} disabled={loading}>
-              <option value="a">Select Nav Version</option>
+              <option value="a">Select NAV Version</option>
               <option value="b">Dynamics NAV 4.0 </option>
               <option value="c">Dynamics NAV 5.0 </option>
               <option value="d">Dynamics NAV 2009</option>
-              <option value="e">Dyanmics NAV 2009 R2</option>
-              <option value="f">Dyanmics NAV 2013</option>
-              <option value="g">Dyanmics NAV 2013 R2</option>
-              <option value="h">Dyanmics NAV 2015</option>
-              <option value="i">Dyanmics NAV 2016</option>
-              <option value="j">Dyanmics NAV 2017</option>
-              <option value="k">Dyanmics NAV 2018</option>
+              <option value="e">Dynamics NAV 2009 R2</option>
+              <option value="f">Dynamics NAV 2013</option>
+              <option value="g">Dynamics NAV 2013 R2</option>
+              <option value="h">Dynamics NAV 2015</option>
+              <option value="i">Dynamics NAV 2016</option>
+              <option value="j">Dynamics NAV 2017</option>
+              <option value="k">Dynamics NAV 2018</option>
             </select>
           </div>
           {loading && <div className='center-loading'>Loading...</div>}
@@ -105,7 +105,7 @@ const DropdownComponent = () => {
                 </div>
                 <div id="e" className={selectedOption === 'e' ? '' : 'hide'}>
                   <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2009 R2</h3>
+                    <h3><span className='hh'>Product Name :</span>Dynamics NAV 2009 R2</h3>
                     <div className='star-date stds'>Start Date : <span>03/15/2011 </span></div>
                     <div className='end-date stds'>Mainstream Date : <span>1/13/2015 </span></div>
                     <div className='ext-date stds'>Extended End Date : <span>1/14/2020 </span></div>
@@ -117,7 +117,7 @@ const DropdownComponent = () => {
                 </div>
                 <div id="f" className={selectedOption === 'f' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2013</h3>
+                    <h3><span className='hh'>Product Name :</span>Dynamics NAV 2013</h3>
                     <div className='star-date stds'>Start Date : <span>01/10/2012</span></div>
                     <div className='end-date stds'>Mainstream Date : <span>1/9/2018 </span></div>
                     <div className='ext-date stds'>Extended End Date : <span>1/10/2023 </span></div>
@@ -129,7 +129,7 @@ const DropdownComponent = () => {
                 </div>
                 <div id="g" className={selectedOption === 'g' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2013 R2</h3>
+                    <h3><span className='hh'>Product Name :</span>Dynamics NAV 2013 R2</h3>
                     <div className='star-date stds'>Start Date : <span>31/10/2013 </span></div>
                     <div className='end-date stds'>Mainstream Date : <span>1/9/2018 </span></div>
                     <div className='ext-date stds'>Extended End Date : <span>1/10/2023 </span></div>
@@ -141,7 +141,7 @@ const DropdownComponent = () => {
                 </div>
                 <div id="h" className={selectedOption === 'h' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2015</h3>
+                    <h3><span className='hh'>Product Name :</span>Dynamics NAV 2015</h3>
                     <div className='star-date stds'>Start Date : <span>17/12/2014 </span></div>
                     <div className='end-date stds'>Mainstream Date : <span>14/01/2020 </span></div>
                     <div className='ext-date stds'>Extended End Date : <span>14/01/2025 </span></div>
@@ -153,7 +153,7 @@ const DropdownComponent = () => {
                 </div>
                 <div id="i" className={selectedOption === 'i' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2016</h3>
+                    <h3><span className='hh'>Product Name :</span>Dynamics NAV 2016</h3>
                     <div className='star-date stds'>Start Date : <span>03/01/2016 </span></div>
                     <div className='end-date stds'>Mainstream Date : <span>13/04/2021 </span></div>
                     <div className='ext-date stds'>Extended End Date : <span>14/04/2026 </span></div>
@@ -165,7 +165,7 @@ const DropdownComponent = () => {
                 </div>
                 <div id="j" className={selectedOption === 'j' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2017</h3>
+                    <h3><span className='hh'>Product Name :</span>Dynamics NAV 2017</h3>
                     <div className='star-date stds'>Start Date : <span>27/10/2016</span></div>
                     <div className='end-date stds'>Mainstream Date : <span>11/01/2022</span></div>
                     <div className='ext-date stds'>Extended End Date : <span>11/01/2027</span></div>
@@ -177,7 +177,7 @@ const DropdownComponent = () => {
                 </div>
                 <div id="k" className={selectedOption === 'k' ? '' : 'hide'}>
                 <div className='prod'>
-                    <h3><span className='hh'>Product Name :</span>Dyanmics NAV 2018</h3>
+                    <h3><span className='hh'>Product Name :</span>Dynamics NAV 2018</h3>
                     <div className='star-date stds'>Start Date : <span>01/12/2017</span></div>
                     <div className='end-date stds'>Mainstream Date : <span>10/12/2023</span></div>
                     <div className='ext-date stds'>Extended End Date : <span>11/01/2028</span></div>

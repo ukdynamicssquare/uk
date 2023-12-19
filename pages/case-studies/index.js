@@ -275,6 +275,114 @@ const CategoryList = () => {
                         </div>
                       </div>
                     </div>
+                    {/* <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>UK’s leading manufacturer of orthopedic implants has gained 80% more visibility with a Business Central implementation.  </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/upgrading-to-dynamics-365-business-central/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>A leading college in London has improved the department collaboration by 80% with the Business Central upgrade. </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/upgrade-from-nav09-to-business-central/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>An established importer of citrus fruits has achieved enhanced operational efficiency by 80% with the Business Central implementation.  </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/quickbooks-to-business-central-migration/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>A leading supplier of carrier-grade antenna has enabled faster order processing and customer service by 60% with Business Central implementation.  </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/odoo-erp-to-business-central-migration/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>A leading supplier of fertilizer and agrochemicals has increased customer satisfaction by 70% with Business Central upgrade. </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/dynamics-nav09-to-business-central-upgrade/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>A leading car restoration and customization company has enhanced their ROI by 30% with Business Central implementation. </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/access-dimension-erp-to-business-central-migration/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div> */}
                   </div>
                 </div>
                 <div
