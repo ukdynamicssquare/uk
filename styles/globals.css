@@ -478,6 +478,22 @@ section {
   left: calc(100% - 30px);
   visibility: hidden;
 }
+
+.navbar .dropdown-smal-mega{}
+.navbar .dropdown-smal-mega ul{
+  width: 650px;
+  left: -85px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 15px;
+}
+.list-itmes-maga-menu-small{}
+.navbar .dropdown-smal-mega ul li{
+  flex: 50%;
+  max-width: 50%;
+  margin-bottom: 10px;
+}
+
 .navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;

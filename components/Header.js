@@ -1025,7 +1025,168 @@ class Header extends Component {
                     </li>
                   </ul>
                 </li> */}
-                  <li className="dropdown">
+                  <li className="dropdown dropdown-smal-mega">
+                    <a href="/industries/">
+                      <span>Industries</span>{" "}
+                      <i className="bi bi-chevron-down"></i>
+                    </a>
+                    <ul>
+                      <li>
+                        <div className="list-itmes-maga-menu list-itmes-maga-menu-small">
+                          <a href="/industries/startups/">
+                            <div className="pic">
+                              <img
+                                src="/img/menu-icons/Startup.png"
+                                alt="Startup"
+                                width="48" height="48"
+                              />
+                            </div>
+                            <div className="content">
+                              <span>Startups</span>
+                              <p>Support your startup ideation and maximise your growth</p>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="list-itmes-maga-menu list-itmes-maga-menu-small">
+                          <a href="/industries/microsoft-cloud-for-nonprofit/">
+                            <div className="pic">
+                              <img
+                                src="/img/menu-icons/Not-FOr-Profit.png"
+                                alt="Not FOr Profit"
+                                width="48" height="48"
+                              />
+                            </div>
+                            <div className="content">
+                              <span>Not for Profit (Microsoft Cloud)</span>
+                              <p>Carry out mission-critical Challenges with perfect tools</p>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="list-itmes-maga-menu list-itmes-maga-menu-small">
+                          <a href="/industries/dynamics-365-for-education/">
+                            <div className="pic">
+                              <img
+                                src="/img/menu-icons/education.png"
+                                alt="education"
+                                width="48" height="48"
+                              />
+                            </div>
+                            <div className="content">
+                              <span>D365 for Education</span>
+                              <p>Effectively manage students and staff for overall growth</p>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="list-itmes-maga-menu list-itmes-maga-menu-small">
+                          <a href="/industries/ecommerce/">
+                            <div className="pic">
+                              <img
+                                src="/img/menu-icons/E-commerce.png"
+                                alt="E-commerce"
+                                width="48" height="48"
+                              />
+                            </div>
+                            <div className="content">
+                              <span>Ecommerce</span>
+                              <p>Optimise E-commerce processes with real-time stocks</p>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="list-itmes-maga-menu list-itmes-maga-menu-small">
+                          <a href="/industries/microsoft-cloud-for-manufacturing/">
+                            <div className="pic">
+                              <img
+                                src="/img/menu-icons/MAnufacturing.png"
+                                alt="MAnufacturing"
+                                width="48" height="48"
+                              />
+                            </div>
+                            <div className="content">
+                              <span>Manufacturing (Microsoft Cloud)</span>
+                              <p>Connect your people and operations to drive profitability</p>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="list-itmes-maga-menu list-itmes-maga-menu-small">
+                          <a href="/industries/professional-services/">
+                            <div className="pic">
+                              <img
+                                src="/img/menu-icons/Professional-ervice.png"
+                                alt="Professional-ervice"
+                                width="48" height="48"
+                              />
+                            </div>
+                            <div className="content">
+                              <span>Professional Services</span>
+                              <p>Streamline administration processes leveraging automation</p>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="list-itmes-maga-menu list-itmes-maga-menu-small">
+                          <a href="/industries/food-and-beverages/">
+                            <div className="pic">
+                              <img
+                                src="/img/menu-icons/Food.png"
+                                alt="Food"
+                                width="48" height="48"
+                              />
+                            </div>
+                            <div className="content">
+                              <span>Food & Beverages</span>
+                              <p>Manage supply and inventory processes with real-time data</p>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="list-itmes-maga-menu list-itmes-maga-menu-small">
+                          <a href="/industries/dynamics-365-for-healthcare/">
+                            <div className="pic">
+                              <img
+                                src="/img/menu-icons/healthcare.png"
+                                alt="healthcare"
+                                width="48" height="48"
+                              />
+                            </div>
+                            <div className="content">
+                              <span>Dynamics 365 for Healthcare</span>
+                              <p>Track clinical operations while enhancing patient experience</p>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="list-itmes-maga-menu list-itmes-maga-menu-small">
+                          <a href="/industries/dynamics-365-automotive-accelerator/">
+                            <div className="pic">
+                              <img
+                                src="/img/menu-icons/automaotive.png"
+                                alt="automaotive"
+                                width="48" height="48"
+                              />
+                            </div>
+                            <div className="content">
+                              <span>Automotive Accelerator</span>
+                              <p>Maintain, manage, and streamline an automotive business</p>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  {/* <li className="dropdown">
                     <a href="/industries/">
                       <span>Industries</span>{" "}
                       <i className="bi bi-chevron-down"></i>
@@ -1071,7 +1232,7 @@ class Header extends Component {
                         </a>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="dropdown">
                     <a href="/our-services/">
                       <span>Our Services</span>
@@ -1605,7 +1766,7 @@ class Header extends Component {
                                     Dynamics 365 Training
                                   </a>
                                 </li>
-                                <li> 
+                                <li>
                                   <a href="/our-services/dynamics-365-consultant/">
                                     Dynamics 365 Consultants
                                   </a>
