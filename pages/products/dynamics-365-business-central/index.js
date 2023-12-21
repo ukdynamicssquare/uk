@@ -354,6 +354,25 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     />
                   </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card card-ds-slide">
+                    <div className="card-body">
+                      <h3 className="card-title">
+                      Drive Automation with Generative AI and Copilot 
+                      </h3>
+                      <p className="card-text">
+                      Leverage the power of AI and Copilot to automate core business processes while simplifying the entire workflow. You can chat with Copilot to get recommendations, understand processes, and find answers. Also, you can access it to get marketing text suggestions, perform bank account reconciliation, and resolve queries with no effort. 
+                      </p>
+                    </div>
+                    <Image
+                      src="/img/copilot-in-BC.png"
+                      className="card-img-bottom"
+                      alt="..."
+                      width={826}
+                      height={332}
+                    />
+                  </div>
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
