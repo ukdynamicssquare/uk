@@ -275,10 +275,10 @@ const CategoryList = () => {
                         </div>
                       </div>
                     </div>
-                    {/* <div className="col-lg-6">
+                    <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                          <img src="/img/Leda-Ortho.jpg" alt="Leda-Ortho" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>UK’s leading manufacturer of orthopedic implants has gained 80% more visibility with a Business Central implementation.  </p>
@@ -296,7 +296,7 @@ const CategoryList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                          <img src="/img/BSix.jpg" alt="BSix" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>A leading college in London has improved the department collaboration by 80% with the Business Central upgrade. </p>
@@ -314,7 +314,7 @@ const CategoryList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                          <img src="/img/Greenstar.jpg" alt="Greenstar" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>An established importer of citrus fruits has achieved enhanced operational efficiency by 80% with the Business Central implementation.  </p>
@@ -332,7 +332,7 @@ const CategoryList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                          <img src="/img/GTT-Wireless.jpg" alt="GTT-Wireless" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>A leading supplier of carrier-grade antenna has enabled faster order processing and customer service by 60% with Business Central implementation.  </p>
@@ -350,7 +350,7 @@ const CategoryList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                          <img src="/img/Meirion-Davies.jpg" alt="Meirion-Davies" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>A leading supplier of fertilizer and agrochemicals has increased customer satisfaction by 70% with Business Central upgrade. </p>
@@ -368,7 +368,7 @@ const CategoryList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/case-studies-7.jpg" alt="tea" />
+                          <img src="/img/Omicron-Engineering.jpg" alt="Omicron-Engineering" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>A leading car restoration and customization company has enhanced their ROI by 30% with Business Central implementation. </p>
@@ -382,7 +382,84 @@ const CategoryList = () => {
                           </a>
                         </div>
                       </div>
-                    </div> */}
+                    </div>
+
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/Comxo.jpg" alt="Comxo" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>A business leader in transformational switchboards has increased the data accuracy rate by 8% with our Power BI Support services.  </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/power-bi-support-solutions/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/ALMI-Group.jpg" alt="ALMI-Group" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>A leading builder’s merchant support company has achieved an business transparency by 60% with Business Central implementation. </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/sage-erp-to-business-central/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/Dalebrook-Supplies.jpg" alt="Dalebrook-Supplies" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>A UK’s leading melamine food display manufacturing and supply company has achieved enhanced productivity by 50% with Business Central cloud re-implementation. </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/migrate-on-premises-to-business-central-cloud/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/WH-Scout.jpg" alt="WH-Scout" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>A leading business in the design and manufacturing of lifting and handling solution has achieved 40% more transparency in sales and stock with Power BI implementation. </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/microsoft-power-bi-implementation/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
                 <div
@@ -455,6 +532,24 @@ const CategoryList = () => {
                         <div className="btn-003">
                           <a
                             href="/case-studies/nav13R2-to-business-central/ "
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/Leda-Ortho.jpg" alt="Leda-Ortho" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>UK’s leading manufacturer of orthopedic implants has gained 80% more visibility with a Business Central implementation.  </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/upgrading-to-dynamics-365-business-central/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
