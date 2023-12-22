@@ -766,8 +766,8 @@ const CloudvsOnpremise = () => {
                   each approach
                 </h3>
                 <Image
-                  src="/img/clod-vs-premies.png"
-                  alt="clod-vs-premies"
+                  src="/img/cloud-vs-on-premises.png"
+                  alt="cloud vs on-premises"
                   width={725} height={2048}
                 />
               </div>
