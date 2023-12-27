@@ -10,7 +10,7 @@ const DynamicsNavSupportEndingSoon = () => {
         <title>Dynamics NAV Support Ending Soon | Dynamics Square</title>
         <meta
           name="description"
-          content="AI &amp; Machine Learning Capabilities"
+          content="AI &amp; Machine Learning Capabilities "
         />
         <link
           rel="canonical"
